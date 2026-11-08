@@ -1,0 +1,9 @@
+.next
+node_modules
+dist
+build
+public
+package-lock.json
+yarn.lock
+.env*
+tsconfig.tsbuildinfo

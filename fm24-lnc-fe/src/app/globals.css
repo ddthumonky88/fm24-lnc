@@ -1,0 +1,501 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --foreground-rgb: 51, 51, 51;
+  --background-start-rgb: 243, 244, 246;
+  --background-end-rgb: 243, 244, 246;
+  --mobile-frame-width: 430px;
+}
+
+html,
+body {
+  height: 100%;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+  font-family:
+    var(--font-inter, 'Inter'),
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #f3f4f6;
+  font-family:
+    var(--font-inter, 'Inter'),
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+}
+
+/* ===== DESKTOP: Mobile-frame layout ===== */
+body.desktop-bg {
+  background: #ffffff;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+/* Ant Design App wrapper */
+.ant-app {
+  height: 100% !important;
+  height: 100dvh !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Responsive full width container */
+.mobile-frame-wrapper {
+  display: flex;
+  height: 100vh;
+  height: 100dvh;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.mobile-frame {
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: none;
+}
+
+/* Ensure AppLayout fills the mobile frame fully */
+.mobile-frame > * {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Custom smooth scrollbar for mobile frame */
+.mobile-frame-scroll {
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.mobile-frame-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.mobile-frame-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mobile-frame-scroll::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.mobile-frame-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+
+.mobile-frame main {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+/* Ant Design portals/drawers/tooltips outside frame */
+.ant-drawer-root {
+  position: fixed !important;
+  z-index: 1000 !important;
+}
+/* ====================================== */
+
+/* Ensure Ant Design portals, drawers, modals, dropdowns, popovers synchronize with page font */
+.ant-drawer,
+.ant-drawer-content,
+.ant-drawer-wrapper-body,
+.ant-drawer-body,
+.ant-drawer-header,
+.ant-drawer-title,
+.ant-modal,
+.ant-modal-content,
+.ant-modal-body,
+.ant-modal-header,
+.ant-popover,
+.ant-dropdown,
+.ant-select-dropdown,
+.ant-message,
+.ant-notification,
+.ant-tooltip,
+.sub-competitions-drawer {
+  font-family:
+    var(--font-inter, 'Inter'),
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif !important;
+}
+
+/* Preserve monospace for ID tags and code */
+.font-mono,
+[class*='font-mono'] {
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace !important;
+}
+
+/* Club family selector: parent team > selected affiliate */
+.family-team-select.ant-select-single {
+  height: 46px;
+}
+
+.family-team-select.ant-select-single .ant-select-selector {
+  padding-inline: 14px !important;
+  border-radius: 9px !important;
+  border-color: #cbd5e1 !important;
+  background: #f8fafc !important;
+  box-shadow: none !important;
+}
+
+.family-team-select.ant-select-focused .ant-select-selector,
+.family-team-select:hover .ant-select-selector {
+  border-color: #3b82f6 !important;
+}
+
+.family-team-select-dropdown .ant-select-item {
+  min-height: 44px;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+
+.family-team-select-dropdown .ant-select-item-option-selected {
+  background: #eff6ff !important;
+  color: #1d4ed8;
+}
+
+/* Home hub responds to the card width (including the mobile preview frame). */
+.home-hub {
+  container-type: inline-size;
+}
+
+.home-tab-short {
+  display: none;
+}
+
+@container (max-width: 560px) {
+  .home-hub-tabs .ant-tabs-nav {
+    margin-bottom: 0px;
+  }
+
+  .home-hub-tabs .ant-tabs-nav-list {
+    width: 100%;
+  }
+
+  .home-hub-tabs .ant-tabs-tab {
+    flex: 1 1 0;
+    justify-content: center;
+    margin: 0 !important;
+    padding-inline: 4px;
+  }
+
+  .home-hub-tabs .ant-tabs-tab-btn {
+    max-width: 100%;
+  }
+
+  .home-tab-label {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .home-tab-full {
+    display: none;
+  }
+
+  .home-tab-short {
+    display: inline;
+  }
+}
+
+/* ==================== MODAL STYLES (ALWAYS MOBILE FORM INSIDE FRAME) ==================== */
+/* Constrain Ant Design modals inside mobile frame when rendered there */
+#mobile-frame-root .ant-modal-root,
+.mobile-frame .ant-modal-root {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1000 !important;
+  overflow: hidden !important;
+}
+
+#mobile-frame-root .ant-modal-mask,
+.mobile-frame .ant-modal-mask {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1000 !important;
+  background-color: rgba(0, 0, 0, 0.55) !important;
+}
+
+#mobile-frame-root .ant-modal-wrap,
+.mobile-frame .ant-modal-wrap {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px !important;
+  overflow: hidden !important;
+}
+
+/* Modal dialog container - always mobile width (max 406px) */
+.ant-modal-wrap {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px !important;
+}
+
+.ant-modal,
+.ant-modal-centered .ant-modal,
+.record-detail-modal.ant-modal,
+.sub-competitions-modal.ant-modal {
+  width: min(calc(100vw - 16px), 406px) !important;
+  max-width: min(calc(100vw - 16px), 406px) !important;
+  margin: auto !important;
+  padding: 0 !important;
+  top: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  position: relative !important;
+}
+
+.ant-modal .ant-modal-content,
+.record-detail-modal .ant-modal-content,
+.sub-competitions-modal .ant-modal-content {
+  border-radius: 16px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: 88vh !important;
+  padding: 16px 14px 14px 14px !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+.ant-modal .ant-modal-header {
+  margin-bottom: 8px !important;
+  padding-bottom: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+.ant-modal .ant-modal-body {
+  overflow: hidden !important;
+  flex: 1 1 auto !important;
+  padding: 0 !important;
+}
+
+.ant-modal .ant-modal-footer {
+  margin-top: 8px !important;
+  padding-top: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+/* Custom thanh scroll thanh mảnh: linh hoạt khi có scroll và không có scroll */
+.modal-scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+  transition: padding 0.15s ease;
+}
+
+.modal-scroll-container.no-scroll {
+  overflow-y: hidden !important;
+  scrollbar-gutter: auto !important;
+}
+
+.modal-scroll-container.has-scroll {
+  overflow-y: auto !important;
+  scrollbar-gutter: auto !important;
+}
+
+.modal-scroll-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 4px 0;
+}
+
+.modal-scroll-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.modal-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Tắt tooltip trên thiết bị cảm ứng / touch mobile để tránh lỗi treo tooltip */
+@media (hover: none) and (pointer: coarse) {
+  .ant-tooltip {
+    display: none !important;
+    pointer-events: none !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Ẩn tooltip khi có modal đang mở */
+body:has(.ant-modal-root .ant-modal-wrap:not([style*='display: none'])) .ant-tooltip {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Ant Design Tabs Wrapping: Cho phép các tab tự động xuống dòng (flex-wrap) khi tràn */
+.tabs-wrap .ant-tabs-nav {
+  margin-bottom: 12px !important;
+  width: 100% !important;
+}
+
+.tabs-wrap .ant-tabs-nav-wrap {
+  flex-wrap: wrap !important;
+  overflow: visible !important;
+  width: 100% !important;
+}
+
+.tabs-wrap .ant-tabs-nav-wrap::before,
+.tabs-wrap .ant-tabs-nav-wrap::after {
+  display: none !important;
+}
+
+.tabs-wrap .ant-tabs-nav-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  transform: none !important;
+  width: 100% !important;
+  gap: 6px 8px !important;
+}
+
+.tabs-wrap .ant-tabs-nav-operations {
+  display: none !important;
+}
+
+.tabs-wrap .ant-tabs-tab {
+  margin: 0 !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease-in-out !important;
+  border: 1px solid #e2e8f0 !important;
+  background-color: #ffffff !important;
+  border-bottom: 2px solid #cbd5e1 !important;
+}
+
+.tabs-wrap .ant-tabs-tab:hover {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+}
+
+.tabs-wrap .ant-tabs-tab-active {
+  background-color: #eff6ff !important;
+  border-color: #93c5fd !important;
+  border-bottom: 2px solid #2563eb !important;
+  box-shadow: 0 1px 2px 0 rgba(37, 99, 235, 0.08) !important;
+}
+
+.tabs-wrap .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #1d4ed8 !important;
+}
+
+.tabs-wrap .ant-tabs-ink-bar {
+  display: none !important;
+}
+
+/* ===== UNIT DIRECTORY TREE (Cây đơn vị - Màu chuẩn Ant Design Base Tree) ===== */
+.unit-tree-directory {
+  width: 100% !important;
+  background: transparent !important;
+}
+
+.unit-tree-directory .ant-tree-list-holder-inner {
+  width: 100% !important;
+}
+
+.unit-tree-directory .ant-tree-treenode {
+  width: 100% !important;
+  white-space: normal !important;
+  height: auto !important;
+  min-height: 24px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  padding: 1px 0 !important;
+}
+
+.unit-tree-directory .ant-tree-switcher {
+  background: transparent !important;
+  width: 24px !important;
+  min-width: 24px !important;
+  height: 24px !important;
+  line-height: 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.unit-tree-directory .ant-tree-switcher:hover {
+  background: transparent !important;
+}
+
+.unit-tree-directory .ant-tree-node-content-wrapper {
+  display: flex !important;
+  align-items: flex-start !important;
+  flex: 1 1 0% !important;
+  min-width: 0 !important;
+  min-height: 24px !important;
+  height: auto !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  padding: 3px 4px !important;
+  margin: 0 !important;
+}
+
+.unit-tree-directory .ant-tree-title {
+  flex: 1 1 0% !important;
+  min-width: 0 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  width: 100% !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+

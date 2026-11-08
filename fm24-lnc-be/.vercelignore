@@ -1,0 +1,6 @@
+.vercel
+.vercel-*
+.env*
+target
+*.log
+
