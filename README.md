@@ -1,6 +1,6 @@
 # FM24 LNC Manager (`fm24-lnc`)
 
-Dự án quản lý và chỉnh sửa dữ liệu file `.LNC` (Language/Name Change) cho Football Manager 2024.
+Dự án quản lý và chỉnh sửa dữ liệu file `.LNC` (Language/Name Change) cho Football Manager 2024 (by Thudd).
 
 Source code được tổ chức thành 2 nhánh / phân hệ độc lập:
 
