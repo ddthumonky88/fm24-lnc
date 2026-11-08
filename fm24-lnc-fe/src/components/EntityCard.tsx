@@ -183,6 +183,19 @@ export default function EntityCard({
     entityTypeStr === 'international_competition' ||
     type === EntityType.COMPETITION;
 
+  const competitionTypeBadge = (() => {
+    if (!isComp || !data.type) return null;
+    const competitionType = String(data.type).trim();
+    const league = competitionType.match(/^Domestic League(?:\s*\(([^)]+)\))?/i);
+    if (league) return league[1] ? `L-${league[1].trim()}` : 'L';
+    if (/^Domestic Cup$/i.test(competitionType)) return 'CUP';
+    const youth = competitionType.match(/^Youth Competitions?(?:\s*\(([^)]+)\))?/i);
+    if (youth) return youth[1] ? `Y-${youth[1].trim()}` : 'Y';
+    if (/^Other Competitions?$/i.test(competitionType)) return 'OTH';
+    if (/^Extinct/i.test(competitionType)) return 'EXT';
+    return null;
+  })();
+
   const isSmall =
     cardSize !== undefined
       ? cardSize === 'small'
@@ -695,6 +708,21 @@ export default function EntityCard({
                     )}
                   </div>
                 )}
+                {competitionTypeBadge && (
+                  <Tooltip title={String(data.type)}>
+                    <Tag
+                      onClick={(event) => event.stopPropagation()}
+                      style={{
+                        border: '1px solid #a78bfa',
+                        color: '#6d28d9',
+                        backgroundColor: 'rgba(245, 243, 255, 0.9)',
+                      }}
+                      className="m-0 font-mono font-bold text-xs inline-flex items-center shrink-0 py-0.5 px-2 leading-tight shadow-2xs select-none"
+                    >
+                      {competitionTypeBadge}
+                    </Tag>
+                  </Tooltip>
+                )}
             </div>
             <div className="flex items-center ml-auto shrink-0">
               <Dropdown
@@ -1095,6 +1123,27 @@ export default function EntityCard({
             </div>
           );
         })()}
+
+        {isComp && Number(data.childrenCount || data.children_count || 0) > 0 && onViewChildren && (
+          <div className="mt-2 flex justify-end border-t border-blue-200/60 pt-2">
+            <Tooltip title="Sub-competitions">
+              <button
+                type="button"
+                aria-label={`View ${Number(data.childrenCount || data.children_count)} sub-competitions`}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onViewChildren(data);
+                }}
+                className="inline-flex cursor-pointer items-center gap-1.5 rounded-md border border-amber-300 bg-amber-50 px-2 py-1 text-amber-700 transition-colors hover:border-amber-500 hover:bg-amber-100"
+              >
+                <BranchesOutlined className="text-[12px]" />
+                <span className="rounded-full border border-amber-300 bg-white px-1.5 py-0.5 font-mono text-[10px] font-bold leading-none">
+                  {Number(data.childrenCount || data.children_count)}
+                </span>
+              </button>
+            </Tooltip>
+          </div>
+        )}
 
       </div>
 

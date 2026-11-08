@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Input, Modal, Button, App } from 'antd';
 import { SearchOutlined, ReloadOutlined } from '@ant-design/icons';
 import CardGrid from '../../components/CardGrid';
+import SubCompetitionsModal from '../../components/SubCompetitionsModal';
 import { CompIcon } from '../../components/EntityIcons';
 import ListPageFilterBar from '../../components/ListPageFilterBar';
 import UnitTree from '../../components/UnitTree';
@@ -52,6 +53,7 @@ function ListCompsContent() {
   const [page, setPage] = useState<number>(1);
   const [pageSize, setPageSize, pageSizeReady] = useResponsivePageSize(setPage);
   const [total, setTotal] = useState<number>(0);
+  const [subCompParent, setSubCompParent] = useState<CompetitionItem | null>(null);
 
   const listContainerRef = useRef<HTMLDivElement>(null);
 
@@ -190,7 +192,7 @@ function ListCompsContent() {
       setTempConfed('all');
       setTempNation('all');
     } else if (lk === 'confed_world' || lk === 'world') {
-      setTempScope('international');
+      setTempScope('all');
       setTempConfed('WORLD');
       setTempNation('all');
     } else if (lk.startsWith('intl_')) {
@@ -239,7 +241,7 @@ function ListCompsContent() {
       setSelectedConfed('all');
       setSelectedNation('all');
     } else if (lk === 'confed_world' || lk === 'world') {
-      setScope('international');
+      setScope('all');
       setSelectedConfed('WORLD');
       setSelectedNation('all');
     } else if (lk.startsWith('intl_')) {
@@ -360,6 +362,7 @@ function ListCompsContent() {
                 router.push(`/comp/${record.id}`);
               }
             }}
+            onViewChildren={(record) => setSubCompParent(record)}
             serverPagination={{
               current: page,
               pageSize,
@@ -373,6 +376,19 @@ function ListCompsContent() {
           />
         </div>
       </div>
+
+      <SubCompetitionsModal
+        isOpen={!!subCompParent}
+        onClose={() => setSubCompParent(null)}
+        parentComp={subCompParent}
+        onNavigate={(record) => {
+          if (record?.id) {
+            setSubCompParent(null);
+            router.push(`/comp/${record.id}`);
+          }
+        }}
+        onRefreshParent={loadCompetitions}
+      />
 
       {/* 3. Modal bộ lọc Giải đấu */}
       <Modal

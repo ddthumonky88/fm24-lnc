@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/hierarchy")
 public class HierarchyController {
   private static final List<String> CONFEDS=List.of("AFC","CAF","CONCACAF","CONMEBOL","OFC","UEFA");
+  private static final String COMPETITION_ORDER="CASE WHEN type LIKE 'Domestic League%' THEN 1 WHEN type='Domestic Cup' THEN 2 WHEN type LIKE 'Youth Competitions%' THEN 3 WHEN type='Other Competitions' THEN 4 WHEN type LIKE 'Extinct%' THEN 5 ELSE 6 END, CASE WHEN id ~ '^[0-9]+$' THEN id::numeric END, id";
   private final JdbcTemplate jdbc;
   public HierarchyController(JdbcTemplate jdbc){this.jdbc=jdbc;}
 
@@ -105,8 +106,26 @@ public class HierarchyController {
   }
 
   @PostMapping("/nations/search") public Map<String,Object> nations(@RequestParam Map<String,String> q,@RequestBody(required=false) Map<String,Object> f){return page("nations",merge(q,f),"COALESCE(name_sh,name_lg)");}
-  @PostMapping("/int-competitions/search") public Map<String,Object> intComps(@RequestParam Map<String,String> q,@RequestBody(required=false) Map<String,Object> f){return pageSql("competitions",merge(q,f),"nation_id IS NULL AND parent_id IS NULL","COALESCE(name_sh,name_lg)");}
-  @PostMapping("/domestic-competitions/search") public Map<String,Object> domestic(@RequestParam Map<String,String> q,@RequestBody(required=false) Map<String,Object> f){return pageSql("competitions",merge(q,f),"nation_id IS NOT NULL","COALESCE(name_sh,name_lg)");}
+  @PostMapping("/competitions/search")
+  public Map<String,Object> competitions(@RequestParam Map<String,String> q,@RequestBody(required=false) Map<String,Object> f){
+    Map<String,Object> filter=merge(q,f);
+    Object confed=filter.containsKey("confed")?filter.get("confed"):filter.get("confedId");
+    Object nationId=filter.get("nationId");
+    boolean international=nationId!=null&&String.valueOf(nationId).equalsIgnoreCase("INTERNATIONAL");
+    boolean allNations=nationId!=null&&String.valueOf(nationId).equalsIgnoreCase("all");
+
+    filter.remove("confed");
+    if(confed==null||String.valueOf(confed).isBlank()||String.valueOf(confed).equalsIgnoreCase("all")) filter.remove("confedId");
+    else filter.put("confedId",String.valueOf(confed));
+    if(international||allNations) filter.remove("nationId");
+
+    String base=international
+      ? "nation_id IS NULL AND parent_id IS NULL"
+      : nationId!=null
+        ? "nation_id IS NOT NULL AND parent_id IS NULL"
+        : "parent_id IS NULL";
+    return pageSql("competitions",filter,base,COMPETITION_ORDER);
+  }
   @PostMapping("/club/search")
   public Map<String,Object> clubs(@RequestParam Map<String,String> q,@RequestBody(required=false) Map<String,Object> f){
     Map<String,Object> result=page("clubs",merge(q,f),"LENGTH(id), id");
@@ -137,7 +156,7 @@ public class HierarchyController {
   @PostMapping("/regions/search") public Map<String,Object> regionSearch(@RequestBody(required=false) Map<String,Object> f){return page("regions",f,"name");}
   @GetMapping("/nations/{nationId}/regions") public List<Map<String,Object>> nationRegions(@PathVariable String nationId){return jdbc.queryForList("SELECT r.*,COUNT(c.id)::int cities_count FROM regions r LEFT JOIN cities c ON c.region_id=r.id WHERE r.nation_id=? GROUP BY r.id ORDER BY r.name",nationId);}
   @GetMapping("/competitions/{compId}/awards") public List<Map<String,Object>> compAwards(@PathVariable String compId){return jdbc.queryForList("SELECT * FROM awards WHERE comp_id=? ORDER BY COALESCE(name_sh,name_lg)",compId);}
-  @PostMapping("/competitions/{id}/sub-competitions") public Map<String,Object> subComps(@PathVariable String id,@RequestBody(required=false) Map<String,Object> f){Map<String,Object> filter=f==null?new LinkedHashMap<>():new LinkedHashMap<>(f);filter.put("parentId",id);return page("competitions",filter,"COALESCE(name_sh,name_lg)");}
+  @PostMapping("/competitions/{id}/sub-competitions") public Map<String,Object> subComps(@PathVariable String id,@RequestBody(required=false) Map<String,Object> f){Map<String,Object> filter=f==null?new LinkedHashMap<>():new LinkedHashMap<>(f);filter.put("parentId",id);return page("competitions",filter,COMPETITION_ORDER);}
 
   @GetMapping({"/nations/{id}/info","/nations/{id}/hub"}) public Map<String,Object> nationInfo(@PathVariable String id){return info("nations",id);}
   @GetMapping("/clubs/{id}/info")
@@ -234,6 +253,7 @@ public class HierarchyController {
     Integer total=jdbc.queryForObject("SELECT COUNT(*) FROM "+table+" WHERE "+where,Integer.class,args.toArray()); List<Object> queryArgs=new ArrayList<>(args);queryArgs.add(size);queryArgs.add(page*size);
     List<Map<String,Object>> content=jdbc.queryForList("SELECT * FROM "+table+" WHERE "+where+" ORDER BY "+order+" LIMIT ? OFFSET ?",queryArgs.toArray());
     if(table.equals("clubs")) enrichClubAffiliates(content);
+    if(table.equals("competitions")) enrichCompetitionChildren(content);
     int pages=(int)Math.ceil((total==null?0:total)/(double)size);
     return Map.of("content",content,"page",page,"size",size,"totalElements",total==null?0:total,"totalPages",pages,"first",page==0,"last",page+1>=pages,"hasPrevious",page>0,"hasNext",page+1<pages);
   }
@@ -253,6 +273,15 @@ public class HierarchyController {
       affiliate.put("type",club.get("affiliate_club_type"));
       club.put("affiliate",affiliate);
     });
+  }
+  private void enrichCompetitionChildren(List<Map<String,Object>> competitions){
+    List<String> ids=competitions.stream().map(c->c.get("id")).filter(java.util.Objects::nonNull).map(String::valueOf).distinct().toList();
+    if(ids.isEmpty()) return;
+    String marks=String.join(",",ids.stream().map(id->"?").toList());
+    Map<String,Integer> counts=new LinkedHashMap<>();
+    jdbc.queryForList("SELECT parent_id,COUNT(*)::int child_count FROM competitions WHERE parent_id IN ("+marks+") GROUP BY parent_id",ids.toArray())
+        .forEach(row->counts.put(String.valueOf(row.get("parent_id")),((Number)row.get("child_count")).intValue()));
+    competitions.forEach(comp->comp.put("children_count",counts.getOrDefault(String.valueOf(comp.get("id")),0)));
   }
   private Map<String,Object> info(String table,String id){return jdbc.queryForMap("SELECT * FROM "+table+" WHERE id::text=?",id);}
   private String searchExpression(String table){return switch(table){case "nations","competitions","clubs","awards"->"COALESCE(name_sh,name_lg)";case "people"->"CONCAT_WS(' ',first_name,common_name,second_name)";default->"name";};}

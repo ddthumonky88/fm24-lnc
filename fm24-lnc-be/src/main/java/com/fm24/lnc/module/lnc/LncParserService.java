@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class LncParserService {
   private static final Pattern COMMAND = Pattern.compile("^\\\"([^\\\"]+)\\\"\\s+((?:n-)?\\d+)\\s+\\\"([^\\\"]*)\\\"");
+  private static final Pattern PARENT_COMP = Pattern.compile("^\\\"PARENT_COMP_ID\\\"\\s+((?:n-)?\\d+)\\s+((?:n-)?\\d+)");
   private static final Pattern HEADER_CODE = Pattern.compile("\\[([A-Za-z0-9-]+)]");
   private static final Map<String, String> CONFEDS = Map.ofEntries(
       Map.entry("AFRICA", "CAF"), Map.entry("CAF", "CAF"),
@@ -140,6 +141,13 @@ public class LncParserService {
         }
       }
       String clean = stripCommentPrefix(line);
+      Matcher parent = PARENT_COMP.matcher(clean);
+      if (parent.find()) {
+        Map<String,Object> child = row(competitions, parent.group(1));
+        child.putIfAbsent("confed", confed); child.putIfAbsent("nation_code", nationCode); child.putIfAbsent("type", category);
+        child.put("parent_id", parent.group(2));
+        continue;
+      }
       Matcher player = Pattern.compile("^\\\"CHANGE_PLAYER_NAME\\\"\\s+(\\d+)\\s+\\\"([^\\\"]*)\\\"\\s+\\\"([^\\\"]*)\\\"\\s+\\\"([^\\\"]*)\\\"").matcher(clean);
       if (player.find()) {
         Map<String, Object> row = row(people, player.group(1));
@@ -228,8 +236,8 @@ public class LncParserService {
         regions, r -> new Object[]{r.get("name"),r.get("nation_id"),r.get("code")});
   }
   private void upsertCompetitions(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
-    batch("INSERT INTO competitions(id,name_lg,name_sh,name_3l,confed,nation_id,type) VALUES (?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_3l=EXCLUDED.name_3l,confed=EXCLUDED.confed,nation_id=EXCLUDED.nation_id,type=EXCLUDED.type",
-        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Competition "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Competition "+r.get("id"))),r.get("name_3l"),r.get("confed"),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),r.get("type")});
+    batch("INSERT INTO competitions(id,name_lg,name_sh,name_3l,confed,nation_id,type,parent_id) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_3l=EXCLUDED.name_3l,confed=EXCLUDED.confed,nation_id=EXCLUDED.nation_id,type=EXCLUDED.type,parent_id=EXCLUDED.parent_id",
+        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Competition "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Competition "+r.get("id"))),r.get("name_3l"),r.get("confed"),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),r.get("type"),r.get("parent_id")});
   }
   private void upsertAwards(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
     batch("INSERT INTO awards(id,name_lg,name_sh,nation_id) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,nation_id=EXCLUDED.nation_id",

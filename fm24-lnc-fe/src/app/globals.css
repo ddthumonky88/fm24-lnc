@@ -274,7 +274,7 @@ body.desktop-bg {
   overflow: hidden !important;
 }
 
-/* Modal dialog container - always mobile width (max 406px) */
+/* Default modal dialog container uses the compact mobile width. */
 .ant-modal-wrap {
   display: flex !important;
   align-items: center !important;
@@ -327,6 +327,14 @@ body.desktop-bg {
   margin-top: 8px !important;
   padding-top: 8px !important;
   flex-shrink: 0 !important;
+}
+
+/* Sub-competition browser: one card on mobile, two cards on desktop. */
+@media (min-width: 768px) {
+  .sub-competitions-modal.ant-modal {
+    width: min(calc(100vw - 48px), 660px) !important;
+    max-width: min(calc(100vw - 48px), 660px) !important;
+  }
 }
 
 /* Custom thanh scroll thanh mảnh: linh hoạt khi có scroll và không có scroll */

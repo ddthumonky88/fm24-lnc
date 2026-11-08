@@ -790,10 +790,7 @@ export async function fetchAllCompetitions(
     undefined,
     20,
   );
-  if ((filter as any).nationId) {
-    return fetchDomesticCompetitions((filter as any).nationId, filter, refresh);
-  }
-  return fetchIntCompetitions((filter as any).confedId, filter, refresh);
+  return fetchCompetitionsList(filter, refresh);
 }
 
 export async function fetchCompetitionsList(
@@ -806,64 +803,39 @@ export async function fetchCompetitionsList(
     undefined,
     20,
   );
-  const scope = (filter as any).scope || 'all';
-  const confedId = (filter as any).confedId;
-  const nationId = (filter as any).nationId;
+  const payload: any = { ...filter };
+  const scope = payload.scope || 'all';
+  const rawConfed = payload.confed ?? payload.confedId;
+  const confed = rawConfed && String(rawConfed).toLowerCase() !== 'all' ? rawConfed : undefined;
+  const nationId = payload.nationId;
+  delete payload.scope;
+  delete payload.confedId;
 
-  if (scope === 'international') {
-    const res: any = await fetchIntCompetitions(confedId, filter, refresh);
-    const list = Array.isArray(res) ? res : res?.content || [];
-    list.forEach((item: any) => { item.is_international = true; });
-    return res;
+  if (String(confed).toUpperCase() === 'WORLD') {
+    payload.confed = 'WORLD';
+    delete payload.nationId;
+  } else if (scope === 'international') {
+    payload.confed = confed || 'all';
+    payload.nationId = 'INTERNATIONAL';
+  } else if (scope === 'domestic' || nationId) {
+    if (confed) payload.confed = confed;
+    payload.nationId = nationId || 'all';
+  } else if (confed) {
+    payload.confed = confed;
+    delete payload.nationId;
+  } else {
+    delete payload.confed;
+    delete payload.nationId;
   }
 
-  if (scope === 'domestic') {
-    const res: any = await fetchDomesticCompetitions(nationId || 'all', filter, refresh);
-    const list = Array.isArray(res) ? res : res?.content || [];
-    list.forEach((item: any) => { item.is_international = false; });
-    return res;
-  }
-
-  // scope === 'all':
-  if (nationId && nationId !== 'all') {
-    const res: any = await fetchDomesticCompetitions(nationId, filter, refresh);
-    const list = Array.isArray(res) ? res : res?.content || [];
-    list.forEach((item: any) => { item.is_international = false; });
-    return res;
-  }
-
-  // Query both and combine
-  const [intRes, domRes] = await Promise.all([
-    fetchIntCompetitions(confedId, { ...filter, page: 0, size: 100 }, refresh).catch(() => [] as any),
-    fetchDomesticCompetitions('all', filter, refresh).catch(() => [] as any),
-  ]);
-
-  const intList = (Array.isArray(intRes) ? intRes : (intRes as any)?.content || []).map((c: any) => ({
-    ...c,
-    is_international: true,
-  }));
-  const domList = (Array.isArray(domRes) ? domRes : (domRes as any)?.content || []).map((c: any) => ({
-    ...c,
-    is_international: false,
-  }));
-
-  const combined = [...intList, ...domList];
-  const total = (intRes?.totalElements ?? intList.length) + (domRes?.totalElements ?? domList.length);
-
-  const page = filter.page || 0;
-  const size = filter.size || 20;
-  const start = page * size;
-  const pageItems = combined.slice(start, start + size);
-
-  const result: any = pageItems;
-  result.content = pageItems;
-  result.totalElements = total;
-  result.totalPages = Math.ceil(total / size);
-  result.page = page;
-  result.size = size;
-  result.first = page === 0;
-  result.last = start + size >= total;
-  return result;
+  const res: any = await cachedPost<PaginatedList<CompetitionItem>>(
+    `${getApiBase()}/hierarchy/competitions/search`,
+    payload,
+    refresh,
+  );
+  const list = Array.isArray(res) ? res : res?.content || [];
+  list.forEach((item: any) => { item.is_international = item.nation_id == null; });
+  return res;
 }
 
 export async function fetchNationsByContinent(
@@ -910,16 +882,11 @@ export async function fetchIntCompetitions(
     undefined,
     20,
   );
-  if (
-    confedId !== undefined &&
-    confedId !== null &&
-    String(confedId).trim() !== '' &&
-    String(confedId).toLowerCase() !== 'all'
-  ) {
-    (filter as any).confedId = String(confedId);
-  }
+  (filter as any).confed = confedId || 'all';
+  (filter as any).nationId = 'INTERNATIONAL';
+  delete (filter as any).confedId;
   return cachedPost<PaginatedList<CompetitionItem>>(
-    `${getApiBase()}/hierarchy/int-competitions/search`,
+    `${getApiBase()}/hierarchy/competitions/search`,
     filter,
     refresh,
   );
@@ -981,16 +948,12 @@ export async function fetchDomesticCompetitions(
     undefined,
     20,
   );
-  if (
-    nationId !== undefined &&
-    nationId !== null &&
-    String(nationId).trim() !== '' &&
-    String(nationId).toLowerCase() !== 'all'
-  ) {
-    (filter as any).nationId = String(nationId);
-  }
+  const confed = (filter as any).confed ?? (filter as any).confedId;
+  if (confed) (filter as any).confed = confed;
+  delete (filter as any).confedId;
+  (filter as any).nationId = nationId || 'all';
   return cachedPost<PaginatedList<CompetitionItem>>(
-    `${getApiBase()}/hierarchy/domestic-competitions/search`,
+    `${getApiBase()}/hierarchy/competitions/search`,
     filter,
     refresh,
   );

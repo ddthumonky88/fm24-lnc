@@ -133,6 +133,16 @@ export default function SubCompetitionsModal({
                     </button>
                   </Tooltip>
                 )}
+                <Tooltip title="Add sub-competition" placement="bottom">
+                  <button
+                    type="button"
+                    aria-label="Add sub-competition"
+                    onClick={() => setIsAddModalOpen(true)}
+                    className="inline-flex h-6 w-6 cursor-pointer items-center justify-center rounded-md border border-amber-300 bg-amber-50 text-amber-700 shadow-2xs transition-colors hover:border-amber-500 hover:bg-amber-100"
+                  >
+                    <PlusOutlined className="text-[11px]" />
+                  </button>
+                </Tooltip>
               </div>
 
               <div className="mt-1 min-w-0">
@@ -168,16 +178,6 @@ export default function SubCompetitionsModal({
         }
       >
         <div className="py-2 max-h-[68vh] overflow-y-auto pr-1">
-          <div className="flex items-center gap-1.5 flex-wrap mb-2">
-            <Button
-              type="primary"
-              size="small"
-              icon={<PlusOutlined />}
-              onClick={() => setIsAddModalOpen(true)}
-              style={{ backgroundColor: '#d97706', borderColor: '#d97706' }}
-              className="text-xs font-medium"
-            ></Button>
-          </div>
           {loading && subComps.length === 0 ? (
             <div className="py-20 text-center flex flex-col items-center gap-3 text-gray-500">
               <Spin size="large" />
@@ -188,7 +188,7 @@ export default function SubCompetitionsModal({
               <Empty description="No sub-competitions found for this parent" />
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pb-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pb-2">
               {subComps.map((child) => (
                 <EntityCard
                   key={child.id}
