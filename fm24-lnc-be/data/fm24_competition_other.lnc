@@ -7056,19 +7056,46 @@
 "COMP_3LETTER_NAME_CHANGE" 	15045003 	"NPL SA"						""
 
 
-# COMP > AFC > [AUS] AUSTRALIA > Domestic League (3)
+# COMP > AFC > [AUS] AUSTRALIA > Domestic League (3+)
 #====================================================================================
+#"COMP_LONG_NAME_CHANGE" 	n-2000340050	"Football Northern Territory"				""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340050	"Football Northern Territory"				""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340051	"Football Tasmania"					""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340051	"Football Tasmania"					""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340052	"Football Victoria"					""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340052	"Football Victoria"					""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340053	"Football NSW"						""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340053	"Football NSW"						""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340054	"Football West"						""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340054	"Football West"						""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340055	"Northern NSW Football"					""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340055	"Northern NSW Football"					""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340056	"Football South Australia"				""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340056	"Football South Australia"				""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340057	"Football Queensland"					""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340057	"Football Queensland"					""
+
+#"COMP_LONG_NAME_CHANGE" 	n-2000340058	"Capital Football"					""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340058	"Capital Football"					""
+
+#"PARENT_COMP_ID"		15020175	 n-2000340052						""
 "COMP_LONG_NAME_CHANGE" 	15020175 	"Victorian Premier League 1" 				""
 "COMP_SHORT_NAME_CHANGE" 	15020175 	"Victorian Premier League 1"	 			""
 "COMP_3LETTER_NAME_CHANGE" 	15020175 	"VPL1"		 					""
 
-
-# COMP > AFC > [AUS] AUSTRALIA > Domestic League (4)
-#====================================================================================
+#"PARENT_COMP_ID"		15045546	 n-2000340053						""
 "COMP_LONG_NAME_CHANGE" 	15045546 	"NSW League Two" 					""
 "COMP_SHORT_NAME_CHANGE" 	15045546 	"NSW League Two"	 				""
 "COMP_3LETTER_NAME_CHANGE" 	15045546 	"NSWL2"		 					""
 
+#"PARENT_COMP_ID"		15090908	 n-2000340052						""
 "COMP_LONG_NAME_CHANGE" 	15090908 	"Victorian Premier League 2" 				""
 "COMP_SHORT_NAME_CHANGE" 	15090908 	"Victorian Premier League 2"	 			""
 "COMP_3LETTER_NAME_CHANGE" 	15090908 	"VPL2"		 					""
@@ -10641,6 +10668,13 @@
 "COMP_SHORT_NAME_CHANGE" 	40 		"Major League Soccer"					""
 "COMP_3LETTER_NAME_CHANGE" 	40 		"MLS"							""
 
+#"PARENT_COMP_ID"		73		 40							""
+"COMP_COLOUR_CHANGE" 		73 		 0 193 161 95 21 21 22					""
+"COMP_LONG_NAME_CHANGE" 	73 		"MLS Cup"						""
+"COMP_SHORT_NAME_CHANGE" 	73		"MLS Cup"						""
+"COMP_3LETTER_NAME_CHANGE"	73		"MLSC"							""
+
+#"PARENT_COMP_ID"		145437		 40							""
 "COMP_COLOUR_CHANGE" 		145437 		 0 21 21 22 255 255 255 				""
 "COMP_LONG_NAME_CHANGE" 	145437 		"MLS Draft Combine"					""
 "COMP_SHORT_NAME_CHANGE" 	145437 		"MLS Draft Combine"					""
@@ -10650,14 +10684,15 @@
 "COMP_COLOUR_CHANGE" 		215814 		 0 255 255 255 21 21 22 				""
 "COMP_LONG_NAME_CHANGE" 	215814		"MLS Western Conference"				""
 "COMP_SHORT_NAME_CHANGE" 	215814		"MLS Western Conference"				""
-"COMP_3LETTER_NAME_CHANGE"	215814		"MLS WC"						""
+"COMP_3LETTER_NAME_CHANGE"	215814		"MLS WEST"						""
 
 #"PARENT_COMP_ID"		215815		 40							""
 "COMP_COLOUR_CHANGE" 		215815 		 0 255 255 255 21 21 22 				""
 "COMP_LONG_NAME_CHANGE" 	215815		"MLS Eastern Conference"				""
 "COMP_SHORT_NAME_CHANGE" 	215815		"MLS Eastern Conference"				""
-"COMP_3LETTER_NAME_CHANGE"	215815		"MLS EC"						""
+"COMP_3LETTER_NAME_CHANGE"	215815		"MLS EAST"						""
 
+#"PARENT_COMP_ID"		72000887	 40							""
 "COMP_COLOUR_CHANGE" 		72000887 	 0 255 255 255 225 35 26 				""
 "COMP_LONG_NAME_CHANGE" 	72000887 	"MLS Supporters' Shield"				""
 "COMP_SHORT_NAME_CHANGE" 	72000887 	"MLS Supporters' Shield"				""
@@ -10675,13 +10710,19 @@
 "COMP_COLOUR_CHANGE" 		20033731 	 0 241 241 243 178 131 80 				""
 "COMP_LONG_NAME_CHANGE" 	20033731 	"USL Championship Western Conference"			""
 "COMP_SHORT_NAME_CHANGE"	20033731 	"USL Championship Western Conference"			""
-"COMP_3LETTER_NAME_CHANGE"	20033731	"USLC WC"						""
+"COMP_3LETTER_NAME_CHANGE"	20033731	"USLC WEST"						""
 
 #"PARENT_COMP_ID"		20033732	 43							""
 "COMP_COLOUR_CHANGE" 		20033732 	 0 241 241 243 178 131 80 				""
 "COMP_LONG_NAME_CHANGE" 	20033732 	"USL Championship Eastern Conference"			""
 "COMP_SHORT_NAME_CHANGE" 	20033732 	"USL Championship Eastern Conference"			""
-"COMP_3LETTER_NAME_CHANGE"	20033732	"USLC EC"						""
+"COMP_3LETTER_NAME_CHANGE"	20033732	"USLC EAST"						""
+
+#"PARENT_COMP_ID"		20040499 	 43							""
+"COMP_COLOUR_CHANGE" 		20040499 	 0 178 131 80 0 0 0 					""
+"COMP_LONG_NAME_CHANGE" 	20040499 	"USL Championship Playoffs"				""
+"COMP_SHORT_NAME_CHANGE" 	20040499 	"USL Championship Playoffs"				""
+"COMP_3LETTER_NAME_CHANGE"	20040499	"USLC_PO"						""
 
 
 # COMP > CONCACAF > [USA] USA > Domestic League (3)
@@ -10690,6 +10731,12 @@
 "COMP_LONG_NAME_CHANGE" 	20047508 	"USL League One"					""
 "COMP_SHORT_NAME_CHANGE" 	20047508 	"USL League One"					""
 "COMP_3LETTER_NAME_CHANGE"	20047508	"USL1"							""
+
+#"PARENT_COMP_ID"		20047509 	 20047508						""
+"COMP_COLOUR_CHANGE" 		20047509 	 0 255 255 255 1 185 198 				""
+"COMP_LONG_NAME_CHANGE" 	20047509 	"USL League One Playoffs"				""
+"COMP_SHORT_NAME_CHANGE" 	20047509 	"USL League One Playoffs"				""
+"COMP_3LETTER_NAME_CHANGE"	20047509 	"USL1_PO"						""
 
 "COMP_COLOUR_CHANGE" 		2000102644 	 0 255 255 255 32 32 32 				""
 "COMP_LONG_NAME_CHANGE" 	2000102644 	"MLS Next Pro"						""
@@ -10700,13 +10747,19 @@
 "COMP_COLOUR_CHANGE" 		2000152068 	 0 255 255 255 32 32 32 				""
 "COMP_LONG_NAME_CHANGE" 	2000152068 	"MLS Next Pro Eastern Conference"			""
 "COMP_SHORT_NAME_CHANGE" 	2000152068 	"MLS Next Pro Eastern Conference"			""
-"COMP_3LETTER_NAME_CHANGE"	2000152068	"MLSNP EC"						""
+"COMP_3LETTER_NAME_CHANGE"	2000152068	"MNP EAST"						""
 
 #"PARENT_COMP_ID"		2000152069	 2000102644						""
 "COMP_COLOUR_CHANGE" 		2000152069 	 0 255 255 255 32 32 32 				""
 "COMP_LONG_NAME_CHANGE" 	2000152069 	"MLS Next Pro Western Conference"			""
 "COMP_SHORT_NAME_CHANGE" 	2000152069 	"MLS Next Pro Western Conference"			""
-"COMP_3LETTER_NAME_CHANGE"	2000152069	"MLSNP WC"						""
+"COMP_3LETTER_NAME_CHANGE"	2000152069	"MNP WEST"						""
+
+#"PARENT_COMP_ID"		2000238169 	 2000102644						""
+"COMP_COLOUR_CHANGE" 		2000238169 	 0 255 255 255 32 32 32 				""
+"COMP_LONG_NAME_CHANGE" 	2000238169 	"MLS Next Pro Playoffs"					""
+"COMP_SHORT_NAME_CHANGE" 	2000238169 	"MLS Next Pro Playoffs"					""
+"COMP_3LETTER_NAME_CHANGE"	2000238169	"MLSNP_PO"						""
 
 "COMP_COLOUR_CHANGE" 		2000008083 	 0 0 0 0 255 255 255 					""
 "COMP_LONG_NAME_CHANGE" 	2000008083 	"National Independent Soccer Association"		""
@@ -10823,46 +10876,27 @@
 "COMP_SHORT_NAME_CHANGE" 	2000174375	"USL League Two Chesapeake Division"			""
 "COMP_3LETTER_NAME_CHANGE"	2000174375	"USL2 CH"						""
 
-#"PARENT_COMP_ID"		2000340045	 981733							""
-"COMP_COLOUR_CHANGE" 		2000340045	 0 255 255 255 245 9 1 					""
-"COMP_LONG_NAME_CHANGE" 	2000340045	"USL League Two Nor Cal Division"			""
-"COMP_SHORT_NAME_CHANGE" 	2000340045	"USL League Two Nor Cal Division"			""
-"COMP_3LETTER_NAME_CHANGE"	2000340045	"USL2 NC"						""
+#"PARENT_COMP_ID"		n-2000340045	 981733							""
+#"COMP_COLOUR_CHANGE" 		n-2000340045	 0 255 255 255 245 9 1 					""
+#"COMP_LONG_NAME_CHANGE" 	n-2000340045	"USL League Two Nor Cal Division"			""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340045	"USL League Two Nor Cal Division"			""
+#"COMP_3LETTER_NAME_CHANGE"	n-2000340045	"USL2 NC"						""
 
-#"PARENT_COMP_ID"		2000340046	 981733							""
-"COMP_COLOUR_CHANGE" 		2000340046	 0 255 255 255 245 9 1 					""
-"COMP_LONG_NAME_CHANGE" 	2000340046	"USL League Two South Florida Division"			""
-"COMP_SHORT_NAME_CHANGE" 	2000340046	"USL League Two South Florida Division"			""
-"COMP_3LETTER_NAME_CHANGE"	2000340046	"USL2 SF"						""
+#"PARENT_COMP_ID"		n-2000340046	 981733							""
+#"COMP_COLOUR_CHANGE" 		n-2000340046	 0 255 255 255 245 9 1 					""
+#"COMP_LONG_NAME_CHANGE" 	n-2000340046	"USL League Two South Florida Division"			""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340046	"USL League Two South Florida Division"			""
+#"COMP_3LETTER_NAME_CHANGE"	n-2000340046	"USL2 SF"						""
 
-
-# COMP > CONCACAF > [USA] USA > Domestic Cup
-#===================================================================================
-"COMP_COLOUR_CHANGE" 		73 		 0 193 161 95 21 21 22					""
-"COMP_LONG_NAME_CHANGE" 	73 		"MLS Cup"						""
-"COMP_SHORT_NAME_CHANGE" 	73		"MLS Cup"						""
-"COMP_3LETTER_NAME_CHANGE"	73		"MLSC"							""
-
-"COMP_COLOUR_CHANGE" 		20040499 	 0 178 131 80 0 0 0 					""
-"COMP_LONG_NAME_CHANGE" 	20040499 	"USL Championship Playoffs"				""
-"COMP_SHORT_NAME_CHANGE" 	20040499 	"USL Championship Playoffs"				""
-"COMP_3LETTER_NAME_CHANGE"	20040499	"USLC_PO"						""
-
-"COMP_COLOUR_CHANGE" 		20047509 	 0 255 255 255 1 185 198 				""
-"COMP_LONG_NAME_CHANGE" 	20047509 	"USL League One Playoffs"				""
-"COMP_SHORT_NAME_CHANGE" 	20047509 	"USL League One Playoffs"				""
-"COMP_3LETTER_NAME_CHANGE"	20047509 	"USL1_PO"						""
-
-"COMP_COLOUR_CHANGE" 		2000238169 	 0 255 255 255 32 32 32 				""
-"COMP_LONG_NAME_CHANGE" 	2000238169 	"MLS Next Pro Playoffs"					""
-"COMP_SHORT_NAME_CHANGE" 	2000238169 	"MLS Next Pro Playoffs"					""
-"COMP_3LETTER_NAME_CHANGE"	2000238169	"MLSNP_PO"						""
-
+#"PARENT_COMP_ID"		20040518	 981733							""
 "COMP_COLOUR_CHANGE" 		20040518	 0 255 255 255 245 9 1 					""
 "COMP_LONG_NAME_CHANGE" 	20040518	"USL League Two Playoffs"				""
 "COMP_SHORT_NAME_CHANGE" 	20040518	"USL League Two Playoffs"				""
 "COMP_3LETTER_NAME_CHANGE"	20040518	"USL2_PO"						""
 
+
+# COMP > CONCACAF > [USA] USA > Domestic Cup
+#===================================================================================
 "COMP_COLOUR_CHANGE" 		1301415 	 0 255 255 255 28 34 61 				""
 "COMP_LONG_NAME_CHANGE" 	1301415 	"Lamar Hunt U.S. Open Cup"				""
 "COMP_SHORT_NAME_CHANGE" 	1301415 	"U.S. Open Cup"						""
@@ -12420,9 +12454,9 @@
 
 # COMP > CAF > [EGY] EGYPT > Domestic League (2)
 #==============================================================================
-"COMP_LONG_NAME_CHANGE" 	2000340108 	"Egyptian Second Division A" 				""  # [NEW]
-"COMP_SHORT_NAME_CHANGE" 	2000340108 	"Egyptian Second Division A" 				""  # [NEW]
-"COMP_3LETTER_NAME_CHANGE" 	2000340108 	"EGY-2A" 						""  # [NEW]
+#"COMP_LONG_NAME_CHANGE" 	n-2000340108 	"Egyptian Second Division A" 				""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340108 	"Egyptian Second Division A" 				""
+#"COMP_3LETTER_NAME_CHANGE" 	n-2000340108 	"EGY-2A" 						""
 
 
 # COMP > CAF > [EGY] EGYPT > Domestic League (3)
@@ -12927,14 +12961,14 @@
 "COMP_SHORT_NAME_CHANGE" 	2000321669	"FIFA Intercontinental Cup" 				""
 "COMP_3LETTER_NAME_CHANGE"	2000321669	"FIC"							""
 
-"COMP_LONG_NAME_CHANGE" 	2000340114	"FIFA Challenger Cup" 					""
-"COMP_SHORT_NAME_CHANGE" 	2000340114	"FIFA Challenger Cup" 					""
+#"COMP_LONG_NAME_CHANGE" 	n-2000340114	"FIFA Challenger Cup" 					""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340114	"FIFA Challenger Cup" 					""
 
-"COMP_LONG_NAME_CHANGE" 	2000340115	"FIFA Derby of the Americas" 				""
-"COMP_SHORT_NAME_CHANGE" 	2000340115	"FIFA Derby of the Americas" 				""
+#"COMP_LONG_NAME_CHANGE" 	n-2000340115	"FIFA Derby of the Americas" 				""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340115	"FIFA Derby of the Americas" 				""
 
-"COMP_LONG_NAME_CHANGE" 	2000340116	"FIFA African-Asian-Pacific Cup" 			""
-"COMP_SHORT_NAME_CHANGE" 	2000340116	"FIFA African-Asian-Pacific Cup" 			""
+#"COMP_LONG_NAME_CHANGE" 	n-2000340116	"FIFA African-Asian-Pacific Cup" 			""
+#"COMP_SHORT_NAME_CHANGE" 	n-2000340116	"FIFA African-Asian-Pacific Cup" 			""
 
 
 # COMP > WORLD > INTERNATIONAL > Extinct International (Worldwide)

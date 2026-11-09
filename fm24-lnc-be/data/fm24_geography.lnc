@@ -61,7 +61,7 @@
 "NATION_SHORT_NAME_CHANGE"	121		"Kyrgyzstan"				8
 "NATION_3LETTER_NAME_CHANGE"	121		"KGZ"					8
 
-"NATION_LONG_NAME_CHANGE"	122		"Laos"					8
+"NATION_LONG_NAME_CHANGE"	122		"Lao PDR"				8
 "NATION_SHORT_NAME_CHANGE"	122		"Laos"					8
 "NATION_3LETTER_NAME_CHANGE"	122		"LAO"					8
 
@@ -89,8 +89,8 @@
 "NATION_SHORT_NAME_CHANGE"	128		"Nepal"					8
 "NATION_3LETTER_NAME_CHANGE"	128		"NEP"					8
 
-"NATION_LONG_NAME_CHANGE"	129		"Korea DPR"				8
-"NATION_SHORT_NAME_CHANGE"	129		"Korea DPR"				8
+"NATION_LONG_NAME_CHANGE"	129		"DPR Korea"				8
+"NATION_SHORT_NAME_CHANGE"	129		"DPR Korea"				8
 "NATION_3LETTER_NAME_CHANGE"	129		"PRK"					8
 
 "NATION_LONG_NAME_CHANGE"	130		"Oman"					8
@@ -384,8 +384,8 @@
 "NATION_SHORT_NAME_CHANGE"	52		"Uganda"				8
 "NATION_3LETTER_NAME_CHANGE"	52		"UGA"					8
 
-"NATION_LONG_NAME_CHANGE"	53		"Congo DR"				8
-"NATION_SHORT_NAME_CHANGE"	53		"Congo DR"				8
+"NATION_LONG_NAME_CHANGE"	53		"DR Congo"				8
+"NATION_SHORT_NAME_CHANGE"	53		"DR Congo"				8
 "NATION_3LETTER_NAME_CHANGE"	53		"COD"					8
 
 "NATION_LONG_NAME_CHANGE"	54		"Zambia"				8
@@ -864,7 +864,7 @@
 "NATION_SHORT_NAME_CHANGE"	790		"Romania"				8
 "NATION_3LETTER_NAME_CHANGE"	790		"ROU"					8
 
-"NATION_LONG_NAME_CHANGE"	791		"Russia"				8
+"NATION_LONG_NAME_CHANGE"	791		"Russian Federation"			8
 "NATION_SHORT_NAME_CHANGE"	791		"Russia"				8
 "NATION_3LETTER_NAME_CHANGE"	791		"RUS"					8
 
@@ -6280,6 +6280,81 @@
 # CITY > [CIV] CÔTE D'IVOIRE > [CIV-ZZ] Zanzan
 #====================================================================================
 "CITY_NAME_CHANGE"		5390184		"Bondoukou"						""
+
+
+# CITY > [CRI] CRIMEA
+#====================================================================================
+"CITY_NAME_CHANGE"		1301273		"Simferopol"						""
+"CITY_NAME_CHANGE"		5314891		"Sevastopol"						""
+"CITY_NAME_CHANGE"		5315037		"Yevpatoria"						""
+"CITY_NAME_CHANGE"		5315080		"Armiansk"						""
+"CITY_NAME_CHANGE"		5315090		"Saki"							""
+"CITY_NAME_CHANGE"		5315099		"Kerch"							""
+"CITY_NAME_CHANGE"		5315164		"Yalta"							""
+"CITY_NAME_CHANGE"		5315959		"Alushta"						""
+"CITY_NAME_CHANGE"		5317794		"Molodizhne"						""
+"CITY_NAME_CHANGE"		8061075		"Alupka"						""
+"CITY_NAME_CHANGE"		71000289	"Partenit"						""
+"CITY_NAME_CHANGE"		71002797	"Sudak"							""
+"CITY_NAME_CHANGE"		71012366	"Kalinino, Chervonogvardeysky rayon"			""
+"CITY_NAME_CHANGE"		71012372	"Krasnoperekopsk"					""
+"CITY_NAME_CHANGE"		71017267	"Mirnyi"						""
+"CITY_NAME_CHANGE"		71017350	"Feodosiya"						""
+"CITY_NAME_CHANGE"		71017351	"Bakhchysaray"						""
+"CITY_NAME_CHANGE"		71017356	"Kalinino, Pershotravnevyi rayon"			""
+"CITY_NAME_CHANGE"		71017405	"Balaklava"						""
+"CITY_NAME_CHANGE"		71017734	"Pochtove"						""
+"CITY_NAME_CHANGE"		71023032	"Dzhankoy"						""
+"CITY_NAME_CHANGE"		71035442	"Kukushkino"						""
+"CITY_NAME_CHANGE"		71036042	"Viline"						""
+"CITY_NAME_CHANGE"		71036844	"Hvardiyske"						""
+"CITY_NAME_CHANGE"		71045682	"Foros"							""
+"CITY_NAME_CHANGE"		71045683	"Suvorovske"						""
+"CITY_NAME_CHANGE"		71045752	"Bagerove"						""
+"CITY_NAME_CHANGE"		71045756	"Kuybysheve"						""
+"CITY_NAME_CHANGE"		71046138	"Ahrarne"						""
+"CITY_NAME_CHANGE"		71046414	"Skvortsove"						""
+"CITY_NAME_CHANGE"		71046466	"Udachne"						""
+"CITY_NAME_CHANGE"		71046470	"Ukromne"						""
+"CITY_NAME_CHANGE"		71046609	"Kirovske"						""
+"CITY_NAME_CHANGE"		71046834	"Kistochkivka"						""
+"CITY_NAME_CHANGE"		71046838	"Prymorskyi"						""
+"CITY_NAME_CHANGE"		71046892	"Orikhove"						""
+"CITY_NAME_CHANGE"		71046904	"Vypasne (Crimea)"					""
+"CITY_NAME_CHANGE"		71046907	"Popovka"						""
+"CITY_NAME_CHANGE"		71046962	"Novofedorivka"						""
+"CITY_NAME_CHANGE"		71046963	"Fontany"						""
+"CITY_NAME_CHANGE"		71046968	"Golubynka"						""
+"CITY_NAME_CHANGE"		71047125	"Denysivka (Crimea)"					""
+"CITY_NAME_CHANGE"		71047129	"Nyzhnyogirskyi"					""
+"CITY_NAME_CHANGE"		71051025	"Zaozerne"						""
+"CITY_NAME_CHANGE"		71051303	"Tinyste"						""
+"CITY_NAME_CHANGE"		71051680	"Novopavlivka, Bakhchysarayskyi rayon"			""
+"CITY_NAME_CHANGE"		71051707	"Andriivka, Sevastopol"					""
+"CITY_NAME_CHANGE"		71051982	"Yakovenkove"						""
+"CITY_NAME_CHANGE"		71051983	"Chornomorske"						""
+"CITY_NAME_CHANGE"		71061784	"Molochne"						""
+"CITY_NAME_CHANGE"		71064091	"Lisnivka"						""
+"CITY_NAME_CHANGE"		71064092	"Rozdolne"						""
+"CITY_NAME_CHANGE"		71064099	"Inkerman"						""
+"CITY_NAME_CHANGE"		71064110	"Koreiz"						""
+"CITY_NAME_CHANGE"		71064111	"Gurzuf"						""
+"CITY_NAME_CHANGE"		71064112	"Gaspra"						""
+"CITY_NAME_CHANGE"		71075148	"Sinne"							""
+"CITY_NAME_CHANGE"		71075150	"Zhemchuzhyna"						""
+"CITY_NAME_CHANGE"		71082267	"Olexiivka, Pervomayskyi rayon"				""
+"CITY_NAME_CHANGE"		71082269	"Pervomayske"						""
+"CITY_NAME_CHANGE"		71082288	"Mysove"						""
+"CITY_NAME_CHANGE"		71082340	"Zuya"							""
+"CITY_NAME_CHANGE"		71088783	"Urozhayne"						""
+"CITY_NAME_CHANGE"		71088816	"Chekhovo (Crimea)"					""
+"CITY_NAME_CHANGE"		71090444	"Tankove"						""
+"CITY_NAME_CHANGE"		71090452	"Razdolnoye"						""
+"CITY_NAME_CHANGE"		71095426	"Koltsove"						""
+"CITY_NAME_CHANGE"		71101631	"Krasnolissya"						""
+"CITY_NAME_CHANGE"		71107152	"Istochne"						""
+"CITY_NAME_CHANGE"		2000158794	"Uiutne"						""
+"CITY_NAME_CHANGE"		2000159410	"Filativka"						""
 
 
 # CITY > [CRO] CROATIA > [CRO-DA] Dalmatia
@@ -14739,15 +14814,15 @@
 "CITY_NAME_CHANGE"		5410625		"Xewkija"						""
 "CITY_NAME_CHANGE"		5410627		"Sannat"						""
 "CITY_NAME_CHANGE"		47004187	"Nadur"							""
-"CITY_NAME_CHANGE"		47039015	"Kerċem"						""
-"CITY_NAME_CHANGE"		47041255	"Iż-Żebbuġ"						""
+"CITY_NAME_CHANGE"		47039015	"Kercem"						""
+"CITY_NAME_CHANGE"		47041255	"Zebbug"						""
 "CITY_NAME_CHANGE"		47041707	"San Lawrenz"						""
 "CITY_NAME_CHANGE"		47041711	"Munxar"						""
-"CITY_NAME_CHANGE"		47041719	"Għarb"							""
+"CITY_NAME_CHANGE"		47041719	"Gharb"							""
 "CITY_NAME_CHANGE"		47042844	"Qala"							""
-"CITY_NAME_CHANGE"		47050296	"Għasri"						""
-"CITY_NAME_CHANGE"		83000134	"Xagħra"						""
-"CITY_NAME_CHANGE"		83000135	"Għajnsielem"						""
+"CITY_NAME_CHANGE"		47050296	"Ghasri"						""
+"CITY_NAME_CHANGE"		83000134	"Xaghra"						""
+"CITY_NAME_CHANGE"		83000135	"Ghajnsielem"						""
 
 
 # CITY > [MLT] MALTA > [MLT-MA] Malta
@@ -14756,57 +14831,57 @@
 "CITY_NAME_CHANGE"		1300773		"Rabat"							""
 "CITY_NAME_CHANGE"		1300774		"Naxxar"						""
 "CITY_NAME_CHANGE"		1300775		"Birkirkara"						""
-"CITY_NAME_CHANGE"		1300776		"Ħamrun"						""
-"CITY_NAME_CHANGE"		1300777		"Żurrieq"						""
-"CITY_NAME_CHANGE"		1300778		"Pietà"							""
+"CITY_NAME_CHANGE"		1300776		"Hamrun"						""
+"CITY_NAME_CHANGE"		1300777		"Zurrieq"						""
+"CITY_NAME_CHANGE"		1300778		"Pieta"							""
 "CITY_NAME_CHANGE"		1300779		"Floriana"						""
 "CITY_NAME_CHANGE"		1300780		"Sliema"						""
 "CITY_NAME_CHANGE"		1300781		"Valletta"						""
-"CITY_NAME_CHANGE"		1300782		"Ħaż-Żabbar"						""
-"CITY_NAME_CHANGE"		1300783		"Paola / Raħal Ġdid"					""
+"CITY_NAME_CHANGE"		1300782		"Zabbar"						""
+"CITY_NAME_CHANGE"		1300783		"Paola"							""
 "CITY_NAME_CHANGE"		2300007		"Qormi"							""
 "CITY_NAME_CHANGE"		2300008		"Mosta"							""
-"CITY_NAME_CHANGE"		2300009		"San Ġwann"						""
+"CITY_NAME_CHANGE"		2300009		"San Gwann"						""
 "CITY_NAME_CHANGE"		2300010		"Fgura"							""
 "CITY_NAME_CHANGE"		47001120	"Birgu"							""
-"CITY_NAME_CHANGE"		47004181	"Ħ'Attard"						""
+"CITY_NAME_CHANGE"		47004181	"Attard"						""
 "CITY_NAME_CHANGE"		47004182	"Dingli"						""
 "CITY_NAME_CHANGE"		47004183	"Marsa"							""
 "CITY_NAME_CHANGE"		47004184	"Marsaxlokk"						""
-"CITY_NAME_CHANGE"		47004185	"Mellieħa"						""
+"CITY_NAME_CHANGE"		47004185	"Mellieha"						""
 "CITY_NAME_CHANGE"		47004186	"Msida"							""
-"CITY_NAME_CHANGE"		47004188	"Ħaż-Żebbuġ"						""
-"CITY_NAME_CHANGE"		47004189	"Żejtun"						""
-"CITY_NAME_CHANGE"		47017459	"St. Julian's / San Ġiljan"				""
+"CITY_NAME_CHANGE"		47004188	"Zebbug"						""
+"CITY_NAME_CHANGE"		47004189	"Zejtun"						""
+"CITY_NAME_CHANGE"		47017459	"St. Julian's"						""
 "CITY_NAME_CHANGE"		47038577	"Balzan"						""
 "CITY_NAME_CHANGE"		47040949	"St. Andrew's"						""
 "CITY_NAME_CHANGE"		47041688	"Pembroke"						""
-"CITY_NAME_CHANGE"		47041690	"Ħal Kirkop"						""
-"CITY_NAME_CHANGE"		47041692	"Mġarr"							""
+"CITY_NAME_CHANGE"		47041690	"Kirkop"						""
+"CITY_NAME_CHANGE"		47041692	"Mgarr"							""
 "CITY_NAME_CHANGE"		47041694	"Mdina"							""
-"CITY_NAME_CHANGE"		47041705	"Ħal Għaxaq"						""
-"CITY_NAME_CHANGE"		47041709	"Santa Luċija"						""
+"CITY_NAME_CHANGE"		47041705	"Ghaxaq"						""
+"CITY_NAME_CHANGE"		47041709	"Santa Lucija"						""
 "CITY_NAME_CHANGE"		47041713	"Kalkara"						""
 "CITY_NAME_CHANGE"		47041715	"Mtarfa"						""
 "CITY_NAME_CHANGE"		47041717	"Qrendi"						""
 "CITY_NAME_CHANGE"		47041721	"Ta' Xbiex"						""
 "CITY_NAME_CHANGE"		47041845	"Gudja"							""
 "CITY_NAME_CHANGE"		47041867	"Mqabba"						""
-"CITY_NAME_CHANGE"		47042840	"Ħal Għargħur"						""
-"CITY_NAME_CHANGE"		47042842	"Xgħajra"						""
-"CITY_NAME_CHANGE"		47050292	"L-Iklin"						""
-"CITY_NAME_CHANGE"		47050294	"Ħal Safi"						""
-"CITY_NAME_CHANGE"		83000128	"Birżebbuġa"						""
-"CITY_NAME_CHANGE"		83000129	"Cospicua / Bormla"					""
-"CITY_NAME_CHANGE"		83000130	"Gżira"							""
+"CITY_NAME_CHANGE"		47042840	"Gharghur"						""
+"CITY_NAME_CHANGE"		47042842	"Xghajra"						""
+"CITY_NAME_CHANGE"		47050292	"Iklin"							""
+"CITY_NAME_CHANGE"		47050294	"Safi"							""
+"CITY_NAME_CHANGE"		83000128	"Birzebbuga"						""
+"CITY_NAME_CHANGE"		83000129	"Cospicua"						""
+"CITY_NAME_CHANGE"		83000130	"Gzira"							""
 "CITY_NAME_CHANGE"		83000131	"Senglea"						""
-"CITY_NAME_CHANGE"		83000132	"Ħal Luqa"						""
-"CITY_NAME_CHANGE"		83000133	"Marsaskala / Wied il-Għajn"				""
-"CITY_NAME_CHANGE"		83000136	"St. Paul's Bay / San Pawl il-Baħar"			""
+"CITY_NAME_CHANGE"		83000132	"Luqa"							""
+"CITY_NAME_CHANGE"		83000133	"Marsaskala"						""
+"CITY_NAME_CHANGE"		83000136	"St. Paul's Bay"					""
 "CITY_NAME_CHANGE"		83000137	"Santa Venera"						""
-"CITY_NAME_CHANGE"		83000138	"Siġġiewi"						""
+"CITY_NAME_CHANGE"		83000138	"Siggiewi"						""
 "CITY_NAME_CHANGE"		83000139	"Swieqi"						""
-"CITY_NAME_CHANGE"		83000140	"Ħal Tarxien"						""
+"CITY_NAME_CHANGE"		83000140	"Tarxien"						""
 
 
 # CITY > [MTQ] MARTINIQUE
