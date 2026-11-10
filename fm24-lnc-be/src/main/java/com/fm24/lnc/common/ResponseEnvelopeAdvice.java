@@ -5,6 +5,7 @@ import java.util.UUID;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.ByteArrayHttpMessageConverter;
+import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -19,7 +20,7 @@ public class ResponseEnvelopeAdvice implements ResponseBodyAdvice<Object> {
   }
 
   @Override
-  public boolean supports(MethodParameter returnType, Class converterType) {
+  public boolean supports(MethodParameter returnType, Class<? extends HttpMessageConverter<?>> converterType) {
     return !ByteArrayHttpMessageConverter.class.isAssignableFrom(converterType)
         && !returnType.hasMethodAnnotation(RawResponse.class)
         && !returnType.getContainingClass().isAnnotationPresent(RawResponse.class);
@@ -27,7 +28,7 @@ public class ResponseEnvelopeAdvice implements ResponseBodyAdvice<Object> {
 
   @Override
   public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType contentType,
-      Class converterType, ServerHttpRequest serverRequest, ServerHttpResponse serverResponse) {
+      Class<? extends HttpMessageConverter<?>> converterType, ServerHttpRequest serverRequest, ServerHttpResponse serverResponse) {
     if (body instanceof ApiEnvelope<?>) return body;
     String correlationId = request.getHeader("x-correlation-id");
     if (correlationId == null || correlationId.isBlank()) correlationId = request.getHeader("x-request-id");

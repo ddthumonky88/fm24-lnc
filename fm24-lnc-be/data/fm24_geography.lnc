@@ -1493,6 +1493,7 @@
 # CITY > [ARG] ARGENTINA > [ARG-BA] Buenos Aires
 #====================================================================================
 "CITY_NAME_CHANGE"		102435		"La Plata (BA)"						""
+"CITY_NAME_CHANGE"		108489		"Avellaneda (BA)"					""
 "CITY_NAME_CHANGE"		108490		"Bahía Blanca (BA)"					""
 "CITY_NAME_CHANGE"		108491		"Banfield (BA)"						""
 "CITY_NAME_CHANGE"		108492		"Florencio Varela (BA)"					""
@@ -4034,6 +4035,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-17] obl. Razgrad
 #====================================================================================
+"CITY_NAME_CHANGE"		7500244		"Razgrad"						""
 "CITY_NAME_CHANGE"		22014506	"Delchevo (obl. Razgrad)"				""
 
 
@@ -7330,9 +7332,61 @@
 "CITY_NAME_CHANGE"		87002834	"Jucuapa"						""
 
 
+# CITY > [ENG] ENGLAND > [ENG-SE] South-East
+#====================================================================================
+"CITY_NAME_CHANGE"		100030		"Brighton"						""
+"CITY_NAME_CHANGE"		100049		"Gillingham"						""
+"CITY_NAME_CHANGE"		100071		"Oxford"						""
+"CITY_NAME_CHANGE"		100077		"Portsmouth"						""
+"CITY_NAME_CHANGE"		100079		"Reading"						""
+"CITY_NAME_CHANGE"		100086		"Southampton"						""
+"CITY_NAME_CHANGE"		100098		"High Wycombe"						""
+"CITY_NAME_CHANGE"		106593		"Dover"							""
+"CITY_NAME_CHANGE"		106594		"Farnborough"						""
+"CITY_NAME_CHANGE"		106605		"Slough"						""
+"CITY_NAME_CHANGE"		106611		"Woking"						""
+"CITY_NAME_CHANGE"		106631		"Crawley"						""
+"CITY_NAME_CHANGE"		5102631		"Aldershot"						""
+"CITY_NAME_CHANGE"		5105793		"Eastbourne"						""
+"CITY_NAME_CHANGE"		5114506		"Maidstone"						""
+"CITY_NAME_CHANGE"		7940247		"Banbury"						""
+"CITY_NAME_CHANGE"		7940348		"Basingstoke"						""
+"CITY_NAME_CHANGE"		7940507		"Maidenhead"						""
+"CITY_NAME_CHANGE"		7940580		"Havant"						""
+"CITY_NAME_CHANGE"		7940867		"Worthing"						""
+"CITY_NAME_CHANGE"		8325278		"Dorking"						""
+"CITY_NAME_CHANGE"		8600196		"Gravesend"						""
+"CITY_NAME_CHANGE"		8600204		"Tonbridge"						""
+"CITY_NAME_CHANGE"		8600599		"Eastleigh"						""
+"CITY_NAME_CHANGE"		28001166	"Dartford"						""
+"CITY_NAME_CHANGE"		29106669	"Wokingham"						""
+
+
+# CITY > [ENG] ENGLAND > [ENG-SW] South-West
+#====================================================================================
+"CITY_NAME_CHANGE"		100022		"Bournemouth"						""
+"CITY_NAME_CHANGE"		100033		"Bristol"						""
+"CITY_NAME_CHANGE"		100048		"Exeter"						""
+"CITY_NAME_CHANGE"		100074		"Plymouth"						""
+"CITY_NAME_CHANGE"		100091		"Swindon"						""
+"CITY_NAME_CHANGE"		100092		"Torquay"						""
+"CITY_NAME_CHANGE"		106592		"Cheltenham"						""
+"CITY_NAME_CHANGE"		106612		"Yeovil"						""
+"CITY_NAME_CHANGE"		106617		"Bath"							""
+"CITY_NAME_CHANGE"		106634		"Gloucester"						""
+"CITY_NAME_CHANGE"		123020		"Taunton"						""
+"CITY_NAME_CHANGE"		5101260		"Weymouth"						""
+"CITY_NAME_CHANGE"		5114508		"Truro"							""
+"CITY_NAME_CHANGE"		7940244		"Weston-super-Mare"					""
+"CITY_NAME_CHANGE"		7940273		"Nailsworth"						""
+"CITY_NAME_CHANGE"		7940578		"Chippenham"						""
+"CITY_NAME_CHANGE"		8601578		"Poole"							""
+
+
 # CITY > [ENG] ENGLAND > [ENG-LDN] London
 #====================================================================================
 "CITY_NAME_CHANGE"		100023		"London"						""
+"CITY_NAME_CHANGE"		106610		"Welling"						""
 "CITY_NAME_CHANGE"		106620		"Enfield"						""
 "CITY_NAME_CHANGE"		106632		"Dagenham"						""
 "CITY_NAME_CHANGE"		106642		"Sutton"						""
@@ -7344,8 +7398,93 @@
 "CITY_NAME_CHANGE"		7940864		"Croydon"						""
 "CITY_NAME_CHANGE"		8325311		"Ealing"						""
 "CITY_NAME_CHANGE"		8600828		"Southwark"						""
+"CITY_NAME_CHANGE"		8600858		"Hampton"						""
 "CITY_NAME_CHANGE"		8601548		"Ilford"						""
 "CITY_NAME_CHANGE"		29115410	"Wimbledon"						""
+"CITY_NAME_CHANGE"		89003595	"Ruislip"						""
+
+
+# CITY > [ENG] ENGLAND > [ENG-WM] West Midlands
+#====================================================================================
+"CITY_NAME_CHANGE"		100024		"Birmingham"						""
+"CITY_NAME_CHANGE"		100042		"Coventry"						""
+"CITY_NAME_CHANGE"		100053		"Hereford"						""
+"CITY_NAME_CHANGE"		100075		"Stoke-on-Trent"					""
+"CITY_NAME_CHANGE"		100085		"Shrewsbury"						""
+"CITY_NAME_CHANGE"		100093		"Walsall"						""
+"CITY_NAME_CHANGE"		100095		"West Bromwich"						""
+"CITY_NAME_CHANGE"		100096		"Wolverhampton"						""
+"CITY_NAME_CHANGE"		106600		"Kidderminster"						""
+"CITY_NAME_CHANGE"		106609		"Telford"						""
+"CITY_NAME_CHANGE"		5101259		"Tamworth"						""
+"CITY_NAME_CHANGE"		5112394		"Burton-on-Trent"					""
+"CITY_NAME_CHANGE"		7940353		"Sutton Coldfield"					""
+"CITY_NAME_CHANGE"		7940394		"Dudley"						""
+"CITY_NAME_CHANGE"		7940401		"Solihull"						""
+"CITY_NAME_CHANGE"		2000288845	"Rushall"						""
+
+
+# CITY > [ENG] ENGLAND > [ENG-NW] North-West
+#====================================================================================
+"CITY_NAME_CHANGE"		100026		"Blackburn"						""
+"CITY_NAME_CHANGE"		100027		"Blackpool"						""
+"CITY_NAME_CHANGE"		100028		"Bolton"						""
+"CITY_NAME_CHANGE"		100038		"Carlisle"						""
+"CITY_NAME_CHANGE"		100039		"Chester"						""
+"CITY_NAME_CHANGE"		100043		"Crewe"							""
+"CITY_NAME_CHANGE"		100047		"Liverpool"						""
+"CITY_NAME_CHANGE"		100062		"Manchester"						""
+"CITY_NAME_CHANGE"		100069		"Oldham"						""
+"CITY_NAME_CHANGE"		100078		"Preston"						""
+"CITY_NAME_CHANGE"		100080		"Rochdale"						""
+"CITY_NAME_CHANGE"		100088		"Stockport"						""
+"CITY_NAME_CHANGE"		106602		"Morecambe"						""
+"CITY_NAME_CHANGE"		106606		"Southport"						""
+"CITY_NAME_CHANGE"		106621		"Altrincham"						""
+"CITY_NAME_CHANGE"		106624		"Barrow-in-Furness"					""
+"CITY_NAME_CHANGE"		106629		"Chorley"						""
+"CITY_NAME_CHANGE"		109220		"Accrington"						""
+"CITY_NAME_CHANGE"		115260		"Birkenhead"						""
+"CITY_NAME_CHANGE"		5101261		"Wigan"							""
+"CITY_NAME_CHANGE"		7940612		"Ashton-under-Lyne"					""
+"CITY_NAME_CHANGE"		7940616		"Lancaster"						""
+"CITY_NAME_CHANGE"		8600070		"Fleetwood"						""
+"CITY_NAME_CHANGE"		8600077		"Salford"						""
+"CITY_NAME_CHANGE"		8600079		"St. Helens"						""
+"CITY_NAME_CHANGE"		8600080		"Warrington"						""
+"CITY_NAME_CHANGE"		29035680	"Kirkham"						""
+
+
+# CITY > [ENG] ENGLAND > [ENG-NE] North-East
+#====================================================================================
+"CITY_NAME_CHANGE"		100044		"Darlington"						""
+"CITY_NAME_CHANGE"		100052		"Hartlepool"						""
+"CITY_NAME_CHANGE"		100064		"Middlesbrough"						""
+"CITY_NAME_CHANGE"		100065		"Newcastle-upon-Tyne"					""
+"CITY_NAME_CHANGE"		100089		"Sunderland"						""
+"CITY_NAME_CHANGE"		106595		"Gateshead"						""
+"CITY_NAME_CHANGE"		5101257		"Spennymoor"						""
+"CITY_NAME_CHANGE"		5114514		"South Shields"						""
+"CITY_NAME_CHANGE"		7940613		"Blyth"							""
+
+
+# CITY > [ENG] ENGLAND > [ENG-YH] Yorkshire and the Humber
+#====================================================================================
+"CITY_NAME_CHANGE"		100025		"Barnsley"						""
+"CITY_NAME_CHANGE"		100029		"Bradford"						""
+"CITY_NAME_CHANGE"		100046		"Doncaster"						""
+"CITY_NAME_CHANGE"		100054		"Huddersfield"						""
+"CITY_NAME_CHANGE"		100055		"Hull"							""
+"CITY_NAME_CHANGE"		100057		"Leeds"							""
+"CITY_NAME_CHANGE"		100081		"Rotherham"						""
+"CITY_NAME_CHANGE"		100082		"Scarborough"						""
+"CITY_NAME_CHANGE"		100083		"Scunthorpe"						""
+"CITY_NAME_CHANGE"		100084		"Sheffield"						""
+"CITY_NAME_CHANGE"		100099		"York"							""
+"CITY_NAME_CHANGE"		106596		"Halifax"						""
+"CITY_NAME_CHANGE"		5100049		"Harrogate"						""
+"CITY_NAME_CHANGE"		5104360		"Cleethorpes"						""
+"CITY_NAME_CHANGE"		2000028207	"Farsley"						""
 
 
 # CITY > [ENG] ENGLAND > [ENG-EM] East Midlands
@@ -7357,6 +7496,10 @@
 "CITY_NAME_CHANGE"		100063		"Mansfield"						""
 "CITY_NAME_CHANGE"		100066		"Northampton"						""
 "CITY_NAME_CHANGE"		100068		"Nottingham"						""
+"CITY_NAME_CHANGE"		106625		"Boston"						""
+"CITY_NAME_CHANGE"		7940258		"Brackley"						""
+"CITY_NAME_CHANGE"		8600160		"Alfreton"						""
+"CITY_NAME_CHANGE"		8601481		"Buxton"						""
 
 
 # CITY > [ENG] ENGLAND > [ENG-EE] East of England
@@ -7370,108 +7513,22 @@
 "CITY_NAME_CHANGE"		100087		"Southend-on-Sea"					""
 "CITY_NAME_CHANGE"		100094		"Watford"						""
 "CITY_NAME_CHANGE"		106608		"Stevenage"						""
+"CITY_NAME_CHANGE"		106615		"St. Albans"						""
+"CITY_NAME_CHANGE"		106618		"Bishop's Stortford"					""
 "CITY_NAME_CHANGE"		106628		"Chelmsford"						""
+"CITY_NAME_CHANGE"		109216		"Borehamwood"						""
+"CITY_NAME_CHANGE"		113524		"King's Lynn"						""
 "CITY_NAME_CHANGE"		5006706		"Thurrock"						""
 "CITY_NAME_CHANGE"		5114357		"Milton Keynes"						""
+"CITY_NAME_CHANGE"		7940516		"Braintree"						""
+"CITY_NAME_CHANGE"		7940953		"Hemel Hempstead"					""
+"CITY_NAME_CHANGE"		7940961		"Aveley"						""
 "CITY_NAME_CHANGE"		8601536		"Basildon"						""
 
 
 # CITY > [ENG] ENGLAND > [ENG-IOM] Isle of Man
 #====================================================================================
 "CITY_NAME_CHANGE"		90042966	"Douglas (Isle of Man)"					""
-
-
-# CITY > [ENG] ENGLAND > [ENG-NE] North East England
-#====================================================================================
-"CITY_NAME_CHANGE"		100064		"Middlesbrough"						""
-"CITY_NAME_CHANGE"		100065		"Newcastle-upon-Tyne"					""
-"CITY_NAME_CHANGE"		100089		"Sunderland"						""
-
-
-# CITY > [ENG] ENGLAND > [ENG-NW] North West England
-#====================================================================================
-"CITY_NAME_CHANGE"		100026		"Blackburn"						""
-"CITY_NAME_CHANGE"		100027		"Blackpool"						""
-"CITY_NAME_CHANGE"		100028		"Bolton"						""
-"CITY_NAME_CHANGE"		100038		"Carlisle"						""
-"CITY_NAME_CHANGE"		100043		"Crewe"							""
-"CITY_NAME_CHANGE"		100047		"Liverpool"						""
-"CITY_NAME_CHANGE"		100062		"Manchester"						""
-"CITY_NAME_CHANGE"		100069		"Oldham"						""
-"CITY_NAME_CHANGE"		100078		"Preston"						""
-"CITY_NAME_CHANGE"		100088		"Stockport"						""
-"CITY_NAME_CHANGE"		106602		"Morecambe"						""
-"CITY_NAME_CHANGE"		106624		"Barrow-in-Furness"					""
-"CITY_NAME_CHANGE"		109220		"Accrington"						""
-"CITY_NAME_CHANGE"		115260		"Birkenhead"						""
-"CITY_NAME_CHANGE"		5101261		"Wigan"							""
-"CITY_NAME_CHANGE"		7940616		"Lancaster"						""
-"CITY_NAME_CHANGE"		8600070		"Fleetwood"						""
-"CITY_NAME_CHANGE"		8600077		"Salford"						""
-"CITY_NAME_CHANGE"		8600079		"St. Helens"						""
-"CITY_NAME_CHANGE"		8600080		"Warrington"						""
-
-
-# CITY > [ENG] ENGLAND > [ENG-SE] South East England
-#====================================================================================
-"CITY_NAME_CHANGE"		100030		"Brighton"						""
-"CITY_NAME_CHANGE"		100049		"Gillingham"						""
-"CITY_NAME_CHANGE"		100071		"Oxford"						""
-"CITY_NAME_CHANGE"		100077		"Portsmouth"						""
-"CITY_NAME_CHANGE"		100079		"Reading"						""
-"CITY_NAME_CHANGE"		100086		"Southampton"						""
-"CITY_NAME_CHANGE"		100098		"High Wycombe"						""
-"CITY_NAME_CHANGE"		106605		"Slough"						""
-"CITY_NAME_CHANGE"		106631		"Crawley"						""
-"CITY_NAME_CHANGE"		5105793		"Eastbourne"						""
-"CITY_NAME_CHANGE"		5114506		"Maidstone"						""
-"CITY_NAME_CHANGE"		7940348		"Basingstoke"						""
-"CITY_NAME_CHANGE"		7940580		"Havant"						""
-"CITY_NAME_CHANGE"		8600599		"Eastleigh"						""
-"CITY_NAME_CHANGE"		28001166	"Dartford"						""
-
-
-# CITY > [ENG] ENGLAND > [ENG-SW] South West England
-#====================================================================================
-"CITY_NAME_CHANGE"		100022		"Bournemouth"						""
-"CITY_NAME_CHANGE"		100033		"Bristol"						""
-"CITY_NAME_CHANGE"		100048		"Exeter"						""
-"CITY_NAME_CHANGE"		100074		"Plymouth"						""
-"CITY_NAME_CHANGE"		100091		"Swindon"						""
-"CITY_NAME_CHANGE"		106592		"Cheltenham"						""
-"CITY_NAME_CHANGE"		106634		"Gloucester"						""
-"CITY_NAME_CHANGE"		7940273		"Nailsworth"						""
-"CITY_NAME_CHANGE"		8601578		"Poole"							""
-
-
-# CITY > [ENG] ENGLAND > [ENG-WM] West Midlands
-#====================================================================================
-"CITY_NAME_CHANGE"		100024		"Birmingham"						""
-"CITY_NAME_CHANGE"		100042		"Coventry"						""
-"CITY_NAME_CHANGE"		100075		"Stoke-on-Trent"					""
-"CITY_NAME_CHANGE"		100085		"Shrewsbury"						""
-"CITY_NAME_CHANGE"		100093		"Walsall"						""
-"CITY_NAME_CHANGE"		100095		"West Bromwich"						""
-"CITY_NAME_CHANGE"		100096		"Wolverhampton"						""
-"CITY_NAME_CHANGE"		106609		"Telford"						""
-"CITY_NAME_CHANGE"		5112394		"Burton-on-Trent"					""
-"CITY_NAME_CHANGE"		7940353		"Sutton Coldfield"					""
-"CITY_NAME_CHANGE"		7940394		"Dudley"						""
-
-
-# CITY > [ENG] ENGLAND > [ENG-YH] Yorkshire and the Humber
-#====================================================================================
-"CITY_NAME_CHANGE"		100025		"Barnsley"						""
-"CITY_NAME_CHANGE"		100029		"Bradford"						""
-"CITY_NAME_CHANGE"		100046		"Doncaster"						""
-"CITY_NAME_CHANGE"		100054		"Huddersfield"						""
-"CITY_NAME_CHANGE"		100055		"Hull"							""
-"CITY_NAME_CHANGE"		100057		"Leeds"							""
-"CITY_NAME_CHANGE"		100081		"Rotherham"						""
-"CITY_NAME_CHANGE"		100084		"Sheffield"						""
-"CITY_NAME_CHANGE"		100099		"York"							""
-"CITY_NAME_CHANGE"		5100049		"Harrogate"						""
-"CITY_NAME_CHANGE"		5104360		"Cleethorpes"						""
 
 
 # CITY > [EQG] EQUATORIAL GUINEA > [EQG-BN] Bioko Norte
@@ -19108,6 +19165,7 @@
 
 # CITY > [RUS] RUSSIA > [RUS-KDA] Krasnodar Krai
 #====================================================================================
+"CITY_NAME_CHANGE"		130448		"Krasnodar"						""
 "CITY_NAME_CHANGE"		1301085		"Sochi"							""
 
 
@@ -20626,7 +20684,12 @@
 "CITY_NAME_CHANGE"		389		"Huelva"						""
 "CITY_NAME_CHANGE"		401		"Jerez de la Frontera"					""
 "CITY_NAME_CHANGE"		4203035		"Algeciras"						""
+"CITY_NAME_CHANGE"		4212113		"La Línea de la Concepción"				""
+"CITY_NAME_CHANGE"		4212283		"San Fernando"						""
+"CITY_NAME_CHANGE"		4212374		"Lepe"							""
 "CITY_NAME_CHANGE"		4212377		"Dos Hermanas"						""
+"CITY_NAME_CHANGE"		4212408		"Sanlúcar de Barrameda"					""
+"CITY_NAME_CHANGE"		7443985		"Lebrija"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-ANE] Andalucía Oriental
@@ -20636,32 +20699,51 @@
 "CITY_NAME_CHANGE"		372		"Granada"						""
 "CITY_NAME_CHANGE"		374		"Jaén"							""
 "CITY_NAME_CHANGE"		376		"Málaga"						""
+"CITY_NAME_CHANGE"		814592		"Antequera"						""
+"CITY_NAME_CHANGE"		814634		"Vélez-Málaga"						""
+"CITY_NAME_CHANGE"		4212110		"Linares"						""
+"CITY_NAME_CHANGE"		67020149	"Estepona"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-AR] Aragón
 #====================================================================================
 "CITY_NAME_CHANGE"		388		"Zaragoza"						""
+"CITY_NAME_CHANGE"		4200006		"Teruel"						""
+"CITY_NAME_CHANGE"		4212280		"Barbastro"						""
 "CITY_NAME_CHANGE"		4212296		"Huesca"						""
+"CITY_NAME_CHANGE"		6703399		"Utebo"							""
+"CITY_NAME_CHANGE"		67040947	"Brea de Aragón"					""
+"CITY_NAME_CHANGE"		67101256	"Tarazona"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-AS] Asturias
 #====================================================================================
+"CITY_NAME_CHANGE"		339		"Avilés"						""
 "CITY_NAME_CHANGE"		384		"Oviedo"						""
 "CITY_NAME_CHANGE"		393		"Gijón"							""
+"CITY_NAME_CHANGE"		4212315		"Luanco"						""
 "CITY_NAME_CHANGE"		67059702	"San Julián (Bimenes)"					""
 
 
 # CITY > [ESP] SPAIN > [ESP-IB] Baleares
 #====================================================================================
 "CITY_NAME_CHANGE"		382		"Palma de Mallorca"					""
+"CITY_NAME_CHANGE"		4212170		"Ibiza"							""
+"CITY_NAME_CHANGE"		4212267		"Santa Eulalia"						""
+"CITY_NAME_CHANGE"		67016711	"Andraitx"						""
+"CITY_NAME_CHANGE"		67129100	"Sant Miquel de Balansat"				""
+"CITY_NAME_CHANGE"		67129104	"Sant Francesc de Formentera"				""
 
 
 # CITY > [ESP] SPAIN > [ESP-CN] Canarias
 #====================================================================================
 "CITY_NAME_CHANGE"		355		"Santa Cruz de Tenerife"				""
 "CITY_NAME_CHANGE"		398		"Las Palmas"						""
+"CITY_NAME_CHANGE"		810599		"El Paso"						""
 "CITY_NAME_CHANGE"		813968		"Telde"							""
+"CITY_NAME_CHANGE"		814689		"San Bartolomé de Tirajana"				""
 "CITY_NAME_CHANGE"		814711		"San Cristóbal de La Laguna"				""
+"CITY_NAME_CHANGE"		4212178		"Santa Cruz de la Palma"				""
 "CITY_NAME_CHANGE"		67045977	"San Sebastián de La Gomera"				""
 "CITY_NAME_CHANGE"		2000260652	"San Bartolomé (Las Palmas)"				""
 
@@ -20669,11 +20751,16 @@
 # CITY > [ESP] SPAIN > [ESP-CB] Cantabria
 #====================================================================================
 "CITY_NAME_CHANGE"		379		"Santander"						""
+"CITY_NAME_CHANGE"		109053		"Torrelavega"						""
+"CITY_NAME_CHANGE"		814498		"Santa María de Cayón"					""
 
 
 # CITY > [ESP] SPAIN > [ESP-CM] Castilla - La Mancha
 #====================================================================================
 "CITY_NAME_CHANGE"		337		"Albacete"						""
+"CITY_NAME_CHANGE"		109050		"Talavera de la Reina"					""
+"CITY_NAME_CHANGE"		814970		"Guadalajara"						""
+"CITY_NAME_CHANGE"		67000115	"Illescas"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-CL] Castilla y León
@@ -20681,8 +20768,14 @@
 "CITY_NAME_CHANGE"		364		"León"							""
 "CITY_NAME_CHANGE"		387		"Valladolid"						""
 "CITY_NAME_CHANGE"		394		"Salamanca"						""
+"CITY_NAME_CHANGE"		395		"Segovia"						""
+"CITY_NAME_CHANGE"		396		"Soria"							""
+"CITY_NAME_CHANGE"		814439		"Aranda de Duero"					""
 "CITY_NAME_CHANGE"		4200568		"Burgos"						""
 "CITY_NAME_CHANGE"		4212199		"Miranda de Ebro"					""
+"CITY_NAME_CHANGE"		4212245		"Zamora"						""
+"CITY_NAME_CHANGE"		4212309		"Ponferrada"						""
+"CITY_NAME_CHANGE"		7442932		"Guijuelo"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-CT] Cataluña
@@ -20699,6 +20792,13 @@
 "CITY_NAME_CHANGE"		4212274		"Reus"							""
 "CITY_NAME_CHANGE"		4212371		"Badalona"						""
 "CITY_NAME_CHANGE"		6706390		"Mataró"						""
+"CITY_NAME_CHANGE"		7444898		"Cerdanyola del Vallès"					""
+"CITY_NAME_CHANGE"		7446194		"Manresa"						""
+
+
+# CITY > [ESP] SPAIN > [ESP-CE] Ceuta
+#====================================================================================
+"CITY_NAME_CHANGE"		4203148		"Ceuta"							""
 
 
 # CITY > [ESP] SPAIN > [ESP-MD] Comunidad de Madrid
@@ -20709,63 +20809,167 @@
 "CITY_NAME_CHANGE"		109054		"Fuenlabrada"						""
 "CITY_NAME_CHANGE"		810091		"Alcorcón"						""
 "CITY_NAME_CHANGE"		814347		"Cerceda (Madrid)"					""
+"CITY_NAME_CHANGE"		814353		"Navalcarnero"						""
+"CITY_NAME_CHANGE"		1503184		"San Sebastián de los Reyes"				""
 "CITY_NAME_CHANGE"		4200490		"Móstoles"						""
 "CITY_NAME_CHANGE"		4212155		"Carabanchel"						""
 "CITY_NAME_CHANGE"		4212167		"Alcalá de Henares"					""
 "CITY_NAME_CHANGE"		4212782		"Parla"							""
 "CITY_NAME_CHANGE"		7452080		"Torrejón de Ardoz"					""
 "CITY_NAME_CHANGE"		67012376	"Alcobendas"						""
+"CITY_NAME_CHANGE"		67016696	"Majadahonda"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-VC] Comunidad Valenciana
 #====================================================================================
+"CITY_NAME_CHANGE"		347		"Alcoy"							""
 "CITY_NAME_CHANGE"		349		"Castellón"						""
 "CITY_NAME_CHANGE"		367		"Elche"							""
 "CITY_NAME_CHANGE"		373		"Alicante"						""
 "CITY_NAME_CHANGE"		399		"Valencia"						""
 "CITY_NAME_CHANGE"		400		"Villarreal"						""
+"CITY_NAME_CHANGE"		1503272		"Sagunto"						""
+"CITY_NAME_CHANGE"		4212104		"Alzira"						""
 "CITY_NAME_CHANGE"		4212209		"Elda"							""
+"CITY_NAME_CHANGE"		4212971		"Orihuela"						""
 "CITY_NAME_CHANGE"		67000065	"Torrevieja"						""
+"CITY_NAME_CHANGE"		67041050	"La Nucía"						""
+"CITY_NAME_CHANGE"		67101228	"San Juan de Alicante"					""
+"CITY_NAME_CHANGE"		67101401	"Torrent"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-EX] Extremadura
 #====================================================================================
 "CITY_NAME_CHANGE"		348		"Badajoz"						""
+"CITY_NAME_CHANGE"		359		"Mérida"						""
+"CITY_NAME_CHANGE"		366		"Cáceres"						""
+"CITY_NAME_CHANGE"		814842		"Montijo"						""
+"CITY_NAME_CHANGE"		6706367		"Villanueva de la Serena"				""
+"CITY_NAME_CHANGE"		67276785	"Llerena"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-GA] Galicia
 #====================================================================================
+"CITY_NAME_CHANGE"		351		"Lugo"							""
 "CITY_NAME_CHANGE"		354		"Ourense"						""
 "CITY_NAME_CHANGE"		361		"Vigo"							""
+"CITY_NAME_CHANGE"		377		"Pontevedra"						""
 "CITY_NAME_CHANGE"		378		"Ferrol"						""
+"CITY_NAME_CHANGE"		391		"Santiago de Compostela"				""
 "CITY_NAME_CHANGE"		814047		"Cerceda (A Coruña)"					""
+"CITY_NAME_CHANGE"		814061		"Villalba"						""
 "CITY_NAME_CHANGE"		7444856		"A Coruña"						""
+"CITY_NAME_CHANGE"		67050606	"O Carballiño"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-RI] La Rioja
 #====================================================================================
 "CITY_NAME_CHANGE"		350		"Logroño"						""
+"CITY_NAME_CHANGE"		1503467		"Nájera"						""
+"CITY_NAME_CHANGE"		4200574		"Calahorra"						""
+
+
+# CITY > [ESP] SPAIN > [ESP-ML] Melilla
+#====================================================================================
+"CITY_NAME_CHANGE"		109059		"Melilla"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-MC] Murcia
 #====================================================================================
 "CITY_NAME_CHANGE"		383		"Murcia"						""
+"CITY_NAME_CHANGE"		1503121		"La Unión"						""
+"CITY_NAME_CHANGE"		4203000		"Águilas"						""
 "CITY_NAME_CHANGE"		4203005		"Cartagena"						""
+"CITY_NAME_CHANGE"		4203020		"Yecla"							""
 "CITY_NAME_CHANGE"		67035551	"Guadalupe (Murcia)"					""
 
 
 # CITY > [ESP] SPAIN > [ESP-NC] Navarra
 #====================================================================================
 "CITY_NAME_CHANGE"		362		"Pamplona"						""
+"CITY_NAME_CHANGE"		814900		"Egüés"							""
+"CITY_NAME_CHANGE"		4212277		"Estella"						""
+"CITY_NAME_CHANGE"		4212421		"Tudela"						""
+"CITY_NAME_CHANGE"		7446434		"Mutilva Baja"						""
 
 
 # CITY > [ESP] SPAIN > [ESP-PV] País Vasco
 #====================================================================================
 "CITY_NAME_CHANGE"		340		"Bilbao"						""
+"CITY_NAME_CHANGE"		343		"Barakaldo"						""
 "CITY_NAME_CHANGE"		346		"Vitoria-Gasteiz"					""
 "CITY_NAME_CHANGE"		385		"San Sebastián"						""
+"CITY_NAME_CHANGE"		386		"Irún"							""
 "CITY_NAME_CHANGE"		390		"Eibar"							""
+"CITY_NAME_CHANGE"		392		"Lemona"						""
+"CITY_NAME_CHANGE"		109051		"Gernika"						""
+"CITY_NAME_CHANGE"		109055		"Beasain"						""
+"CITY_NAME_CHANGE"		109056		"Elgoibar"						""
+"CITY_NAME_CHANGE"		811341		"Azpeitia"						""
+"CITY_NAME_CHANGE"		814389		"Bergara"						""
+"CITY_NAME_CHANGE"		814393		"Sodupe"						""
+"CITY_NAME_CHANGE"		824177		"Portugalete"						""
+"CITY_NAME_CHANGE"		1503258		"Ondarroa"						""
+"CITY_NAME_CHANGE"		1503259		"Basauri"						""
+"CITY_NAME_CHANGE"		4200554		"Amurrio"						""
+"CITY_NAME_CHANGE"		4200557		"Bermeo"						""
+"CITY_NAME_CHANGE"		4209464		"Getxo"							""
+"CITY_NAME_CHANGE"		4212150		"Durango"						""
+"CITY_NAME_CHANGE"		4212159		"Zamudio"						""
+"CITY_NAME_CHANGE"		4212175		"Tolosa"						""
+"CITY_NAME_CHANGE"		4212202		"Hernani"						""
+"CITY_NAME_CHANGE"		4212264		"Zalla"							""
+"CITY_NAME_CHANGE"		4212618		"Orereta"						""
+"CITY_NAME_CHANGE"		4212660		"Santurtzi"						""
 "CITY_NAME_CHANGE"		6706356		"Amorebieta-Etxano"					""
+"CITY_NAME_CHANGE"		6706371		"Sestao"						""
+"CITY_NAME_CHANGE"		7446206		"Aretxabaleta"						""
+"CITY_NAME_CHANGE"		7446207		"Hondarribia"						""
+"CITY_NAME_CHANGE"		7446208		"Zumárraga"						""
+"CITY_NAME_CHANGE"		7446230		"Galdákano"						""
+"CITY_NAME_CHANGE"		7447573		"Lasarte"						""
+"CITY_NAME_CHANGE"		7447592		"Sopela"						""
+"CITY_NAME_CHANGE"		7448493		"Azkoitia"						""
+"CITY_NAME_CHANGE"		7448495		"Arrasate"						""
+"CITY_NAME_CHANGE"		7452066		"Llodio"						""
+"CITY_NAME_CHANGE"		7452069		"Pasaia"						""
+"CITY_NAME_CHANGE"		7455032		"Oñate"							""
+"CITY_NAME_CHANGE"		7455036		"Anzuola"						""
+"CITY_NAME_CHANGE"		7456970		"Usurbil"						""
+"CITY_NAME_CHANGE"		67000057	"Salvatierra"						""
+"CITY_NAME_CHANGE"		67008461	"Lazkao"						""
+"CITY_NAME_CHANGE"		67008462	"Oiartzun"						""
+"CITY_NAME_CHANGE"		67011899	"Orio"							""
+"CITY_NAME_CHANGE"		67011900	"Zarautz"						""
+"CITY_NAME_CHANGE"		67011901	"Errenteria"						""
+"CITY_NAME_CHANGE"		67011902	"Andoáin"						""
+"CITY_NAME_CHANGE"		67023834	"Arrigorriaga"						""
+"CITY_NAME_CHANGE"		67026124	"Zaldíbar"						""
+"CITY_NAME_CHANGE"		67040864	"Ermua"							""
+"CITY_NAME_CHANGE"		67040865	"Mutriku"						""
+"CITY_NAME_CHANGE"		67059754	"Deba"							""
+"CITY_NAME_CHANGE"		67059755	"Berriatua"						""
+"CITY_NAME_CHANGE"		67059944	"Ordizia"						""
+"CITY_NAME_CHANGE"		67059947	"Leioa"							""
+"CITY_NAME_CHANGE"		67066223	"Artea"							""
+"CITY_NAME_CHANGE"		67082896	"Gordexola"						""
+"CITY_NAME_CHANGE"		67101246	"Meñaka"						""
+"CITY_NAME_CHANGE"		67109002	"Derio"							""
+"CITY_NAME_CHANGE"		67167933	"Mundaka"						""
+"CITY_NAME_CHANGE"		67174169	"Balmaseda"						""
+"CITY_NAME_CHANGE"		67204075	"Erandio"						""
+"CITY_NAME_CHANGE"		67214597	"Mungía"						""
+"CITY_NAME_CHANGE"		67256164	"Muskiz"						""
+"CITY_NAME_CHANGE"		67259098	"Mondragón"						""
+"CITY_NAME_CHANGE"		2000000174	"Zumaia"						""
+"CITY_NAME_CHANGE"		2000000771	"Laguardia"						""
+"CITY_NAME_CHANGE"		2000000772	"Igorre"						""
+"CITY_NAME_CHANGE"		2000000773	"Abadiño"						""
+"CITY_NAME_CHANGE"		2000000774	"Gallarta"						""
+"CITY_NAME_CHANGE"		2000000775	"Busturia"						""
+"CITY_NAME_CHANGE"		2000000778	"Urdúliz"						""
+"CITY_NAME_CHANGE"		2000111513	"Lesaka"						""
+"CITY_NAME_CHANGE"		2000111519	"Larrabetzu"						""
 
 
 # CITY > [SRI] SRI LANKA > [SRI-2] Central Province
@@ -23275,6 +23479,7 @@
 "CITY_NAME_CHANGE"		656		"Pasadena (CA)"						""
 "CITY_NAME_CHANGE"		103114		"Los Angeles (CA)"					""
 "CITY_NAME_CHANGE"		157335		"Santa Clara (CA)"					""
+"CITY_NAME_CHANGE"		978161		"Carson (CA)"						""
 "CITY_NAME_CHANGE"		978624		"Sacramento (CA)"					""
 "CITY_NAME_CHANGE"		4400007		"San Francisco (CA)"					""
 "CITY_NAME_CHANGE"		20016391	"Concord (CA)"						""

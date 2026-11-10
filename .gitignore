@@ -42,4 +42,5 @@ Desktop.ini
 .idea/
 *.swp
 *.swo
+.git_codex_backup/
 
