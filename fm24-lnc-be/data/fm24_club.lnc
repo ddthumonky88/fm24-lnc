@@ -21238,6 +21238,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	928		"Rostock"						""
 "CLUB_3LETTER_NAME_CHANGE"	928		"HRO"							""
 
+"CLUB_CITY_CHANGE"		931		"616"							"" # <Karlsruhe>
 "CLUB_NAME_CHANGE"		931 		"Karlsruher SC Mühlburg-Phönix"				""
 "CLUB_SHORT_NAME_CHANGE"	931 		"Karlsruher SC"						""
 #"CLUB_6LETTER_NAME_CHANGE"	931		"Karlsruhe"						""
@@ -21255,6 +21256,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	945		"K'lautern"						""
 "CLUB_3LETTER_NAME_CHANGE"	945		"FCK"							""
 
+"CLUB_CITY_CHANGE"		946		"612"							"" # <Hamburg>
 "CLUB_NAME_CHANGE"		946 		"FC St. Pauli von 1910"					""
 "CLUB_SHORT_NAME_CHANGE"	946 		"St. Pauli"						""
 #"CLUB_6LETTER_NAME_CHANGE"	946 		"St. Pauli"						""
