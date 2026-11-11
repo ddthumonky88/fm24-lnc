@@ -1654,9 +1654,9 @@
 "CITY_NAME_CHANGE"		59006846	"Aparan"						""
 "CITY_NAME_CHANGE"		59006848	"Ashtarak"						""
 "CITY_NAME_CHANGE"		59085351	"Talin"							""
-"CITY_NAME_CHANGE"		59085430	"Agharak (Aragatsotn)"					""
-"CITY_NAME_CHANGE"		59085634	"Vardenis (Aragatsotn)"					""
-"CITY_NAME_CHANGE"		59085766	"Norashen (Aragatsotn)"					""
+"CITY_NAME_CHANGE"		59085430	"Agharak, Aragatsotn"					""
+"CITY_NAME_CHANGE"		59085634	"Vardenis, Aragatsotn"					""
+"CITY_NAME_CHANGE"		59085766	"Norashen, Aragatsotn"					""
 
 
 # CITY > [ARM] ARMENIA > [ARM-AR] Ararat marz
@@ -1665,7 +1665,7 @@
 "CITY_NAME_CHANGE"		59006847	"Artashat"						""
 "CITY_NAME_CHANGE"		59085354	"Vedi"							""
 "CITY_NAME_CHANGE"		59085356	"Masis"							""
-"CITY_NAME_CHANGE"		59085590	"Baghramyan (Ararat)"					""
+"CITY_NAME_CHANGE"		59085590	"Baghramyan, Ararat"					""
 
 
 # CITY > [ARM] ARMENIA > [ARM-AV] Armavir marz
@@ -1673,8 +1673,8 @@
 "CITY_NAME_CHANGE"		59048376	"Vagharshapat"						""
 "CITY_NAME_CHANGE"		59048377	"Armavir"						""
 "CITY_NAME_CHANGE"		59085358	"Metsamor"						""
-"CITY_NAME_CHANGE"		59085576	"Hatsik (Armavir)"					""
-"CITY_NAME_CHANGE"		59085592	"Baghramyan (Armavir)"					""
+"CITY_NAME_CHANGE"		59085576	"Hatsik, Armavir"					""
+"CITY_NAME_CHANGE"		59085592	"Baghramyan, Armavir"					""
 
 
 # CITY > [ARM] ARMENIA > [ARM-GR] Gegharkunik marz
@@ -1682,7 +1682,7 @@
 "CITY_NAME_CHANGE"		8084142		"Gavar"							""
 "CITY_NAME_CHANGE"		59006852	"Sevan"							""
 "CITY_NAME_CHANGE"		59048378	"Martuni"						""
-"CITY_NAME_CHANGE"		59085366	"Vardenis (Gegharkunik)"				""
+"CITY_NAME_CHANGE"		59085366	"Vardenis, Gegharkunik"				""
 "CITY_NAME_CHANGE"		59085368	"Chambarak"						""
 
 
@@ -1706,7 +1706,7 @@
 "CITY_NAME_CHANGE"		59085379	"Akhtala"						""
 "CITY_NAME_CHANGE"		59085381	"Tashir"						""
 "CITY_NAME_CHANGE"		59085383	"Tumanyan"						""
-"CITY_NAME_CHANGE"		59085822	"Teghut (Lori)"						""
+"CITY_NAME_CHANGE"		59085822	"Teghut, Lori"						""
 
 
 # CITY > [ARM] ARMENIA > [ARM-SH] Shirak marz
@@ -1714,14 +1714,14 @@
 "CITY_NAME_CHANGE"		484462		"Gyumri"						""
 "CITY_NAME_CHANGE"		1300045		"Artik"							""
 "CITY_NAME_CHANGE"		59085404	"Maralik"						""
-"CITY_NAME_CHANGE"		59085578	"Hatsik (Shirak)"					""
+"CITY_NAME_CHANGE"		59085578	"Hatsik, Shirak"					""
 
 
 # CITY > [ARM] ARMENIA > [ARM-SU] Syunik marz
 #====================================================================================
 "CITY_NAME_CHANGE"		1300053		"Goris"							""
 "CITY_NAME_CHANGE"		59006201	"Kapan"							""
-"CITY_NAME_CHANGE"		59085387	"Agharak (Syunik)"					""
+"CITY_NAME_CHANGE"		59085387	"Agharak, Syunik"					""
 "CITY_NAME_CHANGE"		59085396	"Sisian"						""
 
 
@@ -1731,8 +1731,8 @@
 "CITY_NAME_CHANGE"		59006849	"Dilijan"						""
 "CITY_NAME_CHANGE"		59085398	"Berd"							""
 "CITY_NAME_CHANGE"		59085400	"Ayrum"							""
-"CITY_NAME_CHANGE"		59085768	"Norashen (Tavush)"					""
-"CITY_NAME_CHANGE"		59085824	"Teghut (Tavush)"					""
+"CITY_NAME_CHANGE"		59085768	"Norashen, Tavush"					""
+"CITY_NAME_CHANGE"		59085824	"Teghut, Tavush"					""
 
 
 # CITY > [ARM] ARMENIA > [ARM-VD] Vayots Dzor marz
@@ -1799,7 +1799,7 @@
 
 # CITY > [AUS] AUSTRALIA > [AUS-NN] Northern NSW
 #====================================================================================
-"CITY_NAME_CHANGE"		123011		"Newcastle (NSW)"					""
+"CITY_NAME_CHANGE"		123011		"Newcastle, NSW"					""
 "CITY_NAME_CHANGE"		426771		"Coffs Harbour"						""
 "CITY_NAME_CHANGE"		8457130		"Lismore"						""
 "CITY_NAME_CHANGE"		15000670	"Tamworth"						""
@@ -1842,7 +1842,7 @@
 "CITY_NAME_CHANGE"		104447		"Brisbane"						""
 "CITY_NAME_CHANGE"		426790		"Bundaberg"						""
 "CITY_NAME_CHANGE"		426795		"Gold Coast"						""
-"CITY_NAME_CHANGE"		426798		"Ipswich (QLD)"						""
+"CITY_NAME_CHANGE"		426798		"Ipswich, QLD"						""
 "CITY_NAME_CHANGE"		426813		"Toowoomba"						""
 "CITY_NAME_CHANGE"		8455155		"Rockhampton"						""
 "CITY_NAME_CHANGE"		8455156		"Cairns"						""
@@ -1856,10 +1856,10 @@
 "CITY_NAME_CHANGE"		15053349	"Innisfail"						""
 "CITY_NAME_CHANGE"		15053784	"Ingham"						""
 "CITY_NAME_CHANGE"		15056662	"Kingaroy"						""
-"CITY_NAME_CHANGE"		15059422	"Roma (QLD)"						""
+"CITY_NAME_CHANGE"		15059422	"Roma, QLD"						""
 "CITY_NAME_CHANGE"		15059423	"Gladstone"						""
-"CITY_NAME_CHANGE"		15064269	"Ayr (QLD)"						""
-"CITY_NAME_CHANGE"		15064782	"Warwick (QLD)"						""
+"CITY_NAME_CHANGE"		15064269	"Ayr, QLD"						""
+"CITY_NAME_CHANGE"		15064782	"Warwick, QLD"						""
 "CITY_NAME_CHANGE"		2000091056	"Stanthorpe"						""
 "CITY_NAME_CHANGE"		2000122819	"Gatton"						""
 "CITY_NAME_CHANGE"		2000124520	"Mount Tamborine"					""
@@ -1910,7 +1910,7 @@
 "CITY_NAME_CHANGE"		15025796	"Torquay"						""
 "CITY_NAME_CHANGE"		15047069	"Warragul"						""
 "CITY_NAME_CHANGE"		15054984	"Myrtleford"						""
-"CITY_NAME_CHANGE"		15057963	"Sale (VIC)"						""
+"CITY_NAME_CHANGE"		15057963	"Sale, VIC"						""
 "CITY_NAME_CHANGE"		15059412	"Mildura"						""
 "CITY_NAME_CHANGE"		15059413	"Warrnambool"						""
 "CITY_NAME_CHANGE"		15060112	"Wangaratta"						""
@@ -1921,7 +1921,7 @@
 "CITY_NAME_CHANGE"		2000134029	"Inverloch"						""
 "CITY_NAME_CHANGE"		2000134031	"Phillip Island"					""
 "CITY_NAME_CHANGE"		2000134052	"Bairnsdale"						""
-"CITY_NAME_CHANGE"		2000134103	"Portland (VIC)"					""
+"CITY_NAME_CHANGE"		2000134103	"Portland, VIC"					""
 "CITY_NAME_CHANGE"		2000134105	"Stawell"						""
 "CITY_NAME_CHANGE"		2000134107	"Hamilton"						""
 
@@ -3949,192 +3949,192 @@
 
 # CITY > [BUL] BULGARIA > [BUL-01] obl. Blagoevgrad
 #====================================================================================
-"CITY_NAME_CHANGE"		22012396	"Ivanovo (obl. Blagoevgrad)"				""
-"CITY_NAME_CHANGE"		22014505	"Delchevo (obl. Blagoevgrad)"				""
-"CITY_NAME_CHANGE"		22014947	"Ablanitsa (obl. Blagoevgrad)"				""
-"CITY_NAME_CHANGE"		22023367	"Sadovo (obl. Blagoevgrad)"				""
-"CITY_NAME_CHANGE"		22034024	"Gorno Draglishte (obl. Blagoevgrad)"			""
-"CITY_NAME_CHANGE"		22034025	"Dolno Draglishte (obl. Blagoevgrad)"			""
+"CITY_NAME_CHANGE"		22012396	"Ivanovo, obl. Blagoevgrad"				""
+"CITY_NAME_CHANGE"		22014505	"Delchevo, obl. Blagoevgrad"				""
+"CITY_NAME_CHANGE"		22014947	"Ablanitsa, obl. Blagoevgrad"				""
+"CITY_NAME_CHANGE"		22023367	"Sadovo, obl. Blagoevgrad"				""
+"CITY_NAME_CHANGE"		22034024	"Gorno Draglishte, obl. Blagoevgrad"			""
+"CITY_NAME_CHANGE"		22034025	"Dolno Draglishte, obl. Blagoevgrad"			""
 
 
 # CITY > [BUL] BULGARIA > [BUL-02] obl. Burgas
 #====================================================================================
-"CITY_NAME_CHANGE"		22018383	"Draganovo (obl. Burgas)"				""
-"CITY_NAME_CHANGE"		22018386	"Kiten (obl. Burgas)"					""
-"CITY_NAME_CHANGE"		22023366	"Sadovo (obl. Burgas)"					""
-"CITY_NAME_CHANGE"		22035304	"Zetyovo (obl. Burgas)"					""
+"CITY_NAME_CHANGE"		22018383	"Draganovo, obl. Burgas"				""
+"CITY_NAME_CHANGE"		22018386	"Kiten, obl. Burgas"					""
+"CITY_NAME_CHANGE"		22023366	"Sadovo, obl. Burgas"					""
+"CITY_NAME_CHANGE"		22035304	"Zetyovo, obl. Burgas"					""
 
 
 # CITY > [BUL] BULGARIA > [BUL-08] obl. Dobrich
 #====================================================================================
-"CITY_NAME_CHANGE"		22012399	"Pobeda (obl. Dobrich)"					""
-"CITY_NAME_CHANGE"		22012403	"Tsarevets (obl. Dobrich)"				""
-"CITY_NAME_CHANGE"		22018385	"Draganovo (obl. Dobrich)"				""
-"CITY_NAME_CHANGE"		22033919	"Zhitnitsa (obl. Dobrich)"				""
+"CITY_NAME_CHANGE"		22012399	"Pobeda, obl. Dobrich"					""
+"CITY_NAME_CHANGE"		22012403	"Tsarevets, obl. Dobrich"				""
+"CITY_NAME_CHANGE"		22018385	"Draganovo, obl. Dobrich"				""
+"CITY_NAME_CHANGE"		22033919	"Zhitnitsa, obl. Dobrich"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-26] obl. Haskovo
 #====================================================================================
-"CITY_NAME_CHANGE"		22012398	"Ivanovo (obl. Haskovo)"				""
-"CITY_NAME_CHANGE"		22012716	"Oreshets (obl. Haskovo)"				""
-"CITY_NAME_CHANGE"		22012719	"Nikolovo (obl. Haskovo)"				""
-"CITY_NAME_CHANGE"		22013039	"Slavyanovo (obl. Haskovo)"				""
-"CITY_NAME_CHANGE"		22017069	"Stambolovo (obl. Haskovo)"				""
-"CITY_NAME_CHANGE"		22033879	"Studena (obl. Haskovo)"				""
-"CITY_NAME_CHANGE"		2000085370	"Gorski Izvor (obl. Haskovo)"				""
+"CITY_NAME_CHANGE"		22012398	"Ivanovo, obl. Haskovo"				""
+"CITY_NAME_CHANGE"		22012716	"Oreshets, obl. Haskovo"				""
+"CITY_NAME_CHANGE"		22012719	"Nikolovo, obl. Haskovo"				""
+"CITY_NAME_CHANGE"		22013039	"Slavyanovo, obl. Haskovo"				""
+"CITY_NAME_CHANGE"		22017069	"Stambolovo, obl. Haskovo"				""
+"CITY_NAME_CHANGE"		22033879	"Studena, obl. Haskovo"				""
+"CITY_NAME_CHANGE"		2000085370	"Gorski Izvor, obl. Haskovo"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-09] obl. Kardzhali
 #====================================================================================
-"CITY_NAME_CHANGE"		22012405	"Tsarevets (obl. Kardzhali)"				""
-"CITY_NAME_CHANGE"		22012921	"Chiflik (obl. Kardzhali)"				""
-"CITY_NAME_CHANGE"		22018384	"Draganovo (obl. Kardzhali)"				""
-"CITY_NAME_CHANGE"		22033918	"Zhitnitsa (obl. Kardzhali)"				""
-"CITY_NAME_CHANGE"		22036853	"Yarebitsa (obl. Kardzhali)"				""
+"CITY_NAME_CHANGE"		22012405	"Tsarevets, obl. Kardzhali"				""
+"CITY_NAME_CHANGE"		22012921	"Chiflik, obl. Kardzhali"				""
+"CITY_NAME_CHANGE"		22018384	"Draganovo, obl. Kardzhali"				""
+"CITY_NAME_CHANGE"		22033918	"Zhitnitsa, obl. Kardzhali"				""
+"CITY_NAME_CHANGE"		22036853	"Yarebitsa, obl. Kardzhali"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-11] obl. Lovech
 #====================================================================================
-"CITY_NAME_CHANGE"		22012920	"Chiflik (obl. Lovech)"					""
-"CITY_NAME_CHANGE"		22014945	"Yablanitsa (obl. Lovech)"				""
-"CITY_NAME_CHANGE"		22014949	"Ablanitsa (obl. Lovech)"				""
+"CITY_NAME_CHANGE"		22012920	"Chiflik, obl. Lovech"					""
+"CITY_NAME_CHANGE"		22014945	"Yablanitsa, obl. Lovech"				""
+"CITY_NAME_CHANGE"		22014949	"Ablanitsa, obl. Lovech"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-12] obl. Montana
 #====================================================================================
-"CITY_NAME_CHANGE"		22012720	"Nikolovo (obl. Montana)"				""
+"CITY_NAME_CHANGE"		22012720	"Nikolovo, obl. Montana"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-13] obl. Pazardzhik
 #====================================================================================
-"CITY_NAME_CHANGE"		7505768		"Kovachevo (obl. Pazardzhik)"				""
-"CITY_NAME_CHANGE"		22014948	"Ablanitsa (obl. Pazardzhik)"				""
+"CITY_NAME_CHANGE"		7505768		"Kovachevo, obl. Pazardzhik"				""
+"CITY_NAME_CHANGE"		22014948	"Ablanitsa, obl. Pazardzhik"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-14] obl. Pernik
 #====================================================================================
-"CITY_NAME_CHANGE"		22033878	"Studena (obl. Pernik)"					""
+"CITY_NAME_CHANGE"		22033878	"Studena, obl. Pernik"					""
 
 
 # CITY > [BUL] BULGARIA > [BUL-15] obl. Pleven
 #====================================================================================
-"CITY_NAME_CHANGE"		7500240		"Pobeda (obl. Pleven)"					""
-"CITY_NAME_CHANGE"		22012718	"Trastenik (obl. Pleven)"				""
-"CITY_NAME_CHANGE"		22013037	"Slavyanovo (obl. Pleven)"				""
+"CITY_NAME_CHANGE"		7500240		"Pobeda, obl. Pleven"					""
+"CITY_NAME_CHANGE"		22012718	"Trastenik, obl. Pleven"				""
+"CITY_NAME_CHANGE"		22013037	"Slavyanovo, obl. Pleven"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-16] obl. Plovdiv
 #====================================================================================
-"CITY_NAME_CHANGE"		22012915	"Kaloyanovo (obl. Plovdiv)"				""
-"CITY_NAME_CHANGE"		22023364	"Sadovo (obl. Plovdiv)"					""
-"CITY_NAME_CHANGE"		22033917	"Zhitnitsa (obl. Plovdiv)"				""
-"CITY_NAME_CHANGE"		22033969	"Orizari (obl. Plovdiv)"				""
-"CITY_NAME_CHANGE"		22033977	"Ezerovo (obl. Plovdiv)"				""
-"CITY_NAME_CHANGE"		22037089	"Byala reka (obl. Plovdiv)"				""
+"CITY_NAME_CHANGE"		22012915	"Kaloyanovo, obl. Plovdiv"				""
+"CITY_NAME_CHANGE"		22023364	"Sadovo, obl. Plovdiv"					""
+"CITY_NAME_CHANGE"		22033917	"Zhitnitsa, obl. Plovdiv"				""
+"CITY_NAME_CHANGE"		22033969	"Orizari, obl. Plovdiv"				""
+"CITY_NAME_CHANGE"		22033977	"Ezerovo, obl. Plovdiv"				""
+"CITY_NAME_CHANGE"		22037089	"Byala reka, obl. Plovdiv"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-17] obl. Razgrad
 #====================================================================================
 "CITY_NAME_CHANGE"		7500244		"Razgrad"						""
-"CITY_NAME_CHANGE"		22014506	"Delchevo (obl. Razgrad)"				""
+"CITY_NAME_CHANGE"		22014506	"Delchevo, obl. Razgrad"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-18] obl. Ruse
 #====================================================================================
-"CITY_NAME_CHANGE"		7500242		"Byala (obl. Ruse)"					""
-"CITY_NAME_CHANGE"		7505620		"Trastenik (obl. Ruse)"					""
-"CITY_NAME_CHANGE"		7505623		"Otritsa (obl. Ruse)"					""
-"CITY_NAME_CHANGE"		7505626		"Ivanovo (obl. Ruse)"					""
-"CITY_NAME_CHANGE"		7505629		"Tsenovo (obl. Ruse)"					""
-"CITY_NAME_CHANGE"		7506064		"Nikolovo (obl. Ruse)"					""
-"CITY_NAME_CHANGE"		22017070	"Stambolovo (obl. Ruse)"				""
+"CITY_NAME_CHANGE"		7500242		"Byala, obl. Ruse"					""
+"CITY_NAME_CHANGE"		7505620		"Trastenik, obl. Ruse"					""
+"CITY_NAME_CHANGE"		7505623		"Otritsa, obl. Ruse"					""
+"CITY_NAME_CHANGE"		7505626		"Ivanovo, obl. Ruse"					""
+"CITY_NAME_CHANGE"		7505629		"Tsenovo, obl. Ruse"					""
+"CITY_NAME_CHANGE"		7506064		"Nikolovo, obl. Ruse"					""
+"CITY_NAME_CHANGE"		22017070	"Stambolovo, obl. Ruse"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-27] obl. Shumen
 #====================================================================================
-"CITY_NAME_CHANGE"		22012397	"Ivanovo (obl. Shumen)"					""
-"CITY_NAME_CHANGE"		22018583	"kv. Divdyadovo (obl. Shumen)"				""
-"CITY_NAME_CHANGE"		22037088	"Byala reka (obl. Shumen)"				""
+"CITY_NAME_CHANGE"		22012397	"Ivanovo, obl. Shumen"					""
+"CITY_NAME_CHANGE"		22018583	"kv. Divdyadovo, obl. Shumen"				""
+"CITY_NAME_CHANGE"		22037088	"Byala reka, obl. Shumen"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-19] obl. Silistra
 #====================================================================================
-"CITY_NAME_CHANGE"		22036852	"Yarebitsa (obl. Silistra)"				""
+"CITY_NAME_CHANGE"		22036852	"Yarebitsa, obl. Silistra"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-20] obl. Sliven
 #====================================================================================
-"CITY_NAME_CHANGE"		22012916	"Kaloyanovo (obl. Sliven)"				""
-"CITY_NAME_CHANGE"		22033970	"Orizari (obl. Sliven)"					""
+"CITY_NAME_CHANGE"		22012916	"Kaloyanovo, obl. Sliven"				""
+"CITY_NAME_CHANGE"		22033970	"Orizari, obl. Sliven"					""
 
 
 # CITY > [BUL] BULGARIA > [BUL-21] obl. Smolyan
 #====================================================================================
-"CITY_NAME_CHANGE"		22012394	"Otritsa (obl. Smolyan)"				""
-"CITY_NAME_CHANGE"		22033880	"Studena (obl. Smolyan)"				""
-"CITY_NAME_CHANGE"		22037090	"Byala reka (obl. Smolyan)"				""
+"CITY_NAME_CHANGE"		22012394	"Otritsa, obl. Smolyan"				""
+"CITY_NAME_CHANGE"		22033880	"Studena, obl. Smolyan"				""
+"CITY_NAME_CHANGE"		22037090	"Byala reka, obl. Smolyan"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-23] obl. Sofia
 #====================================================================================
-"CITY_NAME_CHANGE"		7500902		"kv. Gorublyane (obl. Sofia)"				""
-"CITY_NAME_CHANGE"		22014946	"Yablanitsa (obl. Sofia)"				""
-"CITY_NAME_CHANGE"		22017071	"Stambolovo (obl. Sofia)"				""
-"CITY_NAME_CHANGE"		22023975	"Lipnitsa (obl. Sofia)"					""
-"CITY_NAME_CHANGE"		22033921	"Zlatitsa (obl. Sofia)"					""
-"CITY_NAME_CHANGE"		22076786	"Bistritsa (obl. Sofia)"				""
-"CITY_NAME_CHANGE"		22080871	"Chepintsi (obl. Sofia)"				""
+"CITY_NAME_CHANGE"		7500902		"kv. Gorublyane, obl. Sofia"				""
+"CITY_NAME_CHANGE"		22014946	"Yablanitsa, obl. Sofia"				""
+"CITY_NAME_CHANGE"		22017071	"Stambolovo, obl. Sofia"				""
+"CITY_NAME_CHANGE"		22023975	"Lipnitsa, obl. Sofia"					""
+"CITY_NAME_CHANGE"		22033921	"Zlatitsa, obl. Sofia"					""
+"CITY_NAME_CHANGE"		22076786	"Bistritsa, obl. Sofia"				""
+"CITY_NAME_CHANGE"		22080871	"Chepintsi, obl. Sofia"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-24] obl. Stara Zagora
 #====================================================================================
-"CITY_NAME_CHANGE"		22012395	"Tsenovo (obl. Stara Zagora)"				""
-"CITY_NAME_CHANGE"		22012401	"Hadzhidimitrovo (obl. Stara Zagora)"			""
-"CITY_NAME_CHANGE"		22012717	"Kovachevo (obl. Stara Zagora)"				""
-"CITY_NAME_CHANGE"		22035305	"Zetyovo (obl. Stara Zagora)"				""
+"CITY_NAME_CHANGE"		22012395	"Tsenovo, obl. Stara Zagora"				""
+"CITY_NAME_CHANGE"		22012401	"Hadzhidimitrovo, obl. Stara Zagora"			""
+"CITY_NAME_CHANGE"		22012717	"Kovachevo, obl. Stara Zagora"				""
+"CITY_NAME_CHANGE"		22035305	"Zetyovo, obl. Stara Zagora"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-25] obl. Targovishte
 #====================================================================================
-"CITY_NAME_CHANGE"		22013038	"Slavyanovo (obl. Targovishte)"				""
+"CITY_NAME_CHANGE"		22013038	"Slavyanovo, obl. Targovishte"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-03] obl. Varna
 #====================================================================================
 #"CITY_NAME_CHANGE"		7505638		"Byala (obl. Varna)"					""
-"CITY_NAME_CHANGE"		22018387	"Kiten (obl. Varna)"					""
-"CITY_NAME_CHANGE"		22023365	"Sadovo (obl. Varna)"					""
-"CITY_NAME_CHANGE"		22033920	"Zhitnitsa (obl. Varna)"				""
-"CITY_NAME_CHANGE"		22033976	"Ezerovo (obl. Varna)"					""
-"CITY_NAME_CHANGE"		22065265	"Byala (obl. Varna)"					""
-"CITY_NAME_CHANGE"		2000000743	"Topoli (obl. Varna)"					""
+"CITY_NAME_CHANGE"		22018387	"Kiten, obl. Varna"					""
+"CITY_NAME_CHANGE"		22023365	"Sadovo, obl. Varna"					""
+"CITY_NAME_CHANGE"		22033920	"Zhitnitsa, obl. Varna"				""
+"CITY_NAME_CHANGE"		22033976	"Ezerovo, obl. Varna"					""
+"CITY_NAME_CHANGE"		22065265	"Byala, obl. Varna"					""
+"CITY_NAME_CHANGE"		2000000743	"Topoli, obl. Varna"					""
 
 
 # CITY > [BUL] BULGARIA > [BUL-04] obl. Veliko Tarnovo
 #====================================================================================
-"CITY_NAME_CHANGE"		7501901		"Tsarevets (obl. Veliko Tarnovo)"			""
-"CITY_NAME_CHANGE"		7505777		"Hadzhidimitrovo (obl. Veliko Tarnovo)"			""
-"CITY_NAME_CHANGE"		22017072	"Stambolovo (obl. Veliko Tarnovo)"			""
-"CITY_NAME_CHANGE"		22018382	"Draganovo (obl. Veliko Tarnovo)"			""
-"CITY_NAME_CHANGE"		22037087	"Byala reka (obl. Veliko Tarnovo)"			""
+"CITY_NAME_CHANGE"		7501901		"Tsarevets, obl. Veliko Tarnovo"			""
+"CITY_NAME_CHANGE"		7505777		"Hadzhidimitrovo, obl. Veliko Tarnovo"			""
+"CITY_NAME_CHANGE"		22017072	"Stambolovo, obl. Veliko Tarnovo"			""
+"CITY_NAME_CHANGE"		22018382	"Draganovo, obl. Veliko Tarnovo"			""
+"CITY_NAME_CHANGE"		22037087	"Byala reka, obl. Veliko Tarnovo"			""
 
 
 # CITY > [BUL] BULGARIA > [BUL-05] obl. Vidin
 #====================================================================================
-"CITY_NAME_CHANGE"		7501909		"Oreshets (obl. Vidin)"					""
-"CITY_NAME_CHANGE"		22012919	"Chiflik (obl. Vidin)"					""
+"CITY_NAME_CHANGE"		7501909		"Oreshets, obl. Vidin"					""
+"CITY_NAME_CHANGE"		22012919	"Chiflik, obl. Vidin"					""
 
 
 # CITY > [BUL] BULGARIA > [BUL-06] obl. Vratsa
 #====================================================================================
-"CITY_NAME_CHANGE"		22012404	"Tsarevets (obl. Vratsa)"				""
-"CITY_NAME_CHANGE"		22023976	"Lipnitsa (obl. Vratsa)"				""
+"CITY_NAME_CHANGE"		22012404	"Tsarevets, obl. Vratsa"				""
+"CITY_NAME_CHANGE"		22023976	"Lipnitsa, obl. Vratsa"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-28] obl. Yambol
 #====================================================================================
-"CITY_NAME_CHANGE"		22012400	"Pobeda (obl. Yambol)"					""
-"CITY_NAME_CHANGE"		22012402	"Hadzhidimitrovo (obl. Yambol)"				""
+"CITY_NAME_CHANGE"		22012400	"Pobeda, obl. Yambol"					""
+"CITY_NAME_CHANGE"		22012402	"Hadzhidimitrovo, obl. Yambol"				""
 
 
 # CITY > [BFA] BURKINA FASO > [BFA-01] Boucle du Mouhoun
@@ -4983,7 +4983,7 @@
 
 # CITY > [CHN] CHINA PR > [CHN-AH] Anhui Province
 #====================================================================================
-"CITY_NAME_CHANGE"		1013205		"Suzhou (Anhui)"					""
+"CITY_NAME_CHANGE"		1013205		"Suzhou, Anhui"					""
 "CITY_NAME_CHANGE"		1013206		"Chaohu"						""
 "CITY_NAME_CHANGE"		1016660		"Lu'an"							""
 "CITY_NAME_CHANGE"		1016706		"Xuancheng"						""
@@ -4991,7 +4991,7 @@
 "CITY_NAME_CHANGE"		1016755		"Jerudong"						""
 "CITY_NAME_CHANGE"		5620161		"Hefei"							""
 "CITY_NAME_CHANGE"		5627733		"Bengbu"						""
-"CITY_NAME_CHANGE"		5636579		"Fuyang (Anhui)"					""
+"CITY_NAME_CHANGE"		5636579		"Fuyang, Anhui"					""
 "CITY_NAME_CHANGE"		5636580		"Huainan"						""
 "CITY_NAME_CHANGE"		5636589		"Anqing"						""
 
@@ -5014,9 +5014,9 @@
 "CITY_NAME_CHANGE"		1023821		"Zhangzhou"						""
 "CITY_NAME_CHANGE"		1023822		"Nanping"						""
 "CITY_NAME_CHANGE"		1023823		"Ningde"						""
-"CITY_NAME_CHANGE"		5620160		"Fuzhou (Fujian)"					""
+"CITY_NAME_CHANGE"		5620160		"Fuzhou, Fujian"					""
 "CITY_NAME_CHANGE"		5625734		"Longyan"						""
-"CITY_NAME_CHANGE"		5628520		"Jianyang (Fujian)"					""
+"CITY_NAME_CHANGE"		5628520		"Jianyang, Fujian"					""
 "CITY_NAME_CHANGE"		5636594		"Quanzhou"						""
 
 
@@ -5064,12 +5064,12 @@
 "CITY_NAME_CHANGE"		131146		"Nanning"						""
 "CITY_NAME_CHANGE"		1023875		"Qinzhou"						""
 "CITY_NAME_CHANGE"		1023876		"Guigang"						""
-"CITY_NAME_CHANGE"		1023877		"Yulin (Guangxi)"					""
+"CITY_NAME_CHANGE"		1023877		"Yulin, Guangxi"					""
 "CITY_NAME_CHANGE"		1023878		"Baise"							""
 "CITY_NAME_CHANGE"		5625394		"Guilin"						""
 "CITY_NAME_CHANGE"		5625396		"Hechi"							""
 "CITY_NAME_CHANGE"		5627454		"Wuzhou"						""
-"CITY_NAME_CHANGE"		23354554	"Pingxiang (Guangxi)"					""
+"CITY_NAME_CHANGE"		23354554	"Pingxiang, Guangxi"					""
 
 
 # CITY > [CHN] CHINA PR > [CHN-GZ] Guizhou Province
@@ -5077,7 +5077,7 @@
 "CITY_NAME_CHANGE"		135992		"Guiyang"						""
 "CITY_NAME_CHANGE"		1016778		"Zunyi"							""
 "CITY_NAME_CHANGE"		1023895		"Liupanshui"						""
-"CITY_NAME_CHANGE"		1023897		"Tongren (Guizhou)"					""
+"CITY_NAME_CHANGE"		1023897		"Tongren, Guizhou"					""
 
 
 # CITY > [CHN] CHINA PR > [CHN-HI] Hainan Province
@@ -5104,7 +5104,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		131157		"Harbin"						""
 "CITY_NAME_CHANGE"		1010092		"Qiqihar"						""
-"CITY_NAME_CHANGE"		1016674		"Yichun (Heilongjiang)"					""
+"CITY_NAME_CHANGE"		1016674		"Yichun, Heilongjiang"					""
 "CITY_NAME_CHANGE"		1016685		"Mudanjiang"						""
 "CITY_NAME_CHANGE"		1023794		"Suihua"						""
 "CITY_NAME_CHANGE"		5622757		"Daqing"						""
@@ -5113,7 +5113,7 @@
 # CITY > [CHN] CHINA PR > [CHN-HA] Henan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		131164		"Xinxiang"						""
-"CITY_NAME_CHANGE"		1016679		"Anyang (Henan)"					""
+"CITY_NAME_CHANGE"		1016679		"Anyang, Henan"					""
 "CITY_NAME_CHANGE"		1016689		"Zhoukou"						""
 "CITY_NAME_CHANGE"		1016739		"Jiaozuo"						""
 "CITY_NAME_CHANGE"		1016782		"Puyang"						""
@@ -5166,7 +5166,7 @@
 "CITY_NAME_CHANGE"		1016731		"Tongliao"						""
 "CITY_NAME_CHANGE"		1023778		"Chifeng"						""
 "CITY_NAME_CHANGE"		1023780		"Hulunbuir"						""
-"CITY_NAME_CHANGE"		1023781		"Jining (Neimenggu)"					""
+"CITY_NAME_CHANGE"		1023781		"Jining, Neimenggu"					""
 
 
 # CITY > [CHN] CHINA PR > [CHN-JS] Jiangsu Province
@@ -5178,11 +5178,11 @@
 "CITY_NAME_CHANGE"		5620150		"Wuxi"							""
 "CITY_NAME_CHANGE"		5620171		"Xuzhou"						""
 "CITY_NAME_CHANGE"		5622079		"Yangzhou"						""
-"CITY_NAME_CHANGE"		5625731		"Suzhou (Jiangsu)"					""
+"CITY_NAME_CHANGE"		5625731		"Suzhou, Jiangsu"					""
 "CITY_NAME_CHANGE"		5627782		"Lianyungang"						""
 "CITY_NAME_CHANGE"		5636583		"Changzhou"						""
 "CITY_NAME_CHANGE"		5636584		"Nantong"						""
-"CITY_NAME_CHANGE"		5636585		"Taizhou (Jiangsu)"					""
+"CITY_NAME_CHANGE"		5636585		"Taizhou, Jiangsu"					""
 "CITY_NAME_CHANGE"		5636586		"Zhenjiang"						""
 
 
@@ -5191,9 +5191,9 @@
 "CITY_NAME_CHANGE"		131174		"Nanchang"						""
 "CITY_NAME_CHANGE"		1005865		"Ganzhou"						""
 "CITY_NAME_CHANGE"		1016653		"Jiujiang"						""
-"CITY_NAME_CHANGE"		1016691		"Yichun (Jiangxi)"					""
-"CITY_NAME_CHANGE"		1016740		"Pingxiang (Jiangxi)"					""
-"CITY_NAME_CHANGE"		1016768		"Fuzhou (Jiangxi)"					""
+"CITY_NAME_CHANGE"		1016691		"Yichun, Jiangxi"					""
+"CITY_NAME_CHANGE"		1016740		"Pingxiang, Jiangxi"					""
+"CITY_NAME_CHANGE"		1016768		"Fuzhou, Jiangxi"					""
 "CITY_NAME_CHANGE"		1023826		"Ji'an"							""
 "CITY_NAME_CHANGE"		1023827		"Shangrao"						""
 
@@ -5212,7 +5212,7 @@
 "CITY_NAME_CHANGE"		128057		"Dalian"						""
 "CITY_NAME_CHANGE"		131180		"Anshan"						""
 "CITY_NAME_CHANGE"		136616		"Jinzhou"						""
-"CITY_NAME_CHANGE"		1016669		"Tai'an (Liaoning)"					""
+"CITY_NAME_CHANGE"		1016669		"Tai'an, Liaoning"					""
 "CITY_NAME_CHANGE"		1016736		"Chaoyang"						""
 "CITY_NAME_CHANGE"		5625330		"Huludao"						""
 "CITY_NAME_CHANGE"		5633293		"Tieling"						""
@@ -5220,16 +5220,16 @@
 
 # CITY > [CHN] CHINA PR > [CHN-QH] Qinghai Province
 #====================================================================================
-"CITY_NAME_CHANGE"		1023931		"Tongren (Qinghai)"					""
+"CITY_NAME_CHANGE"		1023931		"Tongren, Qinghai"					""
 
 
 # CITY > [CHN] CHINA PR > [CHN-SN] Shaanxi Province
 #====================================================================================
 "CITY_NAME_CHANGE"		131204		"Xi'an"							""
-"CITY_NAME_CHANGE"		1016654		"Dali (Shaanxi)"					""
+"CITY_NAME_CHANGE"		1016654		"Dali, Shaanxi"					""
 "CITY_NAME_CHANGE"		1016678		"Ankang"						""
 "CITY_NAME_CHANGE"		1016738		"Weinan"						""
-"CITY_NAME_CHANGE"		1023913		"Yulin (Shaanxi)"					""
+"CITY_NAME_CHANGE"		1023913		"Yulin, Shaanxi"					""
 "CITY_NAME_CHANGE"		5620119		"Baoji"							""
 "CITY_NAME_CHANGE"		5626170		"Xianyang"						""
 "CITY_NAME_CHANGE"		5626270		"Hanzhong"						""
@@ -5281,8 +5281,8 @@
 "CITY_NAME_CHANGE"		5620137		"Jiaozhou"						""
 "CITY_NAME_CHANGE"		5622755		"Zibo"							""
 "CITY_NAME_CHANGE"		5625259		"Qufu"							""
-"CITY_NAME_CHANGE"		5625260		"Jining (Shandong)"					""
-"CITY_NAME_CHANGE"		5627428		"Tai'an (Shandong)"					""
+"CITY_NAME_CHANGE"		5625260		"Jining, Shandong"					""
+"CITY_NAME_CHANGE"		5627428		"Tai'an, Shandong"					""
 "CITY_NAME_CHANGE"		5627781		"Yantai"						""
 "CITY_NAME_CHANGE"		5627783		"Linyi"							""
 "CITY_NAME_CHANGE"		5627784		"Weifang"						""
@@ -5320,7 +5320,7 @@
 "CITY_NAME_CHANGE"		1023892		"Guang'an"						""
 "CITY_NAME_CHANGE"		1023893		"Meishan"						""
 "CITY_NAME_CHANGE"		1023894		"Ziyang"						""
-"CITY_NAME_CHANGE"		1023968		"Jianyang (Sichuan)"					""
+"CITY_NAME_CHANGE"		1023968		"Jianyang, Sichuan"					""
 "CITY_NAME_CHANGE"		5620121		"Deyang"						""
 "CITY_NAME_CHANGE"		5622938		"Nanchong"						""
 "CITY_NAME_CHANGE"		5626558		"Leshan"						""
@@ -5338,15 +5338,15 @@
 "CITY_NAME_CHANGE"		1002817		"Honghe"						""
 "CITY_NAME_CHANGE"		1003252		"Qujing"						""
 "CITY_NAME_CHANGE"		1023904		"Zhaotong"						""
-"CITY_NAME_CHANGE"		1023908		"Dali (Yunnan)"						""
+"CITY_NAME_CHANGE"		1023908		"Dali, Yunnan"						""
 
 
 # CITY > [CHN] CHINA PR > [CHN-ZJ] Zhejiang Province
 #====================================================================================
 "CITY_NAME_CHANGE"		131231		"Hangzhou"						""
-"CITY_NAME_CHANGE"		1023800		"Fuyang (Zhejiang)"					""
+"CITY_NAME_CHANGE"		1023800		"Fuyang, Zhejiang"					""
 "CITY_NAME_CHANGE"		1023805		"Huzhou"						""
-"CITY_NAME_CHANGE"		1023815		"Taizhou (Zhejiang)"					""
+"CITY_NAME_CHANGE"		1023815		"Taizhou, Zhejiang"					""
 "CITY_NAME_CHANGE"		5620167		"Ningbo"						""
 "CITY_NAME_CHANGE"		5620169		"Wenzhou"						""
 "CITY_NAME_CHANGE"		5627455		"Shaoxing"						""
@@ -8171,7 +8171,7 @@
 "CITY_NAME_CHANGE"		206		"Guingamp"						""
 "CITY_NAME_CHANGE"		216		"Lorient"						""
 "CITY_NAME_CHANGE"		301		"Brest"							""
-"CITY_NAME_CHANGE"		306		"Toulouse"						""
+"CITY_NAME_CHANGE"		306		"Rennes"						""
 "CITY_NAME_CHANGE"		914681		"Concarneau"						""
 
 
@@ -9994,7 +9994,7 @@
 "CITY_NAME_CHANGE"		7743341		"Kab. Tabalong"						""
 "CITY_NAME_CHANGE"		41002101	"Marabahan"						""
 "CITY_NAME_CHANGE"		41041568	"Martapura"						""
-"CITY_NAME_CHANGE"		41046967	"Pulau Laut (Kotabaru)"					""
+"CITY_NAME_CHANGE"		41046967	"Pulau Laut, Kotabaru"					""
 "CITY_NAME_CHANGE"		2000319041	"Banjarbaru"						""
 
 
@@ -10215,13 +10215,13 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		135296		"Karaj"							""
 "CITY_NAME_CHANGE"		1037500		"Mehrshahr"						""
-"CITY_NAME_CHANGE"		23310372	"Mohammadshahr (Karaj)"					""
+"CITY_NAME_CHANGE"		23310372	"Mohammadshahr, Karaj"					""
 
 
 # CITY > [IRN] IRAN > [IRN-24] Ardabil Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1018613		"Ardabil"						""
-"CITY_NAME_CHANGE"		23310389	"Nir (Nir)"						""
+"CITY_NAME_CHANGE"		23310389	"Nir, Nir"						""
 
 
 # CITY > [IRN] IRAN > [IRN-18] Bushehr Province
@@ -10232,26 +10232,26 @@
 # CITY > [IRN] IRAN > [IRN-03] East Azerbaijan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		5512158		"Tabriz"						""
-"CITY_NAME_CHANGE"		23345975	"Shahriar (Tabriz)"					""
+"CITY_NAME_CHANGE"		23345975	"Shahriar, Tabriz"					""
 
 
 # CITY > [IRN] IRAN > [IRN-07] Fars Province
 #====================================================================================
 "CITY_NAME_CHANGE"		135290		"Shiraz"						""
-"CITY_NAME_CHANGE"		1023272		"Nurabad (Mamasani)"					""
-"CITY_NAME_CHANGE"		1037462		"Firuzabad (Firuzabad)"					""
-"CITY_NAME_CHANGE"		23131277	"Ardakan (Sepidan)"					""
-"CITY_NAME_CHANGE"		23346111	"Baladeh (Kazerun)"					""
-"CITY_NAME_CHANGE"		23346130	"Khur (Larestan)"					""
+"CITY_NAME_CHANGE"		1023272		"Nurabad, Mamasani"					""
+"CITY_NAME_CHANGE"		1037462		"Firuzabad, Firuzabad"					""
+"CITY_NAME_CHANGE"		23131277	"Ardakan, Sepidan"					""
+"CITY_NAME_CHANGE"		23346111	"Baladeh, Kazerun"					""
+"CITY_NAME_CHANGE"		23346130	"Khur, Larestan"					""
 "CITY_NAME_CHANGE"		23346141	"Abadeh Tashk"						""
-"CITY_NAME_CHANGE"		23346155	"Hajjiabad (Zarrin Dasht)"				""
+"CITY_NAME_CHANGE"		23346155	"Hajjiabad, Zarrin Dasht"				""
 
 
 # CITY > [IRN] IRAN > [IRN-01] Gilan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		5410226		"Rasht"							""
-"CITY_NAME_CHANGE"		23344874	"Rudbar (Rudbar)"					""
-"CITY_NAME_CHANGE"		23344988	"Rezvanshahr (Rezvanshahr)"				""
+"CITY_NAME_CHANGE"		23344874	"Rudbar, Rudbar"					""
+"CITY_NAME_CHANGE"		23344988	"Rezvanshahr, Rezvanshahr"				""
 
 
 # CITY > [IRN] IRAN > [IRN-27] Golestan Province
@@ -10262,41 +10262,41 @@
 # CITY > [IRN] IRAN > [IRN-13] Hamadan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1037471		"Hamadan"						""
-"CITY_NAME_CHANGE"		23346015	"Salehabad (Bahar)"					""
+"CITY_NAME_CHANGE"		23346015	"Salehabad, Bahar"					""
 
 
 # CITY > [IRN] IRAN > [IRN-22] Hormozgan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1037443		"Bandar Abbas"						""
-"CITY_NAME_CHANGE"		23346187	"Sardasht (Bashagard)"					""
-"CITY_NAME_CHANGE"		23346192	"Hajjiabad (Hajjiabad)"					""
+"CITY_NAME_CHANGE"		23346187	"Sardasht, Bashagard"					""
+"CITY_NAME_CHANGE"		23346192	"Hajjiabad, Hajjiabad"					""
 
 
 # CITY > [IRN] IRAN > [IRN-16] Ilam Province
 #====================================================================================
-"CITY_NAME_CHANGE"		23346216	"Meymeh (Dehloran)"					""
-"CITY_NAME_CHANGE"		23346225	"Salehabad (Mehran)"					""
+"CITY_NAME_CHANGE"		23346216	"Meymeh, Dehloran"					""
+"CITY_NAME_CHANGE"		23346225	"Salehabad, Mehran"					""
 
 
 # CITY > [IRN] IRAN > [IRN-10] Isfahan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1023273		"Kashan"						""
-"CITY_NAME_CHANGE"		1037496		"Mahabad (Ardestan)"					""
+"CITY_NAME_CHANGE"		1037496		"Mahabad, Ardestan"					""
 "CITY_NAME_CHANGE"		5512193		"Isfahan"						""
-"CITY_NAME_CHANGE"		23345945	"Dowlatabad (Borkhar)"					""
-"CITY_NAME_CHANGE"		23346001	"Hasanabad (Isfahan)"					""
-"CITY_NAME_CHANGE"		23346003	"Mohammadabad (Isfahan)"				""
-"CITY_NAME_CHANGE"		23346004	"Nasrabad (Isfahan)"					""
-"CITY_NAME_CHANGE"		23346018	"Khur (Khur and Biabanak)"				""
-"CITY_NAME_CHANGE"		23346052	"Meymeh (Shahin Shahr & Meymeh)"			""
-"CITY_NAME_CHANGE"		23346056	"Rezvanshahr (Tiran & Karvan)"				""
+"CITY_NAME_CHANGE"		23345945	"Dowlatabad, Borkhar"					""
+"CITY_NAME_CHANGE"		23346001	"Hasanabad, Isfahan"					""
+"CITY_NAME_CHANGE"		23346003	"Mohammadabad, Isfahan"				""
+"CITY_NAME_CHANGE"		23346004	"Nasrabad, Isfahan"					""
+"CITY_NAME_CHANGE"		23346018	"Khur, Khur and Biabanak"				""
+"CITY_NAME_CHANGE"		23346052	"Meymeh, Shahin Shahr & Meymeh"			""
+"CITY_NAME_CHANGE"		23346056	"Rezvanshahr, Tiran & Karvan"				""
 
 
 # CITY > [IRN] IRAN > [IRN-08] Kerman Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1018616		"Kerman"						""
-"CITY_NAME_CHANGE"		23346271	"Mohammadabad (Rigan)"					""
-"CITY_NAME_CHANGE"		23346273	"Rudbar (Rudbar-e Jonubi)"				""
+"CITY_NAME_CHANGE"		23346271	"Mohammadabad, Rigan"					""
+"CITY_NAME_CHANGE"		23346273	"Rudbar, Rudbar-e Jonubi"				""
 
 
 # CITY > [IRN] IRAN > [IRN-05] Kermanshah Province
@@ -10308,8 +10308,8 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		5512200		"Ahvaz"							""
 "CITY_NAME_CHANGE"		5512202		"Abadan"						""
-"CITY_NAME_CHANGE"		23346316	"Sardasht (Behbahan)"					""
-"CITY_NAME_CHANGE"		23346320	"Safiabad (Dezful)"					""
+"CITY_NAME_CHANGE"		23346316	"Sardasht, Behbahan"					""
+"CITY_NAME_CHANGE"		23346320	"Safiabad, Dezful"					""
 
 
 # CITY > [IRN] IRAN > [IRN-12] Kurdistan Province
@@ -10319,9 +10319,9 @@
 
 # CITY > [IRN] IRAN > [IRN-15] Lorestan Province
 #====================================================================================
-"CITY_NAME_CHANGE"		1023267		"Khorramabad (Khorramabad)"				""
-"CITY_NAME_CHANGE"		23346371	"Nurabad (Delfan)"					""
-"CITY_NAME_CHANGE"		23346381	"Firuzabad (Selseleh)"					""
+"CITY_NAME_CHANGE"		1023267		"Khorramabad, Khorramabad"				""
+"CITY_NAME_CHANGE"		23346371	"Nurabad, Delfan"					""
+"CITY_NAME_CHANGE"		23346381	"Firuzabad, Selseleh"					""
 
 
 # CITY > [IRN] IRAN > [IRN-00] Markazi Province
@@ -10333,16 +10333,16 @@
 # CITY > [IRN] IRAN > [IRN-02] Mazandaran Province
 #====================================================================================
 "CITY_NAME_CHANGE"		135294		"Sari"							""
-"CITY_NAME_CHANGE"		23131280	"Mahmudabad (Mahmudabad)"				""
-"CITY_NAME_CHANGE"		23346414	"Galugah (Babol)"					""
-"CITY_NAME_CHANGE"		23346425	"Galugah (Galugah)"					""
-"CITY_NAME_CHANGE"		23346429	"Baladeh (Nur)"						""
-"CITY_NAME_CHANGE"		23346441	"Khorramabad (Tonekabon)"				""
+"CITY_NAME_CHANGE"		23131280	"Mahmudabad, Mahmudabad"				""
+"CITY_NAME_CHANGE"		23346414	"Galugah, Babol"					""
+"CITY_NAME_CHANGE"		23346425	"Galugah, Galugah"					""
+"CITY_NAME_CHANGE"		23346429	"Baladeh, Nur"						""
+"CITY_NAME_CHANGE"		23346441	"Khorramabad, Tonekabon"				""
 
 
 # CITY > [IRN] IRAN > [IRN-28] North Khorasan Province
 #====================================================================================
-"CITY_NAME_CHANGE"		23346446	"Safiabad (Esfarayen)"					""
+"CITY_NAME_CHANGE"		23346446	"Safiabad, Esfarayen"					""
 
 
 # CITY > [IRN] IRAN > [IRN-26] Qazvin Province
@@ -10360,23 +10360,23 @@
 "CITY_NAME_CHANGE"		135299		"Mashhad"						""
 "CITY_NAME_CHANGE"		1037507		"Nishapur"						""
 "CITY_NAME_CHANGE"		1037515		"Torbat-e Heydarieh"					""
-"CITY_NAME_CHANGE"		23346517	"Eshqabad (Nishapur)"					""
-"CITY_NAME_CHANGE"		23346532	"Nasrabad (Torbat-e Jam)"				""
-"CITY_NAME_CHANGE"		23346534	"Salehabad (Torbat-e Jam)"				""
-"CITY_NAME_CHANGE"		23346537	"Dowlatabad (Zaveh)"					""
+"CITY_NAME_CHANGE"		23346517	"Eshqabad, Nishapur"					""
+"CITY_NAME_CHANGE"		23346532	"Nasrabad, Torbat-e Jam"				""
+"CITY_NAME_CHANGE"		23346534	"Salehabad, Torbat-e Jam"				""
+"CITY_NAME_CHANGE"		23346537	"Dowlatabad, Zaveh"					""
 
 
 # CITY > [IRN] IRAN > [IRN-11] Sistan & Baluchestan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1037527		"Zahedan"						""
-"CITY_NAME_CHANGE"		23346580	"Mohammadabad (Zabol)"					""
+"CITY_NAME_CHANGE"		23346580	"Mohammadabad, Zabol"					""
 
 
 # CITY > [IRN] IRAN > [IRN-29] South Khorasan Province
 #====================================================================================
-"CITY_NAME_CHANGE"		23346590	"Mohammadshahr (Khusf)"					""
-"CITY_NAME_CHANGE"		23346604	"Eshqabad (Tabas)"					""
-"CITY_NAME_CHANGE"		23346605	"Hajjiabad (Zirkuh)"					""
+"CITY_NAME_CHANGE"		23346590	"Mohammadshahr, Khusf"					""
+"CITY_NAME_CHANGE"		23346604	"Eshqabad, Tabas"					""
+"CITY_NAME_CHANGE"		23346605	"Hajjiabad, Zirkuh"					""
 
 
 # CITY > [IRN] IRAN > [IRN-23] Tehran Province
@@ -10384,23 +10384,23 @@
 "CITY_NAME_CHANGE"		103199		"Tehran"						""
 "CITY_NAME_CHANGE"		1037460		"Eslamshahr"						""
 "CITY_NAME_CHANGE"		23131275	"Rey"							""
-"CITY_NAME_CHANGE"		23255100	"Shahriar (Shahriar)"					""
-"CITY_NAME_CHANGE"		23310352	"Hasanabad (Rey)"					""
+"CITY_NAME_CHANGE"		23255100	"Shahriar, Shahriar"					""
+"CITY_NAME_CHANGE"		23310352	"Hasanabad, Rey"					""
 
 
 # CITY > [IRN] IRAN > [IRN-04] West Azerbaijan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1037499		"Urmia"							""
-"CITY_NAME_CHANGE"		23346613	"Mahabad (Mahabad)"					""
-"CITY_NAME_CHANGE"		23346620	"Mahmudabad (Shahin Dezh)"				""
-"CITY_NAME_CHANGE"		23346634	"Sardasht (Sardasht)"					""
+"CITY_NAME_CHANGE"		23346613	"Mahabad, Mahabad"					""
+"CITY_NAME_CHANGE"		23346620	"Mahmudabad, Shahin Dezh"				""
+"CITY_NAME_CHANGE"		23346634	"Sardasht, Sardasht"					""
 
 
 # CITY > [IRN] IRAN > [IRN-21] Yazd Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1037525		"Yazd"							""
-"CITY_NAME_CHANGE"		23346639	"Ardakan (Ardakan)"					""
-"CITY_NAME_CHANGE"		23346651	"Nir (Taft)"						""
+"CITY_NAME_CHANGE"		23346639	"Ardakan, Ardakan"					""
+"CITY_NAME_CHANGE"		23346651	"Nir, Taft"						""
 
 
 # CITY > [IRN] IRAN > [IRN-19] Zanjan Province
@@ -10945,6 +10945,13 @@
 # CITY > [ITA] ITALY > [ITA-65] Abruzzo
 #====================================================================================
 "CITY_NAME_CHANGE"		540		"Pescara"						""
+"CITY_NAME_CHANGE"		43007149	"Pineto"						""
+
+
+# CITY > [ITA] ITALY > [ITA-77] Basilicata
+#====================================================================================
+"CITY_NAME_CHANGE"		830197		"Potenza"						""
+"CITY_NAME_CHANGE"		1413387		"Picerno"						""
 
 
 # CITY > [ITA] ITALY > [ITA-78] Calabria
@@ -10952,13 +10959,20 @@
 "CITY_NAME_CHANGE"		485		"Catanzaro"						""
 "CITY_NAME_CHANGE"		492		"Cosenza"						""
 "CITY_NAME_CHANGE"		551		"Reggio Calabria"					""
+"CITY_NAME_CHANGE"		707655		"Crotone"						""
 
 
 # CITY > [ITA] ITALY > [ITA-72] Campania
 #====================================================================================
+"CITY_NAME_CHANGE"		467		"Avellino"						""
+"CITY_NAME_CHANGE"		472		"Benevento"						""
+"CITY_NAME_CHANGE"		481		"Caserta"						""
+"CITY_NAME_CHANGE"		512		"Castellammare di Stabia"				""
 "CITY_NAME_CHANGE"		532		"Napoli"						""
 "CITY_NAME_CHANGE"		555		"Salerno"						""
+"CITY_NAME_CHANGE"		574		"Torre del Greco"					""
 "CITY_NAME_CHANGE"		109067		"Giugliano in Campania"					""
+"CITY_NAME_CHANGE"		831314		"Sorrento"						""
 "CITY_NAME_CHANGE"		43036918	"Pianura (Napoli)"					""
 "CITY_NAME_CHANGE"		43065301	"Piscinola (Napoli)"					""
 "CITY_NAME_CHANGE"		43078942	"Fuorigrotta (Napoli)"					""
@@ -10971,6 +10985,8 @@
 # CITY > [ITA] ITALY > [ITA-45] Emilia-Romagna
 #====================================================================================
 "CITY_NAME_CHANGE"		474		"Bologna"						""
+"CITY_NAME_CHANGE"		486		"Cesena"						""
+"CITY_NAME_CHANGE"		500		"Fiorenzuola d'Arda"					""
 "CITY_NAME_CHANGE"		502		"Forlì"							""
 "CITY_NAME_CHANGE"		529		"Modena"						""
 "CITY_NAME_CHANGE"		538		"Parma"							""
@@ -10996,6 +11012,7 @@
 "CITY_NAME_CHANGE"		700107		"Latina"						""
 "CITY_NAME_CHANGE"		831301		"Ostia (Roma)"						""
 "CITY_NAME_CHANGE"		43048747	"Settebagni (Roma)"					""
+"CITY_NAME_CHANGE"		43064919	"Monterosi"						""
 "CITY_NAME_CHANGE"		43064923	"Torrenova (Roma)"					""
 "CITY_NAME_CHANGE"		43078951	"Ostia Antica (Roma)"					""
 "CITY_NAME_CHANGE"		43105736	"Portuense (Roma)"					""
@@ -11019,6 +11036,8 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		504		"Genova"						""
 "CITY_NAME_CHANGE"		564		"La Spezia"						""
+"CITY_NAME_CHANGE"		1400331		"Sestri Levante"					""
+"CITY_NAME_CHANGE"		7983178		"Chiavari"						""
 "CITY_NAME_CHANGE"		43210587	"Cornigliano (Genova)"					""
 
 
@@ -11027,12 +11046,19 @@
 "CITY_NAME_CHANGE"		465		"Bergamo"						""
 "CITY_NAME_CHANGE"		476		"Brescia"						""
 "CITY_NAME_CHANGE"		491		"Como"							""
+"CITY_NAME_CHANGE"		493		"Crema"							""
 "CITY_NAME_CHANGE"		494		"Cremona"						""
 "CITY_NAME_CHANGE"		509		"Milano"						""
 "CITY_NAME_CHANGE"		517		"Lecco"							""
+"CITY_NAME_CHANGE"		518		"Leffe"							""
+"CITY_NAME_CHANGE"		522		"Lumezzane"						""
 "CITY_NAME_CHANGE"		531		"Monza"							""
+"CITY_NAME_CHANGE"		547		"Sesto San Giovanni"					""
 "CITY_NAME_CHANGE"		700196		"Mantova"						""
 "CITY_NAME_CHANGE"		1400160		"Lonato del Garda"					""
+"CITY_NAME_CHANGE"		1413240		"Renate"						""
+"CITY_NAME_CHANGE"		7983023		"Gorgonzola"						""
+"CITY_NAME_CHANGE"		7983092		"Busto Arsizio"						""
 "CITY_NAME_CHANGE"		7983302		"Salò"							""
 "CITY_NAME_CHANGE"		43147636	"Berbenno di Valtellina"				""
 "CITY_NAME_CHANGE"		43149976	"Mazzo di Valtellina"					""
@@ -11042,13 +11068,19 @@
 
 # CITY > [ITA] ITALY > [ITA-57] Marche
 #====================================================================================
+"CITY_NAME_CHANGE"		462		"Ancona"						""
 "CITY_NAME_CHANGE"		464		"Ascoli Piceno"						""
+"CITY_NAME_CHANGE"		497		"Fermo"							""
+"CITY_NAME_CHANGE"		579		"Pesaro"						""
+"CITY_NAME_CHANGE"		7983080		"Recanati"						""
 
 
 # CITY > [ITA] ITALY > [ITA-21] Piemonte
 #====================================================================================
+"CITY_NAME_CHANGE"		459		"Alessandria"						""
 "CITY_NAME_CHANGE"		513		"Torino"						""
 "CITY_NAME_CHANGE"		534		"Novara"						""
+"CITY_NAME_CHANGE"		548		"Vercelli"						""
 "CITY_NAME_CHANGE"		43406383	"Samone (Torino)"					""
 
 
@@ -11058,11 +11090,16 @@
 "CITY_NAME_CHANGE"		501		"Foggia"						""
 "CITY_NAME_CHANGE"		516		"Lecce"							""
 "CITY_NAME_CHANGE"		565		"Taranto"						""
+"CITY_NAME_CHANGE"		832081		"Brindisi"						""
+"CITY_NAME_CHANGE"		7983009		"Cerignola"						""
+"CITY_NAME_CHANGE"		7983279		"Monopoli"						""
+"CITY_NAME_CHANGE"		7983381		"Francavilla Fontana"					""
 
 
 # CITY > [ITA] ITALY > [ITA-88] Sardegna
 #====================================================================================
 "CITY_NAME_CHANGE"		477		"Cagliari"						""
+"CITY_NAME_CHANGE"		535		"Olbia"							""
 "CITY_NAME_CHANGE"		559		"Sassari"						""
 
 
@@ -11077,10 +11114,14 @@
 
 # CITY > [ITA] ITALY > [ITA-52] Toscana
 #====================================================================================
+"CITY_NAME_CHANGE"		463		"Arezzo"						""
+"CITY_NAME_CHANGE"		479		"Carrara"						""
 "CITY_NAME_CHANGE"		495		"Empoli"						""
 "CITY_NAME_CHANGE"		499		"Firenze"						""
 "CITY_NAME_CHANGE"		519		"Livorno"						""
+"CITY_NAME_CHANGE"		521		"Lucca"							""
 "CITY_NAME_CHANGE"		542		"Pisa"							""
+"CITY_NAME_CHANGE"		544		"Pontedera"						""
 "CITY_NAME_CHANGE"		545		"Prato"							""
 "CITY_NAME_CHANGE"		7983267		"Galluzzo (Firenze)"					""
 
@@ -11095,6 +11136,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		568		"Terni"							""
 "CITY_NAME_CHANGE"		581		"Perugia"						""
+"CITY_NAME_CHANGE"		115428		"Gubbio"						""
 
 
 # CITY > [ITA] ITALY > [ITA-23] Valle d'Aosta
@@ -11110,6 +11152,8 @@
 "CITY_NAME_CHANGE"		537		"Padova"						""
 "CITY_NAME_CHANGE"		577		"Venezia"						""
 "CITY_NAME_CHANGE"		578		"Vicenza"						""
+"CITY_NAME_CHANGE"		831169		"Arzignano"						""
+"CITY_NAME_CHANGE"		831171		"Legnago"						""
 "CITY_NAME_CHANGE"		1400100		"Cortina d'Ampezzo"					""
 "CITY_NAME_CHANGE"		43105918	"Torre (Padova)"					""
 "CITY_NAME_CHANGE"		43155933	"Malcontenta (Venezia)"					""
@@ -11312,17 +11356,17 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		781384		"Aichi-ken"						""
 "CITY_NAME_CHANGE"		102559		"Nagoya"						""
-"CITY_NAME_CHANGE"		780947		"Toyota (Aichi-ken)"					""
-"CITY_NAME_CHANGE"		788930		"Tsushima (Aichi-ken)"					""
-"CITY_NAME_CHANGE"		788938		"Konan (Aichi-ken)"					""
-"CITY_NAME_CHANGE"		788963		"Miyoshi (Aichi-ken)"					""
+"CITY_NAME_CHANGE"		780947		"Toyota, Aichi-ken"					""
+"CITY_NAME_CHANGE"		788930		"Tsushima, Aichi-ken"					""
+"CITY_NAME_CHANGE"		788938		"Konan, Aichi-ken"					""
+"CITY_NAME_CHANGE"		788963		"Miyoshi, Aichi-ken"					""
 "CITY_NAME_CHANGE"		45052251	"Kitanagoya"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-05] Akita-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781386		"Akita-ken"						""
-"CITY_NAME_CHANGE"		45052300	"Senboku (Akita-ken)"					""
+"CITY_NAME_CHANGE"		45052300	"Senboku, Akita-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-02] Aomori-ken
@@ -11334,48 +11378,48 @@
 # CITY > [JPN] JAPAN > [JPN-12] Chiba-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781370		"Chiba-ken"						""
-"CITY_NAME_CHANGE"		788996		"Sakura (Chiba-ken)"					""
-"CITY_NAME_CHANGE"		789000		"Katsuura (Chiba-ken)"					""
-"CITY_NAME_CHANGE"		789023		"Awa (Chiba-ken)"					""
+"CITY_NAME_CHANGE"		788996		"Sakura, Chiba-ken"					""
+"CITY_NAME_CHANGE"		789000		"Katsuura, Chiba-ken"					""
+"CITY_NAME_CHANGE"		789023		"Awa, Chiba-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-38] Ehime-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781387		"Ehime-ken"						""
-"CITY_NAME_CHANGE"		789037		"Ochi (Ehime-ken)"					""
+"CITY_NAME_CHANGE"		789037		"Ochi, Ehime-ken"					""
 "CITY_NAME_CHANGE"		789039		"Kamiukena"						""
-"CITY_NAME_CHANGE"		789041		"Kita (Ehime-ken)"					""
+"CITY_NAME_CHANGE"		789041		"Kita, Ehime-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-18] Fukui-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		780946		"Fukui-ken"						""
-"CITY_NAME_CHANGE"		789049		"Ono (Fukui-ken)"					""
-"CITY_NAME_CHANGE"		789055		"Sakai (Fukui-ken)"					""
-"CITY_NAME_CHANGE"		789057		"Nanjo (Fukui-ken)"					""
-"CITY_NAME_CHANGE"		789059		"Mikata (Fukui-ken)"					""
+"CITY_NAME_CHANGE"		789049		"Ono, Fukui-ken"					""
+"CITY_NAME_CHANGE"		789055		"Sakai, Fukui-ken"					""
+"CITY_NAME_CHANGE"		789057		"Nanjo, Fukui-ken"					""
+"CITY_NAME_CHANGE"		789059		"Mikata, Fukui-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-40] Fukuoka-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		107258		"Fukuoka-ken"						""
-"CITY_NAME_CHANGE"		789085		"Koga (Fukuoka-ken)"					""
-"CITY_NAME_CHANGE"		789101		"Miyako (Fukuoka-ken)"					""
+"CITY_NAME_CHANGE"		789085		"Koga, Fukuoka-ken"					""
+"CITY_NAME_CHANGE"		789101		"Miyako, Fukuoka-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-07] Fukushima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781486		"Fukushima-ken"						""
-"CITY_NAME_CHANGE"		45052335	"Date (Fukushima-ken)"					""
+"CITY_NAME_CHANGE"		45052335	"Date, Fukushima-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-21] Gifu-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		3902244		"Gifu-ken"						""
-"CITY_NAME_CHANGE"		789924		"Yamagata (Gifu-ken)"					""
-"CITY_NAME_CHANGE"		789931		"Yoro (Gifu-ken)"					""
-"CITY_NAME_CHANGE"		789937		"Kamo (Gifu-ken)"					""
-"CITY_NAME_CHANGE"		789938		"Ono (Gifu-ken)"					""
+"CITY_NAME_CHANGE"		789924		"Yamagata, Gifu-ken"					""
+"CITY_NAME_CHANGE"		789931		"Yoro, Gifu-ken"					""
+"CITY_NAME_CHANGE"		789937		"Kamo, Gifu-ken"					""
+"CITY_NAME_CHANGE"		789938		"Ono, Gifu-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-10] Gunma-ken
@@ -11386,11 +11430,11 @@
 # CITY > [JPN] JAPAN > [JPN-34] Hiroshima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		102560		"Hiroshima-ken"						""
-"CITY_NAME_CHANGE"		789148		"Fuchu (Hiroshima-ken)"					""
-"CITY_NAME_CHANGE"		789149		"Miyoshi (Hiroshima-ken)"				""
-"CITY_NAME_CHANGE"		789155		"Aki-gun (Hiroshima-ken)"				""
-"CITY_NAME_CHANGE"		789157		"Yamagata (Hiroshima-ken)"				""
-"CITY_NAME_CHANGE"		789159		"Toyota (Hiroshima-ken)"				""
+"CITY_NAME_CHANGE"		789148		"Fuchu, Hiroshima-ken"					""
+"CITY_NAME_CHANGE"		789149		"Miyoshi, Hiroshima-ken"				""
+"CITY_NAME_CHANGE"		789155		"Aki-gun, Hiroshima-ken"				""
+"CITY_NAME_CHANGE"		789157		"Yamagata, Hiroshima-ken"				""
+"CITY_NAME_CHANGE"		789159		"Toyota, Hiroshima-ken"				""
 "CITY_NAME_CHANGE"		789167		"Hiroshima"						""
 
 
@@ -11398,76 +11442,76 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		781375		"Hokkaido"						""
 "CITY_NAME_CHANGE"		107271		"Sapporo"						""
-"CITY_NAME_CHANGE"		789966		"Date (Hokkaido)"					""
-"CITY_NAME_CHANGE"		789977		"Nishi (Hokkaido)"					""
-"CITY_NAME_CHANGE"		790009		"Hidaka (Hokkaido)"					""
-"CITY_NAME_CHANGE"		790014		"Kato (Hokkaido)"					""
-"CITY_NAME_CHANGE"		790015		"Kasai (Hokkaido)"					""
-"CITY_NAME_CHANGE"		45052341	"Hokuto (Hokkaido)"					""
+"CITY_NAME_CHANGE"		789966		"Date, Hokkaido"					""
+"CITY_NAME_CHANGE"		789977		"Nishi, Hokkaido"					""
+"CITY_NAME_CHANGE"		790009		"Hidaka, Hokkaido"					""
+"CITY_NAME_CHANGE"		790014		"Kato, Hokkaido"					""
+"CITY_NAME_CHANGE"		790015		"Kasai, Hokkaido"					""
+"CITY_NAME_CHANGE"		45052341	"Hokuto, Hokkaido"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-28] Hyogo-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781369		"Hyogo-ken"						""
 "CITY_NAME_CHANGE"		107264		"Kobe"							""
-"CITY_NAME_CHANGE"		789182		"Ono (Hyogo-ken)"					""
-"CITY_NAME_CHANGE"		789184		"Kasai (Hyogo-ken)"					""
-"CITY_NAME_CHANGE"		789189		"Kato (Hyogo-ken)"					""
-"CITY_NAME_CHANGE"		789193		"Kanzaki-gun (Hyogo-ken)"				""
-"CITY_NAME_CHANGE"		789199		"Mikata (Hyogo-ken)"					""
+"CITY_NAME_CHANGE"		789182		"Ono, Hyogo-ken"					""
+"CITY_NAME_CHANGE"		789184		"Kasai, Hyogo-ken"					""
+"CITY_NAME_CHANGE"		789189		"Kato, Hyogo-ken"					""
+"CITY_NAME_CHANGE"		789193		"Kanzaki-gun, Hyogo-ken"				""
+"CITY_NAME_CHANGE"		789199		"Mikata, Hyogo-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-08] Ibaraki-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781366		"Ibaraki-ken"						""
-"CITY_NAME_CHANGE"		789205		"Koga (Ibaraki-ken)"					""
-"CITY_NAME_CHANGE"		789226		"Kuji (Ibaraki-ken)"					""
+"CITY_NAME_CHANGE"		789205		"Koga, Ibaraki-ken"					""
+"CITY_NAME_CHANGE"		789226		"Kuji, Ibaraki-ken"					""
 "CITY_NAME_CHANGE"		3900529		"Kashima"						""
-"CITY_NAME_CHANGE"		45052258	"Naka (Ibaraki-ken)"					""
+"CITY_NAME_CHANGE"		45052258	"Naka, Ibaraki-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-17] Ishikawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781388		"Ishikawa-ken"						""
-"CITY_NAME_CHANGE"		789239		"Kaga (Ishikawa-ken)"					""
-"CITY_NAME_CHANGE"		789247		"Kashima (Ishikawa-ken)"				""
+"CITY_NAME_CHANGE"		789239		"Kaga, Ishikawa-ken"					""
+"CITY_NAME_CHANGE"		789247		"Kashima, Ishikawa-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-03] Iwate-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781376		"Iwate-ken"						""
-"CITY_NAME_CHANGE"		789249		"Miyako (Iwate-ken)"					""
-"CITY_NAME_CHANGE"		789254		"Kuji (Iwate-ken)"					""
+"CITY_NAME_CHANGE"		789249		"Miyako, Iwate-ken"					""
+"CITY_NAME_CHANGE"		789254		"Kuji, Iwate-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-37] Kagawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781489		"Kagawa-ken"						""
-"CITY_NAME_CHANGE"		789280		"Kita (Kagawa-ken)"					""
+"CITY_NAME_CHANGE"		789280		"Kita, Kagawa-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-46] Kagoshima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781367		"Kagoshima-ken"						""
-"CITY_NAME_CHANGE"		789292		"Izumi (Kagoshima-ken)"					""
-"CITY_NAME_CHANGE"		789306		"Kumage (Kagoshima-ken)"				""
+"CITY_NAME_CHANGE"		789292		"Izumi, Kagoshima-ken"					""
+"CITY_NAME_CHANGE"		789306		"Kumage, Kagoshima-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-14] Kanagawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781381		"Kanagawa-ken"						""
 "CITY_NAME_CHANGE"		107279		"Yokohama"						""
-"CITY_NAME_CHANGE"		789323		"Naka (Kanagawa-ken)"					""
+"CITY_NAME_CHANGE"		789323		"Naka, Kanagawa-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-39] Kochi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781383		"Kochi-ken"						""
-"CITY_NAME_CHANGE"		789337		"Kami (Kochi-ken)"					""
-"CITY_NAME_CHANGE"		789338		"Nagaoka (Kochi-ken)"					""
-"CITY_NAME_CHANGE"		789340		"Takaoka (Kochi-ken)"					""
-"CITY_NAME_CHANGE"		45033834	"Konan (Kochi-ken)"					""
-"CITY_NAME_CHANGE"		45052278	"Aki-gun (Kochi-ken)"					""
+"CITY_NAME_CHANGE"		789337		"Kami, Kochi-ken"					""
+"CITY_NAME_CHANGE"		789338		"Nagaoka, Kochi-ken"					""
+"CITY_NAME_CHANGE"		789340		"Takaoka, Kochi-ken"					""
+"CITY_NAME_CHANGE"		45033834	"Konan, Kochi-ken"					""
+"CITY_NAME_CHANGE"		45052278	"Aki-gun, Kochi-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-43] Kumamoto-ken
@@ -11509,9 +11553,9 @@
 # CITY > [JPN] JAPAN > [JPN-04] Miyagi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781368		"Miyagi-ken"						""
-"CITY_NAME_CHANGE"		789417		"Shibata (Miyagi-ken)"					""
-"CITY_NAME_CHANGE"		789422		"Kami (Miyagi-ken)"					""
-"CITY_NAME_CHANGE"		789425		"Toda (Miyagi-ken)"					""
+"CITY_NAME_CHANGE"		789417		"Shibata, Miyagi-ken"					""
+"CITY_NAME_CHANGE"		789422		"Kami, Miyagi-ken"					""
+"CITY_NAME_CHANGE"		789425		"Toda, Miyagi-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-45] Miyazaki-ken
@@ -11528,22 +11572,22 @@
 # CITY > [JPN] JAPAN > [JPN-42] Nagasaki-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781374		"Nagasaki-ken"						""
-"CITY_NAME_CHANGE"		789487		"Tsushima (Nagasaki-ken)"				""
+"CITY_NAME_CHANGE"		789487		"Tsushima, Nagasaki-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-29] Nara-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781364		"Nara-ken"						""
-"CITY_NAME_CHANGE"		789507		"Shiki (Nara-ken)"					""
+"CITY_NAME_CHANGE"		789507		"Shiki, Nara-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-15] Niigata-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		107268		"Niigata-ken"						""
 "CITY_NAME_CHANGE"		789512		"Niigata"						""
-"CITY_NAME_CHANGE"		789513		"Nagaoka (Niigata-ken)"					""
-"CITY_NAME_CHANGE"		789516		"Shibata (Niigata-ken)"					""
-"CITY_NAME_CHANGE"		789519		"Kamo (Niigata-ken)"					""
+"CITY_NAME_CHANGE"		789513		"Nagaoka, Niigata-ken"					""
+"CITY_NAME_CHANGE"		789516		"Shibata, Niigata-ken"					""
+"CITY_NAME_CHANGE"		789519		"Kamo, Niigata-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-44] Oita-ken
@@ -11555,25 +11599,25 @@
 # CITY > [JPN] JAPAN > [JPN-33] Okayama-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781372		"Okayama-ken"						""
-"CITY_NAME_CHANGE"		789564		"Oda (Okayama-ken)"					""
-"CITY_NAME_CHANGE"		45052266	"Kaga (Okayama-ken)"					""
+"CITY_NAME_CHANGE"		789564		"Oda, Okayama-ken"					""
+"CITY_NAME_CHANGE"		45052266	"Kaga, Okayama-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-47] Okinawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781490		"Okinawa-ken"						""
-"CITY_NAME_CHANGE"		789589		"Miyako (Okinawa-ken)"					""
-"CITY_NAME_CHANGE"		45052267	"Nanjo (Okinawa-ken)"					""
+"CITY_NAME_CHANGE"		789589		"Miyako, Okinawa-ken"					""
+"CITY_NAME_CHANGE"		45052267	"Nanjo, Okinawa-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-27] Osaka-fu
 #====================================================================================
 "CITY_NAME_CHANGE"		102558		"Osaka-fu"						""
 "CITY_NAME_CHANGE"		788890		"Osaka"							""
-"CITY_NAME_CHANGE"		788891		"Sakai (Osaka-fu)"					""
-"CITY_NAME_CHANGE"		788900		"Senboku (Osaka-fu)"					""
-"CITY_NAME_CHANGE"		788904		"Izumi (Osaka-fu)"					""
-"CITY_NAME_CHANGE"		788945		"Mishima (Osaka-fu)"					""
+"CITY_NAME_CHANGE"		788891		"Sakai, Osaka-fu"					""
+"CITY_NAME_CHANGE"		788900		"Senboku, Osaka-fu"					""
+"CITY_NAME_CHANGE"		788904		"Izumi, Osaka-fu"					""
+"CITY_NAME_CHANGE"		788945		"Mishima, Osaka-fu"					""
 
 # CITY > [JPN] JAPAN > [JPN-27] Osaka-fu
 #==============================================================================
@@ -11621,127 +11665,127 @@
 # CITY > [JPN] JAPAN > [JPN-41] Saga-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781380		"Saga-ken"						""
-"CITY_NAME_CHANGE"		789616		"Kashima (Saga-ken)"					""
-"CITY_NAME_CHANGE"		789617		"Kanzaki-gun (Saga-ken)"				""
-"CITY_NAME_CHANGE"		45052281	"Kanzaki (Saga-ken)"					""
+"CITY_NAME_CHANGE"		789616		"Kashima, Saga-ken"					""
+"CITY_NAME_CHANGE"		789617		"Kanzaki-gun, Saga-ken"				""
+"CITY_NAME_CHANGE"		45052281	"Kanzaki, Saga-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-11] Saitama-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		780944		"Saitama-ken"						""
 "CITY_NAME_CHANGE"		789624		"Saitama"						""
-"CITY_NAME_CHANGE"		789644		"Toda (Saitama-ken)"					""
-"CITY_NAME_CHANGE"		789648		"Shiki (Saitama-ken)"					""
-"CITY_NAME_CHANGE"		789662		"Hidaka (Saitama-ken)"					""
+"CITY_NAME_CHANGE"		789644		"Toda, Saitama-ken"					""
+"CITY_NAME_CHANGE"		789648		"Shiki, Saitama-ken"					""
+"CITY_NAME_CHANGE"		789662		"Hidaka, Saitama-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-25] Shiga-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781488		"Shiga-ken"						""
-"CITY_NAME_CHANGE"		45011562	"Konan (Shiga-ken)"					""
+"CITY_NAME_CHANGE"		45011562	"Konan, Shiga-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-32] Shimane-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781373		"Shimane-ken"						""
-"CITY_NAME_CHANGE"		789692		"Oda (Shimane-ken)"					""
-"CITY_NAME_CHANGE"		789703		"Ochi (Shimane-ken)"					""
+"CITY_NAME_CHANGE"		789692		"Oda, Shimane-ken"					""
+"CITY_NAME_CHANGE"		789703		"Ochi, Shimane-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-22] Shizuoka-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		102561		"Shizuoka-ken"						""
-"CITY_NAME_CHANGE"		789710		"Mishima (Shizuoka-ken)"				""
-"CITY_NAME_CHANGE"		789712		"Ito (Shizuoka-ken)"					""
+"CITY_NAME_CHANGE"		789710		"Mishima, Shizuoka-ken"				""
+"CITY_NAME_CHANGE"		789712		"Ito, Shizuoka-ken"					""
 "CITY_NAME_CHANGE"		789717		"Fukuroi"						""
-"CITY_NAME_CHANGE"		789725		"Kamo (Shizuoka-ken)"					""
+"CITY_NAME_CHANGE"		789725		"Kamo, Shizuoka-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-09] Tochigi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781371		"Tochigi-ken"						""
-"CITY_NAME_CHANGE"		45025445	"Sakura (Tochigi-ken)"					""
+"CITY_NAME_CHANGE"		45025445	"Sakura, Tochigi-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-13] Tokyo Metropolis
 #====================================================================================
 "CITY_NAME_CHANGE"		102557		"Tokyo-to"						""
-"CITY_NAME_CHANGE"		783254		"Tama (Tokyo-to)"					""
+"CITY_NAME_CHANGE"		783254		"Tama, Tokyo-to"					""
 "CITY_NAME_CHANGE"		789392		"Special Wards of Tokyo"				""
-"CITY_NAME_CHANGE"		789767		"Hachioji (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789768		"Tachikawa (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789769		"Mitaka (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789770		"Ome (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789771		"Fuchu (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789772		"Akishima (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789773		"Chofu (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789774		"Machida (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789775		"Koganei (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789776		"Kodaira (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789777		"Hino (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789778		"Higashimurayama (Tokyo-to)"				""
-"CITY_NAME_CHANGE"		789779		"Kokubunji (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789780		"Kunitachi (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789781		"Fussa (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789782		"Komae (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789783		"Higashiyamato (Tokyo-to)"				""
-"CITY_NAME_CHANGE"		789784		"Kiyose (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789785		"Higashikurume (Tokyo-to)"				""
-"CITY_NAME_CHANGE"		789786		"Musashimurayama (Tokyo-to)"				""
-"CITY_NAME_CHANGE"		789787		"Inagi (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789788		"Hamura (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789789		"Akiruno (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789790		"Nishitokyo (Tokyo-to)"					""
-"CITY_NAME_CHANGE"		789791		"Nishitama-gun (Tokyo-to)"				""
-"CITY_NAME_CHANGE"		3902130		"Musashino (Tokyo-to)"					""
+"CITY_NAME_CHANGE"		789767		"Hachioji, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789768		"Tachikawa, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789769		"Mitaka, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789770		"Ome, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789771		"Fuchu, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789772		"Akishima, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789773		"Chofu, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789774		"Machida, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789775		"Koganei, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789776		"Kodaira, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789777		"Hino, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789778		"Higashimurayama, Tokyo-to"				""
+"CITY_NAME_CHANGE"		789779		"Kokubunji, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789780		"Kunitachi, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789781		"Fussa, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789782		"Komae, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789783		"Higashiyamato, Tokyo-to"				""
+"CITY_NAME_CHANGE"		789784		"Kiyose, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789785		"Higashikurume, Tokyo-to"				""
+"CITY_NAME_CHANGE"		789786		"Musashimurayama, Tokyo-to"				""
+"CITY_NAME_CHANGE"		789787		"Inagi, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789788		"Hamura, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789789		"Akiruno, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789790		"Nishitokyo, Tokyo-to"					""
+"CITY_NAME_CHANGE"		789791		"Nishitama-gun, Tokyo-to"				""
+"CITY_NAME_CHANGE"		3902130		"Musashino, Tokyo-to"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-36] Tokushima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		107275		"Tokushima-ken"						""
-"CITY_NAME_CHANGE"		789757		"Katsuura (Tokushima-ken)"				""
-"CITY_NAME_CHANGE"		789760		"Naka (Tokushima-ken)"					""
-"CITY_NAME_CHANGE"		789763		"Awa (Tokushima-ken)"					""
-"CITY_NAME_CHANGE"		45052323	"Miyoshi (Tokushima-ken)"				""
+"CITY_NAME_CHANGE"		789757		"Katsuura, Tokushima-ken"				""
+"CITY_NAME_CHANGE"		789760		"Naka, Tokushima-ken"					""
+"CITY_NAME_CHANGE"		789763		"Awa, Tokushima-ken"					""
+"CITY_NAME_CHANGE"		45052323	"Miyoshi, Tokushima-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-31] Tottori-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		776290		"Tottori-ken"						""
-"CITY_NAME_CHANGE"		45052320	"Hino (Tottori-ken)"					""
+"CITY_NAME_CHANGE"		45052320	"Hino, Tottori-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-16] Toyama-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		775191		"Toyama-ken"						""
-"CITY_NAME_CHANGE"		783257		"Takaoka (Toyama-ken)"					""
+"CITY_NAME_CHANGE"		783257		"Takaoka, Toyama-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-30] Wakayama-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781379		"Wakayama-ken"						""
-"CITY_NAME_CHANGE"		789833		"Ito (Wakayama-ken)"					""
-"CITY_NAME_CHANGE"		789834		"Hidaka (Wakayama-ken)"					""
+"CITY_NAME_CHANGE"		789833		"Ito, Wakayama-ken"					""
+"CITY_NAME_CHANGE"		789834		"Hidaka, Wakayama-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-06] Yamagata-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		107278		"Yamagata-ken"						""
-"CITY_NAME_CHANGE"		789837		"Yamagata (Yamagata-ken)"				""
-"CITY_NAME_CHANGE"		789854		"Nishi (Yamagata-ken)"					""
-"CITY_NAME_CHANGE"		45052287	"Higashimurayama (Yamagata-ken)"			""
+"CITY_NAME_CHANGE"		789837		"Yamagata, Yamagata-ken"				""
+"CITY_NAME_CHANGE"		789854		"Nishi, Yamagata-ken"					""
+"CITY_NAME_CHANGE"		45052287	"Higashimurayama, Yamagata-ken"			""
 
 
 # CITY > [JPN] JAPAN > [JPN-35] Yamaguchi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781377		"Yamaguchi-ken"						""
-"CITY_NAME_CHANGE"		789872		"Kumage (Yamaguchi-ken)"				""
+"CITY_NAME_CHANGE"		789872		"Kumage, Yamaguchi-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-19] Yamanashi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781365		"Yamanashi-ken"						""
-"CITY_NAME_CHANGE"		789890		"Hokuto (Yamanashi-ken)"				""
+"CITY_NAME_CHANGE"		789890		"Hokuto, Yamanashi-ken"				""
 
 
 # CITY > [JOR] JORDAN > [JOR-AJ] Ajloun Governorate
@@ -11842,201 +11886,201 @@
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-10] Abai oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484613		"Semey"							""
-"CITY_NAME_CHANGE"		59026103	"Aktogay (Abai)"					""
-"CITY_NAME_CHANGE"		59087011	"Aksuat (Abai)"						""
-"CITY_NAME_CHANGE"		59087024	"Kokpekti (Abai)"					""
+"CITY_NAME_CHANGE"		59026103	"Aktogay, Abai"					""
+"CITY_NAME_CHANGE"		59087011	"Aksuat, Abai"						""
+"CITY_NAME_CHANGE"		59087024	"Kokpekti, Abai"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-19] Almaty oblysy
 #====================================================================================
-"CITY_NAME_CHANGE"		59017031	"Uzynagash (Almaty)"					""
-"CITY_NAME_CHANGE"		59026003	"Bayterek (Almaty)"					""
-"CITY_NAME_CHANGE"		59026007	"Boralday (Almaty)"					""
-"CITY_NAME_CHANGE"		59026008	"Boldykty (Almaty)"					""
-"CITY_NAME_CHANGE"		59086300	"Akzhar (Almaty)"					""
-"CITY_NAME_CHANGE"		59086326	"Kyzylkayyng (Almaty)"					""
-"CITY_NAME_CHANGE"		59086344	"Besagash (Almaty)"					""
-"CITY_NAME_CHANGE"		59086346	"Birlik (Almaty)"					""
-"CITY_NAME_CHANGE"		59086352	"Karaoy (Almaty)"					""
-"CITY_NAME_CHANGE"		59086358	"Miyaly (Almaty)"					""
-"CITY_NAME_CHANGE"		59086360	"Topar (Almaty)"					""
-"CITY_NAME_CHANGE"		59086370	"Kyzylzhar (Almaty)"					""
-"CITY_NAME_CHANGE"		59086399	"Alga (Almaty)"						""
-"CITY_NAME_CHANGE"		59086401	"Amangeldi (Almaty)"					""
-"CITY_NAME_CHANGE"		59086411	"Talapty (Almaty)"					""
-"CITY_NAME_CHANGE"		59086463	"Shubar (Almaty)"					""
-"CITY_NAME_CHANGE"		59086540	"Beriktas (Almaty)"					""
-"CITY_NAME_CHANGE"		59086546	"Zhaysang (Almaty)"					""
-"CITY_NAME_CHANGE"		59086578	"Ulgili (Almaty)"					""
-"CITY_NAME_CHANGE"		59086608	"Kokkaynar (Almaty)"					""
-"CITY_NAME_CHANGE"		59086610	"Komsomol (Almaty)"					""
-"CITY_NAME_CHANGE"		59086623	"Pervomayskiy (Almaty)"					""
-"CITY_NAME_CHANGE"		59086631	"Abay (Almaty)"						""
-"CITY_NAME_CHANGE"		59086637	"Algabas (Almaty)"					""
-"CITY_NAME_CHANGE"		59086645	"Bereke (Almaty)"					""
-"CITY_NAME_CHANGE"		59086651	"Zhanaturmys (Almaty)"					""
-"CITY_NAME_CHANGE"		59086659	"Karakangly (Almaty)"					""
-"CITY_NAME_CHANGE"		59086693	"Shalkar (Almaty)"					""
-"CITY_NAME_CHANGE"		59086704	"Daulet (Almaty)"					""
-"CITY_NAME_CHANGE"		59086710	"Kayrat (Almaty)"					""
-"CITY_NAME_CHANGE"		59086740	"Azat (Almaty)"						""
-"CITY_NAME_CHANGE"		59086744	"Akbastau (Almaty)"					""
-"CITY_NAME_CHANGE"		59086772	"Karakemer (Almaty)"					""
-"CITY_NAME_CHANGE"		59086813	"Tole Bi (Almaty)"					""
-"CITY_NAME_CHANGE"		59086860	"Kakpak (Almaty)"					""
-"CITY_NAME_CHANGE"		59086862	"Karasaz (Almaty)"					""
-"CITY_NAME_CHANGE"		59086880	"Talas (Almaty)"					""
+"CITY_NAME_CHANGE"		59017031	"Uzynagash, Almaty"					""
+"CITY_NAME_CHANGE"		59026003	"Bayterek, Almaty"					""
+"CITY_NAME_CHANGE"		59026007	"Boralday, Almaty"					""
+"CITY_NAME_CHANGE"		59026008	"Boldykty, Almaty"					""
+"CITY_NAME_CHANGE"		59086300	"Akzhar, Almaty"					""
+"CITY_NAME_CHANGE"		59086326	"Kyzylkayyng, Almaty"					""
+"CITY_NAME_CHANGE"		59086344	"Besagash, Almaty"					""
+"CITY_NAME_CHANGE"		59086346	"Birlik, Almaty"					""
+"CITY_NAME_CHANGE"		59086352	"Karaoy, Almaty"					""
+"CITY_NAME_CHANGE"		59086358	"Miyaly, Almaty"					""
+"CITY_NAME_CHANGE"		59086360	"Topar, Almaty"					""
+"CITY_NAME_CHANGE"		59086370	"Kyzylzhar, Almaty"					""
+"CITY_NAME_CHANGE"		59086399	"Alga, Almaty"						""
+"CITY_NAME_CHANGE"		59086401	"Amangeldi, Almaty"					""
+"CITY_NAME_CHANGE"		59086411	"Talapty, Almaty"					""
+"CITY_NAME_CHANGE"		59086463	"Shubar, Almaty"					""
+"CITY_NAME_CHANGE"		59086540	"Beriktas, Almaty"					""
+"CITY_NAME_CHANGE"		59086546	"Zhaysang, Almaty"					""
+"CITY_NAME_CHANGE"		59086578	"Ulgili, Almaty"					""
+"CITY_NAME_CHANGE"		59086608	"Kokkaynar, Almaty"					""
+"CITY_NAME_CHANGE"		59086610	"Komsomol, Almaty"					""
+"CITY_NAME_CHANGE"		59086623	"Pervomayskiy, Almaty"					""
+"CITY_NAME_CHANGE"		59086631	"Abay, Almaty"						""
+"CITY_NAME_CHANGE"		59086637	"Algabas, Almaty"					""
+"CITY_NAME_CHANGE"		59086645	"Bereke, Almaty"					""
+"CITY_NAME_CHANGE"		59086651	"Zhanaturmys, Almaty"					""
+"CITY_NAME_CHANGE"		59086659	"Karakangly, Almaty"					""
+"CITY_NAME_CHANGE"		59086693	"Shalkar, Almaty"					""
+"CITY_NAME_CHANGE"		59086704	"Daulet, Almaty"					""
+"CITY_NAME_CHANGE"		59086710	"Kayrat, Almaty"					""
+"CITY_NAME_CHANGE"		59086740	"Azat, Almaty"						""
+"CITY_NAME_CHANGE"		59086744	"Akbastau, Almaty"					""
+"CITY_NAME_CHANGE"		59086772	"Karakemer, Almaty"					""
+"CITY_NAME_CHANGE"		59086813	"Tole Bi, Almaty"					""
+"CITY_NAME_CHANGE"		59086860	"Kakpak, Almaty"					""
+"CITY_NAME_CHANGE"		59086862	"Karasaz, Almaty"					""
+"CITY_NAME_CHANGE"		59086880	"Talas, Almaty"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-11] Aqmola oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484624		"Kokshetau"						""
 "CITY_NAME_CHANGE"		59017027	"Stepnogorsk"						""
-"CITY_NAME_CHANGE"		59026059	"Akkol (Aqmola)"					""
-"CITY_NAME_CHANGE"		59026062	"Yesil (Aqmola)"					""
+"CITY_NAME_CHANGE"		59026059	"Akkol, Aqmola"					""
+"CITY_NAME_CHANGE"		59026062	"Yesil, Aqmola"					""
 "CITY_NAME_CHANGE"		59026066	"Shchuchinsk"						""
-"CITY_NAME_CHANGE"		59085898	"Azat (Aqmola)"						""
-"CITY_NAME_CHANGE"		59085921	"Konstantinovka (Aqmola)"				""
-"CITY_NAME_CHANGE"		59085924	"Mikhaylovka (Aqmola)"					""
-"CITY_NAME_CHANGE"		59085929	"Zhanaturmys (Aqmola)"					""
-"CITY_NAME_CHANGE"		59085942	"Petrovka (Aqmola)"					""
-"CITY_NAME_CHANGE"		59085960	"Sergeyevka (Aqmola)"					""
-"CITY_NAME_CHANGE"		59085995	"Kyzylagash (Aqmola)"					""
-"CITY_NAME_CHANGE"		59086014	"Torgay (Aqmola)"					""
-"CITY_NAME_CHANGE"		59086016	"Zarechnoye (Aqmola)"					""
-"CITY_NAME_CHANGE"		59086056	"Kamenka (Aqmola)"					""
-"CITY_NAME_CHANGE"		59086084	"Prirechnoye (Aqmola)"					""
-"CITY_NAME_CHANGE"		59086115	"Stepnoye (Aqmola)"					""
+"CITY_NAME_CHANGE"		59085898	"Azat, Aqmola"						""
+"CITY_NAME_CHANGE"		59085921	"Konstantinovka, Aqmola"				""
+"CITY_NAME_CHANGE"		59085924	"Mikhaylovka, Aqmola"					""
+"CITY_NAME_CHANGE"		59085929	"Zhanaturmys, Aqmola"					""
+"CITY_NAME_CHANGE"		59085942	"Petrovka, Aqmola"					""
+"CITY_NAME_CHANGE"		59085960	"Sergeyevka, Aqmola"					""
+"CITY_NAME_CHANGE"		59085995	"Kyzylagash, Aqmola"					""
+"CITY_NAME_CHANGE"		59086014	"Torgay, Aqmola"					""
+"CITY_NAME_CHANGE"		59086016	"Zarechnoye, Aqmola"					""
+"CITY_NAME_CHANGE"		59086056	"Kamenka, Aqmola"					""
+"CITY_NAME_CHANGE"		59086084	"Prirechnoye, Aqmola"					""
+"CITY_NAME_CHANGE"		59086115	"Stepnoye, Aqmola"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-15] Aqtöbe oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		149243		"Aktobe"						""
-"CITY_NAME_CHANGE"		59026070	"Alga (Aktobe)"						""
-"CITY_NAME_CHANGE"		59026073	"Temir (Aktobe)"					""
-"CITY_NAME_CHANGE"		59026074	"Shalkar (Aktobe)"					""
-"CITY_NAME_CHANGE"		59026082	"Komsomol (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086150	"Tamdy (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086183	"Zharly (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086220	"Zhaysang (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086223	"Akzhar (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086226	"Karaoy (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086229	"Karatal (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086242	"Aksay (Aktobe)"					""
-"CITY_NAME_CHANGE"		59086254	"Sarykol (Aktobe)"					""
+"CITY_NAME_CHANGE"		59026070	"Alga, Aktobe"						""
+"CITY_NAME_CHANGE"		59026073	"Temir, Aktobe"					""
+"CITY_NAME_CHANGE"		59026074	"Shalkar, Aktobe"					""
+"CITY_NAME_CHANGE"		59026082	"Komsomol, Aktobe"					""
+"CITY_NAME_CHANGE"		59086150	"Tamdy, Aktobe"					""
+"CITY_NAME_CHANGE"		59086183	"Zharly, Aktobe"					""
+"CITY_NAME_CHANGE"		59086220	"Zhaysang, Aktobe"					""
+"CITY_NAME_CHANGE"		59086223	"Akzhar, Aktobe"					""
+"CITY_NAME_CHANGE"		59086226	"Karaoy, Aktobe"					""
+"CITY_NAME_CHANGE"		59086229	"Karatal, Aktobe"					""
+"CITY_NAME_CHANGE"		59086242	"Aksay, Aktobe"					""
+"CITY_NAME_CHANGE"		59086254	"Sarykol, Aktobe"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-23] Atyrau oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		149247		"Atyrau"						""
-"CITY_NAME_CHANGE"		59026094	"Makhambet (Atyrau)"					""
-"CITY_NAME_CHANGE"		59026095	"Miyaly (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086905	"Akzhayyk (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086907	"Alga (Atyrau)"						""
-"CITY_NAME_CHANGE"		59086909	"Almaly (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086913	"Bereke (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086933	"Tushchykudyk (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086951	"Akkol (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086955	"Birlik (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086962	"Zhylyandy (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086986	"Yeltay (Atyrau)"					""
-"CITY_NAME_CHANGE"		59086990	"Zharsuat (Atyrau)"					""
+"CITY_NAME_CHANGE"		59026094	"Makhambet, Atyrau"					""
+"CITY_NAME_CHANGE"		59026095	"Miyaly, Atyrau"					""
+"CITY_NAME_CHANGE"		59086905	"Akzhayyk, Atyrau"					""
+"CITY_NAME_CHANGE"		59086907	"Alga, Atyrau"						""
+"CITY_NAME_CHANGE"		59086909	"Almaly, Atyrau"					""
+"CITY_NAME_CHANGE"		59086913	"Bereke, Atyrau"					""
+"CITY_NAME_CHANGE"		59086933	"Tushchykudyk, Atyrau"					""
+"CITY_NAME_CHANGE"		59086951	"Akkol, Atyrau"					""
+"CITY_NAME_CHANGE"		59086955	"Birlik, Atyrau"					""
+"CITY_NAME_CHANGE"		59086962	"Zhylyandy, Atyrau"					""
+"CITY_NAME_CHANGE"		59086986	"Yeltay, Atyrau"					""
+"CITY_NAME_CHANGE"		59086990	"Zharsuat, Atyrau"					""
 
 
-# CITY > [KAZ] KAZAKHSTAN > [KAZ-27] Batys Qazaqstan oblysy
+# CITY > [KAZ] KAZAKHSTAN > [KAZ-27] West Kazakhstan oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		149244		"Oral"							""
-"CITY_NAME_CHANGE"		59017018	"Aksay (W. Kazakhstan)"					""
-"CITY_NAME_CHANGE"		59088962	"Aktau (W. Kazakhstan)"					""
-"CITY_NAME_CHANGE"		59088964	"Amangeldi (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088971	"Ulken Shagan (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088995	"Makhambet (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089020	"Akzhayyk (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089022	"Aksuat (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089042	"Borli (W. Kazakhstan)"					""
-"CITY_NAME_CHANGE"		59089045	"Zharsuat (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089065	"Kamysty (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089082	"Zhanazhol (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089086	"Kayyndy (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089095	"Algabas (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089097	"Almaly (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089117	"Pervomay (W. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59089148	"Birlik (W. Kazakhstan)"				""
+"CITY_NAME_CHANGE"		59017018	"Aksay, W.K."					""
+"CITY_NAME_CHANGE"		59088962	"Aktau, W.K."					""
+"CITY_NAME_CHANGE"		59088964	"Amangeldi, W.K."				""
+"CITY_NAME_CHANGE"		59088971	"Ulken Shagan, W.K."				""
+"CITY_NAME_CHANGE"		59088995	"Makhambet, W.K."				""
+"CITY_NAME_CHANGE"		59089020	"Akzhayyk, W.K."				""
+"CITY_NAME_CHANGE"		59089022	"Aksuat, W.K."				""
+"CITY_NAME_CHANGE"		59089042	"Borli, W.K."					""
+"CITY_NAME_CHANGE"		59089045	"Zharsuat, W.K."				""
+"CITY_NAME_CHANGE"		59089065	"Kamysty, W.K."				""
+"CITY_NAME_CHANGE"		59089082	"Zhanazhol, W.K."				""
+"CITY_NAME_CHANGE"		59089086	"Kayyndy, W.K."				""
+"CITY_NAME_CHANGE"		59089095	"Algabas, W.K."				""
+"CITY_NAME_CHANGE"		59089097	"Almaly, W.K."				""
+"CITY_NAME_CHANGE"		59089117	"Pervomay, W.K."				""
+"CITY_NAME_CHANGE"		59089148	"Birlik, W.K."				""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-31] Jambyl oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484620		"Taraz"							""
-"CITY_NAME_CHANGE"		59087066	"Kenes (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087070	"Koktala (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087084	"Talas (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087088	"Ulgili (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087092	"Akkol (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087094	"Akkum (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087096	"Aktobe (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087112	"Talapty (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087114	"Tamdy (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087116	"Usharal (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087118	"Zhayylma (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087120	"Igilik (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087122	"Ondiris (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087128	"Abay (Jambyl)"						""
-"CITY_NAME_CHANGE"		59087130	"Aksu (Jambyl)"						""
-"CITY_NAME_CHANGE"		59087136	"Birlik (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087142	"Zhanakol (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087144	"Kokkol (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087146	"Kokkaynar (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087152	"Tole Bi (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087164	"Besagash (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087178	"Karakemer (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087188	"Prigorodnoye (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087196	"Bayterek (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087202	"Karasaz (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087206	"Koltogan (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087216	"Aral (Jambyl)"						""
-"CITY_NAME_CHANGE"		59087224	"Beriktas (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087229	"Zhambyl (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087231	"Zhanaturmys (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087233	"Kaynar (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087237	"Karasu (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087253	"Sarybulak (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087257	"Stepnoye (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087265	"Aktogan (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087269	"Ekpindi (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087311	"Kayyndy (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087313	"Kamenka (Jambyl)"					""
-"CITY_NAME_CHANGE"		59087325	"Terenozek (Jambyl)"					""
+"CITY_NAME_CHANGE"		59087066	"Kenes, Jambyl"					""
+"CITY_NAME_CHANGE"		59087070	"Koktala, Jambyl"					""
+"CITY_NAME_CHANGE"		59087084	"Talas, Jambyl"					""
+"CITY_NAME_CHANGE"		59087088	"Ulgili, Jambyl"					""
+"CITY_NAME_CHANGE"		59087092	"Akkol, Jambyl"					""
+"CITY_NAME_CHANGE"		59087094	"Akkum, Jambyl"					""
+"CITY_NAME_CHANGE"		59087096	"Aktobe, Jambyl"					""
+"CITY_NAME_CHANGE"		59087112	"Talapty, Jambyl"					""
+"CITY_NAME_CHANGE"		59087114	"Tamdy, Jambyl"					""
+"CITY_NAME_CHANGE"		59087116	"Usharal, Jambyl"					""
+"CITY_NAME_CHANGE"		59087118	"Zhayylma, Jambyl"					""
+"CITY_NAME_CHANGE"		59087120	"Igilik, Jambyl"					""
+"CITY_NAME_CHANGE"		59087122	"Ondiris, Jambyl"					""
+"CITY_NAME_CHANGE"		59087128	"Abay, Jambyl"						""
+"CITY_NAME_CHANGE"		59087130	"Aksu, Jambyl"						""
+"CITY_NAME_CHANGE"		59087136	"Birlik, Jambyl"					""
+"CITY_NAME_CHANGE"		59087142	"Zhanakol, Jambyl"					""
+"CITY_NAME_CHANGE"		59087144	"Kokkol, Jambyl"					""
+"CITY_NAME_CHANGE"		59087146	"Kokkaynar, Jambyl"					""
+"CITY_NAME_CHANGE"		59087152	"Tole Bi, Jambyl"					""
+"CITY_NAME_CHANGE"		59087164	"Besagash, Jambyl"					""
+"CITY_NAME_CHANGE"		59087178	"Karakemer, Jambyl"					""
+"CITY_NAME_CHANGE"		59087188	"Prigorodnoye, Jambyl"					""
+"CITY_NAME_CHANGE"		59087196	"Bayterek, Jambyl"					""
+"CITY_NAME_CHANGE"		59087202	"Karasaz, Jambyl"					""
+"CITY_NAME_CHANGE"		59087206	"Koltogan, Jambyl"					""
+"CITY_NAME_CHANGE"		59087216	"Aral, Jambyl"						""
+"CITY_NAME_CHANGE"		59087224	"Beriktas, Jambyl"					""
+"CITY_NAME_CHANGE"		59087229	"Zhambyl, Jambyl"					""
+"CITY_NAME_CHANGE"		59087231	"Zhanaturmys, Jambyl"					""
+"CITY_NAME_CHANGE"		59087233	"Kaynar, Jambyl"					""
+"CITY_NAME_CHANGE"		59087237	"Karasu, Jambyl"					""
+"CITY_NAME_CHANGE"		59087253	"Sarybulak, Jambyl"					""
+"CITY_NAME_CHANGE"		59087257	"Stepnoye, Jambyl"					""
+"CITY_NAME_CHANGE"		59087265	"Aktogan, Jambyl"					""
+"CITY_NAME_CHANGE"		59087269	"Ekpindi, Jambyl"					""
+"CITY_NAME_CHANGE"		59087311	"Kayyndy, Jambyl"					""
+"CITY_NAME_CHANGE"		59087313	"Kamenka, Jambyl"					""
+"CITY_NAME_CHANGE"		59087325	"Terenozek, Jambyl"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-33] Zhetysu oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484622		"Taldykorgan"						""
-"CITY_NAME_CHANGE"		59026002	"Karabulak (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59026013	"Saryozek (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59026021	"Usharal (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59026022	"Ushtobe (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086304	"Beskol (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086316	"Zhylyandy (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086334	"Ushbulak (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086354	"Koktala (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086366	"Zhanatalap (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086374	"Frunze (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086383	"Kyzylagash (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086389	"Almaly (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086420	"Yeltay (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086428	"Karatal (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086459	"Shagan (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086497	"Aydarly (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086507	"Enbekshi (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086530	"Ulken Shagan (Zhetysu)"				""
-"CITY_NAME_CHANGE"		59086548	"Zhambyl (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086596	"Ekpindi (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086626	"Pokrovka (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086657	"Kaynar (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086746	"Aktogan (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086763	"Enbek (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086780	"Koktobe (Zhetysu)"					""
-"CITY_NAME_CHANGE"		59086805	"Sarybulak (Zhetysu)"					""
+"CITY_NAME_CHANGE"		59026002	"Karabulak, Zhetysu"					""
+"CITY_NAME_CHANGE"		59026013	"Saryozek, Zhetysu"					""
+"CITY_NAME_CHANGE"		59026021	"Usharal, Zhetysu"					""
+"CITY_NAME_CHANGE"		59026022	"Ushtobe, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086304	"Beskol, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086316	"Zhylyandy, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086334	"Ushbulak, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086354	"Koktala, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086366	"Zhanatalap, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086374	"Frunze, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086383	"Kyzylagash, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086389	"Almaly, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086420	"Yeltay, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086428	"Karatal, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086459	"Shagan, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086497	"Aydarly, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086507	"Enbekshi, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086530	"Ulken Shagan, Zhetysu"				""
+"CITY_NAME_CHANGE"		59086548	"Zhambyl, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086596	"Ekpindi, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086626	"Pokrovka, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086657	"Kaynar, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086746	"Aktogan, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086763	"Enbek, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086780	"Koktobe, Zhetysu"					""
+"CITY_NAME_CHANGE"		59086805	"Sarybulak, Zhetysu"					""
 "CITY_NAME_CHANGE"		59088980	"Dostyk"						""
 
 
@@ -12044,20 +12088,20 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		8062188		"Aktau"							""
 "CITY_NAME_CHANGE"		59026248	"Zhanaozen"						""
-"CITY_NAME_CHANGE"		59088137	"Tushchykudyk (Mangystau)"				""
-"CITY_NAME_CHANGE"		59088153	"Daulet (Mangystau)"					""
+"CITY_NAME_CHANGE"		59088137	"Tushchykudyk, Mangystau"				""
+"CITY_NAME_CHANGE"		59088153	"Daulet, Mangystau"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-55] Pavlodar oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		476019		"Pavlodar"						""
 "CITY_NAME_CHANGE"		484617		"Ekibastuz"						""
-"CITY_NAME_CHANGE"		59017019	"Aksu (Pavlodar)"					""
-"CITY_NAME_CHANGE"		59026257	"Aktogay (Pavlodar)"					""
-"CITY_NAME_CHANGE"		59026262	"Koktobe (Pavlodar)"					""
-"CITY_NAME_CHANGE"		59088449	"Mikhaylovka (Pavlodar)"				""
-"CITY_NAME_CHANGE"		59088456	"Kyzylzhar (Pavlodar)"					""
-"CITY_NAME_CHANGE"		59088552	"Konstantinovka (Pavlodar)"				""
+"CITY_NAME_CHANGE"		59017019	"Aksu, Pavlodar"					""
+"CITY_NAME_CHANGE"		59026257	"Aktogay, Pavlodar"					""
+"CITY_NAME_CHANGE"		59026262	"Koktobe, Pavlodar"					""
+"CITY_NAME_CHANGE"		59088449	"Mikhaylovka, Pavlodar"				""
+"CITY_NAME_CHANGE"		59088456	"Kyzylzhar, Pavlodar"					""
+"CITY_NAME_CHANGE"		59088552	"Konstantinovka, Pavlodar"				""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-35] Karagandy oblysy
@@ -12067,127 +12111,127 @@
 "CITY_NAME_CHANGE"		59010556	"Saran"							""
 "CITY_NAME_CHANGE"		59017022	"Balkhash"						""
 "CITY_NAME_CHANGE"		59017028	"Temirtau"						""
-"CITY_NAME_CHANGE"		59026131	"Abay (Karagandy)"					""
-"CITY_NAME_CHANGE"		59026137	"Karagayly (Karagandy)"					""
-"CITY_NAME_CHANGE"		59026139	"Konyrat (Karagandy)"					""
-"CITY_NAME_CHANGE"		59026145	"Topar (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087362	"Zharly (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087419	"Kokpekti (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087425	"Kyzylkayyng (Karagandy)"				""
-"CITY_NAME_CHANGE"		59087434	"Petrovka (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087445	"Ushtobe (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087451	"Aktogay (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087457	"Akzhal (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087475	"Zarechnoye (Karagandy)"				""
-"CITY_NAME_CHANGE"		59087510	"Akbulak (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087520	"Yesil (Karagandy)"					""
-"CITY_NAME_CHANGE"		59087530	"Saryozek (Karagandy)"					""
+"CITY_NAME_CHANGE"		59026131	"Abay, Karagandy"					""
+"CITY_NAME_CHANGE"		59026137	"Karagayly, Karagandy"					""
+"CITY_NAME_CHANGE"		59026139	"Konyrat, Karagandy"					""
+"CITY_NAME_CHANGE"		59026145	"Topar, Karagandy"					""
+"CITY_NAME_CHANGE"		59087362	"Zharly, Karagandy"					""
+"CITY_NAME_CHANGE"		59087419	"Kokpekti, Karagandy"					""
+"CITY_NAME_CHANGE"		59087425	"Kyzylkayyng, Karagandy"				""
+"CITY_NAME_CHANGE"		59087434	"Petrovka, Karagandy"					""
+"CITY_NAME_CHANGE"		59087445	"Ushtobe, Karagandy"					""
+"CITY_NAME_CHANGE"		59087451	"Aktogay, Karagandy"					""
+"CITY_NAME_CHANGE"		59087457	"Akzhal, Karagandy"					""
+"CITY_NAME_CHANGE"		59087475	"Zarechnoye, Karagandy"				""
+"CITY_NAME_CHANGE"		59087510	"Akbulak, Karagandy"					""
+"CITY_NAME_CHANGE"		59087520	"Yesil, Karagandy"					""
+"CITY_NAME_CHANGE"		59087530	"Saryozek, Karagandy"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-39] Kostanay oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484611		"Kostanay"						""
 "CITY_NAME_CHANGE"		59017021	"Arkalyk"						""
-"CITY_NAME_CHANGE"		59026152	"Sarykol (Kostanay)"					""
-"CITY_NAME_CHANGE"		59026154	"Amangeldi (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087582	"Karasu (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087619	"Frunze (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087624	"Torgay (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087641	"Prigorodnoye (Kostanay)"				""
-"CITY_NAME_CHANGE"		59087645	"Prirechnoye (Kostanay)"				""
-"CITY_NAME_CHANGE"		59087657	"Kamysty (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087681	"Borli (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087745	"Zhambyl (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087821	"Pervomay (Kostanay)"					""
-"CITY_NAME_CHANGE"		59087829	"Uzynagash (Kostanay)"					""
+"CITY_NAME_CHANGE"		59026152	"Sarykol, Kostanay"					""
+"CITY_NAME_CHANGE"		59026154	"Amangeldi, Kostanay"					""
+"CITY_NAME_CHANGE"		59087582	"Karasu, Kostanay"					""
+"CITY_NAME_CHANGE"		59087619	"Frunze, Kostanay"					""
+"CITY_NAME_CHANGE"		59087624	"Torgay, Kostanay"					""
+"CITY_NAME_CHANGE"		59087641	"Prigorodnoye, Kostanay"				""
+"CITY_NAME_CHANGE"		59087645	"Prirechnoye, Kostanay"				""
+"CITY_NAME_CHANGE"		59087657	"Kamysty, Kostanay"					""
+"CITY_NAME_CHANGE"		59087681	"Borli, Kostanay"					""
+"CITY_NAME_CHANGE"		59087745	"Zhambyl, Kostanay"					""
+"CITY_NAME_CHANGE"		59087821	"Pervomay, Kostanay"					""
+"CITY_NAME_CHANGE"		59087829	"Uzynagash, Kostanay"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-43] Kyzylorda oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484604		"Kyzylorda"						""
-"CITY_NAME_CHANGE"		59017020	"Aral (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59026244	"Terenozek (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59087943	"Abay (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59087951	"Kyzylzhar (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59087955	"Aksuat (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59087985	"Akzhar (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59087987	"Aktobe (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59087997	"Akkum (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088001	"Aksu (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088007	"Enbek (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088021	"Aydarly (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088025	"Amangeldi (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088043	"Shagan (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088051	"Algabas (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088053	"Almaly (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088069	"Enbekshi (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088089	"Birlik (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088091	"Zhayylma (Kyzylorda)"					""
-"CITY_NAME_CHANGE"		59088099	"Kenes (Kyzylorda)"					""
+"CITY_NAME_CHANGE"		59017020	"Aral, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59026244	"Terenozek, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59087943	"Abay, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59087951	"Kyzylzhar, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59087955	"Aksuat, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59087985	"Akzhar, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59087987	"Aktobe, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59087997	"Akkum, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088001	"Aksu, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088007	"Enbek, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088021	"Aydarly, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088025	"Amangeldi, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088043	"Shagan, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088051	"Algabas, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088053	"Almaly, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088069	"Enbekshi, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088089	"Birlik, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088091	"Zhayylma, Kyzylorda"					""
+"CITY_NAME_CHANGE"		59088099	"Kenes, Kyzylorda"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-59] North Kazakhstan oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484599		"Petropavl"						""
-"CITY_NAME_CHANGE"		59026267	"Sergeyevka (N. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088188	"Konstantinovka (N. Kazakhstan)"			""
-"CITY_NAME_CHANGE"		59088261	"Petrovka (N. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088264	"Pokrovka (N. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088285	"Karagandy (N. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088310	"Beskol (N. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59088417	"Aksuat (N. Kazakhstan)"				""
+"CITY_NAME_CHANGE"		59026267	"Sergeyevka, N.K."				""
+"CITY_NAME_CHANGE"		59088188	"Konstantinovka, N.K."			""
+"CITY_NAME_CHANGE"		59088261	"Petrovka, N.K."				""
+"CITY_NAME_CHANGE"		59088264	"Pokrovka, N.K."				""
+"CITY_NAME_CHANGE"		59088285	"Karagandy, N.K."				""
+"CITY_NAME_CHANGE"		59088310	"Beskol, N.K."				""
+"CITY_NAME_CHANGE"		59088417	"Aksuat, N.K."				""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-63] East Kazakhstan oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		484608		"Oskemen"						""
 "CITY_NAME_CHANGE"		59026099	"Ridder"						""
-"CITY_NAME_CHANGE"		59026108	"Pervomayskiy (E. Kazakhstan)"				""
-"CITY_NAME_CHANGE"		59087015	"Zhambyl (E. Kazakhstan)"				""
+"CITY_NAME_CHANGE"		59026108	"Pervomayskiy, E.K."				""
+"CITY_NAME_CHANGE"		59087015	"Zhambyl, E.K."				""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-61] Turkistan oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		59017029	"Turkistan"						""
 "CITY_NAME_CHANGE"		59026272	"Kentau"						""
-"CITY_NAME_CHANGE"		59088583	"Akbastau (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088599	"Boralday (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088603	"Ekpindi (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088607	"Zhambyldy (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088641	"Akzhar (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088653	"Enbekshi (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088659	"Zhanatalap (Turkistan)"				""
-"CITY_NAME_CHANGE"		59088671	"Kakpak (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088704	"Ondiris (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088719	"Ushbulak (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088731	"Yntaly (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088736	"Abay (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088740	"Algabas (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088743	"Almaly (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088761	"Bereke (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088765	"Zhanakol (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088769	"Igilik (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088773	"Konyrat (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088803	"Akbulak (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088807	"Amangeldi (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088831	"Kaynar (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088847	"Koktobe (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088851	"Koltogan (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088855	"Kyzylzhar (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088879	"Shubar (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088892	"Akkum (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088896	"Aktobe (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088920	"Talapty (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088924	"Temir (Turkistan)"					""
-"CITY_NAME_CHANGE"		59088937	"Karabulak (Turkistan)"					""
+"CITY_NAME_CHANGE"		59088583	"Akbastau, Turkistan"					""
+"CITY_NAME_CHANGE"		59088599	"Boralday, Turkistan"					""
+"CITY_NAME_CHANGE"		59088603	"Ekpindi, Turkistan"					""
+"CITY_NAME_CHANGE"		59088607	"Zhambyldy, Turkistan"					""
+"CITY_NAME_CHANGE"		59088641	"Akzhar, Turkistan"					""
+"CITY_NAME_CHANGE"		59088653	"Enbekshi, Turkistan"					""
+"CITY_NAME_CHANGE"		59088659	"Zhanatalap, Turkistan"				""
+"CITY_NAME_CHANGE"		59088671	"Kakpak, Turkistan"					""
+"CITY_NAME_CHANGE"		59088704	"Ondiris, Turkistan"					""
+"CITY_NAME_CHANGE"		59088719	"Ushbulak, Turkistan"					""
+"CITY_NAME_CHANGE"		59088731	"Yntaly, Turkistan"					""
+"CITY_NAME_CHANGE"		59088736	"Abay, Turkistan"					""
+"CITY_NAME_CHANGE"		59088740	"Algabas, Turkistan"					""
+"CITY_NAME_CHANGE"		59088743	"Almaly, Turkistan"					""
+"CITY_NAME_CHANGE"		59088761	"Bereke, Turkistan"					""
+"CITY_NAME_CHANGE"		59088765	"Zhanakol, Turkistan"					""
+"CITY_NAME_CHANGE"		59088769	"Igilik, Turkistan"					""
+"CITY_NAME_CHANGE"		59088773	"Konyrat, Turkistan"					""
+"CITY_NAME_CHANGE"		59088803	"Akbulak, Turkistan"					""
+"CITY_NAME_CHANGE"		59088807	"Amangeldi, Turkistan"					""
+"CITY_NAME_CHANGE"		59088831	"Kaynar, Turkistan"					""
+"CITY_NAME_CHANGE"		59088847	"Koktobe, Turkistan"					""
+"CITY_NAME_CHANGE"		59088851	"Koltogan, Turkistan"					""
+"CITY_NAME_CHANGE"		59088855	"Kyzylzhar, Turkistan"					""
+"CITY_NAME_CHANGE"		59088879	"Shubar, Turkistan"					""
+"CITY_NAME_CHANGE"		59088892	"Akkum, Turkistan"					""
+"CITY_NAME_CHANGE"		59088896	"Aktobe, Turkistan"					""
+"CITY_NAME_CHANGE"		59088920	"Talapty, Turkistan"					""
+"CITY_NAME_CHANGE"		59088924	"Temir, Turkistan"					""
+"CITY_NAME_CHANGE"		59088937	"Karabulak, Turkistan"					""
 
 
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-62] Ulytau oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		59017023	"Zhezkazgan"						""
 "CITY_NAME_CHANGE"		59017026	"Satbayev"						""
-"CITY_NAME_CHANGE"		59026141	"Kyzylzhar (Ulytau)"					""
-"CITY_NAME_CHANGE"		59087541	"Yntaly (Ulytau)"					""
+"CITY_NAME_CHANGE"		59026141	"Kyzylzhar, Ulytau"					""
+"CITY_NAME_CHANGE"		59087541	"Yntaly, Ulytau"					""
 
 
 # CITY > [KEN] KENYA > [KEN-01] Baringo
@@ -12731,7 +12775,7 @@
 "CITY_NAME_CHANGE"		66038135	"Siheung"						""
 "CITY_NAME_CHANGE"		66038137	"Yangpyeong-gun"					""
 "CITY_NAME_CHANGE"		66044817	"Pyeongtaek"						""
-"CITY_NAME_CHANGE"		66044819	"Gwangju (Gyeonggi)"					""
+"CITY_NAME_CHANGE"		66044819	"Gwangju, Gyeonggi"					""
 "CITY_NAME_CHANGE"		66044822	"Gunpo"							""
 "CITY_NAME_CHANGE"		2000002773	"Yeoju"							""
 "CITY_NAME_CHANGE"		2000117000	"Dongducheon"						""
@@ -12761,7 +12805,7 @@
 "CITY_NAME_CHANGE"		2000160103	"Hoengseong-gun"					""
 "CITY_NAME_CHANGE"		2000160123	"Jeongseon-gun"						""
 "CITY_NAME_CHANGE"		2000160137	"Inje-gun"						""
-"CITY_NAME_CHANGE"		2000160146	"Goseong-gun (Gangwon)"					""
+"CITY_NAME_CHANGE"		2000160146	"Goseong-gun, Gangwon"					""
 "CITY_NAME_CHANGE"		2000160153	"Yangyang-gun"						""
 "CITY_NAME_CHANGE"		2000160154	"Hwacheon-gun"						""
 "CITY_NAME_CHANGE"		2000160159	"Yanggu-gun"						""
@@ -12885,7 +12929,7 @@
 "CITY_NAME_CHANGE"		2000160069	"Haman-gun"						""
 "CITY_NAME_CHANGE"		2000160071	"Changnyeong-gun"					""
 "CITY_NAME_CHANGE"		2000160076	"Geochang-gun"						""
-"CITY_NAME_CHANGE"		2000160084	"Goseong-gun (Gyeongnam)"				""
+"CITY_NAME_CHANGE"		2000160084	"Goseong-gun, Gyeongnam"				""
 "CITY_NAME_CHANGE"		2000160100	"Hapcheon-gun"						""
 "CITY_NAME_CHANGE"		2000160101	"Hadong-gun"						""
 "CITY_NAME_CHANGE"		2000160116	"Hamyang-gun"						""
@@ -13018,7 +13062,7 @@
 "CITY_NAME_CHANGE"		59079867	"Uch-Korgon"						""
 "CITY_NAME_CHANGE"		59080122	"Katran"						""
 "CITY_NAME_CHANGE"		59080124	"Andarak"						""
-"CITY_NAME_CHANGE"		59080126	"Kara-Bulak (Batken)"					""
+"CITY_NAME_CHANGE"		59080126	"Kara-Bulak, Batken"					""
 "CITY_NAME_CHANGE"		59121286	"Orozbekov"						""
 "CITY_NAME_CHANGE"		2000040190	"Kadamjay"						""
 
@@ -13042,7 +13086,7 @@
 "CITY_NAME_CHANGE"		59079839	"Chon-Aryk"						""
 "CITY_NAME_CHANGE"		59079900	"Mayevka"						""
 "CITY_NAME_CHANGE"		59079906	"Chaldovar"						""
-"CITY_NAME_CHANGE"		59079998	"Kara-Bulak (Chuy)"					""
+"CITY_NAME_CHANGE"		59079998	"Kara-Bulak, Chuy"					""
 "CITY_NAME_CHANGE"		59080036	"Ivanovka"						""
 "CITY_NAME_CHANGE"		59080042	"Krasnaya Rechka"					""
 "CITY_NAME_CHANGE"		59080056	"Alamudun"						""
@@ -13050,7 +13094,7 @@
 "CITY_NAME_CHANGE"		59080070	"Voenno-Antonovka"					""
 "CITY_NAME_CHANGE"		59080072	"Novopavlovka"						""
 "CITY_NAME_CHANGE"		59080088	"Sosnovka"						""
-"CITY_NAME_CHANGE"		2000040498	"Frunze (Chuy)"						""
+"CITY_NAME_CHANGE"		2000040498	"Frunze, Chuy"						""
 
 
 # CITY > [KGZ] KYRGYZSTAN > [KGZ-J] Jalalabat oblasty
@@ -13069,7 +13113,7 @@
 "CITY_NAME_CHANGE"		59079830	"Kara-Kel"						""
 "CITY_NAME_CHANGE"		59079858	"Sumsar"						""
 "CITY_NAME_CHANGE"		59079911	"Massy"							""
-"CITY_NAME_CHANGE"		59079927	"Kyzyl-Jar (Jalalabat)"					""
+"CITY_NAME_CHANGE"		59079927	"Kyzyl-Jar, Jalalabat"					""
 
 
 # CITY > [KGZ] KYRGYZSTAN > [KGZ-N] Naryn oblasty
@@ -13079,15 +13123,15 @@
 "CITY_NAME_CHANGE"		59016756	"At-Bashi"						""
 "CITY_NAME_CHANGE"		59016757	"Chaek"							""
 "CITY_NAME_CHANGE"		59016758	"Kochkor"						""
-"CITY_NAME_CHANGE"		59080196	"Kara-Suu (Naryn)"					""
-"CITY_NAME_CHANGE"		59080212	"Cholpon (Naryn)"					""
-"CITY_NAME_CHANGE"		59080218	"Ak-Bulun (Naryn)"					""
+"CITY_NAME_CHANGE"		59080196	"Kara-Suu, Naryn"					""
+"CITY_NAME_CHANGE"		59080212	"Cholpon, Naryn"					""
+"CITY_NAME_CHANGE"		59080218	"Ak-Bulun, Naryn"					""
 
 
 # CITY > [KGZ] KYRGYZSTAN > [KGZ-O] Osh oblasty
 #====================================================================================
 "CITY_NAME_CHANGE"		103208		"Osh"							""
-"CITY_NAME_CHANGE"		485428		"Kara-Suu (Osh)"					""
+"CITY_NAME_CHANGE"		485428		"Kara-Suu, Osh"					""
 "CITY_NAME_CHANGE"		59005989	"Ozgon"							""
 "CITY_NAME_CHANGE"		59016760	"Nookat"						""
 "CITY_NAME_CHANGE"		59016762	"Gulche"						""
@@ -13103,7 +13147,7 @@
 "CITY_NAME_CHANGE"		59080150	"Borbash"						""
 "CITY_NAME_CHANGE"		59080162	"Kojo-Aryk"						""
 "CITY_NAME_CHANGE"		59080186	"Pervoye Maya"						""
-"CITY_NAME_CHANGE"		59080188	"Kyzyl-Jar (Osh)"					""
+"CITY_NAME_CHANGE"		59080188	"Kyzyl-Jar, Osh"					""
 "CITY_NAME_CHANGE"		59080190	"Ylay-Talaa"						""
 
 
@@ -13124,8 +13168,8 @@
 "CITY_NAME_CHANGE"		59016773	"Cholpon-Ata"						""
 "CITY_NAME_CHANGE"		59030535	"Anan'yevo"						""
 "CITY_NAME_CHANGE"		59030538	"Balykchy"						""
-"CITY_NAME_CHANGE"		59079947	"Ak-Bulun (Yssyk-Kul)"					""
-"CITY_NAME_CHANGE"		59079949	"Cholpon (Yssyk-Kul)"					""
+"CITY_NAME_CHANGE"		59079947	"Ak-Bulun, Yssyk-Kul"					""
+"CITY_NAME_CHANGE"		59079949	"Cholpon, Yssyk-Kul"					""
 "CITY_NAME_CHANGE"		59079958	"Teploklyuchenka"					""
 "CITY_NAME_CHANGE"		59079968	"Kyzyl-Tuu"						""
 
@@ -15154,7 +15198,7 @@
 # CITY > [MEX] MEXICO > [MEX-BCS] Baja California Sur
 #====================================================================================
 "CITY_NAME_CHANGE"		51008717	"Los Cabos"						""
-"CITY_NAME_CHANGE"		51009831	"La Paz (BCS)"						""
+"CITY_NAME_CHANGE"		51009831	"La Paz, BCS"						""
 "CITY_NAME_CHANGE"		51031224	"Loreto"						""
 "CITY_NAME_CHANGE"		51031225	"Mulegé"						""
 "CITY_NAME_CHANGE"		51031226	"Comondú"						""
@@ -15182,7 +15226,7 @@
 "CITY_NAME_CHANGE"		51009838	"Comitán"						""
 "CITY_NAME_CHANGE"		51009839	"Ocosingo"						""
 "CITY_NAME_CHANGE"		51014261	"Reforma"						""
-"CITY_NAME_CHANGE"		51014265	"Tonalá (Chiapas)"					""
+"CITY_NAME_CHANGE"		51014265	"Tonalá, Chiapas"					""
 "CITY_NAME_CHANGE"		51042034	"Mezcalapa"						""
 "CITY_NAME_CHANGE"		51050873	"Cintalapa"						""
 "CITY_NAME_CHANGE"		51050874	"Jiquipilas"						""
@@ -15208,8 +15252,8 @@
 "CITY_NAME_CHANGE"		51009842	"Monclova"						""
 "CITY_NAME_CHANGE"		51009843	"Piedras Negras"					""
 "CITY_NAME_CHANGE"		51009844	"Acuña"							""
-"CITY_NAME_CHANGE"		51014333	"San Pedro (Coahuila)"					""
-"CITY_NAME_CHANGE"		51039263	"Matamoros (Coahuila)"					""
+"CITY_NAME_CHANGE"		51014333	"San Pedro, Coahuila"					""
+"CITY_NAME_CHANGE"		51039263	"Matamoros, Coahuila"					""
 
 
 # CITY > [MEX] MEXICO > [MEX-COL] Colima
@@ -15226,7 +15270,7 @@
 "CITY_NAME_CHANGE"		18040065	"Mezquital"						""
 "CITY_NAME_CHANGE"		51009846	"Gómez Palacio"						""
 "CITY_NAME_CHANGE"		51009847	"Lerdo"							""
-"CITY_NAME_CHANGE"		51031234	"San Juan del Río (Durango)"				""
+"CITY_NAME_CHANGE"		51031234	"San Juan del Río, Durango"				""
 "CITY_NAME_CHANGE"		51054568	"Guadalupe Victoria"					""
 
 
@@ -15279,11 +15323,11 @@
 
 # CITY > [MEX] MEXICO > [MEX-GUA] Guanajuato
 #====================================================================================
-"CITY_NAME_CHANGE"		104460		"León (Guanajuato)"					""
+"CITY_NAME_CHANGE"		104460		"León, Guanajuato"					""
 "CITY_NAME_CHANGE"		116207		"Celaya"						""
 "CITY_NAME_CHANGE"		116282		"Guanajuato"						""
 "CITY_NAME_CHANGE"		308317		"Irapuato"						""
-"CITY_NAME_CHANGE"		5660000		"Salamanca (Guanajuato)"				""
+"CITY_NAME_CHANGE"		5660000		"Salamanca, Guanajuato"				""
 "CITY_NAME_CHANGE"		51009848	"Silao"							""
 "CITY_NAME_CHANGE"		51009849	"Dolores Hidalgo"					""
 "CITY_NAME_CHANGE"		51009850	"San Francisco del Rincón"				""
@@ -15434,13 +15478,13 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		5665983		"Tepic"							""
 "CITY_NAME_CHANGE"		51009859	"Ixtlán del Río"					""
-"CITY_NAME_CHANGE"		51014316	"Compostela (Nayarit)"					""
+"CITY_NAME_CHANGE"		51014316	"Compostela, Nayarit"					""
 "CITY_NAME_CHANGE"		51014334	"Bahía de Banderas"					""
 "CITY_NAME_CHANGE"		51031281	"Acaponeta"						""
 "CITY_NAME_CHANGE"		51031282	"El Nayar"						""
 "CITY_NAME_CHANGE"		51031283	"Rosamorada"						""
 "CITY_NAME_CHANGE"		51031284	"Ruiz"							""
-"CITY_NAME_CHANGE"		51031285	"Tuxpan (Nayarit)"					""
+"CITY_NAME_CHANGE"		51031285	"Tuxpan, Nayarit"					""
 "CITY_NAME_CHANGE"		51031286	"Xalisco"						""
 "CITY_NAME_CHANGE"		51039258	"Santiago Ixcuintla"					""
 "CITY_NAME_CHANGE"		51039259	"Las Varas"						""
@@ -15456,14 +15500,14 @@
 "CITY_NAME_CHANGE"		51011325	"Apodaca"						""
 "CITY_NAME_CHANGE"		51014323	"Zuazua"						""
 "CITY_NAME_CHANGE"		51014324	"Salinas Victoria"					""
-"CITY_NAME_CHANGE"		51014325	"Santiago (Nuevo León)"					""
+"CITY_NAME_CHANGE"		51014325	"Santiago, Nuevo León"					""
 "CITY_NAME_CHANGE"		51031287	"General Escobedo"					""
-"CITY_NAME_CHANGE"		51031288	"Juárez (Nuevo León)"					""
-"CITY_NAME_CHANGE"		51031289	"García (Nuevo León)"					""
+"CITY_NAME_CHANGE"		51031288	"Juárez, Nuevo León"					""
+"CITY_NAME_CHANGE"		51031289	"García, Nuevo León"					""
 "CITY_NAME_CHANGE"		51031290	"Cadereyta"						""
 "CITY_NAME_CHANGE"		51031291	"Linares"						""
 "CITY_NAME_CHANGE"		51031292	"Montemorelos"						""
-"CITY_NAME_CHANGE"		51031293	"Allende (Nuevo León)"					""
+"CITY_NAME_CHANGE"		51031293	"Allende, Nuevo León"					""
 
 
 # CITY > [MEX] MEXICO > [MEX-OAX] Oaxaca
@@ -15509,13 +15553,13 @@
 # CITY > [MEX] MEXICO > [MEX-QUE] Querétaro
 #====================================================================================
 "CITY_NAME_CHANGE"		104465		"Querétaro"						""
-"CITY_NAME_CHANGE"		51009868	"San Juan del Río (Querétaro)"				""
+"CITY_NAME_CHANGE"		51009868	"San Juan del Río, Querétaro"				""
 "CITY_NAME_CHANGE"		51014295	"Tequisquiapan"						""
 "CITY_NAME_CHANGE"		51014296	"San José Iturbide"					""
 "CITY_NAME_CHANGE"		51014302	"Santa Rosa"						""
 "CITY_NAME_CHANGE"		51014303	"Corregidora"						""
 "CITY_NAME_CHANGE"		51039249	"La Cañada"						""
-"CITY_NAME_CHANGE"		51051506	"Colón (Querétaro)"					""
+"CITY_NAME_CHANGE"		51051506	"Colón, Querétaro"					""
 
 
 # CITY > [MEX] MEXICO > [MEX-ROO] Quintana Roo
@@ -15560,7 +15604,7 @@
 "CITY_NAME_CHANGE"		51008485	"Hermosillo"						""
 "CITY_NAME_CHANGE"		51009873	"Ciudad Obregón"					""
 "CITY_NAME_CHANGE"		51009874	"Guaymas"						""
-"CITY_NAME_CHANGE"		51009875	"Nogales (Sonora)"					""
+"CITY_NAME_CHANGE"		51009875	"Nogales, Sonora"					""
 "CITY_NAME_CHANGE"		51009876	"Navojoa"						""
 "CITY_NAME_CHANGE"		51014252	"Miguel Alemán"						""
 "CITY_NAME_CHANGE"		51014253	"Caborca"						""
@@ -15602,7 +15646,7 @@
 "CITY_NAME_CHANGE"		5666485		"Tlaxcala"						""
 "CITY_NAME_CHANGE"		51013976	"Apizaco"						""
 "CITY_NAME_CHANGE"		51014272	"Santa Cruz"						""
-"CITY_NAME_CHANGE"		51031316	"Vicente Guerrero (Tlaxcala)"				""
+"CITY_NAME_CHANGE"		51031316	"Vicente Guerrero, Tlaxcala"				""
 "CITY_NAME_CHANGE"		51031317	"Huamantla"						""
 "CITY_NAME_CHANGE"		51039247	"Santa Ana Chiautempan"					""
 
@@ -15612,7 +15656,7 @@
 "CITY_NAME_CHANGE"		104461		"Veracruz"						""
 "CITY_NAME_CHANGE"		5661949		"Orizaba"						""
 "CITY_NAME_CHANGE"		5665120		"Coatzacoalcos"						""
-"CITY_NAME_CHANGE"		51008719	"Córdoba (Veracruz)"					""
+"CITY_NAME_CHANGE"		51008719	"Córdoba, Veracruz"					""
 "CITY_NAME_CHANGE"		51008724	"Xalapa"						""
 "CITY_NAME_CHANGE"		51008725	"Poza Rica"						""
 "CITY_NAME_CHANGE"		51009885	"Minatitlán"						""
@@ -15626,7 +15670,7 @@
 "CITY_NAME_CHANGE"		51014266	"Cerro Azul"						""
 "CITY_NAME_CHANGE"		51014267	"Tezonapa"						""
 "CITY_NAME_CHANGE"		51014269	"Álamo Temapache"					""
-"CITY_NAME_CHANGE"		51014271	"Nogales (Veracruz)"					""
+"CITY_NAME_CHANGE"		51014271	"Nogales, Veracruz"					""
 "CITY_NAME_CHANGE"		51014273	"Martínez de la Torre"					""
 "CITY_NAME_CHANGE"		51031318	"Tantoyuca"						""
 "CITY_NAME_CHANGE"		51031319	"Acayucan"						""
@@ -15644,16 +15688,16 @@
 "CITY_NAME_CHANGE"		135937		"Mérida"						""
 "CITY_NAME_CHANGE"		51014260	"Tamanche"						""
 "CITY_NAME_CHANGE"		51031325	"Kanasín"						""
-"CITY_NAME_CHANGE"		51031326	"Valladolid (Yucatán)"					""
+"CITY_NAME_CHANGE"		51031326	"Valladolid, Yucatán"					""
 
 
 # CITY > [MEX] MEXICO > [MEX-ZAC] Zacatecas
 #====================================================================================
 "CITY_NAME_CHANGE"		135938		"Zacatecas"						""
 "CITY_NAME_CHANGE"		51009889	"Fresnillo"						""
-"CITY_NAME_CHANGE"		51031327	"Guadalupe (Zacatecas)"					""
-"CITY_NAME_CHANGE"		51031328	"Río Grande (Zacatecas)"				""
-"CITY_NAME_CHANGE"		51031329	"Jerez (Zacatecas)"					""
+"CITY_NAME_CHANGE"		51031327	"Guadalupe, Zacatecas"					""
+"CITY_NAME_CHANGE"		51031328	"Río Grande, Zacatecas"				""
+"CITY_NAME_CHANGE"		51031329	"Jerez, Zacatecas"					""
 "CITY_NAME_CHANGE"		51039251	"Sauceda de la Borda"					""
 "CITY_NAME_CHANGE"		51039252	"Cieneguillas"						""
 
@@ -16425,13 +16469,13 @@
 "CITY_NAME_CHANGE"		713		"Assen"							""
 "CITY_NAME_CHANGE"		741		"Emmen"							""
 "CITY_NAME_CHANGE"		856660		"Nieuw-Amsterdam"					""
-"CITY_NAME_CHANGE"		37079808	"Broekhuizen (Drenthe)"					""
-"CITY_NAME_CHANGE"		37079998	"Echten (Drenthe)"					""
-"CITY_NAME_CHANGE"		37080475	"Huis ter Heide (Drenthe)"				""
-"CITY_NAME_CHANGE"		37081255	"Oudemolen (Drenthe)"					""
-"CITY_NAME_CHANGE"		37081644	"Steenbergen (Drenthe)"					""
-"CITY_NAME_CHANGE"		37081943	"Vledderveen (Drenthe)"					""
-"CITY_NAME_CHANGE"		37082236	"Zuidwolde (Drenthe)"					""
+"CITY_NAME_CHANGE"		37079808	"Broekhuizen, Drenthe"					""
+"CITY_NAME_CHANGE"		37079998	"Echten, Drenthe"					""
+"CITY_NAME_CHANGE"		37080475	"Huis ter Heide, Drenthe"				""
+"CITY_NAME_CHANGE"		37081255	"Oudemolen, Drenthe"					""
+"CITY_NAME_CHANGE"		37081644	"Steenbergen, Drenthe"					""
+"CITY_NAME_CHANGE"		37081943	"Vledderveen, Drenthe"					""
+"CITY_NAME_CHANGE"		37082236	"Zuidwolde, Drenthe"					""
 
 
 # CITY > [NED] NETHERLANDS > [NED-FL] Flevoland
@@ -16443,17 +16487,17 @@
 # CITY > [NED] NETHERLANDS > [NED-FR] Fryslân
 #====================================================================================
 "CITY_NAME_CHANGE"		724		"Leeuwarden"						""
-"CITY_NAME_CHANGE"		37079840	"Buren (Fryslân)"					""
-"CITY_NAME_CHANGE"		37079997	"Echten (Fryslân)"					""
-"CITY_NAME_CHANGE"		37080052	"Elsloo (Fryslân)"					""
-"CITY_NAME_CHANGE"		37081119	"Noordwolde (Fryslân)"					""
-"CITY_NAME_CHANGE"		37081195	"Oosterwolde (Fryslân)"					""
-"CITY_NAME_CHANGE"		37081210	"Opeinde (Fryslân)"					""
-"CITY_NAME_CHANGE"		37081460	"Rottum (Fryslân)"					""
-"CITY_NAME_CHANGE"		37081510	"Scherpenzeel (Fryslân)"				""
-"CITY_NAME_CHANGE"		37082102	"Oostrum (Fryslân)"					""
-"CITY_NAME_CHANGE"		37082125	"Winsum (Fryslân)"					""
-"CITY_NAME_CHANGE"		37082128	"Wirdum (Fryslân)"					""
+"CITY_NAME_CHANGE"		37079840	"Buren, Fryslân"					""
+"CITY_NAME_CHANGE"		37079997	"Echten, Fryslân"					""
+"CITY_NAME_CHANGE"		37080052	"Elsloo, Fryslân"					""
+"CITY_NAME_CHANGE"		37081119	"Noordwolde, Fryslân"					""
+"CITY_NAME_CHANGE"		37081195	"Oosterwolde, Fryslân"					""
+"CITY_NAME_CHANGE"		37081210	"Opeinde, Fryslân"					""
+"CITY_NAME_CHANGE"		37081460	"Rottum, Fryslân"					""
+"CITY_NAME_CHANGE"		37081510	"Scherpenzeel, Fryslân"				""
+"CITY_NAME_CHANGE"		37082102	"Oostrum, Fryslân"					""
+"CITY_NAME_CHANGE"		37082125	"Winsum, Fryslân"					""
+"CITY_NAME_CHANGE"		37082128	"Wirdum, Fryslân"					""
 
 
 # CITY > [NED] NETHERLANDS > [NED-GE] Gelderland
@@ -16462,55 +16506,55 @@
 "CITY_NAME_CHANGE"		774		"Nijmegen"						""
 "CITY_NAME_CHANGE"		811		"Arnhem"						""
 "CITY_NAME_CHANGE"		856152		"Apeldoorn"						""
-"CITY_NAME_CHANGE"		856767		"Velp (Gelderland)"					""
-"CITY_NAME_CHANGE"		858390		"Beuningen (Gelderland)"				""
-"CITY_NAME_CHANGE"		858393		"Buren (Gelderland)"					""
-"CITY_NAME_CHANGE"		37079535	"Achterveld (Gelderland)"				""
-"CITY_NAME_CHANGE"		37079544	"Afferden (Gelderland)"					""
-"CITY_NAME_CHANGE"		37079562	"Alphen (Gelderland)"					""
-"CITY_NAME_CHANGE"		37080154	"Geesteren (Gelderland)"				""
-"CITY_NAME_CHANGE"		37080369	"Hengelo (Gelderland)"					""
-"CITY_NAME_CHANGE"		37080685	"Laren (Gelderland)"					""
-"CITY_NAME_CHANGE"		37081106	"Noordeinde (Gelderland)"				""
-"CITY_NAME_CHANGE"		37081187	"Oosterhout (Gelderland)"				""
-"CITY_NAME_CHANGE"		37081196	"Oosterwolde (Gelderland)"				""
-"CITY_NAME_CHANGE"		37081432	"Rijswijk (Gelderland)"					""
-"CITY_NAME_CHANGE"		37081453	"Rossum (Gelderland)"					""
-"CITY_NAME_CHANGE"		37082037	"Well (Gelderland)"					""
+"CITY_NAME_CHANGE"		856767		"Velp, Gelderland"					""
+"CITY_NAME_CHANGE"		858390		"Beuningen, Gelderland"				""
+"CITY_NAME_CHANGE"		858393		"Buren, Gelderland"					""
+"CITY_NAME_CHANGE"		37079535	"Achterveld, Gelderland"				""
+"CITY_NAME_CHANGE"		37079544	"Afferden, Gelderland"					""
+"CITY_NAME_CHANGE"		37079562	"Alphen, Gelderland"					""
+"CITY_NAME_CHANGE"		37080154	"Geesteren, Gelderland"				""
+"CITY_NAME_CHANGE"		37080369	"Hengelo, Gelderland"					""
+"CITY_NAME_CHANGE"		37080685	"Laren, Gelderland"					""
+"CITY_NAME_CHANGE"		37081106	"Noordeinde, Gelderland"				""
+"CITY_NAME_CHANGE"		37081187	"Oosterhout, Gelderland"				""
+"CITY_NAME_CHANGE"		37081196	"Oosterwolde, Gelderland"				""
+"CITY_NAME_CHANGE"		37081432	"Rijswijk, Gelderland"					""
+"CITY_NAME_CHANGE"		37081453	"Rossum, Gelderland"					""
+"CITY_NAME_CHANGE"		37082037	"Well, Gelderland"					""
 
 
 # CITY > [NED] NETHERLANDS > [NED-GR] Groningen
 #====================================================================================
 "CITY_NAME_CHANGE"		720		"Groningen"						""
-"CITY_NAME_CHANGE"		858306		"Haren (Groningen)"					""
-"CITY_NAME_CHANGE"		858318		"Winsum (Groningen)"					""
-"CITY_NAME_CHANGE"		37079565	"Alteveer (Groningen)"					""
-"CITY_NAME_CHANGE"		37080264	"Den Ham (Groningen)"					""
-"CITY_NAME_CHANGE"		37081115	"Noordwijk (Groningen)"					""
-"CITY_NAME_CHANGE"		37081118	"Noordwolde (Groningen)"				""
-"CITY_NAME_CHANGE"		37081459	"Rottum (Groningen)"					""
-"CITY_NAME_CHANGE"		37081622	"Spijk (Groningen)"					""
-"CITY_NAME_CHANGE"		37081942	"Vledderveen (Groningen)"				""
-"CITY_NAME_CHANGE"		37082129	"Wirdum (Groningen)"					""
-"CITY_NAME_CHANGE"		37082204	"Zevenhuizen (Groningen)"				""
-"CITY_NAME_CHANGE"		37082235	"Zuidwolde (Groningen)"					""
+"CITY_NAME_CHANGE"		858306		"Haren, Groningen"					""
+"CITY_NAME_CHANGE"		858318		"Winsum, Groningen"					""
+"CITY_NAME_CHANGE"		37079565	"Alteveer, Groningen"					""
+"CITY_NAME_CHANGE"		37080264	"Den Ham, Groningen"					""
+"CITY_NAME_CHANGE"		37081115	"Noordwijk, Groningen"					""
+"CITY_NAME_CHANGE"		37081118	"Noordwolde, Groningen"				""
+"CITY_NAME_CHANGE"		37081459	"Rottum, Groningen"					""
+"CITY_NAME_CHANGE"		37081622	"Spijk, Groningen"					""
+"CITY_NAME_CHANGE"		37081942	"Vledderveen, Groningen"				""
+"CITY_NAME_CHANGE"		37082129	"Wirdum, Groningen"					""
+"CITY_NAME_CHANGE"		37082204	"Zevenhuizen, Groningen"				""
+"CITY_NAME_CHANGE"		37082235	"Zuidwolde, Groningen"					""
 
 
 # CITY > [NED] NETHERLANDS > [NED-LI] Limburg
 #====================================================================================
 "CITY_NAME_CHANGE"		772		"Maastricht"						""
 "CITY_NAME_CHANGE"		814		"Venlo"							""
-"CITY_NAME_CHANGE"		601700		"Elsloo (Limburg)"					""
+"CITY_NAME_CHANGE"		601700		"Elsloo, Limburg"					""
 "CITY_NAME_CHANGE"		856521		"Heerlen"						""
-"CITY_NAME_CHANGE"		858632		"Valkenburg (Limburg)"					""
-"CITY_NAME_CHANGE"		37056113	"Bergen (Limburg)"					""
-"CITY_NAME_CHANGE"		37079545	"Afferden (Limburg)"					""
-"CITY_NAME_CHANGE"		37079632	"Baarlo (Limburg)"					""
-"CITY_NAME_CHANGE"		37079670	"Beek (Limburg)"					""
-"CITY_NAME_CHANGE"		37079809	"Broekhuizen (Limburg)"					""
-"CITY_NAME_CHANGE"		37080865	"Mechelen (Limburg)"					""
-"CITY_NAME_CHANGE"		37081203	"Oostrum (Limburg)"					""
-"CITY_NAME_CHANGE"		37082038	"Well (Limburg)"					""
+"CITY_NAME_CHANGE"		858632		"Valkenburg, Limburg"					""
+"CITY_NAME_CHANGE"		37056113	"Bergen, Limburg"					""
+"CITY_NAME_CHANGE"		37079545	"Afferden, Limburg"					""
+"CITY_NAME_CHANGE"		37079632	"Baarlo, Limburg"					""
+"CITY_NAME_CHANGE"		37079670	"Beek, Limburg"					""
+"CITY_NAME_CHANGE"		37079809	"Broekhuizen, Limburg"					""
+"CITY_NAME_CHANGE"		37080865	"Mechelen, Limburg"					""
+"CITY_NAME_CHANGE"		37081203	"Oostrum, Limburg"					""
+"CITY_NAME_CHANGE"		37082038	"Well, Limburg"					""
 
 
 # CITY > [NED] NETHERLANDS > [NED-NB] Noord-Brabant
@@ -16521,15 +16565,15 @@
 "CITY_NAME_CHANGE"		773		"Breda"							""
 "CITY_NAME_CHANGE"		782		"Roosendaal"						""
 "CITY_NAME_CHANGE"		804		"Oss"							""
-"CITY_NAME_CHANGE"		805		"Oosterhout (Noord-Brabant)"				""
+"CITY_NAME_CHANGE"		805		"Oosterhout, Noord-Brabant"				""
 "CITY_NAME_CHANGE"		816		"Tilburg"						""
 "CITY_NAME_CHANGE"		856762		"Bergen op Zoom"					""
-"CITY_NAME_CHANGE"		37079563	"Alphen (Noord-Brabant)"				""
-"CITY_NAME_CHANGE"		37080280	"Haren (Noord-Brabant)"					""
-"CITY_NAME_CHANGE"		37081256	"Oudemolen (Noord-Brabant)"				""
-"CITY_NAME_CHANGE"		37081433	"Rijswijk (Noord-Brabant)"				""
-"CITY_NAME_CHANGE"		37081645	"Steenbergen (Noord-Brabant)"				""
-"CITY_NAME_CHANGE"		37081910	"Velp (Noord-Brabant)"					""
+"CITY_NAME_CHANGE"		37079563	"Alphen, Noord-Brabant"				""
+"CITY_NAME_CHANGE"		37080280	"Haren, Noord-Brabant"					""
+"CITY_NAME_CHANGE"		37081256	"Oudemolen, Noord-Brabant"				""
+"CITY_NAME_CHANGE"		37081433	"Rijswijk, Noord-Brabant"				""
+"CITY_NAME_CHANGE"		37081645	"Steenbergen, Noord-Brabant"				""
+"CITY_NAME_CHANGE"		37081910	"Velp, Noord-Brabant"					""
 "CITY_NAME_CHANGE"		37082113	"Willemstad"						""
 
 
@@ -16542,13 +16586,13 @@
 "CITY_NAME_CHANGE"		856523		"Hoorn"							""
 "CITY_NAME_CHANGE"		856524		"Purmerend"						""
 "CITY_NAME_CHANGE"		857293		"Hilversum"						""
-"CITY_NAME_CHANGE"		858455		"Bergen (Noord-Holland)"				""
+"CITY_NAME_CHANGE"		858455		"Bergen, Noord-Holland"				""
 "CITY_NAME_CHANGE"		858491		"Gemeente Zeevang"					""
 "CITY_NAME_CHANGE"		3700394		"Heerhugowaard"						""
 "CITY_NAME_CHANGE"		15015803	"Hoofddorp"						""
 "CITY_NAME_CHANGE"		37079582	"Amsterdam-Duivendrecht"				""
-"CITY_NAME_CHANGE"		37081105	"Noordeinde (Noord-Holland)"				""
-"CITY_NAME_CHANGE"		37081462	"Rozenburg (Noord-Holland)"				""
+"CITY_NAME_CHANGE"		37081105	"Noordeinde, Noord-Holland"				""
+"CITY_NAME_CHANGE"		37081462	"Rozenburg, Noord-Holland"				""
 "CITY_NAME_CHANGE"		37082172	"Zaandam"						""
 "CITY_NAME_CHANGE"		37082181	"'t Zand"						""
 
@@ -16557,14 +16601,14 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		749		"Zwolle"						""
 "CITY_NAME_CHANGE"		755		"Deventer"						""
-"CITY_NAME_CHANGE"		776		"Hasselt (Overijssel)"					""
+"CITY_NAME_CHANGE"		776		"Hasselt, Overijssel"					""
 "CITY_NAME_CHANGE"		789		"Enschede"						""
 "CITY_NAME_CHANGE"		792		"Almelo"						""
-"CITY_NAME_CHANGE"		798		"Geesteren (Overijssel)"				""
-"CITY_NAME_CHANGE"		856655		"Hengelo (Overijssel)"					""
-"CITY_NAME_CHANGE"		37079721	"Beuningen (Overijssel)"				""
-"CITY_NAME_CHANGE"		37080265	"Den Ham (Overijssel)"					""
-"CITY_NAME_CHANGE"		37081452	"Rossum (Overijssel)"					""
+"CITY_NAME_CHANGE"		798		"Geesteren, Overijssel"				""
+"CITY_NAME_CHANGE"		856655		"Hengelo, Overijssel"					""
+"CITY_NAME_CHANGE"		37079721	"Beuningen, Overijssel"				""
+"CITY_NAME_CHANGE"		37080265	"Den Ham, Overijssel"					""
+"CITY_NAME_CHANGE"		37081452	"Rossum, Overijssel"					""
 
 
 # CITY > [NED] NETHERLANDS > [NED-UT] Utrecht
@@ -16575,8 +16619,8 @@
 "CITY_NAME_CHANGE"		856579		"Zeist"							""
 "CITY_NAME_CHANGE"		856686		"Nieuwegein"						""
 "CITY_NAME_CHANGE"		37056050	"Stichtse Vecht"					""
-"CITY_NAME_CHANGE"		37079536	"Achterveld (Utrecht)"					""
-"CITY_NAME_CHANGE"		37080476	"Huis ter Heide (Utrecht)"				""
+"CITY_NAME_CHANGE"		37079536	"Achterveld, Utrecht"					""
+"CITY_NAME_CHANGE"		37080476	"Huis ter Heide, Utrecht"				""
 
 
 # CITY > [NED] NETHERLANDS > [NED-ZH] Zuid-Holland
@@ -16595,7 +16639,7 @@
 "CITY_NAME_CHANGE"		856950		"Zoetermeer"						""
 "CITY_NAME_CHANGE"		858533		"Rijswijk"						""
 "CITY_NAME_CHANGE"		858538		"Spijkenisse"						""
-"CITY_NAME_CHANGE"		858540		"Valkenburg (Zuid-Holland)"				""
+"CITY_NAME_CHANGE"		858540		"Valkenburg, Zuid-Holland"				""
 
 
 # CITY > [NCL] NEW CALEDONIA > [NCL-LI] Lifou
@@ -18086,12 +18130,12 @@
 
 # CITY > [PHI] PHILIPPINES > [PHI-BUK] Bukidnon
 #====================================================================================
-"CITY_NAME_CHANGE"		23393638	"Valencia (Bukidnon)"					""
+"CITY_NAME_CHANGE"		23393638	"Valencia, Bukidnon"					""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-BUL] Bulacan
 #====================================================================================
-"CITY_NAME_CHANGE"		23356315	"Santa Maria (Bulacan)"					""
+"CITY_NAME_CHANGE"		23356315	"Santa Maria, Bulacan"					""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-CEB] Cebu
@@ -18113,8 +18157,8 @@
 # CITY > [PHI] PHILIPPINES > [PHI-LAG] Laguna
 #====================================================================================
 "CITY_NAME_CHANGE"		5627935		"Santa Cruz"						""
-"CITY_NAME_CHANGE"		23393560	"Rizal (Laguna)"					""
-"CITY_NAME_CHANGE"		23393562	"Santa Maria (Laguna)"					""
+"CITY_NAME_CHANGE"		23393560	"Rizal, Laguna"					""
+"CITY_NAME_CHANGE"		23393562	"Santa Maria, Laguna"					""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-LAN] Lanao del Norte
@@ -18150,10 +18194,10 @@
 # CITY > [PHI] PHILIPPINES > [PHI-NEC] Negros Occidental
 #====================================================================================
 "CITY_NAME_CHANGE"		5627251		"Bacolod"						""
-"CITY_NAME_CHANGE"		5627930		"San Carlos (Negros Occidental)""
+"CITY_NAME_CHANGE"		5627930		"San Carlos, Negros Occidental""
 "CITY_NAME_CHANGE"		5627947		"Cadiz"							""
 "CITY_NAME_CHANGE"		5629006		"Binalbagan"						""
-"CITY_NAME_CHANGE"		23429434	"Talisay (Negros Occidental)"				""
+"CITY_NAME_CHANGE"		23429434	"Talisay, Negros Occidental"				""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-NER] Negros Oriental
@@ -18179,12 +18223,12 @@
 # CITY > [PHI] PHILIPPINES > [PHI-TAR] Tarlac
 #====================================================================================
 "CITY_NAME_CHANGE"		5627946		"Tarlac City"						""
-"CITY_NAME_CHANGE"		23393656	"San Jose (Tarlac)"					""
+"CITY_NAME_CHANGE"		23393656	"San Jose, Tarlac"					""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-ZAN] Zamboanga del Norte
 #====================================================================================
-"CITY_NAME_CHANGE"		23393246	"Rizal (Zamboanga del Norte)"				""
+"CITY_NAME_CHANGE"		23393246	"Rizal, Zamboanga del Norte"				""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-ZAS] Zamboanga del Sur
@@ -19101,66 +19145,66 @@
 
 # CITY > [RUS] RUSSIA > [RUS-BA] Republic of Bashkortostan
 #====================================================================================
-"CITY_NAME_CHANGE"		58014638	"Blagoveschensk (Bashkortostan)"			""
+"CITY_NAME_CHANGE"		58014638	"Blagoveschensk, Bashkortostan"			""
 
 
 # CITY > [RUS] RUSSIA > [RUS-BEL] Belgorod Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		58024210	"Kotovo (Belgorod O.)"					""
+"CITY_NAME_CHANGE"		58024210	"Kotovo, Belgorod O."					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-BU] Republic of Buryatia
 #====================================================================================
-"CITY_NAME_CHANGE"		58015017	"Zarechny (Buryatia)"					""
+"CITY_NAME_CHANGE"		58015017	"Zarechny, Buryatia"					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-DA] Republic of Dagestan
 #====================================================================================
 "CITY_NAME_CHANGE"		58015108	"Nizhnee Kazanische"					""
-"CITY_NAME_CHANGE"		58015125	"Komsomolskiy (Dagestan)"				""
+"CITY_NAME_CHANGE"		58015125	"Komsomolskiy, Dagestan"				""
 "CITY_NAME_CHANGE"		58015138	"Verkhnee Kazanische"					""
-"CITY_NAME_CHANGE"		58015173	"Druzhba (Dagestan)"					""
-"CITY_NAME_CHANGE"		58015174	"Pervomaiskoe (Dagestan)"				""
-"CITY_NAME_CHANGE"		58015178	"Komsomolskoe (Dagestan)"				""
+"CITY_NAME_CHANGE"		58015173	"Druzhba, Dagestan"					""
+"CITY_NAME_CHANGE"		58015174	"Pervomaiskoe, Dagestan"				""
+"CITY_NAME_CHANGE"		58015178	"Komsomolskoe, Dagestan"				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KB] Kabardino-Balkarian Republic
 #====================================================================================
-"CITY_NAME_CHANGE"		58015264	"Maiskiy (Kabardino-Balkaria)"				""
-"CITY_NAME_CHANGE"		58015307	"Kamenka (Kabardino-Balkaria)"				""
+"CITY_NAME_CHANGE"		58015264	"Maiskiy, Kabardino-Balkaria"				""
+"CITY_NAME_CHANGE"		58015307	"Kamenka, Kabardino-Balkaria"				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KGD] Kaliningrad Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301072		"Kaliningrad"						""
-"CITY_NAME_CHANGE"		58062118	"Gurjevsk (Kaliningrad O.)"				""
+"CITY_NAME_CHANGE"		58062118	"Gurjevsk, Kaliningrad O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KL] Republic of Kalmykia
 #====================================================================================
-"CITY_NAME_CHANGE"		58015352	"Troitskoe (Kalmykia)"					""
-"CITY_NAME_CHANGE"		58015362	"Komsomolskiy (Kalmykia)"				""
+"CITY_NAME_CHANGE"		58015352	"Troitskoe, Kalmykia"					""
+"CITY_NAME_CHANGE"		58015362	"Komsomolskiy, Kalmykia"				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KLU] Kaluga Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		58066660	"Kirov (Kaluga O.)"					""
+"CITY_NAME_CHANGE"		58066660	"Kirov, Kaluga O."					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KC] Karachay-Cherkess Republic
 #====================================================================================
-"CITY_NAME_CHANGE"		58015372	"Pervomaiskoe (Karachay-Cherkessia)"			""
-"CITY_NAME_CHANGE"		58015388	"Druzhba (Karachay-Cherkessia)"				""
+"CITY_NAME_CHANGE"		58015372	"Pervomaiskoe, Karachay-Cherkessia"			""
+"CITY_NAME_CHANGE"		58015388	"Druzhba, Karachay-Cherkessia"				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KEM] Kemerovo Oblast — Kuzbass
 #====================================================================================
-"CITY_NAME_CHANGE"		58062119	"Gurjevsk (Kemerovo O.)"				""
+"CITY_NAME_CHANGE"		58062119	"Gurjevsk, Kemerovo O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KOS] Kostroma Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		8061034		"Nikolskoe (Kostroma O.)"				""
+"CITY_NAME_CHANGE"		8061034		"Nikolskoe, Kostroma O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KDA] Krasnodar Krai
@@ -19171,17 +19215,17 @@
 
 # CITY > [RUS] RUSSIA > [RUS-KRS] Kursk Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		8053233		"Zheleznogorsk (Kursk O.)"				""
+"CITY_NAME_CHANGE"		8053233		"Zheleznogorsk, Kursk O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-LEN] Leningrad Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		58022384	"Nikolskoe (Leningrad O.)"				""
+"CITY_NAME_CHANGE"		58022384	"Nikolskoe, Leningrad O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-LIP] Lipetsk Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		58021062	"Pervomaiskoe (Lipetsk O.)"				""
+"CITY_NAME_CHANGE"		58021062	"Pervomaiskoe, Lipetsk O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-MO] Republic of Mordovia
@@ -19191,10 +19235,10 @@
 
 # CITY > [RUS] RUSSIA > [RUS-MOS] Moscow Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		8056149		"Pervomaiskoe (Moscow O.)"				""
-"CITY_NAME_CHANGE"		8085848		"Troitsk (Moscow O.)"					""
-"CITY_NAME_CHANGE"		58003668	"Iljinskiy (Moscow O.)"					""
-"CITY_NAME_CHANGE"		58035255	"Zheleznogorsk (Moscow O.)"				""
+"CITY_NAME_CHANGE"		8056149		"Pervomaiskoe, Moscow O."				""
+"CITY_NAME_CHANGE"		8085848		"Troitsk, Moscow O."					""
+"CITY_NAME_CHANGE"		58003668	"Iljinskiy, Moscow O."					""
+"CITY_NAME_CHANGE"		58035255	"Zheleznogorsk, Moscow O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-NIZ] Nizhny Novgorod Oblast
@@ -19204,23 +19248,23 @@
 
 # CITY > [RUS] RUSSIA > [RUS-ORL] Oryol Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		58006949	"Troitsk (Oryol O.)"					""
+"CITY_NAME_CHANGE"		58006949	"Troitsk, Oryol O."					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-PNZ] Penza Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		477495		"Kamenka (Penza O.)"					""
-"CITY_NAME_CHANGE"		58116994	"Zarechny (Penza O.)"					""
+"CITY_NAME_CHANGE"		477495		"Kamenka, Penza O."					""
+"CITY_NAME_CHANGE"		58116994	"Zarechny, Penza O."					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-PER] Perm Krai
 #====================================================================================
-"CITY_NAME_CHANGE"		2000032399	"Iljinskiy raion (Perm K.)"				""
+"CITY_NAME_CHANGE"		2000032399	"Iljinskiy raion, Perm K."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-PRI] Primorsky Krai
 #====================================================================================
-"CITY_NAME_CHANGE"		2000064821	"Spasskoe (Primorsky K.)"				""
+"CITY_NAME_CHANGE"		2000064821	"Spasskoe, Primorsky K."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-ROS] Rostov Oblast
@@ -19235,14 +19279,14 @@
 
 # CITY > [RUS] RUSSIA > [RUS-STA] Stavropol Krai
 #====================================================================================
-"CITY_NAME_CHANGE"		2000032523	"Ivanovskoe (Stavropol K.)"				""
-"CITY_NAME_CHANGE"		2000085641	"Mikhailovsk (Stavropol K.)"				""
+"CITY_NAME_CHANGE"		2000032523	"Ivanovskoe, Stavropol K."				""
+"CITY_NAME_CHANGE"		2000085641	"Mikhailovsk, Stavropol K."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-SVE] Sverdlovsk Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301077		"Yekaterinburg"						""
-"CITY_NAME_CHANGE"		8053477		"Mikhailovsk (Sverdlovsk O.)"				""
+"CITY_NAME_CHANGE"		8053477		"Mikhailovsk, Sverdlovsk O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-TA] Republic of Tatarstan
@@ -19252,18 +19296,18 @@
 
 # CITY > [RUS] RUSSIA > [RUS-TUL] Tula Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		2000091798	"Maiskiy (Tula O.)"					""
+"CITY_NAME_CHANGE"		2000091798	"Maiskiy, Tula O."					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-VGG] Volgograd Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301083		"Volgograd"						""
-"CITY_NAME_CHANGE"		58018412	"Kotovo (Volgograd O.)"					""
+"CITY_NAME_CHANGE"		58018412	"Kotovo, Volgograd O."					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-VOR] Voronezh Oblast
 #====================================================================================
-"CITY_NAME_CHANGE"		8054278		"Troitskoe (Voronezh O.)"				""
+"CITY_NAME_CHANGE"		8054278		"Troitskoe, Voronezh O."				""
 
 
 # CITY > [RUS] RUSSIA > [RUS-YAR] Yaroslavl Oblast
@@ -23812,19 +23856,19 @@
 # CITY > [UZB] UZBEKISTAN
 #====================================================================================
 "CITY_NAME_CHANGE"		103230		"Toshkent"						""
-"CITY_NAME_CHANGE"		59016662	"Guliston (Sirdaryo)"					""
-"CITY_NAME_CHANGE"		59016682	"Yangiobod (Toshkent)"					""
-"CITY_NAME_CHANGE"		59016683	"Yangibozor (Toshkent)"					""
-"CITY_NAME_CHANGE"		59080251	"Oltinko'l (Qoraqalpog'iston R.)"			""
-"CITY_NAME_CHANGE"		59080286	"Oltinko'l (Andijon)"					""
-"CITY_NAME_CHANGE"		59080309	"Gulisto (Andijon)"					""
-"CITY_NAME_CHANGE"		59080327	"Yangiobod (Andijon)"					""
-"CITY_NAME_CHANGE"		59080362	"Paxtaobod (Andijon)"					""
-"CITY_NAME_CHANGE"		59080385	"Yangibozor (Buxoro)"					""
-"CITY_NAME_CHANGE"		59080474	"Tinchlik (Navoiy)"					""
-"CITY_NAME_CHANGE"		59080526	"Paxtaobod (Sirdaryo)"					""
-"CITY_NAME_CHANGE"		59080570	"Tinchlik (Farg'ona)"					""
-"CITY_NAME_CHANGE"		59080618	"Yangibozor (Xorazm)"					""
+"CITY_NAME_CHANGE"		59016662	"Guliston, Sirdaryo"					""
+"CITY_NAME_CHANGE"		59016682	"Yangiobod, Toshkent"					""
+"CITY_NAME_CHANGE"		59016683	"Yangibozor, Toshkent"					""
+"CITY_NAME_CHANGE"		59080251	"Oltinko'l, Qoraqalpog'iston R."			""
+"CITY_NAME_CHANGE"		59080286	"Oltinko'l, Andijon"					""
+"CITY_NAME_CHANGE"		59080309	"Gulisto, Andijon"					""
+"CITY_NAME_CHANGE"		59080327	"Yangiobod, Andijon"					""
+"CITY_NAME_CHANGE"		59080362	"Paxtaobod, Andijon"					""
+"CITY_NAME_CHANGE"		59080385	"Yangibozor, Buxoro"					""
+"CITY_NAME_CHANGE"		59080474	"Tinchlik, Navoiy"					""
+"CITY_NAME_CHANGE"		59080526	"Paxtaobod, Sirdaryo"					""
+"CITY_NAME_CHANGE"		59080570	"Tinchlik, Farg'ona"					""
+"CITY_NAME_CHANGE"		59080618	"Yangibozor, Xorazm"					""
 
 
 # CITY > [VAN] VANUATU

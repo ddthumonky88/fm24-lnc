@@ -1,4 +1,4 @@
-
+﻿
 
 # CLUB > AFC > [AUS] AUSTRALIA > [129985] A-League Men (23/24)
 #==============================================================================
@@ -14,7 +14,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	130220		"Brisbane"						""
 "CLUB_3LETTER_NAME_CHANGE"	130220		"BRI"							""
 
-"CLUB_CITY_CHANGE"		426430		"123011"						"" # <Newcastle (NSW)>
+"CLUB_CITY_CHANGE"		426430		"123011"						"" # <Newcastle, NSW>
 "CLUB_NAME_CHANGE"		426430		"Newcastle Jets FC"					""
 "CLUB_SHORT_NAME_CHANGE"	426430		"Newcastle Jets"					""
 #"CLUB_6LETTER_NAME_CHANGE"	426430		"Newcastle"						""
@@ -225,7 +225,7 @@
 # CLUB > AFC > [AUS] AUSTRALIA > [15045546] NSW League Two
 #==============================================================================
 "AFFILIATED_CLUB_ID"		15068483	"BAC-426430"						"" # [AUS] Newcastle Jets
-"CLUB_CITY_CHANGE"		15068483	"123011"						"" # <Newcastle (NSW)>
+"CLUB_CITY_CHANGE"		15068483	"123011"						"" # <Newcastle, NSW>
 "CLUB_NAME_CHANGE"		15068483	"Newcastle Jets FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	15068483	"Newcastle Jets B"					""
 #"CLUB_6LETTER_NAME_CHANGE"	15068483	"Newcastle B"						""
@@ -755,7 +755,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1035522		"Jiangxi LS"						""
 #"CLUB_3LETTER_NAME_CHANGE"	1035522		"JXLS"							""
 
-"CLUB_CITY_CHANGE"		23318347	"1013205"						"" # <Suzhou (Anhui)>
+"CLUB_CITY_CHANGE"		23318347	"1013205"						"" # <Suzhou, Anhui>
 "CLUB_NAME_CHANGE"		23318347	"Suzhou Dongwu FC"					""
 "CLUB_SHORT_NAME_CHANGE"	23318347	"Suzhou Dongwu"						""
 #"CLUB_6LETTER_NAME_CHANGE"	23318347	"Suzhou DW"						""
@@ -872,7 +872,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2000128311	"Zibo QS"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2000128311	"ZBQS"							""
 
-"CLUB_CITY_CHANGE"		2000183924	"5627428"						"" # <Tai'an (Shandong)>
+"CLUB_CITY_CHANGE"		2000183924	"5627428"						"" # <Tai'an, Shandong>
 "CLUB_NAME_CHANGE"		2000183924	"Tai'an Tiankuang FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000183924	"Tai'an Tiankuang"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000183924	"Tai'an TK"						""
@@ -2234,7 +2234,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	144839		"Mes Kerman"						""
 "CLUB_3LETTER_NAME_CHANGE"	144839		"MES"							""
 
-"CLUB_CITY_CHANGE"		1023074		"1023267"						"" # <Khorramabad (Khorramabad)>
+"CLUB_CITY_CHANGE"		1023074		"1023267"						"" # <Khorramabad, Khorramabad>
 "CLUB_NAME_CHANGE"		1023074		"FC Kheybar Khorramabad"				""
 "CLUB_SHORT_NAME_CHANGE"	1023074		"Kheybar"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1023074		"Kheybar"						""
@@ -2306,7 +2306,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000176779	"Ario"							""
 "CLUB_3LETTER_NAME_CHANGE"	2000176779	"ARI"							""
 
-"CLUB_CITY_CHANGE"		2000192152	"23346639"						"" # <Ardakan (Ardakan)>
+"CLUB_CITY_CHANGE"		2000192152	"23346639"						"" # <Ardakan, Ardakan>
 "CLUB_NAME_CHANGE"		2000192152	"Chadormalou Ardakan CSC‌"				""
 "CLUB_SHORT_NAME_CHANGE"	2000192152	"Chadormalu"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000192152	"Chadormalu"						""
@@ -2720,7 +2720,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	107289		"Mito"							""
 "CLUB_3LETTER_NAME_CHANGE"	107289		"MIT"							""
 
-"CLUB_CITY_CHANGE"		107301		"789924"						"" # <Yamagata (Gifu-ken)>
+"CLUB_CITY_CHANGE"		107301		"789924"						"" # <Yamagata, Gifu-ken>
 "CLUB_NAME_CHANGE"		107301		"Montedio Yamagata"					""
 "CLUB_SHORT_NAME_CHANGE"	107301		"Montedio Yamagata"					""
 #"CLUB_6LETTER_NAME_CHANGE"	107301		"Yamagata"						""
@@ -2787,7 +2787,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	787559		"Nagasaki"						""
 "CLUB_3LETTER_NAME_CHANGE"	787559		"NGS"							""
 
-"CLUB_CITY_CHANGE"		788837		"789774"						"" # <Machida (Tokyo-to)>
+"CLUB_CITY_CHANGE"		788837		"789774"						"" # <Machida, Tokyo-to>
 "CLUB_NAME_CHANGE"		788837		"FC Machida Zelvia"					""
 "CLUB_SHORT_NAME_CHANGE"	788837		"Machida Zelvia"					""
 #"CLUB_6LETTER_NAME_CHANGE"	788837		"Machida"						""
@@ -2960,7 +2960,7 @@
 "CLUB_SHORT_NAME_CHANGE"	792398		"Atletico Suzuka"					""
 "CLUB_6LETTER_NAME_CHANGE"	792398		"Suzuka"						""
 
-"CLUB_CITY_CHANGE"		792462		"3902130"						"" # <Musashino (Tokyo-to)>
+"CLUB_CITY_CHANGE"		792462		"3902130"						"" # <Musashino, Tokyo-to>
 "CLUB_NAME_CHANGE"		792462		"Yokogawa Musashino FC"					""
 "CLUB_SHORT_NAME_CHANGE"	792462		"Yokogawa Musashino"					""
 
@@ -3060,7 +3060,7 @@
 "CLUB_NAME_CHANGE"		780528		"Tonan Maebashi"					""
 "CLUB_SHORT_NAME_CHANGE"	780528		"Tonan Maebashi"					""
 
-"CLUB_CITY_CHANGE"		792368		"788891"						"" # <Sakai>
+"CLUB_CITY_CHANGE"		792368		"788891"						"" # <Sakai, Osaka-fu>
 "CLUB_NAME_CHANGE"		792368		"Sakai Trinitas"					""
 "CLUB_SHORT_NAME_CHANGE"	792368		"Sakai Trinitas"					""
 
@@ -10129,7 +10129,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	1258		"Necaxa"						""
 "CLUB_3LETTER_NAME_CHANGE"	1258		"NEC"							""
 
-"CLUB_CITY_CHANGE"		1259		"104460"						"" # <León (Guanajuato)>
+"CLUB_CITY_CHANGE"		1259		"104460"						"" # <León, Guanajuato>
 "CLUB_NAME_CHANGE"		1259		"Club León"						""
 "CLUB_SHORT_NAME_CHANGE"	1259		"León"							""
 "CLUB_6LETTER_NAME_CHANGE"	1259		"León"							""
@@ -10194,7 +10194,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5661074		"ASL"							""
 "CLUB_3LETTER_NAME_CHANGE"	5661074		"ASL"							""
 
-"CLUB_CITY_CHANGE"		51051219	"51031288"						"" # <Juárez (Nuevo León)>
+"CLUB_CITY_CHANGE"		51051219	"51031288"						"" # <Juárez, Nuevo León>
 "CLUB_NAME_CHANGE"		51051219	"FC Juárez"						""
 "CLUB_SHORT_NAME_CHANGE"	51051219	"Juárez"						""
 "CLUB_6LETTER_NAME_CHANGE"	51051219	"Juárez"						""
@@ -10285,7 +10285,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000017421	"Cancún"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000017421	"CAN"							""
 
-"CLUB_CITY_CHANGE"		2000193551	"51009831"						"" # <La Paz (BCS)>
+"CLUB_CITY_CHANGE"		2000193551	"51009831"						"" # <La Paz, BCS>
 "CLUB_NAME_CHANGE"		2000193551	"Club Atlético La Paz"					""
 "CLUB_SHORT_NAME_CHANGE"	2000193551	"Atlético La Paz"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000193551	"La Paz"						""
@@ -16317,7 +16317,7 @@
 "CLUB_NAME_CHANGE"		7508658		"FK Sozopol"						""
 "CLUB_SHORT_NAME_CHANGE"	7508658		"Sozopol"						""
 
-"CLUB_CITY_CHANGE"		7508865		"22076786"						"" # <Bistritsa (obl. Sofia)>
+"CLUB_CITY_CHANGE"		7508865		"22076786"						"" # <Bistritsa, obl. Sofia>
 "CLUB_NAME_CHANGE"		7508865		"FK Vitosha Bistritsa"					""
 "CLUB_SHORT_NAME_CHANGE"	7508865		"Vitosha Bistritsa"					""
 
@@ -19659,7 +19659,7 @@
 
 # CLUB > UEFA > [FRA] FRANCE > [16] Ligue 1 (23/24)
 #================================================================================
-"CLUB_CITY_CHANGE"		826		"166"						"" # <Monaco>
+"CLUB_CITY_CHANGE"		826		"166"							"" # <Monaco>
 "CLUB_NAME_CHANGE"		826		"AS Monaco FC"						""
 "CLUB_SHORT_NAME_CHANGE"	826		"Monaco"						""
 "CLUB_6LETTER_NAME_CHANGE"	826		"Monaco"						""
@@ -19671,95 +19671,97 @@
 "CLUB_6LETTER_NAME_CHANGE"	844		"Metz"							""
 #"CLUB_3LETTER_NAME_CHANGE"	844		"METZ"							""
 
-"CLUB_CITY_CHANGE"		846		"220"						"" # <Nantes>
+"CLUB_CITY_CHANGE"		846		"220"							"" # <Nantes>
 "CLUB_NAME_CHANGE"		846		"FC Nantes"						""
 "CLUB_SHORT_NAME_CHANGE"	846		"Nantes"						""
 "CLUB_6LETTER_NAME_CHANGE"	846		"Nantes"						""
 #"CLUB_3LETTER_NAME_CHANGE"	846		"FCN"							""
 
+"CLUB_CITY_CHANGE"		856		"242"							"" # <Le Havre>
 "CLUB_NAME_CHANGE"		856		"Havre AC"						""
 "CLUB_SHORT_NAME_CHANGE"	856		"Havre"							""
 "CLUB_6LETTER_NAME_CHANGE"	856		"Havre"							""
 #"CLUB_3LETTER_NAME_CHANGE"	856		"HAC"							""
 
-"CLUB_CITY_CHANGE"		858		"247"						"" # <Lille>
+"CLUB_CITY_CHANGE"		858		"247"							"" # <Lille>
 "CLUB_NAME_CHANGE"		858		"LOSC Lille"						""
 "CLUB_SHORT_NAME_CHANGE"	858		"Lille"							""
 "CLUB_6LETTER_NAME_CHANGE"	858		"Lille"							""
 #"CLUB_3LETTER_NAME_CHANGE"	858		"LOSC"							""
 
-"CLUB_CITY_CHANGE"		859		"258"						"" # <Montpellier>
+"CLUB_CITY_CHANGE"		859		"258"							"" # <Montpellier>
 "CLUB_NAME_CHANGE"		859		"Montpellier Hérault SC"				""
 "CLUB_SHORT_NAME_CHANGE"	859		"Montpellier"						""
 #"CLUB_6LETTER_NAME_CHANGE"	859		"Montpellier"						""
 #"CLUB_3LETTER_NAME_CHANGE"	859		"MHSC"							""
 
-"CLUB_CITY_CHANGE"		862		"262"						"" # <Nice>
+"CLUB_CITY_CHANGE"		862		"262"							"" # <Nice>
 "CLUB_NAME_CHANGE"		862		"OGC Nice"						""
 "CLUB_SHORT_NAME_CHANGE"	862		"Nice"							""
 "CLUB_6LETTER_NAME_CHANGE"	862		"Nice"							""
 #"CLUB_3LETTER_NAME_CHANGE"	862		"NICE"							""
 
-"CLUB_CITY_CHANGE"		865		"267"						"" # <Lyon>
+"CLUB_CITY_CHANGE"		865		"267"							"" # <Lyon>
 "CLUB_NAME_CHANGE"		865		"Olympique Lyonnais"					""
 "CLUB_SHORT_NAME_CHANGE"	865		"Lyon"							""
 "CLUB_6LETTER_NAME_CHANGE"	865		"Lyon"							""
 "CLUB_3LETTER_NAME_CHANGE"	865		"OL"							""
 
-"CLUB_CITY_CHANGE"		866		"207"						"" # <Marseille>
+"CLUB_CITY_CHANGE"		866		"207"							"" # <Marseille>
 "CLUB_NAME_CHANGE"		866		"Olympique de Marseille"				""
 "CLUB_SHORT_NAME_CHANGE"	866		"Marseille"						""
 #"CLUB_6LETTER_NAME_CHANGE"	866		"Marseille"						""
 "CLUB_3LETTER_NAME_CHANGE"	866		"OM"							""
 
-"CLUB_CITY_CHANGE"		868		"270"						"" # <Paris>
+"CLUB_CITY_CHANGE"		868		"270"							"" # <Paris>
 "CLUB_NAME_CHANGE"		868		"Paris Saint-Germain FC"				""
 "CLUB_SHORT_NAME_CHANGE"	868		"Paris SG"						""
 "CLUB_6LETTER_NAME_CHANGE"	868		"PSG"							""
 "CLUB_3LETTER_NAME_CHANGE"	868		"PSG"							""
 
-"CLUB_CITY_CHANGE"		871		"278"						"" # <Lens>
+"CLUB_CITY_CHANGE"		871		"278"							"" # <Lens>
 "CLUB_NAME_CHANGE"		871		"RC Lens"						""
 "CLUB_SHORT_NAME_CHANGE"	871		"Lens"							""
 "CLUB_6LETTER_NAME_CHANGE"	871		"Lens"							""
 #"CLUB_3LETTER_NAME_CHANGE"	871		"LENS"							""
 
-"CLUB_CITY_CHANGE"		872		"279"						"" # <Strasbourg>
+"CLUB_CITY_CHANGE"		872		"279"							"" # <Strasbourg>
 "CLUB_NAME_CHANGE"		872		"RC Strasbourg Alsace"					""
 "CLUB_SHORT_NAME_CHANGE"	872		"Strasbourg"						""
 #"CLUB_6LETTER_NAME_CHANGE"	872		"Strasbourg"						""
 #"CLUB_3LETTER_NAME_CHANGE"	872		"RCSA"							""
 
-"CLUB_CITY_CHANGE"		884		"306"						"" # <Toulouse>
+"CLUB_CITY_CHANGE"		884		"306"							"" # <Rennes>
 "CLUB_NAME_CHANGE"		884		"Stade Rennais FC"					""
 "CLUB_SHORT_NAME_CHANGE"	884		"Rennes"						""
 "CLUB_6LETTER_NAME_CHANGE"	884		"Rennes"						""
 #"CLUB_3LETTER_NAME_CHANGE"	884		"SRFC"							""
 
-"CLUB_CITY_CHANGE"		886		"306"						"" # <Toulouse>
+"CLUB_CITY_CHANGE"		886		"309"							"" # <Toulouse>
 "CLUB_NAME_CHANGE"		886		"Toulouse FC"						""
 "CLUB_SHORT_NAME_CHANGE"	886		"Toulouse"						""
 #"CLUB_6LETTER_NAME_CHANGE"	886		"Toulouse"						""
 #"CLUB_3LETTER_NAME_CHANGE"	886		"TOU"							""
 
+"CLUB_CITY_CHANGE"		1992		"195"							"" # <Clermont-Ferrand>
 "CLUB_NAME_CHANGE"		1992		"Clermont Foot 63"					""
 "CLUB_SHORT_NAME_CHANGE"	1992		"Clermont"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1992		"Clermont"						""
 #"CLUB_3LETTER_NAME_CHANGE"	1992		"CF63"							""
 
-"CLUB_CITY_CHANGE"		2005		"216"						"" # <Lorient>
+"CLUB_CITY_CHANGE"		2005		"216"							"" # <Lorient>
 "CLUB_NAME_CHANGE"		2005		"FC Lorient"						""
 "CLUB_SHORT_NAME_CHANGE"	2005		"Lorient"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2005		"Lorient"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2005		"FCL"							""
 
-"CLUB_CITY_CHANGE"		2047		"282"						"" # <Reims>
+"CLUB_CITY_CHANGE"		2047		"282"							"" # <Reims>
 "CLUB_NAME_CHANGE"		2047		"Stade de Reims"					""
 "CLUB_SHORT_NAME_CHANGE"	2047		"Reims"							""
 "CLUB_6LETTER_NAME_CHANGE"	2047		"Reims"							""
 #"CLUB_3LETTER_NAME_CHANGE"	2047		"SDR"							""
 
-"CLUB_CITY_CHANGE"		2061		"301"						"" # <Brest>
+"CLUB_CITY_CHANGE"		2061		"301"							"" # <Brest>
 "CLUB_NAME_CHANGE"		2061		"Stade Brestois 29"					""
 "CLUB_SHORT_NAME_CHANGE"	2061		"Brest"							""
 "CLUB_6LETTER_NAME_CHANGE"	2061		"Brest"							""
@@ -19768,102 +19770,103 @@
 
 # CLUB > UEFA > [FRA] FRANCE > [17] Ligue 2 (23/24)
 #================================================================================
-"CLUB_CITY_CHANGE"		824		"156"						"" # <Auxerre>
+"CLUB_CITY_CHANGE"		824		"156"							"" # <Auxerre>
 "CLUB_NAME_CHANGE"		824		"AJ Auxerre"						""
 "CLUB_SHORT_NAME_CHANGE"	824		"Auxerre"						""
 #"CLUB_6LETTER_NAME_CHANGE"	824		"Auxerre"						""
 #"CLUB_3LETTER_NAME_CHANGE"	824		"AJA"							""
 
-"CLUB_CITY_CHANGE"		828		"168"						"" # <Saint-Étienne>
+"CLUB_CITY_CHANGE"		828		"168"							"" # <Saint-Étienne>
 "CLUB_NAME_CHANGE"		828		"AS Saint-Étienne Loire"				""
 "CLUB_SHORT_NAME_CHANGE"	828		"Saint-Étienne"						""
 #"CLUB_6LETTER_NAME_CHANGE"	828		"Saint-Étienne"						""
 #"CLUB_3LETTER_NAME_CHANGE"	828		"ASSE"							""
 
-"CLUB_CITY_CHANGE"		831		"157"						"" # <Amiens>
+"CLUB_CITY_CHANGE"		831		"157"							"" # <Amiens>
 "CLUB_NAME_CHANGE"		831		"Amiens SC"						""
 "CLUB_SHORT_NAME_CHANGE"	831		"Amiens"						""
 "CLUB_6LETTER_NAME_CHANGE"	831		"Amiens"						""
 #"CLUB_3LETTER_NAME_CHANGE"	831		"ASC"							""
 
-"CLUB_CITY_CHANGE"		840		"206"						"" # <Guingamp>
+"CLUB_CITY_CHANGE"		840		"206"							"" # <Guingamp>
 "CLUB_NAME_CHANGE"		840		"EA Guingamp"						""
 "CLUB_SHORT_NAME_CHANGE"	840		"Guingamp"						""
 #"CLUB_6LETTER_NAME_CHANGE"	840		"Guingamp"						""
 #"CLUB_3LETTER_NAME_CHANGE"	840		"EAG"							""
 
-"CLUB_CITY_CHANGE"		851		"234"						"" # <Bordeaux>
+"CLUB_CITY_CHANGE"		851		"234"							"" # <Bordeaux>
 "CLUB_NAME_CHANGE"		851		"FC Girondins de Bordeaux"				""
 "CLUB_SHORT_NAME_CHANGE"	851		"Bordeaux"						""
 #"CLUB_6LETTER_NAME_CHANGE"	851		"Bordeaux"						""
 #"CLUB_3LETTER_NAME_CHANGE"	851		"FCGB"							""
 
-"CLUB_CITY_CHANGE"		852		"266"						"" # <Grenoble>
+"CLUB_CITY_CHANGE"		852		"266"							"" # <Grenoble>
 "CLUB_NAME_CHANGE"		852		"Grenoble Foot 38"					""
 "CLUB_SHORT_NAME_CHANGE"	852		"Grenoble"						""
 #"CLUB_6LETTER_NAME_CHANGE"	852		"Grenoble"						""
 #"CLUB_3LETTER_NAME_CHANGE"	852		"GF38"							""
 
-"CLUB_CITY_CHANGE"		867		"270"						"" # <Paris>
+"CLUB_CITY_CHANGE"		867		"270"							"" # <Paris>
 "CLUB_NAME_CHANGE"		867		"Paris FC"						""
 "CLUB_SHORT_NAME_CHANGE"	867		"Paris FC"						""
 #"CLUB_6LETTER_NAME_CHANGE"	867		"Paris FC"						""
 #"CLUB_3LETTER_NAME_CHANGE"	867		"PFC"							""
 
-"CLUB_CITY_CHANGE"		875		"294"						"" # <Angers>
+"CLUB_CITY_CHANGE"		875		"294"							"" # <Angers>
 "CLUB_NAME_CHANGE"		875		"Angers SCO"						""
 "CLUB_SHORT_NAME_CHANGE"	875		"Angers"						""
 "CLUB_6LETTER_NAME_CHANGE"	875		"Angers"						""
 #"CLUB_3LETTER_NAME_CHANGE"	875		"SCO"							""
 
-"CLUB_CITY_CHANGE"		876		"298"						"" # <Bastia>
+"CLUB_CITY_CHANGE"		876		"298"							"" # <Bastia>
 "CLUB_NAME_CHANGE"		876		"SC Bastia"						""
 "CLUB_SHORT_NAME_CHANGE"	876		"Bastia"						""
 "CLUB_6LETTER_NAME_CHANGE"	876		"Bastia"						""
 #"CLUB_3LETTER_NAME_CHANGE"	876		"SCB"							""
 
-"CLUB_CITY_CHANGE"		877		"303"						"" # <Caen>
+"CLUB_CITY_CHANGE"		877		"303"							"" # <Caen>
 "CLUB_NAME_CHANGE"		877		"SM Caen Calvados"					""
 "CLUB_SHORT_NAME_CHANGE"	877		"Caen"							""
 "CLUB_6LETTER_NAME_CHANGE"	877		"Caen"							""
 #"CLUB_3LETTER_NAME_CHANGE"	877		"CAEN"							""
 
-"CLUB_CITY_CHANGE"		888		"325"						"" # <Valenciennes>
+"CLUB_CITY_CHANGE"		888		"325"							"" # <Valenciennes>
 "CLUB_NAME_CHANGE"		888		"Valenciennes FC"					""
 "CLUB_SHORT_NAME_CHANGE"	888		"Valenciennes"						""
 "CLUB_6LETTER_NAME_CHANGE"	888		"VAFC"							""
 #"CLUB_3LETTER_NAME_CHANGE"	888		"VAFC"							""
 
-"CLUB_CITY_CHANGE"		1971		"169"						"" # <Troyes>
+"CLUB_CITY_CHANGE"		1971		"169"							"" # <Troyes>
 "CLUB_NAME_CHANGE"		1971		"ESTAC Troyes"						""
 "CLUB_SHORT_NAME_CHANGE"	1971		"Troyes"						""
 "CLUB_6LETTER_NAME_CHANGE"	1971		"Troyes"						""
 #"CLUB_3LETTER_NAME_CHANGE"	1971		"TROY"							""
 
-"CLUB_CITY_CHANGE"		2048		"283"						"" # <Rodez>
+"CLUB_CITY_CHANGE"		2048		"283"							"" # <Rodez>
 "CLUB_NAME_CHANGE"		2048		"Rodez AF"						""
 "CLUB_SHORT_NAME_CHANGE"	2048		"Rodez"							""
 "CLUB_6LETTER_NAME_CHANGE"	2048		"Rodez"							""
 #"CLUB_3LETTER_NAME_CHANGE"	2048		"RAF"							""
 
-"CLUB_CITY_CHANGE"		2062		"302"						"" # <Laval>
+"CLUB_CITY_CHANGE"		2062		"302"							"" # <Laval>
 "CLUB_NAME_CHANGE"		2062		"Stade Lavallois MFC"					""
 "CLUB_SHORT_NAME_CHANGE"	2062		"Laval"							""
 "CLUB_6LETTER_NAME_CHANGE"	2062		"Laval"							""
 #"CLUB_3LETTER_NAME_CHANGE"	2062		"LAV"							""
 
-"CLUB_CITY_CHANGE"		2072		"318"						"" # <Dunkerque>
+"CLUB_CITY_CHANGE"		2072		"318"							"" # <Dunkerque>
 "CLUB_NAME_CHANGE"		2072		"USL Dunkerque"						""
 "CLUB_SHORT_NAME_CHANGE"	2072		"Dunkerque"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2072		"Dunkerque"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2072		"USLD"							""
 
+"CLUB_CITY_CHANGE"		2090		"271"							"" # <Pau>
 "CLUB_NAME_CHANGE"		2090		"Pau FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2090		"Pau FC"						""
 "CLUB_6LETTER_NAME_CHANGE"	2090		"Pau"							""
 #"CLUB_3LETTER_NAME_CHANGE"	2090		"PAU"							""
 
-"CLUB_CITY_CHANGE"		400362		"233"						"" # <Ajaccio>
+"CLUB_CITY_CHANGE"		400362		"233"							"" # <Ajaccio>
 "CLUB_NAME_CHANGE"		400362		"AC Ajaccio"						""
 "CLUB_SHORT_NAME_CHANGE"	400362		"Ajaccio"						""
 #"CLUB_6LETTER_NAME_CHANGE"	400362		"Ajaccio"						""
@@ -19875,13 +19878,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	3501956		"Concarneau"						""
 #"CLUB_3LETTER_NAME_CHANGE"	3501956		"USC"							""
 
-"CLUB_CITY_CHANGE"		50034825	"222"						"" # <Rouen>
+"CLUB_CITY_CHANGE"		50034825	"322"							"" # <Le Petit-Quevilly>
 "CLUB_NAME_CHANGE"		50034825	"US Quevilly-Rouen Métropole"				""
 "CLUB_SHORT_NAME_CHANGE"	50034825	"Quevilly-Rouen"					""
 "CLUB_6LETTER_NAME_CHANGE"	50034825	"QRM"							""
 #"CLUB_3LETTER_NAME_CHANGE"	50034825	"QRM"							""
 
-"CLUB_CITY_CHANGE"		85052735	"158"						"" # <Annecy>
+"CLUB_CITY_CHANGE"		85052735	"158"							"" # <Annecy>
 "CLUB_NAME_CHANGE"		85052735	"FC Annecy"						""
 "CLUB_SHORT_NAME_CHANGE"	85052735	"Annecy"						""
 "CLUB_6LETTER_NAME_CHANGE"	85052735	"Annecy"						""
@@ -19890,100 +19893,103 @@
 
 # CLUB > UEFA > [FRA] FRANCE > [18] Ligue 3 (23/24)
 #================================================================================
-"CLUB_CITY_CHANGE"		827		"167"						"" # <Nancy>
+"CLUB_CITY_CHANGE"		827		"167"							"" # <Nancy>
 "CLUB_NAME_CHANGE"		827		"AS Nancy Lorraine"					""
 "CLUB_SHORT_NAME_CHANGE"	827		"Nancy"							""
 "CLUB_6LETTER_NAME_CHANGE"	827		"Nancy"							""
 #"CLUB_3LETTER_NAME_CHANGE"	827		"ASNL"							""
 
-"CLUB_CITY_CHANGE"		838		"187"						"" # <Niort>
+"CLUB_CITY_CHANGE"		838		"187"							"" # <Niort>
 "CLUB_NAME_CHANGE"		838		"Chamois Niortais FC"					""
 "CLUB_SHORT_NAME_CHANGE"	838		"Niort"							""
 "CLUB_6LETTER_NAME_CHANGE"	838		"Niort"							""
 #"CLUB_3LETTER_NAME_CHANGE"	838		"CNFC"							""
 
-"CLUB_CITY_CHANGE"		839		"185"						"" # <Dijon>
+"CLUB_CITY_CHANGE"		839		"185"							"" # <Dijon>
 "CLUB_NAME_CHANGE"		839		"Dijon FCO"						""
 "CLUB_SHORT_NAME_CHANGE"	839		"Dijon"							""
 "CLUB_6LETTER_NAME_CHANGE"	839		"Dijon"							""
 #"CLUB_3LETTER_NAME_CHANGE"	839		"DFCO"							""
 
-"CLUB_CITY_CHANGE"		843		"217"						"" # <Martigues>
+"CLUB_CITY_CHANGE"		843		"217"							"" # <Martigues>
 "CLUB_NAME_CHANGE"		843		"FC Martigues"						""
 "CLUB_SHORT_NAME_CHANGE"	843		"Martigues"						""
 #"CLUB_6LETTER_NAME_CHANGE"	843		"Martigues"						""
 #"CLUB_3LETTER_NAME_CHANGE"	843		"FCM"							""
 
-"CLUB_CITY_CHANGE"		855		"191"						"" # <Châteauroux>
+"CLUB_CITY_CHANGE"		855		"191"							"" # <Châteauroux>
 "CLUB_NAME_CHANGE"		855		"La Berrichonne de Châteauroux"				""
 "CLUB_SHORT_NAME_CHANGE"	855		"Châteauroux"						""
 #"CLUB_6LETTER_NAME_CHANGE"	855		"Châteauroux"						""
 #"CLUB_3LETTER_NAME_CHANGE"	855		"LBC"							""
 
-"CLUB_CITY_CHANGE"		857		"243"						"" # <Le Mans>
+"CLUB_CITY_CHANGE"		857		"243"							"" # <Le Mans>
 "CLUB_NAME_CHANGE"		857		"Le Mans FC"						""
 "CLUB_SHORT_NAME_CHANGE"	857		"Le Mans"						""
 #"CLUB_6LETTER_NAME_CHANGE"	857		"Le Mans"						""
 #"CLUB_3LETTER_NAME_CHANGE"	857		"LMFC"							""
 
-"CLUB_CITY_CHANGE"		860		"260"						"" # <Nîmes>
+"CLUB_CITY_CHANGE"		860		"260"							"" # <Nîmes>
 "CLUB_NAME_CHANGE"		860		"Nîmes Olympique FC"					""
 "CLUB_SHORT_NAME_CHANGE"	860		"Nîmes"							""
 "CLUB_6LETTER_NAME_CHANGE"	860		"Nîmes"							""
 #"CLUB_3LETTER_NAME_CHANGE"	860		"NO"							""
 
+"CLUB_CITY_CHANGE"		873		"281"							"" # <Saint-Ouen-sur-Seine>
 "CLUB_NAME_CHANGE"		873		"Red Star FC"						""
 "CLUB_SHORT_NAME_CHANGE"	873		"Red Star"						""
 #"CLUB_6LETTER_NAME_CHANGE"	873		"Red Star"						""
 #"CLUB_3LETTER_NAME_CHANGE"	873		"RED"							""
 
-"CLUB_CITY_CHANGE"		874		"222"						"" # <Rouen>
+"CLUB_CITY_CHANGE"		874		"322"							"" # <Le Petit-Quevilly>
 "CLUB_NAME_CHANGE"		874		"FC Rouen 1899"						""
 "CLUB_SHORT_NAME_CHANGE"	874		"Rouen"							""
 "CLUB_6LETTER_NAME_CHANGE"	874		"Rouen"							""
 #"CLUB_3LETTER_NAME_CHANGE"	874		"FCR"							""
 
-"CLUB_CITY_CHANGE"		881		"300"						"" # <Épinal>
+"CLUB_CITY_CHANGE"		881		"300"							"" # <Épinal>
 "CLUB_NAME_CHANGE"		881		"SAS Épinal"						""
 "CLUB_SHORT_NAME_CHANGE"	881		"Épinal"						""
 "CLUB_6LETTER_NAME_CHANGE"	881		"Épinal"						""
 #"CLUB_3LETTER_NAME_CHANGE"	881		"SAS"							""
 
-"CLUB_CITY_CHANGE"		1991		"194"						"" # <Cholet>
+"CLUB_CITY_CHANGE"		1991		"194"							"" # <Cholet>
 "CLUB_NAME_CHANGE"		1991		"SO Choletais"						""
 "CLUB_SHORT_NAME_CHANGE"	1991		"Cholet"						""
 "CLUB_6LETTER_NAME_CHANGE"	1991		"Cholet"						""
 #"CLUB_3LETTER_NAME_CHANGE"	1991		"SOC"							""
 
-"CLUB_CITY_CHANGE"		2009		"226"						"" # <Montbéliard>
+"CLUB_CITY_CHANGE"		2009		"226"							"" # <Montbéliard>
 "CLUB_NAME_CHANGE"		2009		"FC Sochaux-Montbéliard"				""
 "CLUB_SHORT_NAME_CHANGE"	2009		"Sochaux"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2009		"Sochaux"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2009		"FCSM"							""
 
-"CLUB_CITY_CHANGE"		2068		"312"						"" # <Avranches>
+"CLUB_CITY_CHANGE"		2068		"312"							"" # <Avranches>
 "CLUB_NAME_CHANGE"		2068		"US Avranches Mont-Saint-Michel"			""
 "CLUB_SHORT_NAME_CHANGE"	2068		"Avranches"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2068		"Avranches"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2068		"USA"							""
 
-"CLUB_CITY_CHANGE"		2075		"321"						"" # <Orléans>
+"CLUB_CITY_CHANGE"		2075		"321"							"" # <Orléans>
 "CLUB_NAME_CHANGE"		2075		"US Orléans Loiret Football"				""
 "CLUB_SHORT_NAME_CHANGE"	2075		"Orléans"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2075		"Orléans"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2075		"USO"							""
 
-"CLUB_CITY_CHANGE"		2083		"330"						"" # <Versailles>
+"CLUB_CITY_CHANGE"		2083		"330"							"" # <Versailles>
 "CLUB_NAME_CHANGE"		2083		"FC Versailles 78"					""
 "CLUB_SHORT_NAME_CHANGE"	2083		"Versailles 78"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2083		"Versailles"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2083		"FCV"							""
 
+"CLUB_CITY_CHANGE"		2085		"332"							"" # <Villefranche-sur-Saône>
 "CLUB_NAME_CHANGE"		2085		"FC Villefranche Beaujolais"				""
 "CLUB_SHORT_NAME_CHANGE"	2085		"Villefranche"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2085		"Villefranche"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2085		"FCVB"							""
 
+"CLUB_CITY_CHANGE"		2000020418	"34016451"						"" # <Chasselay>
 "CLUB_NAME_CHANGE"		2000020418	"GOAL FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000020418	"GOAL FC"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000020418	"GOAL"							""
@@ -20017,12 +20023,12 @@
 #"CLUB_3LETTER_NAME_CHANGE"	8426573		"ABFC"							""
 
 "AFFILIATED_CLUB_ID"		48038853	"2T-886"						"" # [FRA] Toulouse
-"CLUB_CITY_CHANGE"		48038853	"306"						"" # <Toulouse>
+"CLUB_CITY_CHANGE"		48038853	"306"							"" # <Toulouse>
 "CLUB_NAME_CHANGE"		48038853	"Toulouse FC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038853	"Toulouse 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038853	"TOU.2"							""
 
-"CLUB_CITY_CHANGE"		50046914	"299"						"" # <Toulon>
+"CLUB_CITY_CHANGE"		50046914	"299"							"" # <Toulon>
 "CLUB_NAME_CHANGE"		50046914	"SC Toulon"						""
 "CLUB_SHORT_NAME_CHANGE"	50046914	"SC Toulon"						""
 "CLUB_3LETTER_NAME_CHANGE"	50046914	"SCT"							""
@@ -20086,7 +20092,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	8449786		"SPSH"							""
 
 "AFFILIATED_CLUB_ID"		48038833	"2T-875"						"" # [FRA] Angers
-"CLUB_CITY_CHANGE"		48038833	"294"						"" # <Angers>
+"CLUB_CITY_CHANGE"		48038833	"294"							"" # <Angers>
 "CLUB_NAME_CHANGE"		48038833	"Angers SCO 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038833	"Angers 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038833	"SCO.2"							""
@@ -20094,7 +20100,7 @@
 "CLUB_NAME_CHANGE"		50032772	"Avoine Olympique Chinon Cinais"			""
 "CLUB_SHORT_NAME_CHANGE"	50032772	"Avoine OCC"						""
 
-"CLUB_CITY_CHANGE"		2000204915	"270"						"" # <Paris>
+"CLUB_CITY_CHANGE"		2000204915	"270"							"" # <Paris>
 "CLUB_NAME_CHANGE"		2000204915	"Paris 13 Atlético"					""
 "CLUB_SHORT_NAME_CHANGE"	2000204915	"Paris 13 Atlético"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000204915	"P13A"							""
@@ -20131,13 +20137,13 @@
 "CLUB_SHORT_NAME_CHANGE"	34003166	"Dinan Léhon"						""
 
 "AFFILIATED_CLUB_ID"		48038837	"2T-840"						"" # [FRA] Guingamp
-"CLUB_CITY_CHANGE"		48038837	"206"						"" # <Guingamp>
+"CLUB_CITY_CHANGE"		48038837	"206"							"" # <Guingamp>
 "CLUB_NAME_CHANGE"		48038837	"EA Guingamp 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038837	"Guingamp 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038837	"EAG.2"							""
 
 "AFFILIATED_CLUB_ID"		48038839	"2T-2005"						"" # [FRA] Lorient
-"CLUB_CITY_CHANGE"		48038839	"216"						"" # <Lorient>
+"CLUB_CITY_CHANGE"		48038839	"216"							"" # <Lorient>
 "CLUB_NAME_CHANGE"		48038839	"FC Lorient 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038839	"Lorient 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038839	"FCL.2"							""
@@ -20181,7 +20187,7 @@
 "CLUB_SHORT_NAME_CHANGE"	34003188	"Furiani-Agliani"					""
 
 "AFFILIATED_CLUB_ID"		48038856	"2T-824"						"" # [FRA] Auxerre
-"CLUB_CITY_CHANGE"		48038856	"156"						"" # <Auxerre>
+"CLUB_CITY_CHANGE"		48038856	"156"							"" # <Auxerre>
 "CLUB_NAME_CHANGE"		48038856	"AJ Auxerre 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038856	"Auxerre 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038856	"AJA.2"							""
@@ -20212,31 +20218,31 @@
 # CLUB > UEFA > [FRA] FRANCE > Team 2
 #================================================================================
 "AFFILIATED_CLUB_ID"		48038834	"2T-876"						"" # [FRA] Bastia
-"CLUB_CITY_CHANGE"		48038834	"298"						"" # <Bastia>
+"CLUB_CITY_CHANGE"		48038834	"298"							"" # <Bastia>
 "CLUB_NAME_CHANGE"		48038834	"SC Bastia 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038834	"Bastia 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038834	"SCB.2"							""
 
 "AFFILIATED_CLUB_ID"		48038835	"2T-851"						"" # [FRA] Bordeaux
-"CLUB_CITY_CHANGE"		48038835	"234"						"" # <Bordeaux>
+"CLUB_CITY_CHANGE"		48038835	"234"							"" # <Bordeaux>
 "CLUB_NAME_CHANGE"		48038835	"FC Girondins de Bordeaux 2"				""
 "CLUB_SHORT_NAME_CHANGE"	48038835	"Bordeaux 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038835	"FCGB.2"						""
 
 "AFFILIATED_CLUB_ID"		48038836	"2T-877"						"" # [FRA] Caen
-"CLUB_CITY_CHANGE"		48038836	"303"						"" # <Caen>
+"CLUB_CITY_CHANGE"		48038836	"303"							"" # <Caen>
 "CLUB_NAME_CHANGE"		48038836	"SM Caen 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038836	"Caen 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038836	"SMC.2"							""
 
 "AFFILIATED_CLUB_ID"		48038838	"2T-858"						"" # [FRA] Lille
-"CLUB_CITY_CHANGE"		48038838	"247"						"" # <Lille>
+"CLUB_CITY_CHANGE"		48038838	"247"							"" # <Lille>
 "CLUB_NAME_CHANGE"		48038838	"LOSC Lille 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038838	"Lille 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038838	"LOSC.2"						""
 
 "AFFILIATED_CLUB_ID"		48038840	"2T-866"						"" # [FRA] Marseille
-"CLUB_CITY_CHANGE"		48038840	"207"						"" # <Marseille>
+"CLUB_CITY_CHANGE"		48038840	"207"							"" # <Marseille>
 "CLUB_NAME_CHANGE"		48038840	"Olympique de Marseille 2"				""
 "CLUB_SHORT_NAME_CHANGE"	48038840	"Marseille 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038840	"OM.2"							""
@@ -20247,31 +20253,31 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038841	"MON.2"							""
 
 "AFFILIATED_CLUB_ID"		48038843	"2T-859"						"" # [FRA] Montpellier
-"CLUB_CITY_CHANGE"		48038843	"258"						"" # <Montpellier>
+"CLUB_CITY_CHANGE"		48038843	"258"							"" # <Montpellier>
 "CLUB_NAME_CHANGE"		48038843	"Montpellier HSC 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038843	"Montpellier 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038843	"MHSC.2"						""
 
 "AFFILIATED_CLUB_ID"		48038844	"2T-846"						"" # [FRA] Nantes
-"CLUB_CITY_CHANGE"		48038844	"220"						"" # <Nantes>
+"CLUB_CITY_CHANGE"		48038844	"220"							"" # <Nantes>
 "CLUB_NAME_CHANGE"		48038844	"FC Nantes 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038844	"Nantes 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038844	"FCN.2"							""
 
 "AFFILIATED_CLUB_ID"		48038846	"2T-862"						"" # [FRA] Nice
-"CLUB_CITY_CHANGE"		48038846	"262"						"" # <Nice>
+"CLUB_CITY_CHANGE"		48038846	"262"							"" # <Nice>
 "CLUB_NAME_CHANGE"		48038846	"OGC Nice 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038846	"Nice 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038846	"NICE.2"						""
 
 "AFFILIATED_CLUB_ID"		48038847	"2T-868"						"" # [FRA] Paris SG
-"CLUB_CITY_CHANGE"		48038847	"270"						"" # <Paris>
+"CLUB_CITY_CHANGE"		48038847	"270"							"" # <Paris>
 "CLUB_NAME_CHANGE"		48038847	"Paris Saint-Germain FC 2"				""
 "CLUB_SHORT_NAME_CHANGE"	48038847	"Paris SG 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038847	"PSG.2"							""
 
 "AFFILIATED_CLUB_ID"		48038849	"2T-2047"						"" # [FRA] Reims
-"CLUB_CITY_CHANGE"		48038849	"282"						"" # <Reims>
+"CLUB_CITY_CHANGE"		48038849	"282"							"" # <Reims>
 "CLUB_NAME_CHANGE"		48038849	"Stade de Reims 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038849	"Reims 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038849	"SDR.2"							""
@@ -20282,25 +20288,25 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038850	"SRFC.2"						""
 
 "AFFILIATED_CLUB_ID"		48038852	"2T-828"						"" # [FRA] Saint-Étienne
-"CLUB_CITY_CHANGE"		48038852	"168"						"" # <Saint-Étienne>
+"CLUB_CITY_CHANGE"		48038852	"168"							"" # <Saint-Étienne>
 "CLUB_NAME_CHANGE"		48038852	"AS Saint-Etienne 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038852	"Saint-Etienne 2"					""
 "CLUB_6LETTER_NAME_CHANGE"	48038852	"ASSE.2"						""
 
 "AFFILIATED_CLUB_ID"		48038854	"2T-1971"						"" # [FRA] Troyes
-"CLUB_CITY_CHANGE"		48038854	"169"						"" # <Troyes>
+"CLUB_CITY_CHANGE"		48038854	"169"							"" # <Troyes>
 "CLUB_NAME_CHANGE"		48038854	"ESTAC Troyes 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038854	"Troyes 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038854	"TROY.2"						""
 
 "AFFILIATED_CLUB_ID"		48038855	"2T-400362"						"" # [FRA] Ajaccio
-"CLUB_CITY_CHANGE"		48038855	"233"						"" # <Ajaccio>
+"CLUB_CITY_CHANGE"		48038855	"233"							"" # <Ajaccio>
 "CLUB_NAME_CHANGE"		48038855	"AC Ajaccio 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038855	"Ajaccio 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038855	"ACA.2"							""
 
 "AFFILIATED_CLUB_ID"		48038858	"2T-2061"						"" # [FRA] Brest
-"CLUB_CITY_CHANGE"		48038858	"301"						"" # <Brest>
+"CLUB_CITY_CHANGE"		48038858	"301"							"" # <Brest>
 "CLUB_NAME_CHANGE"		48038858	"Stade Brestois 29 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038858	"Brest 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038858	"SB29.2"						""
@@ -20311,13 +20317,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038860	"CF63.2"						""
 
 "AFFILIATED_CLUB_ID"		48038862	"2T-839"						"" # [FRA] Dijon
-"CLUB_CITY_CHANGE"		48038862	"185"						"" # <Dijon>
+"CLUB_CITY_CHANGE"		48038862	"185"							"" # <Dijon>
 "CLUB_NAME_CHANGE"		48038862	"Dijon FCO 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038862	"Dijon 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038862	"DFCO.2"						""
 
 "AFFILIATED_CLUB_ID"		48038864	"2T-2062"						"" # [FRA] Laval
-"CLUB_CITY_CHANGE"		48038864	"302"						"" # <Laval>
+"CLUB_CITY_CHANGE"		48038864	"302"							"" # <Laval>
 "CLUB_NAME_CHANGE"		48038864	"Stade Lavallois MFC 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038864	"Laval 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038864	"LAV.2"							""
@@ -20328,7 +20334,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038865	"HAC.2"							""
 
 "AFFILIATED_CLUB_ID"		48038866	"2T-871"						"" # [FRA] Lens
-"CLUB_CITY_CHANGE"		48038866	"278"						"" # <Lens>
+"CLUB_CITY_CHANGE"		48038866	"278"							"" # <Lens>
 "CLUB_NAME_CHANGE"		48038866	"RC Lens 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038866	"Lens 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038866	"LENS.2"						""
@@ -20340,19 +20346,19 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038867	"METZ.2"						""
 
 "AFFILIATED_CLUB_ID"		48038868	"2T-827"						"" # [FRA] Nancy
-"CLUB_CITY_CHANGE"		48038868	"167"						"" # <Nancy>
+"CLUB_CITY_CHANGE"		48038868	"167"							"" # <Nancy>
 "CLUB_NAME_CHANGE"		48038868	"AS Nancy Lorraine 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038868	"Nancy 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038868	"ASNL.2"						""
 
 "AFFILIATED_CLUB_ID"		48038870	"2T-838"						"" # [FRA] Niort
-"CLUB_CITY_CHANGE"		48038870	"187"						"" # <Niort>
+"CLUB_CITY_CHANGE"		48038870	"187"							"" # <Niort>
 "CLUB_NAME_CHANGE"		48038870	"Chamois Niortais 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038870	"Niort 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038870	"CNFC.2"						""
 
 "AFFILIATED_CLUB_ID"		48038871	"2T-867"						"" # [FRA] Paris FC
-"CLUB_CITY_CHANGE"		48038871	"270"						"" # <Paris>
+"CLUB_CITY_CHANGE"		48038871	"270"							"" # <Paris>
 "CLUB_NAME_CHANGE"		48038871	"Paris FC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038871	"Paris FC 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038871	"PFC.2"							""
@@ -20363,13 +20369,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038872	"RED.2"							""
 
 "AFFILIATED_CLUB_ID"		48038873	"2T-2009"						"" # [FRA] Sochaux
-"CLUB_CITY_CHANGE"		48038873	"226"						"" # <Montbéliard>
+"CLUB_CITY_CHANGE"		48038873	"226"							"" # <Montbéliard>
 "CLUB_NAME_CHANGE"		48038873	"FC Sochaux-Montbéliard 2"				""
 "CLUB_SHORT_NAME_CHANGE"	48038873	"Sochaux 2"						""
 "CLUB_3LETTER_NAME_CHANGE"	48038873	"SOC.2"							""
 
 "AFFILIATED_CLUB_ID"		48038875	"2T-888"						"" # [FRA] Valenciennes
-"CLUB_CITY_CHANGE"		48038875	"325"						"" # <Valenciennes>
+"CLUB_CITY_CHANGE"		48038875	"325"							"" # <Valenciennes>
 "CLUB_NAME_CHANGE"		48038875	"Valenciennes FC 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038875	"Valenciennes 2"					""
 "CLUB_6LETTER_NAME_CHANGE"	48038875	"VAFC.2"						""
@@ -20385,7 +20391,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	49034744	"ASMB.2"						""
 
 "AFFILIATED_CLUB_ID"		49034745	"2T-881"						"" # [FRA] Épinal
-"CLUB_CITY_CHANGE"		49034745	"300"						"" # <Épinal>
+"CLUB_CITY_CHANGE"		49034745	"300"							"" # <Épinal>
 "CLUB_NAME_CHANGE"		49034745	"SAS Épinal 2"						""
 "CLUB_SHORT_NAME_CHANGE"	49034745	"Épinal 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034745	"SAS.2"							""
@@ -20401,7 +20407,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	49034748	"FCC.2"							""
 
 "AFFILIATED_CLUB_ID"		49034749	"2T-2068"						"" # [FRA] Avranches
-"CLUB_CITY_CHANGE"		49034749	"312"						"" # <Avranches>
+"CLUB_CITY_CHANGE"		49034749	"312"							"" # <Avranches>
 "CLUB_NAME_CHANGE"		49034749	"US Avranches 2"					""
 "CLUB_SHORT_NAME_CHANGE"	49034749	"Avranches 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034749	"USA.2"							""
@@ -20417,31 +20423,31 @@
 "CLUB_6LETTER_NAME_CHANGE"	49034751	"EFC.2"							""
 
 "AFFILIATED_CLUB_ID"		49034753	"2T-2072"						"" # [FRA] Dunkerque
-"CLUB_CITY_CHANGE"		49034753	"318"						"" # <Dunkerque>
+"CLUB_CITY_CHANGE"		49034753	"318"							"" # <Dunkerque>
 "CLUB_NAME_CHANGE"		49034753	"USL Dunkerque 2"					""
 "CLUB_SHORT_NAME_CHANGE"	49034753	"Dunkerque 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034753	"USLD.2"						""
 
 "AFFILIATED_CLUB_ID"		49034755	"2T-831"						"" # [FRA] Amiens
-"CLUB_CITY_CHANGE"		49034755	"157"						"" # <Amiens>
+"CLUB_CITY_CHANGE"		49034755	"157"							"" # <Amiens>
 "CLUB_NAME_CHANGE"		49034755	"Amiens SC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	49034755	"Amiens 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034755	"ASC.2"							""
 
 "AFFILIATED_CLUB_ID"		49034756	"2T-872"						"" # [FRA] Strasbourg
-"CLUB_CITY_CHANGE"		49034756	"279"						"" # <Strasbourg>
+"CLUB_CITY_CHANGE"		49034756	"279"							"" # <Strasbourg>
 "CLUB_NAME_CHANGE"		49034756	"RC Strasbourg Alsace 2"				""
 "CLUB_SHORT_NAME_CHANGE"	49034756	"Strasbourg 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034756	"RCSA.2"						""
 
 "AFFILIATED_CLUB_ID"		49034757	"2T-2075"						"" # [FRA] Orléans
-"CLUB_CITY_CHANGE"		49034757	"321"						"" # <Orléans>
+"CLUB_CITY_CHANGE"		49034757	"321"							"" # <Orléans>
 "CLUB_NAME_CHANGE"		49034757	"US Orléans 2"						""
 "CLUB_SHORT_NAME_CHANGE"	49034757	"Orléans 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034757	"USO.2"							""
 
 "AFFILIATED_CLUB_ID"		49034758	"2T-855"						"" # [FRA] Châteauroux
-"CLUB_CITY_CHANGE"		49034758	"191"						"" # <Châteauroux>
+"CLUB_CITY_CHANGE"		49034758	"191"							"" # <Châteauroux>
 "CLUB_NAME_CHANGE"		49034758	"La Berrichonne de Châteauroux 2"			""
 "CLUB_SHORT_NAME_CHANGE"	49034758	"Châteauroux 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49034758	"LBC.2"							""
@@ -20452,13 +20458,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	49038861	"USCL.2"						""
 
 "AFFILIATED_CLUB_ID"		49059289	"2T-1991"						"" # [FRA] Cholet
-"CLUB_CITY_CHANGE"		49059289	"194"						"" # <Cholet>
+"CLUB_CITY_CHANGE"		49059289	"194"							"" # <Cholet>
 "CLUB_NAME_CHANGE"		49059289	"SO Choletais 2"					""
 "CLUB_SHORT_NAME_CHANGE"	49059289	"Cholet 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49059289	"SOC.2"							""
 
 "AFFILIATED_CLUB_ID"		49059291	"2T-2048"						"" # [FRA] Rodez
-"CLUB_CITY_CHANGE"		49059291	"283"						"" # <Rodez>
+"CLUB_CITY_CHANGE"		49059291	"283"							"" # <Rodez>
 "CLUB_NAME_CHANGE"		49059291	"Rodez AF 2"						""
 "CLUB_SHORT_NAME_CHANGE"	49059291	"Rodez 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49059291	"RAF.2"							""
@@ -20469,7 +20475,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	49059297	"BBP.2"							""
 
 "AFFILIATED_CLUB_ID"		49059299	"2T-50034825"						"" # [FRA] Quevilly-Rouen
-"CLUB_CITY_CHANGE"		49059299	"222"						"" # <Rouen>
+"CLUB_CITY_CHANGE"		49059299	"222"							"" # <Rouen>
 "CLUB_NAME_CHANGE"		49059299	"US Quevilly-Rouen Métropole 2"				""
 "CLUB_SHORT_NAME_CHANGE"	49059299	"Quevilly-Rouen 2"					""
 "CLUB_6LETTER_NAME_CHANGE"	49059299	"QRM.2"							""
@@ -20490,25 +20496,25 @@
 "CLUB_6LETTER_NAME_CHANGE"	50046803	"CAN.2"							""
 
 "AFFILIATED_CLUB_ID"		50046816	"2T-852"						"" # [FRA] Grenoble
-"CLUB_CITY_CHANGE"		50046816	"266"						"" # <Grenoble>
+"CLUB_CITY_CHANGE"		50046816	"266"							"" # <Grenoble>
 "CLUB_NAME_CHANGE"		50046816	"Grenoble Foot 38 2"					""
 "CLUB_SHORT_NAME_CHANGE"	50046816	"Grenoble 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	50046816	"GF38.2"						""
 
 "AFFILIATED_CLUB_ID"		50046819	"2T-843"						"" # [FRA] Martigues
-"CLUB_CITY_CHANGE"		50046819	"217"						"" # <Martigues>
+"CLUB_CITY_CHANGE"		50046819	"217"							"" # <Martigues>
 "CLUB_NAME_CHANGE"		50046819	"FC Martigues 2"					""
 "CLUB_SHORT_NAME_CHANGE"	50046819	"Martigues 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	50046819	"FCM.2"							""
 
 "AFFILIATED_CLUB_ID"		50046822	"2T-874"						"" # [FRA] Rouen
-"CLUB_CITY_CHANGE"		50046822	"222"						"" # <Rouen>
+"CLUB_CITY_CHANGE"		50046822	"222"							"" # <Rouen>
 "CLUB_NAME_CHANGE"		50046822	"FC Rouen 2"						""
 "CLUB_SHORT_NAME_CHANGE"	50046822	"Rouen 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	50046822	"FCR.2"							""
 
 "AFFILIATED_CLUB_ID"		50046826	"2T-50046914"						"" # [FRA] SC Toulon
-"CLUB_CITY_CHANGE"		50046826	"299"						"" # <Toulon>
+"CLUB_CITY_CHANGE"		50046826	"299"							"" # <Toulon>
 "CLUB_NAME_CHANGE"		50046826	"SC Toulon 2"						""
 "CLUB_SHORT_NAME_CHANGE"	50046826	"SC Toulon 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	50046826	"SCT.2"							""
@@ -20625,7 +20631,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	50082850	"TFC.2"							""
 
 "AFFILIATED_CLUB_ID"		50082851	"2T-85052735"						"" # [FRA] Annecy
-"CLUB_CITY_CHANGE"		50082851	"158"						"" # <Annecy>
+"CLUB_CITY_CHANGE"		50082851	"158"							"" # <Annecy>
 "CLUB_NAME_CHANGE"		50082851	"FC Annecy 2"						""
 "CLUB_SHORT_NAME_CHANGE"	50082851	"Annecy 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	50082851	"FCA.2"							""
@@ -20646,13 +20652,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	50082857	"MYF.2"							""
 
 "AFFILIATED_CLUB_ID"		59107834	"2T-857"						"" # [FRA] Le Mans
-"CLUB_CITY_CHANGE"		59107834	"243"						"" # <Le Mans>
+"CLUB_CITY_CHANGE"		59107834	"243"							"" # <Le Mans>
 "CLUB_NAME_CHANGE"		59107834	"Le Mans FC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	59107834	"Le Mans 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	59107834	"LMFC.2"						""
 
 "AFFILIATED_CLUB_ID"		59110445	"2T-865"						"" # [FRA] Lyon
-"CLUB_CITY_CHANGE"		59110445	"267"						"" # <Lyon>
+"CLUB_CITY_CHANGE"		59110445	"267"							"" # <Lyon>
 "CLUB_NAME_CHANGE"		59110445	"Olympique Lyonnais 2"					""
 "CLUB_SHORT_NAME_CHANGE"	59110445	"Lyon 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	59110445	"OL.2"							""
@@ -20778,7 +20784,7 @@
 "CLUB_NAME_CHANGE"		837		"Louhans-Cuiseaux FC"					""
 "CLUB_SHORT_NAME_CHANGE"	837		"Louhans-Cuiseaux"					""
 
-"CLUB_CITY_CHANGE"		845		"219"						"" # <Mulhouse>
+"CLUB_CITY_CHANGE"		845		"219"							"" # <Mulhouse>
 "CLUB_NAME_CHANGE"		845		"FC Mulhouse"						""
 "CLUB_SHORT_NAME_CHANGE"	845		"Mulhouse"						""
 
@@ -20900,14 +20906,14 @@
 "CLUB_SHORT_NAME_CHANGE"	2008		"Sète 34"						""
 "CLUB_3LETTER_NAME_CHANGE"	2008		"S34"							""
 
-"CLUB_CITY_CHANGE"		2015		"233"						"" # <Ajaccio>
+"CLUB_CITY_CHANGE"		2015		"233"							"" # <Ajaccio>
 "CLUB_NAME_CHANGE"		2015		"Gazélec FC Ajaccio"					""
 "CLUB_SHORT_NAME_CHANGE"	2015		"Gazélec Ajaccio"					""
 
 "CLUB_NAME_CHANGE"		2018		"Hyères FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2018		"Hyères FC"						""
 
-"CLUB_CITY_CHANGE"		2026		"248"						"" # <Limoges>
+"CLUB_CITY_CHANGE"		2026		"248"							"" # <Limoges>
 "CLUB_NAME_CHANGE"		2026		"Limoges FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2026		"Limoges"						""
 
@@ -20933,18 +20939,18 @@
 "CLUB_NAME_CHANGE"		3502354		"Évian Thonon Gaillard FC"				""
 "CLUB_SHORT_NAME_CHANGE"	3502354		"Evian TG"						""
 
-"CLUB_CITY_CHANGE"		6201842		"298"						"" # <Bastia>
+"CLUB_CITY_CHANGE"		6201842		"298"							"" # <Bastia>
 "CLUB_NAME_CHANGE"		6201842		"CA Bastia"						""
 "CLUB_SHORT_NAME_CHANGE"	6201842		"CA Bastia"						""
 
-"CLUB_CITY_CHANGE"		8162319		"157"						"" # <Amiens>
+"CLUB_CITY_CHANGE"		8162319		"157"							"" # <Amiens>
 "CLUB_NAME_CHANGE"		8162319		"AC Amiens Football"					""
 "CLUB_SHORT_NAME_CHANGE"	8162319		"Amiens"						""
 
 "CLUB_NAME_CHANGE"		8162331		"Monts d'Or Azergues Foot"				""
 "CLUB_SHORT_NAME_CHANGE"	8162331		"Monts d'Or Azergues"					""
 
-"CLUB_CITY_CHANGE"		34003361	"207"						"" # <Marseille>
+"CLUB_CITY_CHANGE"		34003361	"207"							"" # <Marseille>
 "CLUB_NAME_CHANGE"		34003361	"Athlético Marseille"					""
 "CLUB_SHORT_NAME_CHANGE"	34003361	"Athlético Marseille"					""
 
@@ -20956,7 +20962,7 @@
 "CLUB_NAME_CHANGE"		85021110	"US Fleury-Mérogis"					""
 "CLUB_SHORT_NAME_CHANGE"	85021110	"Fleury-Mérogis"					""
 
-"CLUB_CITY_CHANGE"		2000014035	"267"						"" # <Lyon>
+"CLUB_CITY_CHANGE"		2000014035	"267"							"" # <Lyon>
 "CLUB_NAME_CHANGE"		2000014035	"Lyon La Duchère"					""
 "CLUB_SHORT_NAME_CHANGE"	2000014035	"Lyon La Duchère"					""
 
@@ -23479,114 +23485,115 @@
 
 # CLUB > UEFA > [ITA] ITALY > [32] Serie A (23/24)
 #================================================================================
-"CLUB_CITY_CHANGE"		1099		"509"						"" # <Milano>
+"CLUB_CITY_CHANGE"		1099		"509"							"" # <Milano>
 "CLUB_NAME_CHANGE"		1099		"AC Milan"						""
 "CLUB_SHORT_NAME_CHANGE"	1099		"AC Milan"						""
 "CLUB_6LETTER_NAME_CHANGE"	1099		"Milan"							""
 "CLUB_3LETTER_NAME_CHANGE"	1099		"MIL"							""
 
-"CLUB_CITY_CHANGE"		1100		"553"						"" # <Roma>
+"CLUB_CITY_CHANGE"		1100		"553"							"" # <Roma>
 "CLUB_NAME_CHANGE"		1100		"AS Roma"						""
 "CLUB_SHORT_NAME_CHANGE"	1100		"AS Roma"						""
 "CLUB_6LETTER_NAME_CHANGE"	1100		"Roma"							""
 "CLUB_3LETTER_NAME_CHANGE"	1100		"ROM"							""
 
-"CLUB_CITY_CHANGE"		1106		"465"						"" # <Bergamo>
+"CLUB_CITY_CHANGE"		1106		"465"							"" # <Bergamo>
 "CLUB_NAME_CHANGE"		1106		"Atalanta BC"						""
 "CLUB_SHORT_NAME_CHANGE"	1106		"Atalanta"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1106		"Atalanta"						""
 "CLUB_3LETTER_NAME_CHANGE"	1106		"ATA"							""
 
-"CLUB_CITY_CHANGE"		1111		"474"						"" # <Bologna>
+"CLUB_CITY_CHANGE"		1111		"474"							"" # <Bologna>
 "CLUB_NAME_CHANGE"		1111		"Bologna FC 1909"					""
 "CLUB_SHORT_NAME_CHANGE"	1111		"Bologna"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1111		"Bologna"						""
 "CLUB_3LETTER_NAME_CHANGE"	1111		"BOL"							""
 
-"CLUB_CITY_CHANGE"		1114		"477"						"" # <Cagliari>
+"CLUB_CITY_CHANGE"		1114		"477"							"" # <Cagliari>
 "CLUB_NAME_CHANGE"		1114		"Cagliari Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1114		"Cagliari"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1114		"Cagliari"						""
 "CLUB_3LETTER_NAME_CHANGE"	1114		"CAG"							""
 
-"CLUB_CITY_CHANGE"		1126		"495"						"" # <Empoli>
+"CLUB_CITY_CHANGE"		1126		"495"							"" # <Empoli>
 "CLUB_NAME_CHANGE"		1126		"Empoli FC 1920"					""
 "CLUB_SHORT_NAME_CHANGE"	1126		"Empoli"						""
 "CLUB_6LETTER_NAME_CHANGE"	1126		"Empoli"						""
 "CLUB_3LETTER_NAME_CHANGE"	1126		"EMP"							""
 
-"CLUB_CITY_CHANGE"		1129		"499"						"" # <Firenze>
+"CLUB_CITY_CHANGE"		1129		"499"							"" # <Firenze>
 "CLUB_NAME_CHANGE"		1129		"ACF Fiorentina"					""
 "CLUB_SHORT_NAME_CHANGE"	1129		"Fiorentina"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1129		"Fiorentina"						""
 "CLUB_3LETTER_NAME_CHANGE"	1129		"FIO"							""
 
-"CLUB_CITY_CHANGE"		1132		"504"						"" # <Genova>
+"CLUB_CITY_CHANGE"		1132		"504"							"" # <Genova>
 "CLUB_NAME_CHANGE"		1132		"Genoa CFC"						""
 "CLUB_SHORT_NAME_CHANGE"	1132		"Genoa"							""
 "CLUB_6LETTER_NAME_CHANGE"	1132		"Genoa"							""
 "CLUB_3LETTER_NAME_CHANGE"	1132		"GEN"							""
 
-"CLUB_CITY_CHANGE"		1135		"509"						"" # <Milano>
+"CLUB_CITY_CHANGE"		1135		"509"							"" # <Milano>
 "CLUB_NAME_CHANGE"		1135		"FC Internazionale Milano"				""
 "CLUB_SHORT_NAME_CHANGE"	1135		"Inter Milan"						""
 "CLUB_6LETTER_NAME_CHANGE"	1135		"Inter"							""
 "CLUB_3LETTER_NAME_CHANGE"	1135		"INT"							""
 
-"CLUB_CITY_CHANGE"		1139		"513"						"" # <Torino>
+"CLUB_CITY_CHANGE"		1139		"513"							"" # <Torino>
 "CLUB_NAME_CHANGE"		1139		"Juventus FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1139		"Juventus"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1139		"Juventus"						""
 "CLUB_3LETTER_NAME_CHANGE"	1139		"JUV"							""
 
-"CLUB_CITY_CHANGE"		1140		"553"						"" # <Roma>
+"CLUB_CITY_CHANGE"		1140		"553"							"" # <Roma>
 "CLUB_NAME_CHANGE"		1140		"SS Lazio"						""
 "CLUB_SHORT_NAME_CHANGE"	1140		"Lazio"							""
 "CLUB_6LETTER_NAME_CHANGE"	1140		"Lazio"							""
 "CLUB_3LETTER_NAME_CHANGE"	1140		"LAZ"							""
 
-"CLUB_CITY_CHANGE"		1141		"516"						"" # <Lecce>
+"CLUB_CITY_CHANGE"		1141		"516"							"" # <Lecce>
 "CLUB_NAME_CHANGE"		1141		"US Lecce"						""
 "CLUB_SHORT_NAME_CHANGE"	1141		"Lecce"							""
 "CLUB_6LETTER_NAME_CHANGE"	1141		"Lecce"							""
 "CLUB_3LETTER_NAME_CHANGE"	1141		"LEC"							""
 
-"CLUB_CITY_CHANGE"		1149		"531"						"" # <Monza>
+"CLUB_CITY_CHANGE"		1149		"531"							"" # <Monza>
 "CLUB_NAME_CHANGE"		1149		"AC Monza"						""
 "CLUB_SHORT_NAME_CHANGE"	1149		"Monza"							""
 "CLUB_6LETTER_NAME_CHANGE"	1149		"Monza"							""
 "CLUB_3LETTER_NAME_CHANGE"	1149		"MON"							""
 
-"CLUB_CITY_CHANGE"		1150		"532"						"" # <Napoli>
+"CLUB_CITY_CHANGE"		1150		"532"							"" # <Napoli>
 "CLUB_NAME_CHANGE"		1150		"SSC Napoli"						""
 "CLUB_SHORT_NAME_CHANGE"	1150		"Napoli"						""
 "CLUB_6LETTER_NAME_CHANGE"	1150		"Napoli"						""
 "CLUB_3LETTER_NAME_CHANGE"	1150		"NAP"							""
 
+"CLUB_CITY_CHANGE"		1166		"555"							"" # <Salerno>
 "CLUB_NAME_CHANGE"		1166		"US Salernitana 1919"					""
 "CLUB_SHORT_NAME_CHANGE"	1166		"Salernitana"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1166		"Salernitana"						""
 "CLUB_3LETTER_NAME_CHANGE"	1166		"SAL"							""
 
-"CLUB_CITY_CHANGE"		1174		"513"						"" # <Torino>
+"CLUB_CITY_CHANGE"		1174		"513"							"" # <Torino>
 "CLUB_NAME_CHANGE"		1174		"Torino FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1174		"Torino"						""
 "CLUB_6LETTER_NAME_CHANGE"	1174		"Torino"						""
 "CLUB_3LETTER_NAME_CHANGE"	1174		"TOR"							""
 
-"CLUB_CITY_CHANGE"		1178		"575"						"" # <Udine>
+"CLUB_CITY_CHANGE"		1178		"575"							"" # <Udine>
 "CLUB_NAME_CHANGE"		1178		"Udinese Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1178		"Udinese"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1178		"Udinese"						""
 "CLUB_3LETTER_NAME_CHANGE"	1178		"UDI"							""
 
-"CLUB_CITY_CHANGE"		2199		"503"						"" # <Frosinone>
+"CLUB_CITY_CHANGE"		2199		"503"							"" # <Frosinone>
 "CLUB_NAME_CHANGE"		2199		"Frosinone Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	2199		"Frosinone"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2199		"Frosinone"						""
 "CLUB_3LETTER_NAME_CHANGE"	2199		"FRO"							""
 
-"CLUB_CITY_CHANGE"		2201		"508"						"" # <Verona>
+"CLUB_CITY_CHANGE"		2201		"508"							"" # <Verona>
 "CLUB_NAME_CHANGE"		2201		"Hellas Verona FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2201		"Hellas Verona"						""
 "CLUB_6LETTER_NAME_CHANGE"	2201		"Verona"						""
@@ -23601,113 +23608,121 @@
 
 # CLUB > UEFA > [ITA] ITALY > [33] Serie B (23/24)
 #================================================================================
+"CLUB_CITY_CHANGE"		1105		"464"							"" # <Ascoli Piceno>
 "CLUB_NAME_CHANGE"		1105		"Ascoli Calcio 1898 FC"					""
 "CLUB_SHORT_NAME_CHANGE"	1105		"Ascoli"						""
 "CLUB_6LETTER_NAME_CHANGE"	1105		"Ascoli"						""
 "CLUB_3LETTER_NAME_CHANGE"	1105		"ASC"							""
 
-"CLUB_CITY_CHANGE"		1110		"470"						"" # <Bari>
+"CLUB_CITY_CHANGE"		1110		"470"							"" # <Bari>
 "CLUB_NAME_CHANGE"		1110		"SSC Bari"						""
 "CLUB_SHORT_NAME_CHANGE"	1110		"Bari"							""
 "CLUB_6LETTER_NAME_CHANGE"	1110		"Bari"							""
 "CLUB_3LETTER_NAME_CHANGE"	1110		"BAR"							""
 
-"CLUB_CITY_CHANGE"		1113		"476"						"" # <Brescia>
+"CLUB_CITY_CHANGE"		1113		"476"							"" # <Brescia>
 "CLUB_NAME_CHANGE"		1113		"Brescia Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1113		"Brescia"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1113		"Brescia"						""
 "CLUB_3LETTER_NAME_CHANGE"	1113		"BRE"							""
 
-"CLUB_CITY_CHANGE"		1119		"485"						"" # <Catanzaro>
+"CLUB_CITY_CHANGE"		1119		"485"							"" # <Catanzaro>
 "CLUB_NAME_CHANGE"		1119		"US Catanzaro 1929"					""
 "CLUB_SHORT_NAME_CHANGE"	1119		"Catanzaro"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1119		"Catanzaro"						""
 "CLUB_3LETTER_NAME_CHANGE"	1119		"CTZ"							""
 
-"CLUB_CITY_CHANGE"		1123		"491"						"" # <Como>
+"CLUB_CITY_CHANGE"		1123		"491"							"" # <Como>
 "CLUB_NAME_CHANGE"		1123		"Como 1907"						""
 "CLUB_SHORT_NAME_CHANGE"	1123		"Como"							""
 "CLUB_6LETTER_NAME_CHANGE"	1123		"Como"							""
 "CLUB_3LETTER_NAME_CHANGE"	1124		"COM"							""
 
-"CLUB_CITY_CHANGE"		1124		"492"						"" # <Cosenza>
+"CLUB_CITY_CHANGE"		1124		"492"							"" # <Cosenza>
 "CLUB_NAME_CHANGE"		1124		"Cosenza Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1124		"Cosenza"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1124		"Cosenza"						""
 "CLUB_3LETTER_NAME_CHANGE"	1124		"COS"							""
 
+"CLUB_CITY_CHANGE"		1125		"494"							"" # <Cremona>
 "CLUB_NAME_CHANGE"		1125		"US Cremonese"						""
 "CLUB_SHORT_NAME_CHANGE"	1125		"Cremonese"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1125		"Cremonese"						""
 "CLUB_3LETTER_NAME_CHANGE"	1125		"CRE"							""
 
-"CLUB_CITY_CHANGE"		1147		"529"						"" # <Modena>
+"CLUB_CITY_CHANGE"		1147		"529"							"" # <Modena>
 "CLUB_NAME_CHANGE"		1147		"Modena FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1147		"Modena"						""
 "CLUB_6LETTER_NAME_CHANGE"	1147		"Modena"						""
 "CLUB_3LETTER_NAME_CHANGE"	1147		"MOD"							""
 
-"CLUB_CITY_CHANGE"		1156		"538"						"" # <Parma>
+"CLUB_CITY_CHANGE"		1156		"538"							"" # <Parma>
 "CLUB_NAME_CHANGE"		1156		"Parma Calcio 1913"					""
 "CLUB_SHORT_NAME_CHANGE"	1156		"Parma"							""
 "CLUB_6LETTER_NAME_CHANGE"	1156		"Parma"							""
 "CLUB_3LETTER_NAME_CHANGE"	1156		"PAR"							""
 
+"CLUB_CITY_CHANGE"		1164		"550"							"" # <Reggio Emilia>
 "CLUB_NAME_CHANGE"		1164		"AC Reggiana 1919"					""
 "CLUB_SHORT_NAME_CHANGE"	1164		"Reggiana"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1164		"Reggiana"						""
 "CLUB_3LETTER_NAME_CHANGE"	1164		"RGA"							""
 
+"CLUB_CITY_CHANGE"		1167		"504"							"" # <Genova>
 "CLUB_NAME_CHANGE"		1167		"UC Sampdoria"						""
 "CLUB_SHORT_NAME_CHANGE"	1167		"Sampdoria"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1167		"Sampdoria"						""
 "CLUB_3LETTER_NAME_CHANGE"	1167		"SAM"							""
 
+"CLUB_CITY_CHANGE"		1173		"564"							"" # <La Spezia>
 "CLUB_NAME_CHANGE"		1173		"Spezia Calcio"						""
 "CLUB_SHORT_NAME_CHANGE"	1173		"Spezia"						""
 "CLUB_6LETTER_NAME_CHANGE"	1173		"Spezia"						""
 "CLUB_3LETTER_NAME_CHANGE"	1173		"SPE"							""
 
-"CLUB_CITY_CHANGE"		1179		"577"						"" # <Venezia>
+"CLUB_CITY_CHANGE"		1179		"577"							"" # <Venezia>
 "CLUB_NAME_CHANGE"		1179		"Venezia FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1179		"Venezia"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1179		"Venezia"						""
 "CLUB_3LETTER_NAME_CHANGE"	1179		"VEN"							""
 
-"CLUB_CITY_CHANGE"		2194		"489"						"" # <Palermo>
+"CLUB_CITY_CHANGE"		2194		"489"							"" # <Palermo>
 "CLUB_NAME_CHANGE"		2194		"Palermo FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2194		"Palermo"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2194		"Palermo"						""
 "CLUB_3LETTER_NAME_CHANGE"	2194		"PAL"							""
 
-"CLUB_CITY_CHANGE"		2195		"490"						"" # <Cittadella>
+"CLUB_CITY_CHANGE"		2195		"490"							"" # <Cittadella>
 "CLUB_NAME_CHANGE"		2195		"AS Cittadella"						""
 "CLUB_SHORT_NAME_CHANGE"	2195		"Cittadella"						""
 "CLUB_6LETTER_NAME_CHANGE"	2195		"Citta"							""
 "CLUB_3LETTER_NAME_CHANGE"	2195		"CIT"							""
 
-"CLUB_CITY_CHANGE"		2205		"517"						"" # <Lecco>
+"CLUB_CITY_CHANGE"		2205		"517"							"" # <Lecco>
 "CLUB_NAME_CHANGE"		2205		"Calcio Lecco 1912"					""
 "CLUB_SHORT_NAME_CHANGE"	2205		"Lecco"							""
 "CLUB_6LETTER_NAME_CHANGE"	2205		"Lecco"							""
 "CLUB_3LETTER_NAME_CHANGE"	2205		"LEC"							""
 
-"CLUB_CITY_CHANGE"		2215		"542"						"" # <Pisa>
+"CLUB_CITY_CHANGE"		2215		"542"							"" # <Pisa>
 "CLUB_NAME_CHANGE"		2215		"Pisa SC"						""
 "CLUB_SHORT_NAME_CHANGE"	2215		"Pisa"							""
 "CLUB_6LETTER_NAME_CHANGE"	2215		"Pisa"							""
 "CLUB_3LETTER_NAME_CHANGE"	2215		"PIS"							""
 
+"CLUB_CITY_CHANGE"		2227		"568"							"" # <Terni>
 "CLUB_NAME_CHANGE"		2227		"Ternana Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	2227		"Ternana"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2227		"Ternana"						""
 "CLUB_3LETTER_NAME_CHANGE"	2227		"TER"							""
 
+"CLUB_CITY_CHANGE"		829172		"7983093"						"" # <Bolzano>
 "CLUB_NAME_CHANGE"		829172		"FC Südtirol"						""
 "CLUB_SHORT_NAME_CHANGE"	829172		"Südtirol"						""
 #"CLUB_6LETTER_NAME_CHANGE"	829172		"Südtirol"						""
 "CLUB_3LETTER_NAME_CHANGE"	829172		"SDT"							""
 
+"CLUB_CITY_CHANGE"		43058693	"7983302"						"" # <Salò>
 "CLUB_NAME_CHANGE"		43058693	"FeralpiSalò"						""
 "CLUB_SHORT_NAME_CHANGE"	43058693	"FeralpiSalò"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43058693	"FeralpiSalò"						""
@@ -23716,52 +23731,60 @@
 
 # CLUB > UEFA > [ITA] ITALY > [43127172] Serie C Girone A (23/24)
 #================================================================================
+"CLUB_CITY_CHANGE"		1102		"459"							"" # <Alessandria>
 "CLUB_NAME_CHANGE"		1102		"US Alessandria Calcio 1912"				""
 "CLUB_SHORT_NAME_CHANGE"	1102		"Alessandria"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1102		"Alessandria"						""
 "CLUB_3LETTER_NAME_CHANGE"	1102		"ALE"							""
 
+"CLUB_CITY_CHANGE"		1130		"500"							"" # <Fiorenzuola d'Arda>
 "CLUB_NAME_CHANGE"		1130		"US Fiorenzuola 1922"					""
 "CLUB_SHORT_NAME_CHANGE"	1130		"Fiorenzuola"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1130		"Fiorenzuola"						""
 
+"CLUB_CITY_CHANGE"		1142		"518"							"" # <Leffe>
 "CLUB_NAME_CHANGE"		1142		"UC AlbinoLeffe"					""
 "CLUB_SHORT_NAME_CHANGE"	1142		"AlbinoLeffe"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1142		"AlbinoLeffe"						""
 
+"CLUB_CITY_CHANGE"		1145		"522"							"" # <Lumezzane>
 "CLUB_NAME_CHANGE"		1145		"FC Lumezzane"						""
 "CLUB_SHORT_NAME_CHANGE"	1145		"Lumezzane"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1145		"Lumezzane"						""
 
-"CLUB_CITY_CHANGE"		1153		"534"						"" # <Novara>
+"CLUB_CITY_CHANGE"		1153		"534"							"" # <Novara>
 "CLUB_NAME_CHANGE"		1153		"Novara FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1153		"Novara"						""
 "CLUB_6LETTER_NAME_CHANGE"	1153		"Novara"						""
 "CLUB_3LETTER_NAME_CHANGE"	1153		"NOV"							""
 
-"CLUB_CITY_CHANGE"		1154		"537"						"" # <Padova>
+"CLUB_CITY_CHANGE"		1154		"537"							"" # <Padova>
 "CLUB_NAME_CHANGE"		1154		"Calcio Padova"						""
 "CLUB_SHORT_NAME_CHANGE"	1154		"Padova"						""
 "CLUB_6LETTER_NAME_CHANGE"	1154		"Padova"						""
 
+"CLUB_CITY_CHANGE"		1162		"547"							"" # <Sesto San Giovanni>
 "CLUB_NAME_CHANGE"		1162		"Pro Sesto Calcio 1913"					""
 "CLUB_SHORT_NAME_CHANGE"	1162		"Pro Sesto"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1162		"Pro Sesto"						""
 
-"CLUB_CITY_CHANGE"		1181		"578"						"" # <Vicenza>
+"CLUB_CITY_CHANGE"		1181		"578"							"" # <Vicenza>
 "CLUB_NAME_CHANGE"		1181		"LR Vicenza"						""
 "CLUB_SHORT_NAME_CHANGE"	1181		"LR Vicenza"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1181		"Vicenza"						""
 "CLUB_3LETTER_NAME_CHANGE"	1181		"VIC"							""
 
+"CLUB_CITY_CHANGE"		2217		"7983092"						"" # <Busto Arsizio>
 "CLUB_NAME_CHANGE"		2217		"Aurora Pro Patria 1919"				""
 "CLUB_SHORT_NAME_CHANGE"	2217		"Pro Patria"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2217		"Pro Patria"						""
 
+"CLUB_CITY_CHANGE"		2218		"548"							"" # <Vercelli>
 "CLUB_NAME_CHANGE"		2218		"FC Pro Vercelli 1892"					""
 "CLUB_SHORT_NAME_CHANGE"	2218		"Pro Vercelli"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2218		"Pro Vercelli"						""
 
+"CLUB_CITY_CHANGE"		2229		"573"							"" # <Trieste>
 "CLUB_NAME_CHANGE"		2229		"US Triestina"						""
 "CLUB_SHORT_NAME_CHANGE"	2229		"Triestina"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2229		"Triestina"						""
@@ -23777,33 +23800,39 @@
 #"CLUB_6LETTER_NAME_CHANGE"	700198		"Mantova"						""
 "CLUB_3LETTER_NAME_CHANGE"	700198		"MAN"							""
 
+"CLUB_CITY_CHANGE"		831197		"831171"						"" # <Legnago>
 "CLUB_NAME_CHANGE"		831197		"FC Legnago Salus"					""
 "CLUB_SHORT_NAME_CHANGE"	831197		"Legnago"						""
 #"CLUB_6LETTER_NAME_CHANGE"	831197		"Legnago"						""
 
+"CLUB_CITY_CHANGE"		1413274		"1413240"						"" # <Renate>
 "CLUB_NAME_CHANGE"		1413274		"AC Renate"						""
 "CLUB_SHORT_NAME_CHANGE"	1413274		"Renate"						""
 "CLUB_6LETTER_NAME_CHANGE"	1413274		"Renate"						""
 
+"CLUB_CITY_CHANGE"		7983711		"7983023"						"" # <Gorgonzola>
 "CLUB_NAME_CHANGE"		7983711		"AS Giana Erminio"					""
 "CLUB_SHORT_NAME_CHANGE"	7983711		"Giana"							""
 "CLUB_6LETTER_NAME_CHANGE"	7983711		"Giana"							""
 
-"CLUB_CITY_CHANGE"		43006436	"508"						"" # <Verona>
+"CLUB_CITY_CHANGE"		43006436	"508"							"" # <Verona>
 "CLUB_NAME_CHANGE"		43006436	"Virtus Verona"						""
 "CLUB_SHORT_NAME_CHANGE"	43006436	"Virtus Verona"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43006436	"V. Verona"						""
 "CLUB_3LETTER_NAME_CHANGE"	43006436	"VVE"							""
 
+"CLUB_CITY_CHANGE"		43124315	"493"							"" # <Crema>
 "CLUB_NAME_CHANGE"		43124315	"US Pergolettese 1932"					""
 "CLUB_SHORT_NAME_CHANGE"	43124315	"Pergolettese"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43124315	"Pergolettese"						""
 
+"CLUB_CITY_CHANGE"		43156731	"831169"						"" # <Arzignano>
 "CLUB_NAME_CHANGE"		43156731	"FC Arzignano Valchiamo"				""
 "CLUB_SHORT_NAME_CHANGE"	43156731	"Arzignano"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43156731	"Arzignano"						""
 
 "AFFILIATED_CLUB_ID"		2000277208	"BT-1106"						"" # [ITA] Atalanta
+"CLUB_CITY_CHANGE"		2000277208	"465"							"" # <Bergamo>
 "CLUB_NAME_CHANGE"		2000277208	"Atalanta U23"						""
 "CLUB_SHORT_NAME_CHANGE"	2000277208	"Atalanta U23"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000277208	"ATA.23"						""
@@ -23811,86 +23840,106 @@
 
 # CLUB > UEFA > [ITA] ITALY > [43127173] Serie C Girone B (23/24)
 #================================================================================
+"CLUB_CITY_CHANGE"		1104		"462"							"" # <Ancona>
 "CLUB_NAME_CHANGE"		1104		"AC Ancona"						""
 "CLUB_SHORT_NAME_CHANGE"	1104		"Ancona"						""
 "CLUB_6LETTER_NAME_CHANGE"	1104		"Ancona"						""
 
+"CLUB_CITY_CHANGE"		1116		"479"							"" # <Carrara>
 "CLUB_NAME_CHANGE"		1116		"Carrarese Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1116		"Carrarese"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1116		"Carrarese"						""
 
+"CLUB_CITY_CHANGE"		1120		"486"							"" # <Cesena>
 "CLUB_NAME_CHANGE"		1120 		"Cesena FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1120		"Cesena"						""
 "CLUB_6LETTER_NAME_CHANGE"	1120		"Cesena"						""
 "CLUB_3LETTER_NAME_CHANGE"	1120		"CES"							""
 
+"CLUB_CITY_CHANGE"		1144		"521"							"" # <Lucca>
 "CLUB_NAME_CHANGE"		1144		"AS Lucchese Libertas 1905"				""
 "CLUB_SHORT_NAME_CHANGE"	1144		"Lucchese Libertas"					""
 #"CLUB_6LETTER_NAME_CHANGE"	1144		"Lucchese Libertas"					""
 
-"CLUB_CITY_CHANGE"		1157		"581"						"" # <Perugia>
+"CLUB_CITY_CHANGE"		1157		"581"							"" # <Perugia>
 "CLUB_NAME_CHANGE"		1157		"AC Perugia Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1157		"Perugia"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1157		"Perugia"						""
 
-"CLUB_CITY_CHANGE"		1158		"540"						"" # <Pescara>
+"CLUB_CITY_CHANGE"		1158		"540"							"" # <Pescara>
 "CLUB_NAME_CHANGE"		1158		"Delfino Pescara 1936"					""
 "CLUB_SHORT_NAME_CHANGE"	1158		"Pescara"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1158		"Pescara"						""
 
+"CLUB_CITY_CHANGE"		2185		"463"							"" # <Arezzo>
 "CLUB_NAME_CHANGE"		2185		"SS Arezzo"						""
 "CLUB_SHORT_NAME_CHANGE"	2185		"Arezzo"						""
 "CLUB_6LETTER_NAME_CHANGE"	2185		"Arezzo"						""
 "CLUB_3LETTER_NAME_CHANGE"	2185		"ARE"							""
 
+"CLUB_CITY_CHANGE"		2212		"535"							"" # <Olbia>
 "CLUB_NAME_CHANGE"		2212		"Olbia Calcio"						""
 "CLUB_SHORT_NAME_CHANGE"	2212		"Olbia"							""
 "CLUB_6LETTER_NAME_CHANGE"	2212		"Olbia"							""
 
+"CLUB_CITY_CHANGE"		2216		"544"							"" # <Pontedera>
 "CLUB_NAME_CHANGE"		2216		"US Città di Pontedera"					""
 "CLUB_SHORT_NAME_CHANGE"	2216		"Pontedera"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2216		"Pontedera"						""
 
-"CLUB_CITY_CHANGE"		2219		"552"						"" # <Rimini>
+"CLUB_CITY_CHANGE"		2219		"552"							"" # <Rimini>
 "CLUB_NAME_CHANGE"		2219		"Rimini FC 1912"					""
 "CLUB_SHORT_NAME_CHANGE"	2219		"Rimini"						""
 "CLUB_6LETTER_NAME_CHANGE"	2219		"Rimini"						""
 
+"CLUB_CITY_CHANGE"		2220		"554"							"" # <Ferrara>
 "CLUB_NAME_CHANGE"		2220		"SPAL"							""
 "CLUB_SHORT_NAME_CHANGE"	2220		"SPAL"							""
 "CLUB_6LETTER_NAME_CHANGE"	2220		"SPAL"							""
 #"CLUB_3LETTER_NAME_CHANGE"	2220		"SPAL"							""
 
+"CLUB_CITY_CHANGE"		2222		"559"							"" # <Sassari>
 "CLUB_NAME_CHANGE"		2222		"SEF Torres 1903"					""
 "CLUB_SHORT_NAME_CHANGE"	2222		"Torres"						""
 "CLUB_6LETTER_NAME_CHANGE"	2222		"Torres"						""
 
+"CLUB_CITY_CHANGE"		2231		"579"							"" # <Pesaro>
 "CLUB_NAME_CHANGE"		2231		"Vis Pesaro dal 1898"					""
 "CLUB_SHORT_NAME_CHANGE"	2231		"Vis Pesaro"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2231		"Vis Pesaro"						""
 
+"CLUB_CITY_CHANGE"		108985		"115428"						"" # <Gubbio>
 "CLUB_NAME_CHANGE"		108985		"AS Gubbio 1910"					""
 "CLUB_SHORT_NAME_CHANGE"	108985		"Gubbio"						""
 "CLUB_6LETTER_NAME_CHANGE"	108985		"Gubbio"						""
 
+"CLUB_CITY_CHANGE"		1413262		"1400331"						"" # <Sestri Levante>
 "CLUB_NAME_CHANGE"		1413262		"USD Sestri Levante 1919"				""
 "CLUB_SHORT_NAME_CHANGE"	1413262		"Sestri Levante"					""
 #"CLUB_6LETTER_NAME_CHANGE"	1413262		"Sestri Levante"					""
 
+"CLUB_CITY_CHANGE"		7983747		"7983080"						"" # <Recanati>
 "CLUB_NAME_CHANGE"		7983747		"US Recanatese"						""
 "CLUB_SHORT_NAME_CHANGE"	7983747		"Recanatese"						""
 #"CLUB_6LETTER_NAME_CHANGE"	7983747		"Recanatese"						""
 
+"CLUB_CITY_CHANGE"		43007150	"43007149"						"" # <Pineto>
+"CLUB_NAME_CHANGE"		43007150	"Pineto Calcio"						""
+"CLUB_SHORT_NAME_CHANGE"	43007150	"Pineto"						""
+
+"CLUB_CITY_CHANGE"		43036943	"7983178"						"" # <Chiavari>
 "CLUB_NAME_CHANGE"		43036943	"Virtus Entella"					""
 "CLUB_SHORT_NAME_CHANGE"	43036943	"Virtus Entella"					""
 #"CLUB_6LETTER_NAME_CHANGE"	43036943	"Entella"						""
 "CLUB_3LETTER_NAME_CHANGE"	43036943	"ENT"							""
 
+"CLUB_CITY_CHANGE"		43152205	"497"							"" # <Fermo>
 "CLUB_NAME_CHANGE"		43152205	"Fermana FC"						""
 "CLUB_SHORT_NAME_CHANGE"	43152205	"Fermana"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43152205	"Fermana"						""
 
 "AFFILIATED_CLUB_ID"		43457016	"BT-1139"						"" # [ITA] Juventus
+"CLUB_CITY_CHANGE"		43457016	"513"							"" # <Torino>
 "CLUB_NAME_CHANGE"		43457016	"Juventus Next Gen"					""
 "CLUB_SHORT_NAME_CHANGE"	43457016	"Juve Next Gen"						""
 "CLUB_6LETTER_NAME_CHANGE"	43457016	"JUV.B"							""
@@ -23898,40 +23947,45 @@
 
 # CLUB > UEFA > [ITA] ITALY > [43127174] Serie C Girone C (23/24)
 #================================================================================
+"CLUB_CITY_CHANGE"		1108		"467"							"" # <Avellino>
 "CLUB_NAME_CHANGE"		1108		"AS Avellino 1912"					""
 "CLUB_SHORT_NAME_CHANGE"	1108		"Avellino 1912"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1108		"Avellino"						""
 "CLUB_3LETTER_NAME_CHANGE"	1108		"AVE"							""
 
-"CLUB_CITY_CHANGE"		1131		"501"						"" # <Foggia>
+"CLUB_CITY_CHANGE"		1131		"501"							"" # <Foggia>
 "CLUB_NAME_CHANGE"		1131		"Foggia Calcio"						""
 "CLUB_SHORT_NAME_CHANGE"	1131		"Foggia"						""
 "CLUB_6LETTER_NAME_CHANGE"	1131		"Foggia"						""
 
+"CLUB_CITY_CHANGE"		1138		"512"							"" # <Castellammare di Stabia>
 "CLUB_NAME_CHANGE"		1138		"SS Juve Stabia"					""
 "CLUB_SHORT_NAME_CHANGE"	1138		"Juve Stabia"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1138		"Juve Stabia"						""
 "CLUB_3LETTER_NAME_CHANGE"	1138		"JST"							""
 
+"CLUB_CITY_CHANGE"		2188		"472"							"" # <Benevento>
 "CLUB_NAME_CHANGE"		2188		"Benevento Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	2188		"Benevento"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2188		"Benevento"						""
 "CLUB_3LETTER_NAME_CHANGE"	2188		"BEN"							""
 
+"CLUB_CITY_CHANGE"		2191		"481"							"" # <Caserta>
 "CLUB_NAME_CHANGE"		2191		"FC Casertana"						""
 "CLUB_SHORT_NAME_CHANGE"	2191		"Casertana"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2191		"Casertana"						""
 
-"CLUB_CITY_CHANGE"		2193		"466"						"" # <Catania>
+"CLUB_CITY_CHANGE"		2193		"466"							"" # <Catania>
 "CLUB_NAME_CHANGE"		2193		"Calcio Catania"					""
 "CLUB_SHORT_NAME_CHANGE"	2193		"Catania"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2193		"Catania"						""
 
-"CLUB_CITY_CHANGE"		2224		"565"						"" # <Taranto>
+"CLUB_CITY_CHANGE"		2224		"565"							"" # <Taranto>
 "CLUB_NAME_CHANGE"		2224		"Taranto FC 1927"					""
 "CLUB_SHORT_NAME_CHANGE"	2224		"Taranto"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2224		"Taranto"						""
 
+"CLUB_CITY_CHANGE"		108986		"109067"						"" # <Giugliano in Campania>
 "CLUB_NAME_CHANGE"		108986		"Giugliano Calcio 1928"					""
 "CLUB_SHORT_NAME_CHANGE"	108986		"Giugliano"						""
 #"CLUB_6LETTER_NAME_CHANGE"	108986		"Giugliano"						""
@@ -23948,42 +24002,52 @@
 "CLUB_SHORT_NAME_CHANGE"	700206		"Messina"						""
 #"CLUB_6LETTER_NAME_CHANGE"	700206		"Messina"						""
 
+"CLUB_CITY_CHANGE"		707654		"707655"						"" # <Crotone>
 "CLUB_NAME_CHANGE"		707654		"FC Crotone"						""
 "CLUB_SHORT_NAME_CHANGE"	707654		"Crotone"						""
 #"CLUB_6LETTER_NAME_CHANGE"	707654		"Crotone"						""
 
+"CLUB_CITY_CHANGE"		831366		"831314"						"" # <Sorrento>
 "CLUB_NAME_CHANGE"		831366		"Sorrento Calcio 1945"					""
 "CLUB_SHORT_NAME_CHANGE"	831366		"Sorrento"						""
 #"CLUB_6LETTER_NAME_CHANGE"	831366		"Sorrento"						""
 
+"CLUB_CITY_CHANGE"		832138		"832081"						"" # <Brindisi>
 "CLUB_NAME_CHANGE"		832138		"Brindisi FC"						""
 "CLUB_SHORT_NAME_CHANGE"	832138		"Brindisi"						""
 #"CLUB_6LETTER_NAME_CHANGE"	832138		"Brindisi"						""
 
+"CLUB_CITY_CHANGE"		7983734		"7983279"						"" # <Monopoli>
 "CLUB_NAME_CHANGE"		7983734		"SS Monopoli 1966"					""
 "CLUB_SHORT_NAME_CHANGE"	7983734		"Monopoli"						""
 #"CLUB_6LETTER_NAME_CHANGE"	7983734		"Monopoli"						""
 
+"CLUB_CITY_CHANGE"		43018336	"7983009"						"" # <Cerignola>
 "CLUB_NAME_CHANGE"		43018336	"SS Audace Cerignola"					""
 "CLUB_SHORT_NAME_CHANGE"	43018336	"Audace Cerignola"					""
 #"CLUB_6LETTER_NAME_CHANGE"	43018336	"Audace Cerignola"					""
 
+"CLUB_CITY_CHANGE"		43065074	"1413387"						"" # <Picerno>
 "CLUB_NAME_CHANGE"		43065074	"AZ Picerno"						""
 "CLUB_SHORT_NAME_CHANGE"	43065074	"Picerno"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43065074	"Picerno"						""
 
+"CLUB_CITY_CHANGE"		43079093	"7983381"						"" # <Francavilla Fontana>
 "CLUB_NAME_CHANGE"		43079093	"Virtus Francavilla Calcio"				""
 "CLUB_SHORT_NAME_CHANGE"	43079093	"Virtus Francavilla"					""
 #"CLUB_6LETTER_NAME_CHANGE"	43079093	"Virtus Francavilla"					""
 
+"CLUB_CITY_CHANGE"		43204872	"830197"						"" # <Potenza>
 "CLUB_NAME_CHANGE"		43204872	"Potenza Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	43204872	"Potenza"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43204872	"Potenza"						""
 
+"CLUB_CITY_CHANGE"		43210768	"574"							"" # <Torre del Greco>
 "CLUB_NAME_CHANGE"		43210768	"SS Turris Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	43210768	"Turris"						""
 "CLUB_6LETTER_NAME_CHANGE"	43210768	"Turris"						""
 
+"CLUB_CITY_CHANGE"		43269673	"43064919"						"" # <Monterosi>
 "CLUB_NAME_CHANGE"		43269673	"Monterosi Tuscia FC"					""
 "CLUB_SHORT_NAME_CHANGE"	43269673	"Monterosi"						""
 #"CLUB_6LETTER_NAME_CHANGE"	43269673	"Monterosi"						""
@@ -24000,14 +24064,14 @@
 "CLUB_NAME_CHANGE"		1136		"SS Ischia Isolaverde"					""
 "CLUB_SHORT_NAME_CHANGE"	1136		"Ischia Isolaverde"					""
 
-"CLUB_CITY_CHANGE"		1159		"541"						"" # <Piacenza>
+"CLUB_CITY_CHANGE"		1159		"541"							"" # <Piacenza>
 "CLUB_NAME_CHANGE"		1159		"Piacenza Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	1159		"Piacenza"						""
 
 "CLUB_NAME_CHANGE"		1160		"US Pistoiese 1921"					""
 "CLUB_SHORT_NAME_CHANGE"	1160		"Pistoiese"						""
 
-"CLUB_CITY_CHANGE"		1161		"545"						"" # <Prato>
+"CLUB_CITY_CHANGE"		1161		"545"							"" # <Prato>
 "CLUB_NAME_CHANGE"		1161		"AC Prato"						""
 "CLUB_SHORT_NAME_CHANGE"	1161		"Prato"							""
 
@@ -24023,11 +24087,11 @@
 "CLUB_NAME_CHANGE"		1176		"Treviso FC 1993"					""
 "CLUB_SHORT_NAME_CHANGE"	1176		"Treviso"						""
 
-"CLUB_CITY_CHANGE"		2198		"502"						"" # <Forlì>
+"CLUB_CITY_CHANGE"		2198		"502"							"" # <Forlì>
 "CLUB_NAME_CHANGE"		2198		"Forlì FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2198		"Forlì"							""
 
-"CLUB_CITY_CHANGE"		2206		"519"						"" # <Livorno>
+"CLUB_CITY_CHANGE"		2206		"519"							"" # <Livorno>
 "CLUB_NAME_CHANGE"		2206		"AS Livorno Calcio"					""
 "CLUB_SHORT_NAME_CHANGE"	2206		"Livorno"						""
 
@@ -24091,7 +24155,7 @@
 "CLUB_NAME_CHANGE"		43076615	"AC Tuttocuoio 1957 San Miniato"			""
 "CLUB_SHORT_NAME_CHANGE"	43076615	"Tuttocuoio"						""
 
-"CLUB_CITY_CHANGE"		43076678	"541"						"" # <Piacenza>
+"CLUB_CITY_CHANGE"		43076678	"541"							"" # <Piacenza>
 "CLUB_NAME_CHANGE"		43076678	"AS Pro Piacenza 1919"					""
 "CLUB_SHORT_NAME_CHANGE"	43076678	"Pro Piacenza"						""
 
@@ -24101,7 +24165,7 @@
 "CLUB_NAME_CHANGE"		43079135	"ASD Progreditur Marcianise"				""
 "CLUB_SHORT_NAME_CHANGE"	43079135	"Progreditur Marcianise"				""
 
-"CLUB_CITY_CHANGE"		43152207	"553"						"" # <Roma>
+"CLUB_CITY_CHANGE"		43152207	"553"							"" # <Roma>
 "CLUB_NAME_CHANGE"		43152207	"Lupa Roma FC"						""
 "CLUB_SHORT_NAME_CHANGE"	43152207	"Lupa Roma"						""
 
@@ -24114,7 +24178,7 @@
 "CLUB_NAME_CHANGE"		43204832	"Montevarchi Calcio Aquila 1902"			""
 "CLUB_SHORT_NAME_CHANGE"	43204832	"Montevarchi"						""
 
-"CLUB_CITY_CHANGE"		43599662	"553"						"" # <Roma>
+"CLUB_CITY_CHANGE"		43599662	"553"							"" # <Roma>
 "CLUB_NAME_CHANGE"		43599662	"ASD Roma City FC"					""
 "CLUB_SHORT_NAME_CHANGE"	43599662	"Roma City"						""
 
@@ -24128,14 +24192,14 @@
 "CLUB_NAME_CHANGE"		2000115663	"FC Sangiuliano City"					""
 "CLUB_SHORT_NAME_CHANGE"	2000115663	"Sangiuliano City"					""
 
-"CLUB_CITY_CHANGE"		2000294941	"551"						"" # <Reggio Calabria>
+"CLUB_CITY_CHANGE"		2000294941	"551"							"" # <Reggio Calabria>
 "CLUB_NAME_CHANGE"		2000294941	"LFA Reggio Calabria"					""
 "CLUB_SHORT_NAME_CHANGE"	2000294941	"LFA Reggio Calabria"					""
 
 
 # CLUB > UEFA > [ITA] ITALY > [EXTINCT]
 #================================================================================
-"CLUB_CITY_CHANGE"		1122		"508"						"" # <Verona>
+"CLUB_CITY_CHANGE"		1122		"508"							"" # <Verona>
 "CLUB_NAME_CHANGE"		1122		"AC Chievo Verona"					""
 "CLUB_SHORT_NAME_CHANGE"	1122		"Chievo Verona"						""
 
@@ -24159,7 +24223,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	484474		"Kaysar"						""
 "CLUB_3LETTER_NAME_CHANGE"	484474		"KAY"							""
 
-"CLUB_CITY_CHANGE"		484477		"59088285"						"" # <Karagandy (N. Kazakhstan)>
+"CLUB_CITY_CHANGE"		484477		"59088285"						"" # <Karagandy, N.K.>
 "CLUB_NAME_CHANGE"		484477		"FC Shakhter Karagandy"					""
 "CLUB_SHORT_NAME_CHANGE"	484477		"Shakhter Karagandy"					""
 "CLUB_3LETTER_NAME_CHANGE"	484477		"SHK"							""
@@ -24185,7 +24249,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	494161		"Atyrau"						""
 "CLUB_3LETTER_NAME_CHANGE"	494161		"ATY"							""
 
-"CLUB_CITY_CHANGE"		494162		"59088896"						"" # <Aktobe (Turkistan)>
+"CLUB_CITY_CHANGE"		494162		"59088896"						"" # <Aktobe, Turkistan>
 "CLUB_NAME_CHANGE"		494162		"FC Aktobe"						""
 "CLUB_SHORT_NAME_CHANGE"	494162		"Aktobe"						""
 "CLUB_6LETTER_NAME_CHANGE"	494162		"Aktobe"						""
@@ -24211,7 +24275,7 @@
 "CLUB_SHORT_NAME_CHANGE"	59066747	"Maktaaral"						""
 "CLUB_3LETTER_NAME_CHANGE"	59066747	"MAK"							""
 
-"CLUB_CITY_CHANGE"		59135023	"59017019"						"" # <Aksu (Pavlodar)>
+"CLUB_CITY_CHANGE"		59135023	"59017019"						"" # <Aksu, Pavlodar>
 "CLUB_NAME_CHANGE"		59135023	"FC Aksu"						""
 "CLUB_SHORT_NAME_CHANGE"	59135023	"Aksu"							""
 "CLUB_6LETTER_NAME_CHANGE"	59135023	"Aksu"							""
@@ -24232,7 +24296,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	498471		"AKZ"							""
 
 "AFFILIATED_CLUB_ID"		59007552	"U21-494162"						"" # [KAZ] Aktobe
-"CLUB_CITY_CHANGE"		59007552	"59088896"						"" # <Aktobe (Turkistan)>
+"CLUB_CITY_CHANGE"		59007552	"59088896"						"" # <Aktobe, Turkistan>
 "CLUB_NAME_CHANGE"		59007552	"FC Aktobe-M"						""
 "CLUB_SHORT_NAME_CHANGE"	59007552	"Aktobe-M"						""
 "CLUB_6LETTER_NAME_CHANGE"	59007552	"AKT.M"							""
@@ -24361,7 +24425,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59130176	"JET.M"							""
 
 "AFFILIATED_CLUB_ID"		59130195	"U21-484477"						"" # [KAZ] Shakhter Karagandy
-"CLUB_CITY_CHANGE"		59130195	"59088285"						"" # <Karagandy (N. Kazakhstan)>
+"CLUB_CITY_CHANGE"		59130195	"59088285"						"" # <Karagandy, N.K.>
 "CLUB_NAME_CHANGE"		59130195	"FC Shakhter-M Karagandy M"				""
 "CLUB_SHORT_NAME_CHANGE"	59130195	"Shakhter-M"						""
 "CLUB_6LETTER_NAME_CHANGE"	59130195	"SHK.M"							""
@@ -24404,7 +24468,7 @@
 "CLUB_SHORT_NAME_CHANGE"	59143724	"Ońtústik Akademııasy M"				""
 "CLUB_6LETTER_NAME_CHANGE"	59143724	"OA.M"							""
 
-"CLUB_CITY_CHANGE"		59144821	"59088769"						"" # <Igilik (Turkistan)>
+"CLUB_CITY_CHANGE"		59144821	"59088769"						"" # <Igilik, Turkistan>
 "CLUB_NAME_CHANGE"		59144821	"FK Igilik Qaratau"					""
 "CLUB_SHORT_NAME_CHANGE"	59144821	"Igilik"						""
 "CLUB_6LETTER_NAME_CHANGE"	59144821	"Igilik"						""
@@ -24433,7 +24497,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000124494	"AKZ.M"							""
 
 "AFFILIATED_CLUB_ID"		2000174529	"U21-59135023"						"" # [KAZ] Aksu
-"CLUB_CITY_CHANGE"		2000174529	"59017019"						"" # <Aksu (Pavlodar)>
+"CLUB_CITY_CHANGE"		2000174529	"59017019"						"" # <Aksu, Pavlodar>
 "CLUB_NAME_CHANGE"		2000174529	"FC Aksu-M"						""
 "CLUB_SHORT_NAME_CHANGE"	2000174529	"Aksu-M"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000174529	"AKS.M"							""
@@ -24476,7 +24540,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59107309	"TAR.QJ"						""
 
 "AFFILIATED_CLUB_ID"		59107311	"U18-494162"						"" # [KAZ] Aktobe
-"CLUB_CITY_CHANGE"		59107311	"59088896"						"" # <Aktobe (Turkistan)>
+"CLUB_CITY_CHANGE"		59107311	"59088896"						"" # <Aktobe, Turkistan>
 "CLUB_NAME_CHANGE"		59107311	"FC Aktobe-QJ"						""
 "CLUB_SHORT_NAME_CHANGE"	59107311	"Aktobe-QJ"						""
 "CLUB_6LETTER_NAME_CHANGE"	59107311	"AKT.QJ"						""
@@ -24493,7 +24557,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59107315	"OKZ.QJ"						""
 
 "AFFILIATED_CLUB_ID"		59107317	"U18-484477"						"" # [KAZ] Shakhter Karagandy
-"CLUB_CITY_CHANGE"		59107317	"59088285"						"" # <Karagandy (N. Kazakhstan)>
+"CLUB_CITY_CHANGE"		59107317	"59088285"						"" # <Karagandy, N.K.>
 "CLUB_NAME_CHANGE"		59107317	"FC Shakhter-QJ Karagandy"				""
 "CLUB_SHORT_NAME_CHANGE"	59107317	"Shakhter-QJ"						""
 "CLUB_6LETTER_NAME_CHANGE"	59107317	"SHK.QJ"						""
@@ -24550,7 +24614,7 @@
 "CLUB_NAME_CHANGE"		59107308	"FK Taraz U21"						""
 "CLUB_SHORT_NAME_CHANGE"	59107308	"Taraz U21"						""
 
-"CLUB_CITY_CHANGE"		59107310	"59088896"						"" # <Aktobe (Turkistan)>
+"CLUB_CITY_CHANGE"		59107310	"59088896"						"" # <Aktobe, Turkistan>
 "CLUB_NAME_CHANGE"		59107310	"FC Aktobe U21"						""
 "CLUB_SHORT_NAME_CHANGE"	59107310	"Aqtóbe U21"						""
 
@@ -27299,13 +27363,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1471		"Boavista"						""
 "CLUB_3LETTER_NAME_CHANGE"	1471		"BOA"							""
 
-"CLUB_CITY_CHANGE"		1478		"818"						"" # <Porto>
+"CLUB_CITY_CHANGE"		1478		"818"							"" # <Porto>
 "CLUB_NAME_CHANGE"		1478		"FC Porto"						""
 "CLUB_SHORT_NAME_CHANGE"	1478		"Porto"							""
 "CLUB_6LETTER_NAME_CHANGE"	1478		"Porto"							""
 "CLUB_3LETTER_NAME_CHANGE"	1478		"POR"							""
 
-"CLUB_CITY_CHANGE"		1480		"828"						"" # <Chaves>
+"CLUB_CITY_CHANGE"		1480		"828"							"" # <Chaves>
 "CLUB_NAME_CHANGE"		1480		"GD Chaves"						""
 "CLUB_SHORT_NAME_CHANGE"	1480		"Chaves"						""
 "CLUB_6LETTER_NAME_CHANGE"	1480		"Chaves"						""
@@ -27321,19 +27385,19 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1485		"Farense"						""
 "CLUB_3LETTER_NAME_CHANGE"	1485		"FAR"							""
 
-"CLUB_CITY_CHANGE"		1487		"819"						"" # <Lisbon>
+"CLUB_CITY_CHANGE"		1487		"819"							"" # <Lisbon>
 "CLUB_NAME_CHANGE"		1487		"SL Benfica"						""
 "CLUB_SHORT_NAME_CHANGE"	1487		"Benfica"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1487		"Benfica"						""
 "CLUB_3LETTER_NAME_CHANGE"	1487		"SLB"							""
 
-"CLUB_CITY_CHANGE"		1488		"822"						"" # <Braga>
+"CLUB_CITY_CHANGE"		1488		"822"							"" # <Braga>
 "CLUB_NAME_CHANGE"		1488		"SC Braga"						""
 "CLUB_SHORT_NAME_CHANGE"	1488		"Braga"							""
 "CLUB_6LETTER_NAME_CHANGE"	1488		"Braga"							""
 "CLUB_3LETTER_NAME_CHANGE"	1488		"BRA"							""
 
-"CLUB_CITY_CHANGE"		1489		"819"						"" # <Lisbon>
+"CLUB_CITY_CHANGE"		1489		"819"							"" # <Lisbon>
 "CLUB_NAME_CHANGE"		1489		"Sporting CP"						""
 "CLUB_SHORT_NAME_CHANGE"	1489		"Sporting CP"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1489		"Sporting"						""
@@ -27354,7 +27418,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2389		"Moreirense"						""
 "CLUB_3LETTER_NAME_CHANGE"	2389		"MOR"							""
 
-"CLUB_CITY_CHANGE"		2390		"843"						"" # <Estoril>
+"CLUB_CITY_CHANGE"		2390		"843"							"" # <Estoril>
 "CLUB_NAME_CHANGE"		2390		"GD Estoril Praia"					""
 "CLUB_SHORT_NAME_CHANGE"	2390		"Estoril Praia"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2390		"Estoril"						""
@@ -27365,7 +27429,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2397		"Famalicão"						""
 "CLUB_3LETTER_NAME_CHANGE"	2397		"FAM"							""
 
-"CLUB_CITY_CHANGE"		2403		"856"						"" # <Vizela>
+"CLUB_CITY_CHANGE"		2403		"856"							"" # <Vizela>
 "CLUB_NAME_CHANGE"		2403		"FC Vizela"						""
 "CLUB_SHORT_NAME_CHANGE"	2403		"Vizela"						""
 "CLUB_6LETTER_NAME_CHANGE"	2403		"Vizela"						""
@@ -27406,19 +27470,19 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1476		"Marítimo"						""
 "CLUB_3LETTER_NAME_CHANGE"	1476		"MRT"							""
 
-"CLUB_CITY_CHANGE"		1477		"837"						"" # <Penafiel>
+"CLUB_CITY_CHANGE"		1477		"837"							"" # <Penafiel>
 "CLUB_NAME_CHANGE"		1477		"FC Penafiel"						""
 "CLUB_SHORT_NAME_CHANGE"	1477		"Penafiel"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1477		"Penafiel"						""
 "CLUB_3LETTER_NAME_CHANGE"	1477		"PEN"							""
 
-"CLUB_CITY_CHANGE"		1493		"821"						"" # <Leiria>
+"CLUB_CITY_CHANGE"		1493		"821"							"" # <Leiria>
 "CLUB_NAME_CHANGE"		1493		"União de Leiria"					""
 "CLUB_SHORT_NAME_CHANGE"	1493		"União de Leiria"					""
 #"CLUB_6LETTER_NAME_CHANGE"	1493		"U. Leiria"						""
 "CLUB_3LETTER_NAME_CHANGE"	1493		"UDL"							""
 
-"CLUB_CITY_CHANGE"		2386		"836"						"" # <Paços de Ferreira>
+"CLUB_CITY_CHANGE"		2386		"836"							"" # <Paços de Ferreira>
 "CLUB_NAME_CHANGE"		2386		"FC Paços de Ferreira"					""
 "CLUB_SHORT_NAME_CHANGE"	2386		"Paços de Ferreira"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2386		"P. Ferreira"						""
@@ -27429,7 +27493,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2387		"Feirense"						""
 "CLUB_3LETTER_NAME_CHANGE"	2387		"FEI"							""
 
-"CLUB_CITY_CHANGE"		2388		"840"						"" # <Viseu>
+"CLUB_CITY_CHANGE"		2388		"840"							"" # <Viseu>
 "CLUB_NAME_CHANGE"		2388		"Académico de Viseu FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2388		"Académico"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2388		"Académico"						""
@@ -27450,7 +27514,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2422		"Torreense"						""
 "CLUB_3LETTER_NAME_CHANGE"	2422		"TOR"							""
 
-"CLUB_CITY_CHANGE"		2424		"877"						"" # <Tondela>
+"CLUB_CITY_CHANGE"		2424		"877"							"" # <Tondela>
 "CLUB_NAME_CHANGE"		2424		"CD Tondela"						""
 "CLUB_SHORT_NAME_CHANGE"	2424		"Tondela"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2424		"Tondela"						""
@@ -27479,7 +27543,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	55000306	"SLB.B"							""
 
 "AFFILIATED_CLUB_ID"		55000308	"BAC-1478"						"" # [POR] Porto
-"CLUB_CITY_CHANGE"		55000308	"818"						"" # <Porto>
+"CLUB_CITY_CHANGE"		55000308	"818"							"" # <Porto>
 "CLUB_NAME_CHANGE"		55000308	"FC Porto B"						""
 "CLUB_SHORT_NAME_CHANGE"	55000308	"Porto B"						""
 #"CLUB_6LETTER_NAME_CHANGE"	55000308	"Porto B"						""
@@ -27498,7 +27562,7 @@
 
 # CLUB > UEFA > [POR] PORTUGAL > [2000112232] Liga 3 Norte (23/24)
 #==============================================================================
-"CLUB_CITY_CHANGE"		2384		"832"						"" # <Felgueiras>
+"CLUB_CITY_CHANGE"		2384		"832"							"" # <Felgueiras>
 "CLUB_NAME_CHANGE"		2384		"FC Felgueiras 1932"					""
 "CLUB_SHORT_NAME_CHANGE"	2384		"Felgueiras 1932"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2384		"Felgueiras"						""
@@ -27509,7 +27573,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2394		"Varzim"						""
 "CLUB_3LETTER_NAME_CHANGE"	2394		"VAR"							""
 
-"CLUB_CITY_CHANGE"		2404		"857"						"" # <Lourosa>
+"CLUB_CITY_CHANGE"		2404		"857"							"" # <Lourosa>
 "CLUB_NAME_CHANGE"		2404		"Lusitânia Lourosa FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2404		"Lusitânia Lourosa"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2404		"L. Lourosa"						""
@@ -27520,7 +27584,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2405		"Vianense"						""
 "CLUB_3LETTER_NAME_CHANGE"	2405		"VIA"							""
 
-"CLUB_CITY_CHANGE"		2410		"863"						"" # <Fafe>
+"CLUB_CITY_CHANGE"		2410		"863"							"" # <Fafe>
 "CLUB_NAME_CHANGE"		2410		"AD Fafe"						""
 "CLUB_SHORT_NAME_CHANGE"	2410		"Fafe"							""
 "CLUB_6LETTER_NAME_CHANGE"	2410		"Fafe"							""
@@ -27536,7 +27600,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2456		"Trofense"						""
 "CLUB_3LETTER_NAME_CHANGE"	2456		"TRO"							""
 
-"CLUB_CITY_CHANGE"		2460		"910"						"" # <Anadia>
+"CLUB_CITY_CHANGE"		2460		"910"							"" # <Anadia>
 "CLUB_NAME_CHANGE"		2460		"Anadia FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2460		"Anadia"						""
 "CLUB_6LETTER_NAME_CHANGE"	2460		"Anadia"						""
@@ -27548,7 +27612,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	7000003		"CAN"							""
 
 "AFFILIATED_CLUB_ID"		55000307	"BAC-1488"						"" # [POR] Braga
-"CLUB_CITY_CHANGE"		55000307	"822"						"" # <Braga>
+"CLUB_CITY_CHANGE"		55000307	"822"							"" # <Braga>
 "CLUB_NAME_CHANGE"		55000307	"SC Braga B"						""
 "CLUB_SHORT_NAME_CHANGE"	55000307	"Braga B"						""
 #"CLUB_6LETTER_NAME_CHANGE"	55000307	"Braga B"						""
@@ -27562,13 +27626,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2391		"Alverca"						""
 "CLUB_3LETTER_NAME_CHANGE"	2391		"ALV"							""
 
-"CLUB_CITY_CHANGE"		2393		"846"						"" # <Coimbra>
+"CLUB_CITY_CHANGE"		2393		"846"							"" # <Coimbra>
 "CLUB_NAME_CHANGE"		2393		"Associação Académica de Coimbra"			""
 "CLUB_SHORT_NAME_CHANGE"	2393		"Académica"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2393		"Académica"						""
 "CLUB_3LETTER_NAME_CHANGE"	2393		"AAC"							""
 
-"CLUB_CITY_CHANGE"		2395		"848"						"" # <Covilhã>
+"CLUB_CITY_CHANGE"		2395		"848"							"" # <Covilhã>
 "CLUB_NAME_CHANGE"		2395		"Sporting Clube da Covilhã"				""
 "CLUB_SHORT_NAME_CHANGE"	2395		"Sporting Covilhã"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2395		"Sp. Covilhã"						""
@@ -27584,12 +27648,12 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2440		"Atlético CP"						""
 "CLUB_3LETTER_NAME_CHANGE"	2440		"ATL"							""
 
-"CLUB_CITY_CHANGE"		2463		"913"						"" # <Oliveira do Hospital>
+"CLUB_CITY_CHANGE"		2463		"913"							"" # <Oliveira do Hospital>
 "CLUB_NAME_CHANGE"		2463		"FC Oliveira do Hospital"				""
 "CLUB_SHORT_NAME_CHANGE"	2463		"Oliveira do Hospital"					""
 "CLUB_3LETTER_NAME_CHANGE"	2463		"OLH"							""
 
-"CLUB_CITY_CHANGE"		2484		"933"						"" # <Amora>
+"CLUB_CITY_CHANGE"		2484		"933"							"" # <Amora>
 "CLUB_NAME_CHANGE"		2484		"Amora FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2484		"Amora"							""
 "CLUB_6LETTER_NAME_CHANGE"	2484		"Amora"							""
@@ -27627,7 +27691,7 @@
 "CLUB_NAME_CHANGE"		1495		"Vitória FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1495		"Vitória FC"						""
 
-"CLUB_CITY_CHANGE"		2401		"854"						"" # <Vila Real>
+"CLUB_CITY_CHANGE"		2401		"854"							"" # <Vila Real>
 "CLUB_NAME_CHANGE"		2401		"SC Vila Real"						""
 "CLUB_SHORT_NAME_CHANGE"	2401		"Vila Real"						""
 
@@ -27637,11 +27701,11 @@
 "CLUB_NAME_CHANGE"		2413		"CDC Montalegre"					""
 "CLUB_SHORT_NAME_CHANGE"	2413		"Montalegre"						""
 
-"CLUB_CITY_CHANGE"		2423		"867"						"" # <Gondomar (POR)>
+"CLUB_CITY_CHANGE"		2423		"867"							"" # <Gondomar (POR)>
 "CLUB_NAME_CHANGE"		2423		"Gondomar SC"						""
 "CLUB_SHORT_NAME_CHANGE"	2423		"Gondomar"						""
 
-"CLUB_CITY_CHANGE"		2427		"880"						"" # <Castelo Branco>
+"CLUB_CITY_CHANGE"		2427		"880"							"" # <Castelo Branco>
 "CLUB_NAME_CHANGE"		2427		"Sport Benfica e Castelo Branco"			""
 "CLUB_SHORT_NAME_CHANGE"	2427		"Benfica CB"						""
 
@@ -27675,7 +27739,7 @@
 "CLUB_NAME_CHANGE"		2461		"CD Estarreja"						""
 "CLUB_SHORT_NAME_CHANGE"	2461		"Estarreja"						""
 
-"CLUB_CITY_CHANGE"		2470		"920"						"" # <Pombal>
+"CLUB_CITY_CHANGE"		2470		"920"							"" # <Pombal>
 "CLUB_NAME_CHANGE"		2470		"SC Pombal"						""
 "CLUB_SHORT_NAME_CHANGE"	2470		"Pombal"						""
 
@@ -27716,7 +27780,7 @@
 "CLUB_NAME_CHANGE"		729459		"SC Angrense"						""
 "CLUB_SHORT_NAME_CHANGE"	729459		"Angrense"						""
 
-"CLUB_CITY_CHANGE"		729461		"890"						"" # <Barreiro>
+"CLUB_CITY_CHANGE"		729461		"890"							"" # <Barreiro>
 "CLUB_NAME_CHANGE"		729461		"GD Fabril do Barreiro"					""
 "CLUB_SHORT_NAME_CHANGE"	729461		"Fabril do Barreiro"					""
 
