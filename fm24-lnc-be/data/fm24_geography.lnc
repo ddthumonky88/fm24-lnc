@@ -1501,6 +1501,8 @@
 "CITY_NAME_CHANGE"		108497		"Mar del Plata (BA)"					""
 "CITY_NAME_CHANGE"		108499		"Quilmes (BA)"						""
 "CITY_NAME_CHANGE"		108504		"San Miguel (BA)"					""
+"CITY_NAME_CHANGE"		108505		"Sarandí (BA)"						""
+"CITY_NAME_CHANGE"		108507		"Vicente López (BA)"					""
 "CITY_NAME_CHANGE"		108540		"Lanús (BA)"						""
 "CITY_NAME_CHANGE"		951318		"Merlo (BA)"						""
 "CITY_NAME_CHANGE"		952687		"Ituzaingó (BA)"					""
@@ -1512,6 +1514,7 @@
 "CITY_NAME_CHANGE"		955863		"Bernal (BA)"						""
 "CITY_NAME_CHANGE"		955876		"Ramos Mejía (BA)"					""
 "CITY_NAME_CHANGE"		955884		"Castelar (BA)"						""
+"CITY_NAME_CHANGE"		955902		"Victoria (BA)"						""
 "CITY_NAME_CHANGE"		955924		"San Nicolás de los Arroyos (BA)"			""
 "CITY_NAME_CHANGE"		955928		"José C. Paz (BA)"					""
 "CITY_NAME_CHANGE"		955935		"Rafael Castillo (BA)"					""
@@ -1524,6 +1527,7 @@
 "CITY_NAME_CHANGE"		3100009		"Temperley (BA)"					""
 "CITY_NAME_CHANGE"		3100010		"Berazategui (BA)"					""
 "CITY_NAME_CHANGE"		3100013		"Gregorio de Laferrere (BA)"				""
+"CITY_NAME_CHANGE"		3100015		"Junín (BA)"						""
 "CITY_NAME_CHANGE"		14007792	"Villa Madero (BA)"					""
 "CITY_NAME_CHANGE"		2000033379	"Virrey del Pino (BA)"					""
 
@@ -2031,11 +2035,13 @@
 "CITY_NAME_CHANGE"		1300073		"Graz"							""
 "CITY_NAME_CHANGE"		5602976		"Kapfenberg"						""
 "CITY_NAME_CHANGE"		5606770		"Knittelfeld"						""
+"CITY_NAME_CHANGE"		16000745	"Hartberg"						""
 "CITY_NAME_CHANGE"		16001102	"Bruck an der Mur"					""
 
 
 # CITY > [AUT] AUSTRIA > [AUT-07] Tirol
 #====================================================================================
+"CITY_NAME_CHANGE"		136541		"Wattens"						""
 "CITY_NAME_CHANGE"		136542		"Wörgl"							""
 "CITY_NAME_CHANGE"		1300067		"Innsbruck"						""
 "CITY_NAME_CHANGE"		5604331		"Lienz"							""
@@ -2051,6 +2057,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		136538		"Lustenau"						""
 "CITY_NAME_CHANGE"		5604964		"Dornbirn"						""
+"CITY_NAME_CHANGE"		5607098		"Altach"						""
 "CITY_NAME_CHANGE"		5607156		"Sulz (Vorarlberg)"					""
 "CITY_NAME_CHANGE"		5607196		"Brand (Vorarlberg)"					""
 "CITY_NAME_CHANGE"		6002480		"Bregenz"						""
@@ -3068,6 +3075,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		8		"Antwerp"						""
 "CITY_NAME_CHANGE"		10		"Mechelen"						""
+"CITY_NAME_CHANGE"		32		"Westerlo"						""
 
 
 # CITY > [BEL] BELGIUM > [BEL-VOV] Oost-Vlaanderen
@@ -3085,6 +3093,7 @@
 # CITY > [BEL] BELGIUM > [BEL-VLI] Limburg (BE)
 #====================================================================================
 "CITY_NAME_CHANGE"		12		"Genk"							""
+"CITY_NAME_CHANGE"		17		"Sint-Truiden"						""
 "CITY_NAME_CHANGE"		8155833		"Hasselt"						""
 
 
@@ -3120,6 +3129,11 @@
 # CITY > [BEL] BELGIUM > [BEL-WNA] Namur
 #====================================================================================
 "CITY_NAME_CHANGE"		3200627		"Namur"							""
+
+
+# CITY > [BEL] BELGIUM > [BEL-EAS] East Cantons
+#====================================================================================
+"CITY_NAME_CHANGE"		49		"Eupen"							""
 
 
 # CITY > [BLZ] BELIZE
@@ -3911,8 +3925,8 @@
 
 # CITY > [VGB] BRITISH VIRGIN ISLANDS
 #====================================================================================
-"CITY_NAME_CHANGE"		82062280	"Spanish Town"						""
 "CITY_NAME_CHANGE"		23018006	"Road Town"						""
+"CITY_NAME_CHANGE"		82062280	"Spanish Town"						""
 "CITY_NAME_CHANGE"		2000000157	"The Settlement"					""
 "CITY_NAME_CHANGE"		2000068643	"Parham Town"						""
 
@@ -4883,6 +4897,7 @@
 
 # CITY > [CHI] CHILE > [CHI-AT] Atacama
 #====================================================================================
+"CITY_NAME_CHANGE"		308141		"El Salvador"					""
 "CITY_NAME_CHANGE"		5250767		"Copiapó"						""
 
 
@@ -4947,6 +4962,7 @@
 "CITY_NAME_CHANGE"		75049456	"El Bosque"						""
 "CITY_NAME_CHANGE"		75049458	"Estación Central"					""
 "CITY_NAME_CHANGE"		75049462	"Independencia"						""
+"CITY_NAME_CHANGE"		75049464	"La Cisterna"					""
 "CITY_NAME_CHANGE"		75049466	"La Florida"						""
 "CITY_NAME_CHANGE"		75049468	"La Granja"						""
 "CITY_NAME_CHANGE"		75049470	"La Pintana"						""
@@ -4976,6 +4992,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		308123		"Viña del Mar"						""
 "CITY_NAME_CHANGE"		308133		"Valparaíso"						""
+"CITY_NAME_CHANGE"		5251595		"La Calera"						""
 "CITY_NAME_CHANGE"		8832764		"Quilpué"						""
 "CITY_NAME_CHANGE"		75015827	"Hanga Roa (Easter Island)"				""
 "CITY_NAME_CHANGE"		75040858	"Casablanca"						""
@@ -6736,6 +6753,7 @@
 "CITY_NAME_CHANGE"		64		"Ballerup"						""
 "CITY_NAME_CHANGE"		70		"Copenhagen"						""
 "CITY_NAME_CHANGE"		74		"Brøndby"						""
+"CITY_NAME_CHANGE"		80		"Farum"							""
 "CITY_NAME_CHANGE"		86		"Gladsaxe"						""
 "CITY_NAME_CHANGE"		92		"Helsingør"						""
 "CITY_NAME_CHANGE"		94		"Herlev"						""
@@ -8708,11 +8726,11 @@
 
 # CITY > [GHA] GHANA > [GHA-TV] Volta Region
 #====================================================================================
+"CITY_NAME_CHANGE"		1346435		"Old Akrade"						""
 "CITY_NAME_CHANGE"		12012627	"Kpandu"						""
 "CITY_NAME_CHANGE"		13101505	"Adome"							""
 "CITY_NAME_CHANGE"		13106316	"Ho"							""
 "CITY_NAME_CHANGE"		13109754	"Sogakope"						""
-"CITY_NAME_CHANGE"		1346435		"Old Akrade"						""
 "CITY_NAME_CHANGE"		13205975	"Agbozume"						""
 "CITY_NAME_CHANGE"		16066690	"Tefle"							""
 "CITY_NAME_CHANGE"		2000138065	"Akatsi"						""
@@ -8753,6 +8771,7 @@
 "CITY_NAME_CHANGE"		687515		"Zografou"						""
 "CITY_NAME_CHANGE"		687654		"Ilion"							""
 "CITY_NAME_CHANGE"		687660		"Ilioupoli"						""
+"CITY_NAME_CHANGE"		687672		"Kifisia"						""
 "CITY_NAME_CHANGE"		1300537		"Piraeus"						""
 "CITY_NAME_CHANGE"		1300538		"Athens"						""
 "CITY_NAME_CHANGE"		36000492	"Agia Paraskevi"					""
@@ -8801,6 +8820,7 @@
 
 # CITY > [GRE] GREECE > [GRE-J] Peloponnese
 #====================================================================================
+"CITY_NAME_CHANGE"		129642		"Tripoli Arkadias"				""
 "CITY_NAME_CHANGE"		1300535		"Kalamata"						""
 
 
@@ -8813,6 +8833,7 @@
 
 # CITY > [GRE] GREECE > [GRE-G] West Greece
 #====================================================================================
+"CITY_NAME_CHANGE"		129627		"Agrinio"						""
 "CITY_NAME_CHANGE"		1300533		"Patra"							""
 
 
@@ -9814,13 +9835,13 @@
 # CITY > [IDN] INDONESIA > [IDN-AC] Aceh
 #====================================================================================
 "CITY_NAME_CHANGE"		135514		"Banda Aceh"						""
+"CITY_NAME_CHANGE"		5385753		"Kab. Biruen"						""
+"CITY_NAME_CHANGE"		5385754		"Langsa"						""
 "CITY_NAME_CHANGE"		41002092	"Sigli"							""
 "CITY_NAME_CHANGE"		41002099	"Lhokseumawe"						""
 "CITY_NAME_CHANGE"		41021699	"Blangkejeren"						""
 "CITY_NAME_CHANGE"		41046962	"Idi Rayeuk"						""
 "CITY_NAME_CHANGE"		41046983	"Meureudu"						""
-"CITY_NAME_CHANGE"		5385753		"Kab. Biruen"						""
-"CITY_NAME_CHANGE"		5385754		"Langsa"						""
 
 
 # CITY > [IDN] INDONESIA > [IDN-BA] Bali
@@ -16487,6 +16508,7 @@
 # CITY > [NED] NETHERLANDS > [NED-FR] Fryslân
 #====================================================================================
 "CITY_NAME_CHANGE"		724		"Leeuwarden"						""
+"CITY_NAME_CHANGE"		791		"Heerenveen"						""
 "CITY_NAME_CHANGE"		37079840	"Buren, Fryslân"					""
 "CITY_NAME_CHANGE"		37079997	"Echten, Fryslân"					""
 "CITY_NAME_CHANGE"		37080052	"Elsloo, Fryslân"					""
@@ -16542,6 +16564,7 @@
 
 # CITY > [NED] NETHERLANDS > [NED-LI] Limburg
 #====================================================================================
+"CITY_NAME_CHANGE"		751		"Sittard"						""
 "CITY_NAME_CHANGE"		772		"Maastricht"						""
 "CITY_NAME_CHANGE"		814		"Venlo"							""
 "CITY_NAME_CHANGE"		601700		"Elsloo, Limburg"					""
@@ -16564,6 +16587,7 @@
 "CITY_NAME_CHANGE"		760		"Helmond"						""
 "CITY_NAME_CHANGE"		773		"Breda"							""
 "CITY_NAME_CHANGE"		782		"Roosendaal"						""
+"CITY_NAME_CHANGE"		786		"Waalwijk"						""
 "CITY_NAME_CHANGE"		804		"Oss"							""
 "CITY_NAME_CHANGE"		805		"Oosterhout, Noord-Brabant"				""
 "CITY_NAME_CHANGE"		816		"Tilburg"						""
@@ -16593,6 +16617,7 @@
 "CITY_NAME_CHANGE"		37079582	"Amsterdam-Duivendrecht"				""
 "CITY_NAME_CHANGE"		37081105	"Noordeinde, Noord-Holland"				""
 "CITY_NAME_CHANGE"		37081462	"Rozenburg, Noord-Holland"				""
+"CITY_NAME_CHANGE"		37081954	"Volendam"						""
 "CITY_NAME_CHANGE"		37082172	"Zaandam"						""
 "CITY_NAME_CHANGE"		37082181	"'t Zand"						""
 
@@ -19158,6 +19183,11 @@
 "CITY_NAME_CHANGE"		58015017	"Zarechny, Buryatia"					""
 
 
+# CITY > [RUS] RUSSIA > [RUS-CE] Chechen Republic
+#====================================================================================
+"CITY_NAME_CHANGE"		8050153		"Grozny"							""
+
+
 # CITY > [RUS] RUSSIA > [RUS-DA] Republic of Dagestan
 #====================================================================================
 "CITY_NAME_CHANGE"		58015108	"Nizhnee Kazanische"					""
@@ -19251,6 +19281,11 @@
 "CITY_NAME_CHANGE"		58006949	"Troitsk, Oryol O."					""
 
 
+# CITY > [RUS] RUSSIA > [RUS-ORE] Orenburg Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		477354		"Orenburg"						""
+
+
 # CITY > [RUS] RUSSIA > [RUS-PNZ] Penza Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		477495		"Kamenka, Penza O."					""
@@ -19307,6 +19342,7 @@
 
 # CITY > [RUS] RUSSIA > [RUS-VOR] Voronezh Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		130483		"Voronezh"						""
 "CITY_NAME_CHANGE"		8054278		"Troitskoe, Voronezh O."				""
 
 
@@ -19775,6 +19811,7 @@
 # CITY > [SCO] SCOTLAND > [SCO-HLD] Highlands & Islands
 #====================================================================================
 "CITY_NAME_CHANGE"		102604		"Inverness"						""
+"CITY_NAME_CHANGE"		102609		"Dingwall"						""
 "CITY_NAME_CHANGE"		61016118	"Invergordon"						""
 
 
@@ -19969,6 +20006,7 @@
 "CITY_NAME_CHANGE"		5740521		"Knjaževac"						""
 "CITY_NAME_CHANGE"		5743979		"Prokuplje"						""
 "CITY_NAME_CHANGE"		5744225		"Bujanovac"						""
+"CITY_NAME_CHANGE"		5748008		"Surdulica"						""
 "CITY_NAME_CHANGE"		5748109		"Vlasotince"						""
 "CITY_NAME_CHANGE"		5753144		"Trstenik"						""
 "CITY_NAME_CHANGE"		62022458	"Preševo"						""
@@ -19982,6 +20020,7 @@
 "CITY_NAME_CHANGE"		136457		"Požarevac"						""
 "CITY_NAME_CHANGE"		1301351		"Čačak"							""
 "CITY_NAME_CHANGE"		1301352		"Užice"							""
+"CITY_NAME_CHANGE"		1301353		"Lučani"						""
 "CITY_NAME_CHANGE"		5740180		"Kraljevo"						""
 "CITY_NAME_CHANGE"		5740484		"Šabac"							""
 "CITY_NAME_CHANGE"		5740507		"Valjevo"						""
@@ -23081,6 +23120,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-71] Cherkasy Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5315091		"Cherkasy"						""
 "CITY_NAME_CHANGE"		71017239	"Kamianka, Cherkasy raion"				""
 "CITY_NAME_CHANGE"		71045546	"Yerky, Zvenyhorodka raion"				""
 "CITY_NAME_CHANGE"		71045552	"Mankivka, Uman raion"					""
@@ -23130,6 +23170,7 @@
 # CITY > [UKR] UKRAINE > [UKR-12] Dnipropetrovsk Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301267		"Kryvyi Rih"						""
+"CITY_NAME_CHANGE"		1301271		"Dnipro"						""
 "CITY_NAME_CHANGE"		71045705	"Krynychky, Kamianske raion"				""
 "CITY_NAME_CHANGE"		71046293	"Krynyatky, Kamianske raion"				""
 "CITY_NAME_CHANGE"		71046825	"Piatyivka, Synelnykove raion"				""
@@ -23150,6 +23191,7 @@
 # CITY > [UKR] UKRAINE > [UKR-14] Donetsk Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		484486		"Mariupol"						""
+"CITY_NAME_CHANGE"		1301274		"Donetsk"						""
 "CITY_NAME_CHANGE"		71017243	"Kindrativka, Kramatorsk raion"				""
 "CITY_NAME_CHANGE"		71017335	"Shevchenko, Pokrovsk raion"				""
 "CITY_NAME_CHANGE"		71046831	"Myrne, Volnovakha raion"				""
@@ -23229,6 +23271,7 @@
 # CITY > [UKR] UKRAINE > [UKR-35] Kropyvnytskyi Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301268		"Kropyvnytskyi"						""
+"CITY_NAME_CHANGE"		5311249		"Oleksandriia"					""
 "CITY_NAME_CHANGE"		71046923	"Petrove, Znamianskyi raion"				""
 "CITY_NAME_CHANGE"		71052087	"Ivankivtsi, Kropyvnytskyi raion"			""
 "CITY_NAME_CHANGE"		71052269	"Bohdanivka, Znamenskyi raion"				""
@@ -23283,6 +23326,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-09] Luhansk Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1301275		"Luhansk"						""
 "CITY_NAME_CHANGE"		5316232		"Kadivka, Alchevsk raion"				""
 "CITY_NAME_CHANGE"		5325631		"Pervomaisk, Alchevsk raion"				""
 "CITY_NAME_CHANGE"		71035905	"Mylove, Starobilsk raion"				""
@@ -23367,6 +23411,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-53] Poltava Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1301270		"Poltava"						""
 "CITY_NAME_CHANGE"		71033848	"Dmytrivka, Horishni Plavni raion"			""
 "CITY_NAME_CHANGE"		71036043	"Potichok, Poltava raion"				""
 "CITY_NAME_CHANGE"		71036790	"Andriivka, Mashivskyi raion"				""
@@ -23385,6 +23430,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-56] Rivne Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5315067		"Rivne"							""
 "CITY_NAME_CHANGE"		71017234	"Zoria, Rivne raion"					""
 "CITY_NAME_CHANGE"		71017277	"Zoriovastsi, Rivne raion"				""
 "CITY_NAME_CHANGE"		71017293	"Rokytne, Sarny raion"					""
@@ -23465,6 +23511,7 @@
 "CITY_NAME_CHANGE"		71045388	"Vilkhivtsi, Tiachivskyi raion"				""
 "CITY_NAME_CHANGE"		71045391	"Bila Tserkva, Tiachiv raion"				""
 "CITY_NAME_CHANGE"		71046232	"Ploske, Mukachevo raion"				""
+"CITY_NAME_CHANGE"		71098588	"Minaj"							""
 
 
 # CITY > [UKR] UKRAINE > [UKR-23] Zaporizhzhia Oblast
@@ -23482,6 +23529,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-18] Zhytomyr Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5315061		"Zhytomyr"						""
 "CITY_NAME_CHANGE"		71024373	"Romaniv, Zhytomyr raion"				""
 "CITY_NAME_CHANGE"		71024375	"Stavky, Zhytomyr raion"				""
 "CITY_NAME_CHANGE"		71053547	"Radianske, Berdychivskyi raion"			""
@@ -23521,6 +23569,7 @@
 # CITY > [USA] USA > [USA-CA] California
 #====================================================================================
 "CITY_NAME_CHANGE"		656		"Pasadena (CA)"						""
+"CITY_NAME_CHANGE"		657		"San Jose (CA)"						""
 "CITY_NAME_CHANGE"		103114		"Los Angeles (CA)"					""
 "CITY_NAME_CHANGE"		157335		"Santa Clara (CA)"					""
 "CITY_NAME_CHANGE"		978161		"Carson (CA)"						""
@@ -23530,6 +23579,7 @@
 "CITY_NAME_CHANGE"		20016396	"Inglewood (CA)"					""
 "CITY_NAME_CHANGE"		20018109	"East Los Angeles (CA)"					""
 "CITY_NAME_CHANGE"		20018129	"South San Francisco (CA)"				""
+"CITY_NAME_CHANGE"		72020583	"San Diego (CA)"					""
 "CITY_NAME_CHANGE"		72023728	"Richmond (CA)"						""
 "CITY_NAME_CHANGE"		72038337	"Stanford (CA)"						""
 
@@ -23537,6 +23587,7 @@
 # CITY > [USA] USA > [USA-CO] Colorado
 #====================================================================================
 "CITY_NAME_CHANGE"		653		"Denver (CO)"						""
+"CITY_NAME_CHANGE"		981290		"Commerce City (CO)"					""
 "CITY_NAME_CHANGE"		981425		"Colorado Springs (CO)"					""
 
 
@@ -23567,11 +23618,11 @@
 "CITY_NAME_CHANGE"		108956		"Miami (FL)"						""
 "CITY_NAME_CHANGE"		108970		"Miami Beach (FL)"					""
 "CITY_NAME_CHANGE"		981421		"Tallahassee (FL)"					""
-"CITY_NAME_CHANGE"		2000010218	"Olympia Heights (FL)"					""
 "CITY_NAME_CHANGE"		20016542	"Miami Gardens (FL)"					""
 "CITY_NAME_CHANGE"		20018194	"North Miami (FL)"					""
 "CITY_NAME_CHANGE"		20018201	"Tamiami (FL)"						""
 "CITY_NAME_CHANGE"		20018202	"Port Charlotte (FL)"					""
+"CITY_NAME_CHANGE"		2000010218	"Olympia Heights (FL)"					""
 
 
 # CITY > [USA] USA > [USA-GA] Georgia
@@ -23633,9 +23684,9 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		648		"Foxborough (MA)"					""
 "CITY_NAME_CHANGE"		138386		"Boston (MA)"						""
-"CITY_NAME_CHANGE"		2000073269	"Manchester (MA)"					""
 "CITY_NAME_CHANGE"		20016629	"Springfield (MA)"					""
 "CITY_NAME_CHANGE"		72022137	"North Andover (MA)"					""
+"CITY_NAME_CHANGE"		2000073269	"Manchester (MA)"					""
 
 
 # CITY > [USA] USA > [USA-MD] Maryland
@@ -23716,9 +23767,10 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		649		"East Rutherford (NJ)"					""
 "CITY_NAME_CHANGE"		665		"Newark (NJ)"						""
+"CITY_NAME_CHANGE"		982919		"Harrison (NJ)"						""
 "CITY_NAME_CHANGE"		1301190		"Trenton (NJ)"						""
-"CITY_NAME_CHANGE"		2000059882	"Jackson Township (NJ)"					""
 "CITY_NAME_CHANGE"		72022133	"Madison (NJ)"						""
+"CITY_NAME_CHANGE"		2000059882	"Jackson Township (NJ)"					""
 
 
 # CITY > [USA] USA > [USA-NM] New Mexico
@@ -23745,6 +23797,7 @@
 # CITY > [USA] USA > [USA-OH] Ohio
 #====================================================================================
 "CITY_NAME_CHANGE"		652		"Columbus (OH)"						""
+"CITY_NAME_CHANGE"		979908		"Cincinnati (OH)"					""
 "CITY_NAME_CHANGE"		20018276	"Springfield (OH)"					""
 
 
@@ -23766,6 +23819,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		681		"Philadelphia (PA)"					""
 "CITY_NAME_CHANGE"		982231		"Harrisburg (PA)"					""
+"CITY_NAME_CHANGE"		72020973	"Chester (PA)"						""
 
 
 # CITY > [USA] USA > [USA-RI] Rhode Island
@@ -23796,6 +23850,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		654		"Dallas (TX)"						""
 "CITY_NAME_CHANGE"		679		"Houston (TX)"						""
+"CITY_NAME_CHANGE"		979451		"Frisco (TX)"						""
 "CITY_NAME_CHANGE"		981431		"Austin (TX)"						""
 "CITY_NAME_CHANGE"		20018312	"Wichita Falls (TX)"					""
 "CITY_NAME_CHANGE"		72020585	"Arlington (TX)"					""

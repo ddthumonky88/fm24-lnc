@@ -58,6 +58,7 @@ Khi chưa có City ID:
 Khi người dùng cung cấp City ID mới:
 
 - Thêm `CITY_NAME_CHANGE` vào đúng quốc gia và đúng local region.
+- Các dòng `CITY_NAME_CHANGE` trong mỗi nhóm/khu vực phải được sắp xếp theo thứ tự ID tăng dần (ngoại lệ: với Taipei thì thành phố chuẩn, với Japan thì dòng `-ken`/tỉnh, với Malaysia thì dòng bang `Negeri ...` luôn được ưu tiên đặt ở đầu nhóm).
 - Không thêm kết quả gần giống hoặc không thuộc CLB cần cập nhật.
 - Không tạo trùng City ID hoặc trùng bản ghi trong cùng khu vực.
 
@@ -74,9 +75,10 @@ Phải xác minh:
 1. Mọi UID trong ảnh có đúng một `CLUB_CITY_CHANGE`.
 2. Dòng `CLUB_CITY_CHANGE` nằm ngay trên `CLUB_NAME_CHANGE` cùng UID.
 3. ID thật khớp đúng city và nation trong geography.
-4. Số dòng dùng `rd-uid` được báo lại.
-5. Không sửa hoặc khôi phục file ngoài phạm vi yêu cầu.
-6. Không tự động chạy `git commit` hoặc `git push`.
+4. Các dòng `CITY_NAME_CHANGE` trong từng nhóm geography được sắp xếp theo ID tăng dần.
+5. Số dòng dùng `rd-uid` được báo lại.
+6. Không sửa hoặc khôi phục file ngoài phạm vi yêu cầu.
+7. Không tự động chạy `git commit` hoặc `git push`.
 
 ## 7. Báo cáo kết quả
 
