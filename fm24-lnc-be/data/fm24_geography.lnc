@@ -3005,6 +3005,7 @@
 "CITY_NAME_CHANGE"		7480037		"Pinsk"							""
 "CITY_NAME_CHANGE"		7483405		"Luninets"						""
 "CITY_NAME_CHANGE"		17030198	"Stolin"						""
+"CITY_NAME_CHANGE"		2000125479	"Dolbizno"						""
 
 
 # CITY > [BLR] BELARUS > [BLR-HO] Gomelskaya oblast'
@@ -3026,6 +3027,7 @@
 "CITY_NAME_CHANGE"		7480035		"Smorgon"						""
 "CITY_NAME_CHANGE"		17027983	"Volkovysk"						""
 "CITY_NAME_CHANGE"		17029546	"Novogrudok"						""
+"CITY_NAME_CHANGE"		17030159	"Ostrovets"						""
 
 
 # CITY > [BLR] BELARUS > [BLR-MI] Minsk & Minskaya oblast'
@@ -4924,6 +4926,7 @@
 # CITY > [CHI] CHILE > [CHI-LI] Libertador General Bernardo O'Higgins
 #====================================================================================
 "CITY_NAME_CHANGE"		308126		"Rancagua"						""
+"CITY_NAME_CHANGE"		5250780	"Santa Cruz"						""
 
 
 # CITY > [CHI] CHILE > [CHI-LL] Los Lagos
@@ -4993,6 +4996,8 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		308123		"Viña del Mar"						""
 "CITY_NAME_CHANGE"		308133		"Valparaíso"						""
+"CITY_NAME_CHANGE"		308158		"San Felipe"					""
+"CITY_NAME_CHANGE"		5250777	"Quillota"							""
 "CITY_NAME_CHANGE"		5251595		"La Calera"						""
 "CITY_NAME_CHANGE"		8832764		"Quilpué"						""
 "CITY_NAME_CHANGE"		75015827	"Hanga Roa (Easter Island)"				""
@@ -8456,6 +8461,8 @@
 "CITY_NAME_CHANGE"		1300379		"Zugdidi"						""
 "CITY_NAME_CHANGE"		1300380		"Senaki"						""
 "CITY_NAME_CHANGE"		1300381		"Poti"							""
+"CITY_NAME_CHANGE"		59017768	"Martvili"						""
+"CITY_NAME_CHANGE"		59017776	"Khobi"							""
 
 
 # CITY > [GEO] GEORGIA > [GEO-SJ] Samtskhe-Javakheti
@@ -16530,6 +16537,7 @@
 
 # CITY > [NED] NETHERLANDS > [NED-GE] Gelderland
 #====================================================================================
+"CITY_NAME_CHANGE"		729		"Doetinchem"						""
 "CITY_NAME_CHANGE"		736		"Ede"							""
 "CITY_NAME_CHANGE"		774		"Nijmegen"						""
 "CITY_NAME_CHANGE"		811		"Arnhem"						""
@@ -16572,6 +16580,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		751		"Sittard"						""
 "CITY_NAME_CHANGE"		772		"Maastricht"						""
+"CITY_NAME_CHANGE"		787		"Kerkrade"							""
 "CITY_NAME_CHANGE"		814		"Venlo"							""
 "CITY_NAME_CHANGE"		601700		"Elsloo, Limburg"					""
 "CITY_NAME_CHANGE"		856521		"Heerlen"						""
@@ -16612,6 +16621,7 @@
 "CITY_NAME_CHANGE"		715		"Amsterdam"						""
 "CITY_NAME_CHANGE"		716		"Alkmaar"						""
 "CITY_NAME_CHANGE"		757		"Haarlem"						""
+"CITY_NAME_CHANGE"		802		"IJmuiden"							""
 "CITY_NAME_CHANGE"		856514		"Amstelveen"						""
 "CITY_NAME_CHANGE"		856523		"Hoorn"							""
 "CITY_NAME_CHANGE"		856524		"Purmerend"						""
@@ -23557,6 +23567,7 @@
 
 # CITY > [USA] USA > [USA-AL] Alabama
 #====================================================================================
+"CITY_NAME_CHANGE"		981428		"Birmingham (AL)"				""
 "CITY_NAME_CHANGE"		981504		"Huntsville (AL)"					""
 "CITY_NAME_CHANGE"		72020597	"Montgomery (AL)"					""
 
@@ -23580,6 +23591,8 @@
 "CITY_NAME_CHANGE"		157335		"Santa Clara (CA)"					""
 "CITY_NAME_CHANGE"		978161		"Carson (CA)"						""
 "CITY_NAME_CHANGE"		978624		"Sacramento (CA)"					""
+"CITY_NAME_CHANGE"		980215		"Oakland (CA)"					""
+"CITY_NAME_CHANGE"		981562		"Irvine (CA)"					""
 "CITY_NAME_CHANGE"		4400007		"San Francisco (CA)"					""
 "CITY_NAME_CHANGE"		20016391	"Concord (CA)"						""
 "CITY_NAME_CHANGE"		20016396	"Inglewood (CA)"					""
@@ -23588,6 +23601,7 @@
 "CITY_NAME_CHANGE"		72020583	"San Diego (CA)"					""
 "CITY_NAME_CHANGE"		72023728	"Richmond (CA)"						""
 "CITY_NAME_CHANGE"		72038337	"Stanford (CA)"						""
+"CITY_NAME_CHANGE"		2000081588	"Seaside (CA)"					""
 
 
 # CITY > [USA] USA > [USA-CO] Colorado
@@ -23619,6 +23633,7 @@
 
 # CITY > [USA] USA > [USA-FL] Florida
 #====================================================================================
+"CITY_NAME_CHANGE"		650		"Tampa (FL)"						""
 "CITY_NAME_CHANGE"		697		"Jacksonville (FL)"					""
 "CITY_NAME_CHANGE"		702		"Orlando (FL)"						""
 "CITY_NAME_CHANGE"		108956		"Miami (FL)"						""
@@ -23748,6 +23763,7 @@
 "CITY_NAME_CHANGE"		20016768	"Wilmington (NC)"					""
 "CITY_NAME_CHANGE"		20018265	"Jacksonville (NC)"					""
 "CITY_NAME_CHANGE"		20018267	"Concord (NC)"						""
+"CITY_NAME_CHANGE"		72002794	"Cary (NC)"						""
 
 
 # CITY > [USA] USA > [USA-ND] North Dakota
@@ -23809,6 +23825,7 @@
 
 # CITY > [USA] USA > [USA-OK] Oklahoma
 #====================================================================================
+"CITY_NAME_CHANGE"		684		"Tulsa (OK)"						""
 "CITY_NAME_CHANGE"		981486		"Oklahoma City (OK)"					""
 
 
@@ -23824,6 +23841,7 @@
 # CITY > [USA] USA > [USA-PA] Pennsylvania
 #====================================================================================
 "CITY_NAME_CHANGE"		681		"Philadelphia (PA)"					""
+"CITY_NAME_CHANGE"		978762		"Pittsburgh (PA)"				""
 "CITY_NAME_CHANGE"		982231		"Harrisburg (PA)"					""
 "CITY_NAME_CHANGE"		72020973	"Chester (PA)"						""
 
@@ -23831,6 +23849,7 @@
 # CITY > [USA] USA > [USA-RI] Rhode Island
 #====================================================================================
 "CITY_NAME_CHANGE"		981444		"Providence (RI)"					""
+"CITY_NAME_CHANGE"		981541		"Pawtucket (RI)"				""
 
 
 # CITY > [USA] USA > [USA-SC] South Carolina
@@ -23849,6 +23868,7 @@
 # CITY > [USA] USA > [USA-TN] Tennessee
 #====================================================================================
 "CITY_NAME_CHANGE"		981432		"Nashville (TN)"					""
+"CITY_NAME_CHANGE"		981469		"Memphis (TN)"					""
 "CITY_NAME_CHANGE"		20018301	"Jackson (TN)"						""
 
 
@@ -23856,6 +23876,8 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		654		"Dallas (TX)"						""
 "CITY_NAME_CHANGE"		679		"Houston (TX)"						""
+"CITY_NAME_CHANGE"		695		"El Paso (TX)"						""
+"CITY_NAME_CHANGE"		108975		"San Antonio (TX)"				""
 "CITY_NAME_CHANGE"		979451		"Frisco (TX)"						""
 "CITY_NAME_CHANGE"		981431		"Austin (TX)"						""
 "CITY_NAME_CHANGE"		20018312	"Wichita Falls (TX)"					""
@@ -23872,6 +23894,7 @@
 "CITY_NAME_CHANGE"		667		"Virginia Beach (VA)"					""
 "CITY_NAME_CHANGE"		705		"Richmond (VA)"						""
 "CITY_NAME_CHANGE"		982465		"Springfield (VA)"					""
+"CITY_NAME_CHANGE"		20041638	"Leesburg (VA)"					""
 "CITY_NAME_CHANGE"		72025997	"Charlottesville (VA)"					""
 
 
