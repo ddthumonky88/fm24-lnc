@@ -1734,6 +1734,7 @@
 # CLUB > AFC > [IND] INDIA > [40035413] AIFF Elite Youth League
 #==============================================================================
 "AFFILIATED_CLUB_ID"		5512174		"U18-40035484"						"" # [IND] Jamshedpur
+"CLUB_CITY_CHANGE"		5512174		"5512176"						"" # <Jamshedpur>
 "CLUB_NAME_CHANGE"		5512174		"Tata Football Academy"					""
 "CLUB_SHORT_NAME_CHANGE"	5512174		"Tata FA"						""
 "CLUB_6LETTER_NAME_CHANGE"	5512174		"TFA"							""
@@ -2586,11 +2587,13 @@
 
 # CLUB > AFC > [JPN] JAPAN > [102428] J1 League (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1183		"789063"						"" # <Fukuoka>
 "CLUB_NAME_CHANGE"		1183		"Avispa Fukuoka"					""
 "CLUB_SHORT_NAME_CHANGE"	1183		"Avispa Fukuoka"					""
 #"CLUB_6LETTER_NAME_CHANGE"	1183		"Fukuoka"						""
 "CLUB_3LETTER_NAME_CHANGE"	1183		"FUK"							""
 
+"CLUB_CITY_CHANGE"		1184		"107260"						"" # <Hiratsuka>
 "CLUB_NAME_CHANGE"		1184		"Shonan Bellmare"					""
 "CLUB_SHORT_NAME_CHANGE"	1184		"Shonan Bellmare"					""
 "CLUB_6LETTER_NAME_CHANGE"	1184		"Shonan"						""
@@ -2602,7 +2605,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1185		"C-Osaka"						""
 "CLUB_3LETTER_NAME_CHANGE"	1185		"CER"							""
 
-"CLUB_CITY_CHANGE"		1186		"788890"						"" # <Osaka>
+"CLUB_CITY_CHANGE"		1186		"107274"						"" # <Suita>
 "CLUB_NAME_CHANGE"		1186		"Gamba Osaka"						""
 "CLUB_SHORT_NAME_CHANGE"	1186		"Gamba Osaka"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1186		"G-Osaka"						""
@@ -2614,6 +2617,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1189		"Kashima"						""
 "CLUB_3LETTER_NAME_CHANGE"	1189		"KSM"							""	
 
+"CLUB_CITY_CHANGE"		1190		"102563"						"" # <Kashiwa>
 "CLUB_NAME_CHANGE"		1190		"Kashiwa Reysol"					""
 "CLUB_SHORT_NAME_CHANGE"	1190		"Kashiwa Reysol"					""
 #"CLUB_6LETTER_NAME_CHANGE"	1190		"Kashiwa"						""
@@ -2637,6 +2641,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	1193		"Hiroshima"						""
 "CLUB_3LETTER_NAME_CHANGE"	1193		"HIR"							""
 
+"CLUB_CITY_CHANGE"		1195		"789624"						"" # <Saitama>
 "CLUB_NAME_CHANGE"		1195		"Urawa Red Diamonds"					""
 "CLUB_SHORT_NAME_CHANGE"	1195		"Urawa Reds"						""
 "CLUB_6LETTER_NAME_CHANGE"	1195		"Urawa"							""
@@ -2660,22 +2665,25 @@
 #"CLUB_6LETTER_NAME_CHANGE"	107280		"Niigata"						""
 "CLUB_3LETTER_NAME_CHANGE"	107280		"NGT"							""
 
-"CLUB_CITY_CHANGE"		107285		"781375"						"" # <Hokkaido>
+"CLUB_CITY_CHANGE"		107285		"107271"						"" # <Sapporo>
 "CLUB_NAME_CHANGE"		107285		"Hokkaido Consadole Sapporo"				""
 "CLUB_SHORT_NAME_CHANGE"	107285		"Consadole Sapporo"					""
 #"CLUB_6LETTER_NAME_CHANGE"	107285		"Sapporo"						""
 "CLUB_3LETTER_NAME_CHANGE"	107285		"SAP"							""
 
+"CLUB_CITY_CHANGE"		107296		"107263"						"" # <Kawasaki>
 "CLUB_NAME_CHANGE"		107296		"Kawasaki Frontale"					""
 "CLUB_SHORT_NAME_CHANGE"	107296		"Kawasaki Frontale"					""
 #"CLUB_6LETTER_NAME_CHANGE"	107296		"Kawasaki"						""
 "CLUB_3LETTER_NAME_CHANGE"	107296		"KAW"							""
 
+"CLUB_CITY_CHANGE"		107309		"107276"						"" # <Tosu>
 "CLUB_NAME_CHANGE"		107309		"Sagan Tosu"						""
 "CLUB_SHORT_NAME_CHANGE"	107309		"Sagan Tosu"						""
 "CLUB_6LETTER_NAME_CHANGE"	107309		"Tosu"							""
 "CLUB_3LETTER_NAME_CHANGE"	107309		"TOS"							""
 
+"CLUB_CITY_CHANGE"		107313		"789392"						"" # <Special Wards of Tokyo>
 "CLUB_NAME_CHANGE"		107313		"FC TOKYO"						""
 "CLUB_SHORT_NAME_CHANGE"	107313		"FC TOKYO"						""
 #"CLUB_6LETTER_NAME_CHANGE"	107313		"FC TOKYO"						""
@@ -3404,7 +3412,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	106813		"Suwon"							""
 #"CLUB_3LETTER_NAME_CHANGE"	106813		"SWBW"							""
 
-"CLUB_CITY_CHANGE"		106817		"92064072"						"" # <Jeju>
+"CLUB_CITY_CHANGE"		106817		"5700012"						"" # <Seogwipo>
 "CLUB_NAME_CHANGE"		106817		"Jeju SK FC"						""
 "CLUB_SHORT_NAME_CHANGE"	106817		"Jeju SK"						""
 "CLUB_6LETTER_NAME_CHANGE"	106817		"Jeju"							""
@@ -3422,6 +3430,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	130774		"Daejeon"						""
 #"CLUB_3LETTER_NAME_CHANGE"	130774		"DJHN"							""
 
+"CLUB_CITY_CHANGE"		130776		"136405"						"" # <Jeonju>
 "CLUB_NAME_CHANGE"		130776		"Jeonbuk Hyundai Motors FC"				""
 "CLUB_SHORT_NAME_CHANGE"	130776		"Jeonbuk Hyundai"					""
 #"CLUB_6LETTER_NAME_CHANGE"	130776		"Jeonbuk"						""
@@ -3451,6 +3460,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	5709008		"Incheon"						""
 #"CLUB_3LETTER_NAME_CHANGE"	5709008		"INCH"							""
 
+"CLUB_CITY_CHANGE"		66006663	"5707549"						"" # <Gangneung>
 "CLUB_NAME_CHANGE"		66006663	"Gangwon FC"						""
 "CLUB_SHORT_NAME_CHANGE"	66006663	"Gangwon"						""
 #"CLUB_6LETTER_NAME_CHANGE"	66006663	"Gangwon"						""
@@ -3465,12 +3475,13 @@
 
 # CLUB > AFC > [KOR] KOREA REPUBLIC > [66029602] K.League 2 (2023)
 #==============================================================================
-"CLUB_CITY_CHANGE"		106809		"2000105053"						"" # <Gimcheon>
+"CLUB_CITY_CHANGE"		106809		"2000105053"					"" # <Gimcheon>
 "CLUB_NAME_CHANGE"		106809		"Gimcheon Sangmu FC"					""
 "CLUB_SHORT_NAME_CHANGE"	106809		"Gimcheon Sangmu"					""
 #"CLUB_6LETTER_NAME_CHANGE"	106809		"Gimcheon"						""
 #"CLUB_3LETTER_NAME_CHANGE"	106809		"GIMC"							""
 
+"CLUB_CITY_CHANGE"		106812		"136406"						"" # <Gwangyang>
 "CLUB_NAME_CHANGE"		106812		"Jeonnam Dragons FC"					""
 "CLUB_SHORT_NAME_CHANGE"	106812		"Jeonnam Dragons"					""
 #"CLUB_6LETTER_NAME_CHANGE"	106812		"Jeonnam"						""
@@ -3494,6 +3505,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	200373		"Seongnam"						""
 #"CLUB_3LETTER_NAME_CHANGE"	200373		"SNFC"							""
 
+"CLUB_CITY_CHANGE"		5710867		"5704213"						"" # <Changwon>
 "CLUB_NAME_CHANGE"		5710867		"Gyeongnam FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5710867		"Gyeongnam"						""
 #"CLUB_6LETTER_NAME_CHANGE"	5710867		"Gyeongnam"						""
@@ -3615,6 +3627,7 @@
 "CLUB_SHORT_NAME_CHANGE"	66038127	"Siheung City"						""
 #"CLUB_6LETTER_NAME_CHANGE"	66038127	"Siheung"						""
 
+"CLUB_CITY_CHANGE"		66038128	"66038137"						"" # <Yangpyeong-gun>
 "CLUB_NAME_CHANGE"		66038128	"Yangpyeong FC"						""
 "CLUB_SHORT_NAME_CHANGE"	66038128	"Yangpyeong"						""
 #"CLUB_6LETTER_NAME_CHANGE"	66038128	"Yangpyeong"						""
@@ -3627,6 +3640,7 @@
 
 # CLUB > AFC > [KOR] KOREA REPUBLIC > [66040773] K4 League (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		66010550	"66035963"						"" # <Pyeongchang-gun>
 "CLUB_NAME_CHANGE"		66010550	"Pyeongchang United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	66010550	"Pyeongchang United"					""
 #"CLUB_6LETTER_NAME_CHANGE"	66010550	"Pyeongchang"						""
@@ -3651,7 +3665,7 @@
 "CLUB_SHORT_NAME_CHANGE"	66040770	"Pyeongtaek Citizen"					""
 #"CLUB_6LETTER_NAME_CHANGE"	66040770	"Pyeongtaek"						""
 
-"CLUB_CITY_CHANGE"		66043320	"2000002773"						"" # <Yeoju>
+"CLUB_CITY_CHANGE"		66043320	"2000002773"					"" # <Yeoju>
 "CLUB_NAME_CHANGE"		66043320	"Yeoju FC"						""
 "CLUB_SHORT_NAME_CHANGE"	66043320	"Yeoju"							""
 "CLUB_6LETTER_NAME_CHANGE"	66043320	"Yeoju"							""
@@ -3666,12 +3680,12 @@
 "CLUB_SHORT_NAME_CHANGE"	66046957	"Jinju Citizen"						""
 "CLUB_6LETTER_NAME_CHANGE"	66046957	"Jinju"							""
 
-"CLUB_CITY_CHANGE"		2000099724	"2000099721"						"" # <Dangjin>
+"CLUB_CITY_CHANGE"		2000099724	"2000099721"					"" # <Dangjin>
 "CLUB_NAME_CHANGE"		2000099724	"Dangjin Citizen FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000099724	"Dangjin Citizen"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000099724	"Dangjin"						""
 
-"CLUB_CITY_CHANGE"		2000116168	"2000100691"						"" # <Geoje>
+"CLUB_CITY_CHANGE"		2000116168	"2000100691"					"" # <Geoje>
 "CLUB_NAME_CHANGE"		2000116168	"Geoje Citizen FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000116168	"Geoje Citizen"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000116168	"Geoje"							""
@@ -3682,6 +3696,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000261928	"Sejong"						""
 
 "AFFILIATED_CLUB_ID"		2000116170	"BT-66006663"						"" # [KOR] Gangwon
+"CLUB_CITY_CHANGE"		2000116170	"5707549"						"" # <Gangneung>
 "CLUB_NAME_CHANGE"		2000116170	"Gangwon FC B"						""
 "CLUB_SHORT_NAME_CHANGE"	2000116170	"Gangwon B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000116170	"GWFC.B"						""
@@ -3692,6 +3707,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000172902	"Goyang"						""
 
 "AFFILIATED_CLUB_ID"		2000261924	"BT-130776"						"" # [KOR] Jeonbuk Hyundai
+"CLUB_CITY_CHANGE"		2000261924	"136405"						"" # <Jeonju>
 "CLUB_NAME_CHANGE"		2000261924	"Jeonbuk Hyundai N Team"				""
 "CLUB_SHORT_NAME_CHANGE"	2000261924	"Jeonbuk N Team"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000261924	"JBNT"							""
@@ -3723,6 +3739,7 @@
 # CLUB > AFC > [KOR] KOREA REPUBLIC > [66039929] K.League Junior Group A
 #==============================================================================
 "AFFILIATED_CLUB_ID"		136436		"U18-200373"						"" # [KOR] Seongnam
+"CLUB_CITY_CHANGE"		136436		"135416"						"" # <Seongnam>
 "CLUB_NAME_CHANGE"		136436		"Poongsaeng High School"				""
 "CLUB_SHORT_NAME_CHANGE"	136436		"Poongsaeng H.S."					""
 "CLUB_6LETTER_NAME_CHANGE"	136436		"SNFC.Y"						""
@@ -3732,21 +3749,25 @@
 "CLUB_SHORT_NAME_CHANGE"	5703117		"Anyang Tech H.S."					""
 
 "AFFILIATED_CLUB_ID"		5708135		"U18-66006663"						"" # [KOR] Gangwon
+"CLUB_CITY_CHANGE"		5708135		"5707549"						"" # <Gangneung>
 "CLUB_NAME_CHANGE"		5708135		"Gangneung First High School"				""
 "CLUB_SHORT_NAME_CHANGE"	5708135		"Gangneung H.S."					""
 "CLUB_6LETTER_NAME_CHANGE"	5708135		"GWFC.Y"						""
 
 "AFFILIATED_CLUB_ID"		66003915	"U18-106813"						"" # [KOR] Suwon Bluewings
+"CLUB_CITY_CHANGE"		66003915	"134623"						"" # <Suwon>
 "CLUB_NAME_CHANGE"		66003915	"Maetan High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66003915	"Maetan H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66003915	"SWBW.Y"						""
 
 "AFFILIATED_CLUB_ID"		66010041	"U18-5709008"						"" # [KOR] Incheon United
+"CLUB_CITY_CHANGE"		66010041	"570005"						"" # <Incheon>
 "CLUB_NAME_CHANGE"		66010041	"Daegun High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66010041	"Daegun H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66010041	"INCH.Y"						""
 
 "AFFILIATED_CLUB_ID"		66026681	"U18-130777"						"" # [KOR] FC Seoul
+"CLUB_CITY_CHANGE"		66026681	"103206"						"" # <Seoul>
 "CLUB_NAME_CHANGE"		66026681	"Osan High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66026681	"Osan H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66026681	"FCSL.Y"						""
@@ -3760,21 +3781,25 @@
 "CLUB_6LETTER_NAME_CHANGE"	5700901		"JNDR.Y"						""
 
 "AFFILIATED_CLUB_ID"		5703168		"U18-66011708"						"" # [KOR] Gwangju
+"CLUB_CITY_CHANGE"		5703168		"5700010"						"" # <Gwangju>
 "CLUB_NAME_CHANGE"		5703168		"Keumho High School"					""
 "CLUB_SHORT_NAME_CHANGE"	5703168		"Keumho H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	5703168		"GWJU.Y"						""
 
 "AFFILIATED_CLUB_ID"		66002191	"U18-106808"						"" # [KOR] Ulsan HD
+"CLUB_CITY_CHANGE"		66002191	"134625"						"" # <Ulsan>
 "CLUB_NAME_CHANGE"		66002191	"Hyundai High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66002191	"Hyundai H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66002191	"ULSN.Y"						""
 
 "AFFILIATED_CLUB_ID"		66010039	"U18-130774"						"" # [KOR] Daejeon Hana
+"CLUB_CITY_CHANGE"		66010039	"134624"						"" # <Daejeon>
 "CLUB_NAME_CHANGE"		66010039	"Chungnam Mechanical Technical High School"		""
 "CLUB_SHORT_NAME_CHANGE"	66010039	"Chungnam MT H.S."					""
 "CLUB_6LETTER_NAME_CHANGE"	66010039	"DJHN.Y"						""
 
 "AFFILIATED_CLUB_ID"		66010040	"U18-130776"						"" # [KOR] Jeonbuk Hyundai
+"CLUB_CITY_CHANGE"		66010040	"136405"						"" # <Jeonju>
 "CLUB_NAME_CHANGE"		66010040	"Youngsaeng High School"				""
 "CLUB_SHORT_NAME_CHANGE"	66010040	"Youngsaeng H.S."					""
 "CLUB_6LETTER_NAME_CHANGE"	66010040	"JBHY.Y"						""
@@ -3789,16 +3814,19 @@
 "CLUB_SHORT_NAME_CHANGE"	66010043	"Hyunpung H.S."						""
 
 "AFFILIATED_CLUB_ID"		66013618	"U18-130775"						"" # [KOR] Busan IPark
+"CLUB_CITY_CHANGE"		66013618	"134622"						"" # <Busan>
 "CLUB_NAME_CHANGE"		66013618	"Gaesung High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66013618	"Gaesung H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66013618	"BSIP.Y"						""
 
 "AFFILIATED_CLUB_ID"		66026062	"U18-106809"						"" # [KOR] Gimcheon Sangmu
+"CLUB_CITY_CHANGE"		66026062	"2000105053"					"" # <Gimcheon>
 "CLUB_NAME_CHANGE"		66026062	"Yongun High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66026062	"Yongun H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66026062	"GIMC.Y"						""
 
 "AFFILIATED_CLUB_ID"		66029616	"U18-106818"						"" # [KOR] Pohang Steelers
+"CLUB_CITY_CHANGE"		66029616	"134621"						"" # <Pohang>
 "CLUB_NAME_CHANGE"		66029616	"Pohang Jecheol High School"				""
 "CLUB_SHORT_NAME_CHANGE"	66029616	"Pohang Jecheol H.S."					""
 "CLUB_6LETTER_NAME_CHANGE"	66029616	"POHA.Y"						""
@@ -5192,7 +5220,7 @@
 
 # CLUB > AFC > [QAT] QATAR > [5632126] Qatar Stars League (23/24)
 #==============================================================================
-"CLUB_CITY_CHANGE"		102853		"23442030"						"" # <Al-Sadd>
+"CLUB_CITY_CHANGE"		102853		"103220"						"" # <Doha>
 "CLUB_NAME_CHANGE"		102853		"Al-Sadd SC"						""
 "CLUB_SHORT_NAME_CHANGE"	102853		"Al-Sadd"						""
 #"CLUB_6LETTER_NAME_CHANGE"	102853		"Al-Sadd"						""
@@ -5216,29 +5244,31 @@
 #"CLUB_6LETTER_NAME_CHANGE"	135411		"Al-Wakrah"						""
 "CLUB_3LETTER_NAME_CHANGE"	135411		"WKR"							""
 
-"CLUB_CITY_CHANGE"		135413		"23442032"						"" # <Al-Shamal>
+"CLUB_CITY_CHANGE"		135413		"1032771"						"" # <Madinat ash-Shamal>
 "CLUB_NAME_CHANGE"		135413		"Al-Shamal SC"						""
 "CLUB_SHORT_NAME_CHANGE"	135413		"Al-Shamal" 						""
 #"CLUB_6LETTER_NAME_CHANGE"	135413		"Al-Shamal" 						""
 "CLUB_3LETTER_NAME_CHANGE"	135413		"SHM"							""
 
-"CLUB_CITY_CHANGE"		1026831		"5627161"						"" # <Al-Gharafa>
+"CLUB_CITY_CHANGE"		1026831		"103220"						"" # <Doha>
 "CLUB_NAME_CHANGE"		1026831		"Al-Gharafa SC"						""
 "CLUB_SHORT_NAME_CHANGE"	1026831		"Al-Gharafa" 						""
 #"CLUB_6LETTER_NAME_CHANGE"	1026831		"Al-Gharafa" 						""
 "CLUB_3LETTER_NAME_CHANGE"	1026831		"GHA"							""
 
+"CLUB_CITY_CHANGE"		1032763		"1032773"						"" # <Umm Salal Mohammed>
 "CLUB_NAME_CHANGE"		1032763		"Umm-Salal SC"						""
 "CLUB_SHORT_NAME_CHANGE"	1032763		"Umm-Salal" 						""
 #"CLUB_6LETTER_NAME_CHANGE"	1032763		"Umm-Salal" 						""
 "CLUB_3LETTER_NAME_CHANGE"	1032763		"UMS"							""
 
-"CLUB_CITY_CHANGE"		1032764		"5627157"						"" # <Al-Markhiya>
+"CLUB_CITY_CHANGE"		1032764		"103220"						"" # <Doha>
 "CLUB_NAME_CHANGE"		1032764		"Al-Markhiya SC"					""
 "CLUB_SHORT_NAME_CHANGE"	1032764		"Al-Markhiya" 						""
 #"CLUB_6LETTER_NAME_CHANGE"	1032764		"Al-Markhiya" 						""
 "CLUB_3LETTER_NAME_CHANGE"	1032764		"MRK"							""
 
+"CLUB_CITY_CHANGE"		1032767		"5627159"						"" # <Al-Rayyan>
 "CLUB_NAME_CHANGE"		1032767		"Muaither SC"						""
 "CLUB_SHORT_NAME_CHANGE"	1032767		"Muaither"						""
 #"CLUB_6LETTER_NAME_CHANGE"	1032767		"Muaither"						""
@@ -5250,12 +5280,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	3400801		"Al-Rayyan" 						""
 "CLUB_3LETTER_NAME_CHANGE"	3400801		"RAY"							""
 
+"CLUB_CITY_CHANGE"		5624425		"103220"						"" # <Doha>
 "CLUB_NAME_CHANGE"		5624425		"Qatar SC"						""
 "CLUB_SHORT_NAME_CHANGE"	5624425		"Qatar SC" 						""
 "CLUB_6LETTER_NAME_CHANGE"	5624425		"Qatar" 						""
 "CLUB_3LETTER_NAME_CHANGE"	5624425		"QSC"							""
 
-"CLUB_CITY_CHANGE"		23404990	"23442029"						"" # <Duhail>
+"CLUB_CITY_CHANGE"		23404990	"103220"						"" # <Doha>
 "CLUB_NAME_CHANGE"		23404990	"Al-Duhail SC"						""
 "CLUB_SHORT_NAME_CHANGE"	23404990	"Al-Duhail" 						""
 #"CLUB_6LETTER_NAME_CHANGE"	23404990	"Al-Duhail" 						""
@@ -5385,16 +5416,19 @@
 "CLUB_6LETTER_NAME_CHANGE"	23228667	"WKR.2"							""
 
 "AFFILIATED_CLUB_ID"		23228669	"2T-1032767"						"" # [QAT] Muaither
+"CLUB_CITY_CHANGE"		23228669	"5627159"						"" # <Al-Rayyan>
 "CLUB_NAME_CHANGE"		23228669	"Muaither SC II"					""
 "CLUB_SHORT_NAME_CHANGE"	23228669	"Muaither II"						""
 "CLUB_6LETTER_NAME_CHANGE"	23228669	"MUA.2"							""
 
 "AFFILIATED_CLUB_ID"		23228670	"2T-5624425"						"" # [QAT] Qatar SC
+"CLUB_CITY_CHANGE"		23228670	"103220"						"" # <Doha>
 "CLUB_NAME_CHANGE"		23228670	"Qatar SC II"						""
 "CLUB_SHORT_NAME_CHANGE"	23228670	"Qatar SC II"						""
 "CLUB_6LETTER_NAME_CHANGE"	23228670	"QSC.2"							""
 
 "AFFILIATED_CLUB_ID"		23228671	"2T-1032763"						"" # [QAT] Umm-Salal
+"CLUB_CITY_CHANGE"		23228671	"1032773"						"" # <Umm Salal Mohammed>
 "CLUB_NAME_CHANGE"		23228671	"Umm-Salal SC II"					""
 "CLUB_SHORT_NAME_CHANGE"	23228671	"Umm-Salal II"						""
 "CLUB_6LETTER_NAME_CHANGE"	23228671	"UMS.2"							""
@@ -6001,6 +6035,7 @@
 
 # CLUB > AFC > [TJK] TAJIKISTAN > [59110037] Ligai Yakumi Tojikiston (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		485419		"59029469"						"" # <Balkh>
 "CLUB_NAME_CHANGE"		485419		"FC Panjsher"						""
 "CLUB_SHORT_NAME_CHANGE"	485419		"Panjsher"						""
 #"CLUB_6LETTER_NAME_CHANGE"	485419		"Panjsher"						""
@@ -6025,6 +6060,10 @@
 "CLUB_3LETTER_NAME_CHANGE"	59125870	"BRQ"							""
 
 
+"CLUB_CITY_CHANGE"		1652462		"59017726"						"" # <Panj>
+"CLUB_NAME_CHANGE"		1652462		"FC Saroykamar Panj"					""
+"CLUB_SHORT_NAME_CHANGE"	1652462		"Saroykamar"						""
+
 # CLUB > AFC > [TJK] TAJIKISTAN > [OTHER]
 #==============================================================================
 "CLUB_CITY_CHANGE"		8076794		"103226"						"" # <Dushanbe>
@@ -6036,6 +6075,7 @@
 "CLUB_SHORT_NAME_CHANGE"	59133966	"Ravshan Zafarobod"					""
 
 "AFFILIATED_CLUB_ID"		59133950	"2T-59025577"						"" # [TJK] Istiklol
+"CLUB_CITY_CHANGE"		59133950	"103226"						"" # <Dushanbe>
 "CLUB_NAME_CHANGE"		59133950	"FC Istiklol-2"						""
 "CLUB_SHORT_NAME_CHANGE"	59133950	"Istiklol-2"						""
 "CLUB_6LETTER_NAME_CHANGE"	59133950	"IST.2"							""
@@ -6749,6 +6789,7 @@
 
 # CLUB > AFC > [UAE] UAE > [7880000] UAE Pro League (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		135430		"103229"						"" # <Abu Dhabi>
 "CLUB_NAME_CHANGE"		135430		"Al-Wahda FC"						""
 "CLUB_SHORT_NAME_CHANGE"	135430		"Al-Wahda"						""
 #"CLUB_6LETTER_NAME_CHANGE"	135430		"Al-Wahda"						""
@@ -6760,21 +6801,25 @@
 "CLUB_6LETTER_NAME_CHANGE"	135434		"Hatta"							""
 "CLUB_3LETTER_NAME_CHANGE"	135434		"HAT"							""
 
+"CLUB_CITY_CHANGE"		135435		"7880110"						"" # <Ras Al-Khaimah>
 "CLUB_NAME_CHANGE"		135435		"Emirates Club"						""
 "CLUB_SHORT_NAME_CHANGE"	135435		"Emirates"						""
 #"CLUB_6LETTER_NAME_CHANGE"	135435		"Emirates"						""
 "CLUB_3LETTER_NAME_CHANGE"	135435		"EMI"							""
 
+"CLUB_CITY_CHANGE"		135439		"135441"						"" # <Dubai>
 "CLUB_NAME_CHANGE"		135439		"Al-Wasl FC"						""
 "CLUB_SHORT_NAME_CHANGE"	135439		"Al-Wasl"						""
 #"CLUB_6LETTER_NAME_CHANGE"	135439		"Al-Wasl"						""
 "CLUB_3LETTER_NAME_CHANGE"	135439		"WAS"							""
 
+"CLUB_CITY_CHANGE"		135448		"135441"						"" # <Dubai>
 "CLUB_NAME_CHANGE"		135448		"Al-Nasr SC (UAE)"					""
 "CLUB_SHORT_NAME_CHANGE"	135448		"Al-Nasr UAE"						""
 #"CLUB_6LETTER_NAME_CHANGE"	135448		"Al-Nasr AE"						""
 "CLUB_3LETTER_NAME_CHANGE"	135448		"NAS"							""
 
+"CLUB_CITY_CHANGE"		135450		"103229"						"" # <Abu Dhabi>
 "CLUB_NAME_CHANGE"		135450		"Al-Jazira Club"					""
 "CLUB_SHORT_NAME_CHANGE"	135450		"Al-Jazira"						""
 #"CLUB_6LETTER_NAME_CHANGE"	135450		"Al-Jazira"						""
@@ -6810,11 +6855,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	7880311		"Ajman"							""
 "CLUB_3LETTER_NAME_CHANGE"	7880311		"AJM"							""
 
+"CLUB_CITY_CHANGE"		23243246	"7880118"						"" # <Dhaid>
 "CLUB_NAME_CHANGE"		23243246	"Al-Bataeh CSC"						""
 "CLUB_SHORT_NAME_CHANGE"	23243246	"Al-Bataeh"						""
 #"CLUB_6LETTER_NAME_CHANGE"	23243246	"Al-Bataeh"						""
 "CLUB_3LETTER_NAME_CHANGE"	23243246	"BAT"							""
 	
+"CLUB_CITY_CHANGE"		23418694	"135441"						"" # <Dubai>
 "CLUB_NAME_CHANGE"		23418694	"Shabab Al-Ahli Club"					""
 "CLUB_SHORT_NAME_CHANGE"	23418694	"Shabab Al-Ahli"					""
 "CLUB_3LETTER_NAME_CHANGE"	23418694	"SHA"							""
@@ -6976,6 +7023,7 @@
 # CLUB > AFC > [UAE] UAE > [OTHER]
 #==============================================================================
 "AFFILIATED_CLUB_ID"		2000171349	"BT-2000017205"						"" # [UAE] Dubai City
+"CLUB_CITY_CHANGE"		2000171349	"135441"						"" # <Dubai>
 "CLUB_NAME_CHANGE"		2000171349	"Inter City FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000171349	"Inter City"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000171349	"ICFC"							""
@@ -7006,26 +7054,31 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000323721	"AIN.21"						""
 
 "AFFILIATED_CLUB_ID"		2000323722	"U21-23243246"						"" # [UAE] Al-Bataeh
+"CLUB_CITY_CHANGE"		2000323722	"7880118"						"" # <Dhaid>
 "CLUB_NAME_CHANGE"		2000323722	"Al-Bataeh CSC Youth"					""
 "CLUB_SHORT_NAME_CHANGE"	2000323722	"Al-Bataeh Youth"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000323722	"BAT.21"						""
 
 "AFFILIATED_CLUB_ID"		2000323723	"U21-135450"						"" # [UAE] Al-Jazira
+"CLUB_CITY_CHANGE"		2000323723	"103229"						"" # <Abu Dhabi>
 "CLUB_NAME_CHANGE"		2000323723	"Al-Jazira Club Youth"					""
 "CLUB_SHORT_NAME_CHANGE"	2000323723	"Al-Jazira Youth"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000323723	"JAZ.21"						""
 
 "AFFILIATED_CLUB_ID"		2000323724	"U21-135448"						"" # [UAE] Al-Nasr UAE
+"CLUB_CITY_CHANGE"		2000323724	"135441"						"" # <Dubai>
 "CLUB_NAME_CHANGE"		2000323724	"Al-Nasr SC Youth"					""
 "CLUB_SHORT_NAME_CHANGE"	2000323724	"Al-Nasr Youth"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000323724	"NAS.21"						""
 
 "AFFILIATED_CLUB_ID"		2000323725	"U21-135430"						"" # [UAE] Al-Wahda
+"CLUB_CITY_CHANGE"		2000323725	"103229"						"" # <Abu Dhabi>
 "CLUB_NAME_CHANGE"		2000323725	"Al-Wahda FC Youth"					""
 "CLUB_SHORT_NAME_CHANGE"	2000323725	"Al-Wahda Youth"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000323725	"WAH.21"						""
 
 "AFFILIATED_CLUB_ID"		2000323727	"U21-135439"						"" # [UAE] Al-Wasl
+"CLUB_CITY_CHANGE"		2000323727	"135441"						"" # <Dubai>
 "CLUB_NAME_CHANGE"		2000323727	"Al-Wasl FC Youth"					""
 "CLUB_SHORT_NAME_CHANGE"	2000323727	"Al-Wasl Youth"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000323727	"WAS.21"						""
@@ -7037,6 +7090,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000323728	"BNY.21"						""
 
 "AFFILIATED_CLUB_ID"		2000323729	"U21-135435"						"" # [UAE] Emirates
+"CLUB_CITY_CHANGE"		2000323729	"7880110"						"" # <Ras Al-Khaimah>
 "CLUB_NAME_CHANGE"		2000323729	"Emirates Club Youth"					""
 "CLUB_SHORT_NAME_CHANGE"	2000323729	"Emirates Youth"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000323729	"EMI.21"						""
@@ -9291,6 +9345,7 @@
 "CLUB_SHORT_NAME_CHANGE"	72018961	"Victoria Highlanders"					""
 
 "AFFILIATED_CLUB_ID"		72037352	"U18-4400014"						"" # [USA] Vancouver Whitecaps
+"CLUB_CITY_CHANGE"		72037352	"4400015"						"" # <Vancouver (BC)>
 "CLUB_NAME_CHANGE"		72037352	"Whitecaps FC BMO Academy"				""
 "CLUB_SHORT_NAME_CHANGE"	72037352	"Whitecaps Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72037352	"WFC.A"							""
@@ -11107,6 +11162,7 @@
 # CLUB > CONCACAF > [USA] USA > [2000102644] MLS Next Pro (2023)
 #==============================================================================
 "AFFILIATED_CLUB_ID"		20031507	"BAC-1907"						"" # [USA] LA Galaxy
+"CLUB_CITY_CHANGE"		20031507	"978161"						"" # <Carson (CA)>
 "CLUB_NAME_CHANGE"		20031507	"Ventura County FC"					""
 "CLUB_SHORT_NAME_CHANGE"	20031507	"Ventura County"					""
 "CLUB_6LETTER_NAME_CHANGE"	20031507	"VCFC"							""
@@ -11127,11 +11183,13 @@
 #"CLUB_3LETTER_NAME_CHANGE"	20046402	"ATL.2"							""
 
 "AFFILIATED_CLUB_ID"		20047516	"BAC-1905"						"" # [USA] Dallas
+"CLUB_CITY_CHANGE"		20047516	"979451"						"" # <Frisco (TX)>
 "CLUB_NAME_CHANGE"		20047516	"North Texas SC"					""
 "CLUB_SHORT_NAME_CHANGE"	20047516	"North Texas"						""
 "CLUB_3LETTER_NAME_CHANGE"	20047516	"NTX"							""
 
 "AFFILIATED_CLUB_ID"		20048858	"BAC-72014006"						"" # [USA] Seattle Sounders
+"CLUB_CITY_CHANGE"		20048858	"976608"						"" # <Seattle (WA)>
 "CLUB_NAME_CHANGE"		20048858	"Tacoma Defiance"					""
 "CLUB_SHORT_NAME_CHANGE"	20048858	"Tacoma Defiance"					""
 "CLUB_6LETTER_NAME_CHANGE"	20048858	"Tacoma"						""
@@ -11145,30 +11203,35 @@
 #"CLUB_3LETTER_NAME_CHANGE"	72043487	"POR.2"							""
 
 "AFFILIATED_CLUB_ID"		72043491	"BAC-980543"						"" # [USA] Real Salt Lake
+"CLUB_CITY_CHANGE"		72043491	"979462"						"" # <Salt Lake City (UT)>
 "CLUB_NAME_CHANGE"		72043491	"Real Monarchs SLC"					""
 "CLUB_SHORT_NAME_CHANGE"	72043491	"Real Monarchs"						""
 "CLUB_6LETTER_NAME_CHANGE"	72043491	"RM-SLC"						""
 "CLUB_3LETTER_NAME_CHANGE"	72043491	"SLC"							""
 
 "AFFILIATED_CLUB_ID"		72043492	"BAC-72000789"						"" # [USA] Toronto
+"CLUB_CITY_CHANGE"		72043492	"4400011"						"" # <Toronto (ON)>
 "CLUB_NAME_CHANGE"		72043492	"Toronto FC II"						""
 "CLUB_SHORT_NAME_CHANGE"	72043492	"Toronto II"						""
 #"CLUB_6LETTER_NAME_CHANGE"	72043492	"Toronto II"						""
 #"CLUB_3LETTER_NAME_CHANGE"	72043492	"TOR.2"							""
 
 "AFFILIATED_CLUB_ID"		72043493	"BAC-4400014"						"" # [USA] Vancouver Whitecaps
+"CLUB_CITY_CHANGE"		72043493	"4400015"						"" # <Vancouver (BC)>
 "CLUB_NAME_CHANGE"		72043493	"Whitecaps FC 2"					""
 "CLUB_SHORT_NAME_CHANGE"	72043493	"Whitecaps 2"						""
 #"CLUB_6LETTER_NAME_CHANGE"	72043493	"Whitecaps 2"						""
 #"CLUB_3LETTER_NAME_CHANGE"	72043493	"WFC.2"							""
 
 "AFFILIATED_CLUB_ID"		72044430	"BAC-72000160"						"" # [USA] New York RB
+"CLUB_CITY_CHANGE"		72044430	"982919"						"" # <Harrison (NJ)>
 "CLUB_NAME_CHANGE"		72044430	"New York Red Bulls II"					""
 "CLUB_SHORT_NAME_CHANGE"	72044430	"New York RB II"					""
 #"CLUB_6LETTER_NAME_CHANGE"	72044430	"RBNY II"						""
 #"CLUB_3LETTER_NAME_CHANGE"	72044430	"NY2"							""
 
 "AFFILIATED_CLUB_ID"		2000015603	"BAC-1909"						"" # [USA] New England
+"CLUB_CITY_CHANGE"		2000015603	"648"							"" # <Foxborough (MA)>
 "CLUB_NAME_CHANGE"		2000015603	"New England Revolution II"				""
 "CLUB_SHORT_NAME_CHANGE"	2000015603	"New England II"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000015603	"NE.2"							""
@@ -11210,6 +11273,7 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000152192	"CLB.2"							""
 
 "AFFILIATED_CLUB_ID"		2000152193	"BAC-1903"						"" # [USA] Colorado Rapids
+"CLUB_CITY_CHANGE"		2000152193	"981290"						"" # <Commerce City (CO)>
 "CLUB_NAME_CHANGE"		2000152193	"Colorado Rapids 2"					""
 "CLUB_SHORT_NAME_CHANGE"	2000152193	"Colorado Rapids 2"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000152193	"Colorado 2"						""
@@ -11230,12 +11294,14 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000152199	"NYC.2"							""
 
 "AFFILIATED_CLUB_ID"		2000152200	"BAC-20030048"						"" # [USA] Minnesota United
+"CLUB_CITY_CHANGE"		2000152200	"981406"						"" # <Saint Paul (MN)>
 "CLUB_NAME_CHANGE"		2000152200	"Minnesota United 2"					""
 "CLUB_SHORT_NAME_CHANGE"	2000152200	"Minnesota 2"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000152200	"Minnesota 2"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2000152200	"MIN.2"							""
 
 "AFFILIATED_CLUB_ID"		2000152201	"BAC-1910"						"" # [USA] San Jose Earthquakes
+"CLUB_CITY_CHANGE"		2000152201	"657"							"" # <San Jose (CA)>
 "CLUB_NAME_CHANGE"		2000152201	"The Town FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000152201	"The Town"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000152201	"The Town"						""
@@ -11256,6 +11322,7 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000152203	"ATX.2"							""
 
 "AFFILIATED_CLUB_ID"		2000152204	"BAC-2000032491"					"" # [USA] Charlotte
+"CLUB_CITY_CHANGE"		2000152204	"677"							"" # <Charlotte (NC)>
 "CLUB_NAME_CHANGE"		2000152204	"Crown Legacy FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000152204	"Crown Legacy"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000152204	"CLFC"							""
@@ -11268,6 +11335,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	2000152205	"LA2"							""
 
 "AFFILIATED_CLUB_ID"		2000152207	"BAC-20041327"						"" # [USA] FC Cincinnati
+"CLUB_CITY_CHANGE"		2000152207	"979908"						"" # <Cincinnati (OH)>
 "CLUB_NAME_CHANGE"		2000152207	"FC Cincinnati 2"					""
 "CLUB_SHORT_NAME_CHANGE"	2000152207	"Cincinnati 2"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000152207	"Cincinnati 2"						""
@@ -11294,11 +11362,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	164040		"SEA.A"							""
 
 "AFFILIATED_CLUB_ID"		72006961	"AKA-1903"						"" # [USA] Colorado Rapids
+"CLUB_CITY_CHANGE"		72006961	"981290"						"" # <Commerce City (CO)>
 "CLUB_NAME_CHANGE"		72006961	"Colorado Rapids Academy"				""
 "CLUB_SHORT_NAME_CHANGE"	72006961	"Rapids Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72006961	"COL.A"							""
 
 "AFFILIATED_CLUB_ID"		72006962	"AKA-1904"						"" # [USA] Columbus Crew
+"CLUB_CITY_CHANGE"		72006962	"652"							"" # <Columbus (OH)>
 "CLUB_NAME_CHANGE"		72006962	"Crew Soccer Academy"					""
 "CLUB_SHORT_NAME_CHANGE"	72006962	"Crew Soccer Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72006962	"CLB.A"							""
@@ -11310,16 +11380,19 @@
 "CLUB_6LETTER_NAME_CHANGE"	72006963	"DAL.J"							""
 
 "AFFILIATED_CLUB_ID"		72006965	"AKA-1907"						"" # [USA] LA Galaxy
+"CLUB_CITY_CHANGE"		72006965	"978161"						"" # <Carson (CA)>
 "CLUB_NAME_CHANGE"		72006965	"LA Galaxy Academy"					""
 "CLUB_SHORT_NAME_CHANGE"	72006965	"LA Galaxy Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72006965	"LA.A"							""
 
 "AFFILIATED_CLUB_ID"		72006966	"AKA-1909"						"" # [USA] New England
+"CLUB_CITY_CHANGE"		72006966	"648"							"" # <Foxborough (MA)>
 "CLUB_NAME_CHANGE"		72006966	"New England Revolution Academy"			""
 "CLUB_SHORT_NAME_CHANGE"	72006966	"New England Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72006966	"NE.A"							""
 
 "AFFILIATED_CLUB_ID"		72006967	"AKA-1913"						"" # [USA] D.C. United
+"CLUB_CITY_CHANGE"		72006967	"686"							"" # <Washington (DC)>
 "CLUB_NAME_CHANGE"		72006967	"DC United Academy"					""
 "CLUB_SHORT_NAME_CHANGE"	72006967	"DC Academy"						""
 "CLUB_6LETTER_NAME_CHANGE"	72006967	"DC.A"							""
@@ -11331,16 +11404,19 @@
 "CLUB_6LETTER_NAME_CHANGE"	72006968	"CHI.A"							""
 
 "AFFILIATED_CLUB_ID"		72006970	"AKA-980543"						"" # [USA] Real Salt Lake
+"CLUB_CITY_CHANGE"		72006970	"979462"						"" # <Salt Lake City (UT)>
 "CLUB_NAME_CHANGE"		72006970	"Real Salt Lake Academy"				""
 "CLUB_SHORT_NAME_CHANGE"	72006970	"RSL Academy"						""
 "CLUB_6LETTER_NAME_CHANGE"	72006970	"RSL.A"							""
 
 "AFFILIATED_CLUB_ID"		72006972	"AKA-72000160"						"" # [USA] New York RB
+"CLUB_CITY_CHANGE"		72006972	"982919"						"" # <Harrison (NJ)>
 "CLUB_NAME_CHANGE"		72006972	"New York RB Academy"					""
 "CLUB_SHORT_NAME_CHANGE"	72006972	"NYRB Academy"						""
 "CLUB_6LETTER_NAME_CHANGE"	72006972	"RBNY.A"						""
 
 "AFFILIATED_CLUB_ID"		72006974	"AKA-1910"						"" # [USA] San Jose Earthquakes
+"CLUB_CITY_CHANGE"		72006974	"657"							"" # <San Jose (CA)>
 "CLUB_NAME_CHANGE"		72006974	"San Jose Earthquakes Academy"				""
 "CLUB_SHORT_NAME_CHANGE"	72006974	"Quakes Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72006974	"SJ.A"							""
@@ -11352,6 +11428,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	72023748	"POR.A"							""
 
 "AFFILIATED_CLUB_ID"		72023772	"AKA-72049313"						"" # [USA] LAFC
+"CLUB_CITY_CHANGE"		72023772	"103114"						"" # <Los Angeles (CA)>
 "CLUB_NAME_CHANGE"		72023772	"LAFC Academy"						""
 "CLUB_SHORT_NAME_CHANGE"	72023772	"LAFC Academy"						""
 "CLUB_6LETTER_NAME_CHANGE"	72023772	"LAFC.A"						""
@@ -11363,16 +11440,19 @@
 "CLUB_6LETTER_NAME_CHANGE"	72023794	"ATL.A"							""
 
 "AFFILIATED_CLUB_ID"		72037354	"AKA-2000152066"					"" # [USA] CF Montréal
+"CLUB_CITY_CHANGE"		72037354	"103112"						"" # <Montreal (QC)>
 "CLUB_NAME_CHANGE"		72037354	"CF Montréal Academy"					""
 "CLUB_SHORT_NAME_CHANGE"	72037354	"CF Montréal Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72037354	"MTL.A"							""
 
 "AFFILIATED_CLUB_ID"		72042356	"AKA-72041885"						"" # [USA] New York City
+"CLUB_CITY_CHANGE"		72042356	"978084"						"" # <New York City (NY)>
 "CLUB_NAME_CHANGE"		72042356	"NYCFC Academy"						""
 "CLUB_SHORT_NAME_CHANGE"	72042356	"NYCFC Academy"						""
 "CLUB_6LETTER_NAME_CHANGE"	72042356	"NYC.A"							""
 
 "AFFILIATED_CLUB_ID"		72047536	"AKA-20030048"						"" # [USA] Minnesota United
+"CLUB_CITY_CHANGE"		72047536	"981406"						"" # <Saint Paul (MN)>
 "CLUB_NAME_CHANGE"		72047536	"Minnesota United FC Academy"				""
 "CLUB_SHORT_NAME_CHANGE"	72047536	"Minnesota Academy"					""
 "CLUB_6LETTER_NAME_CHANGE"	72047536	"MIN.A"							""
@@ -14582,6 +14662,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59020341	"PYU.3"							""
 
 "AFFILIATED_CLUB_ID"		2000229915	"U18-102"						"" # [ARM] Pyunik
+"CLUB_CITY_CHANGE"		2000229915	"1300050"						"" # <Yerevan>
 "CLUB_NAME_CHANGE"		2000229915	"FC Pyunik U18"						""
 "CLUB_SHORT_NAME_CHANGE"	2000229915	"Pyunik U18"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000229915	"PYU.18"						""
@@ -14767,6 +14848,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	16077360	"SVS"							""
 
 "AFFILIATED_CLUB_ID"		16123919	"BAC-158"						"" # [AUT] RB Salzburg
+"CLUB_CITY_CHANGE"		16123919	"1300069"						"" # <Salzburg>
 "CLUB_NAME_CHANGE"		16123919	"FC Liefering GmbH"					""
 "CLUB_SHORT_NAME_CHANGE"	16123919	"FC Liefering"						""
 #"CLUB_6LETTER_NAME_CHANGE"	16123919	"Liefering"						""
@@ -14807,6 +14889,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	137968		"VOI"							""
 
 "AFFILIATED_CLUB_ID"		16116685	"2AC-16034828"						"" # [AUT] RZ Pellets WAC
+"CLUB_CITY_CHANGE"		16116685	"5604259"						"" # <Wolfsberg>
 "CLUB_NAME_CHANGE"		16116685	"RZ Pellets Wolfsberger AC II"				""
 "CLUB_SHORT_NAME_CHANGE"	16116685	"RZ Pellets WAC II"					""
 #"CLUB_6LETTER_NAME_CHANGE"	16116685	"WAC II"						""
@@ -14819,6 +14902,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	16238407	"JWR"							""
 
 "AFFILIATED_CLUB_ID"		2000179934	"BAC-154"						"" # [AUT] LASK
+"CLUB_CITY_CHANGE"		2000179934	"1300070"						"" # <Linz>
 "CLUB_NAME_CHANGE"		2000179934	"LASK Amateure OÖ"					""
 "CLUB_SHORT_NAME_CHANGE"	2000179934	"LASK Amateure OÖ"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000179934	"LASK B"						""
@@ -14828,6 +14912,7 @@
 # CLUB > UEFA > [AUT] AUSTRIA > [5607688] Regionalliga West (23/24)
 #================================================================================
 "AFFILIATED_CLUB_ID"		5609017		"2T-137973"						"" # [AUT] SCR Altach
+"CLUB_CITY_CHANGE"		5609017		"5607098"						"" # <Altach>
 "CLUB_NAME_CHANGE"		5609017		"SCR Altach Juniors"					""
 "CLUB_SHORT_NAME_CHANGE"	5609017		"SCR Altach Juniors"					""
 
@@ -14868,6 +14953,7 @@
 "CLUB_SHORT_NAME_CHANGE" 	16009435 	"AKA St. Pölten NÖ" 					""
 
 "AFFILIATED_CLUB_ID"		16009436	"U18-158"						"" # [AUT] RB Salzburg
+"CLUB_CITY_CHANGE"		16009436	"1300069"						"" # <Salzburg>
 "CLUB_NAME_CHANGE"		16009436	"Red Bull Akademie"					""
 "CLUB_SHORT_NAME_CHANGE"	16009436	"Red Bull Akademie"					""
 "CLUB_6LETTER_NAME_CHANGE"	16009436	"RB-AKA"						""
@@ -14881,16 +14967,19 @@
 "CLUB_SHORT_NAME_CHANGE" 	16009439 	"AKA Burgenland" 					""
 
 "AFFILIATED_CLUB_ID"		16114442	"U18-16034828"						"" # [AUT] RZ Pellets WAC
+"CLUB_CITY_CHANGE"		16114442	"5604259"						"" # <Wolfsberg>
 "CLUB_NAME_CHANGE"		16114442	"Akademie RZ Pellets WAC"				""
 "CLUB_SHORT_NAME_CHANGE"	16114442	"AKA RZ Pellets WAC"					""
 "CLUB_6LETTER_NAME_CHANGE"	16114442	"WAC.A"							""
 
 "AFFILIATED_CLUB_ID"		2000026247	"U18-154"						"" # [AUT] LASK
+"CLUB_CITY_CHANGE"		2000026247	"1300070"						"" # <Linz>
 "CLUB_NAME_CHANGE"		2000026247	"LASK Akademie OÖ"					""
 "CLUB_SHORT_NAME_CHANGE"	2000026247	"LASK Akademie OÖ"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000026247	"LASK.A"						""
 
 "AFFILIATED_CLUB_ID"		2000092401	"U18-16057026"						"" # [AUT] Austria Klagenfurt
+"CLUB_CITY_CHANGE"		2000092401	"136536"						"" # <Klagenfurt am Wörthersee>
 "CLUB_NAME_CHANGE"		2000092401	"Akademie SK Austria Klagenfurt"			""
 "CLUB_SHORT_NAME_CHANGE"	2000092401	"AKA Austria Klagenfurt"				""
 "CLUB_6LETTER_NAME_CHANGE"	2000092401	"SKA.A"							""
@@ -14949,11 +15038,13 @@
 "CLUB_SHORT_NAME_CHANGE"	16018923	"BW Linz Amateure"					""
 
 "AFFILIATED_CLUB_ID"		16114548	"2T-16057026"						"" # [AUT] Austria Klagenfurt
+"CLUB_CITY_CHANGE"		16114548	"136536"						"" # <Klagenfurt am Wörthersee>
 "CLUB_NAME_CHANGE"		16114548	"SK Austria Klagenfurt Amateure"			""
 "CLUB_SHORT_NAME_CHANGE"	16114548	"Austria Klagenfurt AT"					""
 "CLUB_6LETTER_NAME_CHANGE"	16114548	"SKA.2"							""
 
 "AFFILIATED_CLUB_ID"		16324775	"2T-16324690"						"" # [AUT] WSG Tirol
+"CLUB_CITY_CHANGE"		16324775	"136541"						"" # <Wattens>
 "CLUB_NAME_CHANGE"		16324775	"WSG Tirol Amateure"					""
 "CLUB_SHORT_NAME_CHANGE"	16324775	"WSG Tirol Amateure"					""
 "CLUB_6LETTER_NAME_CHANGE"	16324775	"WSG.2"							""
@@ -14986,6 +15077,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	16009438	"GAK.A"							""
 
 "AFFILIATED_CLUB_ID"		16192609	"U18-137973"						"" # [AUT] SCR Altach
+"CLUB_CITY_CHANGE"		16192609	"5607098"						"" # <Altach>
 "CLUB_NAME_CHANGE"		16192609	"SCR Altach U18"					""
 "CLUB_SHORT_NAME_CHANGE"	16192609	"SCR Altach U18"					""
 "CLUB_6LETTER_NAME_CHANGE"	16192609	"ALT.18"						""
@@ -15043,7 +15135,7 @@
 
 # CLUB > UEFA > [AZE] AZERBAIJAN > [59006943] Azərbaycan Premyer Liqasi (23/24)
 #================================================================================
-"CLUB_CITY_CHANGE"		162		"1652228"						"" # <Tovuz (Tovuz)>
+"CLUB_CITY_CHANGE"		162		"1652228"						"" # <Tovuz, Tovuz rayonu>
 "CLUB_NAME_CHANGE"		162		"Turan Tovuz FK"					""
 "CLUB_SHORT_NAME_CHANGE"	162		"Turan Tovuz"						""
 "CLUB_6LETTER_NAME_CHANGE"	162		"Turan"							""
@@ -15058,7 +15150,7 @@
 "CLUB_SHORT_NAME_CHANGE"	127787		"Qarabağ"						""
 "CLUB_3LETTER_NAME_CHANGE"	127787		"QAR"							""
 
-"CLUB_CITY_CHANGE"		59001469	"59006951"						"" # <Qəbələ (Qəbələ)>
+"CLUB_CITY_CHANGE"		59001469	"59006951"						"" # <Qəbələ, Qəbələ rayonu>
 "CLUB_NAME_CHANGE"		59001469	"Qəbələ İK"						""
 "CLUB_SHORT_NAME_CHANGE"	59001469	"Qəbələ"						""
 "CLUB_6LETTER_NAME_CHANGE"	59001469	"Qəbələ"						""
@@ -15108,23 +15200,23 @@
 "CLUB_6LETTER_NAME_CHANGE"	5321693		"Karvan"						""
 "CLUB_3LETTER_NAME_CHANGE"	5321693		"KAR"							""
 
-"CLUB_CITY_CHANGE"		59008336	"59081373"						"" # <Qaradağ (Ağsu)>
+"CLUB_CITY_CHANGE"		59008336	"59081373"						"" # <Qaradağ, Ağsu rayonu>
 "CLUB_NAME_CHANGE"		59008336	"Qaradağ Lökbatan FK"					""
 "CLUB_SHORT_NAME_CHANGE"	59008336	"Qaradağ Lökbatan"					""
 "CLUB_3LETTER_NAME_CHANGE"	59008336	"QRL"							""
 
-"CLUB_CITY_CHANGE"		59114387	"59027564"						"" # <Zaqatala (Zaqatala)>
+"CLUB_CITY_CHANGE"		59114387	"59027564"						"" # <Zaqatala, Zaqatala rayonu>
 "CLUB_NAME_CHANGE"		59114387	"Zaqatala PFK"						""
 "CLUB_SHORT_NAME_CHANGE"	59114387	"Zaqatala"						""
 "CLUB_3LETTER_NAME_CHANGE"	59114387	"ZAQ"							""
 
-"CLUB_CITY_CHANGE"		2000172513	"59079594"						"" # <Şamaxı (Şamaxı)>
+"CLUB_CITY_CHANGE"		2000172513	"59079594"						"" # <Şamaxı, Şamaxı rayonu>
 "CLUB_NAME_CHANGE"		2000172513	"Şamaxı FK"						""
 "CLUB_SHORT_NAME_CHANGE"	2000172513	"Şamaxı"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000172513	"Şamaxı"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000172513	"ŞAM"							""
 
-"CLUB_CITY_CHANGE"		2000193940	"59006960"						"" # <İmişli (İmişli)>
+"CLUB_CITY_CHANGE"		2000193940	"59006960"						"" # <İmişli, İmişli rayonu>
 "CLUB_NAME_CHANGE"		2000193940	"İmişli PFK"						""
 "CLUB_SHORT_NAME_CHANGE"	2000193940	"İmişli"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000193940	"İmişli"						""
@@ -15137,7 +15229,7 @@
 # CLUB > UEFA > [AZE] AZERBAIJAN > [OTHER]
 #================================================================================
 "AFFILIATED_CLUB_ID"		59006986	"2T-162"						"" # [AZE] Turan Tovuz
-"CLUB_CITY_CHANGE"		59006986	"1652228"						"" # <Tovuz (Tovuz)>
+"CLUB_CITY_CHANGE"		59006986	"1652228"						"" # <Tovuz, Tovuz rayonu>
 "CLUB_NAME_CHANGE"		59006986	"Turan-2 Tovuz FK"					""
 "CLUB_SHORT_NAME_CHANGE"	59006986	"Turan-2"						""
 "CLUB_6LETTER_NAME_CHANGE"	59006986	"TUR.2"							""
@@ -15153,7 +15245,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59006974	"QAR.2"							""
 
 "AFFILIATED_CLUB_ID"		2000124016	"2T-59001469"						"" # [AZE] Qəbələ
-"CLUB_CITY_CHANGE"		2000124016	"59006951"						"" # <Qəbələ (Qəbələ)>
+"CLUB_CITY_CHANGE"		2000124016	"59006951"						"" # <Qəbələ, Qəbələ rayonu>
 "CLUB_NAME_CHANGE"		2000124016	"Qəbələ-2 İK"						""
 "CLUB_SHORT_NAME_CHANGE"	2000124016	"Qəbələ-2"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000124016	"QƏB.2"							""
@@ -15185,7 +15277,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59136626	"SAB.2"							""
 
 "AFFILIATED_CLUB_ID"		2000172514	"2T-2000172513"						"" # [AZE] Şamaxı
-"CLUB_CITY_CHANGE"		2000172514	"59079594"						"" # <Şamaxı (Şamaxı)>
+"CLUB_CITY_CHANGE"		2000172514	"59079594"						"" # <Şamaxı, Şamaxı rayonu>
 "CLUB_NAME_CHANGE"		2000172514	"Şamaxı-2 FK"						""
 "CLUB_SHORT_NAME_CHANGE"	2000172514	"Şamaxı-2"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000172514	"ŞAM.2"							""
@@ -15196,7 +15288,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	59008083	"KAR.2"							""
 
 "AFFILIATED_CLUB_ID"		2000229914	"U18-59001469"						"" # [AZE] Qəbələ
-"CLUB_CITY_CHANGE"		2000229914	"59006951"						"" # <Qəbələ (Qəbələ)>
+"CLUB_CITY_CHANGE"		2000229914	"59006951"						"" # <Qəbələ, Qəbələ rayonu>
 "CLUB_NAME_CHANGE"		2000229914	"Qəbələ-3 İK"						""
 "CLUB_SHORT_NAME_CHANGE"	2000229914	"Qəbələ-3"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000229914	"QƏB.3"							""
@@ -15204,12 +15296,12 @@
 
 # CLUB > UEFA > [BLR] BELARUS > [7483354] Belarusian Premier League (2023)
 #================================================================================
-"CLUB_CITY_CHANGE"		303		"1300102"						"" # <Minsk>
+"CLUB_CITY_CHANGE"		303		"1300102"							"" # <Minsk>
 "CLUB_NAME_CHANGE"		303		"FC Dinamo Minsk"					""
 "CLUB_SHORT_NAME_CHANGE"	303		"Dinamo Minsk"						""
 "CLUB_3LETTER_NAME_CHANGE"	303		"DMI"							""
 
-"CLUB_CITY_CHANGE"		307		"1300099"						"" # <Grodno>
+"CLUB_CITY_CHANGE"		307		"1300099"							"" # <Grodno>
 "CLUB_NAME_CHANGE"		307		"FC Neman Grodno"					""
 "CLUB_SHORT_NAME_CHANGE"	307		"Neman Grodno"						""
 "CLUB_6LETTER_NAME_CHANGE"	307		"Neman"							""
@@ -15221,6 +15313,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	130875		"BATE"							""
 #"CLUB_3LETTER_NAME_CHANGE"	130875		"BATE"							""
 
+"CLUB_CITY_CHANGE"		130879		"1300104"						"" # <Mozyr>
 "CLUB_NAME_CHANGE"		130879		"FC Slavia Mazyr"					""
 "CLUB_SHORT_NAME_CHANGE"	130879		"Slavia Mazyr"						""
 "CLUB_3LETTER_NAME_CHANGE"	130879		"SLM"							""
@@ -15267,7 +15360,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5410568		"Gomel"							""
 "CLUB_3LETTER_NAME_CHANGE"	5410568		"GOM"							""
 
-"CLUB_CITY_CHANGE"		7485067		"1300102"						"" # <Minsk>
+"CLUB_CITY_CHANGE"		7485067		"1300101"						"" # <Molodechno>
 "CLUB_NAME_CHANGE"		7485067		"FC Isloch Minsk Raion"					""
 "CLUB_SHORT_NAME_CHANGE"	7485067		"Isloch"						""
 "CLUB_6LETTER_NAME_CHANGE"	7485067		"Isloch"						""
@@ -15358,13 +15451,16 @@
 "CLUB_3LETTER_NAME_CHANGE"	17041311	"DNE"							""
 
 "AFFILIATED_CLUB_ID"		17041359	"BT-1300125"						"" # [BLR] Shakhtyor Soligorsk
+"CLUB_CITY_CHANGE"		17041359	"1300103"						"" # <Soligorsk>
 #"CLUB_NAME_CHANGE"		17041359	"FC Shakhtyor Petrikov"					""
 #"CLUB_SHORT_NAME_CHANGE"	17041359	"Shakhtyor Petrikov"					""
 
+"CLUB_CITY_CHANGE"		2000015950	"rd-uid"						"" # <Ostrovets>
 "CLUB_NAME_CHANGE"		2000015950	"FC Ostrovets"						""
 "CLUB_SHORT_NAME_CHANGE"	2000015950	"Ostrovets"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000015950	"OST"							""
 
+"CLUB_CITY_CHANGE"		2000125448	"rd-uid"						"" # <Dolbizno>
 "CLUB_NAME_CHANGE"		2000125448	"FC Niva Dolbizno"					""
 "CLUB_SHORT_NAME_CHANGE"	2000125448	"Niva Dolbizno"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000125448	"NIV"							""
@@ -15589,6 +15685,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	18008817	"LSK"							""
 
 "AFFILIATED_CLUB_ID"		2000022413	"BAC-186"						"" # [BEL] Club Brugge
+"CLUB_CITY_CHANGE"		2000022413	"6"								"" # <Bruges>
 "CLUB_NAME_CHANGE"		2000022413	"Club NXT"						""
 "CLUB_SHORT_NAME_CHANGE"	2000022413	"Club NXT"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000022413	"Club NXT"						""
@@ -15602,12 +15699,14 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000173149	"GNK.B"							""
 
 "AFFILIATED_CLUB_ID"		2000173150	"BAC-256"						"" # [BEL] Anderlecht
+"CLUB_CITY_CHANGE"		2000173150	"6600041"						"" # <Anderlecht>
 "CLUB_NAME_CHANGE"		2000173150	"RSCA Futures"						""
 "CLUB_SHORT_NAME_CHANGE"	2000173150	"RSCA Futures"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000173150	"RSCA Futures"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2000173150	"AND.B"							""
 
 "AFFILIATED_CLUB_ID"		2000173154	"BAC-250"						"" # [BEL] Standard Liège
+"CLUB_CITY_CHANGE"		2000173154	"11"							"" # <Liège>
 "CLUB_NAME_CHANGE"		2000173154	"SL16 FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000173154	"SL16 FC"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000173154	"SL16"							""
@@ -15686,6 +15785,7 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000181438	"YRA"							""
 
 "AFFILIATED_CLUB_ID"		2000181439	"BAC-168"						"" # [BEL] KAA Gent
+"CLUB_CITY_CHANGE"		2000181439	"5"								"" # <Ghent>
 "CLUB_NAME_CHANGE"		2000181439	"Jong KAA Gent"						""
 "CLUB_SHORT_NAME_CHANGE"	2000181439	"Jong KAA Gent"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000181439	"Jong Gent"						""
@@ -15915,6 +16015,7 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000181441	"YRM"							""
 
 "AFFILIATED_CLUB_ID"		2000181443	"BAC-184"						"" # [BEL] Cercle Brugge
+"CLUB_CITY_CHANGE"		2000181443	"6"								"" # <Bruges>
 "CLUB_NAME_CHANGE"		2000181443	"Jong Cercle Brugge"					""
 "CLUB_SHORT_NAME_CHANGE"	2000181443	"Jong Cercle"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000181443	"Jong Cercle"						""
@@ -15940,6 +16041,7 @@
 #"CLUB_3LETTER_NAME_CHANGE"	2000181451	"BEE.B"							""
 
 "AFFILIATED_CLUB_ID"		2000203979	"BAC-288"						"" # [BEL] Union SG
+"CLUB_CITY_CHANGE"		2000203979	"8158377"						"" # <Forest>
 "CLUB_NAME_CHANGE"		2000203979	"Union Saint-Gilloise B"				""
 "CLUB_SHORT_NAME_CHANGE"	2000203979	"Union SG B"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000203979	"Union SG B"						""
@@ -16057,6 +16159,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	8403750		"Igman"							""
 "CLUB_3LETTER_NAME_CHANGE"	8403750		"IGM"							""
 
+"CLUB_CITY_CHANGE"		21027437	"5747008"						"" # <Bijeljina>
 "CLUB_NAME_CHANGE"		21027437	"FK Zvijezda 09"					""
 "CLUB_SHORT_NAME_CHANGE"	21027437	"Zvijezda 09"						""
 "CLUB_3LETTER_NAME_CHANGE"	21027437	"Z09"							""
@@ -16126,6 +16229,7 @@
 "CLUB_NAME_CHANGE"		2000047197	"BFK Simm-Bau Kosova"					""
 "CLUB_SHORT_NAME_CHANGE"	2000047197	"Simm-Bau"						""
 
+"CLUB_CITY_CHANGE"		2000118431	"143662"						"" # <Tomislavgrad>
 "CLUB_NAME_CHANGE"		2000118431	"HNK Tomislav"						""
 "CLUB_SHORT_NAME_CHANGE"	2000118431	"Tomislav"						""
 
@@ -16136,7 +16240,7 @@
 
 # CLUB > UEFA > [BIH] BOSNIA & HERZEGOVINA > [8407360] Prva liga Republike Srpske (23/24)
 #==============================================================================
-"CLUB_CITY_CHANGE"		5746630		"1300141"						"" # <Sarajevo>
+"CLUB_CITY_CHANGE"		5746630		"62013195"						"" # <Istočno Sarajevo>
 "CLUB_NAME_CHANGE"		5746630		"FK Slavija Sarajevo"					""
 "CLUB_SHORT_NAME_CHANGE"	5746630		"Slavija Sarajevo"					""
 
@@ -16187,6 +16291,30 @@
 "CLUB_CITY_CHANGE"		2000043743	"21020726"						"" # <Kozarska dubica>
 "CLUB_NAME_CHANGE"		2000043743	"FK Borac Kozarska Dubica"				""
 "CLUB_SHORT_NAME_CHANGE"	2000043743	"Borac Kozarska Dubica"					""
+
+"CLUB_CITY_CHANGE"		5755204		"5755206"						"" # <Prnjavor>
+"CLUB_NAME_CHANGE"		5755204		"FK Ljubić Prnjavor"					""
+"CLUB_SHORT_NAME_CHANGE"	5755204		"Ljubić"							""
+
+"CLUB_CITY_CHANGE"		5756204		"5756206"						"" # <Modriča>
+"CLUB_NAME_CHANGE"		5756204		"FK Modriča"						""
+"CLUB_SHORT_NAME_CHANGE"	5756204		"Modriča"							""
+
+"CLUB_CITY_CHANGE"		5756207		"5756209"						"" # <Gradiška>
+"CLUB_NAME_CHANGE"		5756207		"FK Kozara Gradiška"					""
+"CLUB_SHORT_NAME_CHANGE"	5756207		"Kozara"							""
+
+"CLUB_CITY_CHANGE"		5787030		"95010325"						"" # <Laktaši>
+"CLUB_NAME_CHANGE"		5787030		"FK Laktaši"						""
+"CLUB_SHORT_NAME_CHANGE"	5787030		"Laktaši"							""
+
+"CLUB_CITY_CHANGE"		5787881		"2000316746"					"" # <Pale>
+"CLUB_NAME_CHANGE"		5787881		"FK Romanija Pale"					""
+"CLUB_SHORT_NAME_CHANGE"	5787881		"Romanija"							""
+
+"CLUB_CITY_CHANGE"		21031367	"1300137"						"" # <Banja Luka>
+"CLUB_NAME_CHANGE"		21031367	"FK Željezničar Banja Luka"				""
+"CLUB_SHORT_NAME_CHANGE"	21031367	"Zeljezničar BL"						""
 
 
 # CLUB > UEFA > [BIH] BOSNIA & HERZEGOVINA > [OTHER]
@@ -16353,6 +16481,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	22040114	"DUN"							""
 
 "AFFILIATED_CLUB_ID"		22066452	"2T-22003969"						"" # [BUL] Ludogorets
+"CLUB_CITY_CHANGE"		22066452	"7500244"						"" # <Razgrad>
 "CLUB_NAME_CHANGE"		22066452	"PFK Ludogorets 1945 Razgrad II"			""
 "CLUB_SHORT_NAME_CHANGE"	22066452	"Ludogorets II"						""
 "CLUB_6LETTER_NAME_CHANGE"	22066452	"LUD.2"							""
@@ -16383,7 +16512,7 @@
 "CLUB_NAME_CHANGE"		7508658		"FK Sozopol"						""
 "CLUB_SHORT_NAME_CHANGE"	7508658		"Sozopol"						""
 
-"CLUB_CITY_CHANGE"		7508865		"22076786"						"" # <Bistritsa, obl. Sofia>
+"CLUB_CITY_CHANGE"		7508865		"22076786"						"" # <Bistritsa, Sofia oblast>
 "CLUB_NAME_CHANGE"		7508865		"FK Vitosha Bistritsa"					""
 "CLUB_SHORT_NAME_CHANGE"	7508865		"Vitosha Bistritsa"					""
 
@@ -16436,6 +16565,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	22087083	"ARD.2"							""
 
 "AFFILIATED_CLUB_ID"		2000018226	"3T-22003969"						"" # [BUL] Ludogorets
+"CLUB_CITY_CHANGE"		2000018226	"7500244"						"" # <Razgrad>
 "CLUB_NAME_CHANGE"		2000018226	"PFK Ludogorets 1945 Razgrad III"			""
 "CLUB_SHORT_NAME_CHANGE"	2000018226	"Ludogorets III"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000018226	"LUD.3"							""
@@ -16979,11 +17109,12 @@
 
 # CLUB > UEFA > [CZE] CZECHIA > [131288] Chance Národní Liga (23/24)
 #==============================================================================
-"CLUB_CITY_CHANGE"		465		"1300282"						"" # <Brno>
+"CLUB_CITY_CHANGE"		465		"1300282"							"" # <Brno>
 "CLUB_NAME_CHANGE"		465		"FC Zbrojovka Brno"					""
 "CLUB_SHORT_NAME_CHANGE"	465		"Zbrojovka Brno"					""
 "CLUB_3LETTER_NAME_CHANGE"	465		"ZBR"							""
 
+"CLUB_CITY_CHANGE"		478		"1300275"							"" # <Prague>
 "CLUB_NAME_CHANGE"		478		"FK Viktoria Žižkov"					""
 "CLUB_SHORT_NAME_CHANGE"	478		"Viktoria Žižkov"					""
 "CLUB_6LETTER_NAME_CHANGE"	478		"Žižkov"						""
@@ -17011,6 +17142,7 @@
 "CLUB_3LETTER_NAME_CHANGE"	136158		"PRO"							""
 
 "AFFILIATED_CLUB_ID"		136174		"BT-476"						"" # [CZE] Sparta Praha
+"CLUB_CITY_CHANGE"		136174		"1300275"						"" # <Prague>
 "CLUB_NAME_CHANGE"		136174		"AC Sparta Praha B"					""
 "CLUB_SHORT_NAME_CHANGE"	136174		"Sparta Praha B"					""
 "CLUB_6LETTER_NAME_CHANGE"	136174		"ACS.B"							""
@@ -17031,6 +17163,7 @@
 "CLUB_SHORT_NAME_CHANGE"	136208		"Varnsdorf"						""
 "CLUB_3LETTER_NAME_CHANGE"	136208		"VDF"							""
 
+"CLUB_CITY_CHANGE"		136237		"136131"						"" # <Tábor>
 "CLUB_NAME_CHANGE"		136237		"FC SILON Táborsko"					""
 "CLUB_SHORT_NAME_CHANGE"	136237		"Táborsko"						""
 "CLUB_3LETTER_NAME_CHANGE"	136237		"TAB"							""
@@ -17052,6 +17185,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5645563		"Vyškov"						""
 "CLUB_3LETTER_NAME_CHANGE"	5645563		"VKV"							""
 
+"CLUB_CITY_CHANGE"		5652987		"1300282"						"" # <Brno>
 "CLUB_NAME_CHANGE"		5652987		"SK Líšeň 2019"						""
 "CLUB_SHORT_NAME_CHANGE"	5652987		"Líšeň"							""
 "CLUB_6LETTER_NAME_CHANGE"	5652987		"Líšeň"							""
@@ -17067,6 +17201,7 @@
 # CLUB > UEFA > [CZE] CZECHIA > [136041] CFL A (23/24)
 #==============================================================================
 "AFFILIATED_CLUB_ID"		136207		"BT-474"						"" # [CZE] Slavia Praha
+"CLUB_CITY_CHANGE"		136207		"1300275"						"" # <Prague>
 "CLUB_NAME_CHANGE"		136207		"SK Slavia Praha B"					""
 "CLUB_SHORT_NAME_CHANGE"	136207		"Slavia Praha B"					""
 "CLUB_6LETTER_NAME_CHANGE"	136207		"SKS.B"							""
@@ -17089,6 +17224,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5645825		"PLZ.B"							""
 
 "AFFILIATED_CLUB_ID"		25001301	"BT-463"						"" # [CZE] Bohemians
+"CLUB_CITY_CHANGE"		25001301	"1300275"						"" # <Prague>
 "CLUB_NAME_CHANGE"		25001301	"Bohemians Praha 1905 B"				""
 "CLUB_SHORT_NAME_CHANGE"	25001301	"Bohemians 1905 B"					""
 "CLUB_6LETTER_NAME_CHANGE"	25001301	"BOH.B"							""
@@ -17130,6 +17266,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	136265		"LIB.B"							""
 
 "AFFILIATED_CLUB_ID"		5645561		"BT-468"						"" # [CZE] Jablonec
+"CLUB_CITY_CHANGE"		5645561		"1300280"						"" # <Jablonec nad Nisou>
 "CLUB_NAME_CHANGE"		5645561		"FK Jablonec B"						""
 "CLUB_SHORT_NAME_CHANGE"	5645561		"Jablonec B"						""
 "CLUB_6LETTER_NAME_CHANGE"	5645561		"FKJ.B"							""
@@ -17158,6 +17295,7 @@
 "CLUB_SHORT_NAME_CHANGE"	136181		"Frýdek-Místek"						""
 
 "AFFILIATED_CLUB_ID"		136190		"BT-131289"						"" # [CZE] Slovácko
+"CLUB_CITY_CHANGE"		136190		"1300287"						"" # <Uherské Hradiště>
 "CLUB_NAME_CHANGE"		136190		"1. FC Slovácko B"					""
 "CLUB_SHORT_NAME_CHANGE"	136190		"Slovácko B"						""
 "CLUB_6LETTER_NAME_CHANGE"	136190		"FCS.B"							""
@@ -19455,6 +19593,7 @@
 #"CLUB_3LETTER_NAME_CHANGE"	514129		"JÄPS"							""
 
 "AFFILIATED_CLUB_ID"		33064668	"RES-33007394"						"" # [FIN] SJK Seinäjoki
+"CLUB_CITY_CHANGE"		33064668	"129164"						"" # <Seinäjoki>
 "CLUB_NAME_CHANGE"		33064668	"SJK Akatemia"						""
 "CLUB_SHORT_NAME_CHANGE"	33064668	"SJK Akatemia"						""
 "CLUB_6LETTER_NAME_CHANGE"	33064668	"SJK.A"							""
@@ -19539,6 +19678,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	33080416	"TPS.23"						""
 
 "AFFILIATED_CLUB_ID"		33084514	"U18-33007394"						"" # [FIN] SJK Seinäjoki
+"CLUB_CITY_CHANGE"		33084514	"129164"						"" # <Seinäjoki>
 "CLUB_NAME_CHANGE"		33084514	"SJK Juniorit"						""
 "CLUB_SHORT_NAME_CHANGE"	33084514	"SJK Juniorit"						""
 "CLUB_6LETTER_NAME_CHANGE"	33084514	"SJK.18"						""
@@ -20324,6 +20464,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038840	"OM.2"							""
 
 "AFFILIATED_CLUB_ID"		48038841	"2T-826"						"" # [FRA] Monaco
+"CLUB_CITY_CHANGE"		48038841	"166"							"" # <Monaco>
 "CLUB_NAME_CHANGE"		48038841	"AS Monaco 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038841	"Monaco 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038841	"MON.2"							""
@@ -20359,6 +20500,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038849	"SDR.2"							""
 
 "AFFILIATED_CLUB_ID"		48038850	"2T-884"						"" # [FRA] Rennes
+"CLUB_CITY_CHANGE"		48038850	"306"							"" # <Rennes>
 "CLUB_NAME_CHANGE"		48038850	"Stade Rennais FC 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038850	"Rennes 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038850	"SRFC.2"						""
@@ -20388,6 +20530,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038858	"SB29.2"						""
 
 "AFFILIATED_CLUB_ID"		48038860	"2T-1992"						"" # [FRA] Clermont
+"CLUB_CITY_CHANGE"		48038860	"195"							"" # <Clermont-Ferrand>
 "CLUB_NAME_CHANGE"		48038860	"Clermont Foot 63 2"					""
 "CLUB_SHORT_NAME_CHANGE"	48038860	"Clermont 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038860	"CF63.2"						""
@@ -20405,6 +20548,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038864	"LAV.2"							""
 
 "AFFILIATED_CLUB_ID"		48038865	"2T-856"						"" # [FRA] Havre
+"CLUB_CITY_CHANGE"		48038865	"242"							"" # <Le Havre>
 "CLUB_NAME_CHANGE"		48038865	"Havre AC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038865	"Havre 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038865	"HAC.2"							""
@@ -20440,6 +20584,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	48038871	"PFC.2"							""
 
 "AFFILIATED_CLUB_ID"		48038872	"2T-873"						"" # [FRA] Red Star
+"CLUB_CITY_CHANGE"		48038872	"281"							"" # <Saint-Ouen-sur-Seine>
 "CLUB_NAME_CHANGE"		48038872	"Red Star FC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	48038872	"Red Star 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	48038872	"RED.2"							""
@@ -20557,11 +20702,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	49059299	"QRM.2"							""
 
 "AFFILIATED_CLUB_ID"		49059301	"2T-2090"						"" # [FRA] Pau FC
+"CLUB_CITY_CHANGE"		49059301	"271"							"" # <Pau>
 "CLUB_NAME_CHANGE"		49059301	"Pau FC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	49059301	"Pau FC 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	49059301	"PAU.2"							""
 
 "AFFILIATED_CLUB_ID"		49059306	"2T-2085"						"" # [FRA] Villefranche
+"CLUB_CITY_CHANGE"		49059306	"332"							"" # <Villefranche-sur-Saône>
 "CLUB_NAME_CHANGE"		49059306	"FC Villefranche Beaujolais 2"				""
 "CLUB_SHORT_NAME_CHANGE"	49059306	"Villefranche 2"					""
 "CLUB_6LETTER_NAME_CHANGE"	49059306	"FCVB.2"						""
@@ -20745,6 +20892,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000004020	"ASFA.2"						""
 
 "AFFILIATED_CLUB_ID"		2000021035	"2T-2000020418"						"" # [FRA] GOAL FC
+"CLUB_CITY_CHANGE"		2000021035	"34016451"						"" # <Chasselay>
 "CLUB_NAME_CHANGE"		2000021035	"GOAL FC 2"						""
 "CLUB_SHORT_NAME_CHANGE"	2000021035	"GOAL 2"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000021035	"GOAL.2"						""
@@ -22613,6 +22761,7 @@
 "CLUB_SHORT_NAME_CHANGE"	687626		"Kabaniakos"						""
 
 "AFFILIATED_CLUB_ID"		2000110737	"BT-982"						"" # [GRE] PAOK
+"CLUB_CITY_CHANGE"		2000110737	"1300542"						"" # <Salonika>
 "CLUB_NAME_CHANGE"		2000110737 	"PAOK FC B"						""
 "CLUB_SHORT_NAME_CHANGE"	2000110737	"PAOK B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000110737	"PAOK.B"						""
@@ -22665,11 +22814,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	36043527	"Chania"						""
 
 "AFFILIATED_CLUB_ID"		2000110733	"BT-981"						"" # [GRE] Olympiacos
+"CLUB_CITY_CHANGE"		2000110733	"1300537"						"" # <Piraeus>
 "CLUB_NAME_CHANGE"		2000110733 	"Olympiacos FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	2000110733	"Olympiacos B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000110733	"OLY.B"							""
 
 "AFFILIATED_CLUB_ID"		2000110750	"BT-983"						"" # [GRE] Panathinaikos
+"CLUB_CITY_CHANGE"		2000110750	"1300538"						"" # <Athens>
 "CLUB_NAME_CHANGE"		2000110750 	"Panathinaikos FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	2000110750	"Panathinaikos B"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000110750	"PAO.B"							""
@@ -22876,6 +23027,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	38006332	"MTK.2"							""
 
 "AFFILIATED_CLUB_ID"		38006336	"2T-1068"						"" # [HUN] Zalaegerszeg
+"CLUB_CITY_CHANGE"		38006336	"1300571"						"" # <Zalaegerszeg>
 "CLUB_NAME_CHANGE"		38006336	"ZTE FC II"						""
 "CLUB_SHORT_NAME_CHANGE"	38006336	"ZTE II"						""
 "CLUB_6LETTER_NAME_CHANGE"	38006336	"ZTE.2"							""
@@ -22887,6 +23039,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	38007419	"ETO.2"							""
 
 "AFFILIATED_CLUB_ID"		38013511	"2T-38042162"						"" # [HUN] Kecskemét
+"CLUB_CITY_CHANGE"		38013511	"7520306"						"" # <Kecskemét>
 "CLUB_NAME_CHANGE"		38013511	"Kecskeméti TE II"					""
 "CLUB_SHORT_NAME_CHANGE"	38013511	"Kecskeméti TE II"					""
 "CLUB_6LETTER_NAME_CHANGE"	38013511	"KTE.2"							""
@@ -22929,6 +23082,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	38013526	"PAKS.2"						""
 
 "AFFILIATED_CLUB_ID"		38015174	"2T-1055"						"" # [HUN] Ferencváros
+"CLUB_CITY_CHANGE"		38015174	"1300576"						"" # <Budapest>
 "CLUB_NAME_CHANGE"		38015174	"Ferencvárosi TC II"					""
 "CLUB_SHORT_NAME_CHANGE"	38015174	"Ferencvárosi TC II"					""
 "CLUB_6LETTER_NAME_CHANGE"	38015174	"FTC.2"							""
@@ -22951,6 +23105,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	38042182	"GYIR.2"						""
 
 "AFFILIATED_CLUB_ID"		38060033	"BT-7521266"						"" # [HUN] Kazincbarcika
+"CLUB_CITY_CHANGE"		38060033	"7520321"						"" # <Kazincbarcika>
 #"CLUB_NAME_CHANGE"		38060033	"Bánhorváti-KBSC"					""
 #"CLUB_SHORT_NAME_CHANGE"	38060033	"Bánhorváti"						""
 
@@ -23112,6 +23267,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000173483	"ÞÓR.19"						""
 
 "AFFILIATED_CLUB_ID"		2000173613	"U19-1101637"						"" # [ISL] Víkingur R.
+"CLUB_CITY_CHANGE"		2000173613	"1300628"						"" # <Reykjavík>
 "CLUB_NAME_CHANGE"		2000173613	"Víkingur U19"						""
 "CLUB_SHORT_NAME_CHANGE"	2000173613	"Víkingur U19"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000173613	"VIK.19"						""
@@ -23355,6 +23511,7 @@
 # CLUB > UEFA > [IRL] IRELAND > [OTHER]
 #==============================================================================
 "AFFILIATED_CLUB_ID"		52039130	"BT-1300920"						"" # [IRL] UCD
+"CLUB_CITY_CHANGE"		52039130	"1300899"						"" # <Dublin>
 "CLUB_NAME_CHANGE"		52039130	"UCD-LSL"						""
 "CLUB_SHORT_NAME_CHANGE"	52039130	"UCD-LSL"						""
 "CLUB_6LETTER_NAME_CHANGE"	52039130	"U-LSL"							""
@@ -25243,8 +25400,8 @@
 "CLUB_SHORT_NAME_CHANGE"	85066352	"Jeunesse Canach"					""
 
 
-# CLUB > UEFA > [MLT] MALTA > [2300050] Maltese Premier League
-#================================================================================
+# CLUB > UEFA > [MLT] MALTA > [2300050] Maltese Premier League (23/24)
+#===============================================================================
 "CLUB_CITY_CHANGE"		1240		"1300775"						"" # <Birkirkara>
 "CLUB_NAME_CHANGE"		1240		"Birkirkara FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1240		"Birkirkara"						""
@@ -25253,16 +25410,17 @@
 "CLUB_NAME_CHANGE"		1241		"Floriana FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1241		"Floriana"						""
 
+"CLUB_CITY_CHANGE"		1242		"1300777"						"" # <Hamrun>
+"CLUB_NAME_CHANGE"		1242		"Ħamrun Spartans FC"					""
+"CLUB_SHORT_NAME_CHANGE"	1242		"Ħamrun Spartans"					""
+
+"CLUB_CITY_CHANGE"		1243		"1300783"						"" # <Paola>
 "CLUB_NAME_CHANGE"		1243		"Hibernians FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1243		"Hibernians"						""
 
 "CLUB_CITY_CHANGE"		1244		"1300774"						"" # <Naxxar>
 "CLUB_NAME_CHANGE"		1244		"Naxxar Lions FC"					""
 "CLUB_SHORT_NAME_CHANGE"	1244		"Naxxar Lions"						""
-
-"CLUB_CITY_CHANGE"		1245		"1300778"						"" # <Pieta>
-"CLUB_NAME_CHANGE"		1245		"Pietà Hotspurs FC"					""
-"CLUB_SHORT_NAME_CHANGE"	1245		"Pietà Hotspurs"					""
 
 "CLUB_CITY_CHANGE"		1247		"1300780"						"" # <Sliema>
 "CLUB_NAME_CHANGE"		1247		"Sliema Wanderers FC"					""
@@ -25280,6 +25438,33 @@
 "CLUB_NAME_CHANGE"		138199		"Balzan Youths FC"					""
 "CLUB_SHORT_NAME_CHANGE"	138199		"Balzan Youths"						""
 
+"CLUB_CITY_CHANGE"		138209		"1300785"						"" # <Marsaxlokk>
+"CLUB_NAME_CHANGE"		138209		"Marsaxlokk FC"						""
+"CLUB_SHORT_NAME_CHANGE"	138209		"Marsaxlokk"						""
+
+"CLUB_CITY_CHANGE"		2302698		"1300782"						"" # <Gzira>
+"CLUB_NAME_CHANGE"		2302698		"Gżira United FC"					""
+"CLUB_SHORT_NAME_CHANGE"	2302698		"Gżira Utd"						""
+
+"CLUB_CITY_CHANGE"		47020810	"47020812"						"" # <Gudja>
+"CLUB_NAME_CHANGE"		47020810	"Gudja United FC"					""
+"CLUB_SHORT_NAME_CHANGE"	47020810	"Gudja Utd"						""
+
+"CLUB_CITY_CHANGE"		47041726	"1300787"						"" # <St. Paul's Bay>
+"CLUB_NAME_CHANGE"		47041726	"Sirens FC"						""
+"CLUB_SHORT_NAME_CHANGE"	47041726	"Sirens"							""
+
+"CLUB_CITY_CHANGE"		47041728	"47041730"						"" # <Santa Lucija>
+"CLUB_NAME_CHANGE"		47041728	"Santa Luċija FC"					""
+"CLUB_SHORT_NAME_CHANGE"	47041728	"Sta Luċija"						""
+
+
+# CLUB > UEFA > [MLT] MALTA > [OTHER]
+#===============================================================================
+"CLUB_CITY_CHANGE"		1245		"1300778"						"" # <Pieta>
+"CLUB_NAME_CHANGE"		1245		"Pietà Hotspurs FC"					""
+"CLUB_SHORT_NAME_CHANGE"	1245		"Pietà Hotspurs"					""
+
 "CLUB_CITY_CHANGE"		138204		"2300007"						"" # <Qormi>
 "CLUB_NAME_CHANGE"		138204		"Qormi FC"						""
 "CLUB_SHORT_NAME_CHANGE"	138204		"Qormi"							""
@@ -25292,21 +25477,47 @@
 "CLUB_NAME_CHANGE"		47038754	"Żebbuġ Rangers FC"					""
 "CLUB_SHORT_NAME_CHANGE"	47038754	"Żebbuġ Rangers"					""
 
-
-# CLUB > UEFA > [MDA] MOLDOVA > [59007607] Moldovan Super Liga
-#================================================================================
+# CLUB > UEFA > [MDA] MOLDOVA > [59007607] Moldovan Super Liga (23/24)
+#===============================================================================
 "CLUB_CITY_CHANGE"		1268		"1300797"						"" # <Chişinău>
 "CLUB_NAME_CHANGE"		1268		"FC Zimbru Chișinău"					""
 "CLUB_SHORT_NAME_CHANGE"	1268		"Zimbru Chișinău"					""
-
-"CLUB_CITY_CHANGE"		138212		"1300797"						"" # <Chişinău>
-"CLUB_NAME_CHANGE"		138212		"FC Dacia Chișinău"					""
-"CLUB_SHORT_NAME_CHANGE"	138212		"Dacia Chișinău"					""
 
 "CLUB_CITY_CHANGE"		478105		"1300799"						"" # <Tiraspol>
 "CLUB_NAME_CHANGE"		478105		"FC Sheriff Tiraspol"					""
 "CLUB_SHORT_NAME_CHANGE"	478105		"Sheriff Tiraspol"					""
 "CLUB_3LETTER_NAME_CHANGE"	478105		"SHE"							""
+
+"CLUB_CITY_CHANGE"		57114034	"1300797"						"" # <Chişinău>
+"CLUB_NAME_CHANGE"		57114034	"CS Dacia-Buiucani"					""
+"CLUB_SHORT_NAME_CHANGE"	57114034	"Dacia-Buiucani"					""
+
+"CLUB_CITY_CHANGE"		57117818	"59008612"						"" # <Hînceşti>
+"CLUB_NAME_CHANGE"		57117818	"FC Petrocub Hîncești"					""
+"CLUB_SHORT_NAME_CHANGE"	57117818	"Petrocub Hîncești"				""
+
+"CLUB_CITY_CHANGE"		59007641	"59007649"						"" # <Orhei>
+"CLUB_NAME_CHANGE"		59007641	"FC Milsami Orhei"					""
+"CLUB_SHORT_NAME_CHANGE"	59007641	"Milsami Orhei"						""
+
+"CLUB_CITY_CHANGE"		59007803	"59008611"						"" # <Floreşti (MDA)>
+"CLUB_NAME_CHANGE"		59007803	"FC Florești"						""
+"CLUB_SHORT_NAME_CHANGE"	59007803	"Florești"						""
+
+"CLUB_CITY_CHANGE"		96502157	"56039001"						"" # <Selemet>
+"CLUB_NAME_CHANGE"		96502157	"CSF Spartanii Selemet"				""
+"CLUB_SHORT_NAME_CHANGE"	96502157	"Spartanii Selemet"				""
+
+"CLUB_CITY_CHANGE"		2000015940	"1300791"						"" # <Bălţi>
+"CLUB_NAME_CHANGE"		2000015940	"CSF Bălți"						""
+"CLUB_SHORT_NAME_CHANGE"	2000015940	"Bălți"							""
+
+
+# CLUB > UEFA > [MDA] MOLDOVA > [OTHER]
+#===============================================================================
+"CLUB_CITY_CHANGE"		138212		"1300797"						"" # <Chişinău>
+"CLUB_NAME_CHANGE"		138212		"FC Dacia Chișinău"					""
+"CLUB_SHORT_NAME_CHANGE"	138212		"Dacia Chișinău"					""
 
 "CLUB_CITY_CHANGE"		8050399		"1300799"						"" # <Tiraspol>
 "CLUB_NAME_CHANGE"		8050399		"FC Tiraspol"						""
@@ -25319,10 +25530,6 @@
 "CLUB_CITY_CHANGE"		59007639	"1300797"						"" # <Chişinău>
 "CLUB_NAME_CHANGE"		59007639	"FC Academia Chișinău"					""
 "CLUB_SHORT_NAME_CHANGE"	59007639	"Academia Chișinău"					""
-
-"CLUB_CITY_CHANGE"		59007641	"59007649"						"" # <Orhei>
-"CLUB_NAME_CHANGE"		59007641	"FC Milsami Orhei"					""
-"CLUB_SHORT_NAME_CHANGE"	59007641	"Milsami Orhei"						""
 
 "CLUB_CITY_CHANGE"		96500539	"96500538"						"" # <Costuleni>
 "CLUB_NAME_CHANGE"		96500539	"FC Costuleni"						""
@@ -26289,11 +26496,13 @@
 "CLUB_3LETTER_NAME_CHANGE"	1047		"WIL"							""
 
 "AFFILIATED_CLUB_ID"		856118		"BT-992"						"" # [NED] AFC Ajax
+"CLUB_CITY_CHANGE"		856118		"715"							"" # <Amsterdam>
 "CLUB_NAME_CHANGE"		856118		"Jong AFC Ajax"						""
 "CLUB_SHORT_NAME_CHANGE"	856118		"Jong Ajax"						""
 "CLUB_6LETTER_NAME_CHANGE"	856118		"AJX.B"							""
 
 "AFFILIATED_CLUB_ID"		37044806	"BT-1028"						"" # [NED] PSV
+"CLUB_CITY_CHANGE"		37044806	"726"							"" # <Eindhoven>
 "CLUB_NAME_CHANGE"		37044806	"Jong PSV"						""
 "CLUB_SHORT_NAME_CHANGE"	37044806	"Jong PSV"						""
 "CLUB_6LETTER_NAME_CHANGE"	37044806	"PSV.B"							""
@@ -26305,6 +26514,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	37060575	"UTR.B"							""
 
 "AFFILIATED_CLUB_ID"		37060576	"BT-991"						"" # [NED] AZ Alkmaar
+"CLUB_CITY_CHANGE"		37060576	"716"							"" # <Alkmaar>
 "CLUB_NAME_CHANGE"		37060576	"Jong AZ"						""
 "CLUB_SHORT_NAME_CHANGE"	37060576	"Jong AZ"						""
 "CLUB_6LETTER_NAME_CHANGE"	37060576	"AZ.B"							""
@@ -26319,6 +26529,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	862783		"ALM.B"							""
 
 "AFFILIATED_CLUB_ID"		37044805	"BT-1009"						"" # [NED] Twente
+"CLUB_CITY_CHANGE"		37044805	"789"							"" # <Enschede>
 "CLUB_NAME_CHANGE"		37044805	"Jong FC Twente"					""
 "CLUB_SHORT_NAME_CHANGE"	37044805	"Jong Twente"						""
 "CLUB_6LETTER_NAME_CHANGE"	37044805	"TWE.B"							""
@@ -26330,11 +26541,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	37053249	"DBO.B"							""
 
 "AFFILIATED_CLUB_ID"		37060571	"BT-1011"						"" # [NED] Volendam
+"CLUB_CITY_CHANGE"		37060571	"37081954"						"" # <Volendam>
 "CLUB_NAME_CHANGE"		37060571	"Jong FC Volendam"					""
 "CLUB_SHORT_NAME_CHANGE"	37060571	"Jong Volendam"						""
 "CLUB_6LETTER_NAME_CHANGE"	37060571	"VOL.B"							""
 
 "AFFILIATED_CLUB_ID"		37060574	"BT-1046"						"" # [NED] Vitesse
+"CLUB_CITY_CHANGE"		37060574	"811"							"" # <Arnhem>
 "CLUB_NAME_CHANGE"		37060574	"Jong Vitesse"						""
 "CLUB_SHORT_NAME_CHANGE"	37060574	"Jong Vitesse"						""
 "CLUB_6LETTER_NAME_CHANGE"	37060574	"VIT.B"							""
@@ -26357,11 +26570,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	37061017	"GRA.B"							""
 
 "AFFILIATED_CLUB_ID"		37067141	"BT-1013"						"" # [NED] Feyenoord
+"CLUB_CITY_CHANGE"		37067141	"742"							"" # <Rotterdam>
 "CLUB_NAME_CHANGE"		37067141	"Jong Feyenoord"					""
 "CLUB_SHORT_NAME_CHANGE"	37067141	"Jong Feyenoord"					""
 "CLUB_6LETTER_NAME_CHANGE"	37067141	"FEY.B"							""
 
 "AFFILIATED_CLUB_ID"		37067143	"BT-1036"						"" # [NED] Heerenveen
+"CLUB_CITY_CHANGE"		37067143	"791"							"" # <Heerenveen>
 "CLUB_NAME_CHANGE"		37067143	"Jong SC Heerenveen"					""
 "CLUB_SHORT_NAME_CHANGE"	37067143	"Jong Heerenveen"					""
 "CLUB_6LETTER_NAME_CHANGE"	37067143	"HEE.B"							""
@@ -28009,18 +28224,21 @@
 "CLUB_SHORT_NAME_CHANGE"	84107162	"Moncarapachense"					""
 
 "AFFILIATED_CLUB_ID"		7000097		"BAC-1476"						"" # [POR] Marítimo
+"CLUB_CITY_CHANGE"		7000097		"823"							"" # <Funchal>
 "CLUB_NAME_CHANGE"		7000097		"CS Marítimo B"						""
 "CLUB_SHORT_NAME_CHANGE"	7000097		"Marítimo B"						""
 #"CLUB_6LETTER_NAME_CHANGE"	7000097		"Marítimo B"						""
 #"CLUB_3LETTER_NAME_CHANGE"	7000097		"MRT.B"							""
 
 "AFFILIATED_CLUB_ID"		55056925	"BAC-1494"						"" # [POR] Vitória SC
+"CLUB_CITY_CHANGE"		55056925	"820"							"" # <Guimarães>
 "CLUB_NAME_CHANGE"		55056925	"Vitória SC B"						""
 "CLUB_SHORT_NAME_CHANGE"	55056925	"Vitória SC B"						""
 #"CLUB_6LETTER_NAME_CHANGE"	55056925	"Vitória SC B"						""
 #"CLUB_6LETTER_NAME_CHANGE"	55056925	"VSC.B"							""
 
 "AFFILIATED_CLUB_ID"		2000048916	"BAC-2438"						"" # [POR] Portimonense
+"CLUB_CITY_CHANGE"		2000048916	"891"							"" # <Portimão>
 "CLUB_NAME_CHANGE"		2000048916	"Portimonense SC B"					""
 "CLUB_SHORT_NAME_CHANGE"	2000048916	"Portimonense B"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000048916	"PTM.B"							""
@@ -28607,6 +28825,7 @@
 "CLUB_SHORT_NAME_CHANGE"	477455		"Spartak Kostroma"					""
 
 "AFFILIATED_CLUB_ID"		58052123	"BAC-58029064"						"" # [RUS] Krasnodar
+"CLUB_CITY_CHANGE"		58052123	"130448"						"" # <Krasnodar>
 "CLUB_NAME_CHANGE"		58052123	"FC Krasnodar-2"					""
 "CLUB_SHORT_NAME_CHANGE"	58052123	"Krasnodar-2"						""
 #"CLUB_6LETTER_NAME_CHANGE"	58052123	"Krasnodar-2"						""
@@ -28647,6 +28866,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	479504		"DIN.2"							""
 
 "AFFILIATED_CLUB_ID"		495359		"BAC-1301108"						"" # [RUS] Zenit St. Petersburg
+"CLUB_CITY_CHANGE"		495359		"1301076"						"" # <Saint Petersburg>
 "CLUB_NAME_CHANGE"		495359		"FC Zenit-2 St. Petersburg"				""
 "CLUB_SHORT_NAME_CHANGE"	495359		"Zenit-2"						""
 #"CLUB_6LETTER_NAME_CHANGE"	495359		"Zenit-2"						""
@@ -28662,6 +28882,7 @@
 # CLUB > UEFA > [RUS] RUSSIA > [OTHER]
 #==============================================================================
 "AFFILIATED_CLUB_ID"		58002983	"BAC-1301104"						"" # [RUS] Rostov
+"CLUB_CITY_CHANGE"		58002983	"1301074"						"" # <Rostov-on-Don>
 "CLUB_NAME_CHANGE"		58002983	"FC Rostov-2"						""
 "CLUB_SHORT_NAME_CHANGE"	58002983	"Rostov-2"						""
 "CLUB_6LETTER_NAME_CHANGE"	58002983	"ROS.2"							""
@@ -29044,16 +29265,19 @@
 "CLUB_SHORT_NAME_CHANGE"	1559		"East Stirlingshire"					""
 
 "AFFILIATED_CLUB_ID"		2000094449	"BT-1570"						"" # [SCO] Rangers
+"CLUB_CITY_CHANGE"		2000094449	"102580"						"" # <Glasgow>
 "CLUB_NAME_CHANGE"		2000094449	"Rangers FC B"						""
 "CLUB_SHORT_NAME_CHANGE"	2000094449	"Rangers B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000094449	"RAN.B"							""
 
 "AFFILIATED_CLUB_ID"		2000094450	"BT-1569"						"" # [SCO] Celtic
+"CLUB_CITY_CHANGE"		2000094450	"102580"						"" # <Glasgow>
 "CLUB_NAME_CHANGE"		2000094450	"Celtic FC B"						""
 "CLUB_SHORT_NAME_CHANGE"	2000094450	"Celtic B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000094450	"CEL.B"							""
 
 "AFFILIATED_CLUB_ID"		2000181307	"BT-1573"						"" # [SCO] Hearts
+"CLUB_CITY_CHANGE"		2000181307	"102579"						"" # <Edinburgh>
 "CLUB_NAME_CHANGE"		2000181307	"Heart of Midlothian FC B"				""
 "CLUB_SHORT_NAME_CHANGE"	2000181307	"Hearts B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000181307	"HEA.B"							""
@@ -29368,6 +29592,7 @@
 "CLUB_SHORT_NAME_CHANGE"	138174		"Púchov"						""
 "CLUB_3LETTER_NAME_CHANGE"	138174		"PUC"							""
 
+"CLUB_CITY_CHANGE"		1301169		"1301144"						"" # <Bratislava>
 "CLUB_NAME_CHANGE"		1301169		"FC Petržalka"						""
 "CLUB_SHORT_NAME_CHANGE"	1301169		"Petržalka"						""
 "CLUB_3LETTER_NAME_CHANGE"	1301169		"FCP"							""
@@ -31298,6 +31523,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	98000654	"LUZ.21"						""
 
 "AFFILIATED_CLUB_ID"		98000662	"U21-1847"						"" # [SUI] Young Boys
+"CLUB_CITY_CHANGE"		98000662	"1301200"						"" # <Bern>
 "CLUB_NAME_CHANGE"		98000662	"BSC Young Boys U21"					""
 "CLUB_SHORT_NAME_CHANGE"	98000662	"Young Boys U21"					""
 "CLUB_6LETTER_NAME_CHANGE"	98000662	"YB.21"							""
@@ -31315,6 +31541,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	98000670	"SG.21"							""
 
 "AFFILIATED_CLUB_ID"		98008376	"U21-1858"						"" # [SUI] Servette
+"CLUB_CITY_CHANGE"		98008376	"1301203"						"" # <Genève>
 "CLUB_NAME_CHANGE"		98008376	"Servette FC U21"					""
 "CLUB_SHORT_NAME_CHANGE"	98008376	"Servette U21"						""
 "CLUB_6LETTER_NAME_CHANGE"	98008376	"SER.21"						""
@@ -31329,6 +31556,7 @@
 # CLUB > UEFA > [SUI] SWITZERLAND > [OTHER]
 #==============================================================================
 "AFFILIATED_CLUB_ID"		2000137342	"U18-1847"						"" # [SUI] Young Boys
+"CLUB_CITY_CHANGE"		2000137342	"1301200"						"" # <Bern>
 "CLUB_NAME_CHANGE"		2000137342	"BSC Young Boys U18"					""
 "CLUB_SHORT_NAME_CHANGE"	2000137342	"Young Boys U18"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000137342	"YB.18"							""
@@ -31386,6 +31614,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000137377	"GCZ.18"						""
 
 "AFFILIATED_CLUB_ID"		2000137370	"U18-1858"						"" # [SUI] Servette
+"CLUB_CITY_CHANGE"		2000137370	"1301203"						"" # <Genève>
 "CLUB_NAME_CHANGE"		2000137370	"Servette FC U18"					""
 "CLUB_SHORT_NAME_CHANGE"	2000137370	"Servette U18"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000137370	"SER.18"						""

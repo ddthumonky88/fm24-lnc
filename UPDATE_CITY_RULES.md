@@ -59,6 +59,7 @@ Khi người dùng cung cấp City ID mới:
 
 - Thêm `CITY_NAME_CHANGE` vào đúng quốc gia và đúng local region.
 - Các dòng `CITY_NAME_CHANGE` trong mỗi nhóm/khu vực phải được sắp xếp theo thứ tự ID tăng dần (ngoại lệ: với Taipei thì thành phố chuẩn, với Japan thì dòng `-ken`/tỉnh, với Malaysia thì dòng bang `Negeri ...` luôn được ưu tiên đặt ở đầu nhóm).
+- Định dạng phân biệt tên thành phố trùng nhau (disambiguation): với Armenia dùng `<tên> marz` (ví dụ: `"Agharak, Aragatsotn marz"`), với Azerbaijan dùng `<tên> rayonu` (trừ Bakı) (ví dụ: `"Xırdalan, Abşeron rayonu"`, `"Suraxanı, Bakı"`), với Bulgaria dùng `<tên> oblast` (ví dụ: `"Ivanovo, Blagoevgrad oblast"`), với Russia dùng `<tên> oblast` và `<tên> krai` (ví dụ: `"Kotovo, Belgorod oblast"`, `"Spasskoe, Primorsky krai"`).
 - Không thêm kết quả gần giống hoặc không thuộc CLB cần cập nhật.
 - Không tạo trùng City ID hoặc trùng bản ghi trong cùng khu vực.
 
