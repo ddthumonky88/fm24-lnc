@@ -25,7 +25,8 @@ public class RecordsController {
       Map.entry("award","awards"), Map.entry("person","people"), Map.entry("player","people"), Map.entry("region","regions"));
   private static final Set<String> COLUMNS = Set.of("id","name","name_lg","name_sh","name_3l","name_6l","confed",
       "nation_id","comp_id","parent_id","region","region_id","is_disabled","is_extinct","type","note",
-      "inactive_fields","fg_color","bg_color","affiliate_club_id","affiliate_club_type","first_name","common_name","second_name","code");
+      "inactive_fields","fg_color","bg_color","affiliate_club_id","affiliate_club_type","first_name","common_name","second_name","code",
+      "city_id","base_nation_id");
   private final JdbcTemplate jdbc;
   public RecordsController(JdbcTemplate jdbc) { this.jdbc=jdbc; }
 

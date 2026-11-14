@@ -58,7 +58,7 @@ public class LncParserService {
     upsertCompetitions(competitions, nationCodeToId);
     upsertAwards(awards, nationCodeToId);
     upsertPeople(people);
-    upsertClubs(clubs, nationCodeToId);
+    upsertClubs(clubs, nationCodeToId, cities);
     upsertStadiums(stadiums, nationCodeToId);
 
     return Map.of(
@@ -198,6 +198,11 @@ public class LncParserService {
         else if (cmd.equals("CLUB_SHORT_NAME_CHANGE")) row.put("name_sh", value);
         else if (cmd.equals("CLUB_6LETTER_NAME_CHANGE")) row.put("name_6l", value);
         else if (cmd.equals("CLUB_3LETTER_NAME_CHANGE")) row.put("name_3l", value);
+        else if (cmd.equals("CLUB_CITY_CHANGE") && !disabled) {
+          if (!value.isBlank() && !"rd-uid".equalsIgnoreCase(value)) {
+            row.put("city_id", value);
+          }
+        }
       } else if (cmd.equals("STADIUM_NAME_CHANGE")) {
         Map<String, Object> row = row(stadiums, id);
         row.put("name", value); row.put("nation_code", stadiumNation); row.put("disabled", disabled);
@@ -246,9 +251,32 @@ public class LncParserService {
     batch("INSERT INTO people(id,first_name,common_name,second_name) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET first_name=EXCLUDED.first_name,common_name=EXCLUDED.common_name,second_name=EXCLUDED.second_name",
         rows, r -> new Object[]{r.get("id"),r.get("first"),r.getOrDefault("common",""),r.get("second")});
   }
-  private void upsertClubs(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
-    batch("INSERT INTO clubs(id,name_lg,name_sh,name_6l,name_3l,nation_id,affiliate_club_id,affiliate_club_type,is_extinct) VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_6l=EXCLUDED.name_6l,name_3l=EXCLUDED.name_3l,nation_id=EXCLUDED.nation_id,affiliate_club_id=EXCLUDED.affiliate_club_id,affiliate_club_type=EXCLUDED.affiliate_club_type,is_extinct=EXCLUDED.is_extinct",
-        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Club "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Club "+r.get("id"))),r.get("name_6l"),r.get("name_3l"),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),r.get("affiliate_id"),r.get("affiliate_type"),text(r.get("comp")).contains("EXTINCT")});
+  private void upsertClubs(Map<String, Map<String, Object>> rows, Map<String,String> nations, Map<String, Map<String, Object>> cities) {
+    batch("INSERT INTO clubs(id,name_lg,name_sh,name_6l,name_3l,nation_id,affiliate_club_id,affiliate_club_type,is_extinct,city_id,base_nation_id) " +
+          "VALUES (?,?,?,?,?,?,?,?,?,?,?) " +
+          "ON CONFLICT(id) DO UPDATE SET " +
+          "name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_6l=EXCLUDED.name_6l,name_3l=EXCLUDED.name_3l," +
+          "nation_id=EXCLUDED.nation_id,affiliate_club_id=EXCLUDED.affiliate_club_id,affiliate_club_type=EXCLUDED.affiliate_club_type," +
+          "is_extinct=EXCLUDED.is_extinct,city_id=EXCLUDED.city_id,base_nation_id=EXCLUDED.base_nation_id",
+        rows, r -> {
+          String rawCityId = text(r.get("city_id")).trim();
+          Map<String, Object> cityData = cities != null && !rawCityId.isBlank() ? cities.get(rawCityId) : null;
+          String validCityId = cityData != null ? rawCityId : null;
+          String baseNationId = cityData != null ? nations.get(text(cityData.get("nation_code")).toUpperCase(Locale.ROOT)) : null;
+          return new Object[]{
+              r.get("id"),
+              fallback(r,"name_lg","Club "+r.get("id")),
+              fallback(r,"name_sh",fallback(r,"name_lg","Club "+r.get("id"))),
+              r.get("name_6l"),
+              r.get("name_3l"),
+              nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),
+              r.get("affiliate_id"),
+              r.get("affiliate_type"),
+              text(r.get("comp")).contains("EXTINCT"),
+              validCityId,
+              baseNationId
+          };
+        });
   }
   private void upsertStadiums(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
     batch("INSERT INTO stadiums(id,name,nation_id,is_disabled,type) VALUES (?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name=EXCLUDED.name,nation_id=EXCLUDED.nation_id,is_disabled=EXCLUDED.is_disabled,type=EXCLUDED.type",

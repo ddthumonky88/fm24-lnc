@@ -51,7 +51,9 @@ CREATE TABLE IF NOT EXISTS clubs (
   affiliate_club_type VARCHAR(64),
   note TEXT,
   inactive_fields TEXT,
-  is_extinct BOOLEAN NOT NULL DEFAULT FALSE
+  is_extinct BOOLEAN NOT NULL DEFAULT FALSE,
+  city_id VARCHAR(64) REFERENCES cities(id) ON DELETE SET NULL,
+  base_nation_id VARCHAR(64) REFERENCES nations(id) ON DELETE SET NULL
 );
 
 CREATE TABLE IF NOT EXISTS stadiums (
@@ -82,3 +84,8 @@ CREATE INDEX IF NOT EXISTS idx_nations_confed ON nations(confed);
 CREATE INDEX IF NOT EXISTS idx_competitions_nation ON competitions(nation_id);
 CREATE INDEX IF NOT EXISTS idx_clubs_nation ON clubs(nation_id);
 CREATE INDEX IF NOT EXISTS idx_clubs_comp ON clubs(comp_id);
+CREATE INDEX IF NOT EXISTS idx_clubs_city ON clubs(city_id);
+CREATE INDEX IF NOT EXISTS idx_clubs_base_nation ON clubs(base_nation_id);
+
+ALTER TABLE clubs ADD COLUMN IF NOT EXISTS city_id VARCHAR(64) REFERENCES cities(id) ON DELETE SET NULL;
+ALTER TABLE clubs ADD COLUMN IF NOT EXISTS base_nation_id VARCHAR(64) REFERENCES nations(id) ON DELETE SET NULL;

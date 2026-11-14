@@ -794,6 +794,60 @@ export default function RecordDetailView({
               </div>
             </div>
           )}
+
+          {(currentData.city?.name || currentData.city_id) && (
+            <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,3fr)] items-center gap-3 min-w-0 rounded-lg bg-slate-50/90 px-3 py-2.5">
+              <span className={getLabelClass('city', 'text-right')}>
+                CITY:
+              </span>
+              <span className="font-bold text-[12px] text-slate-800 break-words text-left">
+                {currentData.city?.name || currentData.city_id}
+              </span>
+            </div>
+          )}
+
+          {(() => {
+            const baseNat = currentData.base_nation || currentData['base-nation'] || currentData.baseNation;
+            const baseNatId = baseNat?.id || currentData.base_nation_id;
+            const baseNatName = baseNat?.name_lg || baseNat?.name_sh || baseNat?.name || baseNatId;
+            const baseNatCode = baseNat?.name_3l;
+            if (!baseNatId) return null;
+            return (
+              <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,3fr)] items-center gap-3 min-w-0 rounded-lg px-3 py-2.5">
+                <span className={getLabelClass(['base_nation_id', 'base_nation'], 'text-right')}>
+                  BASE-NATION:
+                </span>
+                <div
+                  onClick={() => {
+                    if (baseNatId && onNavigateNation) onNavigateNation(String(baseNatId));
+                  }}
+                  className={`flex items-center gap-1.5 min-w-0 text-left ${
+                    baseNatId && onNavigateNation ? 'cursor-pointer group' : ''
+                  }`}
+                >
+                  {getNationLogoUrl(baseNatId, baseNatCode) ? (
+                    <img
+                      src={getNationLogoUrl(baseNatId, baseNatCode)}
+                      alt={baseNatName || 'Base Nation'}
+                      className="w-4 h-3 object-cover rounded-2xs border border-slate-200 shrink-0"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  ) : null}
+                  <span
+                    className={`font-bold text-[12px] ${
+                      baseNatId && onNavigateNation
+                        ? 'text-blue-600 group-hover:underline'
+                        : getValueClass(['base_nation_id', 'base_nation'])
+                    } truncate`}
+                  >
+                    {baseNatName}
+                  </span>
+                </div>
+              </div>
+            );
+          })()}
         </>
       ) : (
         /* Nation or Competition (default) */

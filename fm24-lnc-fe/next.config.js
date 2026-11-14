@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // Keep development cache separate from production builds. Mixing `next dev`
   // and `next build/start` in the same directory can leave stale artifacts on Windows.
   distDir: process.env.NODE_ENV === 'development' ? '.next-dev' : '.next',

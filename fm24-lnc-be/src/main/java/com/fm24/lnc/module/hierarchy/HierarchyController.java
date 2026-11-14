@@ -194,6 +194,29 @@ public class HierarchyController {
         club.put("affiliate",affiliate);
       }
     }
+    Object cityId=club.get("city_id");
+    club.put("city",null);
+    if(cityId!=null){
+      List<Map<String,Object>> cities=jdbc.queryForList("SELECT id,name,nation_id,region,region_id,is_disabled FROM cities WHERE id::text=?",String.valueOf(cityId));
+      if(!cities.isEmpty()){
+        Map<String,Object> city=new LinkedHashMap<>(cities.get(0));
+        enrichCity(city);
+        club.put("city",city);
+      }
+    }
+    Object baseNationId=club.get("base_nation_id");
+    club.put("base_nation",null);
+    club.put("baseNation",null);
+    club.put("base-nation",null);
+    if(baseNationId!=null){
+      List<Map<String,Object>> baseNations=jdbc.queryForList("SELECT id,name_lg,name_sh,name_3l,confed FROM nations WHERE id::text=?",String.valueOf(baseNationId));
+      if(!baseNations.isEmpty()){
+        Map<String,Object> bn=baseNations.get(0);
+        club.put("base_nation",bn);
+        club.put("baseNation",bn);
+        club.put("base-nation",bn);
+      }
+    }
   }
   private void enrichCity(Map<String,Object> city){
     Object nationId=city.get("nation_id");
@@ -226,7 +249,7 @@ public class HierarchyController {
   private Map<String,Object> page(String table,Map<String,Object> f,String order){return pageSql(table,f,"TRUE",order);}
   private Map<String,Object> pageSql(String table,Map<String,Object> input,String base,String order){
     Map<String,Object> f=input==null?Map.of():input; int page=num(f.get("page"),0),size=Math.min(num(f.get("size"),20),300); List<Object> args=new ArrayList<>();
-    StringBuilder where=new StringBuilder(base); add(where,args,f,"nationId","nation_id"); add(where,args,f,"compId","comp_id"); add(where,args,f,"parentId","parent_id"); add(where,args,f,"regionId","region_id"); add(where,args,f,"type","type");
+    StringBuilder where=new StringBuilder(base); add(where,args,f,"nationId","nation_id"); add(where,args,f,"compId","comp_id"); add(where,args,f,"parentId","parent_id"); add(where,args,f,"regionId","region_id"); add(where,args,f,"type","type"); add(where,args,f,"cityId","city_id"); add(where,args,f,"baseNationId","base_nation_id");
     if(table.equals("cities")&&Boolean.parseBoolean(String.valueOf(f.getOrDefault("removeOnly",false)))) where.append(" AND (TRIM(name)='-' OR UPPER(COALESCE(region,'')) LIKE '[REMOVE]%')");
     Object confed=f.get("confedId");
     if(confed!=null&&!String.valueOf(confed).equalsIgnoreCase("all")){
@@ -237,7 +260,8 @@ public class HierarchyController {
           args.add(confedCode);
         }
         case "clubs" -> {
-          where.append(" AND (nation_id IN (SELECT id FROM nations WHERE confed=?) OR comp_id IN (SELECT c.id FROM competitions c JOIN nations n ON n.id=c.nation_id WHERE n.confed=?))");
+          where.append(" AND (nation_id IN (SELECT id FROM nations WHERE confed=?) OR base_nation_id IN (SELECT id FROM nations WHERE confed=?) OR comp_id IN (SELECT c.id FROM competitions c JOIN nations n ON n.id=c.nation_id WHERE n.confed=?))");
+          args.add(confedCode);
           args.add(confedCode);
           args.add(confedCode);
         }
