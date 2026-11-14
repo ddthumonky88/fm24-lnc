@@ -3966,6 +3966,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-01] Blagoevgrad Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		7500258		"Blagoevgrad"						""
 "CITY_NAME_CHANGE"		22012396	"Ivanovo, Blagoevgrad oblast"				""
 "CITY_NAME_CHANGE"		22014505	"Delchevo, Blagoevgrad oblast"				""
 "CITY_NAME_CHANGE"		22014947	"Ablanitsa, Blagoevgrad oblast"				""
@@ -4003,6 +4004,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-09] Kardzhali Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		7505645		"Kardzhali"						""
 "CITY_NAME_CHANGE"		22012405	"Tsarevets, Kardzhali oblast"				""
 "CITY_NAME_CHANGE"		22012921	"Chiflik, Kardzhali oblast"				""
 "CITY_NAME_CHANGE"		22018384	"Draganovo, Kardzhali oblast"				""
@@ -4024,6 +4026,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-13] Pazardzhik Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		138160		"Pazardzhik"						""
 "CITY_NAME_CHANGE"		7505768		"Kovachevo, Pazardzhik oblast"				""
 "CITY_NAME_CHANGE"		22014948	"Ablanitsa, Pazardzhik oblast"				""
 
@@ -4042,6 +4045,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-16] Plovdiv Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300174		"Plovdiv"						""
 "CITY_NAME_CHANGE"		22012915	"Kaloyanovo, Plovdiv oblast"				""
 "CITY_NAME_CHANGE"		22023364	"Sadovo, Plovdiv oblast"				""
 "CITY_NAME_CHANGE"		22033917	"Zhitnitsa, Plovdiv oblast"				""
@@ -4105,6 +4109,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-24] Stara Zagora Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5410508		"Stara Zagora"						""
 "CITY_NAME_CHANGE"		22012395	"Tsenovo, Stara Zagora oblast"				""
 "CITY_NAME_CHANGE"		22012401	"Hadzhidimitrovo, Stara Zagora oblast"			""
 "CITY_NAME_CHANGE"		22012717	"Kovachevo, Stara Zagora oblast"			""
@@ -4119,6 +4124,7 @@
 # CITY > [BUL] BULGARIA > [BUL-03] Varna Oblast
 #====================================================================================
 #"CITY_NAME_CHANGE"		7505638		"Byala (Varna oblast)"					""
+"CITY_NAME_CHANGE"		1300179		"Varna"							""
 "CITY_NAME_CHANGE"		22018387	"Kiten, Varna oblast"					""
 "CITY_NAME_CHANGE"		22023365	"Sadovo, Varna oblast"					""
 "CITY_NAME_CHANGE"		22033920	"Zhitnitsa, Varna oblast"				""
@@ -4129,6 +4135,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-04] Veliko Tarnovo Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300176		"Veliko Tarnovo"					""
 "CITY_NAME_CHANGE"		7501901		"Tsarevets, Veliko Tarnovo oblast"			""
 "CITY_NAME_CHANGE"		7505777		"Hadzhidimitrovo, Veliko Tarnovo oblast"		""
 "CITY_NAME_CHANGE"		22017072	"Stambolovo, Veliko Tarnovo oblast"			""
@@ -4144,6 +4151,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-06] Vratsa Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5410506		"Vratsa"						""
 "CITY_NAME_CHANGE"		22012404	"Tsarevets, Vratsa oblast"				""
 "CITY_NAME_CHANGE"		22023976	"Lipnitsa, Vratsa oblast"				""
 
@@ -7440,6 +7448,7 @@
 "CITY_NAME_CHANGE"		100096		"Wolverhampton"						""
 "CITY_NAME_CHANGE"		106600		"Kidderminster"						""
 "CITY_NAME_CHANGE"		106609		"Telford"						""
+"CITY_NAME_CHANGE"		130900		"Oswestry"						""
 "CITY_NAME_CHANGE"		5101259		"Tamworth"						""
 "CITY_NAME_CHANGE"		5112394		"Burton-on-Trent"					""
 "CITY_NAME_CHANGE"		7940353		"Sutton Coldfield"					""
@@ -13784,7 +13793,19 @@
 
 # CITY > [LUX] LUXEMBOURG
 #====================================================================================
+"CITY_NAME_CHANGE"		1300745		"Wiltz"							""
+"CITY_NAME_CHANGE"		1300748		"Differdange"						""
+"CITY_NAME_CHANGE"		1300749		"Esch-sur-Alzette"					""
+"CITY_NAME_CHANGE"		1300751		"Dudelange"						""
 "CITY_NAME_CHANGE"		1300752		"Luxembourg"						""
+"CITY_NAME_CHANGE"		8162025		"Hesperange"						""
+"CITY_NAME_CHANGE"		8162026		"Mondercange"						""
+"CITY_NAME_CHANGE"		8162038		"Bascharage"						""
+"CITY_NAME_CHANGE"		8162040		"Rosport"						""
+"CITY_NAME_CHANGE"		8162042		"Schifflange"						""
+"CITY_NAME_CHANGE"		8162048		"Strassen"						""
+"CITY_NAME_CHANGE"		52072516	"Mondorf-les-Bains"					""
+"CITY_NAME_CHANGE"		2000000051	"Niederkorn"						""
 
 
 # CITY > [MAC] MACAU, CHINA
@@ -17007,6 +17028,11 @@
 "CITY_NAME_CHANGE"		5410026		"Maiduguri"						""
 
 
+# CITY > [NGA] NIGERIA > [NGA-BY] Bayelsa
+#====================================================================================
+"CITY_NAME_CHANGE"		12011484	"Yenagoa"						""
+
+
 # CITY > [NGA] NIGERIA > [NGA-CR] Cross River
 #====================================================================================
 "CITY_NAME_CHANGE"		105357		"Calabar"						""
@@ -18198,6 +18224,7 @@
 # CITY > [PHI] PHILIPPINES > [PHI-LAG] Laguna
 #====================================================================================
 "CITY_NAME_CHANGE"		5627935		"Santa Cruz"						""
+"CITY_NAME_CHANGE"		23393535	"Biñan"							""
 "CITY_NAME_CHANGE"		23393560	"Rizal, Laguna"					""
 "CITY_NAME_CHANGE"		23393562	"Santa Maria, Laguna"					""
 
@@ -18230,6 +18257,9 @@
 "CITY_NAME_CHANGE"		23000066	"Marikina"						""
 "CITY_NAME_CHANGE"		23026590	"Caloocan"						""
 "CITY_NAME_CHANGE"		23026591	"Pasig"							""
+"CITY_NAME_CHANGE"		23026592	"Taguig"						""
+"CITY_NAME_CHANGE"		23026593	"Valenzuela"						""
+"CITY_NAME_CHANGE"		23160528	"Makati"						""
 
 
 # CITY > [PHI] PHILIPPINES > [PHI-NEC] Negros Occidental
@@ -21211,6 +21241,7 @@
 "CITY_NAME_CHANGE"		998		"Karlshamn"						""
 "CITY_NAME_CHANGE"		1000		"Karlskrona"						""
 "CITY_NAME_CHANGE"		1043		"Ronneby"						""
+"CITY_NAME_CHANGE"		1060		"Sölvesborg"						""
 
 
 # CITY > [SWE] SWEDEN > [SWE-W] Dalarnas län
@@ -21281,6 +21312,7 @@
 
 # CITY > [SWE] SWEDEN > [SWE-T] Örebro län
 #====================================================================================
+"CITY_NAME_CHANGE"		407		"Degerfors"						""
 "CITY_NAME_CHANGE"		444		"Örebro"						""
 "CITY_NAME_CHANGE"		999		"Karlskoga"						""
 
@@ -24405,7 +24437,17 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		100090		"Swansea"						""
 "CITY_NAME_CHANGE"		100097		"Wrexham"						""
+"CITY_NAME_CHANGE"		106619		"Colwyn"						""
+"CITY_NAME_CHANGE"		114808		"Haverfordwest"						""
+"CITY_NAME_CHANGE"		352815		"Pontypridd"						""
+"CITY_NAME_CHANGE"		352818		"Bridgend"						""
+"CITY_NAME_CHANGE"		355428		"Bala"							""
+"CITY_NAME_CHANGE"		1301299		"Caernarfon"						""
+"CITY_NAME_CHANGE"		1301301		"Aberystwyth"						""
+"CITY_NAME_CHANGE"		1301308		"Barry"							""
 "CITY_NAME_CHANGE"		1301309		"Cardiff"						""
+"CITY_NAME_CHANGE"		1301312		"Newtown"						""
+"CITY_NAME_CHANGE"		1301315		"Connah's"						""
 "CITY_NAME_CHANGE"		5100137		"Newport"						""
 
 
