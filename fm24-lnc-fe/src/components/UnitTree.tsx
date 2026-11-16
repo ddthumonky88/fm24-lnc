@@ -155,7 +155,15 @@ function flattenClubTree(nodes: DataNode[]): DataNode[] {
     ...(allNode ? [{ ...(allNode as any), level: 1 } as DataNode] : []),
     ...(nations as DataNode[]),
   ];
-  return sortUnitTreeNodes(flattenedNodes);
+  return flattenedNodes.sort((a, b) => {
+    const aIsAll = String(a.key).toLowerCase() === 'all';
+    const bIsAll = String(b.key).toLowerCase() === 'all';
+    if (aIsAll) return bIsAll ? 0 : -1;
+    if (bIsAll) return 1;
+    const nameA = String((a as any).shortName || a.title || '');
+    const nameB = String((b as any).shortName || b.title || '');
+    return nameA.localeCompare(nameB, 'en', { sensitivity: 'base', numeric: true });
+  });
 }
 
 export default function UnitTree({
@@ -533,6 +541,19 @@ export default function UnitTree({
               });
 
               const sortedComps = [...compsWithClubs].sort((a, b) => {
+                const rank = (type?: string) => {
+                  if (/^Domestic League/i.test(type || '')) return 1;
+                  if (/^Other Competitions?$/i.test(type || '')) return 3;
+                  if (/^Extinct/i.test(type || '')) return 4;
+                  return 2;
+                };
+                const rankDifference = rank(a.type) - rank(b.type);
+                if (rankDifference !== 0) return rankDifference;
+                if (/^Domestic League/i.test(a.type || '') && /^Domestic League/i.test(b.type || '')) {
+                  const levelA = Number((a.type || '').match(/\d+/)?.[0] || 999);
+                  const levelB = Number((b.type || '').match(/\d+/)?.[0] || 999);
+                  if (levelA !== levelB) return levelA - levelB;
+                }
                 const nameA = a.name_sh || a.name || a.name_lg || '';
                 const nameB = b.name_sh || b.name || b.name_lg || '';
                 return nameA.localeCompare(nameB);

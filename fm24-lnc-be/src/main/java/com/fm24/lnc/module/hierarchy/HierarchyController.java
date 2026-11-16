@@ -47,7 +47,12 @@ public class HierarchyController {
         String id=String.valueOf(nation.get("id")); String key=type.equalsIgnoreCase("club")?"nation_"+id:id;
         List<Map<String,Object>> sub=new ArrayList<>();
         if(type.equalsIgnoreCase("club")){
-          for(Map<String,Object> comp:jdbc.queryForList("SELECT c.id,c.name_lg,c.name_sh,c.name_3l,c.nation_id FROM competitions c WHERE c.nation_id=? AND EXISTS (SELECT 1 FROM clubs cl WHERE cl.comp_id=c.id) ORDER BY COALESCE(c.name_sh,c.name_lg)",id))
+          for(Map<String,Object> comp:jdbc.queryForList(
+              "SELECT c.id,c.name_lg,c.name_sh,c.name_3l,c.nation_id,c.type FROM competitions c " +
+              "WHERE c.nation_id=? AND EXISTS (SELECT 1 FROM clubs cl WHERE cl.comp_id=c.id) " +
+              "ORDER BY CASE WHEN c.type LIKE 'Domestic League%' THEN 1 WHEN c.type='Other Competitions' THEN 3 WHEN c.type LIKE 'Extinct%' THEN 4 ELSE 2 END, " +
+              "CASE WHEN c.type LIKE 'Domestic League%' THEN COALESCE(NULLIF(REGEXP_REPLACE(c.type,'[^0-9]','','g'),'')::int,999) ELSE 0 END, " +
+              "COALESCE(c.name_sh,c.name_lg)",id))
             sub.add(node("comp_"+comp.get("id"),text(comp.get("name_sh"),comp.get("name_lg")),text(comp.get("name_3l"),"CMP"),text(comp.get("name_sh"),comp.get("name_lg")),3,true,List.of()));
           sub.add(special("oth_"+id,"OTH","Other",confed)); sub.add(special("ext_"+id,"EXT","Extinct",confed));
         }
