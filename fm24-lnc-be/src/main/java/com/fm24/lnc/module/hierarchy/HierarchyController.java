@@ -202,14 +202,6 @@ public class HierarchyController {
         club.put("city",city);
       }
     }
-    Object baseNationId=club.get("base_nation_id");
-    if(baseNationId!=null){
-      List<Map<String,Object>> baseNations=jdbc.queryForList("SELECT id,name_lg,name_sh,name_3l,confed FROM nations WHERE id::text=?",String.valueOf(baseNationId));
-      if(!baseNations.isEmpty()){
-        Map<String,Object> bn=baseNations.get(0);
-        club.put("base_nation",bn);
-      }
-    }
     club.remove("nation_id");
     club.remove("comp_id");
     club.remove("city_id");
