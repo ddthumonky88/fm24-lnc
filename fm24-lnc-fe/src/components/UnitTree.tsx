@@ -96,6 +96,38 @@ function findActualTreeKey(nodes: DataNode[], targetKey?: string): React.Key | u
   return undefined;
 }
 
+function sortUnitTreeNodes(nodes: DataNode[]): DataNode[] {
+  const isAllNode = (node: DataNode) => {
+    const item = node as any;
+    return (
+      String(node.key || '').toLowerCase() === 'all' ||
+      String(item.code3 || '').toUpperCase() === 'ALL' ||
+      String(node.title || '').trim().toUpperCase() === 'ALL'
+    );
+  };
+
+  const displayName = (node: DataNode) => {
+    const item = node as any;
+    return String(item.shortName || item.name || node.title || '')
+      .replace(/^\[[^\]]+\]\s*/, '')
+      .trim();
+  };
+
+  return nodes
+    .map((node) => ({
+      ...node,
+      children: node.children?.length ? sortUnitTreeNodes(node.children) : node.children,
+    }))
+    .sort((a, b) => {
+      if (isAllNode(a)) return isAllNode(b) ? 0 : -1;
+      if (isAllNode(b)) return 1;
+      return displayName(a).localeCompare(displayName(b), 'en', {
+        sensitivity: 'base',
+        numeric: true,
+      });
+    });
+}
+
 export default function UnitTree({
   mode,
   nations = [],
@@ -275,7 +307,7 @@ export default function UnitTree({
   const rawTreeData: DataNode[] = useMemo(() => {
     // Nếu API đã trả về cấu trúc cây trực tiếp => ưu tiên sử dụng
     if (apiTreeData && apiTreeData.length > 0) {
-      return apiTreeData as unknown as DataNode[];
+      return sortUnitTreeNodes(apiTreeData as unknown as DataNode[]);
     }
     // ==========================================
     // 1. MÀN NATION: Cấp 1 duy nhất [ALL, AFC, CAF, CONCACAF, CONMEBOL, OFC, UEFA, EXTINCT]

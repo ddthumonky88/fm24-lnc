@@ -141,9 +141,31 @@ function ListClubsContent() {
         refreshSignal > 0,
       );
 
-      const items = Array.isArray(res) ? res : (res as any)?.content || [];
+      const items: ClubItem[] = Array.isArray(res) ? res : (res as any)?.content || [];
+      const missingCompIds = Array.from(
+        new Set(
+          items
+            .filter((club) => !club.comp && club.comp_id && !/^(oth|ext)-/i.test(String(club.comp_id)))
+            .map((club) => String(club.comp_id)),
+        ),
+      );
+      const loadedComps = await Promise.all(
+        missingCompIds.map(async (compId) => {
+          try {
+            return [compId, await fetchCompetitionInfo(compId)] as const;
+          } catch {
+            return [compId, null] as const;
+          }
+        }),
+      );
+      const compsById = new Map(loadedComps);
+      const hydratedItems = items.map((club) => {
+        if (club.comp || !club.comp_id) return club;
+        const comp = compsById.get(String(club.comp_id));
+        return comp ? { ...club, comp } : club;
+      });
       const totalElements = (res as any)?.totalElements ?? (res as any)?.total ?? items.length;
-      setClubs(items);
+      setClubs(hydratedItems);
       setTotal(totalElements);
     } catch (err: any) {
       message.error(err.message || 'Failed to load clubs');

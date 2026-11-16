@@ -607,27 +607,9 @@ export default function EntityCard({
         <div>
           {/* Top Header Bar: chỉ gồm [Thẻ ID] và [btn 3 chấm] */}
           <div className={`flex items-center justify-between gap-1.5 pb-1.5 mb-2 border-b ${isCityRemove ? 'border-red-200/60' : isNewRecord ? 'border-emerald-300/70' : 'border-blue-200/60'} min-w-0`}>
-            <div className="flex items-center gap-1.5 min-w-0">
-                {entityNationFlagUrl && (
-                  <Tooltip title={data.nation?.name || data.nation?.name_sh || data.nation?.name_lg || 'Nation'}>
-                    <img
-                      src={entityNationFlagUrl}
-                      alt={data.nation?.name || data.nation?.name_sh || data.nation?.name_lg || 'Nation flag'}
-                      className="h-4 w-6 shrink-0 rounded-[3px] border border-black/10 bg-white object-cover shadow-2xs"
-                      onClick={(event) => event.stopPropagation()}
-                      onError={(event) => {
-                        if (!event.currentTarget.dataset.fallbackAttempted) {
-                          event.currentTarget.dataset.fallbackAttempted = 'true';
-                          event.currentTarget.src = getLocalFlagUrl(data.nation?.name_3l, true);
-                        } else {
-                          event.currentTarget.style.display = 'none';
-                        }
-                      }}
-                    />
-                  </Tooltip>
-                )}
+            <div className="flex min-w-0 flex-1 items-center gap-1.5 overflow-hidden">
                 {data.id !== undefined && data.id !== null && data.id !== '' && (
-                  <div onClick={(e) => e.stopPropagation()} className="flex items-center shrink-0">
+                  <div onClick={(e) => e.stopPropagation()} className="flex min-w-0 items-center overflow-hidden">
                     {isSpecialCard ? (
                       <Tag
                         style={{
@@ -677,7 +659,7 @@ export default function EntityCard({
                                 ? 'rgba(209, 250, 229, 0.9)'
                               : 'rgba(239, 246, 255, 0.85)',
                           }}
-                          className="m-0 font-mono font-bold text-xs hover:opacity-85 cursor-pointer select-all transition-all inline-flex items-center gap-1 shrink-0 py-0.5 px-2 leading-tight shadow-2xs"
+                          className="m-0 inline-flex min-w-0 max-w-full cursor-pointer select-all items-center gap-1 overflow-hidden px-1.5 py-0.5 font-mono text-xs font-bold leading-tight shadow-2xs transition-all hover:opacity-85"
                           title={
                             data.is_virtual ||
                             data.id === '[EXTINCT]' ||
@@ -691,7 +673,7 @@ export default function EntityCard({
                               : undefined
                           }
                         >
-                          <span>
+                          <span className="min-w-0 truncate">
                             {data.id === '[REMOVE]' || data.id === 'REMOVE' ? (
                               <CloseCircleOutlined className="text-red-500" />
                             ) : (
@@ -1077,17 +1059,78 @@ export default function EntityCard({
           })()}
         </div>
 
+        {entityTypeStr === 'city' && entityNationFlagUrl && (
+          <div className="mt-2 flex min-h-7 items-center border-t border-blue-200/60 pt-2">
+            <Tooltip title={data.nation?.name || data.nation?.name_sh || data.nation?.name_lg || 'Nation'}>
+              <img
+                src={entityNationFlagUrl}
+                alt={data.nation?.name || data.nation?.name_sh || data.nation?.name_lg || 'Nation flag'}
+                className="h-5 w-8 shrink-0 rounded-[3px] border border-slate-400 bg-white object-cover shadow-sm"
+                onClick={(event) => event.stopPropagation()}
+                onError={(event) => {
+                  if (!event.currentTarget.dataset.fallbackAttempted) {
+                    event.currentTarget.dataset.fallbackAttempted = 'true';
+                    event.currentTarget.src = getLocalFlagUrl(data.nation?.name_3l, true);
+                  } else {
+                    event.currentTarget.style.display = 'none';
+                  }
+                }}
+              />
+            </Tooltip>
+          </div>
+        )}
+
         {entityTypeStr === 'club' && (() => {
           const comp = data.comp;
           const compName = comp?.name_sh || comp?.name_lg || comp?.name;
-          const nation3Letter = data.nation?.name_3l;
-          const nationFlagUrl =
-            getLocalFlagUrl(nation3Letter);
+          const compNation = comp?.nation || data.nation;
+          const compNation3Letter = compNation?.name_3l;
+          const compNationFlagUrl = getLocalFlagUrl(compNation3Letter);
+          const cityNation = data.city?.nation;
+          const cityNation3Letter = cityNation?.name_3l;
+          const isDifferentCityNation = Boolean(
+            cityNation3Letter &&
+              (compNation?.id && cityNation?.id
+                ? String(compNation.id) !== String(cityNation.id)
+                : String(compNation3Letter || '').toUpperCase() !== String(cityNation3Letter).toUpperCase()),
+          );
+          const cityNationFlagUrl = isDifferentCityNation
+            ? getLocalFlagUrl(cityNation3Letter)
+            : '';
           const compTagText = compName || null;
-          if (!compTagText && !data.is_extinct) return null;
+          if (!compTagText && !data.is_extinct && !compNationFlagUrl && !cityNationFlagUrl) return null;
+
+          const renderFlag = (url: string, code?: string, name?: string) =>
+            url ? (
+              <Tooltip title={name || code || 'Nation'}>
+                <img
+                  src={url}
+                  alt={code || 'Nation flag'}
+                  className="h-5 w-8 shrink-0 rounded-[3px] border border-slate-400 bg-white object-cover shadow-sm"
+                  onError={(event) => {
+                    if (!event.currentTarget.dataset.fallbackAttempted) {
+                      event.currentTarget.dataset.fallbackAttempted = 'true';
+                      event.currentTarget.src = getLocalFlagUrl(code, true);
+                    } else {
+                      event.currentTarget.style.display = 'none';
+                    }
+                  }}
+                />
+              </Tooltip>
+            ) : null;
 
           return (
             <div className="mt-2 flex min-h-7 flex-wrap items-center gap-1.5 border-t border-blue-200/60 pt-2">
+              {renderFlag(
+                compNationFlagUrl,
+                compNation3Letter,
+                compNation?.name_sh || compNation?.name_lg || compNation?.name,
+              )}
+              {renderFlag(
+                cityNationFlagUrl,
+                cityNation3Letter,
+                cityNation?.name_sh || cityNation?.name_lg || cityNation?.name,
+              )}
               {data.is_extinct ? (
                 <Tag color="error" className="m-0 max-w-full truncate !border !border-red-300 text-[10px] font-bold">
                   EXTINCT
@@ -1098,23 +1141,7 @@ export default function EntityCard({
                     color="blue"
                     className="m-0 !inline-flex max-w-full !items-center gap-2 truncate px-2 py-1 !text-[12px] font-semibold leading-none"
                   >
-                    {nationFlagUrl ? (
-                      <img
-                        src={nationFlagUrl}
-                        alt={nation3Letter || 'Nation flag'}
-                        className="h-4 w-6 shrink-0 rounded-[3px] border border-black/10 object-cover shadow-2xs"
-                        onError={(event) => {
-                          if (!event.currentTarget.dataset.fallbackAttempted) {
-                            event.currentTarget.dataset.fallbackAttempted = 'true';
-                            event.currentTarget.src = getLocalFlagUrl(nation3Letter, true);
-                          } else {
-                            event.currentTarget.style.display = 'none';
-                          }
-                        }}
-                      />
-                    ) : (
-                      <FlagOutlined className="shrink-0 text-[14px]" />
-                    )}
+                    {!compNationFlagUrl && <FlagOutlined className="shrink-0 text-[14px]" />}
                     <span className="truncate">{compTagText}</span>
                   </Tag>
                 </Tooltip>
