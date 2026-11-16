@@ -36,7 +36,7 @@ export default function ListPageFilterBar({
     if (typeof filterSummary === 'string' && filterSummary.includes(' > ')) {
       const parts = filterSummary.split(' > ');
       return (
-        <span className="inline-flex items-center gap-1.5 text-sm truncate">
+        <span className="inline-flex flex-wrap items-center gap-1.5 text-sm leading-snug">
           {parts.map((part, idx) => (
             <React.Fragment key={idx}>
               <span
@@ -59,7 +59,7 @@ export default function ListPageFilterBar({
       );
     }
     return (
-      <span className="text-sm font-semibold text-slate-800 truncate">
+      <span className="whitespace-normal break-words text-sm font-semibold leading-snug text-slate-800">
         {filterSummary}
       </span>
     );
@@ -79,9 +79,9 @@ export default function ListPageFilterBar({
         type="button"
         onClick={onClick}
         aria-label="Open filter"
-        className="flex-1 min-w-0 h-10 px-3.5 bg-slate-50/90 hover:bg-slate-100/90 active:bg-slate-200/70 border border-slate-200 hover:border-blue-400 focus:border-blue-500 rounded-xl flex items-center justify-between text-left transition-all cursor-pointer shadow-2xs group"
+        className="group flex min-h-10 min-w-0 flex-1 cursor-pointer items-center justify-between rounded-xl border border-slate-200 bg-slate-50/90 px-3.5 py-2 text-left shadow-2xs transition-all hover:border-blue-400 hover:bg-slate-100/90 focus:border-blue-500 focus:outline-none"
       >
-        <div className="flex items-center gap-2 truncate min-w-0 flex-1">
+        <div className="flex min-w-0 flex-1 flex-wrap items-center gap-2">
           {filterPrefix ? (
             <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider shrink-0">
               {filterPrefix}

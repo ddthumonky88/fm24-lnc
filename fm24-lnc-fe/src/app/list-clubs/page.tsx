@@ -6,7 +6,6 @@ import { Input, Modal, Button, Tag, App } from 'antd';
 import { SearchOutlined, ReloadOutlined } from '@ant-design/icons';
 import CardGrid from '../../components/CardGrid';
 import { ClubIcon } from '../../components/EntityIcons';
-import ListPageFilterBar from '../../components/ListPageFilterBar';
 import UnitTree from '../../components/UnitTree';
 import { useApp } from '../../context/AppContext';
 import { searchClubs, fetchUnitTree, findNationInTree, fetchCompetitionInfo, ClubItem, UnitTreeNode } from '../../services/api';
@@ -180,21 +179,18 @@ function ListClubsContent() {
   const levels: string[] = [];
   if (selectedNation !== 'all') {
     const nationNode = findNationInTree(treeNodes, selectedNation);
-    const confed = selectedConfed !== 'all' ? selectedConfed : nationNode?.confed;
-    if (confed) levels.push(confed);
 
     if (selectedCompId) {
-      // Có giải đấu: dùng {nation_3letter} và {comp_name}
+      // Cấp 2: [nation_3letter] Competition name
       const nation3l = nationNode?.code3 || selectedNation;
-      levels.push(nation3l);
 
       let compName = selectedCompName;
       if (selectedCompId.startsWith('oth-')) compName = '[OTH] Other';
       else if (selectedCompId.startsWith('ext-')) compName = '[EXT] Extinct';
       else if (!compName) compName = `Comp: ${selectedCompId}`;
-      levels.push(compName);
+      levels.push(`[${nation3l}] ${compName}`);
     } else {
-      // Chỉ có quốc gia: dùng {nation_short_name}
+      // Cấp 1: Nation name
       const nationName = nationNode?.shortName || nationNode?.title || selectedNation;
       levels.push(nationName);
 
@@ -211,10 +207,13 @@ function ListClubsContent() {
     } else if (extinctFilter === 'extinct') {
       levels.push('Dissolved');
     }
+  } else if (extinctFilter === 'active') {
+    levels.push('Active clubs');
+  } else if (extinctFilter === 'extinct') {
+    levels.push('Dissolved clubs');
   }
 
   const filterSummary = levels.length > 0 ? levels.join(' > ') : 'All clubs';
-  const hasActiveCustomFilter = selectedConfed !== 'all' || selectedNation !== 'all' || extinctFilter !== 'all' || !!selectedCompId;
 
   const handleOpenModal = () => {
     setTempConfed(selectedConfed);
@@ -394,38 +393,50 @@ function ListClubsContent() {
 
       {/* 2. KHU VỰC BÊN PHẢI: Search + Vùng Danh Sách */}
       <div className="flex-1 min-w-0 min-h-0 h-full flex flex-col gap-3 overflow-hidden">
-        {/* Khung Search trên cùng */}
-        <div className="shrink-0 flex-none bg-white border border-slate-200/90 rounded-2xl p-2 shadow-2xs">
-          <Input
-            size="middle"
-            placeholder="Search..."
-            allowClear
-            prefix={
-              <button
-                type="button"
-                aria-label="Search clubs"
-                onClick={handleSearch}
-                className="mr-2 flex cursor-pointer items-center border-0 bg-transparent p-0 text-lg text-slate-500 transition-colors hover:text-blue-600"
-              >
-                <SearchOutlined />
-              </button>
-            }
-            value={keyword}
-            onChange={(e) => setKeyword(e.target.value)}
-            onPressEnter={handleSearch}
-            className="w-full text-sm bg-slate-50/80 hover:bg-white focus:bg-white rounded-xl border border-slate-200 hover:border-blue-400 focus:border-blue-500 py-1 px-3 shadow-2xs transition-colors"
-          />
-
-          {/* Mobile Filter Bar (Chỉ hiển thị trên mobile < md) */}
-          <div className="md:hidden mt-2">
-            <ListPageFilterBar
-              pageIcon={<ClubIcon size={20} />}
-              iconBoxClassName="bg-indigo-50 text-indigo-600 border-indigo-200/80"
-              filterSummary={filterSummary}
-              hasActiveCustomFilter={hasActiveCustomFilter}
+        <div className="flex shrink-0 flex-col gap-1.5">
+        {/* Search */}
+        <div className="shrink-0 flex-none">
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
               onClick={handleOpenModal}
+              aria-label="Open club filter"
+              title="Club filter"
+              className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-xl border border-indigo-200/80 bg-white text-indigo-600 shadow-2xs transition-colors hover:border-indigo-400 hover:bg-slate-50 md:hidden"
+            >
+              <ClubIcon size={20} />
+            </button>
+            <Input
+              size="middle"
+              placeholder="Search..."
+              allowClear
+              prefix={
+                <button
+                  type="button"
+                  aria-label="Search clubs"
+                  onClick={handleSearch}
+                  className="mr-2 flex cursor-pointer items-center border-0 bg-transparent p-0 text-lg text-slate-500 transition-colors hover:text-blue-600"
+                >
+                  <SearchOutlined />
+                </button>
+              }
+              value={keyword}
+              onChange={(e) => setKeyword(e.target.value)}
+              onPressEnter={handleSearch}
+              className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-3 py-1 text-sm shadow-2xs transition-colors hover:bg-white hover:border-blue-400 focus:bg-white focus:border-blue-500"
             />
           </div>
+
+        </div>
+
+        {/* Mobile: chỉ hiển thị kết quả filter hiện tại */}
+        <div className="shrink-0 md:hidden">
+          <div className="flex min-h-10 items-center rounded-xl border border-slate-200 bg-white px-3.5 py-2 shadow-2xs">
+            <span className="whitespace-normal break-words text-sm font-semibold leading-snug text-slate-800">
+              {filterSummary}
+            </span>
+          </div>
+        </div>
         </div>
 
         {/* Khung Vùng danh sách bên dưới */}

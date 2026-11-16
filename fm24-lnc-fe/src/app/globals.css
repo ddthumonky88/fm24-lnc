@@ -506,4 +506,10 @@ body:has(.ant-modal-root .ant-modal-wrap:not([style*='display: none'])) .ant-too
   word-break: break-word !important;
 }
 
+/* Tất cả Ant Design Tag luôn có đường viền; màu tùy chỉnh của từng tag vẫn được giữ. */
+:where(.ant-tag) {
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
 

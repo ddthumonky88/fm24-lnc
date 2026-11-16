@@ -2662,7 +2662,7 @@
 # COMP > UEFA > [BIH] BOSNIA & HERZEGOVINA > Domestic League (2)
 #====================================================================================
 "COMP_LONG_NAME_CHANGE" 	95010081 	"Prva liga Bosne i Hercegovine"				""
-"COMP_SHORT_NAME_CHANGE" 	95010081 	"Prva liga BiH"				""
+"COMP_SHORT_NAME_CHANGE" 	95010081 	"Prva liga BiH"						""
 "COMP_3LETTER_NAME_CHANGE"	95010081 	"PLBH"							""
 
 #"PARENT_COMP_ID"		8407370		 95010081						""
