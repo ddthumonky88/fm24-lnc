@@ -252,17 +252,19 @@ public class LncParserService {
         rows, r -> new Object[]{r.get("id"),r.get("first"),r.getOrDefault("common",""),r.get("second")});
   }
   private void upsertClubs(Map<String, Map<String, Object>> rows, Map<String,String> nations, Map<String, Map<String, Object>> cities) {
-    batch("INSERT INTO clubs(id,name_lg,name_sh,name_6l,name_3l,nation_id,affiliate_club_id,affiliate_club_type,is_extinct,city_id,base_nation_id) " +
-          "VALUES (?,?,?,?,?,?,?,?,?,?,?) " +
+    batch("INSERT INTO clubs(id,name_lg,name_sh,name_6l,name_3l,nation_id,comp_id,affiliate_club_id,affiliate_club_type,is_extinct,city_id,base_nation_id) " +
+          "VALUES (?,?,?,?,?,?,?,?,?,?,?,?) " +
           "ON CONFLICT(id) DO UPDATE SET " +
           "name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_6l=EXCLUDED.name_6l,name_3l=EXCLUDED.name_3l," +
-          "nation_id=EXCLUDED.nation_id,affiliate_club_id=EXCLUDED.affiliate_club_id,affiliate_club_type=EXCLUDED.affiliate_club_type," +
+          "nation_id=EXCLUDED.nation_id,comp_id=EXCLUDED.comp_id,affiliate_club_id=EXCLUDED.affiliate_club_id,affiliate_club_type=EXCLUDED.affiliate_club_type," +
           "is_extinct=EXCLUDED.is_extinct,city_id=EXCLUDED.city_id,base_nation_id=EXCLUDED.base_nation_id",
         rows, r -> {
           String rawCityId = text(r.get("city_id")).trim();
           Map<String, Object> cityData = cities != null && !rawCityId.isBlank() ? cities.get(rawCityId) : null;
           String validCityId = cityData != null ? rawCityId : null;
           String baseNationId = cityData != null ? nations.get(text(cityData.get("nation_code")).toUpperCase(Locale.ROOT)) : null;
+          String competitionId = headerCode(text(r.get("comp")));
+          if (competitionId != null && !competitionId.matches("(?:n-)?\\d+")) competitionId = null;
           return new Object[]{
               r.get("id"),
               fallback(r,"name_lg","Club "+r.get("id")),
@@ -270,6 +272,7 @@ public class LncParserService {
               r.get("name_6l"),
               r.get("name_3l"),
               nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),
+              competitionId,
               r.get("affiliate_id"),
               r.get("affiliate_type"),
               text(r.get("comp")).contains("EXTINCT"),
