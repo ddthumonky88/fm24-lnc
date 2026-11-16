@@ -7,7 +7,6 @@ import { SearchOutlined, ReloadOutlined } from '@ant-design/icons';
 import CardGrid from '../../components/CardGrid';
 import SubCompetitionsModal from '../../components/SubCompetitionsModal';
 import { CompIcon } from '../../components/EntityIcons';
-import ListPageFilterBar from '../../components/ListPageFilterBar';
 import UnitTree from '../../components/UnitTree';
 import { useApp } from '../../context/AppContext';
 import { fetchCompetitionsList, fetchUnitTree, findNationInTree, CompetitionItem, UnitTreeNode } from '../../services/api';
@@ -175,7 +174,6 @@ function ListCompsContent() {
   }
 
   const filterSummary = levels.length > 0 ? levels.join(' > ') : 'All competitions';
-  const hasActiveCustomFilter = scope !== 'all' || selectedConfed !== 'all' || selectedNation !== 'all';
 
   const handleOpenModal = () => {
     setTempScope(scope);
@@ -324,26 +322,23 @@ function ListCompsContent() {
       {/* 2. KHU VỰC BÊN PHẢI: Search + Vùng Danh Sách */}
       <div className="flex-1 min-w-0 min-h-0 h-full flex flex-col gap-3 overflow-hidden">
         {/* Khung Search trên cùng */}
-        <div className="shrink-0 flex-none bg-white border border-slate-200/90 rounded-2xl p-2 shadow-2xs">
-          <Input
+          <div className="flex shrink-0 flex-col gap-1.5">
+            <div className="flex items-center gap-2">
+              <button type="button" onClick={handleOpenModal} aria-label="Open competition filter" className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-xl border border-amber-200/80 bg-white text-amber-600 shadow-2xs transition-colors hover:border-amber-400 hover:bg-slate-50 md:hidden">
+                <CompIcon size={20} />
+              </button>
+              <Input
             size="middle"
             placeholder="Search..."
             allowClear
             prefix={<SearchOutlined className="text-slate-400 text-lg mr-2" />}
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
-            className="w-full text-sm bg-slate-50/80 hover:bg-white focus:bg-white rounded-xl border border-slate-200 hover:border-blue-400 focus:border-blue-500 py-1 px-3 shadow-2xs transition-colors"
-          />
-
-          {/* Mobile Filter Bar (Chỉ hiển thị trên mobile < md) */}
-          <div className="md:hidden mt-2">
-            <ListPageFilterBar
-              pageIcon={<CompIcon size={20} />}
-              iconBoxClassName="bg-amber-50 text-amber-600 border-amber-200/80"
-              filterSummary={filterSummary}
-              hasActiveCustomFilter={hasActiveCustomFilter}
-              onClick={handleOpenModal}
-            />
+              className="min-w-0 flex-1 rounded-xl border border-slate-200 bg-white px-3 py-1 text-sm shadow-2xs transition-colors hover:border-blue-400 focus:border-blue-500"
+              />
+            </div>
+            <div className="flex min-h-10 items-center rounded-xl border border-slate-200 bg-white px-3.5 py-2 shadow-2xs md:hidden">
+              <span className="whitespace-normal break-words text-sm font-semibold leading-snug text-slate-800">{filterSummary}</span>
           </div>
         </div>
 

@@ -11,8 +11,6 @@ import {
   FlagOutlined,
   EyeOutlined,
   BranchesOutlined,
-  CopyOutlined,
-  CheckOutlined,
   InfoCircleOutlined,
   EllipsisOutlined,
   CloseCircleOutlined,
@@ -680,11 +678,6 @@ export default function EntityCard({
                               String(data.id).replace(/^\[/, '').replace(/\]$/, '')
                             )}
                           </span>
-                          {idCopied ? (
-                            <CheckOutlined className="text-emerald-500 text-[10px]" />
-                          ) : (
-                            <CopyOutlined className={`text-[10px] ${isCityRemove ? 'text-red-400 hover:text-red-600' : isNewRecord ? 'text-emerald-500 hover:text-emerald-700' : 'text-blue-500 hover:text-blue-700'}`} />
-                          )}
                         </Tag>
                       </Tooltip>
                     )}
