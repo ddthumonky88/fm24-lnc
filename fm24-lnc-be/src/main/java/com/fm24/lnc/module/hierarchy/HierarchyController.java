@@ -185,7 +185,6 @@ public class HierarchyController {
       }
     }
     Object affiliateId=club.get("affiliate_club_id");
-    club.put("affiliate",null);
     if(affiliateId!=null){
       List<Map<String,Object>> affiliates=jdbc.queryForList("SELECT id,name_lg,name_sh,name_6l,name_3l FROM clubs WHERE id::text=?",String.valueOf(affiliateId));
       if(!affiliates.isEmpty()){
@@ -195,7 +194,6 @@ public class HierarchyController {
       }
     }
     Object cityId=club.get("city_id");
-    club.put("city",null);
     if(cityId!=null){
       List<Map<String,Object>> cities=jdbc.queryForList("SELECT id,name,nation_id,region,region_id,is_disabled FROM cities WHERE id::text=?",String.valueOf(cityId));
       if(!cities.isEmpty()){
@@ -205,18 +203,19 @@ public class HierarchyController {
       }
     }
     Object baseNationId=club.get("base_nation_id");
-    club.put("base_nation",null);
-    club.put("baseNation",null);
-    club.put("base-nation",null);
     if(baseNationId!=null){
       List<Map<String,Object>> baseNations=jdbc.queryForList("SELECT id,name_lg,name_sh,name_3l,confed FROM nations WHERE id::text=?",String.valueOf(baseNationId));
       if(!baseNations.isEmpty()){
         Map<String,Object> bn=baseNations.get(0);
         club.put("base_nation",bn);
-        club.put("baseNation",bn);
-        club.put("base-nation",bn);
       }
     }
+    club.remove("nation_id");
+    club.remove("comp_id");
+    club.remove("city_id");
+    club.remove("affiliate_club_id");
+    club.remove("affiliate_club_type");
+    club.remove("base_nation_id");
   }
   private void enrichCity(Map<String,Object> city){
     Object nationId=city.get("nation_id");

@@ -247,8 +247,8 @@ export default function RecordDetailModal({
           : defaultNationId
             ? String(defaultNationId)
             : null,
-        comp_id: activeData.comp_id
-          ? String(activeData.comp_id)
+        comp_id: activeData.comp_id || activeData.comp?.id
+          ? String(activeData.comp_id || activeData.comp?.id)
           : defaultCompId
             ? String(defaultCompId)
             : null,

@@ -1402,7 +1402,7 @@ export function getFifaFlagUrl(code?: string | null): string {
 export function getLocalFlagUrl(code?: string | null, useOtherFolder = false): string {
   const normalized = (code || '').trim().toLowerCase();
   if (!/^[a-z]{3}$/.test(normalized)) return '';
-  return `/flag/${useOtherFolder ? 'other/' : ''}${normalized}.png`;
+  return `/fm/flag/${useOtherFolder ? 'other/' : ''}${normalized}.png`;
 }
 
 export function getCompetitionLogoUrl(id: string | number): string {
