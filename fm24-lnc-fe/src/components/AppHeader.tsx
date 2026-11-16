@@ -2,7 +2,7 @@
 
 import React, { useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { Button, Dropdown, Tooltip, type MenuProps } from 'antd';
+import { Dropdown, Tooltip, type MenuProps } from 'antd';
 import {
   MenuOutlined,
   SyncOutlined,
@@ -12,7 +12,6 @@ import {
   UserOutlined,
   FlagOutlined,
   DownOutlined,
-  SettingOutlined,
 } from '@ant-design/icons';
 
 import { RecordType } from '../types';
@@ -27,7 +26,6 @@ interface AppHeaderProps {
   onToggleSidebar: () => void;
   onToggleMobileMenu: () => void;
   onOpenSearchModal: () => void;
-  onOpenSettings?: () => void;
   onSync: () => void;
   isSyncing?: boolean;
   onExport: () => void;
@@ -46,7 +44,6 @@ export default function AppHeader({
   onToggleSidebar,
   onToggleMobileMenu,
   onOpenSearchModal,
-  onOpenSettings,
   onSync,
   isSyncing = false,
   onExport,
@@ -197,27 +194,6 @@ export default function AppHeader({
       ),
       children: quickAddItems,
     },
-    {
-      type: 'divider',
-    },
-    {
-      key: 'settings',
-      icon: <SettingOutlined className="text-slate-600 text-sm" />,
-      label: (
-        <div className="flex items-center justify-between gap-6 py-1 min-w-[190px]">
-          <div className="flex flex-col">
-            <span className="font-semibold text-slate-800 text-xs sm:text-sm">
-              Cấu hình thư mục
-            </span>
-            <span className="text-[11px] text-slate-400">File .LNC & thư mục logo</span>
-          </div>
-          <kbd className="text-[10px] font-mono text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
-            Ctrl+,
-          </kbd>
-        </div>
-      ),
-      onClick: onOpenSettings,
-    },
   ];
 
   return (
@@ -283,18 +259,8 @@ export default function AppHeader({
           )}
         </div>
 
-        {/* Right Section: Actions Dropdown + Settings Button */}
+        {/* Right Section: Actions Dropdown */}
         <div className="flex items-center gap-1.5 shrink-0">
-          {onOpenSettings && (
-            <Tooltip title="Cấu hình Thư mục Dữ liệu & Ảnh (Ctrl+,)">
-              <Button
-                icon={<SettingOutlined className="text-slate-600 text-sm" />}
-                onClick={onOpenSettings}
-                className="h-8 w-8 px-0 border-slate-200 hover:border-blue-400 hover:text-blue-600 shadow-2xs cursor-pointer flex items-center justify-center"
-              />
-            </Tooltip>
-          )}
-
           <Dropdown menu={{ items: actionMenuItems }} placement="bottomRight" trigger={['click']}>
             <Tooltip title="FM24 Menu (Export, Sync, Quick Add...)">
               <button

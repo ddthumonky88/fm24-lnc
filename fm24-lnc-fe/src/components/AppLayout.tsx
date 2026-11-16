@@ -7,7 +7,6 @@ import AppSidebar from './AppSidebar';
 import AppHeader from './AppHeader';
 import RecordModal from './RecordModal';
 import QuickSearchModal from './QuickSearchModal';
-import SettingsModal from './SettingsModal';
 import { AppContextProvider } from '../context/AppContext';
 import { reimportLnc, getExportUrl, fetchContinents } from '../services/api';
 import { RecordType, EntityType } from '../types';
@@ -22,7 +21,6 @@ export default function AppLayout({ children }: { children: ReactNode }) {
 
   // Global modals state
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isRecordModalOpen, setIsRecordModalOpen] = useState(false);
   const [recordModalType, setRecordModalType] = useState<RecordType | EntityType | string>(RecordType.CLUB);
   const [editingRecord, setEditingRecord] = useState<any | null>(null);
@@ -107,12 +105,6 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         return;
       }
 
-      // Settings: Ctrl+, or Cmd+,
-      if ((e.ctrlKey || e.metaKey) && e.key === ',') {
-        e.preventDefault();
-        setIsSettingsOpen(true);
-        return;
-      }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
@@ -154,7 +146,6 @@ export default function AppLayout({ children }: { children: ReactNode }) {
           isMobileOpen={mobileMenuOpen}
           onCloseMobile={() => setMobileMenuOpen(false)}
           onOpenSearchModal={() => setIsSearchModalOpen(true)}
-          onOpenSettings={() => setIsSettingsOpen(true)}
           onSync={handleSyncLnc}
           onExport={handleExportLnc}
           totalContinents={totalContinents}
@@ -167,7 +158,6 @@ export default function AppLayout({ children }: { children: ReactNode }) {
             onToggleSidebar={() => setSidebarCollapsed(!sidebarCollapsed)}
             onToggleMobileMenu={() => setMobileMenuOpen(!mobileMenuOpen)}
             onOpenSearchModal={() => setIsSearchModalOpen(true)}
-            onOpenSettings={() => setIsSettingsOpen(true)}
             onSync={handleSyncLnc}
             isSyncing={isSyncing}
             onExport={handleExportLnc}
@@ -218,11 +208,6 @@ export default function AppLayout({ children }: { children: ReactNode }) {
           }}
         />
 
-        <SettingsModal
-          open={isSettingsOpen}
-          onClose={() => setIsSettingsOpen(false)}
-          onRefreshData={triggerRefresh}
-        />
       </div>
     </AppContextProvider>
   );

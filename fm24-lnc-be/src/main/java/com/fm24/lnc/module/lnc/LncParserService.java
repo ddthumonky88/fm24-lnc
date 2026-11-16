@@ -3,9 +3,11 @@ package com.fm24.lnc.module.lnc;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -106,9 +108,9 @@ public class LncParserService {
       if (cmd.startsWith("NATION_")) {
         Map<String, Object> row = row(nations, id);
         row.put("confed", confed);
-        if (cmd.equals("NATION_LONG_NAME_CHANGE")) row.put("name_lg", value);
-        else if (cmd.equals("NATION_SHORT_NAME_CHANGE")) row.put("name_sh", value);
-        else if (cmd.equals("NATION_3LETTER_NAME_CHANGE")) row.put("name_3l", value);
+        if (cmd.equals("NATION_LONG_NAME_CHANGE")) { row.put("name_lg", value); updateInactiveField(row,"name_lg",disabled); }
+        else if (cmd.equals("NATION_SHORT_NAME_CHANGE")) { row.put("name_sh", value); updateInactiveField(row,"name_sh",disabled); }
+        else if (cmd.equals("NATION_3LETTER_NAME_CHANGE")) { row.put("name_3l", value); updateInactiveField(row,"name_3l",disabled); }
       } else if (cmd.equals("CITY_NAME_CHANGE")) {
         Map<String, Object> row = row(cities, id);
         row.put("name", value); row.put("nation_code", nationCode);
@@ -158,9 +160,10 @@ public class LncParserService {
       String cmd = m.group(1), id = m.group(2), value = m.group(3).trim();
       Map<String, Object> target = cmd.startsWith("AWARD_") ? row(awards, id) : row(competitions, id);
       target.putIfAbsent("confed", confed); target.putIfAbsent("nation_code", nationCode); target.putIfAbsent("type", category);
-      if (cmd.endsWith("LONG_NAME_CHANGE")) target.put("name_lg", value);
-      else if (cmd.endsWith("SHORT_NAME_CHANGE")) target.put("name_sh", value);
-      else if (cmd.equals("COMP_3LETTER_NAME_CHANGE")) target.put("name_3l", value);
+      boolean disabled = line.startsWith("#");
+      if (cmd.endsWith("LONG_NAME_CHANGE")) { target.put("name_lg", value); updateInactiveField(target,"name_lg",disabled); }
+      else if (cmd.endsWith("SHORT_NAME_CHANGE")) { target.put("name_sh", value); updateInactiveField(target,"name_sh",disabled); }
+      else if (cmd.equals("COMP_3LETTER_NAME_CHANGE")) { target.put("name_3l", value); updateInactiveField(target,"name_3l",disabled); }
     }
   }
 
@@ -194,10 +197,10 @@ public class LncParserService {
       } else if (cmd.startsWith("CLUB_")) {
         Map<String, Object> row = row(clubs, id);
         row.putIfAbsent("nation_code", clubNation); row.putIfAbsent("comp", clubComp);
-        if (cmd.equals("CLUB_NAME_CHANGE") || cmd.equals("CLUB_LONG_NAME_CHANGE")) row.put("name_lg", value);
-        else if (cmd.equals("CLUB_SHORT_NAME_CHANGE")) row.put("name_sh", value);
-        else if (cmd.equals("CLUB_6LETTER_NAME_CHANGE")) row.put("name_6l", value);
-        else if (cmd.equals("CLUB_3LETTER_NAME_CHANGE")) row.put("name_3l", value);
+        if (cmd.equals("CLUB_NAME_CHANGE") || cmd.equals("CLUB_LONG_NAME_CHANGE")) { row.put("name_lg", value); updateInactiveField(row,"name_lg",disabled); }
+        else if (cmd.equals("CLUB_SHORT_NAME_CHANGE")) { row.put("name_sh", value); updateInactiveField(row,"name_sh",disabled); }
+        else if (cmd.equals("CLUB_6LETTER_NAME_CHANGE")) { row.put("name_6l", value); updateInactiveField(row,"name_6l",disabled); }
+        else if (cmd.equals("CLUB_3LETTER_NAME_CHANGE")) { row.put("name_3l", value); updateInactiveField(row,"name_3l",disabled); }
         else if (cmd.equals("CLUB_CITY_CHANGE") && !disabled) {
           if (!value.isBlank() && !"rd-uid".equalsIgnoreCase(value)) {
             row.put("city_id", value);
@@ -213,8 +216,8 @@ public class LncParserService {
   }
 
   private void upsertNations(Map<String, Map<String, Object>> rows) {
-    batch("INSERT INTO nations(id,name_lg,name_sh,name_3l,confed) VALUES (?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_3l=EXCLUDED.name_3l,confed=EXCLUDED.confed",
-        rows, r -> new Object[]{r.get("id"), fallback(r,"name_lg","Nation "+r.get("id")), fallback(r,"name_sh",fallback(r,"name_lg","Nation "+r.get("id"))), fallback(r,"name_3l","UNK"), r.get("confed")});
+    batch("INSERT INTO nations(id,name_lg,name_sh,name_3l,confed,inactive_fields) VALUES (?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_3l=EXCLUDED.name_3l,confed=EXCLUDED.confed,inactive_fields=EXCLUDED.inactive_fields",
+        rows, r -> new Object[]{r.get("id"), fallback(r,"name_lg","Nation "+r.get("id")), fallback(r,"name_sh",fallback(r,"name_lg","Nation "+r.get("id"))), fallback(r,"name_3l","UNK"), r.get("confed"), inactiveFields(r)});
   }
   private void upsertCities(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
     batch("INSERT INTO cities(id,name,nation_id,region,is_disabled) VALUES (?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name=EXCLUDED.name,nation_id=EXCLUDED.nation_id,region=EXCLUDED.region,is_disabled=EXCLUDED.is_disabled",
@@ -240,24 +243,24 @@ public class LncParserService {
         regions, r -> new Object[]{r.get("name"),r.get("nation_id"),r.get("code")});
   }
   private void upsertCompetitions(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
-    batch("INSERT INTO competitions(id,name_lg,name_sh,name_3l,confed,nation_id,type,parent_id) VALUES (?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_3l=EXCLUDED.name_3l,confed=EXCLUDED.confed,nation_id=EXCLUDED.nation_id,type=EXCLUDED.type,parent_id=EXCLUDED.parent_id",
-        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Competition "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Competition "+r.get("id"))),r.get("name_3l"),r.get("confed"),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),r.get("type"),r.get("parent_id")});
+    batch("INSERT INTO competitions(id,name_lg,name_sh,name_3l,confed,nation_id,type,parent_id,inactive_fields) VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_3l=EXCLUDED.name_3l,confed=EXCLUDED.confed,nation_id=EXCLUDED.nation_id,type=EXCLUDED.type,parent_id=EXCLUDED.parent_id,inactive_fields=EXCLUDED.inactive_fields",
+        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Competition "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Competition "+r.get("id"))),r.get("name_3l"),r.get("confed"),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),r.get("type"),r.get("parent_id"),inactiveFields(r)});
   }
   private void upsertAwards(Map<String, Map<String, Object>> rows, Map<String,String> nations) {
-    batch("INSERT INTO awards(id,name_lg,name_sh,nation_id) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,nation_id=EXCLUDED.nation_id",
-        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Award "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Award "+r.get("id"))),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT))});
+    batch("INSERT INTO awards(id,name_lg,name_sh,nation_id,inactive_fields) VALUES (?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,nation_id=EXCLUDED.nation_id,inactive_fields=EXCLUDED.inactive_fields",
+        rows, r -> new Object[]{r.get("id"),fallback(r,"name_lg","Award "+r.get("id")),fallback(r,"name_sh",fallback(r,"name_lg","Award "+r.get("id"))),nations.get(text(r.get("nation_code")).toUpperCase(Locale.ROOT)),inactiveFields(r)});
   }
   private void upsertPeople(Map<String, Map<String, Object>> rows) {
     batch("INSERT INTO people(id,first_name,common_name,second_name) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET first_name=EXCLUDED.first_name,common_name=EXCLUDED.common_name,second_name=EXCLUDED.second_name",
         rows, r -> new Object[]{r.get("id"),r.get("first"),r.getOrDefault("common",""),r.get("second")});
   }
   private void upsertClubs(Map<String, Map<String, Object>> rows, Map<String,String> nations, Map<String, Map<String, Object>> cities) {
-    batch("INSERT INTO clubs(id,name_lg,name_sh,name_6l,name_3l,nation_id,comp_id,affiliate_club_id,affiliate_club_type,is_extinct,city_id,base_nation_id) " +
-          "VALUES (?,?,?,?,?,?,?,?,?,?,?,?) " +
+    batch("INSERT INTO clubs(id,name_lg,name_sh,name_6l,name_3l,nation_id,comp_id,affiliate_club_id,affiliate_club_type,is_extinct,city_id,base_nation_id,inactive_fields) " +
+          "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?) " +
           "ON CONFLICT(id) DO UPDATE SET " +
           "name_lg=EXCLUDED.name_lg,name_sh=EXCLUDED.name_sh,name_6l=EXCLUDED.name_6l,name_3l=EXCLUDED.name_3l," +
           "nation_id=EXCLUDED.nation_id,comp_id=EXCLUDED.comp_id,affiliate_club_id=EXCLUDED.affiliate_club_id,affiliate_club_type=EXCLUDED.affiliate_club_type," +
-          "is_extinct=EXCLUDED.is_extinct,city_id=EXCLUDED.city_id,base_nation_id=EXCLUDED.base_nation_id",
+          "is_extinct=EXCLUDED.is_extinct,city_id=EXCLUDED.city_id,base_nation_id=EXCLUDED.base_nation_id,inactive_fields=EXCLUDED.inactive_fields",
         rows, r -> {
           String rawCityId = text(r.get("city_id")).trim();
           Map<String, Object> cityData = cities != null && !rawCityId.isBlank() ? cities.get(rawCityId) : null;
@@ -277,7 +280,8 @@ public class LncParserService {
               r.get("affiliate_type"),
               text(r.get("comp")).contains("EXTINCT"),
               validCityId,
-              baseNationId
+              baseNationId,
+              inactiveFields(r)
           };
         });
   }
@@ -297,6 +301,17 @@ public class LncParserService {
     return rows.computeIfAbsent(id, ignored -> { var value = new LinkedHashMap<String,Object>(); value.put("id", id); return value; });
   }
   private static Matcher command(String line) { return COMMAND.matcher(line); }
+  @SuppressWarnings("unchecked")
+  private static void updateInactiveField(Map<String,Object> row,String field,boolean inactive) {
+    Set<String> fields=(Set<String>)row.computeIfAbsent("_inactive_fields",ignored->new LinkedHashSet<String>());
+    if(inactive) fields.add(field); else fields.remove(field);
+  }
+  @SuppressWarnings("unchecked")
+  private static String inactiveFields(Map<String,Object> row) {
+    Object value=row.get("_inactive_fields");
+    if(!(value instanceof Set<?> fields)||fields.isEmpty()) return null;
+    return String.join(",",(Set<String>)fields);
+  }
   private static String stripCommentPrefix(String line) { return line.replaceFirst("^#+\\s*", "").trim(); }
   private static String headerCode(String value) { if(value==null)return null; Matcher m=HEADER_CODE.matcher(value); return m.find()?m.group(1):null; }
   private static String cleanRegion(String value) { return value == null ? null : value.replaceFirst("^\\[[^]]+]\\s*", "").trim(); }

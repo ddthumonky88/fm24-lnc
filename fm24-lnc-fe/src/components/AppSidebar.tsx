@@ -10,7 +10,6 @@ import {
   CloseOutlined,
   LeftOutlined,
   RightOutlined,
-  SettingOutlined,
   TrophyOutlined,
   BankOutlined,
   EnvironmentOutlined,
@@ -31,7 +30,6 @@ interface AppSidebarProps {
   isMobileOpen: boolean;
   onCloseMobile: () => void;
   onOpenSearchModal: () => void;
-  onOpenSettings?: () => void;
   onSync: () => void;
   onExport: () => void;
   totalContinents?: number;
@@ -45,7 +43,6 @@ export default function AppSidebar({
   isMobileOpen,
   onCloseMobile,
   onOpenSearchModal,
-  onOpenSettings,
   onSync,
   onExport,
   totalContinents = 0,
@@ -282,40 +279,6 @@ export default function AppSidebar({
             return <div key={item.key}>{buttonNode}</div>;
           })}
         </div>
-
-        {/* Settings Button */}
-        {onOpenSettings && (
-          <div className="px-3 pb-2 pt-1 border-t border-[#19263e]/60">
-            {isCollapsed ? (
-              <Tooltip placement="right" title="Cấu hình thư mục (Ctrl+,)">
-                <button
-                  type="button"
-                  onClick={() => {
-                    onOpenSettings();
-                    if (isMobile) onCloseMobile();
-                  }}
-                  className="w-full flex items-center justify-center p-2.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/80 transition-all cursor-pointer"
-                  title="Cấu hình thư mục (Ctrl+,)"
-                >
-                  <SettingOutlined className="text-base" />
-                </button>
-              </Tooltip>
-            ) : (
-              <button
-                type="button"
-                onClick={() => {
-                  onOpenSettings();
-                  if (isMobile) onCloseMobile();
-                }}
-                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/80 transition-all cursor-pointer"
-                title="Cấu hình thư mục (Ctrl+,)"
-              >
-                <SettingOutlined className="text-base shrink-0" />
-                <span className="truncate font-semibold text-xs">Cấu hình thư mục</span>
-              </button>
-            )}
-          </div>
-        )}
 
         {/* Footer Info & Collapse Toggle (Collapse toggle only on desktop) */}
         <div className="p-3 border-t border-[#19263e] shrink-0 bg-[#070d18]">

@@ -1065,7 +1065,7 @@ export default function EntityCard({
               <img
                 src={entityNationFlagUrl}
                 alt={data.nation?.name || data.nation?.name_sh || data.nation?.name_lg || 'Nation flag'}
-                className="h-5 w-8 shrink-0 rounded-[3px] border border-slate-400 bg-white object-cover shadow-sm"
+                className="h-[18px] w-7 shrink-0 rounded-[3px] border border-slate-400 bg-white object-cover shadow-sm"
                 onClick={(event) => event.stopPropagation()}
                 onError={(event) => {
                   if (!event.currentTarget.dataset.fallbackAttempted) {
@@ -1106,7 +1106,7 @@ export default function EntityCard({
                 <img
                   src={url}
                   alt={code || 'Nation flag'}
-                  className="h-5 w-8 shrink-0 rounded-[3px] border border-slate-400 bg-white object-cover shadow-sm"
+                  className="h-[18px] w-7 shrink-0 rounded-[3px] border border-slate-400 bg-white object-cover shadow-sm"
                   onError={(event) => {
                     if (!event.currentTarget.dataset.fallbackAttempted) {
                       event.currentTarget.dataset.fallbackAttempted = 'true';

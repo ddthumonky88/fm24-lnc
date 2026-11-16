@@ -38,7 +38,8 @@ function ListClubsContent() {
 
   const [treeNodes, setTreeNodes] = useState<UnitTreeNode[]>([]);
   const [keyword, setKeyword] = useState<string>('');
-  const [debouncedKeyword, setDebouncedKeyword] = useState<string>('');
+  const [submittedKeyword, setSubmittedKeyword] = useState<string>('');
+  const [searchRequestId, setSearchRequestId] = useState<number>(0);
   const [clubs, setClubs] = useState<ClubItem[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [page, setPage] = useState<number>(1);
@@ -99,13 +100,10 @@ function ListClubsContent() {
     }
   }, [selectedCompId, selectedCompName, selectedNation]);
 
-  // Debounce search input
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setDebouncedKeyword(keyword.trim());
-      setPage(1);
-    }, 300);
-    return () => clearTimeout(timer);
+  const handleSearch = useCallback(() => {
+    setSubmittedKeyword(keyword.trim());
+    setPage(1);
+    setSearchRequestId((current) => current + 1);
   }, [keyword]);
 
   // Set AppHeader
@@ -136,9 +134,9 @@ function ListClubsContent() {
           extinct: extinctFilter === 'all' ? undefined : extinctFilter === 'extinct',
           page: page - 1,
           size: pageSize,
-          keyword: debouncedKeyword,
+          keyword: submittedKeyword,
         },
-        refreshSignal > 0,
+        refreshSignal > 0 || searchRequestId > 0,
       );
 
       const items: ClubItem[] = Array.isArray(res) ? res : (res as any)?.content || [];
@@ -172,7 +170,7 @@ function ListClubsContent() {
     } finally {
       setLoading(false);
     }
-  }, [selectedConfed, selectedNation, selectedCompId, extinctFilter, page, pageSize, pageSizeReady, debouncedKeyword, refreshSignal, message]);
+  }, [selectedConfed, selectedNation, selectedCompId, extinctFilter, page, pageSize, pageSizeReady, submittedKeyword, searchRequestId, refreshSignal, message]);
 
   useEffect(() => {
     loadClubs();
@@ -402,9 +400,19 @@ function ListClubsContent() {
             size="middle"
             placeholder="Search..."
             allowClear
-            prefix={<SearchOutlined className="text-slate-400 text-lg mr-2" />}
+            prefix={
+              <button
+                type="button"
+                aria-label="Search clubs"
+                onClick={handleSearch}
+                className="mr-2 flex cursor-pointer items-center border-0 bg-transparent p-0 text-lg text-slate-500 transition-colors hover:text-blue-600"
+              >
+                <SearchOutlined />
+              </button>
+            }
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
+            onPressEnter={handleSearch}
             className="w-full text-sm bg-slate-50/80 hover:bg-white focus:bg-white rounded-xl border border-slate-200 hover:border-blue-400 focus:border-blue-500 py-1 px-3 shadow-2xs transition-colors"
           />
 
