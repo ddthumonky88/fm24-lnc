@@ -5055,6 +5055,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		131144		"Lanzhou"						""
 "CITY_NAME_CHANGE"		1023917		"Tianshui"						""
+"CITY_NAME_CHANGE"		1023921		"Pingliang"						""
 "CITY_NAME_CHANGE"		1023925		"Qingyang"						""
 "CITY_NAME_CHANGE"		1023926		"Dingxi"						""
 
@@ -5093,10 +5094,12 @@
 # CITY > [CHN] CHINA PR > [CHN-GX] Guangxi Zhuang Autonomous Region
 #====================================================================================
 "CITY_NAME_CHANGE"		131146		"Nanning"						""
+"CITY_NAME_CHANGE"		135993		"Liuzhou"						""
 "CITY_NAME_CHANGE"		1023875		"Qinzhou"						""
 "CITY_NAME_CHANGE"		1023876		"Guigang"						""
 "CITY_NAME_CHANGE"		1023877		"Yulin, Guangxi"					""
 "CITY_NAME_CHANGE"		1023878		"Baise"							""
+"CITY_NAME_CHANGE"		1023880		"Laibin"						""
 "CITY_NAME_CHANGE"		5625394		"Guilin"						""
 "CITY_NAME_CHANGE"		5625396		"Hechi"							""
 "CITY_NAME_CHANGE"		5627454		"Wuzhou"						""
@@ -5114,6 +5117,7 @@
 # CITY > [CHN] CHINA PR > [CHN-HI] Hainan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1016674		"Sanya"							""
+"CITY_NAME_CHANGE"		1023882		"Haikou"						""
 
 
 # CITY > [CHN] CHINA PR > [CHN-HE] Hebei Province
@@ -5194,6 +5198,7 @@
 
 # CITY > [CHN] CHINA PR > [CHN-NM] Inner Mongolia Autonomous Region
 #====================================================================================
+"CITY_NAME_CHANGE"		1016666		"Baotou"						""
 "CITY_NAME_CHANGE"		1016731		"Tongliao"						""
 "CITY_NAME_CHANGE"		1023778		"Chifeng"						""
 "CITY_NAME_CHANGE"		1023780		"Hulunbuir"						""
@@ -5203,6 +5208,7 @@
 # CITY > [CHN] CHINA PR > [CHN-JS] Jiangsu Province
 #====================================================================================
 "CITY_NAME_CHANGE"		131171		"Nanjing"						""
+"CITY_NAME_CHANGE"		1016714		"Haimen"						""
 "CITY_NAME_CHANGE"		1016720		"Suqian"						""
 "CITY_NAME_CHANGE"		1016725		"Huai'an"						""
 "CITY_NAME_CHANGE"		1023797		"Yancheng"						""
@@ -5227,14 +5233,17 @@
 "CITY_NAME_CHANGE"		1016768		"Fuzhou, Jiangxi"					""
 "CITY_NAME_CHANGE"		1023826		"Ji'an"							""
 "CITY_NAME_CHANGE"		1023827		"Shangrao"						""
+"CITY_NAME_CHANGE"		23447373	"Ruichang"						""
 
 
 # CITY > [CHN] CHINA PR > [CHN-JL] Jilin Province
 #====================================================================================
+"CITY_NAME_CHANGE"		128061		"Yanji"						""
 "CITY_NAME_CHANGE"		131134		"Changchun"						""
 "CITY_NAME_CHANGE"		1003263		"Siping"						""
 "CITY_NAME_CHANGE"		1016699		"Songyuan"						""
 "CITY_NAME_CHANGE"		5620164		"Jilin"							""
+"CITY_NAME_CHANGE"		5635790		"Longjing"						""
 
 
 # CITY > [CHN] CHINA PR > [CHN-LN] Liaoning Province
@@ -5243,9 +5252,11 @@
 "CITY_NAME_CHANGE"		128057		"Dalian"						""
 "CITY_NAME_CHANGE"		131180		"Anshan"						""
 "CITY_NAME_CHANGE"		136616		"Jinzhou"						""
+"CITY_NAME_CHANGE"		1003257		"Yingkou"						""
 "CITY_NAME_CHANGE"		1016669		"Tai'an, Liaoning"					""
 "CITY_NAME_CHANGE"		1016736		"Chaoyang"						""
 "CITY_NAME_CHANGE"		5625330		"Huludao"						""
+"CITY_NAME_CHANGE"		5629404		"Dandong"						""
 "CITY_NAME_CHANGE"		5633293		"Tieling"						""
 
 
@@ -5363,6 +5374,11 @@
 "CITY_NAME_CHANGE"		128039		"Tianjin"						""
 
 
+# CITY > [CHN] CHINA PR > [CHN-XJ] Xinjiang Uygur Autonomous Region
+#====================================================================================
+"CITY_NAME_CHANGE"		5620168		"Ürümqi"						""
+
+
 # CITY > [CHN] CHINA PR > [CHN-YN] Yunnan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		131228		"Kunming"						""
@@ -5371,6 +5387,7 @@
 "CITY_NAME_CHANGE"		1023904		"Zhaotong"						""
 "CITY_NAME_CHANGE"		1023908		"Dali, Yunnan"						""
 
+"CITY_NAME_CHANGE"		5620154		"Yuxi"							""
 
 # CITY > [CHN] CHINA PR > [CHN-ZJ] Zhejiang Province
 #====================================================================================

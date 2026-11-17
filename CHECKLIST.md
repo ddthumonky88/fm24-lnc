@@ -7,8 +7,8 @@
 ## 1. Số Liệu Tổng Quan Tiến Độ
 
 - **Tổng số CLB trong các giải đấu chính thức:** **4,837 CLB** (loại trừ các nhóm Other/Extinct)
-- **Số CLB đã có City:** **3,242 CLB (67.02%)**
-- **Số CLB chưa có City:** **1,595 CLB (32.98%)**
+- **Số CLB đã có City:** **3,250 CLB (67.19%)**
+- **Số CLB chưa có City:** **1,587 CLB (32.81%)**
 - **Số lượng `rd-uid` còn lại:** **0 dòng** (100% dòng city đều dùng City ID thật từ `fm24_geography.lnc`)
 
 ```mermaid
@@ -16,7 +16,7 @@ xychart-beta
     title "Tỷ lệ bao phủ CLUB_CITY_CHANGE theo Liên đoàn (%)"
     x-axis ["UEFA", "AFC", "CONCACAF", "OFC", "CONMEBOL", "CAF"]
     y-axis "Tỷ lệ bao phủ (%)" 0 --> 100
-    bar [72.9, 64.4, 57.2, 44.0, 49.9, 62.8]
+    bar [72.9, 65.1, 57.2, 44.0, 49.9, 62.8]
 ```
 
 ### Tổng hợp theo Liên đoàn
@@ -24,7 +24,7 @@ xychart-beta
 | Liên đoàn | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ bao phủ | Tiến độ |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **UEFA** | 53 | 1,898 | 2,603 | **72.9%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
-| **AFC** | 35 | 755 | 1,172 | **64.4%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
+| **AFC** | 35 | 763 | 1,172 | **65.1%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
 | **CONCACAF** | 9 | 218 | 381 | **57.2%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ |
 | **OFC** | 1 | 11 | 25 | **44.0%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
 | **CONMEBOL** | 10 | 201 | 403 | **49.9%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
@@ -44,8 +44,8 @@ xychart-beta
 | **100% (Hoàn thành)** | ✅ | **44** | 1,441 | 1,441 | **100.0%** |
 | **90% đến dưới 100%** | 🟢 | **4** | 187 | 202 | **92.6%** |
 | **80% đến dưới 90%** | 🟡 | **1** | 160 | 179 | **89.4%** |
-| **70% đến dưới 80%** | 🟡 | **3** | 71 | 97 | **73.2%** |
-| **60% đến dưới 70%** | 🟡 | **19** | 537 | 828 | **64.9%** |
+| **70% đến dưới 80%** | 🟡 | **4** | 128 | 171 | **74.9%** |
+| **60% đến dưới 70%** | 🟡 | **18** | 488 | 754 | **64.7%** |
 | **50% đến dưới 60%** | 🟡 | **14** | 384 | 717 | **53.6%** |
 | **40% đến dưới 50%** | 🟠 | **10** | 189 | 429 | **44.1%** |
 | **30% đến dưới 40%** | 🟠 | **11** | 198 | 539 | **36.7%** |
@@ -119,15 +119,16 @@ xychart-beta
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
 | 1 | UEFA | **[GER] GERMANY** | 160/179 | **-19** | **89.4%** | `[22] Bundesliga (23/24)` (18/18), `[23] 2. Bundesliga (23/24)` (18/18), `[35010926] 3. Liga (23/24)` (20/20), `[26] Regionalliga Nord (23/24)` (5/6), `[91107110] Regionalliga Nordost (23/24)` (5/8), `[35010927] Regionalliga West (23/24)` (7/7), `[27] Regionalliga Südwest (23/24)` (4/7), `[91107111] Regionalliga Bayern (23/24)` (5/7), `Team II/III` (19/21), `[92086572] A-Junioren-Bundesliga Nord/Nordost (23/24)` (13/14), `[92086574] A-Junioren-Bundesliga West (23/24)` (13/14), `[92086573] A-Junioren-Bundesliga Süd/Südwest (23/24)` (14/14), `NLZ Teams` (19/25) |
 
-### 2.4. Nhóm 70% đến dưới 80% (3 quốc gia) 🟡
+### 2.4. Nhóm 70% đến dưới 80% (4 quốc gia) 🟡
 
 | STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | CONMEBOL | **[COL] COLOMBIA** | 27/36 | **-9** | **75.0%** | `[5260948] Liga BetPlay DIMAYOR (2023)` (20/20), `[5260950] Torneo BetPlay DIMAYOR (2023)` (7/16) |
-| 2 | UEFA | **[LUX] LUXEMBOURG** | 14/19 | **-5** | **73.7%** | `[5340000] BGL Ligue` (14/19) |
-| 3 | UEFA | **[SCO] SCOTLAND** | 30/42 | **-12** | **71.4%** | `[45] Scottish Premiership (23/24)` (12/12), `[46] Scottish Championship (23/24)` (5/10), `[47] Scottish League One (23/24)` (6/10), `[48] Scottish League Two (23/24)` (7/10) |
+| 1 | AFC | **[CHN] CHINA PR** | 57/74 | **-17** | **77.0%** | `[130931] Chinese Super League (2023)` (16/16), `[131126] China League One (2023)` (13/16), `[1002872] China League Two North Group (2023)` (8/8), `[1002873] China League Two South Group (2023)` (5/8), `[5627655] Chinese Champions League` (15/26) |
+| 2 | CONMEBOL | **[COL] COLOMBIA** | 27/36 | **-9** | **75.0%** | `[5260948] Liga BetPlay DIMAYOR (2023)` (20/20), `[5260950] Torneo BetPlay DIMAYOR (2023)` (7/16) |
+| 3 | UEFA | **[LUX] LUXEMBOURG** | 14/19 | **-5** | **73.7%** | `[5340000] BGL Ligue` (14/19) |
+| 4 | UEFA | **[SCO] SCOTLAND** | 30/42 | **-12** | **71.4%** | `[45] Scottish Premiership (23/24)` (12/12), `[46] Scottish Championship (23/24)` (5/10), `[47] Scottish League One (23/24)` (6/10), `[48] Scottish League Two (23/24)` (7/10) |
 
-### 2.5. Nhóm 60% đến dưới 70% (19 quốc gia) 🟡
+### 2.5. Nhóm 60% đến dưới 70% (18 quốc gia) 🟡
 
 | STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
@@ -137,19 +138,18 @@ xychart-beta
 | 4 | UEFA | **[MKD] NORTH MACEDONIA** | 19/28 | **-9** | **67.9%** | `[8401070] 1.MFL (23/24)` (7/12), `[8403796] 2.MFL (23/24)` (12/16) |
 | 5 | CAF | **[MAR] MOROCCO** | 21/31 | **-10** | **67.7%** | `[12019395] Botola Pro (23/24)` (10/16), `[12019395] Botola Pro (22/23)` (11/15) |
 | 6 | UEFA | **[POL] POLAND** | 51/76 | **-25** | **67.1%** | `[129558] Ekstraklasa (23/24)` (13/18), `[129559] I liga (23/24)` (15/18), `[162504] II liga (23/24)` (11/18), `[129560] III liga (23/24)` (12/22) |
-| 7 | AFC | **[CHN] CHINA PR** | 49/74 | **-25** | **66.2%** | `[130931] Chinese Super League (2023)` (13/16), `[131126] China League One (2023)` (10/16), `[1002872] China League Two North Group (2023)` (7/8), `[1002873] China League Two South Group (2023)` (4/8), `[5627655] Chinese Champions League` (15/26) |
-| 8 | AFC | **[THA] THAILAND** | 70/106 | **-36** | **66.0%** | `[5624920] Thai League 1 (23/24)` (16/16), `[5637986] Thai League 2 (23/24)` (18/18), `[2000038391] Thai League 3 Northern Region (23/24)` (5/11), `[2000038392] Thai League 3 Northeastern Region (23/24)` (6/13), `[2000038393] Thai League 3 Eastern Region (23/24)` (3/11), `[2000038394] Thai League 3 Western Region (23/24)` (5/11), `[2000038398] Thai League 3 Southern Region (23/24)` (10/12), `[2000038395] Thai League 3 BK Metropolitan Region (23/24)` (7/14) |
-| 9 | UEFA | **[SVN] SLOVENIA** | 17/26 | **-9** | **65.4%** | `[7580000] Prva Liga Telemach (23/24)` (7/10), `[7580001] 2.SNL (23/24)` (10/16) |
-| 10 | UEFA | **[IRL] IRELAND** | 26/40 | **-14** | **65.0%** | `[129372] LOI Premier Division (2023)` (5/10), `[129373] LOI First Division (2023)` (8/10), `[52086882] LOI Academy U19 League` (13/20) |
-| 11 | UEFA | **[ARM] ARMENIA** | 16/25 | **-9** | **64.0%** | `[59006196] Armenian Premier League (23/24)` (5/10), `[59006197] Armenian First League (23/24)` (11/15) |
-| 12 | UEFA | **[GRE] GREECE** | 24/38 | **-14** | **63.2%** | `[129650] Super League Greece (23/24)` (14/14), `[36086001] Super League Greece 2 North Group (23/24)` (3/12), `[36086002] Super League Greece 2 South Group (23/24)` (7/12) |
-| 13 | UEFA | **[KAZ] KAZAKHSTAN** | 27/43 | **-16** | **62.8%** | `[59007527] Qazaqstan Premier Ligasy (2023)` (7/14), `[59010820] Qazaqstan Birinshi Ligasy (2023)` (11/14), `[59107180] QJ League` (9/15) |
-| 14 | UEFA | **[ISL] ICELAND** | 15/24 | **-9** | **62.5%** | `[7840132] Besta deild karla (2023)` (8/12), `[7840133] Lengjudeild karla (2023)` (7/12) |
-| 15 | AFC | **[IDN] INDONESIA** | 33/53 | **-20** | **62.3%** | `[41004312] Indonesian Super League (23/24)` (8/18), `[41042740] Indonesian Championship (23/24)` (19/28), `[41042746] Liga Nusantara (23/24)` (6/7) |
-| 16 | CONCACAF | **[CRC] COSTA RICA** | 18/29 | **-11** | **62.1%** | `[80000563] Liga Promérica (23/24)` (7/12), `[80000564] Liga Transcomer (23/24)` (11/17) |
-| 17 | AFC | **[UAE] UAE** | 36/59 | **-23** | **61.0%** | `[7880000] UAE Pro League (23/24)` (14/14), `[7880028] UAE First Division League (23/24)` (8/17), `[2000017168] UAE Second Division League (23/24)` (0/14), `U21 Arabian Gulf League` (14/14) |
-| 18 | UEFA | **[LVA] LATVIA** | 14/23 | **-9** | **60.9%** | `[8403697] Latvijas Virsliga (2023)` (6/10), `[8403797] Latvijas Nakotnes liga (2023)` (8/13) |
-| 19 | UEFA | **[BEL] BELGIUM** | 30/50 | **-20** | **60.0%** | `[1] Jupiler Pro League (23/24)` (16/16), `[2] Challenger Pro League (23/24)` (7/16), `[8154824] Belgian Division 1 (23/24)` (7/18) |
+| 7 | AFC | **[THA] THAILAND** | 70/106 | **-36** | **66.0%** | `[5624920] Thai League 1 (23/24)` (16/16), `[5637986] Thai League 2 (23/24)` (18/18), `[2000038391] Thai League 3 Northern Region (23/24)` (5/11), `[2000038392] Thai League 3 Northeastern Region (23/24)` (6/13), `[2000038393] Thai League 3 Eastern Region (23/24)` (3/11), `[2000038394] Thai League 3 Western Region (23/24)` (5/11), `[2000038398] Thai League 3 Southern Region (23/24)` (10/12), `[2000038395] Thai League 3 BK Metropolitan Region (23/24)` (7/14) |
+| 8 | UEFA | **[SVN] SLOVENIA** | 17/26 | **-9** | **65.4%** | `[7580000] Prva Liga Telemach (23/24)` (7/10), `[7580001] 2.SNL (23/24)` (10/16) |
+| 9 | UEFA | **[IRL] IRELAND** | 26/40 | **-14** | **65.0%** | `[129372] LOI Premier Division (2023)` (5/10), `[129373] LOI First Division (2023)` (8/10), `[52086882] LOI Academy U19 League` (13/20) |
+| 10 | UEFA | **[ARM] ARMENIA** | 16/25 | **-9** | **64.0%** | `[59006196] Armenian Premier League (23/24)` (5/10), `[59006197] Armenian First League (23/24)` (11/15) |
+| 11 | UEFA | **[GRE] GREECE** | 24/38 | **-14** | **63.2%** | `[129650] Super League Greece (23/24)` (14/14), `[36086001] Super League Greece 2 North Group (23/24)` (3/12), `[36086002] Super League Greece 2 South Group (23/24)` (7/12) |
+| 12 | UEFA | **[KAZ] KAZAKHSTAN** | 27/43 | **-16** | **62.8%** | `[59007527] Qazaqstan Premier Ligasy (2023)` (7/14), `[59010820] Qazaqstan Birinshi Ligasy (2023)` (11/14), `[59107180] QJ League` (9/15) |
+| 13 | UEFA | **[ISL] ICELAND** | 15/24 | **-9** | **62.5%** | `[7840132] Besta deild karla (2023)` (8/12), `[7840133] Lengjudeild karla (2023)` (7/12) |
+| 14 | AFC | **[IDN] INDONESIA** | 33/53 | **-20** | **62.3%** | `[41004312] Indonesian Super League (23/24)` (8/18), `[41042740] Indonesian Championship (23/24)` (19/28), `[41042746] Liga Nusantara (23/24)` (6/7) |
+| 15 | CONCACAF | **[CRC] COSTA RICA** | 18/29 | **-11** | **62.1%** | `[80000563] Liga Promérica (23/24)` (7/12), `[80000564] Liga Transcomer (23/24)` (11/17) |
+| 16 | AFC | **[UAE] UAE** | 36/59 | **-23** | **61.0%** | `[7880000] UAE Pro League (23/24)` (14/14), `[7880028] UAE First Division League (23/24)` (8/17), `[2000017168] UAE Second Division League (23/24)` (0/14), `U21 Arabian Gulf League` (14/14) |
+| 17 | UEFA | **[LVA] LATVIA** | 14/23 | **-9** | **60.9%** | `[8403697] Latvijas Virsliga (2023)` (6/10), `[8403797] Latvijas Nakotnes liga (2023)` (8/13) |
+| 18 | UEFA | **[BEL] BELGIUM** | 30/50 | **-20** | **60.0%** | `[1] Jupiler Pro League (23/24)` (16/16), `[2] Challenger Pro League (23/24)` (7/16), `[8154824] Belgian Division 1 (23/24)` (7/18) |
 
 ### 2.6. Nhóm 50% đến dưới 60% (14 quốc gia) 🟡
 
@@ -374,6 +374,8 @@ xychart-beta
 | AFC | [BHR] BAHRAIN | `[1039314] Bahraini Second Division (23/24)` | 12/12 | [Line 349](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L349) |
 | AFC | [CAM] CAMBODIA | `[23084471] Cambodian Premier League (23/24)` | 12/12 | [Line 571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L571) |
 | AFC | [CAM] CAMBODIA | `[23184338] Cambodian League 2 (23/24)` | 8/8 | [Line 646](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L646) |
+| AFC | [CHN] CHINA PR | `[130931] Chinese Super League (2023)` | 16/16 | [Line 705](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L705) |
+| AFC | [CHN] CHINA PR | `[1002872] China League Two North Group (2023)` | 8/8 | [Line 894](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L894) |
 | AFC | [HKG] HONG KONG | `[5624449] Hong Kong Premier League (23/24)` | 11/11 | [Line 1292](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1292) |
 | AFC | [HKG] HONG KONG | `[5624450] Hong Kong First Division (23/24)` | 12/12 | [Line 1361](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1361) |
 | AFC | [JPN] JAPAN | `[102428] J1 League (2023)` | 18/18 | [Line 2594](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2594) |
@@ -1004,15 +1006,15 @@ xychart-beta
 | - [x] | `[23084471] Cambodian Premier League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L571) |
 | - [x] | `[23184338] Cambodian League 2 (23/24)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 646](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L646) |
 
-#### - [ ] [CHN] CHINA PR (49/74 CLB — **66.2%** 🟡)
+#### - [ ] [CHN] CHINA PR (57/74 CLB — **77.0%** 🟡)
 
 | Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5627655] Chinese Champions League` | 15 | 26 | **57.7%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 940](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L940) |
-| - [ ] | `[130931] Chinese Super League (2023)` | 13 | 16 | **81.2%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 654](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L654) |
-| - [ ] | `[131126] China League One (2023)` | 10 | 16 | **62.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 750](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L750) |
-| - [ ] | `[1002872] China League Two North Group (2023)` | 7 | 8 | **87.5%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 843](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L843) |
-| - [ ] | `[1002873] China League Two South Group (2023)` | 4 | 8 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 893](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L893) |
+| - [ ] | `[5627655] Chinese Champions League` | 15 | 26 | **57.7%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 999](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L999) |
+| - [x] | `[130931] Chinese Super League (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 705](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L705) |
+| - [ ] | `[131126] China League One (2023)` | 13 | 16 | **81.2%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 804](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L804) |
+| - [x] | `[1002872] China League Two North Group (2023)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 900](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L900) |
+| - [ ] | `[1002873] China League Two South Group (2023)` | 5 | 8 | **62.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 951](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L951) |
 
 #### - [ ] [HKG] HONG KONG (23/25 CLB — **92.0%** 🟡)
 
