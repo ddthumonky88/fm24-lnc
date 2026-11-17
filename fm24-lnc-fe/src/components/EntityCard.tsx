@@ -175,6 +175,15 @@ export default function EntityCard({
     clubAffiliate?.name_sh || clubAffiliate?.name_lg || clubAffiliate?.name || null;
 
   const entityTypeStr = String(type).toLowerCase();
+  const isExtinctClub =
+    (entityTypeStr === 'club' || type === EntityType.CLUB) &&
+    Boolean(
+      data.is_extinct ||
+        data.isExtinct ||
+        data.virtual_type === 'EXTINCT' ||
+        data.id === '[EXTINCT]' ||
+        String(data.category || data.categories || '').toUpperCase().includes('EXTINCT'),
+    );
   const isComp =
     entityTypeStr === 'competition' ||
     entityTypeStr === 'comp' ||
@@ -317,8 +326,14 @@ export default function EntityCard({
       case EntityType.CLUB:
       case 'club':
         return (
-          <span className="w-7 h-7 rounded-full bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-600">
-            <ClubIcon size={16} />
+          <span
+            className={`w-7 h-7 rounded-full border flex items-center justify-center ${
+              isExtinctClub
+                ? 'bg-red-100 border-red-300 text-red-700'
+                : 'bg-blue-50 border-blue-200 text-blue-600'
+            }`}
+          >
+            {isExtinctClub ? <CloseCircleOutlined className="text-base" /> : <ClubIcon size={16} />}
           </span>
         );
       case EntityType.STADIUM:
@@ -591,7 +606,7 @@ export default function EntityCard({
           handleNavigateAction();
         }}
         className={`${
-          isCityRemove
+          isCityRemove || isExtinctClub
             ? 'bg-red-50/70 hover:bg-red-100/60 border border-red-200/80 hover:border-red-400'
             : isNewRecord
               ? 'bg-emerald-50/80 hover:bg-emerald-100/70 border border-emerald-300/90 hover:border-emerald-500'
@@ -604,7 +619,7 @@ export default function EntityCard({
       >
         <div>
           {/* Top Header Bar: chỉ gồm [Thẻ ID] và [btn 3 chấm] */}
-          <div className={`flex items-center justify-between gap-1.5 pb-1.5 mb-2 border-b ${isCityRemove ? 'border-red-200/60' : isNewRecord ? 'border-emerald-300/70' : 'border-blue-200/60'} min-w-0`}>
+          <div className={`flex items-center justify-between gap-1.5 pb-1.5 mb-2 border-b ${isCityRemove || isExtinctClub ? 'border-red-200/80' : isNewRecord ? 'border-emerald-300/70' : 'border-blue-200/60'} min-w-0`}>
             <div className="flex min-w-0 flex-1 items-center gap-1.5 overflow-hidden">
                 {data.id !== undefined && data.id !== null && data.id !== '' && (
                   <div onClick={(e) => e.stopPropagation()} className="flex min-w-0 items-center overflow-hidden">
@@ -1091,7 +1106,7 @@ export default function EntityCard({
             ? getLocalFlagUrl(cityNation3Letter)
             : '';
           const compTagText = compName || null;
-          if (!compTagText && !data.is_extinct && !compNationFlagUrl && !cityNationFlagUrl) return null;
+          if (!compTagText && !isExtinctClub && !compNationFlagUrl && !cityNationFlagUrl) return null;
 
           const renderFlag = (url: string, code?: string, name?: string) =>
             url ? (
@@ -1113,7 +1128,7 @@ export default function EntityCard({
             ) : null;
 
           return (
-            <div className="mt-2 flex min-h-7 flex-wrap items-center gap-1.5 border-t border-blue-200/60 pt-2">
+            <div className={`mt-2 flex min-h-7 flex-wrap items-center gap-1.5 border-t pt-2 ${isExtinctClub ? 'border-red-200/80' : 'border-blue-200/60'}`}>
               {renderFlag(
                 compNationFlagUrl,
                 compNation3Letter,
@@ -1124,10 +1139,16 @@ export default function EntityCard({
                 cityNation3Letter,
                 cityNation?.name_sh || cityNation?.name_lg || cityNation?.name,
               )}
-              {data.is_extinct ? (
-                <Tag color="error" className="m-0 max-w-full truncate !border !border-red-300 text-[10px] font-bold">
-                  EXTINCT
-                </Tag>
+              {isExtinctClub ? (
+                <Tooltip title="Extinct">
+                  <Tag
+                    color="error"
+                    aria-label="Extinct"
+                    className="m-0 !inline-flex !h-6 !w-6 !items-center !justify-center !border !border-red-300 !p-0 text-[12px]"
+                  >
+                    <CloseCircleOutlined />
+                  </Tag>
+                </Tooltip>
               ) : compTagText ? (
                 <Tooltip title={compTagText}>
                   <Tag
