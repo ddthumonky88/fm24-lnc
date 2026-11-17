@@ -136,7 +136,7 @@ const MENU_CARDS: MenuCardItem[] = [
   },
 ];
 
-export default function HomePage() {
+export function HomeContent({ headerTitle = 'Home' }: { headerTitle?: string }) {
   const { setHeaderTitle, setHeaderId, setBreadcrumbs, setBackHref, setHeaderLogo, openSearchModal } = useApp();
 
   const [counts, setCounts] = useState<Record<string, number | null>>({});
@@ -144,12 +144,12 @@ export default function HomePage() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   useEffect(() => {
-    setHeaderTitle('Home');
+    setHeaderTitle(headerTitle);
     setHeaderId(undefined);
     setBreadcrumbs([]);
     setBackHref(null);
     setHeaderLogo(null);
-  }, [setBackHref, setBreadcrumbs, setHeaderId, setHeaderLogo, setHeaderTitle]);
+  }, [headerTitle, setBackHref, setBreadcrumbs, setHeaderId, setHeaderLogo, setHeaderTitle]);
 
   // Tải số lượng bản ghi bất đồng bộ
   useEffect(() => {
@@ -366,4 +366,8 @@ export default function HomePage() {
       </div>
     </div>
   );
+}
+
+export default function HomePage() {
+  return <HomeContent />;
 }

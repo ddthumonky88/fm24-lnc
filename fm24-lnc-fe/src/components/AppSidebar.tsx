@@ -15,6 +15,7 @@ import {
   EnvironmentOutlined,
   StarOutlined,
   HomeOutlined,
+  DashboardOutlined,
 } from '@ant-design/icons';
 import { StadiumIcon } from './EntityIcons';
 
@@ -52,6 +53,7 @@ export default function AppSidebar({
 
   // Active check by route
   const isHomeActive = pathname === '/' || pathname === '/home';
+  const isDashboardActive = pathname === '/dashboard';
   const isNationActive =
     pathname.startsWith('/list-nations') ||
     pathname.startsWith('/nation');
@@ -79,6 +81,17 @@ export default function AppSidebar({
   }
 
   const navItems: NavItem[] = [
+    {
+      key: 'DASHBOARD',
+      title: 'Dashboard',
+      label: 'Dashboard',
+      icon: <DashboardOutlined className="text-base" />,
+      active: isDashboardActive,
+      onClick: () => {
+        router.push('/dashboard');
+        if (isMobileOpen) onCloseMobile();
+      },
+    },
     {
       key: 'HOME',
       title: 'Home',
@@ -321,7 +334,7 @@ export default function AppSidebar({
       {/* Desktop Persistent Sidebar */}
       <aside
         className={`hidden md:flex flex-col shrink-0 h-full bg-[#0a1120] text-slate-300 border-r border-[#19263e] select-none transition-all duration-200 z-20 ${
-          collapsed ? 'w-16' : 'w-56'
+          collapsed ? 'w-16' : 'w-64'
         }`}
       >
         {renderSidebarContent(false)}
