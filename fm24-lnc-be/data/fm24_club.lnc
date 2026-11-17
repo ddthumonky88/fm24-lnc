@@ -1147,6 +1147,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2000290301	"Langfang GC"						""
 #"CLUB_3LETTER_NAME_CHANGE"	2000290301	"LFGC"							""
 
+"CLUB_CITY_CHANGE"		2000328121	"128055"						"" # <Guangzhou>
 "CLUB_NAME_CHANGE"		2000328121	"Guangdong GZ-Power FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000328121	"Guangdong GZ-Power"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000328121	"GZ-Power"						""
@@ -1282,11 +1283,13 @@
 
 # CLUB > AFC > [TPE] CHINESE TAIPEI > [23397138] Taiwan Football Premier League (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		5350027		"23026781"						"" # <Kaohsiung>
 "CLUB_NAME_CHANGE"		5350027		"Taipower FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5350027		"Taipower"						""
 #"CLUB_6LETTER_NAME_CHANGE"	5350027		"Taipower"						""
 "CLUB_3LETTER_NAME_CHANGE"	5350027		"TPC"							""
 
+"CLUB_CITY_CHANGE"		5350030		"23026800"						"" # <Taoyuan>
 "CLUB_NAME_CHANGE"		5350030		"Ming Chuan University FC"				""
 "CLUB_SHORT_NAME_CHANGE"	5350030		"Ming Chuan Univ."					""
 "CLUB_6LETTER_NAME_CHANGE"	5350030		"MCU"							""
@@ -1316,6 +1319,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2000201262	"AC Taipei"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000201262	"SAC"							""
 
+"CLUB_CITY_CHANGE"		2000201263	"103225"						"" # <Taipei>
 "CLUB_NAME_CHANGE"		2000201263	"Tatung FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000201263	"Tatung"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000201263	"Tatung"						""
@@ -1330,10 +1334,12 @@
 
 # CLUB > AFC > [TPE] CHINESE TAIPEI > [2000070108] Taiwan Football Challenge League (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		23397134	"5627255"						"" # <Taichung>
 "CLUB_NAME_CHANGE"		23397134	"Land Home NTUS FC"					""
 "CLUB_SHORT_NAME_CHANGE"	23397134	"NTUS"							""
 "CLUB_6LETTER_NAME_CHANGE"	23397134	"NTUS"							""
 
+"CLUB_CITY_CHANGE"		2000070106	"23026781"						"" # <Kaohsiung>
 "CLUB_NAME_CHANGE"		2000070106	"Taiwan CPC Corporation FC"				""
 "CLUB_SHORT_NAME_CHANGE"	2000070106	"CPC Corporation"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000070106	"CPC"							""
@@ -1345,11 +1351,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2000082811	"I. Taoyuan"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000082811	"ITY"							""
 
+"CLUB_CITY_CHANGE"		2000095274	"23001996"						"" # <Hualien>
 "CLUB_NAME_CHANGE"		2000095274	"Saturday Football International"			""
 "CLUB_SHORT_NAME_CHANGE"	2000095274	"Saturday FI"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000095274	"SFI"							""
 "CLUB_3LETTER_NAME_CHANGE"	2000095274	"SFI"							""
 
+"CLUB_CITY_CHANGE"		2000095276	"103225"						"" # <Taipei>
 "CLUB_NAME_CHANGE"		2000095276	"FC Vikings"						""
 "CLUB_SHORT_NAME_CHANGE"	2000095276	"Vikings"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000095276	"Vikings"						""
@@ -1513,10 +1521,12 @@
 
 # CLUB > AFC > [HKG] HONG KONG > [7400579] Hong Kong Second Division (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		5441030		"135464"						"" # <[HKG] Tsing Yi>
 "CLUB_NAME_CHANGE"		5441030		"Kwai Tsing District FA"				""
 "CLUB_SHORT_NAME_CHANGE"	5441030		"Kwai Tsing"						""
 #"CLUB_6LETTER_NAME_CHANGE"	5441030		"Kwai Tsing"						""
 
+"CLUB_CITY_CHANGE"		23378171	"135457"						"" # <[HKG] Mong Kok>
 "CLUB_NAME_CHANGE"		23378171	"Leaper FC"						""
 "CLUB_SHORT_NAME_CHANGE"	23378171	"Leaper"						""
 "CLUB_6LETTER_NAME_CHANGE"	23378171	"Leaper"						""
@@ -1524,6 +1534,7 @@
 
 # CLUB > AFC > [HKG] HONG KONG > [OTHER]
 #==============================================================================
+"CLUB_CITY_CHANGE"		133678		"135466"						"" # <[HKG] Happy Valley>
 "CLUB_NAME_CHANGE"		133678		"Happy Valley AA"					""
 "CLUB_SHORT_NAME_CHANGE"	133678		"Happy Valley"						""
 
@@ -1543,6 +1554,7 @@
 
 # CLUB > AFC > [IND] INDIA > [40026565] Indian Super League (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		130637	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		130637		"East Bengal FC"					""
 "CLUB_SHORT_NAME_CHANGE"	130637		"East Bengal"						""
 #"CLUB_6LETTER_NAME_CHANGE"	130637		"East Bengal"						""
@@ -1554,21 +1566,25 @@
 #"CLUB_6LETTER_NAME_CHANGE"	40024212	"Bengaluru"						""
 "CLUB_3LETTER_NAME_CHANGE"	40024212	"BFC"							""
 
+"CLUB_CITY_CHANGE"		40026576	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		40026576	"Mohun Bagan Super Giant"				""
 "CLUB_SHORT_NAME_CHANGE"	40026576	"Mohun Bagan SG"					""
 "CLUB_6LETTER_NAME_CHANGE"	40026576	"MBSG"							""
 #"CLUB_3LETTER_NAME_CHANGE"	40026576	"MBSG"							""
 
+"CLUB_CITY_CHANGE"		40026578	"5623203"						"" # <Guwahati>
 "CLUB_NAME_CHANGE"		40026578	"NorthEast United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40026578	"NorthEast United"					""
 "CLUB_6LETTER_NAME_CHANGE"	40026578	"NEUFC"							""
 "CLUB_3LETTER_NAME_CHANGE"	40026578	"NEU"							""
 
+"CLUB_CITY_CHANGE"		40026579	"5512147"						"" # <Kochi>
 "CLUB_NAME_CHANGE"		40026579	"Kerala Blasters FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40026579	"Kerala Blasters"					""
 #"CLUB_6LETTER_NAME_CHANGE"	40026579	"K. Blasters"						""
 #"CLUB_3LETTER_NAME_CHANGE"	40026579	"KBFC"							""
 
+"CLUB_CITY_CHANGE"		40026606	"5512153"						"" # <Margao>
 "CLUB_NAME_CHANGE"		40026606	"FC Goa"						""
 "CLUB_SHORT_NAME_CHANGE"	40026606	"FC Goa"						""
 "CLUB_6LETTER_NAME_CHANGE"	40026606	"FC Goa"						""
@@ -1580,11 +1596,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	40026653	"Mumbai City"						""
 #"CLUB_3LETTER_NAME_CHANGE"	40026653	"MCFC"							""
 
+"CLUB_CITY_CHANGE"		40026654	"5512135"						"" # <Chennai>
 "CLUB_NAME_CHANGE"		40026654	"Chennaiyin FC"						""
 "CLUB_SHORT_NAME_CHANGE"	40026654	"Chennaiyin"						""
 #"CLUB_6LETTER_NAME_CHANGE"	40026654	"Chennaiyin"						""
 "CLUB_3LETTER_NAME_CHANGE"	40026654	"CFC"							""
 
+"CLUB_CITY_CHANGE"		40028584	"40022575"						"" # <Mohali>
 "CLUB_NAME_CHANGE"		40028584	"Punjab FC"						""
 "CLUB_SHORT_NAME_CHANGE"	40028584	"Punjab"						""
 "CLUB_6LETTER_NAME_CHANGE"	40028584	"Punjab"						""
@@ -1602,6 +1620,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	40037965	"Hyderabad"						""
 "CLUB_3LETTER_NAME_CHANGE"	40037965	"HFC"							""
 
+"CLUB_CITY_CHANGE"		40038102	"2000001323"						"" # <Bhubaneswar>
 "CLUB_NAME_CHANGE"		40038102	"Odisha FC"						""
 "CLUB_SHORT_NAME_CHANGE"	40038102	"Odisha"						""
 "CLUB_6LETTER_NAME_CHANGE"	40038102	"Odisha"						""
@@ -1610,20 +1629,24 @@
 
 # CLUB > AFC > [IND] INDIA > [5624525] I-League (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		5512155	"5512153"						"" # <Margao>
 "CLUB_NAME_CHANGE"		5512155		"Churchill Brothers FC Goa"				""
 "CLUB_SHORT_NAME_CHANGE"	5512155		"Churchill Brothers"					""
 #"CLUB_3LETTER_NAME_CHANGE"	5512155		"CBFC"							""
 
+"CLUB_CITY_CHANGE"		5512183	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		5512183		"Mohammedan SC"						""
 "CLUB_SHORT_NAME_CHANGE"	5512183		"Mohammedan"						""
 #"CLUB_6LETTER_NAME_CHANGE"	5512183		"Mohammedan"						""
 "CLUB_3LETTER_NAME_CHANGE"	5512183		"MSC"							""
 
+"CLUB_CITY_CHANGE"		5623127	"7642784"						"" # <Imphal>
 "CLUB_NAME_CHANGE"		5623127		"Tiddim Road Athletic Union FC"				""
 "CLUB_SHORT_NAME_CHANGE"	5623127		"TRAU"							""
 "CLUB_6LETTER_NAME_CHANGE"	5623127		"TRAU"							""
 #"CLUB_3LETTER_NAME_CHANGE"	5623127		"TRAU"							""
 
+"CLUB_CITY_CHANGE"		5623165	"7642784"						"" # <Imphal>
 "CLUB_NAME_CHANGE"		5623165		"NEROCA FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5623165		"NEROCA"						""
 "CLUB_6LETTER_NAME_CHANGE"	5623165		"NEROCA"						""
@@ -1641,35 +1664,42 @@
 "CLUB_6LETTER_NAME_CHANGE"	40012017	"Aizawl"						""
 "CLUB_3LETTER_NAME_CHANGE"	40012017	"AFC"							""
 
+"CLUB_CITY_CHANGE"		40026598	"103196"						"" # <New Delhi>
 "CLUB_NAME_CHANGE"		40026598	"Delhi FC"						""
 "CLUB_SHORT_NAME_CHANGE"	40026598	"Delhi"							""
 "CLUB_6LETTER_NAME_CHANGE"	40026598	"Delhi"							""
 "CLUB_3LETTER_NAME_CHANGE"	40026598	"DFC"							""
 
+"CLUB_CITY_CHANGE"		40030275	"40007498"						"" # <Srinagar>
 "CLUB_NAME_CHANGE"		40030275	"Real Kashmir FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40030275	"Real Kashmir"						""
 #"CLUB_6LETTER_NAME_CHANGE"	40030275	"Real Kashmir"						""
 #"CLUB_3LETTER_NAME_CHANGE"	40030275	"RKFC"							""
 
+"CLUB_CITY_CHANGE"		40035631	"40007951"						"" # <Kozhikode>
 "CLUB_NAME_CHANGE"		40035631	"Gokulam Kerala FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40035631	"Gokulam Kerala"					""
 #"CLUB_6LETTER_NAME_CHANGE"	40035631	"Gokulam"						""
 #"CLUB_3LETTER_NAME_CHANGE"	40035631	"GKFC"							""
 
+"CLUB_CITY_CHANGE"		40038846	"2000012856"						"" # <Jaipur>
 "CLUB_NAME_CHANGE"		40038846	"Rajasthan United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40038846	"Rajasthan United"					""
 #"CLUB_6LETTER_NAME_CHANGE"	40038846	"Rajasthan"						""
 #"CLUB_3LETTER_NAME_CHANGE"	40038846	"RUFC"							""
 
+"CLUB_CITY_CHANGE"		2000027899	"7640495"						"" # <Hyderabad>
 "CLUB_NAME_CHANGE"		2000027899	"Sreenidi Deccan FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000027899	"Sreenidi Deccan"					""
 #"CLUB_3LETTER_NAME_CHANGE"	2000027899	"SDFC"							""
 
+"CLUB_CITY_CHANGE"		2000278767	"40007822"						"" # <Varanasi>
 "CLUB_NAME_CHANGE"		2000278767	"Inter Kashi FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000278767	"Inter Kashi"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000278767	"Kashi"							""
 #"CLUB_3LETTER_NAME_CHANGE"	2000278767	"KSHI"							""
 
+"CLUB_CITY_CHANGE"		2000288034	"5512188"						"" # <Ludhiana>
 "CLUB_NAME_CHANGE"		2000288034	"Namdhari FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000288034	"Namdhari"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2000288034	"Namdhari"						""
@@ -1678,20 +1708,24 @@
 
 # CLUB > AFC > [IND] INDIA > [7640505] I-League 2 (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		5512151	"5512169"						"" # <Panaji>
 "CLUB_NAME_CHANGE"		5512151		"Dempo SC"						""
 "CLUB_SHORT_NAME_CHANGE"	5512151		"Dempo"							""
 "CLUB_6LETTER_NAME_CHANGE"	5512151		"Dempo"							""
 "CLUB_3LETTER_NAME_CHANGE"	5512151		"DSC"							""
 
+"CLUB_CITY_CHANGE"		5623136	"5512169"						"" # <Panaji>
 "CLUB_NAME_CHANGE"		5623136		"Sporting Clube de Goa"					""
 "CLUB_SHORT_NAME_CHANGE"	5623136		"SC Goa"						""
 "CLUB_6LETTER_NAME_CHANGE"	5623136		"SC Goa"						""
 "CLUB_3LETTER_NAME_CHANGE"	5623136		"SCG"							""
 
+"CLUB_CITY_CHANGE"		7641313	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		7641313		"United SC"						""
 "CLUB_SHORT_NAME_CHANGE"	7641313		"United SC"						""
 "CLUB_3LETTER_NAME_CHANGE"	7641313		"USC"							""
 
+"CLUB_CITY_CHANGE"		40008002	"5512132"						"" # <Mumbai>
 "CLUB_NAME_CHANGE"		40008002	"Kenkre FC"						""
 "CLUB_SHORT_NAME_CHANGE"	40008002	"Kenkre"						""
 "CLUB_6LETTER_NAME_CHANGE"	40008002	"Kenkre"						""
@@ -1700,9 +1734,11 @@
 "CLUB_NAME_CHANGE"		40038845	"FC Bengaluru United"					""
 "CLUB_SHORT_NAME_CHANGE"	40038845	"Bengaluru United"					""
 
+"CLUB_CITY_CHANGE"		2000026684	"103196"						"" # <New Delhi>
 "CLUB_NAME_CHANGE"		2000026684	"Sudeva Delhi FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000026684	"Sudeva Delhi"						""
 
+"CLUB_CITY_CHANGE"		2000191733	"5512132"						"" # <Mumbai>
 "CLUB_NAME_CHANGE"		2000191733	"Maharashtra Oranje FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000191733	"Maharashtra Oranje"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000191733	"Oranje"						""
@@ -1715,13 +1751,16 @@
 
 # CLUB > AFC > [IND] INDIA > [40000892] I-League 3 (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		40008497	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		40008497	"Bhawanipore FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40008497	"Bhawanipore"						""
 
+"CLUB_CITY_CHANGE"		40023159	"40007681"						"" # <Shillong>
 "CLUB_NAME_CHANGE"		40023159	"Rangdajied United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40023159	"Rangdajied United"					""
 "CLUB_3LETTER_NAME_CHANGE"	40023159	"RDU"							""
 
+"CLUB_CITY_CHANGE"		40025608	"103196"						"" # <New Delhi>
 "CLUB_NAME_CHANGE"		40025608	"Garhwal Heroes FC"					""
 "CLUB_SHORT_NAME_CHANGE"	40025608	"Garhwal Heroes"					""
 
@@ -1736,9 +1775,11 @@
 "CLUB_6LETTER_NAME_CHANGE"	40037966	"ARA"							""
 "CLUB_3LETTER_NAME_CHANGE"	40037966	"ARA"							""
 
+"CLUB_CITY_CHANGE"		2000082267	"40008382"						"" # <Malappuram>
 "CLUB_NAME_CHANGE"		2000082267	"Kerala United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000082267	"Kerala United"						""
 
+"CLUB_CITY_CHANGE"		2000180221	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		2000180221	"Diamond Harbour FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000180221	"Diamond Harbour"					""
 
@@ -1746,6 +1787,7 @@
 # CLUB > AFC > [IND] INDIA > [5624538] Punjab Super League
 #==============================================================================
 "AFFILIATED_CLUB_ID"		2000012857	"RES-40028584"						"" # [IND] Punjab
+"CLUB_CITY_CHANGE"		2000012857	"40022575"						"" # <Mohali>
 "CLUB_NAME_CHANGE"		2000012857	"Punjab FC B"						""
 "CLUB_SHORT_NAME_CHANGE"	2000012857	"Punjab B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000012857	"PFC.B"							""
@@ -1754,11 +1796,13 @@
 # CLUB > AFC > [IND] INDIA > [40026090] Kerala Super League
 #==============================================================================
 "AFFILIATED_CLUB_ID"		40036081	"RES-40026579"						"" # [IND] Kerala Blasters
+"CLUB_CITY_CHANGE"		40036081	"5512147"						"" # <Kochi>
 "CLUB_NAME_CHANGE"		40036081	"Kerala Blasters FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	40036081	"Kerala Blasters B"					""
 "CLUB_6LETTER_NAME_CHANGE"	40036081	"KBFC.B"						""
 
 "AFFILIATED_CLUB_ID"		2000055334	"RES-40035631"						"" # [IND] Gokulam Kerala
+"CLUB_CITY_CHANGE"		2000055334	"40007951"						"" # <Kozhikode>
 "CLUB_NAME_CHANGE"		2000055334	"Gokulam Kerala FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	2000055334	"Gokulam Kerala B"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000055334	"GKFC.B"						""
@@ -1767,11 +1811,13 @@
 # CLUB > AFC > [IND] INDIA > [5624530] Calcutta Football League
 #==============================================================================
 "AFFILIATED_CLUB_ID"		40037925	"RES-40026576"						"" # [IND] Mohun Bagan SG
+"CLUB_CITY_CHANGE"		40037925	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		40037925	"Mohun Bagan Super Giant B"				""
 "CLUB_SHORT_NAME_CHANGE"	40037925	"Mohun Bagan SG B"					""
 "CLUB_6LETTER_NAME_CHANGE"	40037925	"MBSG.B"						""
 
 "AFFILIATED_CLUB_ID"		2000062846	"RES-130637"						"" # [IND] East Bengal
+"CLUB_CITY_CHANGE"		2000062846	"103197"						"" # <Kolkata>
 "CLUB_NAME_CHANGE"		2000062846	"East Bengal FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	2000062846	"East Bengal B"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000062846	"EBFC.B"						""
@@ -1789,11 +1835,13 @@
 # CLUB > AFC > [IND] INDIA > [5624535] Goa Professional League
 #==============================================================================
 "AFFILIATED_CLUB_ID"		40036085	"RES-40026606"						"" # [IND] FC Goa
+"CLUB_CITY_CHANGE"		40036085	"5512153"						"" # <Margao>
 "CLUB_NAME_CHANGE"		40036085	"FC Goa B"						""
 "CLUB_SHORT_NAME_CHANGE"	40036085	"FC Goa B"						""
 "CLUB_6LETTER_NAME_CHANGE"	40036085	"FCG.B"							""
 
 "AFFILIATED_CLUB_ID"		2000325654	"RES-5512155"						"" # [IND] Churchill Brothers
+"CLUB_CITY_CHANGE"		2000325654	"5512153"						"" # <Margao>
 "CLUB_NAME_CHANGE"		2000325654	"Churchill Brothers FC B"				""
 "CLUB_SHORT_NAME_CHANGE"	2000325654	"Churchill Brothers B"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000325654	"CBFC.B"						""
@@ -1811,6 +1859,7 @@
 # CLUB > AFC > [IND] INDIA > [5625174] Chennai Senior Division
 #==============================================================================
 "AFFILIATED_CLUB_ID"		40036080	"RES-40026654"						"" # [IND] Chennaiyin
+"CLUB_CITY_CHANGE"		40036080	"5512135"						"" # <Chennai>
 "CLUB_NAME_CHANGE"		40036080	"Chennaiyin FC B"					""
 "CLUB_SHORT_NAME_CHANGE"	40036080	"Chennaiyin B"						""
 "CLUB_6LETTER_NAME_CHANGE"	40036080	"CFC.B"							""
@@ -1939,11 +1988,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	135497		"PSIS"							""
 "CLUB_3LETTER_NAME_CHANGE"	135497		"SMG"							""
 
+"CLUB_CITY_CHANGE"		135531	"135533"						"" # <Banjarmasin>
 "CLUB_NAME_CHANGE"		135531		"PS Barito Putera"					""
 "CLUB_SHORT_NAME_CHANGE"	135531		"Barito Putera"						""
 "CLUB_6LETTER_NAME_CHANGE"	135531		"Barito"						""
 "CLUB_3LETTER_NAME_CHANGE"	135531		"BAR"							""
 
+"CLUB_CITY_CHANGE"		5622736	"135525"						"" # <Malang>
 "CLUB_NAME_CHANGE"		5622736		"Arema FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5622736		"Arema"							""
 "CLUB_6LETTER_NAME_CHANGE"	5622736		"Arema"							""
@@ -1955,11 +2006,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	5622746		"Persita"						""
 "CLUB_3LETTER_NAME_CHANGE"	5622746		"PTA"							""
 
+"CLUB_CITY_CHANGE"		5622747	"5622738"						"" # <Sleman>
 "CLUB_NAME_CHANGE"		5622747		"PSS Sleman"						""
 "CLUB_SHORT_NAME_CHANGE"	5622747		"PSS Sleman"						""
 "CLUB_6LETTER_NAME_CHANGE"	5622747		"PSS"							""
 "CLUB_3LETTER_NAME_CHANGE"	5622747		"PSS"							""
 
+"CLUB_CITY_CHANGE"		5622862	"5622870"						"" # <Surakarta>
 "CLUB_NAME_CHANGE"		5622862		"Persis Solo"						""
 "CLUB_SHORT_NAME_CHANGE"	5622862		"Persis Solo"						""
 "CLUB_6LETTER_NAME_CHANGE"	5622862		"Persis"						""
@@ -1971,6 +2024,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5622879		"Persik"						""
 "CLUB_3LETTER_NAME_CHANGE"	5622879		"KDR"							""
 
+"CLUB_CITY_CHANGE"		7742801	"5385756"						"" # <Gianyar>
 "CLUB_NAME_CHANGE"		7742801		"Bali United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	7742801		"Bali United"						""
 "CLUB_6LETTER_NAME_CHANGE"	7742801		"Bali"							""
@@ -1982,26 +2036,31 @@
 "CLUB_6LETTER_NAME_CHANGE"	41021352	"Borneo"						""
 "CLUB_3LETTER_NAME_CHANGE"	41021352	"BOR"							""
 
+"CLUB_CITY_CHANGE"		41051597	"41053386"						"" # <Pamekasan>
 "CLUB_NAME_CHANGE"		41051597	"Madura United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	41051597	"Madura United"						""
 "CLUB_6LETTER_NAME_CHANGE"	41051597	"Madura"						""
 "CLUB_3LETTER_NAME_CHANGE"	41051597	"MDR"							""
 
+"CLUB_CITY_CHANGE"		41053239	"135505"						"" # <Bandar Lampung>
 "CLUB_NAME_CHANGE"		41053239	"Bhayangkara Presisi Lampung FC"			""
 "CLUB_SHORT_NAME_CHANGE"	41053239	"Bhayangkara Presisi"					""
 #"CLUB_6LETTER_NAME_CHANGE"	41053239	"Bhayangkara"						""
 "CLUB_3LETTER_NAME_CHANGE"	41053239	"BPL"							""
 
+"CLUB_CITY_CHANGE"		41060486	"5622739"						"" # <Bogor>
 "CLUB_NAME_CHANGE"		41060486	"Persikabo 1973"					""
 "CLUB_SHORT_NAME_CHANGE"	41060486	"Persikabo 1973"					""
 #"CLUB_6LETTER_NAME_CHANGE"	41060486	"Persikabo"						""
 "CLUB_3LETTER_NAME_CHANGE"	41060486	"PBO"							""
 
+"CLUB_CITY_CHANGE"		2000090667	"135520"						"" # <Tangerang>
 "CLUB_NAME_CHANGE"		2000090667	"Dewa United Banten FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000090667	"Dewa United"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000090667	"Dewa"							""
 "CLUB_3LETTER_NAME_CHANGE"	2000090667	"DUB"							""
 
+"CLUB_CITY_CHANGE"		2000185227	"7742381"						"" # <Bekasi>
 "CLUB_NAME_CHANGE"		2000185227	"RANS Nusantara FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000185227	"RANS Nusantara"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000185227	"RANS"							""
@@ -2058,11 +2117,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	5622732		"PSPS"							""
 "CLUB_3LETTER_NAME_CHANGE"	5622732		"PKU"							""
 
+"CLUB_CITY_CHANGE"		5622735	"5622733"						"" # <Lubuk Pakam>
 "CLUB_NAME_CHANGE"		5622735		"PSDS Deli Serdang"					""
 "CLUB_SHORT_NAME_CHANGE"	5622735 	"PSDS Deli Serdang"					""
 "CLUB_6LETTER_NAME_CHANGE"	5622735		"PSDS"							""
 "CLUB_3LETTER_NAME_CHANGE"	5622735		"PDS"							""
 
+"CLUB_CITY_CHANGE"		5622744	"5385751"						"" # <Palembang>
 "CLUB_NAME_CHANGE"		5622744		"Sriwijaya FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5622744		"Sriwijaya"						""
 #"CLUB_6LETTER_NAME_CHANGE"	5622744		"Sriwijaya"						""
@@ -2098,6 +2159,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	7741454		"Persela"						""
 "CLUB_3LETTER_NAME_CHANGE"	7741454		"PSL"							""
 
+"CLUB_CITY_CHANGE"		7746334		"41002063"						"" # <Palangka Raya>
 "CLUB_NAME_CHANGE"		7746334		"Kalimantan Tengah Putra FC"				""
 "CLUB_SHORT_NAME_CHANGE"	7746334		"Kalteng Putra"						""
 #"CLUB_6LETTER_NAME_CHANGE"	7746334		"Kalteng"						""
@@ -2109,6 +2171,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	7747141		"Persipa"						""
 "CLUB_3LETTER_NAME_CHANGE"	7747141		"PTI"							""
 
+"CLUB_CITY_CHANGE"		41001022	"7749336"						"" # <Kab. Biak Numfor>
 "CLUB_NAME_CHANGE"		41001022	"PSBS Biak"						""
 "CLUB_SHORT_NAME_CHANGE"	41001022	"PSBS Biak"						""
 "CLUB_6LETTER_NAME_CHANGE"	41001022	"PSBS"							""
@@ -2126,11 +2189,13 @@
 "CLUB_6LETTER_NAME_CHANGE"	41010810	"PSCS"							""
 "CLUB_3LETTER_NAME_CHANGE"	41010810	"CLP"							""
 
+"CLUB_CITY_CHANGE"		41021342	"7749336"						"" # <Kab. Biak Numfor>
 "CLUB_NAME_CHANGE"		41021342	"Persewar Waropen"					""
 "CLUB_SHORT_NAME_CHANGE"	41021342	"Persewar Waropen"					""
 #"CLUB_6LETTER_NAME_CHANGE"	41021342	"Persewar"						""
 "CLUB_3LETTER_NAME_CHANGE"	41021342	"WAR"							""
 
+"CLUB_CITY_CHANGE"		41061715	"135511"						"" # <Manado>
 "CLUB_NAME_CHANGE"		41061715	"Sulawesi Utara United FC"				""
 "CLUB_SHORT_NAME_CHANGE"	41061715	"Sulut United"						""
 "CLUB_6LETTER_NAME_CHANGE"	41061715	"Sulut"							""
@@ -2142,6 +2207,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000003588	"PSKC"							""
 "CLUB_3LETTER_NAME_CHANGE"	2000003588	"PKC"							""
 
+"CLUB_CITY_CHANGE"		2000004192	"135493"						"" # <Medan>
 "CLUB_NAME_CHANGE"		2000004192	"Sumatra Utara United FC"				""
 "CLUB_SHORT_NAME_CHANGE"	2000004192	"Sumut United"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000004192	"Sumut"							""
@@ -2153,6 +2219,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	2000004194	"Persekat"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000004194	"TGL"							""
 
+"CLUB_CITY_CHANGE"		2000183212	"135502"						"" # <Yogyakarta>
 "CLUB_NAME_CHANGE"		2000183212	"Nusantara United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000183212	"Nusantara United"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000183212	"Nusantara"						""
@@ -2164,6 +2231,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	2000185211	"Bekasi"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000185211	"BKS"							""
 
+"CLUB_CITY_CHANGE"		2000273329	"5385759"						"" # <Ternate>
 "CLUB_NAME_CHANGE"		2000273329	"Maluku Utara United FC"				""
 "CLUB_SHORT_NAME_CHANGE"	2000273329	"Malut United"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000273329	"Malut"							""
@@ -2192,6 +2260,7 @@
 "CLUB_SHORT_NAME_CHANGE"	7746529		"Persibat Batang"					""
 #"CLUB_6LETTER_NAME_CHANGE"	7746529		"Persibat"						""
 
+"CLUB_CITY_CHANGE"		41057444	"41002090"						"" # <Batam>
 "CLUB_NAME_CHANGE"		41057444	"757 Kepri Jaya FC"					""
 "CLUB_SHORT_NAME_CHANGE"	41057444	"757 Kepri Jaya"					""
 "CLUB_6LETTER_NAME_CHANGE"	41057444	"757 KJ"						""
