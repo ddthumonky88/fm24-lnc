@@ -53,6 +53,29 @@ Khi chưa có City ID:
 - Giữ nguyên các dòng tên, tên ngắn, affiliate và các nội dung không liên quan.
 - Nếu dòng city đã đúng thì không sửa lại.
 
+### 4.1. Tự động cập nhật affiliate club
+
+Sau khi cập nhật city cho một CLB, phải tự động tìm các dòng `AFFILIATED_CLUB_ID` đang trỏ đến UID của CLB đó.
+
+```lnc
+"AFFILIATED_CLUB_ID"		40036079	"RES-40024212"						"" # [IND] Bengaluru
+```
+
+Trong ví dụ trên:
+
+- `40036079` là UID của affiliate club.
+- `40024212` là UID của CLB mẹ vừa được cập nhật.
+
+Quy tắc áp dụng:
+
+- Nếu affiliate club đã tồn tại trong file nhưng chưa có `CLUB_CITY_CHANGE`, tự động thêm cùng City ID và city comment của CLB mẹ.
+- Dòng city của affiliate phải nằm ngay trên `CLUB_NAME_CHANGE` của affiliate; nếu có `AFFILIATED_CLUB_ID`, giữ dòng affiliate ở phía trên dòng city.
+- Nếu affiliate đã có city thì giữ nguyên, không tự động ghi đè, kể cả khi khác city của CLB mẹ.
+- Chỉ cập nhật affiliate thực sự tồn tại trong file; không tự tạo thêm club mới.
+- Giữ nguyên UID của affiliate, bao gồm UID dạng `n-...`; không chuyển `n-...` thành UID số.
+- Nếu city của CLB mẹ dùng `rd-uid`, affiliate chưa có city cũng dùng `rd-uid` với cùng city comment.
+- Nếu CLB trong ảnh không có giá trị CITY thì không tự động suy đoán city cho affiliate.
+
 ## 5. Cập nhật geography
 
 Khi người dùng cung cấp City ID mới:
@@ -78,8 +101,10 @@ Phải xác minh:
 3. ID thật khớp đúng city và nation trong geography.
 4. Các dòng `CITY_NAME_CHANGE` trong từng nhóm geography được sắp xếp theo ID tăng dần.
 5. Số dòng dùng `rd-uid` được báo lại.
-6. Không sửa hoặc khôi phục file ngoài phạm vi yêu cầu.
-7. Không tự động chạy `git commit` hoặc `git push`.
+6. Mọi affiliate được cập nhật có đúng một `CLUB_CITY_CHANGE` và nằm đúng vị trí.
+7. Affiliate đã có city không bị ghi đè.
+8. Không sửa hoặc khôi phục file ngoài phạm vi yêu cầu.
+9. Không tự động chạy `git commit` hoặc `git push`.
 
 ## 7. Báo cáo kết quả
 
@@ -89,5 +114,6 @@ Báo ngắn gọn:
 - Tổng số CLB đã kiểm tra.
 - Số city dùng ID thật.
 - Số city dùng `rd-uid`.
+- Số affiliate club đã kiểm tra và số affiliate được tự động bổ sung city.
 - Geography có được cập nhật hay không.
 - Xác nhận không commit/push.

@@ -7,8 +7,8 @@
 ## 1. Số Liệu Tổng Quan Tiến Độ
 
 - **Tổng số CLB trong các giải đấu chính thức:** **4,845 CLB** (loại trừ các nhóm Other/Extinct)
-- **Số CLB đã có City:** **3,284 CLB (67.78%)**
-- **Số CLB chưa có City:** **1,561 CLB (32.22%)**
+- **Số CLB đã có City:** **3,310 CLB (68.32%)**
+- **Số CLB chưa có City:** **1,535 CLB (31.68%)**
 - **Số lượng `rd-uid` còn lại:** **0 dòng** (100% dòng city đều dùng City ID thật từ `fm24_geography.lnc`)
 
 ```mermaid
@@ -16,7 +16,7 @@ xychart-beta
     title "Tỷ lệ bao phủ CLUB_CITY_CHANGE theo Liên đoàn (%)"
     x-axis ["UEFA", "AFC", "CONCACAF", "OFC", "CONMEBOL", "CAF"]
     y-axis "Tỷ lệ bao phủ (%)" 0 --> 100
-    bar [72.9, 67.5, 57.3, 44.0, 49.9, 62.8]
+    bar [72.9, 69.7, 57.3, 44.0, 49.9, 62.8]
 ```
 
 ### Tổng hợp theo Liên đoàn
@@ -24,7 +24,7 @@ xychart-beta
 | Liên đoàn | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ bao phủ | Tiến độ |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **UEFA** | 53 | 1,899 | 2,604 | **72.9%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
-| **AFC** | 35 | 795 | 1,178 | **67.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
+| **AFC** | 35 | 821 | 1,178 | **69.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
 | **CONCACAF** | 9 | 219 | 382 | **57.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ |
 | **OFC** | 1 | 11 | 25 | **44.0%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
 | **CONMEBOL** | 10 | 201 | 403 | **49.9%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
@@ -41,7 +41,7 @@ xychart-beta
 
 | Nhóm tỷ lệ | Biểu tượng | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ nhóm |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **100% (Hoàn thành)** | ✅ | **47** | 1,495 | 1,495 | **100.0%** |
+| **100% (Hoàn thành)** | ✅ | **48** | 1,527 | 1,527 | **100.0%** |
 | **90% đến dưới 100%** | 🟢 | **3** | 227 | 240 | **94.6%** |
 | **80% đến dưới 90%** | 🟡 | **1** | 160 | 179 | **89.4%** |
 | **70% đến dưới 80%** | 🟡 | **3** | 71 | 97 | **73.2%** |
@@ -50,12 +50,12 @@ xychart-beta
 | **40% đến dưới 50%** | 🟠 | **11** | 228 | 526 | **43.3%** |
 | **30% đến dưới 40%** | 🟠 | **10** | 160 | 443 | **36.1%** |
 | **20% đến dưới 30%** | 🟠 | **5** | 44 | 173 | **25.4%** |
-| **10% đến dưới 20%** | 🔴 | **6** | 28 | 196 | **14.3%** |
+| **10% đến dưới 20%** | 🔴 | **5** | 22 | 164 | **13.4%** |
 | **Dưới 10%** | 🔴 | **1** | 3 | 36 | **8.3%** |
 
 ---
 
-### 2.1. Nhóm 100% (Hoàn thành) (47 quốc gia) ✅
+### 2.1. Nhóm 100% (Hoàn thành) (48 quốc gia) ✅
 
 | STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
@@ -106,6 +106,7 @@ xychart-beta
 | 45 | UEFA | **[MDA] MOLDOVA** | 8/8 | 0 | **100.0%** | `[59007607] Moldovan Super Liga (23/24)` (8/8) |
 | 46 | AFC | **[MAC] MACAU** | 3/3 | 0 | **100.0%** | `[5630248] Liga de Elite` (3/3) |
 | 47 | AFC | **[PRK] KOREA DPR** | 12/12 | 0 | **100.0%** | `[23100525] DPRK Premier Football League` (12/12) |
+| 48 | AFC | **[UZB] UZBEKISTAN** | 32/32 | 0 | **100.0%** | `[59135038] Uzbekistan Super League (2023)` (14/14), `[59135039] Uzbekistan Pro League (2023)` (11/11), `[73000048] Uzbekistan First League (2023)` (7/7) |
 
 ### 2.2. Nhóm 90% đến dưới 100% (3 quốc gia) 🟢
 
@@ -211,16 +212,15 @@ xychart-beta
 | 4 | CAF | **[RSA] SOUTH AFRICA** | 8/32 | **-24** | **25.0%** | `[131234] South African Premiership (23/24)` (5/16), `[131235] South African Championship (23/24)` (3/16) |
 | 5 | CONMEBOL | **[URU] URUGUAY** | 6/30 | **-24** | **20.0%** | `[5512770] Liga AUF Uruguaya (2023)` (5/16), `[5512771] Segunda División Profesional AUF (2023)` (1/14) |
 
-### 2.10. Nhóm 10% đến dưới 20% (6 quốc gia) 🔴
+### 2.10. Nhóm 10% đến dưới 20% (5 quốc gia) 🔴
 
 | STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | AFC | **[UZB] UZBEKISTAN** | 6/32 | **-26** | **18.8%** | `[59135038] Uzbekistan Super League (2023)` (2/14), `[59135039] Uzbekistan Pro League (2023)` (2/11), `[73000048] Uzbekistan First League (2023)` (2/7) |
-| 2 | CONMEBOL | **[PAR] PARAGUAY** | 5/28 | **-23** | **17.9%** | `[79010950] Copa de Primera APF (2023)` (0/12), `[79010962] AFP Intermedia (2023)` (5/16) |
-| 3 | CONCACAF | **[PAN] PANAMA** | 5/34 | **-29** | **14.7%** | `[86000021] Liga LPF Tigo` (2/12), `[80010007] Liga PROM` (3/22) |
-| 4 | AFC | **[MYA] MYANMAR** | 3/22 | **-19** | **13.6%** | `[23090922] Myanmar National League (2023)` (1/12), `[23193285] MNL-2 League (2023)` (2/10) |
-| 5 | CONCACAF | **[HON] HONDURAS** | 5/42 | **-37** | **11.9%** | `[87000201] Liga Hondubet (23/24)` (0/10), `[87000202] Liga Nacional de Ascenso (23/24)` (5/32) |
-| 6 | CAF | **[EGY] EGYPT** | 4/38 | **-34** | **10.5%** | `[12015393] Egyptian Premier League (23/24)` (2/18), `[2000340108] Egyptian Second Division A (23/24)` (2/20) |
+| 1 | CONMEBOL | **[PAR] PARAGUAY** | 5/28 | **-23** | **17.9%** | `[79010950] Copa de Primera APF (2023)` (0/12), `[79010962] AFP Intermedia (2023)` (5/16) |
+| 2 | CONCACAF | **[PAN] PANAMA** | 5/34 | **-29** | **14.7%** | `[86000021] Liga LPF Tigo` (2/12), `[80010007] Liga PROM` (3/22) |
+| 3 | AFC | **[MYA] MYANMAR** | 3/22 | **-19** | **13.6%** | `[23090922] Myanmar National League (2023)` (1/12), `[23193285] MNL-2 League (2023)` (2/10) |
+| 4 | CONCACAF | **[HON] HONDURAS** | 5/42 | **-37** | **11.9%** | `[87000201] Liga Hondubet (23/24)` (0/10), `[87000202] Liga Nacional de Ascenso (23/24)` (5/32) |
+| 5 | CAF | **[EGY] EGYPT** | 4/38 | **-34** | **10.5%** | `[12015393] Egyptian Premier League (23/24)` (2/18), `[2000340108] Egyptian Second Division A (23/24)` (2/20) |
 
 ### 2.11. Nhóm Dưới 10% (1 quốc gia) 🔴
 
@@ -987,7 +987,7 @@ xychart-beta
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | - [x] | `[130672] Cymru Premier (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 33229](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L33229) |
 
-### AFC (35 quốc gia, 794/1,178 CLB — **67.4%**)
+### AFC (35 quốc gia, 820/1,178 CLB — **69.6%**)
 
 #### - [x] [AUS] AUSTRALIA (36/36 CLB — **100.0%** ✅)
 
@@ -1261,13 +1261,13 @@ xychart-beta
 | - [x] | `U21 Arabian Gulf League` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7195](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7195) |
 | - [ ] | `[2000017168] UAE Second Division League (23/24)` | 0 | 14 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 7123](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7123) |
 
-#### - [ ] [UZB] UZBEKISTAN (6/32 CLB — **18.8%** 🟠)
+#### - [x] [UZB] UZBEKISTAN (32/32 CLB — **100.0%** ✅)
 
 | Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[59135038] Uzbekistan Super League (2023)` | 2 | 14 | **14.3%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 7282](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7282) |
-| - [ ] | `[59135039] Uzbekistan Pro League (2023)` | 2 | 11 | **18.2%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 7357](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7357) |
-| - [ ] | `[73000048] Uzbekistan First League (2023)` | 2 | 7 | **28.6%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 7417](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7417) |
+| - [x] | `[59135038] Uzbekistan Super League (2023)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7662](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7662) |
+| - [x] | `[59135039] Uzbekistan Pro League (2023)` | 11 | 11 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7749](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7749) |
+| - [x] | `[73000048] Uzbekistan First League (2023)` | 7 | 7 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7818](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7818) |
 
 #### - [x] [VIE] VIETNAM (71/71 CLB — **100.0%** ✅)
 
