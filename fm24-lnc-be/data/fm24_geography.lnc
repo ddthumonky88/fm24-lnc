@@ -11433,6 +11433,7 @@
 "CITY_NAME_CHANGE"		781384		"Aichi-ken"						""
 "CITY_NAME_CHANGE"		102559		"Nagoya"						""
 "CITY_NAME_CHANGE"		780947		"Toyota, Aichi-ken"					""
+"CITY_NAME_CHANGE"		788924		"Okazaki"						""
 "CITY_NAME_CHANGE"		788930		"Tsushima, Aichi-ken"					""
 "CITY_NAME_CHANGE"		788938		"Konan, Aichi-ken"					""
 "CITY_NAME_CHANGE"		788963		"Miyoshi, Aichi-ken"					""
@@ -11442,6 +11443,7 @@
 # CITY > [JPN] JAPAN > [JPN-05] Akita-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781386		"Akita-ken"						""
+"CITY_NAME_CHANGE"		788969		"Akita"							""
 "CITY_NAME_CHANGE"		45052300	"Senboku, Akita-ken"					""
 
 
@@ -11449,20 +11451,25 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		781382		"Aomori-ken"						""
 "CITY_NAME_CHANGE"		789894		"Aomori"						""
+"CITY_NAME_CHANGE"		789896		"Hachinohe"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-12] Chiba-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781370		"Chiba-ken"						""
 "CITY_NAME_CHANGE"		102563		"Kashiwa"						""
+"CITY_NAME_CHANGE"		107261		"Ichihara"						""
 "CITY_NAME_CHANGE"		788996		"Sakura, Chiba-ken"					""
 "CITY_NAME_CHANGE"		789000		"Katsuura, Chiba-ken"					""
+"CITY_NAME_CHANGE"		789008		"Urayasu"						""
 "CITY_NAME_CHANGE"		789023		"Awa, Chiba-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-38] Ehime-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781387		"Ehime-ken"						""
+"CITY_NAME_CHANGE"		776291		"Matsuyama"						""
+"CITY_NAME_CHANGE"		789025		"Imabari"						""
 "CITY_NAME_CHANGE"		789037		"Ochi, Ehime-ken"					""
 "CITY_NAME_CHANGE"		789039		"Kamiukena"						""
 "CITY_NAME_CHANGE"		789041		"Kita, Ehime-ken"					""
@@ -11480,6 +11487,7 @@
 # CITY > [JPN] JAPAN > [JPN-40] Fukuoka-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		107258		"Fukuoka-ken"						""
+"CITY_NAME_CHANGE"		789062		"Kitakyushu"						""
 "CITY_NAME_CHANGE"		789063		"Fukuoka"						""
 "CITY_NAME_CHANGE"		789085		"Koga, Fukuoka-ken"					""
 "CITY_NAME_CHANGE"		789101		"Miyako, Fukuoka-ken"					""
@@ -11488,12 +11496,15 @@
 # CITY > [JPN] JAPAN > [JPN-07] Fukushima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781486		"Fukushima-ken"						""
+"CITY_NAME_CHANGE"		789103		"Fukushima"						""
+"CITY_NAME_CHANGE"		789106		"Iwaki"							""
 "CITY_NAME_CHANGE"		45052335	"Date, Fukushima-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-21] Gifu-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		3902244		"Gifu-ken"						""
+"CITY_NAME_CHANGE"		789910		"Gifu"							""
 "CITY_NAME_CHANGE"		789924		"Yamagata, Gifu-ken"					""
 "CITY_NAME_CHANGE"		789931		"Yoro, Gifu-ken"					""
 "CITY_NAME_CHANGE"		789937		"Kamo, Gifu-ken"					""
@@ -11503,6 +11514,7 @@
 # CITY > [JPN] JAPAN > [JPN-10] Gunma-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781378		"Gunma-ken"						""
+"CITY_NAME_CHANGE"		783250		"Maebashi"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-34] Hiroshima-ken
@@ -11542,6 +11554,7 @@
 # CITY > [JPN] JAPAN > [JPN-08] Ibaraki-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781366		"Ibaraki-ken"						""
+"CITY_NAME_CHANGE"		107267		"Mito"							""
 "CITY_NAME_CHANGE"		789205		"Koga, Ibaraki-ken"					""
 "CITY_NAME_CHANGE"		789226		"Kuji, Ibaraki-ken"					""
 "CITY_NAME_CHANGE"		3900529		"Kashima"						""
@@ -11551,6 +11564,7 @@
 # CITY > [JPN] JAPAN > [JPN-17] Ishikawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781388		"Ishikawa-ken"						""
+"CITY_NAME_CHANGE"		783258		"Kanazawa"						""
 "CITY_NAME_CHANGE"		789239		"Kaga, Ishikawa-ken"					""
 "CITY_NAME_CHANGE"		789247		"Kashima, Ishikawa-ken"				""
 
@@ -11558,6 +11572,7 @@
 # CITY > [JPN] JAPAN > [JPN-03] Iwate-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781376		"Iwate-ken"						""
+"CITY_NAME_CHANGE"		783248		"Morioka"						""
 "CITY_NAME_CHANGE"		789249		"Miyako, Iwate-ken"					""
 "CITY_NAME_CHANGE"		789254		"Kuji, Iwate-ken"					""
 
@@ -11565,12 +11580,14 @@
 # CITY > [JPN] JAPAN > [JPN-37] Kagawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781489		"Kagawa-ken"						""
+"CITY_NAME_CHANGE"		789273		"Takamatsu"						""
 "CITY_NAME_CHANGE"		789280		"Kita, Kagawa-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-46] Kagoshima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781367		"Kagoshima-ken"						""
+"CITY_NAME_CHANGE"		789285		"Kagoshima"						""
 "CITY_NAME_CHANGE"		789292		"Izumi, Kagoshima-ken"					""
 "CITY_NAME_CHANGE"		789306		"Kumage, Kagoshima-ken"				""
 
@@ -11581,12 +11598,14 @@
 "CITY_NAME_CHANGE"		107260		"Hiratsuka"						""
 "CITY_NAME_CHANGE"		107263		"Kawasaki"						""
 "CITY_NAME_CHANGE"		107279		"Yokohama"						""
+"CITY_NAME_CHANGE"		789314		"Sagamihara"						""
 "CITY_NAME_CHANGE"		789323		"Naka, Kanagawa-ken"					""
 
 
 # CITY > [JPN] JAPAN > [JPN-39] Kochi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781383		"Kochi-ken"						""
+"CITY_NAME_CHANGE"		789328		"Kochi"							""
 "CITY_NAME_CHANGE"		789337		"Kami, Kochi-ken"					""
 "CITY_NAME_CHANGE"		789338		"Nagaoka, Kochi-ken"					""
 "CITY_NAME_CHANGE"		789340		"Takaoka, Kochi-ken"					""
@@ -11597,6 +11616,7 @@
 # CITY > [JPN] JAPAN > [JPN-43] Kumamoto-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		776289		"Kumamoto-ken"						""
+"CITY_NAME_CHANGE"		789342		"Kumamoto"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-26] Kyoto-fu
@@ -11628,11 +11648,14 @@
 # CITY > [JPN] JAPAN > [JPN-24] Mie-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781385		"Mie-ken"						""
+"CITY_NAME_CHANGE"		783261		"Suzuka"						""
+"CITY_NAME_CHANGE"		789383		"Kuwana"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-04] Miyagi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781368		"Miyagi-ken"						""
+"CITY_NAME_CHANGE"		107272		"Sendai"						""
 "CITY_NAME_CHANGE"		789417		"Shibata, Miyagi-ken"					""
 "CITY_NAME_CHANGE"		789422		"Kami, Miyagi-ken"					""
 "CITY_NAME_CHANGE"		789425		"Toda, Miyagi-ken"					""
@@ -11641,23 +11664,27 @@
 # CITY > [JPN] JAPAN > [JPN-45] Miyazaki-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		780945		"Miyazaki-ken"						""
+"CITY_NAME_CHANGE"		789431		"Miyazaki"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-20] Nagano-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781487		"Nagano-ken"						""
+"CITY_NAME_CHANGE"		783256		"Matsumoto"						""
 "CITY_NAME_CHANGE"		789446		"Nagano"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-42] Nagasaki-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781374		"Nagasaki-ken"						""
+"CITY_NAME_CHANGE"		789482		"Isahaya"						""
 "CITY_NAME_CHANGE"		789487		"Tsushima, Nagasaki-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-29] Nara-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781364		"Nara-ken"						""
+"CITY_NAME_CHANGE"		789495		"Nara"							""
 "CITY_NAME_CHANGE"		789507		"Shiki, Nara-ken"					""
 
 
@@ -11679,6 +11706,7 @@
 # CITY > [JPN] JAPAN > [JPN-33] Okayama-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781372		"Okayama-ken"						""
+"CITY_NAME_CHANGE"		789548		"Okayama"						""
 "CITY_NAME_CHANGE"		789564		"Oda, Okayama-ken"					""
 "CITY_NAME_CHANGE"		45052266	"Kaga, Okayama-ken"					""
 
@@ -11686,6 +11714,8 @@
 # CITY > [JPN] JAPAN > [JPN-47] Okinawa-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781490		"Okinawa-ken"						""
+"CITY_NAME_CHANGE"		789577		"Uruma"							""
+"CITY_NAME_CHANGE"		789587		"Nakagami"						""
 "CITY_NAME_CHANGE"		789589		"Miyako, Okinawa-ken"					""
 "CITY_NAME_CHANGE"		45052267	"Nanjo, Okinawa-ken"					""
 
@@ -11763,6 +11793,7 @@
 # CITY > [JPN] JAPAN > [JPN-25] Shiga-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781488		"Shiga-ken"						""
+"CITY_NAME_CHANGE"		789672		"Hikone"						""
 "CITY_NAME_CHANGE"		45011562	"Konan, Shiga-ken"					""
 
 
@@ -11776,6 +11807,11 @@
 # CITY > [JPN] JAPAN > [JPN-22] Shizuoka-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		102561		"Shizuoka-ken"						""
+"CITY_NAME_CHANGE"		102562		"Iwata"							""
+"CITY_NAME_CHANGE"		107259		"Hamamatsu"						""
+"CITY_NAME_CHANGE"		783259		"Numazu"						""
+"CITY_NAME_CHANGE"		783260		"Fujieda"						""
+"CITY_NAME_CHANGE"		789708		"Shizuoka"						""
 "CITY_NAME_CHANGE"		789710		"Mishima, Shizuoka-ken"				""
 "CITY_NAME_CHANGE"		789712		"Ito, Shizuoka-ken"					""
 "CITY_NAME_CHANGE"		789717		"Fukuroi"						""
@@ -11785,6 +11821,7 @@
 # CITY > [JPN] JAPAN > [JPN-09] Tochigi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781371		"Tochigi-ken"						""
+"CITY_NAME_CHANGE"		775192		"Utsunomiya"						""
 "CITY_NAME_CHANGE"		45025445	"Sakura, Tochigi-ken"					""
 
 
@@ -11824,6 +11861,7 @@
 # CITY > [JPN] JAPAN > [JPN-36] Tokushima-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		107275		"Tokushima-ken"						""
+"CITY_NAME_CHANGE"		789754		"Tokushima"						""
 "CITY_NAME_CHANGE"		789757		"Katsuura, Tokushima-ken"				""
 "CITY_NAME_CHANGE"		789760		"Naka, Tokushima-ken"					""
 "CITY_NAME_CHANGE"		789763		"Awa, Tokushima-ken"					""
@@ -11833,6 +11871,7 @@
 # CITY > [JPN] JAPAN > [JPN-31] Tottori-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		776290		"Tottori-ken"						""
+"CITY_NAME_CHANGE"		789801		"Tottori"						""
 "CITY_NAME_CHANGE"		45052320	"Hino, Tottori-ken"					""
 
 
@@ -11840,6 +11879,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		775191		"Toyama-ken"						""
 "CITY_NAME_CHANGE"		783257		"Takaoka, Toyama-ken"					""
+"CITY_NAME_CHANGE"		789810		"Toyama"						""
 
 
 # CITY > [JPN] JAPAN > [JPN-30] Wakayama-ken
@@ -11853,6 +11893,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		107278		"Yamagata-ken"						""
 "CITY_NAME_CHANGE"		789837		"Yamagata, Yamagata-ken"				""
+"CITY_NAME_CHANGE"		789846		"Tendo"							""
 "CITY_NAME_CHANGE"		789854		"Nishi, Yamagata-ken"					""
 "CITY_NAME_CHANGE"		45052287	"Higashimurayama, Yamagata-ken"			""
 
@@ -11860,12 +11901,14 @@
 # CITY > [JPN] JAPAN > [JPN-35] Yamaguchi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781377		"Yamaguchi-ken"						""
+"CITY_NAME_CHANGE"		789860		"Yamaguchi"						""
 "CITY_NAME_CHANGE"		789872		"Kumage, Yamaguchi-ken"				""
 
 
 # CITY > [JPN] JAPAN > [JPN-19] Yamanashi-ken
 #====================================================================================
 "CITY_NAME_CHANGE"		781365		"Yamanashi-ken"						""
+"CITY_NAME_CHANGE"		107265		"Kofu"							""
 "CITY_NAME_CHANGE"		789890		"Hokuto, Yamanashi-ken"				""
 
 
@@ -13168,6 +13211,7 @@
 "CITY_NAME_CHANGE"		59079900	"Mayevka"						""
 "CITY_NAME_CHANGE"		59079906	"Chaldovar"						""
 "CITY_NAME_CHANGE"		59079998	"Kara-Bulak, Chuy"					""
+"CITY_NAME_CHANGE"		59080016	"Kara-Debe"						""
 "CITY_NAME_CHANGE"		59080036	"Ivanovka"						""
 "CITY_NAME_CHANGE"		59080042	"Krasnaya Rechka"					""
 "CITY_NAME_CHANGE"		59080056	"Alamudun"						""
@@ -13176,6 +13220,7 @@
 "CITY_NAME_CHANGE"		59080072	"Novopavlovka"						""
 "CITY_NAME_CHANGE"		59080088	"Sosnovka"						""
 "CITY_NAME_CHANGE"		2000040498	"Frunze, Chuy"						""
+"CITY_NAME_CHANGE"		2000269196	"Besh-Künggöy"					""
 
 
 # CITY > [KGZ] KYRGYZSTAN > [KGZ-J] Jalalabat oblasty
@@ -14746,59 +14791,59 @@
 # CITY > [MAS] MALAYSIA > [MAS-05] Negeri Sembilan
 #====================================================================================
 "CITY_NAME_CHANGE"		23013065	"Negeri Sembilan"					""
-"CITY_NAME_CHANGE"		135364		"Seremban (NSE)"					""
-"CITY_NAME_CHANGE"		1014596		"Bahau (NSE)"						""
-"CITY_NAME_CHANGE"		1017189		"Sikamat (NSE)"						""
-"CITY_NAME_CHANGE"		23013309	"Kuala Klawang (NSE)"					""
-"CITY_NAME_CHANGE"		23013310	"Kuala Pilah (NSE)"					""
-"CITY_NAME_CHANGE"		23013787	"Port Dickson (NSE)"					""
-"CITY_NAME_CHANGE"		23014007	"Mantin (NSE)"						""
-"CITY_NAME_CHANGE"		23014020	"Gemas (NSE)"						""
-"CITY_NAME_CHANGE"		23014042	"Lenggeng (NSE)"					""
-"CITY_NAME_CHANGE"		23020740	"Nilai (NSE)"						""
-"CITY_NAME_CHANGE"		23020759	"Tampin (NSE)"						""
-"CITY_NAME_CHANGE"		23323296	"Ampang Tinggi (NSE)"					""
-"CITY_NAME_CHANGE"		23501805	"Air Kuning Selatan (NSE)"				""
-"CITY_NAME_CHANGE"		23501806	"Ampangan (NSE)"					""
-"CITY_NAME_CHANGE"		23501807	"Ayer Kuning (NSE)"					""
-"CITY_NAME_CHANGE"		23501808	"Bandar Seri Jempol (NSE)"				""
-"CITY_NAME_CHANGE"		23501809	"Batang Benar (NSE)"					""
-"CITY_NAME_CHANGE"		23501810	"Batu Kikir (NSE)"					""
-"CITY_NAME_CHANGE"		23501811	"Chembong (NSE)"					""
-"CITY_NAME_CHANGE"		23501812	"Chengkau (NSE)"					""
-"CITY_NAME_CHANGE"		23501813	"Gemencheh (NSE)"					""
-"CITY_NAME_CHANGE"		23501814	"Johol (NSE)"						""
-"CITY_NAME_CHANGE"		23501815	"Juasseh (NSE)"						""
-"CITY_NAME_CHANGE"		23501816	"Kota (NSE)"						""
-"CITY_NAME_CHANGE"		23501817	"Labu (NSE)"						""
-"CITY_NAME_CHANGE"		23501818	"Linggi (NSE)"						""
-"CITY_NAME_CHANGE"		23501819	"Lukut (NSE)"						""
-"CITY_NAME_CHANGE"		23501820	"Mambau (NSE)"						""
-"CITY_NAME_CHANGE"		23501821	"Pajam (NSE)"						""
-"CITY_NAME_CHANGE"		23501822	"Pantai (NSE)"						""
-"CITY_NAME_CHANGE"		23501823	"Paroi (NSE)"						""
-"CITY_NAME_CHANGE"		23501824	"Pasir Panjang (NSE)"					""
-"CITY_NAME_CHANGE"		23501825	"Pedas (NSE)"						""
-"CITY_NAME_CHANGE"		23501826	"Pengkalan Kempas (NSE)"				""
-"CITY_NAME_CHANGE"		23501827	"Pertang (NSE)"						""
-"CITY_NAME_CHANGE"		23501828	"Rantau (NSE)"						""
-"CITY_NAME_CHANGE"		23501829	"Rembau (NSE)"						""
-"CITY_NAME_CHANGE"		23501830	"Senawang (NSE)"					""
-"CITY_NAME_CHANGE"		23501831	"Seri Menanti (NSE)"					""
-"CITY_NAME_CHANGE"		23501832	"Siliau (NSE)"						""
-"CITY_NAME_CHANGE"		23501833	"Simpang Durian (NSE)"					""
-"CITY_NAME_CHANGE"		23501834	"Simpang Pertang (NSE)"					""
-"CITY_NAME_CHANGE"		23501835	"Sungai Gadut (NSE)"					""
-"CITY_NAME_CHANGE"		23501836	"Sungai Muntoh (NSE)"					""
-"CITY_NAME_CHANGE"		23501837	"Tanjung Ipoh (NSE)"					""
-"CITY_NAME_CHANGE"		23501838	"Teluk Kemang (NSE)"					""
-"CITY_NAME_CHANGE"		23501839	"Tiroi (NSE)"						""
-"CITY_NAME_CHANGE"		23501959	"Bandar Sri Sendayan (NSE)"				""
-"CITY_NAME_CHANGE"		2000030768	"Jelai (NSE)"						""
-"CITY_NAME_CHANGE"		2000030769	"Kuala Jempol (NSE)"					""
-"CITY_NAME_CHANGE"		2000030770	"Rompin (NSE)"						""
-"CITY_NAME_CHANGE"		2000030771	"Serting Hilir (NSE)"					""
-"CITY_NAME_CHANGE"		2000030772	"Serting Ulu (NSE)"					""
+"CITY_NAME_CHANGE"		135364		"Seremban (NS)"					""
+"CITY_NAME_CHANGE"		1014596		"Bahau (NS)"						""
+"CITY_NAME_CHANGE"		1017189		"Sikamat (NS)"						""
+"CITY_NAME_CHANGE"		23013309	"Kuala Klawang (NS)"					""
+"CITY_NAME_CHANGE"		23013310	"Kuala Pilah (NS)"					""
+"CITY_NAME_CHANGE"		23013787	"Port Dickson (NS)"					""
+"CITY_NAME_CHANGE"		23014007	"Mantin (NS)"						""
+"CITY_NAME_CHANGE"		23014020	"Gemas (NS)"						""
+"CITY_NAME_CHANGE"		23014042	"Lenggeng (NS)"					""
+"CITY_NAME_CHANGE"		23020740	"Nilai (NS)"						""
+"CITY_NAME_CHANGE"		23020759	"Tampin (NS)"						""
+"CITY_NAME_CHANGE"		23323296	"Ampang Tinggi (NS)"					""
+"CITY_NAME_CHANGE"		23501805	"Air Kuning Selatan (NS)"				""
+"CITY_NAME_CHANGE"		23501806	"Ampangan (NS)"					""
+"CITY_NAME_CHANGE"		23501807	"Ayer Kuning (NS)"					""
+"CITY_NAME_CHANGE"		23501808	"Bandar Seri Jempol (NS)"				""
+"CITY_NAME_CHANGE"		23501809	"Batang Benar (NS)"					""
+"CITY_NAME_CHANGE"		23501810	"Batu Kikir (NS)"					""
+"CITY_NAME_CHANGE"		23501811	"Chembong (NS)"					""
+"CITY_NAME_CHANGE"		23501812	"Chengkau (NS)"					""
+"CITY_NAME_CHANGE"		23501813	"Gemencheh (NS)"					""
+"CITY_NAME_CHANGE"		23501814	"Johol (NS)"						""
+"CITY_NAME_CHANGE"		23501815	"Juasseh (NS)"						""
+"CITY_NAME_CHANGE"		23501816	"Kota (NS)"						""
+"CITY_NAME_CHANGE"		23501817	"Labu (NS)"						""
+"CITY_NAME_CHANGE"		23501818	"Linggi (NS)"						""
+"CITY_NAME_CHANGE"		23501819	"Lukut (NS)"						""
+"CITY_NAME_CHANGE"		23501820	"Mambau (NS)"						""
+"CITY_NAME_CHANGE"		23501821	"Pajam (NS)"						""
+"CITY_NAME_CHANGE"		23501822	"Pantai (NS)"						""
+"CITY_NAME_CHANGE"		23501823	"Paroi (NS)"						""
+"CITY_NAME_CHANGE"		23501824	"Pasir Panjang (NS)"					""
+"CITY_NAME_CHANGE"		23501825	"Pedas (NS)"						""
+"CITY_NAME_CHANGE"		23501826	"Pengkalan Kempas (NS)"				""
+"CITY_NAME_CHANGE"		23501827	"Pertang (NS)"						""
+"CITY_NAME_CHANGE"		23501828	"Rantau (NS)"						""
+"CITY_NAME_CHANGE"		23501829	"Rembau (NS)"						""
+"CITY_NAME_CHANGE"		23501830	"Senawang (NS)"					""
+"CITY_NAME_CHANGE"		23501831	"Seri Menanti (NS)"					""
+"CITY_NAME_CHANGE"		23501832	"Siliau (NS)"						""
+"CITY_NAME_CHANGE"		23501833	"Simpang Durian (NS)"					""
+"CITY_NAME_CHANGE"		23501834	"Simpang Pertang (NS)"					""
+"CITY_NAME_CHANGE"		23501835	"Sungai Gadut (NS)"					""
+"CITY_NAME_CHANGE"		23501836	"Sungai Muntoh (NS)"					""
+"CITY_NAME_CHANGE"		23501837	"Tanjung Ipoh (NS)"					""
+"CITY_NAME_CHANGE"		23501838	"Teluk Kemang (NS)"					""
+"CITY_NAME_CHANGE"		23501839	"Tiroi (NS)"						""
+"CITY_NAME_CHANGE"		23501959	"Bandar Sri Sendayan (NS)"				""
+"CITY_NAME_CHANGE"		2000030768	"Jelai (NS)"						""
+"CITY_NAME_CHANGE"		2000030769	"Kuala Jempol (NS)"					""
+"CITY_NAME_CHANGE"		2000030770	"Rompin (NS)"						""
+"CITY_NAME_CHANGE"		2000030771	"Serting Hilir (NS)"					""
+"CITY_NAME_CHANGE"		2000030772	"Serting Ulu (NS)"					""
 
 
 # CITY > [MAS] MALAYSIA > [MAS-11] Negeri Terengganu

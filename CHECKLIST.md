@@ -7,8 +7,8 @@
 ## 1. Số Liệu Tổng Quan Tiến Độ
 
 - **Tổng số CLB trong các giải đấu chính thức:** **4,845 CLB** (loại trừ các nhóm Other/Extinct)
-- **Số CLB đã có City:** **3,283 CLB (67.76%)**
-- **Số CLB chưa có City:** **1,562 CLB (32.24%)**
+- **Số CLB đã có City:** **3,284 CLB (67.78%)**
+- **Số CLB chưa có City:** **1,561 CLB (32.22%)**
 - **Số lượng `rd-uid` còn lại:** **0 dòng** (100% dòng city đều dùng City ID thật từ `fm24_geography.lnc`)
 
 ```mermaid
@@ -16,7 +16,7 @@ xychart-beta
     title "Tỷ lệ bao phủ CLUB_CITY_CHANGE theo Liên đoàn (%)"
     x-axis ["UEFA", "AFC", "CONCACAF", "OFC", "CONMEBOL", "CAF"]
     y-axis "Tỷ lệ bao phủ (%)" 0 --> 100
-    bar [72.9, 67.4, 57.3, 44.0, 49.9, 62.8]
+    bar [72.9, 67.5, 57.3, 44.0, 49.9, 62.8]
 ```
 
 ### Tổng hợp theo Liên đoàn
@@ -24,7 +24,7 @@ xychart-beta
 | Liên đoàn | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ bao phủ | Tiến độ |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **UEFA** | 53 | 1,899 | 2,604 | **72.9%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
-| **AFC** | 35 | 794 | 1,178 | **67.4%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
+| **AFC** | 35 | 795 | 1,178 | **67.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
 | **CONCACAF** | 9 | 219 | 382 | **57.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ |
 | **OFC** | 1 | 11 | 25 | **44.0%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
 | **CONMEBOL** | 10 | 201 | 403 | **49.9%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
@@ -41,8 +41,8 @@ xychart-beta
 
 | Nhóm tỷ lệ | Biểu tượng | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ nhóm |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **100% (Hoàn thành)** | ✅ | **46** | 1,483 | 1,483 | **100.0%** |
-| **90% đến dưới 100%** | 🟢 | **4** | 238 | 252 | **94.4%** |
+| **100% (Hoàn thành)** | ✅ | **47** | 1,495 | 1,495 | **100.0%** |
+| **90% đến dưới 100%** | 🟢 | **3** | 227 | 240 | **94.6%** |
 | **80% đến dưới 90%** | 🟡 | **1** | 160 | 179 | **89.4%** |
 | **70% đến dưới 80%** | 🟡 | **3** | 71 | 97 | **73.2%** |
 | **60% đến dưới 70%** | 🟡 | **19** | 506 | 783 | **64.6%** |
@@ -55,7 +55,7 @@ xychart-beta
 
 ---
 
-### 2.1. Nhóm 100% (Hoàn thành) (46 quốc gia) ✅
+### 2.1. Nhóm 100% (Hoàn thành) (47 quốc gia) ✅
 
 | STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
@@ -105,15 +105,15 @@ xychart-beta
 | 44 | UEFA | **[AND] ANDORRA** | 8/8 | 0 | **100.0%** | `[47000005] Lliga Multisegur Assegurances` (8/8) |
 | 45 | UEFA | **[MDA] MOLDOVA** | 8/8 | 0 | **100.0%** | `[59007607] Moldovan Super Liga (23/24)` (8/8) |
 | 46 | AFC | **[MAC] MACAU** | 3/3 | 0 | **100.0%** | `[5630248] Liga de Elite` (3/3) |
+| 47 | AFC | **[PRK] KOREA DPR** | 12/12 | 0 | **100.0%** | `[23100525] DPRK Premier Football League` (12/12) |
 
-### 2.2. Nhóm 90% đến dưới 100% (4 quốc gia) 🟢
+### 2.2. Nhóm 90% đến dưới 100% (3 quốc gia) 🟢
 
 | STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
 | :---: | :---: | :--- | :---: | :---: | :---: | :--- |
 | 1 | AFC | **[CHN] CHINA PR** | 73/74 | **-1** | **98.6%** | `[130931] Chinese Super League (2023)` (16/16), `[131126] China League One (2023)` (16/16), `[1002872] China League Two North Group (2023)` (8/8), `[1002873] China League Two South Group (2023)` (8/8), `[5627655] Chinese Champions League` (25/26) |
 | 2 | UEFA | **[NED] NETHERLANDS** | 48/49 | **-1** | **98.0%** | `[29] Eredivisie (23/24)` (18/18), `[30] Keuken Kampioen Divisie (23/24)` (20/20), `Team B` (10/11) |
-| 3 | AFC | **[PRK] KOREA DPR** | 11/12 | **-1** | **91.7%** | `[23100525] DPRK Premier Football League` (11/12) |
-| 4 | CONCACAF | **[USA] USA** | 106/117 | **-11** | **90.6%** | `[40] Major League Soccer (2023)` (29/29), `[43] USL Championship (2023)` (22/24), `[20047508] USL League One (2023)` (7/15), `[2000102644] MLS Next Pro (2023)` (27/28), `[72023762] MLS NEXT` (21/21) |
+| 3 | CONCACAF | **[USA] USA** | 106/117 | **-11** | **90.6%** | `[40] Major League Soccer (2023)` (29/29), `[43] USL Championship (2023)` (22/24), `[20047508] USL League One (2023)` (7/15), `[2000102644] MLS Next Pro (2023)` (27/28), `[72023762] MLS NEXT` (21/21) |
 
 ### 2.3. Nhóm 80% đến dưới 90% (1 quốc gia) 🟡
 
@@ -369,7 +369,6 @@ xychart-beta
 | UEFA | [GER] GERMANY | `[92086572] A-Junioren-Bundesliga Nord/Nordost (23/24)` | 13 | 14 | **-1** | 92.9% 🟡 | [Line 22485](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22485) |
 | UEFA | [GER] GERMANY | `[92086574] A-Junioren-Bundesliga West (23/24)` | 13 | 14 | **-1** | 92.9% 🟡 | [Line 22571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22571) |
 | CONCACAF | [USA] USA | `[43] USL Championship (2023)` | 22 | 24 | **-2** | 91.7% 🟡 | [Line 11209](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11209) |
-| AFC | [PRK] KOREA DPR | `[23100525] DPRK Premier Football League` | 11 | 12 | **-1** | 91.7% 🟡 | [Line 3427](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3427) |
 | UEFA | [NED] NETHERLANDS | `Team B` | 10 | 11 | **-1** | 90.9% 🟡 | [Line 26932](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26932) |
 | UEFA | [GER] GERMANY | `Team II/III` | 19 | 21 | **-2** | 90.5% 🟡 | [Line 22341](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22341) |
 
@@ -1194,11 +1193,11 @@ xychart-beta
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
 | - [x] | `[23390834] Philippines Football League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 5214](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5214) |
 
-#### - [ ] [PRK] KOREA DPR (11/12 CLB — **91.7%** 🟡)
+#### - [x] [PRK] KOREA DPR (12/12 CLB — **100.0%** ✅)
 
 | Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[23100525] DPRK Premier Football League` | 11 | 12 | **91.7%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 3427](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3427) |
+| - [x] | `[23100525] DPRK Premier Football League` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3612](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3612) |
 
 #### - [x] [QAT] QATAR (24/24 CLB — **100.0%** ✅)
 
