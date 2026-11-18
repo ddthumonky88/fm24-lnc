@@ -1,1500 +1,359 @@
-# Bảng Kiểm Kê Độ Bao Phủ CLUB_CITY_CHANGE (Official Competitions)
-
-> [!NOTE]
-> Checklist theo dõi mức độ bao phủ `CLUB_CITY_CHANGE` trên các giải đấu chính thức (Official Competitions) trong [fm24_club.lnc](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc).
-> **Quy ước:** Đã tự động loại trừ các nhóm `[OTHER]` (ngoài hệ thống giải) và `[EXTINCT]` (CLB giải thể) để phản ánh chính xác nhất tiến độ hoàn thiện dữ liệu game.
-
-## 1. Số Liệu Tổng Quan Tiến Độ
-
-- **Tổng số CLB trong các giải đấu chính thức:** **4,845 CLB** (loại trừ các nhóm Other/Extinct)
-- **Số CLB đã có City:** **3,310 CLB (68.32%)**
-- **Số CLB chưa có City:** **1,535 CLB (31.68%)**
-- **Số lượng `rd-uid` còn lại:** **0 dòng** (100% dòng city đều dùng City ID thật từ `fm24_geography.lnc`)
-
-```mermaid
-xychart-beta
-    title "Tỷ lệ bao phủ CLUB_CITY_CHANGE theo Liên đoàn (%)"
-    x-axis ["UEFA", "AFC", "CONCACAF", "OFC", "CONMEBOL", "CAF"]
-    y-axis "Tỷ lệ bao phủ (%)" 0 --> 100
-    bar [72.9, 69.7, 57.3, 44.0, 49.9, 62.8]
-```
-
-### Tổng hợp theo Liên đoàn
-
-| Liên đoàn | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ bao phủ | Tiến độ |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **UEFA** | 53 | 1,899 | 2,604 | **72.9%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ |
-| **AFC** | 35 | 821 | 1,178 | **69.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
-| **CONCACAF** | 9 | 219 | 382 | **57.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ |
-| **OFC** | 1 | 11 | 25 | **44.0%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
-| **CONMEBOL** | 10 | 201 | 403 | **49.9%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ |
-| **CAF** | 10 | 159 | 253 | **62.8%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ |
-
----
-
-## 2. Phân Nhóm Tiến Độ Toàn Bộ 118 Quốc Gia (Coverage Tiers)
-
-> [!TIP]
-> Toàn bộ các quốc gia được phân nhóm theo tỷ lệ bao phủ City từ cao xuống thấp (100%, 90% - <100%, 80% - <90%,...):
-
-### Bảng Tổng Hợp Các Nhóm Tiến Độ
-
-| Nhóm tỷ lệ | Biểu tượng | Số quốc gia | Số CLB có City | Tổng số CLB | Tỷ lệ nhóm |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **100% (Hoàn thành)** | ✅ | **48** | 1,527 | 1,527 | **100.0%** |
-| **90% đến dưới 100%** | 🟢 | **3** | 227 | 240 | **94.6%** |
-| **80% đến dưới 90%** | 🟡 | **1** | 160 | 179 | **89.4%** |
-| **70% đến dưới 80%** | 🟡 | **3** | 71 | 97 | **73.2%** |
-| **60% đến dưới 70%** | 🟡 | **19** | 506 | 783 | **64.6%** |
-| **50% đến dưới 60%** | 🟡 | **12** | 362 | 677 | **53.5%** |
-| **40% đến dưới 50%** | 🟠 | **11** | 228 | 526 | **43.3%** |
-| **30% đến dưới 40%** | 🟠 | **10** | 160 | 443 | **36.1%** |
-| **20% đến dưới 30%** | 🟠 | **5** | 44 | 173 | **25.4%** |
-| **10% đến dưới 20%** | 🔴 | **5** | 22 | 164 | **13.4%** |
-| **Dưới 10%** | 🔴 | **1** | 3 | 36 | **8.3%** |
-
----
-
-### 2.1. Nhóm 100% (Hoàn thành) (48 quốc gia) ✅
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[ESP] SPAIN** | 218/218 | 0 | **100.0%** | `[67] LALIGA EA SPORTS (23/24)` (20/20), `[68] LALIGA HYPERMOTION (23/24)` (22/22), `[2000048844] Primera Federación Grupo 1 (23/24)` (20/20), `[2000048846] Primera Federación Grupo 2 (23/24)` (20/20), `[2000099903] Segunda Federación Grupo 1 (23/24)` (18/18), `[2000099904] Segunda Federación Grupo 2 (23/24)` (18/18), `[2000099905] Segunda Federación Grupo 3 (23/24)` (18/18), `[2000099906] Segunda Federación Grupo 4 (23/24)` (18/18), `[2000099907] Segunda Federación Grupo 5 (23/24)` (18/18), `Team B/C` (46/46) |
-| 2 | UEFA | **[ENG] ENGLAND** | 164/164 | 0 | **100.0%** | `[11] Premier League (23/24)` (20/20), `[12] EFL Championship (23/24)` (24/24), `[13] EFL League One (23/24)` (24/24), `[14] EFL League Two (23/24)` (24/24), `[109201] National League (23/24)` (24/24), `[5123054] National League North (23/24)` (24/24), `[5123055] National League South (23/24)` (24/24) |
-| 3 | UEFA | **[ITA] ITALY** | 100/100 | 0 | **100.0%** | `[32] Serie A (23/24)` (20/20), `[33] Serie B (23/24)` (20/20), `[43127172] Serie C Girone A (23/24)` (20/20), `[43127173] Serie C Girone B (23/24)` (20/20), `[43127174] Serie C Girone C (23/24)` (20/20) |
-| 4 | AFC | **[KOR] KOREA REPUBLIC** | 74/74 | 0 | **100.0%** | `[136407] K.League 1 (2023)` (12/12), `[66029602] K.League 2 (2023)` (13/13), `[66010517] K3 League (2023)` (15/15), `[66040773] K4 League (2023)` (18/18), `[66039929] K.League Junior Group A` (6/6), `[66039930] K.League Junior Group B` (10/10) |
-| 5 | AFC | **[VIE] VIETNAM** | 71/71 | 0 | **100.0%** | `[8550000] V.League 1 (23/24)` (14/14), `[8550001] V.League 2 (23/24)` (14/14), `[8550002] Vietnamese Second Division (23/24)` (16/16), `[8550003] Vietnamese Third Division (23/24)` (27/27) |
-| 6 | UEFA | **[CZE] CZECHIA** | 57/57 | 0 | **100.0%** | `[131287] Chance Liga (23/24)` (16/16), `[131288] Chance Národní Liga (23/24)` (16/16), `[136041] CFL A (23/24)` (6/6), `[25060473] CFL B (23/24)` (7/7), `[136042] MSFL (23/24)` (12/12) |
-| 7 | UEFA | **[POR] PORTUGAL** | 56/56 | 0 | **100.0%** | `[60] Liga Portugal (23/24)` (18/18), `[61] Liga Portugal 2 (23/24)` (18/18), `[2000112232] Liga 3 Norte (23/24)` (10/10), `[2000112233] Liga 3 Sul (23/24)` (10/10) |
-| 8 | UEFA | **[BIH] BOSNIA & HERZEGOVINA** | 46/46 | 0 | **100.0%** | `[8401073] Wwin League BIH (23/24)` (12/12), `[8407370] Prva liga Federacije BiH (23/24)` (16/16), `[8407360] Prva liga Republike Srpske (23/24)` (18/18) |
-| 9 | AFC | **[AUS] AUSTRALIA** | 36/36 | 0 | **100.0%** | `[129985] A-League Men (23/24)` (13/13), `[432083] NPL ACT` (1/1), `[130185] NPL NSW` (10/10), `[15007722] NPL Northern NSW` (1/1), `[15045003] NPL South Australia` (2/2), `[15041771] NPL Queensland` (1/1), `[130188] NPL Victoria` (3/3), `[130189] NPL Western Australia` (1/1), `[15020175] Victorian Premier League 1` (2/2), `[15045546] NSW League Two` (1/1), `[15090908] Victorian Premier League 2` (1/1) |
-| 10 | CONCACAF | **[MEX] MEXICO** | 33/33 | 0 | **100.0%** | `[135973] Liga MX (23/24)` (18/18), `[2000017067] Liga de Expansión MX (23/24)` (15/15) |
-| 11 | UEFA | **[BLR] BELARUS** | 32/32 | 0 | **100.0%** | `[7483354] Belarusian Premier League (2023)` (15/15), `[7483366] Belarusian First League (2023)` (17/17) |
-| 12 | CONMEBOL | **[CHI] CHILE** | 32/32 | 0 | **100.0%** | `[5250792] Liga de Primera Chileno (2023)` (16/16), `[5250793] Liga de Ascenso Chileno (2023)` (16/16) |
-| 13 | UEFA | **[SRB] SERBIA** | 32/32 | 0 | **100.0%** | `[132321] SuperLiga Srbije (23/24)` (16/16), `[5776050] PrvaLiga Srbije (23/24)` (16/16) |
-| 14 | UEFA | **[SUI] SWITZERLAND** | 32/32 | 0 | **100.0%** | `[137889] Swiss Super League (23/24)` (12/12), `[137890] Swiss Challenge League (23/24)` (10/10), `[98027828] Swiss Promotion League (23/24)` (10/10) |
-| 15 | UEFA | **[ISR] ISRAEL** | 28/28 | 0 | **100.0%** | `[7860000] Ligat TOTO Winner (23/24)` (14/14), `[7860001] Liga Leumit (23/24)` (14/14) |
-| 16 | UEFA | **[SVK] SLOVAKIA** | 28/28 | 0 | **100.0%** | `[7560276] Niké liga (23/24)` (12/12), `[7560277] MONACObet LIGA (23/24)` (16/16) |
-| 17 | AFC | **[HKG] HONG KONG** | 25/25 | 0 | **100.0%** | `[5624449] Hong Kong Premier League (23/24)` (11/11), `[5624450] Hong Kong First Division (23/24)` (12/12), `[7400579] Hong Kong Second Division (23/24)` (2/2) |
-| 18 | AFC | **[BHR] BAHRAIN** | 24/24 | 0 | **100.0%** | `[1039313] Bahraini Premier League (23/24)` (12/12), `[1039314] Bahraini Second Division (23/24)` (12/12) |
-| 19 | AFC | **[QAT] QATAR** | 24/24 | 0 | **100.0%** | `[5632126] Qatar Stars League (23/24)` (12/12), `[5632158] QSL 2 League (23/24)` (12/12) |
-| 20 | CAF | **[LBY] LIBYA** | 22/22 | 0 | **100.0%** | `[13208974] Libyan Premier League (23/24)` (22/22) |
-| 21 | AFC | **[BAN] BANGLADESH** | 20/20 | 0 | **100.0%** | `[5630062] Bangladesh Football League (23/24)` (10/10), `[23184385] Bangladesh Championship League (23/24)` (10/10) |
-| 22 | AFC | **[CAM] CAMBODIA** | 20/20 | 0 | **100.0%** | `[23084471] Cambodian Premier League (23/24)` (12/12), `[23184338] Cambodian League 2 (23/24)` (8/8) |
-| 23 | UEFA | **[GEO] GEORGIA** | 20/20 | 0 | **100.0%** | `[59126495] Erovnuli Liga (2023)` (10/10), `[59126496] Erovnuli Liga 2 (2023)` (10/10) |
-| 24 | CAF | **[NGA] NIGERIA** | 20/20 | 0 | **100.0%** | `[12016011] Nigeria Professional Football League (23/24)` (20/20) |
-| 25 | CAF | **[SUD] SUDAN** | 18/18 | 0 | **100.0%** | `[36513629] Sudani Premier League (23/24)` (18/18) |
-| 26 | CONMEBOL | **[BOL] BOLIVIA** | 17/17 | 0 | **100.0%** | `[86000000] División Profesional de Bolivia (2023)` (17/17) |
-| 27 | CAF | **[TAN] TANZANIA** | 16/16 | 0 | **100.0%** | `[13211724] Tanzanian Premier League` (16/16) |
-| 28 | UEFA | **[SMR] SAN MARINO** | 15/15 | 0 | **100.0%** | `[43032015] Campionato Sammarinese` (15/15) |
-| 29 | AFC | **[TJK] TAJIKISTAN** | 15/15 | 0 | **100.0%** | `[59007964] Ligai Olii Tojikiston (2023)` (10/10), `[59110037] Ligai Yakumi Tojikiston (2023)` (5/5) |
-| 30 | AFC | **[TPE] CHINESE TAIPEI** | 15/15 | 0 | **100.0%** | `[23397138] Taiwan Football Premier League (2023)` (8/8), `[2000070108] Taiwan Football Challenge League (2023)` (7/7) |
-| 31 | CONMEBOL | **[VEN] VENEZUELA** | 15/15 | 0 | **100.0%** | `[86000001] Liga FUTVE (2023)` (15/15) |
-| 32 | CAF | **[ANG] ANGOLA** | 14/14 | 0 | **100.0%** | `[12034515] Girabola (23/24)` (14/14) |
-| 33 | UEFA | **[MLT] MALTA** | 14/14 | 0 | **100.0%** | `[2300050] Maltese Premier League (23/24)` (14/14) |
-| 34 | CAF | **[TUN] TUNISIA** | 14/14 | 0 | **100.0%** | `[12019164] Tunisian Ligue Professionnelle 1 (23/24)` (14/14) |
-| 35 | AFC | **[LAO] LAOS** | 12/12 | 0 | **100.0%** | `[5634246] Lao League 1 (2023)` (12/12) |
-| 36 | AFC | **[PHI] PHILIPPINES** | 12/12 | 0 | **100.0%** | `[23390834] Philippines Football League (23/24)` (12/12) |
-| 37 | AFC | **[SYR] SYRIA** | 12/12 | 0 | **100.0%** | `[5635022] Syrian Premier League (23/24)` (12/12) |
-| 38 | UEFA | **[WAL] WALES** | 12/12 | 0 | **100.0%** | `[130672] Cymru Premier (23/24)` (12/12) |
-| 39 | UEFA | **[GIB] GIBRALTAR** | 11/11 | 0 | **100.0%** | `[36532636] Gibraltar Football League` (11/11) |
-| 40 | AFC | **[MNG] MONGOLIA** | 10/10 | 0 | **100.0%** | `[23090971] Mongolian Premier League (23/24)` (10/10) |
-| 41 | AFC | **[SGP] SINGAPORE** | 10/10 | 0 | **100.0%** | `[5395850] Singapore Premier League (2023)` (9/9), `[23501268] Singapore Premier League 2` (1/1) |
-| 42 | UEFA | **[FRO] FAROE ISLANDS** | 9/9 | 0 | **100.0%** | `[8300358] Betrideildin` (9/9) |
-| 43 | AFC | **[TKM] TURKMENISTAN** | 9/9 | 0 | **100.0%** | `[5638083] Türkmenistan Ýokary Liga (2023)` (9/9) |
-| 44 | UEFA | **[AND] ANDORRA** | 8/8 | 0 | **100.0%** | `[47000005] Lliga Multisegur Assegurances` (8/8) |
-| 45 | UEFA | **[MDA] MOLDOVA** | 8/8 | 0 | **100.0%** | `[59007607] Moldovan Super Liga (23/24)` (8/8) |
-| 46 | AFC | **[MAC] MACAU** | 3/3 | 0 | **100.0%** | `[5630248] Liga de Elite` (3/3) |
-| 47 | AFC | **[PRK] KOREA DPR** | 12/12 | 0 | **100.0%** | `[23100525] DPRK Premier Football League` (12/12) |
-| 48 | AFC | **[UZB] UZBEKISTAN** | 32/32 | 0 | **100.0%** | `[59135038] Uzbekistan Super League (2023)` (14/14), `[59135039] Uzbekistan Pro League (2023)` (11/11), `[73000048] Uzbekistan First League (2023)` (7/7) |
-
-### 2.2. Nhóm 90% đến dưới 100% (3 quốc gia) 🟢
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | AFC | **[CHN] CHINA PR** | 73/74 | **-1** | **98.6%** | `[130931] Chinese Super League (2023)` (16/16), `[131126] China League One (2023)` (16/16), `[1002872] China League Two North Group (2023)` (8/8), `[1002873] China League Two South Group (2023)` (8/8), `[5627655] Chinese Champions League` (25/26) |
-| 2 | UEFA | **[NED] NETHERLANDS** | 48/49 | **-1** | **98.0%** | `[29] Eredivisie (23/24)` (18/18), `[30] Keuken Kampioen Divisie (23/24)` (20/20), `Team B` (10/11) |
-| 3 | CONCACAF | **[USA] USA** | 106/117 | **-11** | **90.6%** | `[40] Major League Soccer (2023)` (29/29), `[43] USL Championship (2023)` (22/24), `[20047508] USL League One (2023)` (7/15), `[2000102644] MLS Next Pro (2023)` (27/28), `[72023762] MLS NEXT` (21/21) |
-
-### 2.3. Nhóm 80% đến dưới 90% (1 quốc gia) 🟡
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[GER] GERMANY** | 160/179 | **-19** | **89.4%** | `[22] Bundesliga (23/24)` (18/18), `[23] 2. Bundesliga (23/24)` (18/18), `[35010926] 3. Liga (23/24)` (20/20), `[26] Regionalliga Nord (23/24)` (5/6), `[91107110] Regionalliga Nordost (23/24)` (5/8), `[35010927] Regionalliga West (23/24)` (7/7), `[27] Regionalliga Südwest (23/24)` (4/7), `[91107111] Regionalliga Bayern (23/24)` (5/7), `Team II/III` (19/21), `[92086572] A-Junioren-Bundesliga Nord/Nordost (23/24)` (13/14), `[92086574] A-Junioren-Bundesliga West (23/24)` (13/14), `[92086573] A-Junioren-Bundesliga Süd/Südwest (23/24)` (14/14), `NLZ Teams` (19/25) |
-
-### 2.4. Nhóm 70% đến dưới 80% (3 quốc gia) 🟡
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | CONMEBOL | **[COL] COLOMBIA** | 27/36 | **-9** | **75.0%** | `[5260948] Liga BetPlay DIMAYOR (2023)` (20/20), `[5260950] Torneo BetPlay DIMAYOR (2023)` (7/16) |
-| 2 | UEFA | **[LUX] LUXEMBOURG** | 14/19 | **-5** | **73.7%** | `[5340000] BGL Ligue` (14/19) |
-| 3 | UEFA | **[SCO] SCOTLAND** | 30/42 | **-12** | **71.4%** | `[45] Scottish Premiership (23/24)` (12/12), `[46] Scottish Championship (23/24)` (5/10), `[47] Scottish League One (23/24)` (6/10), `[48] Scottish League Two (23/24)` (7/10) |
-
-### 2.5. Nhóm 60% đến dưới 70% (19 quốc gia) 🟡
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[AUT] AUSTRIA** | 34/49 | **-15** | **69.4%** | `[136543] ÖFB Bundesliga (23/24)` (12/12), `[136544] ÖFB 2. Liga (23/24)` (8/16), `[136546] Regionalliga Ost (23/24)` (2/2), `[5607687] Regionalliga Mitte (23/24)` (3/5), `[5607688] Regionalliga West (23/24)` (1/1), `[16068419] ÖFB Jugendliga U18` (8/13) |
-| 2 | UEFA | **[UKR] UKRAINE** | 22/32 | **-10** | **68.8%** | `[5314301] Ukrainian Premier League (23/24)` (16/16), `[5314302] Ukrainian First League (23/24)` (6/16) |
-| 3 | UEFA | **[CRO] CROATIA** | 15/22 | **-7** | **68.2%** | `[129645] HNL (23/24)` (10/10), `[129646] Prva NL (23/24)` (5/12) |
-| 4 | UEFA | **[MKD] NORTH MACEDONIA** | 19/28 | **-9** | **67.9%** | `[8401070] 1.MFL (23/24)` (7/12), `[8403796] 2.MFL (23/24)` (12/16) |
-| 5 | CAF | **[MAR] MOROCCO** | 21/31 | **-10** | **67.7%** | `[12019395] Botola Pro (23/24)` (10/16), `[12019395] Botola Pro (22/23)` (11/15) |
-| 6 | UEFA | **[POL] POLAND** | 51/76 | **-25** | **67.1%** | `[129558] Ekstraklasa (23/24)` (13/18), `[129559] I liga (23/24)` (15/18), `[162504] II liga (23/24)` (11/18), `[129560] III liga (23/24)` (12/22) |
-| 7 | AFC | **[THA] THAILAND** | 70/106 | **-36** | **66.0%** | `[5624920] Thai League 1 (23/24)` (16/16), `[5637986] Thai League 2 (23/24)` (18/18), `[2000038391] Thai League 3 Northern Region (23/24)` (5/11), `[2000038392] Thai League 3 Northeastern Region (23/24)` (6/13), `[2000038393] Thai League 3 Eastern Region (23/24)` (3/11), `[2000038394] Thai League 3 Western Region (23/24)` (5/11), `[2000038398] Thai League 3 Southern Region (23/24)` (10/12), `[2000038395] Thai League 3 BK Metropolitan Region (23/24)` (7/14) |
-| 8 | UEFA | **[SVN] SLOVENIA** | 17/26 | **-9** | **65.4%** | `[7580000] Prva Liga Telemach (23/24)` (7/10), `[7580001] 2.SNL (23/24)` (10/16) |
-| 9 | UEFA | **[IRL] IRELAND** | 26/40 | **-14** | **65.0%** | `[129372] LOI Premier Division (2023)` (5/10), `[129373] LOI First Division (2023)` (8/10), `[52086882] LOI Academy U19 League` (13/20) |
-| 10 | UEFA | **[ARM] ARMENIA** | 16/25 | **-9** | **64.0%** | `[59006196] Armenian Premier League (23/24)` (5/10), `[59006197] Armenian First League (23/24)` (11/15) |
-| 11 | UEFA | **[GRE] GREECE** | 24/38 | **-14** | **63.2%** | `[129650] Super League Greece (23/24)` (14/14), `[36086001] Super League Greece 2 North Group (23/24)` (3/12), `[36086002] Super League Greece 2 South Group (23/24)` (7/12) |
-| 12 | UEFA | **[KAZ] KAZAKHSTAN** | 27/43 | **-16** | **62.8%** | `[59007527] Qazaqstan Premier Ligasy (2023)` (7/14), `[59010820] Qazaqstan Birinshi Ligasy (2023)` (11/14), `[59107180] QJ League` (9/15) |
-| 13 | UEFA | **[ISL] ICELAND** | 15/24 | **-9** | **62.5%** | `[7840132] Besta deild karla (2023)` (8/12), `[7840133] Lengjudeild karla (2023)` (7/12) |
-| 14 | AFC | **[IDN] INDONESIA** | 33/53 | **-20** | **62.3%** | `[41004312] Indonesian Super League (23/24)` (8/18), `[41042740] Indonesian Championship (23/24)` (19/28), `[41042746] Liga Nusantara (23/24)` (6/7) |
-| 15 | CONCACAF | **[CRC] COSTA RICA** | 18/29 | **-11** | **62.1%** | `[80000563] Liga Promérica (23/24)` (7/12), `[80000564] Liga Transcomer (23/24)` (11/17) |
-| 16 | AFC | **[KGZ] KYRGYZSTAN** | 18/29 | **-11** | **62.1%** | `[59005735] Kyrgyz Premier League (2023)` (7/13), `[2000174549] Kyrgyz National League Group A (2023)` (6/8), `[2000174550] Kyrgyz National League Group B (2023)` (5/8) |
-| 17 | AFC | **[UAE] UAE** | 36/59 | **-23** | **61.0%** | `[7880000] UAE Pro League (23/24)` (14/14), `[7880028] UAE First Division League (23/24)` (8/17), `[2000017168] UAE Second Division League (23/24)` (0/14), `U21 Arabian Gulf League` (14/14) |
-| 18 | UEFA | **[LVA] LATVIA** | 14/23 | **-9** | **60.9%** | `[8403697] Latvijas Virsliga (2023)` (6/10), `[8403797] Latvijas Nakotnes liga (2023)` (8/13) |
-| 19 | UEFA | **[BEL] BELGIUM** | 30/50 | **-20** | **60.0%** | `[1] Jupiler Pro League (23/24)` (16/16), `[2] Challenger Pro League (23/24)` (7/16), `[8154824] Belgian Division 1 (23/24)` (7/18) |
-
-### 2.6. Nhóm 50% đến dưới 60% (12 quốc gia) 🟡
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[DEN] DENMARK** | 28/48 | **-20** | **58.3%** | `[6] 3F Superliga (23/24)` (12/12), `[7] NordicBet Liga (23/24)` (8/12), `[8] 2. division (23/24)` (4/12), `[2000016262] 3. division (23/24)` (4/12) |
-| 2 | UEFA | **[EST] ESTONIA** | 11/19 | **-8** | **57.9%** | `[7681558] Meistriliiga (2024)` (5/10), `[7681559] Esiliiga (2024)` (6/9) |
-| 3 | CONMEBOL | **[ARG] ARGENTINA** | 37/65 | **-28** | **56.9%** | `[102421] Liga Profesional (2023)` (28/28), `[102422] Primera Nacional (2023)` (9/37) |
-| 4 | UEFA | **[CYP] CYPRUS** | 17/30 | **-13** | **56.7%** | `[692430] Cyprus League by Stoiximan (23/24)` (9/14), `[692431] Cypriot Second Division` (8/16) |
-| 5 | UEFA | **[MNE] MONTENEGRO** | 11/20 | **-9** | **55.0%** | `[5745020] 1.CFL (23/24)` (5/10), `[5754888] 2.CFL (23/24)` (6/10) |
-| 6 | AFC | **[MAS] MALAYSIA** | 25/46 | **-21** | **54.3%** | `[5624536] Liga Super Malaysia (23/24)` (14/14), `[23493567] Liga A1 Semi-Pro Malaysia (23/24)` (5/14), `[2000293663] Liga A2 Amateur Borneo` (1/4), `[2000293661] Liga A2 Amateur East Coast` (4/5), `[2000293660] Liga A2 Amateur Central` (1/5), `[23501366] Piala MFL` (0/1), `[23226054] Piala Presiden Malaysia` (0/1), `[23404341] Piala Belia Malaysia` (0/2) |
-| 7 | UEFA | **[BUL] BULGARIA** | 18/34 | **-16** | **52.9%** | `[7500000] efbet League (23/24)` (15/16), `[7500118] Bulgarian Second League (23/24)` (3/18) |
-| 8 | UEFA | **[FRA] FRANCE** | 113/214 | **-101** | **52.8%** | `[16] Ligue 1 (23/24)` (18/18), `[17] Ligue 2 (23/24)` (20/20), `[18] Ligue 3 (23/24)` (18/18), `[19] National 2 Groupe A (23/24)` (2/13), `[914522] National 2 Groupe B (23/24)` (2/14), `[914523] National 2 Groupe C (23/24)` (2/14), `[914524] National 2 Groupe D (23/24)` (1/13), `Team 2` (50/104) |
-| 9 | UEFA | **[RUS] RUSSIA** | 25/48 | **-23** | **52.1%** | `[130486] Russian Premier League (23/24)` (16/16), `[130487] Russian First League (23/24)` (2/18), `[2000272298] Russian Second League Div. A Gold Group (23/24)` (3/10), `[2000272300] Russian Second League Div. A Silver Group (23/24)` (1/1), `[8051008] Russian Second League (23/24)` (3/3) |
-| 10 | UEFA | **[FIN] FINLAND** | 47/93 | **-46** | **50.5%** | `[129120] Veikkausliiga (2023)` (9/12), `[129131] Ykkönen (2023)` (8/12), `[145450] Kakkonen` (30/69) |
-| 11 | UEFA | **[LTU] LITHUANIA** | 18/36 | **-18** | **50.0%** | `[2300046] TOPLYGA (2023)` (4/10), `[2300047] LFF I Lyga (2023)` (9/16), `[2000170236] LFF II Lyga (2023)` (5/10) |
-| 12 | AFC | **[OMA] OMAN** | 12/24 | **-12** | **50.0%** | `[23071760] Oman Professional League (23/24)` (6/12), `[23237487] Oman First Division League Group A (23/24)` (3/6), `[23237488] Oman First Division League Group B (23/24)` (3/6) |
-
-### 2.7. Nhóm 40% đến dưới 50% (11 quốc gia) 🟠
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[SWE] SWEDEN** | 31/64 | **-33** | **48.4%** | `[50] Allsvenskan (2023)` (16/16), `[52] Superettan (2023)` (6/16), `[8114887] Ettan Södra (2023)` (1/16), `[8114888] Ettan Norra (2023)` (8/16) |
-| 2 | UEFA | **[AZE] AZERBAIJAN** | 8/17 | **-9** | **47.1%** | `[59006943] Azərbaycan Premyer Liqasi (23/24)` (4/10), `[59008101] Azərbaycan I Liqa (23/24)` (4/7) |
-| 3 | CONCACAF | **[CAN] CANADA** | 22/47 | **-25** | **46.8%** | `[20502998] Canadian Premier League (2023)` (3/8), `[20500261] Ontario Premier League 1` (5/12), `[20035150] Ligue1 Québec` (6/12), `[2000150744] British Columbia Premier League` (2/8), `[2000320681] Alberta Premier League` (6/7) |
-| 4 | CAF | **[ALG] ALGERIA** | 22/48 | **-26** | **45.8%** | `[12015290] Ligue Professionnelle 1 (23/24)` (8/16), `[2000021475] Ligue Professionnelle 2 Poule Est (23/24)` (7/16), `[12031135] Ligue Professionnelle 2 (23/24)` (7/16) |
-| 5 | UEFA | **[ALB] ALBANIA** | 20/45 | **-25** | **44.4%** | `[8350942] Abissnet Superiore (23/24)` (7/10), `[11024371] FSHF Kategoria e Parë Grupi A (23/24)` (6/12), `[2000093167] FSHF Kategoria e Dytë Grupi A (23/24)` (5/12), `[2000093168] FSHF Kategoria e Dytë Grupi B (23/24)` (2/11) |
-| 6 | OFC | **[NZL] NEW ZEALAND** | 11/25 | **-14** | **44.0%** | `[432266] Northern League` (4/11), `[88006344] Central League` (4/9), `[2000095538] Southern League` (3/5) |
-| 7 | CONCACAF | **[NCA] NICARAGUA** | 10/23 | **-13** | **43.5%** | `[86000027] Liga Primera de Nicaragua (23/24)` (6/10), `[80024180] Liga Ascenso de Nicaragua (23/24)` (4/13) |
-| 8 | AFC | **[KSA] SAUDI ARABIA** | 28/68 | **-40** | **41.2%** | `[7920263] Saudi Pro League (23/24)` (18/18), `[7920264] Saudi First Division League (23/24)` (1/18), `[23155549] Saudi Second Division League Group A (23/24)` (5/16), `[23155550] Saudi Second Division League Group B (23/24)` (4/16) |
-| 9 | AFC | **[LBN] LEBANON** | 7/17 | **-10** | **41.2%** | `[5629952] Lebanese Premier League (23/24)` (4/12), `[5631613] Lebanese Second Division (23/24)` (3/5) |
-| 10 | UEFA | **[NOR] NORWAY** | 39/97 | **-58** | **40.2%** | `[1300397] Eliteserien (2023)` (16/16), `[1300398] OBOS-ligaen (2023)` (4/16), `[145428] PostNord-ligaen (2023)` (8/24), `[1301420] Norsk Tipping-ligaen (2023)` (11/41) |
-| 11 | UEFA | **[TUR] TURKIYE** | 30/75 | **-45** | **40.0%** | `[130286] Süper Lig (23/24)` (20/20), `[463479] 1. Lig (23/24)` (3/17), `[463485] 2. Lig Beyaz Grup (23/24)` (5/19), `[463481] 2. Lig (23/24)` (2/19) |
-
-### 2.8. Nhóm 30% đến dưới 40% (10 quốc gia) 🟠
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[NIR] NORTHERN IRELAND** | 15/38 | **-23** | **39.5%** | `[130023] NIFL Premiership (23/24)` (5/12), `[130024] NIFL Championship (23/24)` (3/12), `[147023] NIFL Premier Intermediate League (23/24)` (7/14) |
-| 2 | AFC | **[JOR] JORDAN** | 10/26 | **-16** | **38.5%** | `[5635278] Jordanian Pro League (23/24)` (6/12), `[5635282] Jordanian First Division League (23/24)` (4/14) |
-| 3 | AFC | **[KUW] KUWAIT** | 6/16 | **-10** | **37.5%** | `[23063354] Kuwait Premier League (23/24)` (5/10), `[23078275] Kuwaiti Division One (23/24)` (1/6) |
-| 4 | AFC | **[JPN] JAPAN** | 28/75 | **-47** | **37.3%** | `[102428] J1 League (2023)` (18/18), `[115424] J2 League (2023)` (3/22), `[791180] J3 League (2023)` (3/20), `[107256] Japan Football League (2023)` (4/15) |
-| 5 | UEFA | **[HUN] HUNGARY** | 13/35 | **-22** | **37.1%** | `[7520391] OTP Bank Liga (23/24)` (4/12), `[152045] Merkantil Bank Liga (23/24)` (9/18), `[38013451] Nemzeti Bajnokság III` (0/5) |
-| 6 | CONCACAF | **[SLV] EL SALVADOR** | 11/30 | **-19** | **36.7%** | `[87001116] Primera División de El Salvador` (4/12), `[87001812] Segunda División de El Salvador` (7/18) |
-| 7 | CONMEBOL | **[BRA] BRAZIL** | 44/121 | **-77** | **36.4%** | `[102423] Brasileirão Série A (2023)` (20/20), `[107191] Brasileirão Série B (2023)` (4/20), `[107192] Brasileirão Série C (2023)` (4/20), `[19127222] Brasileirão Série D (2023)` (16/61) |
-| 8 | CONMEBOL | **[PER] PERU** | 11/33 | **-22** | **33.3%** | `[5290551] Liga 1 Peru (2023)` (6/19), `[5290553] Liga 2 Peru (2023)` (5/14) |
-| 9 | CONCACAF | **[GUA] GUATEMALA** | 9/27 | **-18** | **33.3%** | `[87000495] Liga Guate (23/24)` (6/12), `[87000505] Primera División de Ascenso (23/24)` (3/15) |
-| 10 | AFC | **[IRQ] IRAQ** | 13/42 | **-29** | **31.0%** | `[23038303] Iraq Stars League (23/24)` (7/20), `[2000099726] Iraqi Premier Division League (23/24)` (6/22) |
-
-### 2.9. Nhóm 20% đến dưới 30% (5 quốc gia) 🟠
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | AFC | **[IRN] IR IRAN** | 10/34 | **-24** | **29.4%** | `[1018789] Persian Gulf Pro League (23/24)` (4/16), `[1018790] Azadegan League (23/24)` (6/18) |
-| 2 | CONMEBOL | **[ECU] ECUADOR** | 7/26 | **-19** | **26.9%** | `[80000566] LigaPro Serie A (2024)` (4/16), `[80000567] LigaPro Serie B (2024)` (3/10) |
-| 3 | AFC | **[IND] INDIA** | 13/51 | **-38** | **25.5%** | `[40026565] Indian Super League (23/24)` (4/12), `[5624525] I-League (23/24)` (2/13), `[7640505] I-League 2 (23/24)` (2/8), `[40000892] I-League 3 (23/24)` (2/7), `[5624538] Punjab Super League` (0/1), `[40026090] Kerala Super League` (0/2), `[5624530] Calcutta Football League` (0/2), `[5624534] Bangalore Super Division` (1/1), `[5624535] Goa Professional League` (0/2), `[5624899] Mumbai Football League` (1/1), `[5625174] Chennai Senior Division` (0/1), `[40035413] AIFF Elite Youth League` (1/1) |
-| 4 | CAF | **[RSA] SOUTH AFRICA** | 8/32 | **-24** | **25.0%** | `[131234] South African Premiership (23/24)` (5/16), `[131235] South African Championship (23/24)` (3/16) |
-| 5 | CONMEBOL | **[URU] URUGUAY** | 6/30 | **-24** | **20.0%** | `[5512770] Liga AUF Uruguaya (2023)` (5/16), `[5512771] Segunda División Profesional AUF (2023)` (1/14) |
-
-### 2.10. Nhóm 10% đến dưới 20% (5 quốc gia) 🔴
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | CONMEBOL | **[PAR] PARAGUAY** | 5/28 | **-23** | **17.9%** | `[79010950] Copa de Primera APF (2023)` (0/12), `[79010962] AFP Intermedia (2023)` (5/16) |
-| 2 | CONCACAF | **[PAN] PANAMA** | 5/34 | **-29** | **14.7%** | `[86000021] Liga LPF Tigo` (2/12), `[80010007] Liga PROM` (3/22) |
-| 3 | AFC | **[MYA] MYANMAR** | 3/22 | **-19** | **13.6%** | `[23090922] Myanmar National League (2023)` (1/12), `[23193285] MNL-2 League (2023)` (2/10) |
-| 4 | CONCACAF | **[HON] HONDURAS** | 5/42 | **-37** | **11.9%** | `[87000201] Liga Hondubet (23/24)` (0/10), `[87000202] Liga Nacional de Ascenso (23/24)` (5/32) |
-| 5 | CAF | **[EGY] EGYPT** | 4/38 | **-34** | **10.5%** | `[12015393] Egyptian Premier League (23/24)` (2/18), `[2000340108] Egyptian Second Division A (23/24)` (2/20) |
-
-### 2.11. Nhóm Dưới 10% (1 quốc gia) 🔴
-
-| STT | Liên đoàn | Quốc gia | Đã có City / Tổng | Còn thiếu | Tỷ lệ (%) | Các giải đấu |
-| :---: | :---: | :--- | :---: | :---: | :---: | :--- |
-| 1 | UEFA | **[ROU] ROMANIA** | 3/36 | **-33** | **8.3%** | `[7540024] Liga I României (23/24)` (0/16), `[150913] Liga II României (23/24)` (3/20) |
-
----
-
-## 3. Danh Sách Các Giải Đấu Chính Thức Đạt Độ Bao Phủ > 90% (138 giải đấu)
-
-| Liên đoàn | Quốc gia | Giải đấu | Đã có City | Tổng số CLB | Còn thiếu | Tỷ lệ (%) | Vị trí trong file |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| UEFA | [ESP] SPAIN | `Team B/C` | 46 | 46 | 0 | 100.0% ✅ | [Line 31393](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31393) |
-| CONCACAF | [USA] USA | `[40] Major League Soccer (2023)` | 29 | 29 | 0 | 100.0% ✅ | [Line 11026](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11026) |
-| CONMEBOL | [ARG] ARGENTINA | `[102421] Liga Profesional (2023)` | 28 | 28 | 0 | 100.0% ✅ | [Line 11942](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11942) |
-| AFC | [VIE] VIETNAM | `[8550003] Vietnamese Third Division (23/24)` | 27 | 27 | 0 | 100.0% ✅ | [Line 7752](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7752) |
-| UEFA | [ENG] ENGLAND | `[12] EFL Championship (23/24)` | 24 | 24 | 0 | 100.0% ✅ | [Line 18531](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18531) |
-| UEFA | [ENG] ENGLAND | `[13] EFL League One (23/24)` | 24 | 24 | 0 | 100.0% ✅ | [Line 18678](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18678) |
-| UEFA | [ENG] ENGLAND | `[14] EFL League Two (23/24)` | 24 | 24 | 0 | 100.0% ✅ | [Line 18825](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18825) |
-| UEFA | [ENG] ENGLAND | `[109201] National League (23/24)` | 24 | 24 | 0 | 100.0% ✅ | [Line 18972](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18972) |
-| UEFA | [ENG] ENGLAND | `[5123054] National League North (23/24)` | 24 | 24 | 0 | 100.0% ✅ | [Line 19080](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19080) |
-| UEFA | [ENG] ENGLAND | `[5123055] National League South (23/24)` | 24 | 24 | 0 | 100.0% ✅ | [Line 19180](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19180) |
-| UEFA | [ESP] SPAIN | `[68] LALIGA HYPERMOTION (23/24)` | 22 | 22 | 0 | 100.0% ✅ | [Line 30593](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30593) |
-| CAF | [LBY] LIBYA | `[13208974] Libyan Premier League (23/24)` | 22 | 22 | 0 | 100.0% ✅ | [Line 8673](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8673) |
-| CONCACAF | [USA] USA | `[72023762] MLS NEXT` | 21 | 21 | 0 | 100.0% ✅ | [Line 11647](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11647) |
-| UEFA | [ENG] ENGLAND | `[11] Premier League (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 18408](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18408) |
-| UEFA | [ESP] SPAIN | `[67] LALIGA EA SPORTS (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 30470](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30470) |
-| UEFA | [ESP] SPAIN | `[2000048844] Primera Federación Grupo 1 (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 30729](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30729) |
-| UEFA | [ESP] SPAIN | `[2000048846] Primera Federación Grupo 2 (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 30850](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30850) |
-| UEFA | [FRA] FRANCE | `[17] Ligue 2 (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 20339](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20339) |
-| UEFA | [GER] GERMANY | `[35010926] 3. Liga (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 21994](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21994) |
-| UEFA | [ITA] ITALY | `[32] Serie A (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 24098](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24098) |
-| UEFA | [ITA] ITALY | `[33] Serie B (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 24221](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24221) |
-| UEFA | [ITA] ITALY | `[43127172] Serie C Girone A (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 24344](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24344) |
-| UEFA | [ITA] ITALY | `[43127173] Serie C Girone B (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 24453](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24453) |
-| UEFA | [ITA] ITALY | `[43127174] Serie C Girone C (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 24560](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24560) |
-| UEFA | [NED] NETHERLANDS | `[30] Keuken Kampioen Divisie (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 26818](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26818) |
-| UEFA | [TUR] TURKIYE | `[130286] Süper Lig (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 32483](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32483) |
-| CONMEBOL | [BRA] BRAZIL | `[102423] Brasileirão Série A (2023)` | 20 | 20 | 0 | 100.0% ✅ | [Line 12382](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12382) |
-| CONMEBOL | [COL] COLOMBIA | `[5260948] Liga BetPlay DIMAYOR (2023)` | 20 | 20 | 0 | 100.0% ✅ | [Line 13193](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13193) |
-| CAF | [NGA] NIGERIA | `[12016011] Nigeria Professional Football League (23/24)` | 20 | 20 | 0 | 100.0% ✅ | [Line 8925](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8925) |
-| UEFA | [BIH] BOSNIA & HERZEGOVINA | `[8407360] Prva liga Republike Srpske (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 16581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16581) |
-| UEFA | [ESP] SPAIN | `[2000099903] Segunda Federación Grupo 1 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 30970](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30970) |
-| UEFA | [ESP] SPAIN | `[2000099904] Segunda Federación Grupo 2 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 31059](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31059) |
-| UEFA | [ESP] SPAIN | `[2000099905] Segunda Federación Grupo 3 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 31145](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31145) |
-| UEFA | [ESP] SPAIN | `[2000099906] Segunda Federación Grupo 4 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 31226](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31226) |
-| UEFA | [ESP] SPAIN | `[2000099907] Segunda Federación Grupo 5 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 31313](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31313) |
-| UEFA | [FRA] FRANCE | `[16] Ligue 1 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 20228](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20228) |
-| UEFA | [FRA] FRANCE | `[18] Ligue 3 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 20462](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20462) |
-| UEFA | [GER] GERMANY | `[22] Bundesliga (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 21772](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21772) |
-| UEFA | [GER] GERMANY | `[23] 2. Bundesliga (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 21883](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21883) |
-| UEFA | [NED] NETHERLANDS | `[29] Eredivisie (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 26713](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26713) |
-| UEFA | [POR] PORTUGAL | `[60] Liga Portugal (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 28070](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28070) |
-| UEFA | [POR] PORTUGAL | `[61] Liga Portugal 2 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 28181](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28181) |
-| AFC | [JPN] JAPAN | `[102428] J1 League (2023)` | 18 | 18 | 0 | 100.0% ✅ | [Line 2683](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2683) |
-| AFC | [KOR] KOREA REPUBLIC | `[66040773] K4 League (2023)` | 18 | 18 | 0 | 100.0% ✅ | [Line 3746](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3746) |
-| AFC | [KSA] SAUDI ARABIA | `[7920263] Saudi Pro League (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 5583](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5583) |
-| AFC | [THA] THAILAND | `[5637986] Thai League 2 (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 6337](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6337) |
-| CONCACAF | [MEX] MEXICO | `[135973] Liga MX (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 10434](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10434) |
-| CAF | [SUD] SUDAN | `[36513629] Sudani Premier League (23/24)` | 18 | 18 | 0 | 100.0% ✅ | [Line 9210](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9210) |
-| UEFA | [BLR] BELARUS | `[7483366] Belarusian First League (2023)` | 17 | 17 | 0 | 100.0% ✅ | [Line 15722](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15722) |
-| CONMEBOL | [BOL] BOLIVIA | `[86000000] División Profesional de Bolivia (2023)` | 17 | 17 | 0 | 100.0% ✅ | [Line 12282](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12282) |
-| UEFA | [BEL] BELGIUM | `[1] Jupiler Pro League (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 15864](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15864) |
-| UEFA | [BIH] BOSNIA & HERZEGOVINA | `[8407370] Prva liga Federacije BiH (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 16513](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16513) |
-| UEFA | [CZE] CZECHIA | `[131287] Chance Liga (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 17372](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17372) |
-| UEFA | [CZE] CZECHIA | `[131288] Chance Národní Liga (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 17459](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17459) |
-| UEFA | [NOR] NORWAY | `[1300397] Eliteserien (2023)` | 16 | 16 | 0 | 100.0% ✅ | [Line 26065](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26065) |
-| UEFA | [RUS] RUSSIA | `[130486] Russian Premier League (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 29039](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29039) |
-| UEFA | [SRB] SERBIA | `[132321] SuperLiga Srbije (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 29707](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29707) |
-| UEFA | [SRB] SERBIA | `[5776050] PrvaLiga Srbije (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 29792](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29792) |
-| UEFA | [SVK] SLOVAKIA | `[7560277] MONACObet LIGA (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 30006](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30006) |
-| UEFA | [SWE] SWEDEN | `[50] Allsvenskan (2023)` | 16 | 16 | 0 | 100.0% ✅ | [Line 32143](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32143) |
-| UEFA | [UKR] UKRAINE | `[5314301] Ukrainian Premier League (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 32992](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32992) |
-| AFC | [CHN] CHINA PR | `[130931] Chinese Super League (2023)` | 16 | 16 | 0 | 100.0% ✅ | [Line 705](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L705) |
-| AFC | [CHN] CHINA PR | `[131126] China League One (2023)` | 16 | 16 | 0 | 100.0% ✅ | [Line 804](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L804) |
-| AFC | [THA] THAILAND | `[5624920] Thai League 1 (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 6238](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6238) |
-| AFC | [VIE] VIETNAM | `[8550002] Vietnamese Second Division (23/24)` | 16 | 16 | 0 | 100.0% ✅ | [Line 7653](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7653) |
-| CONMEBOL | [CHI] CHILE | `[5250792] Liga de Primera Chileno (2023)` | 16 | 16 | 0 | 100.0% ✅ | [Line 13005](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13005) |
-| CONMEBOL | [CHI] CHILE | `[5250793] Liga de Ascenso Chileno (2023)` | 16 | 16 | 0 | 100.0% ✅ | [Line 13090](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13090) |
-| CAF | [TAN] TANZANIA | `[13211724] Tanzanian Premier League` | 16 | 16 | 0 | 100.0% ✅ | [Line 9293](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9293) |
-| UEFA | [BLR] BELARUS | `[7483354] Belarusian Premier League (2023)` | 15 | 15 | 0 | 100.0% ✅ | [Line 15637](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15637) |
-| UEFA | [SMR] SAN MARINO | `[43032015] Campionato Sammarinese` | 15 | 15 | 0 | 100.0% ✅ | [Line 29389](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29389) |
-| AFC | [KOR] KOREA REPUBLIC | `[66010517] K3 League (2023)` | 15 | 15 | 0 | 100.0% ✅ | [Line 3662](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3662) |
-| CONCACAF | [MEX] MEXICO | `[2000017067] Liga de Expansión MX (23/24)` | 15 | 15 | 0 | 100.0% ✅ | [Line 10546](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10546) |
-| CONMEBOL | [VEN] VENEZUELA | `[86000001] Liga FUTVE (2023)` | 15 | 15 | 0 | 100.0% ✅ | [Line 14073](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14073) |
-| UEFA | [GER] GERMANY | `[92086573] A-Junioren-Bundesliga Süd/Südwest (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 22657](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22657) |
-| UEFA | [GRE] GREECE | `[129650] Super League Greece (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 23011](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23011) |
-| UEFA | [ISR] ISRAEL | `[7860000] Ligat TOTO Winner (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 23906](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23906) |
-| UEFA | [ISR] ISRAEL | `[7860001] Liga Leumit (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 23981](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23981) |
-| UEFA | [MLT] MALTA | `[2300050] Maltese Premier League (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 25798](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25798) |
-| AFC | [MAS] MALAYSIA | `[5624536] Liga Super Malaysia (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 4443](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4443) |
-| AFC | [UAE] UAE | `[7880000] UAE Pro League (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 6943](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6943) |
-| AFC | [UAE] UAE | `U21 Arabian Gulf League` | 14 | 14 | 0 | 100.0% ✅ | [Line 7195](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7195) |
-| AFC | [VIE] VIETNAM | `[8550000] V.League 1 (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 7479](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7479) |
-| AFC | [VIE] VIETNAM | `[8550001] V.League 2 (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 7566](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7566) |
-| CAF | [ANG] ANGOLA | `[12034515] Girabola (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 8405](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8405) |
-| CAF | [TUN] TUNISIA | `[12019164] Tunisian Ligue Professionnelle 1 (23/24)` | 14 | 14 | 0 | 100.0% ✅ | [Line 9371](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9371) |
-| AFC | [AUS] AUSTRALIA | `[129985] A-League Men (23/24)` | 13 | 13 | 0 | 100.0% ✅ | [Line 3](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3) |
-| AFC | [KOR] KOREA REPUBLIC | `[66029602] K.League 2 (2023)` | 13 | 13 | 0 | 100.0% ✅ | [Line 3581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3581) |
-| UEFA | [AUT] AUSTRIA | `[136543] ÖFB Bundesliga (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 15040](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15040) |
-| UEFA | [BIH] BOSNIA & HERZEGOVINA | `[8401073] Wwin League BIH (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 16446](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16446) |
-| UEFA | [CZE] CZECHIA | `[136042] MSFL (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 17631](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17631) |
-| UEFA | [DEN] DENMARK | `[6] 3F Superliga (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 17765](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17765) |
-| UEFA | [SCO] SCOTLAND | `[45] Scottish Premiership (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 29452](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29452) |
-| UEFA | [SUI] SWITZERLAND | `[137889] Swiss Super League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 31798](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31798) |
-| UEFA | [SVK] SLOVAKIA | `[7560276] Niké liga (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 29939](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29939) |
-| UEFA | [WAL] WALES | `[130672] Cymru Premier (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 33229](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L33229) |
-| AFC | [BHR] BAHRAIN | `[1039313] Bahraini Premier League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 274](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L274) |
-| AFC | [BHR] BAHRAIN | `[1039314] Bahraini Second Division (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 349](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L349) |
-| AFC | [CAM] CAMBODIA | `[23084471] Cambodian Premier League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L571) |
-| AFC | [HKG] HONG KONG | `[5624450] Hong Kong First Division (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 1447](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1447) |
-| AFC | [KOR] KOREA REPUBLIC | `[136407] K.League 1 (2023)` | 12 | 12 | 0 | 100.0% ✅ | [Line 3506](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3506) |
-| AFC | [LAO] LAOS | `[5634246] Lao League 1 (2023)` | 12 | 12 | 0 | 100.0% ✅ | [Line 4216](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4216) |
-| AFC | [PHI] PHILIPPINES | `[23390834] Philippines Football League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 5214](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5214) |
-| AFC | [QAT] QATAR | `[5632126] Qatar Stars League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 5356](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5356) |
-| AFC | [QAT] QATAR | `[5632158] QSL 2 League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 5431](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5431) |
-| AFC | [SYR] SYRIA | `[5635022] Syrian Premier League (23/24)` | 12 | 12 | 0 | 100.0% ✅ | [Line 6025](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6025) |
-| UEFA | [GIB] GIBRALTAR | `[36532636] Gibraltar Football League` | 11 | 11 | 0 | 100.0% ✅ | [Line 22964](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22964) |
-| AFC | [HKG] HONG KONG | `[5624449] Hong Kong Premier League (23/24)` | 11 | 11 | 0 | 100.0% ✅ | [Line 1378](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1378) |
-| UEFA | [CRO] CROATIA | `[129645] HNL (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 16999](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16999) |
-| UEFA | [GEO] GEORGIA | `[59126495] Erovnuli Liga (2023)` | 10 | 10 | 0 | 100.0% ✅ | [Line 21546](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21546) |
-| UEFA | [GEO] GEORGIA | `[59126496] Erovnuli Liga 2 (2023)` | 10 | 10 | 0 | 100.0% ✅ | [Line 21603](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21603) |
-| UEFA | [POR] PORTUGAL | `[2000112232] Liga 3 Norte (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 28294](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28294) |
-| UEFA | [POR] PORTUGAL | `[2000112233] Liga 3 Sul (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 28358](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28358) |
-| UEFA | [SUI] SWITZERLAND | `[137890] Swiss Challenge League (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 31867](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31867) |
-| UEFA | [SUI] SWITZERLAND | `[98027828] Swiss Promotion League (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 31928](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31928) |
-| AFC | [AUS] AUSTRALIA | `[130185] NPL NSW` | 10 | 10 | 0 | 100.0% ✅ | [Line 92](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L92) |
-| AFC | [BAN] BANGLADESH | `[5630062] Bangladesh Football League (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 422](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L422) |
-| AFC | [BAN] BANGLADESH | `[23184385] Bangladesh Championship League (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 485](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L485) |
-| AFC | [KOR] KOREA REPUBLIC | `[66039930] K.League Junior Group B` | 10 | 10 | 0 | 100.0% ✅ | [Line 3881](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3881) |
-| AFC | [MNG] MONGOLIA | `[23090971] Mongolian Premier League (23/24)` | 10 | 10 | 0 | 100.0% ✅ | [Line 4828](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4828) |
-| AFC | [TJK] TAJIKISTAN | `[59007964] Ligai Olii Tojikiston (2023)` | 10 | 10 | 0 | 100.0% ✅ | [Line 6121](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6121) |
-| UEFA | [FRO] FAROE ISLANDS | `[8300358] Betrideildin` | 9 | 9 | 0 | 100.0% ✅ | [Line 19712](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19712) |
-| AFC | [SGP] SINGAPORE | `[5395850] Singapore Premier League (2023)` | 9 | 9 | 0 | 100.0% ✅ | [Line 5959](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5959) |
-| AFC | [TKM] TURKMENISTAN | `[5638083] Türkmenistan Ýokary Liga (2023)` | 9 | 9 | 0 | 100.0% ✅ | [Line 6886](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6886) |
-| UEFA | [AND] ANDORRA | `[47000005] Lliga Multisegur Assegurances` | 8 | 8 | 0 | 100.0% ✅ | [Line 14764](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14764) |
-| UEFA | [MDA] MOLDOVA | `[59007607] Moldovan Super Liga (23/24)` | 8 | 8 | 0 | 100.0% ✅ | [Line 25875](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25875) |
-| AFC | [CAM] CAMBODIA | `[23184338] Cambodian League 2 (23/24)` | 8 | 8 | 0 | 100.0% ✅ | [Line 646](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L646) |
-| AFC | [CHN] CHINA PR | `[1002872] China League Two North Group (2023)` | 8 | 8 | 0 | 100.0% ✅ | [Line 903](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L903) |
-| AFC | [CHN] CHINA PR | `[1002873] China League Two South Group (2023)` | 8 | 8 | 0 | 100.0% ✅ | [Line 954](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L954) |
-| AFC | [TPE] CHINESE TAIPEI | `[23397138] Taiwan Football Premier League (2023)` | 8 | 8 | 0 | 100.0% ✅ | [Line 1283](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1283) |
-| CONCACAF | [USA] USA | `[2000102644] MLS Next Pro (2023)` | 27 | 28 | **-1** | 96.4% 🟡 | [Line 11453](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11453) |
-| AFC | [CHN] CHINA PR | `[5627655] Chinese Champions League` | 25 | 26 | **-1** | 96.2% 🟡 | [Line 1005](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1005) |
-| UEFA | [BUL] BULGARIA | `[7500000] efbet League (23/24)` | 15 | 16 | **-1** | 93.8% 🟡 | [Line 16678](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16678) |
-| UEFA | [GER] GERMANY | `[92086572] A-Junioren-Bundesliga Nord/Nordost (23/24)` | 13 | 14 | **-1** | 92.9% 🟡 | [Line 22485](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22485) |
-| UEFA | [GER] GERMANY | `[92086574] A-Junioren-Bundesliga West (23/24)` | 13 | 14 | **-1** | 92.9% 🟡 | [Line 22571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22571) |
-| CONCACAF | [USA] USA | `[43] USL Championship (2023)` | 22 | 24 | **-2** | 91.7% 🟡 | [Line 11209](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11209) |
-| UEFA | [NED] NETHERLANDS | `Team B` | 10 | 11 | **-1** | 90.9% 🟡 | [Line 26932](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26932) |
-| UEFA | [GER] GERMANY | `Team II/III` | 19 | 21 | **-2** | 90.5% 🟡 | [Line 22341](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22341) |
-
----
-
-## 4. Các Giải Đấu Tiêu Biểu Đã Đạt 100% City (Completed Leagues Milestone)
-
-| Liên đoàn | Quốc gia | Giải đấu | Số CLB | Vị trí trong file |
-| :--- | :--- | :--- | :---: | :--- |
-| AFC | [AUS] AUSTRALIA | `[129985] A-League Men (23/24)` | 13/13 | [Line 3](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3) |
-| AFC | [AUS] AUSTRALIA | `[130185] NPL NSW` | 10/10 | [Line 92](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L92) |
-| AFC | [BAN] BANGLADESH | `[5630062] Bangladesh Football League (23/24)` | 10/10 | [Line 422](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L422) |
-| AFC | [BAN] BANGLADESH | `[23184385] Bangladesh Championship League (23/24)` | 10/10 | [Line 485](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L485) |
-| AFC | [BHR] BAHRAIN | `[1039313] Bahraini Premier League (23/24)` | 12/12 | [Line 274](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L274) |
-| AFC | [BHR] BAHRAIN | `[1039314] Bahraini Second Division (23/24)` | 12/12 | [Line 349](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L349) |
-| AFC | [CAM] CAMBODIA | `[23084471] Cambodian Premier League (23/24)` | 12/12 | [Line 571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L571) |
-| AFC | [CAM] CAMBODIA | `[23184338] Cambodian League 2 (23/24)` | 8/8 | [Line 646](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L646) |
-| AFC | [CHN] CHINA PR | `[130931] Chinese Super League (2023)` | 16/16 | [Line 705](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L705) |
-| AFC | [CHN] CHINA PR | `[131126] China League One (2023)` | 16/16 | [Line 804](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L804) |
-| AFC | [CHN] CHINA PR | `[1002872] China League Two North Group (2023)` | 8/8 | [Line 903](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L903) |
-| AFC | [CHN] CHINA PR | `[1002873] China League Two South Group (2023)` | 8/8 | [Line 954](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L954) |
-| AFC | [HKG] HONG KONG | `[5624449] Hong Kong Premier League (23/24)` | 11/11 | [Line 1378](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1378) |
-| AFC | [HKG] HONG KONG | `[5624450] Hong Kong First Division (23/24)` | 12/12 | [Line 1447](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1447) |
-| AFC | [JPN] JAPAN | `[102428] J1 League (2023)` | 18/18 | [Line 2683](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2683) |
-| AFC | [KOR] KOREA REPUBLIC | `[136407] K.League 1 (2023)` | 12/12 | [Line 3506](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3506) |
-| AFC | [KOR] KOREA REPUBLIC | `[66029602] K.League 2 (2023)` | 13/13 | [Line 3581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3581) |
-| AFC | [KOR] KOREA REPUBLIC | `[66010517] K3 League (2023)` | 15/15 | [Line 3662](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3662) |
-| AFC | [KOR] KOREA REPUBLIC | `[66040773] K4 League (2023)` | 18/18 | [Line 3746](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3746) |
-| AFC | [KOR] KOREA REPUBLIC | `[66039930] K.League Junior Group B` | 10/10 | [Line 3881](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3881) |
-| AFC | [KSA] SAUDI ARABIA | `[7920263] Saudi Pro League (23/24)` | 18/18 | [Line 5583](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5583) |
-| AFC | [LAO] LAOS | `[5634246] Lao League 1 (2023)` | 12/12 | [Line 4216](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4216) |
-| AFC | [MAS] MALAYSIA | `[5624536] Liga Super Malaysia (23/24)` | 14/14 | [Line 4443](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4443) |
-| AFC | [MNG] MONGOLIA | `[23090971] Mongolian Premier League (23/24)` | 10/10 | [Line 4828](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4828) |
-| AFC | [PHI] PHILIPPINES | `[23390834] Philippines Football League (23/24)` | 12/12 | [Line 5214](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5214) |
-| AFC | [QAT] QATAR | `[5632126] Qatar Stars League (23/24)` | 12/12 | [Line 5356](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5356) |
-| AFC | [QAT] QATAR | `[5632158] QSL 2 League (23/24)` | 12/12 | [Line 5431](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5431) |
-| AFC | [SGP] SINGAPORE | `[5395850] Singapore Premier League (2023)` | 9/9 | [Line 5959](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5959) |
-| AFC | [SYR] SYRIA | `[5635022] Syrian Premier League (23/24)` | 12/12 | [Line 6025](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6025) |
-| AFC | [THA] THAILAND | `[5624920] Thai League 1 (23/24)` | 16/16 | [Line 6238](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6238) |
-| AFC | [THA] THAILAND | `[5637986] Thai League 2 (23/24)` | 18/18 | [Line 6337](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6337) |
-| AFC | [TJK] TAJIKISTAN | `[59007964] Ligai Olii Tojikiston (2023)` | 10/10 | [Line 6121](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6121) |
-| AFC | [TKM] TURKMENISTAN | `[5638083] Türkmenistan Ýokary Liga (2023)` | 9/9 | [Line 6886](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6886) |
-| AFC | [TPE] CHINESE TAIPEI | `[23397138] Taiwan Football Premier League (2023)` | 8/8 | [Line 1283](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1283) |
-| AFC | [UAE] UAE | `[7880000] UAE Pro League (23/24)` | 14/14 | [Line 6943](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6943) |
-| AFC | [UAE] UAE | `U21 Arabian Gulf League` | 14/14 | [Line 7195](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7195) |
-| AFC | [VIE] VIETNAM | `[8550000] V.League 1 (23/24)` | 14/14 | [Line 7479](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7479) |
-| AFC | [VIE] VIETNAM | `[8550001] V.League 2 (23/24)` | 14/14 | [Line 7566](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7566) |
-| AFC | [VIE] VIETNAM | `[8550002] Vietnamese Second Division (23/24)` | 16/16 | [Line 7653](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7653) |
-| AFC | [VIE] VIETNAM | `[8550003] Vietnamese Third Division (23/24)` | 27/27 | [Line 7752](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7752) |
-| CAF | [ANG] ANGOLA | `[12034515] Girabola (23/24)` | 14/14 | [Line 8405](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8405) |
-| CAF | [LBY] LIBYA | `[13208974] Libyan Premier League (23/24)` | 22/22 | [Line 8673](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8673) |
-| CAF | [NGA] NIGERIA | `[12016011] Nigeria Professional Football League (23/24)` | 20/20 | [Line 8925](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8925) |
-| CAF | [SUD] SUDAN | `[36513629] Sudani Premier League (23/24)` | 18/18 | [Line 9210](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9210) |
-| CAF | [TAN] TANZANIA | `[13211724] Tanzanian Premier League` | 16/16 | [Line 9293](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9293) |
-| CAF | [TUN] TUNISIA | `[12019164] Tunisian Ligue Professionnelle 1 (23/24)` | 14/14 | [Line 9371](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9371) |
-| CONCACAF | [MEX] MEXICO | `[135973] Liga MX (23/24)` | 18/18 | [Line 10434](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10434) |
-| CONCACAF | [MEX] MEXICO | `[2000017067] Liga de Expansión MX (23/24)` | 15/15 | [Line 10546](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10546) |
-| CONCACAF | [USA] USA | `[40] Major League Soccer (2023)` | 29/29 | [Line 11026](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11026) |
-| CONCACAF | [USA] USA | `[72023762] MLS NEXT` | 21/21 | [Line 11647](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11647) |
-| CONMEBOL | [ARG] ARGENTINA | `[102421] Liga Profesional (2023)` | 28/28 | [Line 11942](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11942) |
-| CONMEBOL | [BOL] BOLIVIA | `[86000000] División Profesional de Bolivia (2023)` | 17/17 | [Line 12282](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12282) |
-| CONMEBOL | [BRA] BRAZIL | `[102423] Brasileirão Série A (2023)` | 20/20 | [Line 12382](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12382) |
-| CONMEBOL | [CHI] CHILE | `[5250792] Liga de Primera Chileno (2023)` | 16/16 | [Line 13005](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13005) |
-| CONMEBOL | [CHI] CHILE | `[5250793] Liga de Ascenso Chileno (2023)` | 16/16 | [Line 13090](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13090) |
-| CONMEBOL | [COL] COLOMBIA | `[5260948] Liga BetPlay DIMAYOR (2023)` | 20/20 | [Line 13193](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13193) |
-| CONMEBOL | [VEN] VENEZUELA | `[86000001] Liga FUTVE (2023)` | 15/15 | [Line 14073](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14073) |
-| UEFA | [AND] ANDORRA | `[47000005] Lliga Multisegur Assegurances` | 8/8 | [Line 14764](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14764) |
-| UEFA | [AUT] AUSTRIA | `[136543] ÖFB Bundesliga (23/24)` | 12/12 | [Line 15040](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15040) |
-| UEFA | [BEL] BELGIUM | `[1] Jupiler Pro League (23/24)` | 16/16 | [Line 15864](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15864) |
-| UEFA | [BIH] BOSNIA & HERZEGOVINA | `[8401073] Wwin League BIH (23/24)` | 12/12 | [Line 16446](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16446) |
-| UEFA | [BIH] BOSNIA & HERZEGOVINA | `[8407370] Prva liga Federacije BiH (23/24)` | 16/16 | [Line 16513](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16513) |
-| UEFA | [BIH] BOSNIA & HERZEGOVINA | `[8407360] Prva liga Republike Srpske (23/24)` | 18/18 | [Line 16581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16581) |
-| UEFA | [BLR] BELARUS | `[7483354] Belarusian Premier League (2023)` | 15/15 | [Line 15637](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15637) |
-| UEFA | [BLR] BELARUS | `[7483366] Belarusian First League (2023)` | 17/17 | [Line 15722](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15722) |
-| UEFA | [CRO] CROATIA | `[129645] HNL (23/24)` | 10/10 | [Line 16999](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16999) |
-| UEFA | [CZE] CZECHIA | `[131287] Chance Liga (23/24)` | 16/16 | [Line 17372](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17372) |
-| UEFA | [CZE] CZECHIA | `[131288] Chance Národní Liga (23/24)` | 16/16 | [Line 17459](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17459) |
-| UEFA | [CZE] CZECHIA | `[136042] MSFL (23/24)` | 12/12 | [Line 17631](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17631) |
-| UEFA | [DEN] DENMARK | `[6] 3F Superliga (23/24)` | 12/12 | [Line 17765](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17765) |
-| UEFA | [ENG] ENGLAND | `[11] Premier League (23/24)` | 20/20 | [Line 18408](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18408) |
-| UEFA | [ENG] ENGLAND | `[12] EFL Championship (23/24)` | 24/24 | [Line 18531](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18531) |
-| UEFA | [ENG] ENGLAND | `[13] EFL League One (23/24)` | 24/24 | [Line 18678](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18678) |
-| UEFA | [ENG] ENGLAND | `[14] EFL League Two (23/24)` | 24/24 | [Line 18825](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18825) |
-| UEFA | [ENG] ENGLAND | `[109201] National League (23/24)` | 24/24 | [Line 18972](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18972) |
-| UEFA | [ENG] ENGLAND | `[5123054] National League North (23/24)` | 24/24 | [Line 19080](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19080) |
-| UEFA | [ENG] ENGLAND | `[5123055] National League South (23/24)` | 24/24 | [Line 19180](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19180) |
-| UEFA | [ESP] SPAIN | `[67] LALIGA EA SPORTS (23/24)` | 20/20 | [Line 30470](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30470) |
-| UEFA | [ESP] SPAIN | `[68] LALIGA HYPERMOTION (23/24)` | 22/22 | [Line 30593](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30593) |
-| UEFA | [ESP] SPAIN | `[2000048844] Primera Federación Grupo 1 (23/24)` | 20/20 | [Line 30729](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30729) |
-| UEFA | [ESP] SPAIN | `[2000048846] Primera Federación Grupo 2 (23/24)` | 20/20 | [Line 30850](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30850) |
-| UEFA | [ESP] SPAIN | `[2000099903] Segunda Federación Grupo 1 (23/24)` | 18/18 | [Line 30970](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30970) |
-| UEFA | [ESP] SPAIN | `[2000099904] Segunda Federación Grupo 2 (23/24)` | 18/18 | [Line 31059](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31059) |
-| UEFA | [ESP] SPAIN | `[2000099905] Segunda Federación Grupo 3 (23/24)` | 18/18 | [Line 31145](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31145) |
-| UEFA | [ESP] SPAIN | `[2000099906] Segunda Federación Grupo 4 (23/24)` | 18/18 | [Line 31226](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31226) |
-| UEFA | [ESP] SPAIN | `[2000099907] Segunda Federación Grupo 5 (23/24)` | 18/18 | [Line 31313](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31313) |
-| UEFA | [ESP] SPAIN | `Team B/C` | 46/46 | [Line 31393](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31393) |
-| UEFA | [FRA] FRANCE | `[16] Ligue 1 (23/24)` | 18/18 | [Line 20228](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20228) |
-| UEFA | [FRA] FRANCE | `[17] Ligue 2 (23/24)` | 20/20 | [Line 20339](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20339) |
-| UEFA | [FRA] FRANCE | `[18] Ligue 3 (23/24)` | 18/18 | [Line 20462](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20462) |
-| UEFA | [FRO] FAROE ISLANDS | `[8300358] Betrideildin` | 9/9 | [Line 19712](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19712) |
-| UEFA | [GEO] GEORGIA | `[59126495] Erovnuli Liga (2023)` | 10/10 | [Line 21546](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21546) |
-| UEFA | [GEO] GEORGIA | `[59126496] Erovnuli Liga 2 (2023)` | 10/10 | [Line 21603](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21603) |
-| UEFA | [GER] GERMANY | `[22] Bundesliga (23/24)` | 18/18 | [Line 21772](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21772) |
-| UEFA | [GER] GERMANY | `[23] 2. Bundesliga (23/24)` | 18/18 | [Line 21883](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21883) |
-| UEFA | [GER] GERMANY | `[35010926] 3. Liga (23/24)` | 20/20 | [Line 21994](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21994) |
-| UEFA | [GER] GERMANY | `[92086573] A-Junioren-Bundesliga Süd/Südwest (23/24)` | 14/14 | [Line 22657](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22657) |
-| UEFA | [GIB] GIBRALTAR | `[36532636] Gibraltar Football League` | 11/11 | [Line 22964](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22964) |
-| UEFA | [GRE] GREECE | `[129650] Super League Greece (23/24)` | 14/14 | [Line 23011](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23011) |
-| UEFA | [ISR] ISRAEL | `[7860000] Ligat TOTO Winner (23/24)` | 14/14 | [Line 23906](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23906) |
-| UEFA | [ISR] ISRAEL | `[7860001] Liga Leumit (23/24)` | 14/14 | [Line 23981](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23981) |
-| UEFA | [ITA] ITALY | `[32] Serie A (23/24)` | 20/20 | [Line 24098](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24098) |
-| UEFA | [ITA] ITALY | `[33] Serie B (23/24)` | 20/20 | [Line 24221](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24221) |
-| UEFA | [ITA] ITALY | `[43127172] Serie C Girone A (23/24)` | 20/20 | [Line 24344](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24344) |
-| UEFA | [ITA] ITALY | `[43127173] Serie C Girone B (23/24)` | 20/20 | [Line 24453](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24453) |
-| UEFA | [ITA] ITALY | `[43127174] Serie C Girone C (23/24)` | 20/20 | [Line 24560](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24560) |
-| UEFA | [MDA] MOLDOVA | `[59007607] Moldovan Super Liga (23/24)` | 8/8 | [Line 25875](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25875) |
-| UEFA | [MLT] MALTA | `[2300050] Maltese Premier League (23/24)` | 14/14 | [Line 25798](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25798) |
-| UEFA | [NED] NETHERLANDS | `[29] Eredivisie (23/24)` | 18/18 | [Line 26713](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26713) |
-| UEFA | [NED] NETHERLANDS | `[30] Keuken Kampioen Divisie (23/24)` | 20/20 | [Line 26818](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26818) |
-| UEFA | [NOR] NORWAY | `[1300397] Eliteserien (2023)` | 16/16 | [Line 26065](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26065) |
-| UEFA | [POR] PORTUGAL | `[60] Liga Portugal (23/24)` | 18/18 | [Line 28070](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28070) |
-| UEFA | [POR] PORTUGAL | `[61] Liga Portugal 2 (23/24)` | 18/18 | [Line 28181](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28181) |
-| UEFA | [POR] PORTUGAL | `[2000112232] Liga 3 Norte (23/24)` | 10/10 | [Line 28294](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28294) |
-| UEFA | [POR] PORTUGAL | `[2000112233] Liga 3 Sul (23/24)` | 10/10 | [Line 28358](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28358) |
-| UEFA | [RUS] RUSSIA | `[130486] Russian Premier League (23/24)` | 16/16 | [Line 29039](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29039) |
-| UEFA | [SCO] SCOTLAND | `[45] Scottish Premiership (23/24)` | 12/12 | [Line 29452](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29452) |
-| UEFA | [SMR] SAN MARINO | `[43032015] Campionato Sammarinese` | 15/15 | [Line 29389](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29389) |
-| UEFA | [SRB] SERBIA | `[132321] SuperLiga Srbije (23/24)` | 16/16 | [Line 29707](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29707) |
-| UEFA | [SRB] SERBIA | `[5776050] PrvaLiga Srbije (23/24)` | 16/16 | [Line 29792](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29792) |
-| UEFA | [SUI] SWITZERLAND | `[137889] Swiss Super League (23/24)` | 12/12 | [Line 31798](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31798) |
-| UEFA | [SUI] SWITZERLAND | `[137890] Swiss Challenge League (23/24)` | 10/10 | [Line 31867](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31867) |
-| UEFA | [SUI] SWITZERLAND | `[98027828] Swiss Promotion League (23/24)` | 10/10 | [Line 31928](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31928) |
-| UEFA | [SVK] SLOVAKIA | `[7560276] Niké liga (23/24)` | 12/12 | [Line 29939](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29939) |
-| UEFA | [SVK] SLOVAKIA | `[7560277] MONACObet LIGA (23/24)` | 16/16 | [Line 30006](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30006) |
-| UEFA | [SWE] SWEDEN | `[50] Allsvenskan (2023)` | 16/16 | [Line 32143](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32143) |
-| UEFA | [TUR] TURKIYE | `[130286] Süper Lig (23/24)` | 20/20 | [Line 32483](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32483) |
-| UEFA | [UKR] UKRAINE | `[5314301] Ukrainian Premier League (23/24)` | 16/16 | [Line 32992](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32992) |
-| UEFA | [WAL] WALES | `[130672] Cymru Premier (23/24)` | 12/12 | [Line 33229](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L33229) |
-
----
-
-## 5. Các Giải Đấu Chính Thức Cần Ưu Tiên Hoàn Thiện (Priority Incomplete Leagues)
-
-> [!IMPORTANT]
-> Top các giải đấu chính thức có số lượng CLB chưa có City nhiều nhất:
-
-| Liên đoàn | Quốc gia | Giải đấu | Đã có City | Tổng số CLB | Còn thiếu | Tỷ lệ | Vị trí |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| UEFA | [FRA] FRANCE | `Team 2` | 50 | 104 | **-54** | 48.1% | [Line 20786](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20786) |
-| CONMEBOL | [BRA] BRAZIL | `[19127222] Brasileirão Série D (2023)` | 16 | 61 | **-45** | 26.2% | [Line 12717](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12717) |
-| UEFA | [FIN] FINLAND | `[145450] Kakkonen` | 30 | 69 | **-39** | 43.5% | [Line 19954](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19954) |
-| UEFA | [NOR] NORWAY | `[1301420] Norsk Tipping-ligaen (2023)` | 11 | 41 | **-30** | 26.8% | [Line 26346](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26346) |
-| CONMEBOL | [ARG] ARGENTINA | `[102422] Primera Nacional (2023)` | 9 | 37 | **-28** | 24.3% | [Line 12113](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12113) |
-| CONCACAF | [HON] HONDURAS | `[87000202] Liga Nacional de Ascenso (23/24)` | 5 | 32 | **-27** | 15.6% | [Line 10265](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10265) |
-| AFC | [JPN] JAPAN | `[115424] J2 League (2023)` | 3 | 22 | **-19** | 13.6% | [Line 2794](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2794) |
-| CONCACAF | [PAN] PANAMA | `[80010007] Liga PROM` | 3 | 22 | **-19** | 13.6% | [Line 10896](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10896) |
-| CAF | [EGY] EGYPT | `[2000340108] Egyptian Second Division A (23/24)` | 2 | 20 | **-18** | 10.0% | [Line 8593](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8593) |
-| UEFA | [ROU] ROMANIA | `[150913] Liga II României (23/24)` | 3 | 20 | **-17** | 15.0% | [Line 28761](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28761) |
-| AFC | [JPN] JAPAN | `[791180] J3 League (2023)` | 3 | 20 | **-17** | 15.0% | [Line 2911](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2911) |
-| UEFA | [TUR] TURKIYE | `[463481] 2. Lig (23/24)` | 2 | 19 | **-17** | 10.5% | [Line 32753](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32753) |
-| AFC | [KSA] SAUDI ARABIA | `[7920264] Saudi First Division League (23/24)` | 1 | 18 | **-17** | 5.6% | [Line 5694](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5694) |
-| UEFA | [NOR] NORWAY | `[145428] PostNord-ligaen (2023)` | 8 | 24 | **-16** | 33.3% | [Line 26236](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26236) |
-| AFC | [IRQ] IRAQ | `[2000099726] Iraqi Premier Division League (23/24)` | 6 | 22 | **-16** | 27.3% | [Line 2570](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2570) |
-| CONMEBOL | [BRA] BRAZIL | `[107191] Brasileirão Série B (2023)` | 4 | 20 | **-16** | 20.0% | [Line 12505](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12505) |
-| CONMEBOL | [BRA] BRAZIL | `[107192] Brasileirão Série C (2023)` | 4 | 20 | **-16** | 20.0% | [Line 12612](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12612) |
-| UEFA | [RUS] RUSSIA | `[130487] Russian First League (23/24)` | 2 | 18 | **-16** | 11.1% | [Line 29132](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29132) |
-| CAF | [EGY] EGYPT | `[12015393] Egyptian Premier League (23/24)` | 2 | 18 | **-16** | 11.1% | [Line 8519](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8519) |
-| UEFA | [ROU] ROMANIA | `[7540024] Liga I României (23/24)` | 0 | 16 | **-16** | 0.0% | [Line 28685](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28685) |
-| UEFA | [BUL] BULGARIA | `[7500118] Bulgarian Second League (23/24)` | 3 | 18 | **-15** | 16.7% | [Line 16767](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16767) |
-| UEFA | [SWE] SWEDEN | `[8114887] Ettan Södra (2023)` | 1 | 16 | **-15** | 6.2% | [Line 32311](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32311) |
-| UEFA | [TUR] TURKIYE | `[463485] 2. Lig Beyaz Grup (23/24)` | 5 | 19 | **-14** | 26.3% | [Line 32670](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32670) |
-| UEFA | [TUR] TURKIYE | `[463479] 1. Lig (23/24)` | 3 | 17 | **-14** | 17.6% | [Line 32592](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32592) |
-| AFC | [UAE] UAE | `[2000017168] UAE Second Division League (23/24)` | 0 | 14 | **-14** | 0.0% | [Line 7123](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7123) |
-| AFC | [IRQ] IRAQ | `[23038303] Iraq Stars League (23/24)` | 7 | 20 | **-13** | 35.0% | [Line 2460](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2460) |
-| CONMEBOL | [PER] PERU | `[5290551] Liga 1 Peru (2023)` | 6 | 19 | **-13** | 31.6% | [Line 13743](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13743) |
-| CAF | [RSA] SOUTH AFRICA | `[131235] South African Championship (23/24)` | 3 | 16 | **-13** | 18.8% | [Line 9119](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9119) |
-| CONMEBOL | [URU] URUGUAY | `[5512771] Segunda División Profesional AUF (2023)` | 1 | 14 | **-13** | 7.1% | [Line 13987](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13987) |
-| AFC | [IRN] IR IRAN | `[1018790] Azadegan League (23/24)` | 6 | 18 | **-12** | 33.3% | [Line 2325](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2325) |
-
----
-
-## 6. Checklist Chi Tiết Toàn Bộ Quốc Gia & Giải Đấu Theo Liên Đoàn
-
-### UEFA (53 quốc gia, 1,899/2,604 CLB — **72.9%**)
-
-#### - [ ] [ALB] ALBANIA (20/45 CLB — **44.4%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[11024371] FSHF Kategoria e Parë Grupi A (23/24)` | 6 | 12 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 14497](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14497) |
-| - [ ] | `[2000093167] FSHF Kategoria e Dytë Grupi A (23/24)` | 5 | 12 | **41.7%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 14560](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14560) |
-| - [ ] | `[2000093168] FSHF Kategoria e Dytë Grupi B (23/24)` | 2 | 11 | **18.2%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 14618](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14618) |
-| - [ ] | `[8350942] Abissnet Superiore (23/24)` | 7 | 10 | **70.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 14442](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14442) |
-
-#### - [x] [AND] ANDORRA (8/8 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[47000005] Lliga Multisegur Assegurances` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 14764](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14764) |
-
-#### - [ ] [ARM] ARMENIA (16/25 CLB — **64.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[59006197] Armenian First League (23/24)` | 11 | 15 | **73.3%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 14902](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14902) |
-| - [ ] | `[59006196] Armenian Premier League (23/24)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 14848](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14848) |
-
-#### - [ ] [AUT] AUSTRIA (34/49 CLB — **69.4%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[136544] ÖFB 2. Liga (23/24)` | 8 | 16 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 15115](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15115) |
-| - [ ] | `[16068419] ÖFB Jugendliga U18` | 8 | 13 | **61.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 15260](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15260) |
-| - [x] | `[136543] ÖFB Bundesliga (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 15040](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15040) |
-| - [ ] | `[5607687] Regionalliga Mitte (23/24)` | 3 | 5 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 15220](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15220) |
-| - [x] | `[136546] Regionalliga Ost (23/24)` | 2 | 2 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 15203](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15203) |
-| - [x] | `[5607688] Regionalliga West (23/24)` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 15252](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15252) |
-
-#### - [ ] [AZE] AZERBAIJAN (8/17 CLB — **47.1%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[59006943] Azərbaycan Premyer Liqasi (23/24)` | 4 | 10 | **40.0%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 15476](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15476) |
-| - [ ] | `[59008101] Azərbaycan I Liqa (23/24)` | 4 | 7 | **57.1%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 15531](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15531) |
-
-#### - [ ] [BEL] BELGIUM (30/50 CLB — **60.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[8154824] Belgian Division 1 (23/24)` | 7 | 18 | **38.9%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 16056](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16056) |
-| - [x] | `[1] Jupiler Pro League (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 15864](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15864) |
-| - [ ] | `[2] Challenger Pro League (23/24)` | 7 | 16 | **43.8%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 15963](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15963) |
-
-#### - [x] [BIH] BOSNIA & HERZEGOVINA (46/46 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[8407360] Prva liga Republike Srpske (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 16581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16581) |
-| - [x] | `[8407370] Prva liga Federacije BiH (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 16513](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16513) |
-| - [x] | `[8401073] Wwin League BIH (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 16446](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16446) |
-
-#### - [x] [BLR] BELARUS (32/32 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[7483366] Belarusian First League (2023)` | 17 | 17 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 15722](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15722) |
-| - [x] | `[7483354] Belarusian Premier League (2023)` | 15 | 15 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 15637](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L15637) |
-
-#### - [ ] [BUL] BULGARIA (18/34 CLB — **52.9%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[7500118] Bulgarian Second League (23/24)` | 3 | 18 | **16.7%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 16767](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16767) |
-| - [ ] | `[7500000] efbet League (23/24)` | 15 | 16 | **93.8%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 16678](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16678) |
-
-#### - [ ] [CRO] CROATIA (15/22 CLB — **68.2%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[129646] Prva NL (23/24)` | 5 | 12 | **41.7%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 17059](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17059) |
-| - [x] | `[129645] HNL (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 16999](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L16999) |
-
-#### - [ ] [CYP] CYPRUS (17/30 CLB — **56.7%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[692431] Cypriot Second Division` | 8 | 16 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 17282](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17282) |
-| - [ ] | `[692430] Cyprus League by Stoiximan (23/24)` | 9 | 14 | **64.3%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 17207](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17207) |
-
-#### - [x] [CZE] CZECHIA (57/57 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[131287] Chance Liga (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 17372](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17372) |
-| - [x] | `[131288] Chance Národní Liga (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 17459](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17459) |
-| - [x] | `[136042] MSFL (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 17631](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17631) |
-| - [x] | `[25060473] CFL B (23/24)` | 7 | 7 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 17589](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17589) |
-| - [x] | `[136041] CFL A (23/24)` | 6 | 6 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 17550](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17550) |
-
-#### - [ ] [DEN] DENMARK (28/48 CLB — **58.3%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[6] 3F Superliga (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 17765](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17765) |
-| - [ ] | `[7] NordicBet Liga (23/24)` | 8 | 12 | **66.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 17840](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17840) |
-| - [ ] | `[8] 2. division (23/24)` | 4 | 12 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 17911](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17911) |
-| - [ ] | `[2000016262] 3. division (23/24)` | 4 | 12 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 17977](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L17977) |
-
-#### - [x] [ENG] ENGLAND (164/164 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[12] EFL Championship (23/24)` | 24 | 24 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 18531](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18531) |
-| - [x] | `[13] EFL League One (23/24)` | 24 | 24 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 18678](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18678) |
-| - [x] | `[14] EFL League Two (23/24)` | 24 | 24 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 18825](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18825) |
-| - [x] | `[109201] National League (23/24)` | 24 | 24 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 18972](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18972) |
-| - [x] | `[5123054] National League North (23/24)` | 24 | 24 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 19080](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19080) |
-| - [x] | `[5123055] National League South (23/24)` | 24 | 24 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 19180](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19180) |
-| - [x] | `[11] Premier League (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 18408](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L18408) |
-
-#### - [x] [ESP] SPAIN (218/218 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `Team B/C` | 46 | 46 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31393](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31393) |
-| - [x] | `[68] LALIGA HYPERMOTION (23/24)` | 22 | 22 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 30593](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30593) |
-| - [x] | `[67] LALIGA EA SPORTS (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 30470](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30470) |
-| - [x] | `[2000048844] Primera Federación Grupo 1 (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 30729](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30729) |
-| - [x] | `[2000048846] Primera Federación Grupo 2 (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 30850](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30850) |
-| - [x] | `[2000099903] Segunda Federación Grupo 1 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 30970](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30970) |
-| - [x] | `[2000099904] Segunda Federación Grupo 2 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31059](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31059) |
-| - [x] | `[2000099905] Segunda Federación Grupo 3 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31145](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31145) |
-| - [x] | `[2000099906] Segunda Federación Grupo 4 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31226](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31226) |
-| - [x] | `[2000099907] Segunda Federación Grupo 5 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31313](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31313) |
-
-#### - [ ] [EST] ESTONIA (11/19 CLB — **57.9%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[7681558] Meistriliiga (2024)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 19569](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19569) |
-| - [ ] | `[7681559] Esiliiga (2024)` | 6 | 9 | **66.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 19624](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19624) |
-
-#### - [ ] [FIN] FINLAND (47/93 CLB — **50.5%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[145450] Kakkonen` | 30 | 69 | **43.5%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 19954](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19954) |
-| - [ ] | `[129120] Veikkausliiga (2023)` | 9 | 12 | **75.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 19814](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19814) |
-| - [ ] | `[129131] Ykkönen (2023)` | 8 | 12 | **66.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 19884](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19884) |
-
-#### - [ ] [FRA] FRANCE (113/214 CLB — **52.8%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `Team 2` | 50 | 104 | **48.1%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 20786](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20786) |
-| - [x] | `[17] Ligue 2 (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 20339](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20339) |
-| - [x] | `[16] Ligue 1 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 20228](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20228) |
-| - [x] | `[18] Ligue 3 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 20462](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20462) |
-| - [ ] | `[914522] National 2 Groupe B (23/24)` | 2 | 14 | **14.3%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 20629](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20629) |
-| - [ ] | `[914523] National 2 Groupe C (23/24)` | 2 | 14 | **14.3%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 20680](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20680) |
-| - [ ] | `[19] National 2 Groupe A (23/24)` | 2 | 13 | **15.4%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 20573](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20573) |
-| - [ ] | `[914524] National 2 Groupe D (23/24)` | 1 | 13 | **7.7%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 20732](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L20732) |
-
-#### - [x] [FRO] FAROE ISLANDS (9/9 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[8300358] Betrideildin` | 9 | 9 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 19712](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L19712) |
-
-#### - [x] [GEO] GEORGIA (20/20 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[59126495] Erovnuli Liga (2023)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 21546](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21546) |
-| - [x] | `[59126496] Erovnuli Liga 2 (2023)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 21603](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21603) |
-
-#### - [ ] [GER] GERMANY (160/179 CLB — **89.4%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `NLZ Teams` | 19 | 25 | **76.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 22744](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22744) |
-| - [ ] | `Team II/III` | 19 | 21 | **90.5%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 22341](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22341) |
-| - [x] | `[35010926] 3. Liga (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 21994](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21994) |
-| - [x] | `[22] Bundesliga (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 21772](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21772) |
-| - [x] | `[23] 2. Bundesliga (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 21883](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L21883) |
-| - [x] | `[92086573] A-Junioren-Bundesliga Süd/Südwest (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 22657](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22657) |
-| - [ ] | `[92086572] A-Junioren-Bundesliga Nord/Nordost (23/24)` | 13 | 14 | **92.9%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 22485](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22485) |
-| - [ ] | `[92086574] A-Junioren-Bundesliga West (23/24)` | 13 | 14 | **92.9%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 22571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22571) |
-| - [ ] | `[91107110] Regionalliga Nordost (23/24)` | 5 | 8 | **62.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 22159](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22159) |
-| - [x] | `[35010927] Regionalliga West (23/24)` | 7 | 7 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 22204](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22204) |
-| - [ ] | `[91107111] Regionalliga Bayern (23/24)` | 5 | 7 | **71.4%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 22296](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22296) |
-| - [ ] | `[27] Regionalliga Südwest (23/24)` | 4 | 7 | **57.1%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 22252](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22252) |
-| - [ ] | `[26] Regionalliga Nord (23/24)` | 5 | 6 | **83.3%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 22119](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22119) |
-
-#### - [x] [GIB] GIBRALTAR (11/11 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[36532636] Gibraltar Football League` | 11 | 11 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 22964](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L22964) |
-
-#### - [ ] [GRE] GREECE (24/38 CLB — **63.2%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[129650] Super League Greece (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 23011](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23011) |
-| - [ ] | `[36086002] Super League Greece 2 South Group (23/24)` | 7 | 12 | **58.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 23143](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23143) |
-| - [ ] | `[36086001] Super League Greece 2 North Group (23/24)` | 3 | 12 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 23092](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23092) |
-
-#### - [ ] [HUN] HUNGARY (13/35 CLB — **37.1%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[152045] Merkantil Bank Liga (23/24)` | 9 | 18 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 23260](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23260) |
-| - [ ] | `[7520391] OTP Bank Liga (23/24)` | 4 | 12 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 23196](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23196) |
-| - [ ] | `[38013451] Nemzeti Bajnokság III` | 0 | 5 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 23355](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23355) |
-
-#### - [ ] [IRL] IRELAND (26/40 CLB — **65.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[52086882] LOI Academy U19 League` | 13 | 20 | **65.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 23771](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23771) |
-| - [ ] | `[129373] LOI First Division (2023)` | 8 | 10 | **80.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 23718](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23718) |
-| - [ ] | `[129372] LOI Premier Division (2023)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 23667](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23667) |
-
-#### - [ ] [ISL] ICELAND (15/24 CLB — **62.5%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[7840132] Besta deild karla (2023)` | 8 | 12 | **66.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 23490](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23490) |
-| - [ ] | `[7840133] Lengjudeild karla (2023)` | 7 | 12 | **58.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 23557](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23557) |
-
-#### - [x] [ISR] ISRAEL (28/28 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[7860000] Ligat TOTO Winner (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 23906](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23906) |
-| - [x] | `[7860001] Liga Leumit (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 23981](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L23981) |
-
-#### - [x] [ITA] ITALY (100/100 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[32] Serie A (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 24098](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24098) |
-| - [x] | `[33] Serie B (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 24221](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24221) |
-| - [x] | `[43127172] Serie C Girone A (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 24344](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24344) |
-| - [x] | `[43127173] Serie C Girone B (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 24453](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24453) |
-| - [x] | `[43127174] Serie C Girone C (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 24560](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24560) |
-
-#### - [ ] [KAZ] KAZAKHSTAN (27/43 CLB — **62.8%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[59107180] QJ League` | 9 | 15 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 25129](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25129) |
-| - [ ] | `[59010820] Qazaqstan Birinshi Ligasy (2023)` | 11 | 14 | **78.6%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 24897](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24897) |
-| - [ ] | `[59007527] Qazaqstan Premier Ligasy (2023)` | 7 | 14 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 24822](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L24822) |
-
-#### - [ ] [LTU] LITHUANIA (18/36 CLB — **50.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[2300047] LFF I Lyga (2023)` | 9 | 16 | **56.2%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 25497](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25497) |
-| - [ ] | `[2000170236] LFF II Lyga (2023)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 25580](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25580) |
-| - [ ] | `[2300046] TOPLYGA (2023)` | 4 | 10 | **40.0%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 25447](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25447) |
-
-#### - [ ] [LUX] LUXEMBOURG (14/19 CLB — **73.7%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5340000] BGL Ligue` | 14 | 19 | **73.7%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 25724](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25724) |
-
-#### - [ ] [LVA] LATVIA (14/23 CLB — **60.9%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[8403797] Latvijas Nakotnes liga (2023)` | 8 | 13 | **61.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 25318](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25318) |
-| - [ ] | `[8403697] Latvijas Virsliga (2023)` | 6 | 10 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 25264](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25264) |
-
-#### - [x] [MDA] MOLDOVA (8/8 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[59007607] Moldovan Super Liga (23/24)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 25875](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25875) |
-
-#### - [ ] [MKD] NORTH MACEDONIA (19/28 CLB — **67.9%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[8403796] 2.MFL (23/24)` | 12 | 16 | **75.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 27238](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27238) |
-| - [ ] | `[8401070] 1.MFL (23/24)` | 7 | 12 | **58.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 27176](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27176) |
-
-#### - [x] [MLT] MALTA (14/14 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[2300050] Maltese Premier League (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 25798](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25798) |
-
-#### - [ ] [MNE] MONTENEGRO (11/20 CLB — **55.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5754888] 2.CFL (23/24)` | 6 | 10 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 25994](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25994) |
-| - [ ] | `[5745020] 1.CFL (23/24)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 25946](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L25946) |
-
-#### - [ ] [NED] NETHERLANDS (48/49 CLB — **98.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[30] Keuken Kampioen Divisie (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 26818](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26818) |
-| - [x] | `[29] Eredivisie (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 26713](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26713) |
-| - [ ] | `Team B` | 10 | 11 | **90.9%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 26932](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26932) |
-
-#### - [ ] [NIR] NORTHERN IRELAND (15/38 CLB — **39.5%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[147023] NIFL Premier Intermediate League (23/24)` | 7 | 14 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 27098](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27098) |
-| - [ ] | `[130023] NIFL Premiership (23/24)` | 5 | 12 | **41.7%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 27012](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27012) |
-| - [ ] | `[130024] NIFL Championship (23/24)` | 3 | 12 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 27056](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27056) |
-
-#### - [ ] [NOR] NORWAY (39/97 CLB — **40.2%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[1301420] Norsk Tipping-ligaen (2023)` | 11 | 41 | **26.8%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 26346](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26346) |
-| - [ ] | `[145428] PostNord-ligaen (2023)` | 8 | 24 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 26236](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26236) |
-| - [x] | `[1300397] Eliteserien (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 26065](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26065) |
-| - [ ] | `[1300398] OBOS-ligaen (2023)` | 4 | 16 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 26157](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L26157) |
-
-#### - [ ] [POL] POLAND (51/76 CLB — **67.1%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[129560] III liga (23/24)` | 12 | 22 | **54.5%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 27624](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27624) |
-| - [ ] | `[129559] I liga (23/24)` | 15 | 18 | **83.3%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 27440](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27440) |
-| - [ ] | `[129558] Ekstraklasa (23/24)` | 13 | 18 | **72.2%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 27342](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27342) |
-| - [ ] | `[162504] II liga (23/24)` | 11 | 18 | **61.1%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 27534](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L27534) |
-
-#### - [x] [POR] PORTUGAL (56/56 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[60] Liga Portugal (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 28070](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28070) |
-| - [x] | `[61] Liga Portugal 2 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 28181](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28181) |
-| - [x] | `[2000112232] Liga 3 Norte (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 28294](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28294) |
-| - [x] | `[2000112233] Liga 3 Sul (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 28358](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28358) |
-
-#### - [ ] [ROU] ROMANIA (3/36 CLB — **8.3%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[150913] Liga II României (23/24)` | 3 | 20 | **15.0%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 28761](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28761) |
-| - [ ] | `[7540024] Liga I României (23/24)` | 0 | 16 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 28685](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L28685) |
-
-#### - [ ] [RUS] RUSSIA (25/48 CLB — **52.1%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[130487] Russian First League (23/24)` | 2 | 18 | **11.1%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 29132](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29132) |
-| - [x] | `[130486] Russian Premier League (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29039](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29039) |
-| - [ ] | `[2000272298] Russian Second League Div. A Gold Group (23/24)` | 3 | 10 | **30.0%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 29217](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29217) |
-| - [x] | `[8051008] Russian Second League (23/24)` | 3 | 3 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29269](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29269) |
-| - [x] | `[2000272300] Russian Second League Div. A Silver Group (23/24)` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29260](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29260) |
-
-#### - [ ] [SCO] SCOTLAND (30/42 CLB — **71.4%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[45] Scottish Premiership (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29452](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29452) |
-| - [ ] | `[48] Scottish League Two (23/24)` | 7 | 10 | **70.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 29619](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29619) |
-| - [ ] | `[47] Scottish League One (23/24)` | 6 | 10 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 29570](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29570) |
-| - [ ] | `[46] Scottish Championship (23/24)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 29521](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29521) |
-
-#### - [x] [SMR] SAN MARINO (15/15 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[43032015] Campionato Sammarinese` | 15 | 15 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29389](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29389) |
-
-#### - [x] [SRB] SERBIA (32/32 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[132321] SuperLiga Srbije (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29707](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29707) |
-| - [x] | `[5776050] PrvaLiga Srbije (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29792](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29792) |
-
-#### - [x] [SUI] SWITZERLAND (32/32 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[137889] Swiss Super League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31798](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31798) |
-| - [x] | `[137890] Swiss Challenge League (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31867](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31867) |
-| - [x] | `[98027828] Swiss Promotion League (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 31928](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L31928) |
-
-#### - [x] [SVK] SLOVAKIA (28/28 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[7560277] MONACObet LIGA (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 30006](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30006) |
-| - [x] | `[7560276] Niké liga (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 29939](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L29939) |
-
-#### - [ ] [SVN] SLOVENIA (17/26 CLB — **65.4%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[7580001] 2.SNL (23/24)` | 10 | 16 | **62.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 30332](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30332) |
-| - [ ] | `[7580000] Prva Liga Telemach (23/24)` | 7 | 10 | **70.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 30278](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L30278) |
-
-#### - [ ] [SWE] SWEDEN (31/64 CLB — **48.4%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[50] Allsvenskan (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 32143](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32143) |
-| - [ ] | `[8114888] Ettan Norra (2023)` | 8 | 16 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 32379](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32379) |
-| - [ ] | `[52] Superettan (2023)` | 6 | 16 | **37.5%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 32232](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32232) |
-| - [ ] | `[8114887] Ettan Södra (2023)` | 1 | 16 | **6.2%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 32311](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32311) |
-
-#### - [ ] [TUR] TURKIYE (30/75 CLB — **40.0%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[130286] Süper Lig (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 32483](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32483) |
-| - [ ] | `[463485] 2. Lig Beyaz Grup (23/24)` | 5 | 19 | **26.3%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 32670](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32670) |
-| - [ ] | `[463481] 2. Lig (23/24)` | 2 | 19 | **10.5%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 32753](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32753) |
-| - [ ] | `[463479] 1. Lig (23/24)` | 3 | 17 | **17.6%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 32592](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32592) |
-
-#### - [ ] [UKR] UKRAINE (22/32 CLB — **68.8%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5314301] Ukrainian Premier League (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 32992](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L32992) |
-| - [ ] | `[5314302] Ukrainian First League (23/24)` | 6 | 16 | **37.5%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 33082](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L33082) |
-
-#### - [x] [WAL] WALES (12/12 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[130672] Cymru Premier (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 33229](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L33229) |
-
-### AFC (35 quốc gia, 820/1,178 CLB — **69.6%**)
-
-#### - [x] [AUS] AUSTRALIA (36/36 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[129985] A-League Men (23/24)` | 13 | 13 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3) |
-| - [x] | `[130185] NPL NSW` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 92](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L92) |
-| - [x] | `[130188] NPL Victoria` | 3 | 3 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 191](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L191) |
-| - [x] | `[15045003] NPL South Australia` | 2 | 2 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 166](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L166) |
-| - [x] | `[15020175] Victorian Premier League 1` | 2 | 2 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 222](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L222) |
-| - [x] | `[432083] NPL ACT` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 84](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L84) |
-| - [x] | `[15007722] NPL Northern NSW` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 158](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L158) |
-| - [x] | `[15041771] NPL Queensland` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 181](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L181) |
-| - [x] | `[130189] NPL Western Australia` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 212](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L212) |
-| - [x] | `[15045546] NSW League Two` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 239](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L239) |
-| - [x] | `[15090908] Victorian Premier League 2` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 249](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L249) |
-
-#### - [x] [BAN] BANGLADESH (20/20 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5630062] Bangladesh Football League (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 422](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L422) |
-| - [x] | `[23184385] Bangladesh Championship League (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 485](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L485) |
-
-#### - [x] [BHR] BAHRAIN (24/24 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[1039313] Bahraini Premier League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 274](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L274) |
-| - [x] | `[1039314] Bahraini Second Division (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 349](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L349) |
-
-#### - [x] [CAM] CAMBODIA (20/20 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[23084471] Cambodian Premier League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 571](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L571) |
-| - [x] | `[23184338] Cambodian League 2 (23/24)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 646](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L646) |
-
-#### - [ ] [CHN] CHINA PR (73/74 CLB — **98.6%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5627655] Chinese Champions League` | 25 | 26 | **96.2%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 1005](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1005) |
-| - [x] | `[130931] Chinese Super League (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 705](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L705) |
-| - [x] | `[131126] China League One (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 804](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L804) |
-| - [x] | `[1002872] China League Two North Group (2023)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 903](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L903) |
-| - [x] | `[1002873] China League Two South Group (2023)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 954](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L954) |
-
-#### - [x] [HKG] HONG KONG (25/25 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5624450] Hong Kong First Division (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1447](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1447) |
-| - [x] | `[5624449] Hong Kong Premier League (23/24)` | 11 | 11 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1378](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1378) |
-| - [x] | `[7400579] Hong Kong Second Division (23/24)` | 2 | 2 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1521](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1521) |
-
-#### - [ ] [IDN] INDONESIA (33/53 CLB — **62.3%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[41042740] Indonesian Championship (23/24)` | 19 | 28 | **67.9%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 2021](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2021) |
-| - [ ] | `[41004312] Indonesian Super League (23/24)` | 8 | 18 | **44.4%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 1920](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1920) |
-| - [ ] | `[41042746] Liga Nusantara (23/24)` | 6 | 7 | **85.7%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 2183](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2183) |
-
-#### - [ ] [IND] INDIA (13/51 CLB — **25.5%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5624525] I-League (23/24)` | 2 | 13 | **15.4%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1621](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1621) |
-| - [ ] | `[40026565] Indian Super League (23/24)` | 4 | 12 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 1554](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1554) |
-| - [ ] | `[7640505] I-League 2 (23/24)` | 2 | 8 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1689](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1689) |
-| - [ ] | `[40000892] I-League 3 (23/24)` | 2 | 7 | **28.6%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1726](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1726) |
-| - [ ] | `[40026090] Kerala Super League` | 0 | 2 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1764](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1764) |
-| - [ ] | `[5624530] Calcutta Football League` | 0 | 2 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1777](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1777) |
-| - [ ] | `[5624535] Goa Professional League` | 0 | 2 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1799](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1799) |
-| - [x] | `[5624534] Bangalore Super Division` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1790](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1790) |
-| - [x] | `[5624899] Mumbai Football League` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1812](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1812) |
-| - [x] | `[40035413] AIFF Elite Youth League` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1829](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1829) |
-| - [ ] | `[5624538] Punjab Super League` | 0 | 1 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1756](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1756) |
-| - [ ] | `[5625174] Chennai Senior Division` | 0 | 1 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 1821](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1821) |
-
-#### - [ ] [IRN] IR IRAN (10/34 CLB — **29.4%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[1018790] Azadegan League (23/24)` | 6 | 18 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 2325](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2325) |
-| - [ ] | `[1018789] Persian Gulf Pro League (23/24)` | 4 | 16 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 2240](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2240) |
-
-#### - [ ] [IRQ] IRAQ (13/42 CLB — **31.0%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[2000099726] Iraqi Premier Division League (23/24)` | 6 | 22 | **27.3%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 2570](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2570) |
-| - [ ] | `[23038303] Iraq Stars League (23/24)` | 7 | 20 | **35.0%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 2460](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2460) |
-
-#### - [ ] [JOR] JORDAN (10/26 CLB — **38.5%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5635282] Jordanian First Division League (23/24)` | 4 | 14 | **28.6%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 3354](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3354) |
-| - [ ] | `[5635278] Jordanian Pro League (23/24)` | 6 | 12 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 3288](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3288) |
-
-#### - [ ] [JPN] JAPAN (28/75 CLB — **37.3%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[115424] J2 League (2023)` | 3 | 22 | **13.6%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 2794](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2794) |
-| - [ ] | `[791180] J3 League (2023)` | 3 | 20 | **15.0%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 2911](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2911) |
-| - [x] | `[102428] J1 League (2023)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 2683](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L2683) |
-| - [ ] | `[107256] Japan Football League (2023)` | 4 | 15 | **26.7%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 3017](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3017) |
-
-#### - [ ] [KGZ] KYRGYZSTAN (18/29 CLB — **62.1%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[59005735] Kyrgyz Premier League (2023)` | 7 | 13 | **53.8%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 4030](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4030) |
-| - [ ] | `[2000174549] Kyrgyz National League Group A (2023)` | 6 | 8 | **75.0%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 4110](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4110) |
-| - [ ] | `[2000174550] Kyrgyz National League Group B (2023)` | 5 | 8 | **62.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 4147](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4147) |
-
-#### - [x] [KOR] KOREA REPUBLIC (74/74 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[66040773] K4 League (2023)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3746](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3746) |
-| - [x] | `[66010517] K3 League (2023)` | 15 | 15 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3662](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3662) |
-| - [x] | `[66029602] K.League 2 (2023)` | 13 | 13 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3581) |
-| - [x] | `[136407] K.League 1 (2023)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3506](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3506) |
-| - [x] | `[66039930] K.League Junior Group B` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3881](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3881) |
-| - [x] | `[66039929] K.League Junior Group A` | 6 | 6 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3844](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3844) |
-
-#### - [ ] [KSA] SAUDI ARABIA (28/68 CLB — **41.2%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[7920263] Saudi Pro League (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 5583](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5583) |
-| - [ ] | `[7920264] Saudi First Division League (23/24)` | 1 | 18 | **5.6%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 5694](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5694) |
-| - [ ] | `[23155549] Saudi Second Division League Group A (23/24)` | 5 | 16 | **31.2%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 5788](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5788) |
-| - [ ] | `[23155550] Saudi Second Division League Group B (23/24)` | 4 | 16 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 5860](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5860) |
-
-#### - [ ] [KUW] KUWAIT (6/16 CLB — **37.5%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[23063354] Kuwait Premier League (23/24)` | 5 | 10 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 3942](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3942) |
-| - [ ] | `[23078275] Kuwaiti Division One (23/24)` | 1 | 6 | **16.7%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4000](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4000) |
-
-#### - [x] [LAO] LAOS (12/12 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5634246] Lao League 1 (2023)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 4216](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4216) |
-
-#### - [ ] [LBN] LEBANON (7/17 CLB — **41.2%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5629952] Lebanese Premier League (23/24)` | 4 | 12 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 4327](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4327) |
-| - [ ] | `[5631613] Lebanese Second Division (23/24)` | 3 | 5 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 4394](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4394) |
-
-#### - [x] [MAC] MACAU (3/3 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5630248] Liga de Elite` | 3 | 3 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 4425](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4425) |
-
-#### - [ ] [MAS] MALAYSIA (25/46 CLB — **54.3%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5624536] Liga Super Malaysia (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 4443](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4443) |
-| - [ ] | `[23493567] Liga A1 Semi-Pro Malaysia (23/24)` | 5 | 14 | **35.7%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 4530](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4530) |
-| - [ ] | `[2000293661] Liga A2 Amateur East Coast` | 4 | 5 | **80.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 4632](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4632) |
-| - [ ] | `[2000293660] Liga A2 Amateur Central` | 1 | 5 | **20.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4662](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4662) |
-| - [ ] | `[2000293663] Liga A2 Amateur Borneo` | 1 | 4 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4608](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4608) |
-| - [ ] | `[23404341] Piala Belia Malaysia` | 0 | 2 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4702](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4702) |
-| - [ ] | `[23501366] Piala MFL` | 0 | 1 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4688](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4688) |
-| - [ ] | `[23226054] Piala Presiden Malaysia` | 0 | 1 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4695](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4695) |
-
-#### - [x] [MNG] MONGOLIA (10/10 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[23090971] Mongolian Premier League (23/24)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 4828](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4828) |
-
-#### - [ ] [MYA] MYANMAR (3/22 CLB — **13.6%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[23090922] Myanmar National League (2023)` | 1 | 12 | **8.3%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4892](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4892) |
-| - [ ] | `[23193285] MNL-2 League (2023)` | 2 | 10 | **20.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 4953](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L4953) |
-
-#### - [ ] [OMA] OMAN (12/24 CLB — **50.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[23071760] Oman Professional League (23/24)` | 6 | 12 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 5053](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5053) |
-| - [ ] | `[23237487] Oman First Division League Group A (23/24)` | 3 | 6 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 5122](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5122) |
-| - [ ] | `[23237488] Oman First Division League Group B (23/24)` | 3 | 6 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 5152](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5152) |
-
-#### - [x] [PHI] PHILIPPINES (12/12 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[23390834] Philippines Football League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 5214](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5214) |
-
-#### - [x] [PRK] KOREA DPR (12/12 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[23100525] DPRK Premier Football League` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 3612](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L3612) |
-
-#### - [x] [QAT] QATAR (24/24 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5632126] Qatar Stars League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 5356](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5356) |
-| - [x] | `[5632158] QSL 2 League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 5431](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5431) |
-
-#### - [x] [SGP] SINGAPORE (10/10 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5395850] Singapore Premier League (2023)` | 9 | 9 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 5959](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L5959) |
-| - [x] | `[23501268] Singapore Premier League 2` | 1 | 1 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6016](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6016) |
-
-#### - [x] [SYR] SYRIA (12/12 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5635022] Syrian Premier League (23/24)` | 12 | 12 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6025](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6025) |
-
-#### - [ ] [THA] THAILAND (70/106 CLB — **66.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5637986] Thai League 2 (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6337](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6337) |
-| - [x] | `[5624920] Thai League 1 (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6238](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6238) |
-| - [ ] | `[2000038395] Thai League 3 BK Metropolitan Region (23/24)` | 7 | 14 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 6761](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6761) |
-| - [ ] | `[2000038392] Thai League 3 Northeastern Region (23/24)` | 6 | 13 | **46.2%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 6508](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6508) |
-| - [ ] | `[2000038398] Thai League 3 Southern Region (23/24)` | 10 | 12 | **83.3%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 6692](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6692) |
-| - [ ] | `[2000038391] Thai League 3 Northern Region (23/24)` | 5 | 11 | **45.5%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 6448](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6448) |
-| - [ ] | `[2000038394] Thai League 3 Western Region (23/24)` | 5 | 11 | **45.5%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 6635](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6635) |
-| - [ ] | `[2000038393] Thai League 3 Eastern Region (23/24)` | 3 | 11 | **27.3%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 6581](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6581) |
-
-#### - [x] [TJK] TAJIKISTAN (15/15 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[59007964] Ligai Olii Tojikiston (2023)` | 10 | 10 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6121](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6121) |
-| - [x] | `[59110037] Ligai Yakumi Tojikiston (2023)` | 5 | 5 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6184](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6184) |
-
-#### - [x] [TKM] TURKMENISTAN (9/9 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5638083] Türkmenistan Ýokary Liga (2023)` | 9 | 9 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6886](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6886) |
-
-#### - [x] [TPE] CHINESE TAIPEI (15/15 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[23397138] Taiwan Football Premier League (2023)` | 8 | 8 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1283](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1283) |
-| - [x] | `[2000070108] Taiwan Football Challenge League (2023)` | 7 | 7 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 1334](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L1334) |
-
-#### - [ ] [UAE] UAE (36/59 CLB — **61.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[7880028] UAE First Division League (23/24)` | 8 | 17 | **47.1%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 7029](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7029) |
-| - [x] | `[7880000] UAE Pro League (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 6943](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L6943) |
-| - [x] | `U21 Arabian Gulf League` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7195](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7195) |
-| - [ ] | `[2000017168] UAE Second Division League (23/24)` | 0 | 14 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 7123](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7123) |
-
-#### - [x] [UZB] UZBEKISTAN (32/32 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[59135038] Uzbekistan Super League (2023)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7662](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7662) |
-| - [x] | `[59135039] Uzbekistan Pro League (2023)` | 11 | 11 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7749](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7749) |
-| - [x] | `[73000048] Uzbekistan First League (2023)` | 7 | 7 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7818](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7818) |
-
-#### - [x] [VIE] VIETNAM (71/71 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[8550003] Vietnamese Third Division (23/24)` | 27 | 27 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7752](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7752) |
-| - [x] | `[8550002] Vietnamese Second Division (23/24)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7653](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7653) |
-| - [x] | `[8550000] V.League 1 (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7479](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7479) |
-| - [x] | `[8550001] V.League 2 (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 7566](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L7566) |
-
-### CONCACAF (9 quốc gia, 219/382 CLB — **57.3%**)
-
-#### - [ ] [CAN] CANADA (22/47 CLB — **46.8%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[20035150] Ligue1 Québec` | 6 | 12 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 9545](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9545) |
-| - [ ] | `[20500261] Ontario Premier League 1` | 5 | 12 | **41.7%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 9490](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9490) |
-| - [ ] | `[20502998] Canadian Premier League (2023)` | 3 | 8 | **37.5%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 9444](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9444) |
-| - [ ] | `[2000150744] British Columbia Premier League` | 2 | 8 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 9600](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9600) |
-| - [ ] | `[2000320681] Alberta Premier League` | 6 | 7 | **85.7%** | 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ | [Line 9636](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9636) |
-
-#### - [ ] [CRC] COSTA RICA (18/29 CLB — **62.1%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[80000564] Liga Transcomer (23/24)` | 11 | 17 | **64.7%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 9776](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9776) |
-| - [ ] | `[80000563] Liga Promérica (23/24)` | 7 | 12 | **58.3%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 9706](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9706) |
-
-#### - [ ] [GUA] GUATEMALA (9/27 CLB — **33.3%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[87000505] Primera División de Ascenso (23/24)` | 3 | 15 | **20.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 10104](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10104) |
-| - [ ] | `[87000495] Liga Guate (23/24)` | 6 | 12 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 10036](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10036) |
-
-#### - [ ] [HON] HONDURAS (5/42 CLB — **11.9%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[87000202] Liga Nacional de Ascenso (23/24)` | 5 | 32 | **15.6%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 10265](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10265) |
-| - [ ] | `[87000201] Liga Hondubet (23/24)` | 0 | 10 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 10212](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10212) |
-
-#### - [x] [MEX] MEXICO (33/33 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[135973] Liga MX (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 10434](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10434) |
-| - [x] | `[2000017067] Liga de Expansión MX (23/24)` | 15 | 15 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 10546](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10546) |
-
-#### - [ ] [NCA] NICARAGUA (10/23 CLB — **43.5%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[80024180] Liga Ascenso de Nicaragua (23/24)` | 4 | 13 | **30.8%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 10747](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10747) |
-| - [ ] | `[86000027] Liga Primera de Nicaragua (23/24)` | 6 | 10 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 10689](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10689) |
-
-#### - [ ] [PAN] PANAMA (5/34 CLB — **14.7%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[80010007] Liga PROM` | 3 | 22 | **13.6%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 10896](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10896) |
-| - [ ] | `[86000021] Liga LPF Tigo` | 2 | 12 | **16.7%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 10831](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L10831) |
-
-#### - [ ] [SLV] EL SALVADOR (11/30 CLB — **36.7%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[87001812] Segunda División de El Salvador` | 7 | 18 | **38.9%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 9953](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9953) |
-| - [ ] | `[87001116] Primera División de El Salvador` | 4 | 12 | **33.3%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 9887](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9887) |
-
-#### - [ ] [USA] USA (106/117 CLB — **90.6%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[40] Major League Soccer (2023)` | 29 | 29 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 11026](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11026) |
-| - [ ] | `[2000102644] MLS Next Pro (2023)` | 27 | 28 | **96.4%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 11453](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11453) |
-| - [ ] | `[43] USL Championship (2023)` | 22 | 24 | **91.7%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ | [Line 11209](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11209) |
-| - [x] | `[72023762] MLS NEXT` | 21 | 21 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 11647](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11647) |
-| - [ ] | `[20047508] USL League One (2023)` | 7 | 15 | **46.7%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 11353](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11353) |
-
-### OFC (1 quốc gia, 11/25 CLB — **44.0%**)
-
-#### - [ ] [NZL] NEW ZEALAND (11/25 CLB — **44.0%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[432266] Northern League` | 4 | 11 | **36.4%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 14211](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14211) |
-| - [ ] | `[88006344] Central League` | 4 | 9 | **44.4%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 14254](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14254) |
-| - [ ] | `[2000095538] Southern League` | 3 | 5 | **60.0%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 14294](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14294) |
-
-### CONMEBOL (10 quốc gia, 201/403 CLB — **49.9%**)
-
-#### - [ ] [ARG] ARGENTINA (37/65 CLB — **56.9%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[102422] Primera Nacional (2023)` | 9 | 37 | **24.3%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 12113](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12113) |
-| - [x] | `[102421] Liga Profesional (2023)` | 28 | 28 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 11942](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L11942) |
-
-#### - [x] [BOL] BOLIVIA (17/17 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[86000000] División Profesional de Bolivia (2023)` | 17 | 17 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 12282](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12282) |
-
-#### - [ ] [BRA] BRAZIL (44/121 CLB — **36.4%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[19127222] Brasileirão Série D (2023)` | 16 | 61 | **26.2%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 12717](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12717) |
-| - [x] | `[102423] Brasileirão Série A (2023)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 12382](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12382) |
-| - [ ] | `[107191] Brasileirão Série B (2023)` | 4 | 20 | **20.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 12505](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12505) |
-| - [ ] | `[107192] Brasileirão Série C (2023)` | 4 | 20 | **20.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 12612](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L12612) |
-
-#### - [x] [CHI] CHILE (32/32 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5250792] Liga de Primera Chileno (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 13005](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13005) |
-| - [x] | `[5250793] Liga de Ascenso Chileno (2023)` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 13090](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13090) |
-
-#### - [ ] [COL] COLOMBIA (27/36 CLB — **75.0%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[5260948] Liga BetPlay DIMAYOR (2023)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 13193](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13193) |
-| - [ ] | `[5260950] Torneo BetPlay DIMAYOR (2023)` | 7 | 16 | **43.8%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 13301](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13301) |
-
-#### - [ ] [ECU] ECUADOR (7/26 CLB — **26.9%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[80000566] LigaPro Serie A (2024)` | 4 | 16 | **25.0%** | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 13463](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13463) |
-| - [ ] | `[80000567] LigaPro Serie B (2024)` | 3 | 10 | **30.0%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 13543](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13543) |
-
-#### - [ ] [PAR] PARAGUAY (5/28 CLB — **17.9%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[79010962] AFP Intermedia (2023)` | 5 | 16 | **31.2%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 13665](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13665) |
-| - [ ] | `[79010950] Copa de Primera APF (2023)` | 0 | 12 | **0.0%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 13614](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13614) |
-
-#### - [ ] [PER] PERU (11/33 CLB — **33.3%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5290551] Liga 1 Peru (2023)` | 6 | 19 | **31.6%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 13743](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13743) |
-| - [ ] | `[5290553] Liga 2 Peru (2023)` | 5 | 14 | **35.7%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 13835](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13835) |
-
-#### - [ ] [URU] URUGUAY (6/30 CLB — **20.0%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[5512770] Liga AUF Uruguaya (2023)` | 5 | 16 | **31.2%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 13907](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13907) |
-| - [ ] | `[5512771] Segunda División Profesional AUF (2023)` | 1 | 14 | **7.1%** | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 13987](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L13987) |
-
-#### - [x] [VEN] VENEZUELA (15/15 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[86000001] Liga FUTVE (2023)` | 15 | 15 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 14073](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L14073) |
-
-### CAF (10 quốc gia, 159/253 CLB — **62.8%**)
-
-#### - [ ] [ALG] ALGERIA (22/48 CLB — **45.8%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[12015290] Ligue Professionnelle 1 (23/24)` | 8 | 16 | **50.0%** | 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ | [Line 8153](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8153) |
-| - [ ] | `[2000021475] Ligue Professionnelle 2 Poule Est (23/24)` | 7 | 16 | **43.8%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 8240](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8240) |
-| - [ ] | `[12031135] Ligue Professionnelle 2 (23/24)` | 7 | 16 | **43.8%** | 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜ | [Line 8320](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8320) |
-
-#### - [x] [ANG] ANGOLA (14/14 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[12034515] Girabola (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 8405](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8405) |
-
-#### - [ ] [EGY] EGYPT (4/38 CLB — **10.5%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[2000340108] Egyptian Second Division A (23/24)` | 2 | 20 | **10.0%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 8593](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8593) |
-| - [ ] | `[12015393] Egyptian Premier League (23/24)` | 2 | 18 | **11.1%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 8519](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8519) |
-
-#### - [x] [LBY] LIBYA (22/22 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[13208974] Libyan Premier League (23/24)` | 22 | 22 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 8673](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8673) |
-
-#### - [ ] [MAR] MOROCCO (21/31 CLB — **67.7%** 🟡)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[12019395] Botola Pro (23/24)` | 10 | 16 | **62.5%** | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ | [Line 8775](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8775) |
-| - [ ] | `[12019395] Botola Pro (22/23)` | 11 | 15 | **73.3%** | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ | [Line 8848](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8848) |
-
-#### - [x] [NGA] NIGERIA (20/20 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[12016011] Nigeria Professional Football League (23/24)` | 20 | 20 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 8925](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L8925) |
-
-#### - [ ] [RSA] SOUTH AFRICA (8/32 CLB — **25.0%** 🟠)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [ ] | `[131234] South African Premiership (23/24)` | 5 | 16 | **31.2%** | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ | [Line 9046](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9046) |
-| - [ ] | `[131235] South African Championship (23/24)` | 3 | 16 | **18.8%** | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ | [Line 9119](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9119) |
-
-#### - [x] [SUD] SUDAN (18/18 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[36513629] Sudani Premier League (23/24)` | 18 | 18 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 9210](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9210) |
-
-#### - [x] [TAN] TANZANIA (16/16 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[13211724] Tanzanian Premier League` | 16 | 16 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 9293](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9293) |
-
-#### - [x] [TUN] TUNISIA (14/14 CLB — **100.0%** ✅)
-
-| Mục | Giải đấu | Đã có City | Tổng số CLB | Tỷ lệ | Tiến độ | Vị trí |
-| :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| - [x] | `[12019164] Tunisian Ligue Professionnelle 1 (23/24)` | 14 | 14 | **100.0%** | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 | [Line 9371](file:///d:/Games/thudd/fm24-lnc/fm24-lnc-be/data/fm24_club.lnc#L9371) |
+# Checklist CLUB_CITY_CHANGE
+
+> Chỉ bao gồm các giải đấu chính thức; loại trừ các nhóm `[OTHER]` và `[EXTINCT]`.
+
+| Quốc gia | Giải đấu | Tỉ lệ | List miss |
+| :--- | :--- | :---: | :--- |
+| [AUS] AUSTRALIA | [129985] A-League Men (23/24) | 13/13 (100.0%) | — |
+| [AUS] AUSTRALIA | [432083] NPL ACT | 1/1 (100.0%) | — |
+| [AUS] AUSTRALIA | [130185] NPL NSW | 10/10 (100.0%) | — |
+| [AUS] AUSTRALIA | [15007722] NPL Northern NSW | 1/1 (100.0%) | — |
+| [AUS] AUSTRALIA | [15045003] NPL South Australia | 2/2 (100.0%) | — |
+| [AUS] AUSTRALIA | [15041771] NPL Queensland | 1/1 (100.0%) | — |
+| [AUS] AUSTRALIA | [130188] NPL Victoria | 3/3 (100.0%) | — |
+| [AUS] AUSTRALIA | [130189] NPL Western Australia | 1/1 (100.0%) | — |
+| [AUS] AUSTRALIA | [15020175] Victorian Premier League 1 | 2/2 (100.0%) | — |
+| [AUS] AUSTRALIA | [15045546] NSW League Two | 1/1 (100.0%) | — |
+| [AUS] AUSTRALIA | [15090908] Victorian Premier League 2 | 1/1 (100.0%) | — |
+| [BHR] BAHRAIN | [1039313] Bahraini Premier League (23/24) | 12/12 (100.0%) | — |
+| [BHR] BAHRAIN | [1039314] Bahraini Second Division (23/24) | 12/12 (100.0%) | — |
+| [BAN] BANGLADESH | [5630062] Bangladesh Football League (23/24) | 10/10 (100.0%) | — |
+| [BAN] BANGLADESH | [23184385] Bangladesh Championship League (23/24) | 10/10 (100.0%) | — |
+| [CAM] CAMBODIA | [23084471] Cambodian Premier League (23/24) | 12/12 (100.0%) | — |
+| [CAM] CAMBODIA | [23184338] Cambodian League 2 (23/24) | 8/8 (100.0%) | — |
+| [CHN] CHINA PR | [130931] Chinese Super League (2023) | 16/16 (100.0%) | — |
+| [CHN] CHINA PR | [131126] China League One (2023) | 16/16 (100.0%) | — |
+| [CHN] CHINA PR | [1002872] China League Two North Group (2023) | 8/8 (100.0%) | — |
+| [CHN] CHINA PR | [1002873] China League Two South Group (2023) | 8/8 (100.0%) | — |
+| [CHN] CHINA PR | [5627655] Chinese Champions League | 26/26 (100.0%) | — |
+| [TPE] CHINESE TAIPEI | [23397138] Taiwan Football Premier League (2023) | 8/8 (100.0%) | — |
+| [TPE] CHINESE TAIPEI | [2000070108] Taiwan Football Challenge League (2023) | 6/6 (100.0%) | — |
+| [HKG] HONG KONG | [5624449] Hong Kong Premier League (23/24) | 11/11 (100.0%) | — |
+| [HKG] HONG KONG | [5624450] Hong Kong First Division (23/24) | 12/12 (100.0%) | — |
+| [HKG] HONG KONG | [7400579] Hong Kong Second Division (23/24) | 2/2 (100.0%) | — |
+| [IND] INDIA | [40026565] Indian Super League (23/24) | 12/12 (100.0%) | — |
+| [IND] INDIA | [5624525] I-League (23/24) | 13/13 (100.0%) | — |
+| [IND] INDIA | [7640505] I-League 2 (23/24) | 8/8 (100.0%) | — |
+| [IND] INDIA | [40000892] I-League 3 (23/24) | 7/7 (100.0%) | — |
+| [IND] INDIA | [5624538] Punjab Super League | 1/1 (100.0%) | — |
+| [IND] INDIA | [40026090] Kerala Super League | 2/2 (100.0%) | — |
+| [IND] INDIA | [5624530] Calcutta Football League | 2/2 (100.0%) | — |
+| [IND] INDIA | [5624534] Bangalore Super Division | 1/1 (100.0%) | — |
+| [IND] INDIA | [5624535] Goa Professional League | 2/2 (100.0%) | — |
+| [IND] INDIA | [5624899] Mumbai Football League | 1/1 (100.0%) | — |
+| [IND] INDIA | [5625174] Chennai Senior Division | 1/1 (100.0%) | — |
+| [IND] INDIA | [40035413] AIFF Elite Youth League | 1/1 (100.0%) | — |
+| [IDN] INDONESIA | [41004312] Indonesian Super League (23/24) | 18/18 (100.0%) | — |
+| [IDN] INDONESIA | [41042740] Indonesian Championship (23/24) | 28/28 (100.0%) | — |
+| [IDN] INDONESIA | [41042746] Liga Nusantara (23/24) | 7/7 (100.0%) | — |
+| [IRN] IR IRAN | [1018789] Persian Gulf Pro League (23/24) | 16/16 (100.0%) | — |
+| [IRN] IR IRAN | [1018790] Azadegan League (23/24) | 18/18 (100.0%) | — |
+| [IRQ] IRAQ | [23038303] Iraq Stars League (23/24) | 20/20 (100.0%) | — |
+| [IRQ] IRAQ | [2000099726] Iraqi Premier Division League (23/24) | 22/22 (100.0%) | — |
+| [JPN] JAPAN | [102428] J1 League (2023) | 18/18 (100.0%) | — |
+| [JPN] JAPAN | [115424] J2 League (2023) | 22/22 (100.0%) | — |
+| [JPN] JAPAN | [791180] J3 League (2023) | 20/20 (100.0%) | — |
+| [JPN] JAPAN | [107256] Japan Football League (2023) | 15/15 (100.0%) | — |
+| [JOR] JORDAN | [5635278] Jordanian Pro League (23/24) | 12/12 (100.0%) | — |
+| [JOR] JORDAN | [5635282] Jordanian First Division League (23/24) | 14/14 (100.0%) | — |
+| [PRK] KOREA DPR | [23100525] DPRK Premier Football League | 12/12 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [136407] K.League 1 (2023) | 12/12 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [66029602] K.League 2 (2023) | 13/13 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [66010517] K3 League (2023) | 15/15 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [66040773] K4 League (2023) | 18/18 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [66039929] K.League Junior Group A | 6/6 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [66039930] K.League Junior Group B | 10/10 (100.0%) | — |
+| [KUW] KUWAIT | [23063354] Kuwait Premier League (23/24) | 10/10 (100.0%) | — |
+| [KUW] KUWAIT | [23078275] Kuwaiti Division One (23/24) | 6/6 (100.0%) | — |
+| [KGZ] KYRGYZSTAN | [59005735] Kyrgyz Premier League (2023) | 11/11 (100.0%) | — |
+| [KGZ] KYRGYZSTAN | [2000174549] Kyrgyz National League Group A (2023) | 7/8 (87.5%) | FC Nashe Pivo |
+| [KGZ] KYRGYZSTAN | [2000174550] Kyrgyz National League Group B (2023) | 8/8 (100.0%) | — |
+| [LAO] LAOS | [5634246] Lao League 1 (2023) | 12/12 (100.0%) | — |
+| [LBN] LEBANON | [5629952] Lebanese Premier League (23/24) | 12/12 (100.0%) | — |
+| [LBN] LEBANON | [5631613] Lebanese Second Division (23/24) | 5/5 (100.0%) | — |
+| [MAC] MACAU | [5630248] Liga de Elite | 3/3 (100.0%) | — |
+| [MAS] MALAYSIA | [5624536] Liga Super Malaysia (23/24) | 14/14 (100.0%) | — |
+| [MAS] MALAYSIA | [23493567] Liga A1 Semi-Pro Malaysia (23/24) | 14/14 (100.0%) | — |
+| [MAS] MALAYSIA | [2000293663] Liga A2 Amateur Borneo | 4/4 (100.0%) | — |
+| [MAS] MALAYSIA | [2000293661] Liga A2 Amateur East Coast | 4/4 (100.0%) | — |
+| [MAS] MALAYSIA | [2000293660] Liga A2 Amateur Central | 5/5 (100.0%) | — |
+| [MAS] MALAYSIA | [23501366] Piala MFL | 1/1 (100.0%) | — |
+| [MAS] MALAYSIA | [23226054] Piala Presiden Malaysia | 1/1 (100.0%) | — |
+| [MAS] MALAYSIA | [23404341] Piala Belia Malaysia | 2/2 (100.0%) | — |
+| [MNG] MONGOLIA | [23090971] Mongolian Premier League (23/24) | 10/10 (100.0%) | — |
+| [MYA] MYANMAR | [23090922] Myanmar National League (2023) | 12/12 (100.0%) | — |
+| [MYA] MYANMAR | [23193285] MNL-2 League (2023) | 10/10 (100.0%) | — |
+| [OMA] OMAN | [23071760] Oman Professional League (23/24) | 12/12 (100.0%) | — |
+| [OMA] OMAN | [23237487] Oman First Division League Group A (23/24) | 6/6 (100.0%) | — |
+| [OMA] OMAN | [23237488] Oman First Division League Group B (23/24) | 6/6 (100.0%) | — |
+| [PHI] PHILIPPINES | [23390834] Philippines Football League (23/24) | 10/10 (100.0%) | — |
+| [QAT] QATAR | [5632126] Qatar Stars League (23/24) | 12/12 (100.0%) | — |
+| [QAT] QATAR | [5632158] QSL 2 League (23/24) | 12/12 (100.0%) | — |
+| [KSA] SAUDI ARABIA | [7920263] Saudi Pro League (23/24) | 18/18 (100.0%) | — |
+| [KSA] SAUDI ARABIA | [7920264] Saudi First Division League (23/24) | 18/18 (100.0%) | — |
+| [KSA] SAUDI ARABIA | [23155549] Saudi Second Division League Group A (23/24) | 16/16 (100.0%) | — |
+| [KSA] SAUDI ARABIA | [23155550] Saudi Second Division League Group B (23/24) | 16/16 (100.0%) | — |
+| [SGP] SINGAPORE | [5395850] Singapore Premier League (2023) | 9/9 (100.0%) | — |
+| [SGP] SINGAPORE | [23501268] Singapore Premier League 2 | 1/1 (100.0%) | — |
+| [SYR] SYRIA | [5635022] Syrian Premier League (23/24) | 12/12 (100.0%) | — |
+| [TJK] TAJIKISTAN | [59007964] Ligai Olii Tojikiston (2023) | 10/10 (100.0%) | — |
+| [TJK] TAJIKISTAN | [59110037] Ligai Yakumi Tojikiston (2023) | 5/5 (100.0%) | — |
+| [THA] THAILAND | [5624920] Thai League 1 (23/24) | 16/16 (100.0%) | — |
+| [THA] THAILAND | [5637986] Thai League 2 (23/24) | 18/18 (100.0%) | — |
+| [THA] THAILAND | [2000038391] Thai League 3 Northern Region (23/24) | 11/11 (100.0%) | — |
+| [THA] THAILAND | [2000038392] Thai League 3 Northeastern Region (23/24) | 13/13 (100.0%) | — |
+| [THA] THAILAND | [2000038393] Thai League 3 Eastern Region (23/24) | 11/11 (100.0%) | — |
+| [THA] THAILAND | [2000038394] Thai League 3 Western Region (23/24) | 11/11 (100.0%) | — |
+| [THA] THAILAND | [2000038398] Thai League 3 Southern Region (23/24) | 12/12 (100.0%) | — |
+| [THA] THAILAND | [2000038395] Thai League 3 BK Metropolitan Region (23/24) | 14/14 (100.0%) | — |
+| [TKM] TURKMENISTAN | [5638083] Türkmenistan Ýokary Liga (2023) | 9/9 (100.0%) | — |
+| [UAE] UAE | [7880000] UAE Pro League (23/24) | 14/14 (100.0%) | — |
+| [UAE] UAE | [7880028] UAE First Division League (23/24) | 17/17 (100.0%) | — |
+| [UAE] UAE | [2000017168] UAE Second Division League (23/24) | 14/14 (100.0%) | — |
+| [UAE] UAE | U21 Arabian Gulf League | 14/14 (100.0%) | — |
+| [UZB] UZBEKISTAN | [59135038] Uzbekistan Super League (2023) | 14/14 (100.0%) | — |
+| [UZB] UZBEKISTAN | [59135039] Uzbekistan Pro League (2023) | 11/11 (100.0%) | — |
+| [UZB] UZBEKISTAN | [73000048] Uzbekistan First League (2023) | 7/7 (100.0%) | — |
+| [VIE] VIETNAM | [8550000] V.League 1 (23/24) | 14/14 (100.0%) | — |
+| [VIE] VIETNAM | [8550001] V.League 2 (23/24) | 14/14 (100.0%) | — |
+| [VIE] VIETNAM | [8550002] Vietnamese Second Division (23/24) | 16/16 (100.0%) | — |
+| [VIE] VIETNAM | [8550003] Vietnamese Third Division (23/24) | 27/27 (100.0%) | — |
+| [ALG] ALGERIA | [12015290] Ligue Professionnelle 1 (23/24) | 8/16 (50.0%) | JS Kabylie, CR Belouizdad, Paradou AC, NC Magra, JS Saoura, ES Ben Aknoun, MC El Bayadh, US Souf |
+| [ALG] ALGERIA | [2000021475] Ligue Professionnelle 2 Poule Est (23/24) | 7/16 (43.8%) | AS Aïn M'lila, USM El Harrach, US Chaouia, AS Khroub, HB Chelghoum-Laïd, JS Bordj Ménaïel, IB Khemis-El-Khechna, E. Sour El-Ghozlane, NRB Teleghma |
+| [ALG] ALGERIA | [12031135] Ligue Professionnelle 2 (23/24) | 7/16 (43.8%) | NA Hussein Dey, RC Kouba, CR Témouchent, GC Mascara, WA Boufarik, SKAF El-Khemis, SC Mécheria, RC Arbaâ, MCB Oued Sly |
+| [ANG] ANGOLA | [12034515] Girabola (23/24) | 14/14 (100.0%) | — |
+| [EGY] EGYPT | [12015393] Egyptian Premier League (23/24) | 2/18 (11.1%) | Zamalek SC, Ismaily SC, El Mokawloon El Arab SC, Al-Masry SC, Baladeyat El-Mahalla SC, ENPPI SC, Tala'ea El Gaish SC, El Gouna FC, Smouha SC, El Dakhleya SC, Pharco FC, National Bank of Egypt SC, Ceramica Cleopatra FC, Pyramids FC, ZED FC, Modern Sport FC |
+| [EGY] EGYPT | [2000340108] Egyptian Second Division A (23/24) | 2/20 (10.0%) | Haras El Hodoud SC, Ghazl El Mahalla SC, El Qanah FC, Petrojet FC, Asyut Petroleum SC, WE Telecom Egypt SC, Misr Lel Makkasa SC, Nasr Mining FC, Abu Qir Fertilizers Club, Dekernes SC, Raya Ghazl Kafr El Dawar SC, El Sekka El Hadid SC, Gomhoriat Shebin SC, Nogoom FC, Wadi Degla FC, La Viena FC, Proxy Work SC, Makadi FC |
+| [LBY] LIBYA | [13208974] Libyan Premier League (23/24) | 22/22 (100.0%) | — |
+| [MAR] MOROCCO | [12019395] Botola Pro (23/24) | 10/16 (62.5%) | AS FAR, Wydad AC, Raja CA, MAS Fès, IR Tanger, JS Soualem |
+| [MAR] MOROCCO | [12019395] Botola Pro (22/23) | 11/15 (73.3%) | Difaâ Hassani El Jadidi, Stade Marocain, Wydad Athletic de Fès, CIS Marrakech |
+| [NGA] NIGERIA | [12016011] Nigeria Professional Football League (23/24) | 20/20 (100.0%) | — |
+| [RSA] SOUTH AFRICA | [131234] South African Premiership (23/24) | 5/16 (31.2%) | Kaizer Chiefs FC, Mamelodi Sundowns FC, Orlando Pirates FC, SuperSport United FC, AmaZulu FC, Golden Arrows FC, Chippa United FC, Moroka Swallows FC, Sekhukhune United FC, TS Galaxy FC, Royal AM FC |
+| [RSA] SOUTH AFRICA | [131235] South African Championship (23/24) | 3/16 (18.8%) | Black Leopards FC, Maritzburg United FC, Baroka FC, Platinum City Rovers FC, Magesi FC, JDR Stars FC, Hungry Lions FC, Orbit College FC, Milford FC, Venda FC, MM Platinum FC, Marumo Gallants FC, Casric Stars FC |
+| [SUD] SUDAN | [36513629] Sudani Premier League (23/24) | 18/18 (100.0%) | — |
+| [TAN] TANZANIA | [13211724] Tanzanian Premier League | 16/16 (100.0%) | — |
+| [TUN] TUNISIA | [12019164] Tunisian Ligue Professionnelle 1 (23/24) | 14/14 (100.0%) | — |
+| [CAN] CANADA | [20502998] Canadian Premier League (2023) | 3/8 (37.5%) | Forge FC, Valour FC, York United FC, Cavalry FC, Pacific FC |
+| [CAN] CANADA | [20500261] Ontario Premier League 1 | 5/12 (41.7%) | Woodbridge Strikers SC, Sigma FC, ProStars FC, Blue Devils FC, Alliance United FC, Scrosoppi FC, Simcoe County Rovers FC |
+| [CAN] CANADA | [20035150] Ligue1 Québec | 6/12 (50.0%) | CS Mont-Royal Outremont, Royal-Sélect de Beauport, CS St-Hubert, CS Celtix du Haut-Richelieu, CS Saint-Laurent, CS Lanaudière-Nord |
+| [CAN] CANADA | [2000150744] British Columbia Premier League | 2/8 (25.0%) | TSS FC Rovers, Rivers FC, Altitude FC, Unity FC, Harbourside FC, Nautsa'mawt FC |
+| [CAN] CANADA | [2000320681] Alberta Premier League | 6/7 (85.7%) | Cavalry FC U21 |
+| [CRC] COSTA RICA | [80000563] Liga Promérica (23/24) | 7/12 (58.3%) | CS Cartaginés, Deportivo Saprissa, CS Herediano, LD Alajuelense, AD Guanacasteca |
+| [CRC] COSTA RICA | [80000564] Liga Transcomer (23/24) | 11/17 (64.7%) | AD Carmelita, Guadalupe FC, ADR Jicaral Sercoba, Fútbol Consultants Desamparados, Quepos Cambute FC, AD Sarchí |
+| [SLV] EL SALVADOR | [87001116] Primera División de El Salvador | 4/12 (33.3%) | Alianza FC, CD Águila, CD Municipal Limeño, CD Futbolistas Asociados Santanecos, CD Luis Ángel Firpo, Once Deportivo FC, CD Dragón, CD Fuerte San Francisco |
+| [SLV] EL SALVADOR | [87001812] Segunda División de El Salvador | 7/18 (38.9%) | CD Atlético Marte, CD Atlético Balboa, CD Independiente, CD Fuerte Aguilares, CD Topiltzín, AD Destroyer, CD Racing Junior, CD Brujos Mario Calvo, CD Cacahuatique, CD Pipil, Corinto FC |
+| [GUA] GUATEMALA | [87000495] Liga Guate (23/24) | 6/12 (50.0%) | Comunicaciones FC, CSD Municipal, CSD Xelajú Mario Camposeco, Deportivo Achuapa, Deportivo Xinabajul, CD Malacateco |
+| [GUA] GUATEMALA | [87000505] Primera División de Ascenso (23/24) | 3/15 (20.0%) | Aurora FC, Club Universidad de San Carlos, CSD Sacachispas, CD Suchitepéquez, CD Marquense, CD Mictlán, CD Heredia, Deportivo San Pedro FC, CD Iztapa, Quiche FC, Juventud Pinulteca FC, Deportivo Barberena FC |
+| [HON] HONDURAS | [87000201] Liga Hondubet (23/24) | 0/10 (0.0%) | CD Olimpia, Real CD España, CD Marathón, FC Motagua, CD Victoria, CDS Vida, CD Real Sociedad, Lobos UPNFM, Olancho FC, CD Génesis Huracán |
+| [HON] HONDURAS | [87000202] Liga Nacional de Ascenso (23/24) | 5/32 (15.6%) | CD Broncos, Platense FC, Deportivo Savio FC, Club Atlético Independiente, CD Real Juventud, CD Social Sol, CD Olimpia Occidental, Yolo FC, Parrillas One, CD Honduras Progreso, CA Boca Junior de Honduras, Brasilia FC, CD Gimnástico, CD Estrella Roja de Araulí, Lone FC, CD San Juan Huracán, Santa Rosa FC, CD Inter de El Triunfo, CD Atlético Junior, Saba FC, FC Alvarado, Oro Verde FC, Pumas FC Las Vegas, AFFI Academia, FC Buenaventura, CD San Rafael, Meluca FC |
+| [MEX] MEXICO | [135973] Liga MX (23/24) | 18/18 (100.0%) | — |
+| [MEX] MEXICO | [2000017067] Liga de Expansión MX (23/24) | 15/15 (100.0%) | — |
+| [NCA] NICARAGUA | [86000027] Liga Primera de Nicaragua (23/24) | 6/10 (60.0%) | CD Walter Ferretti, Cacique Diriangén FC, Orgánica Masachapa FC, CS Sébaco |
+| [NCA] NICARAGUA | [80024180] Liga Ascenso de Nicaragua (23/24) | 4/13 (30.8%) | Real Madriz FC, Deportivo Masaya FC, Juventus FC, Bravos del Primavera FC, FC Gutiérrez, El Sauce FC, San Judas FC, Rancho Santana FC, FC Aguilas de Leon |
+| [PAN] PANAMA | [86000021] Liga LPF Tigo | 2/12 (16.7%) | Alianza FC Panama, CD Plaza Amador, CD Árabe Unido, Club Atlético Chiriqui, San Francisco FC, Tauro FC, Potros del Este, Herrera FC, CD Universitario, UMECIT FC |
+| [PAN] PANAMA | [80010007] Liga PROM | 3/22 (13.6%) | SD Atlético Nacional, Club Sporting Coclé, Colón C3 FC, SD Panamá Oeste, CD Centenario, San Martin FC, Champions FC Academy, Panamá City FC, Mario Mendez FC, UDELAS FC, Águilas de la U, CD Árabe Unido B, Alianza FC B, CD Plaza Amador B, Potros del Este B, Tauro FC B, Herrera FC B, CD Universitario B, San Francisco FC B |
+| [USA] USA | [40] Major League Soccer (2023) | 29/29 (100.0%) | — |
+| [USA] USA | [43] USL Championship (2023) | 22/24 (91.7%) | Rio Grande Valley FC Toros, San Diego Loyal SC |
+| [USA] USA | [20047508] USL League One (2023) | 6/14 (42.9%) | South Georgia Tormenta FC, Chattanooga Red Wolves SC, Greenville Triumph SC, Central Valley Fuego FC, Northern Colorado Hailstorm FC, One Knoxville SC, Lexington SC, Spokane Velocity FC |
+| [USA] USA | [2000102644] MLS Next Pro (2023) | 27/28 (96.4%) | Carolina Core FC |
+| [USA] USA | [72023762] MLS NEXT | 21/21 (100.0%) | — |
+| [ARG] ARGENTINA | [102421] Liga Profesional (2023) | 28/28 (100.0%) | — |
+| [ARG] ARGENTINA | [102422] Primera Nacional (2023) | 9/37 (24.3%) | Club Ferro Carril Oeste, CA San Martín de Tucumán, Club Almirante Brown, AMSD Atlético de Rafaela, Club Deportivo Morón, CA Nueva Chicago, CA All Boys, CA Chacarita Juniors, CA Gimnasia y Esgrima de Jujuy, CA Aldosivi, Club Almagro, CA Atlanta, CA Estudiantes de Buenos Aires, CA Chaco For Ever, Club Deportivo Riestra, Club Villa Dálmine, CA Defensores Unidos de Zárate, Club Social y Atlético Guillermo Brown, CS Independiente Rivadavia, CA Patronato de la Juventud Católica, CA Brown de Adrogué, CA Defensores de Belgrano, CSD Flandria, CA San Telmo, CSD Tristán Suárez, Club Deportivo Maipú, CS Deportivo Madryn, Club Agropecuario Argentino |
+| [BOL] BOLIVIA | [86000000] División Profesional de Bolivia (2023) | 17/17 (100.0%) | — |
+| [BRA] BRAZIL | [102423] Brasileirão Série A (2023) | 20/20 (100.0%) | — |
+| [BRA] BRAZIL | [107191] Brasileirão Série B (2023) | 4/20 (20.0%) | Guarani FC, EC Juventude, AA Ponte Preta, Ceará SC, ABC FC, Avaí FC, Ituano FC, Sampaio Corrêa FC, Vila Nova FC, Botafogo FC (SP), Clube de Regatas Brasil, Atlético Clube Goianiense, Associação Chapecoense de Futebol, Mirassol FC, Tombense FC, Grêmio Novorizontino |
+| [BRA] BRAZIL | [107192] Brasileirão Série C (2023) | 4/20 (20.0%) | Clube Náutico Capibaribe, Paysandu SC, Clube do Remo, América FC (RN), Centro Sportivo Alagoano, Botafogo FC (PB), Figueirense FC, AD Confiança, Operário Ferroviário EC, AA Aparecidense, Ypiranga FC, São Bernardo FC, Floresta FC, AA Altos, Pouso Alegre FC, Amazonas FC |
+| [BRA] BRAZIL | [19127222] Brasileirão Série D (2023) | 15/60 (25.0%) | Santa Cruz FC, Tuna Luso Brasileira, Operário FC (MS), Agremiação Sportiva Arapiraquense, Nacional FC (AM), Ferroviário AC (CE), Maranhão AC, EC Democrata (GV), Campinense Clube, AA Portuguesa (RJ), CS Sergipe, Interporto FC, Tocantinópolis EC, Associação Ferroviária de Esportes, Clube Recreativo e Atlético Catalano, São Raimundo EC (RR), Sousa EC, Brasiliense FC, Hercílio Luz FC, FC Atlético Cearense, Ceilândia EC, Princesa do Solimões EC, Nacional AC de Patos, Parnahyba SC, Trem Desportivo Clube, CE Operário Várzea-Grandense, EC Jacuipense, Fluminense EC (PI), AD Bahia de Feira, Concórdia AC, Camboriú FC, Iporá EC, São Francisco FC (AC), Resende FC, Cordino EC, Real Noroeste Capixaba FC, Real Ariquemes EC, AD Iguatu, Globo FC, Clube Atlético Patrocinense, Independente Futebol São-Joseense, SC Humaitá (AC), Pacajus EC, Retrô FC Brasil, Falcon FC (SE) |
+| [CHI] CHILE | [5250792] Liga de Primera Chileno (2023) | 16/16 (100.0%) | — |
+| [CHI] CHILE | [5250793] Liga de Ascenso Chileno (2023) | 16/16 (100.0%) | — |
+| [COL] COLOMBIA | [5260948] Liga BetPlay DIMAYOR (2023) | 20/20 (100.0%) | — |
+| [COL] COLOMBIA | [5260950] Torneo BetPlay DIMAYOR (2023) | 7/16 (43.8%) | Corporación Deportes Quindío, Atlético FC, Tigres FC, Patriotas Boyacá FC, CD Real Santander, Fortaleza CEIF FC, Llaneros FC, Orsomarso SC, Real Cundinamarca |
+| [ECU] ECUADOR | [80000566] LigaPro Serie A (2024) | 4/16 (25.0%) | CS Emelec, CD El Nacional, Barcelona SC, CSD Macará, SD Aucas, Delfín SC, CD Técnico Universitario, CD Universidad Católica del Ecuador, Imbabura SC, Club Independiente del Valle, Mushuc Runa SC, Orense SC |
+| [ECU] ECUADOR | [80000567] LigaPro Serie B (2024) | 3/10 (30.0%) | 9 de Octubre FC, Cuniburo FC, CD Independiente Juniors, Chacaritas FC, CD Vargas Torres, CD Leones del Norte, San Antonio FC |
+| [PAR] PARAGUAY | [79010950] Copa de Primera APF (2023) | 0/12 (0.0%) | Club Cerro Porteño, Club Olimpia, Club Guaraní, Club Sportivo Luqueño, Club Libertad, Resistencia SC, Club Sportivo Trinidense, Club Nacional (PY), Club Tacuary FBC, Club Sportivo Ameliano, Guaireña FC, Club General Bernardino Caballero JLM |
+| [PAR] PARAGUAY | [79010962] AFP Intermedia (2023) | 5/16 (31.2%) | Club Sol de América, CA Colegiales, 12 de Octubre FC, Club 2 de Mayo, Club Deportivo Recoleta, Club Rubio Ñu, CA 3 de Febrero (CE), Club General Martín Ledesma, Club Deportivo Santaní, Club 24 de Setiembre (VP), Pastoreo FC |
+| [PER] PERU | [5290551] Liga 1 Peru (2023) | 6/19 (31.6%) | Club Centro Deportivo Municipal, Club Sporting Cristal, Club Universitario de Deportes, FBC Melgar, Sport Boys Association, Club Cienciano, Club Atlético Grau, CD Universidad César Vallejo, Club Deportivo Garcilaso, CSD Carlos A. Mannucci, Academia Deportiva Cantolao, CD Unión Comercio, Deportivo Binacional FC |
+| [PER] PERU | [5290553] Liga 2 Peru (2023) | 5/14 (35.7%) | Club Juan Aurich, Club Deportivo Coopsol, CD Alfonso Ugarte, CSD Alianza Universidad, CD Comerciantes Unidos, CD Los Chankas CYC, FC Carlos Stein, Pirata FC, AD Comerciantes FC |
+| [URU] URUGUAY | [5512770] Liga AUF Uruguaya (2023) | 5/16 (31.2%) | CA Cerro, Danubio FC, Defensor SC, Club Nacional de Football, CA Peñarol, Club Deportivo Maldonado, CA Fénix, Club Plaza Colonia de Deportes, La Luz FC, CA Boston River, Cerro Largo FC |
+| [URU] URUGUAY | [5512771] Segunda División Profesional AUF (2023) | 1/14 (7.1%) | CA Bella Vista, CA Progreso, Rampla Juniors FC, CA Rentistas, CA Juventud, Tacuarembó FC, IA Sud América, CS Miramar Misiones, CS Cerrito, Club Oriental de Football, CA Atenas de San Carlos, Albion FC, IA Potencia |
+| [VEN] VENEZUELA | [86000001] Liga FUTVE (2023) | 15/15 (100.0%) | — |
+| — (OFC cấp châu lục) | [2000340113] OFC Pro League | 5/5 (100.0%) | — |
+| [NZL] NEW ZEALAND | [432266] Northern League | 4/11 (36.4%) | Manukau United FC, Bay Olympic FC, Birkenhead United AFC, Manurewa AFC, Western Springs AFC, Eastern Suburbs AFC, Melville United AFC |
+| [NZL] NEW ZEALAND | [88006344] Central League | 4/9 (44.4%) | Petone FC, Waterside Karori AFC, Stop Out SC, Miramar Rangers AFC, Western Suburbs FC |
+| [NZL] NEW ZEALAND | [2000095538] Southern League | 1/3 (33.3%) | Nomads United AFC, FC Twenty 11 |
+| [ALB] ALBANIA | [8350942] Abissnet Superiore (23/24) | 7/10 (70.0%) | KF Laçi, FK Kukësi, FC Dinamo City |
+| [ALB] ALBANIA | [11024371] FSHF Kategoria e Parë Grupi A (23/24) | 6/12 (50.0%) | Flamurtari FC, KF Bylis, KS Lushnja, KS Burreli, KF Vora, AF Elbasani |
+| [ALB] ALBANIA | [2000093167] FSHF Kategoria e Dytë Grupi A (23/24) | 5/12 (41.7%) | KF Gramshi, KF Tërbuni, FK Shënkolli, KF Murlani, KF Valbona, KF Adriatiku 2012, KKS Albanët |
+| [ALB] ALBANIA | [2000093168] FSHF Kategoria e Dytë Grupi B (23/24) | 2/11 (18.2%) | KF Shkumbini, KS Pogradeci, KF Devolli, KF Delvina, KF Oriku, KF Këlcyra, KF Labëria, KF Maliqi, AF Luftëtari |
+| [AND] ANDORRA | [47000005] Lliga Multisegur Assegurances | 8/8 (100.0%) | — |
+| [ARM] ARMENIA | [59006196] Armenian Premier League (23/24) | 5/10 (50.0%) | FC Shirak, FC Alashkert, FC Noah, FC West Armenia, FC Van |
+| [ARM] ARMENIA | [59006197] Armenian First League (23/24) | 11/15 (73.3%) | FC Shirak-2, FC Alashkert-2, Lernayin Artsakh FC, FC Noah-2 |
+| [AUT] AUSTRIA | [136543] ÖFB Bundesliga (23/24) | 12/12 (100.0%) | — |
+| [AUT] AUSTRIA | [136544] ÖFB 2. Liga (23/24) | 8/16 (50.0%) | SV Oberbank Ried 1912, First Vienna FC 1894, Kapfenberger SV 1919, Admira Wacker, SV Horn, SV Licht-Loidl Lafnitz, SV Stripfing, Grazer AK 1902 |
+| [AUT] AUSTRIA | [136546] Regionalliga Ost (23/24) | 2/2 (100.0%) | — |
+| [AUT] AUSTRIA | [5607687] Regionalliga Mitte (23/24) | 3/5 (60.0%) | ASK Sparkasse Stadtwerke Voitsberg, Junge Wikinger Ried |
+| [AUT] AUSTRIA | [5607688] Regionalliga West (23/24) | 1/1 (100.0%) | — |
+| [AUT] AUSTRIA | [16068419] ÖFB Jugendliga U18 | 8/13 (61.5%) | Fußballakademie Tirol, Fussball Akademie Hypo Vorarlberg, Akademie SV Ried, Akademie Admira Wacker, Fußballakademie Burgenland |
+| [AZE] AZERBAIJAN | [59006943] Azərbaycan Premyer Liqasi (23/24) | 4/10 (40.0%) | Neftçi PFK, Qarabağ FK, Kəpəz PFK, Səbail FK, Zirə FK, Sabah FK |
+| [AZE] AZERBAIJAN | [59008101] Azərbaycan I Liqa (23/24) | 4/7 (57.1%) | MOİK, Karvan İK, Mingaçavir FK |
+| [BLR] BELARUS | [7483354] Belarusian Premier League (2023) | 15/15 (100.0%) | — |
+| [BLR] BELARUS | [7483366] Belarusian First League (2023) | 16/16 (100.0%) | — |
+| [BEL] BELGIUM | [1] Jupiler Pro League (23/24) | 16/16 (100.0%) | — |
+| [BEL] BELGIUM | [2] Challenger Pro League (23/24) | 7/16 (43.8%) | FCV Dender EH, KMSK Deinze, K. Patro Eisden Maasmechelen, K. Beerschot VA, SV Zulte Waregem, Royal Francs Borains, SK Beveren, Lommel SK, K. Lierse SK |
+| [BEL] BELGIUM | [8154824] Belgian Division 1 (23/24) | 7/18 (38.9%) | KFC Dessel Sport, KSK Heist, Royal Cappellen FC, Hoogstraten VV, KVK Tienen, Royal Excelsior Virton, KSC Lokeren, Royal Knokke FC, K. Sint-Eloois-Winkel Sport, KVV Thes Sport Tessenderlo, URSL Visé |
+| [BIH] BOSNIA & HERZEGOVINA | [8401073] Wwin League BIH (23/24) | 12/12 (100.0%) | — |
+| [BIH] BOSNIA & HERZEGOVINA | [8407370] Prva liga Federacije BiH (23/24) | 16/16 (100.0%) | — |
+| [BIH] BOSNIA & HERZEGOVINA | [8407360] Prva liga Republike Srpske (23/24) | 18/18 (100.0%) | — |
+| [BUL] BULGARIA | [7500000] efbet League (23/24) | 15/16 (93.8%) | FK Krumovgrad 1925 |
+| [BUL] BULGARIA | [7500118] Bulgarian Second League (23/24) | 3/18 (16.7%) | PFK Montana, OFK Belasitsa Petrich, PFK Marek Dupnitsa, PFK Litex Lovech, FK Maritsa 1921 Plovdiv, FK Yantra 2019 Gabrovo, OFK Bdin Vidin, FK Chernomorets Balchik, FK Sportist Svoge, FK Strumska Slava 1927 Radomir, PFK Dobrudzha 1919 Dobrich, OFK Spartak 1919 Pleven, FK Spartak 1918 Varna, FK Dunav Ruse, FK Chernomorets 1919 Burgas |
+| [CRO] CROATIA | [129645] HNL (23/24) | 10/10 (100.0%) | — |
+| [CRO] CROATIA | [129646] Prva NL (23/24) | 5/12 (41.7%) | HNK Cibalia, NK Dubrava Tim Kabel, NK Dugopolje, NK Croatia Zmijavci, HNK Orijent, NK BSK Bijelo Brdo, NK Zrinski Osječko 1664 |
+| [CYP] CYPRUS | [692430] Cyprus League by Stoiximan (23/24) | 9/14 (64.3%) | AEK Larnacas, Ethnikos Achnas FC, Doxa Katokopias FC, AEZ Zakakiou, Karmiotissa FC |
+| [CYP] CYPRUS | [692431] Cypriot Second Division | 8/16 (50.0%) | Digenis Akritas Morfou, Akritas Chlorakas, ASIL Lysis, PAEEK, MEAP Nisou, ENAD Polis Chrysochous, PAC Omonia 29M, Achyronas-Onisilos |
+| [CZE] CZECHIA | [131287] Chance Liga (23/24) | 16/16 (100.0%) | — |
+| [CZE] CZECHIA | [131288] Chance Národní Liga (23/24) | 16/16 (100.0%) | — |
+| [CZE] CZECHIA | [136041] CFL A (23/24) | 6/6 (100.0%) | — |
+| [CZE] CZECHIA | [25060473] CFL B (23/24) | 7/7 (100.0%) | — |
+| [CZE] CZECHIA | [136042] MSFL (23/24) | 12/12 (100.0%) | — |
+| [DEN] DENMARK | [6] 3F Superliga (23/24) | 12/12 (100.0%) | — |
+| [DEN] DENMARK | [7] NordicBet Liga (23/24) | 8/12 (66.7%) | Boldklubben af 1893, Vendsyssel FF, Sønderjyske Fodbold, Hobro IK |
+| [DEN] DENMARK | [8] 2. division (23/24) | 4/12 (33.3%) | BK Fremad Amager, Hellerup IK, Nykøbing FC, Skive IK, Thisted FC, Brabrand IF, Middelfart BK, FA 2000 |
+| [DEN] DENMARK | [2000016262] 3. division (23/24) | 4/12 (33.3%) | BK Frem, IF Lyseng Fodbold, Næsby BK, BK Avarta, Vejgaard BK, Young Boys FD, SfB-Oure FA, Ishøj IF |
+| [ENG] ENGLAND | [11] Premier League (23/24) | 20/20 (100.0%) | — |
+| [ENG] ENGLAND | [12] EFL Championship (23/24) | 24/24 (100.0%) | — |
+| [ENG] ENGLAND | [13] EFL League One (23/24) | 24/24 (100.0%) | — |
+| [ENG] ENGLAND | [14] EFL League Two (23/24) | 24/24 (100.0%) | — |
+| [ENG] ENGLAND | [109201] National League (23/24) | 24/24 (100.0%) | — |
+| [ENG] ENGLAND | [5123054] National League North (23/24) | 24/24 (100.0%) | — |
+| [ENG] ENGLAND | [5123055] National League South (23/24) | 24/24 (100.0%) | — |
+| [EST] ESTONIA | [7681558] Meistriliiga (2024) | 5/10 (50.0%) | Tallinna FC Flora, Nõmme Kalju FC, JK Tallinna Kalev, FC Nõmme United, Tallinna FCI Levadia |
+| [EST] ESTONIA | [7681559] Esiliiga (2024) | 6/9 (66.7%) | Tallinna FC Flora U21, JK Tallinna Kalev U21, Tallinna FCI Levadia U21 |
+| [FRO] FAROE ISLANDS | [8300358] Betrideildin | 9/9 (100.0%) | — |
+| [FIN] FINLAND | [129120] Veikkausliiga (2023) | 9/12 (75.0%) | FC Haka, FC Honka, Tampereen Ilves |
+| [FIN] FINLAND | [129131] Ykkönen (2023) | 8/12 (66.7%) | FF Jaro Jalkapalloseura, HIFK Fotboll, IF Gnistan, KäPa Käpylä |
+| [FIN] FINLAND | [145450] Kakkonen | 5/7 (71.4%) | Atlantis FC, Klubi 04 |
+| [FIN] FINLAND | [145450] Kakkonen | 25/62 (40.3%) | Myllykosken Pallo -47, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Tampereen Ilves 2, TPS U23, FC Viikingit, PP-70, IFK Vasa, FC Kiisto, FC Kontu, FC Lynx Napapiiri, FC Kuusankoski, Grankulla IFK Kauniainen, IFKK Finnström, Jakobstads BK, Kaarinan Pojat, Kajaanin Haka, FC Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, IF Närpes Kraft, Norvalla FF, Pallo-Iirot, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Jalkapalloseura Rakuunat, Someron Voima, Jalkapalloseura FC YPA |
+| [FRA] FRANCE | [16] Ligue 1 (23/24) | 18/18 (100.0%) | — |
+| [FRA] FRANCE | [17] Ligue 2 (23/24) | 20/20 (100.0%) | — |
+| [FRA] FRANCE | [18] Ligue 3 (23/24) | 18/18 (100.0%) | — |
+| [FRA] FRANCE | [19] National 2 Groupe A (23/24) | 2/13 (15.4%) | AS Cannes, Olympique Alès, Jura Sud Foot, Andrézieux-Bouthéon FC, Thonon Évian Grand Genève FC, SC Aubagne Air Bel, Étoile FC Fréjus Saint-Raphaël, Le Puy-en-Velay FC, FC Chamalières, Hyères 83 FC, RC Pays de Grasse |
+| [FRA] FRANCE | [914522] National 2 Groupe B (23/24) | 2/14 (14.3%) | Trélissac-Antonne Périgord FC, La Roche Vendée Football, FC Libourne, Angoulême Charente FC, SO Romorantin, Olympique Saumur, Vendée Les Herbiers Football, Blois Football 41, Bergerac Périgord FC, Saint-Pryvé Saint-Hilaire FC, Avoine Olympique Chinon Cinais, Bourges Foot 18 |
+| [FRA] FRANCE | [914523] National 2 Groupe C (23/24) | 2/14 (14.3%) | FCM Aubervilliers, AS Beauvais Oise, Stade Briochin, Voltigeurs de Châteaubriant, US Boulogne-sur-Mer Côte d'Opale, US Saint-Malo, US Granville, Dinan Léhon FC, Racing CFF, AF Virois, FC Chambly Oise, FC Borgo |
+| [FRA] FRANCE | [914524] National 2 Groupe D (23/24) | 1/13 (7.7%) | Football Bourg-en-Bresse Péronnas 01, FCSR Haguenau, Olympique Saint-Quentinois, US Créteil-Lusitanos, UF Mâconnais, ASC Biesheim, AS Furiani-Agliani, FC Fleury 91, SR Colmar, Entente Feignies Aulnoye FC, Wasquehal Football, FC93 Bobigny-Bagnolet-Gagny |
+| [FRA] FRANCE | Team 2 | 50/104 (48.1%) | Le Puy-en-Velay FC 2, ASM Belfort 2, Vendée Les Herbiers Football 2, FC Chambly Oise 2, CS Sedan Ardennes 2, Étoile FC Fréjus Saint-Raphaël 2, US Créteil-Lusitanos 2, Football Bourg-en-Bresse Péronnas 01 2, AS Cannes 2, La Roche Vendée Football 2, Louhans-Cuiseaux FC 2, Vannes OC 2, C'Chartres Football 2, FCSR Haguenau 2, Olympique Saint-Quentinois 2, US Lusitanos Saint-Maur 2, Sainte-Geneviève Sports 2, FC Fleury 91 2, US Granville 2, US Saint-Malo 2, Stade Briochin 2, Andrézieux-Bouthéon FC 2, Angoulême Charente FC 2, Bergerac Périgord FC 2, Blois Football 41 2, FC Chamalières 2, SO Romorantin 2, AS Saint-Priest 2, Saint-Pryvé Saint-Hilaire FC 2, Trélissac FC 2, Hyères 83 2, Jura Sud Foot 2, Moulins Yzeure Foot 2, AS Furiani-Agliani 2, ASC Biesheim 2, FC93 Bobigny-Bagnolet-Gagny 2, RC Pays de Grasse 2, Thonon Évian Grand Genève 2, Racing CFF 2, Évreux FC 27 2, Wasquehal Football 2, SR Colmar 2, Vierzon FC 2, Olympique Saumur 2, Olympique Alès 2, AS Beauvais Oise 2, Voltigeurs de Châteaubriant 2, Canet Roussillon FC 2, FC Borgo 2, UF Mâconnais 2, Entente Feignies Aulnoye FC 2, SC Aubagne Air Bel 2, FC Libourne 2, Avoine Olympique Chinon Cinais 2 |
+| [GEO] GEORGIA | [59126495] Erovnuli Liga (2023) | 10/10 (100.0%) | — |
+| [GEO] GEORGIA | [59126496] Erovnuli Liga 2 (2023) | 10/10 (100.0%) | — |
+| [GER] GERMANY | [22] Bundesliga (23/24) | 18/18 (100.0%) | — |
+| [GER] GERMANY | [23] 2. Bundesliga (23/24) | 18/18 (100.0%) | — |
+| [GER] GERMANY | [35010926] 3. Liga (23/24) | 20/20 (100.0%) | — |
+| [GER] GERMANY | [26] Regionalliga Nord (23/24) | 5/6 (83.3%) | SV Meppen 1912 |
+| [GER] GERMANY | [91107110] Regionalliga Nordost (23/24) | 5/8 (62.5%) | Chemnitzer FC, FSV Zwickau, Berliner AK 07 |
+| [GER] GERMANY | [35010927] Regionalliga West (23/24) | 7/7 (100.0%) | — |
+| [GER] GERMANY | [27] Regionalliga Südwest (23/24) | 4/7 (57.1%) | Kickers Offenbach, SV Stuttgarter Kickers, Wuppertaler SV |
+| [GER] GERMANY | [91107111] Regionalliga Bayern (23/24) | 5/7 (71.4%) | VfR Aalen, SpVgg Oberfranken Bayreuth 1921 |
+| [GER] GERMANY | Team II/III | 19/21 (90.5%) | SpVgg Oberfranken Bayreuth II, SV Meppen II |
+| [GER] GERMANY | [92086572] A-Junioren-Bundesliga Nord/Nordost (23/24) | 13/14 (92.9%) | NLZ Emsland im SV Meppen |
+| [GER] GERMANY | [92086574] A-Junioren-Bundesliga West (23/24) | 13/14 (92.9%) | Wuppertaler SV U19 |
+| [GER] GERMANY | [92086573] A-Junioren-Bundesliga Süd/Südwest (23/24) | 14/14 (100.0%) | — |
+| [GER] GERMANY | NLZ Teams | 19/25 (76.0%) | Kickers Offenbach U19, SV Stuttgarter Kickers U19, Chemnitzer FC U19, Berliner AK 07 U19, Berliner SC U19, FSV Zwickau U19 |
+| [GIB] GIBRALTAR | [36532636] Gibraltar Football League | 11/11 (100.0%) | — |
+| [GRE] GREECE | [129650] Super League Greece (23/24) | 14/14 (100.0%) | — |
+| [GRE] GREECE | [36086001] Super League Greece 2 North Group (23/24) | 3/12 (25.0%) | Iraklis VENETIS BAKERIES, AEL Novibet FC, Levadiakos FC, Anagennisi Karditsa, Apollon Kalamarias FC, Kozani, Makedonikos, Aiolikos, Kabaniakos |
+| [GRE] GREECE | [36086002] Super League Greece 2 South Group (23/24) | 7/12 (58.3%) | Ionikos FC, Diagoras Rodos, Panachaiki, Tilykratis, Giouchtas |
+| [HUN] HUNGARY | [7520391] OTP Bank Liga (23/24) | 4/12 (33.3%) | Debreceni VSC, MOL Fehérvár FC, Újpest FC, Diósgyőri VTK, Paksi FC, Mezőkövesdi Zsóry FC, Kisvárda Master Good FC, Puskás Akadémia FC |
+| [HUN] HUNGARY | [152045] Merkantil Bank Liga (23/24) | 9/18 (50.0%) | Budapesti VSC-Zugló, Szombathelyi Haladás, Vasas FC, Bodajk FC Siófok, Soroksár SC 1905, Kozármisleny FC, Budafoki MTE, Aqvital FC Csákvár, Tiszakécskei LC |
+| [HUN] HUNGARY | [38013451] Nemzeti Bajnokság III | 0/5 (0.0%) | Rákospalotai EAC, Erzsébeti Spartacus MTK LE, Szentlőrinci SE, Debreceni EAC, Szombathelyi MÁV Haladás VSE |
+| [ISL] ICELAND | [7840132] Besta deild karla (2023) | 8/12 (66.7%) | FH Hafnarfjarðar, Keflavík ÍF, Stjarnan Gardabaer, HK Kópavogs |
+| [ISL] ICELAND | [7840133] Lengjudeild karla (2023) | 7/12 (58.3%) | UMF Selfoss, UMF Afturelding, UMF Njarðvík, ÍF Grótta, KF Ægir |
+| [IRL] IRELAND | [129372] LOI Premier Division (2023) | 5/10 (50.0%) | Bohemian FC, Derry City FC, Shamrock Rovers FC, Shelbourne FC, St Patrick's Athletic FC |
+| [IRL] IRELAND | [129373] LOI First Division (2023) | 8/10 (80.0%) | Finn Harps FC, Treaty United FC |
+| [IRL] IRELAND | [52086882] LOI Academy U19 League | 13/20 (65.0%) | Bohemian FC U19, Derry City FC U19, Shelbourne FC U19, Finn Harps FC U19, St Patrick's Athletic FC U19, Shamrock Rovers FC U19, Treaty United FC U19 |
+| [ISR] ISRAEL | [7860000] Ligat TOTO Winner (23/24) | 14/14 (100.0%) | — |
+| [ISR] ISRAEL | [7860001] Liga Leumit (23/24) | 14/14 (100.0%) | — |
+| [ITA] ITALY | [32] Serie A (23/24) | 20/20 (100.0%) | — |
+| [ITA] ITALY | [33] Serie B (23/24) | 20/20 (100.0%) | — |
+| [ITA] ITALY | [43127172] Serie C Girone A (23/24) | 20/20 (100.0%) | — |
+| [ITA] ITALY | [43127173] Serie C Girone B (23/24) | 20/20 (100.0%) | — |
+| [ITA] ITALY | [43127174] Serie C Girone C (23/24) | 20/20 (100.0%) | — |
+| [KAZ] KAZAKHSTAN | [59007527] Qazaqstan Premier Ligasy (2023) | 7/14 (50.0%) | FC Ordabasy, FC Kairat, FC Kaysar, FC Okzhetpes, FC Tobol, FC Caspiy, FC Maktaaral |
+| [KAZ] KAZAKHSTAN | [59010820] Qazaqstan Birinshi Ligasy (2023) | 10/13 (76.9%) | Ońtústik Akademııasy, FC Kairat-M, FK Khan-Tengri |
+| [KAZ] KAZAKHSTAN | [59107180] QJ League | 9/15 (60.0%) | FC Kaysar-QJ, FC Okzhetpes-QJ, FC Ordabasy-QJ, FC Tobol-QJ, FC Caspiy-QJ, FC Kairat-QJ |
+| [LVA] LATVIA | [8403697] Latvijas Virsliga (2023) | 6/10 (60.0%) | FK Auda, FK METTA, FK RFS, SK Super Nova |
+| [LVA] LATVIA | [8403797] Latvijas Nakotnes liga (2023) | 8/13 (61.5%) | Rēzeknes FA/BJSS, JDFS Alberts, Grobiņas SC/LFS, FK RFS 2, Skanstes SK |
+| [LTU] LITHUANIA | [2300046] TOPLYGA (2023) | 4/10 (40.0%) | FK Žalgiris Vilniaus, FK Sūduva, FK Kauno Žalgiris, DFK Dainava, FK Riteriai, FK Hegelmann |
+| [LTU] LITHUANIA | [2300047] LFF I Lyga (2023) | 9/16 (56.2%) | FK Žalgiris Vilniaus B, FK Kauno Žalgiris B, Baltijos Futbolo Akademija, FK Riteriai B, Be1 Nacionalinė Futbolo Akademija, FK Transinvest, FK MML City |
+| [LTU] LITHUANIA | [2000170236] LFF II Lyga (2023) | 5/10 (50.0%) | FK Sūduva B, DFK Dainava B, Klaipėdos FM, FK Žalgiris Vilniaus C, FK Hegelmann B |
+| [LUX] LUXEMBOURG | [5340000] BGL Ligue | 14/19 (73.7%) | CS Grevenmacher, US Rumelange, FC Etzella Ettelbruck, FC Union Sportive Hostert, FC Jeunesse Canach |
+| [MLT] MALTA | [2300050] Maltese Premier League (23/24) | 14/14 (100.0%) | — |
+| [MDA] MOLDOVA | [59007607] Moldovan Super Liga (23/24) | 8/8 (100.0%) | — |
+| [MNE] MONTENEGRO | [5745020] 1.CFL (23/24) | 5/10 (50.0%) | FK Mornar Bar, OFK Petrovac, FK Jezero, FK Dečić Admiral Bet, OFK Mladost Lob Bet Donja Gorica |
+| [MNE] MONTENEGRO | [5754888] 2.CFL (23/24) | 6/10 (60.0%) | FK Iskra Danilovgradr, FK Lovćen Cetynia, OFK Grbalj, FK Otrant-Olympic |
+| [NOR] NORWAY | [1300397] Eliteserien (2023) | 16/16 (100.0%) | — |
+| [NOR] NORWAY | [1300398] OBOS-ligaen (2023) | 4/16 (25.0%) | Bryne FK, IL Hødd, FK Jerv, Kongsvinger IL Toppfotball, Mjøndalen IF, Raufoss Fotball, Skeid Fotball, Sogndal Fotball, IK Start, Åsane Fotball, Kristiansund BK, Ranheim IL |
+| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 4/13 (30.8%) | Egersunds IK Fotball, Grorud IL, Kjelsås Fotball, Lyn TF, SK Træff, Vålerenga Fotball 2, Notodden FK, Flekkerøy IL Fotball, Aalesunds FK 2 |
+| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 3/10 (30.0%) | Alta IF, Strømmen IF, Tromsdalen Fotball, Ullern IF, Levanger FK, Strømsgodset TF 2, SK Brann 2 |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 2/7 (28.6%) | Fana IL, Os TF, Stabæk Fotball 2, IL Gneist, Skjetten SK |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 2/12 (16.7%) | Elverum Fotball, Hønefoss BK, Volda Turn-og IL, Brumunddal Fotball, Eidsvold Turnforening, Førde IL Fotball, Florø SK, Hamarkameratene 2, Raufoss Fotball 2, IL Hødd 2 |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 1/5 (20.0%) | FK Vidar, Viking FK 2, Stord IL, FK Fyllingsdalen |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 2/6 (33.3%) | Pors Grenland IF, Vindbjart FK, FK Mandalskameratene, Odds BK 2 |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 0/6 (0.0%) | Byåsen TF, Nardo FK, Steinkjer FK, Strindheim IL, Rosenborg BK 2, FK Bodø/Glimt 2 |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 3/4 (75.0%) | Follo FK |
+| [NED] NETHERLANDS | [29] Eredivisie (23/24) | 18/18 (100.0%) | — |
+| [NED] NETHERLANDS | [30] Keuken Kampioen Divisie (23/24) | 20/20 (100.0%) | — |
+| [NED] NETHERLANDS | Team B | 10/11 (90.9%) | Jong De Graafschap |
+| [NIR] NORTHERN IRELAND | [130023] NIFL Premiership (23/24) | 5/12 (41.7%) | Carrick Rangers FC, Cliftonville FC, Crusaders FC, Glenavon FC, Glentoran FC, Linfield FC, Loughgall FC |
+| [NIR] NORTHERN IRELAND | [130024] NIFL Championship (23/24) | 3/12 (25.0%) | Ards FC, Institute FC, Ballinamallard United FC, Harland & Wolff Welders FC, Dundela FC, Newington FC, Knockbreda FC, Annagh United FC, Dergview FC |
+| [NIR] NORTHERN IRELAND | [147023] NIFL Premier Intermediate League (23/24) | 7/14 (50.0%) | Coagh United FC, Tobermore United FC, Police Service of Northern Ireland FC, Moyola Park AFC, Ballymacash Rangers FC, Rathfriland Rangers FC, Dollingstown FC |
+| [MKD] NORTH MACEDONIA | [8401070] 1.MFL (23/24) | 7/12 (58.3%) | FK Vardar, FK Makedonija Gjorče Petrov, KF Shkëndija, KF Shkupi, FK Voska Sport |
+| [MKD] NORTH MACEDONIA | [8403796] 2.MFL (23/24) | 12/16 (75.0%) | FK Pelister, FK Kamenica Sasa, KF Besa Dobërdoll, FK Detonit Plačkovica |
+| [POL] POLAND | [129558] Ekstraklasa (23/24) | 13/18 (72.2%) | ŁKS Łódź, Legia Warszawa, RTS Widzew Łódź, KS Cracovia, MKS Puszcza Niepołomice |
+| [POL] POLAND | [129559] I liga (23/24) | 15/18 (83.3%) | GKS Górnik Łęczna, KSP Polonia Warszawa, Bruk-Bet Termalica Nieciecza |
+| [POL] POLAND | [162504] II liga (23/24) | 11/18 (61.1%) | MKP Kotwica Kołobrzeg, GKS Jastrzębie, GKS Olimpia Grudziądz, MKS Chojniczanka 1930 Chojnice, KS Wisła Puławy, KS Radunia Stężyca, ŁKS Łódź II |
+| [POL] POLAND | [129560] III liga (23/24) | 12/22 (54.5%) | MKS Świt Nowy Dwór Mazowiecki, MKS Flota Świnoujście, KS Pelikan Łowicz, KS Legionovia Legionowo, GKS Cartusia Kartuzy, GPTS Avia Świdnik, KS Siarka Tarnobrzeg, MKS Kluczbork, KS Warta Sieradz, Legia Warszawa II |
+| [POR] PORTUGAL | [60] Liga Portugal (23/24) | 18/18 (100.0%) | — |
+| [POR] PORTUGAL | [61] Liga Portugal 2 (23/24) | 18/18 (100.0%) | — |
+| [POR] PORTUGAL | [2000112232] Liga 3 Norte (23/24) | 10/10 (100.0%) | — |
+| [POR] PORTUGAL | [2000112233] Liga 3 Sul (23/24) | 10/10 (100.0%) | — |
+| [ROU] ROMANIA | [7540024] Liga I României (23/24) | 0/16 (0.0%) | FC Dinamo 1948 Bucureşti, FCSB, FC Universitatea Cluj, FC CFR 1907 Cluj, FC Botoșani, FC Voluntari, FC Politehnica Iași, ACS Sepsi OSK Sfântu Gheorghe, CS Universitatea Craiova, AFC UTA Arad, FC Hermannstadt, FC Petrolul Ploiești, ACS SC Oţelul Galaţi, FCU 1948 Craiova FC, FC Rapid 1923 București, FCV Farul Constanța |
+| [ROU] ROMANIA | [150913] Liga II României (23/24) | 3/20 (15.0%) | ACS Campionii FC Argeş, CS Concordia Chiajna, AFC Progresul 1944 Spartac, CS Tunari, CSM Slatina, ACS Viitorul Pandurii Târgu Jiu, FC Metaloglobus București, CSC Dumbrăviţa, AFC Chindia Târgoviște, CS Mioveni, AFK Csíkszereda Miercurea Ciuc, CSM Reşiţa, CSA Steaua București, ACSM Ceahlăul Piatra Neamţ, FC Corvinul Hunedoara 1921, FC Gloria Buzău, CSC 1599 Şelimbăr |
+| [RUS] RUSSIA | [130486] Russian Premier League (23/24) | 16/16 (100.0%) | — |
+| [RUS] RUSSIA | [130487] Russian First League (23/24) | 2/18 (11.1%) | FC Tyumen, FC KAMAZ Naberezhnye Chelny, FC Alania Vladikavkaz, FC Arsenal Tula, FC Shinnik Yaroslavl, FC Sokol Saratov, FC Volgar Astrakhan, FC Khimki, FC Neftekhimik Nizhnekamsk, FC SKA-Khabarovsk, FC Chernomorets Novorossiysk, FC Dynamo Makhachkala, FC Yenisey Krasnoyarsk, FC Akron Togliatti, PFC Kuban Krasnodar, FC Leningradets St. Petersburg |
+| [RUS] RUSSIA | [2000272298] Russian Second League Div. A Gold Group (23/24) | 3/10 (30.0%) | FC Dinamo Bryansk, FC Volga Uljanovsk, FC Irtysh Omsk, FC Spartak Kostroma, FC Ufa, FC Chaika Peschanokopskoe, FC Murom |
+| [RUS] RUSSIA | [2000272300] Russian Second League Div. A Silver Group (23/24) | 1/1 (100.0%) | — |
+| [RUS] RUSSIA | [8051008] Russian Second League (23/24) | 3/3 (100.0%) | — |
+| [SMR] SAN MARINO | [43032015] Campionato Sammarinese | 15/15 (100.0%) | — |
+| [SCO] SCOTLAND | [45] Scottish Premiership (23/24) | 12/12 (100.0%) | — |
+| [SCO] SCOTLAND | [46] Scottish Championship (23/24) | 5/10 (50.0%) | Ayr United FC, Partick Thistle FC, Queen's Park FC, Raith Rovers FC, Airdrieonians FC |
+| [SCO] SCOTLAND | [47] Scottish League One (23/24) | 6/10 (60.0%) | Annan Athletic FC, Cove Rangers FC, Queen of the South FC, Kelty Hearts FC |
+| [SCO] SCOTLAND | [48] Scottish League Two (23/24) | 7/10 (70.0%) | Clyde FC, East Fife FC, The Spartans FC |
+| [SRB] SERBIA | [132321] SuperLiga Srbije (23/24) | 16/16 (100.0%) | — |
+| [SRB] SERBIA | [5776050] PrvaLiga Srbije (23/24) | 16/16 (100.0%) | — |
+| [SVK] SLOVAKIA | [7560276] Niké liga (23/24) | 12/12 (100.0%) | — |
+| [SVK] SLOVAKIA | [7560277] MONACObet LIGA (23/24) | 16/16 (100.0%) | — |
+| [SVN] SLOVENIA | [7580000] Prva Liga Telemach (23/24) | 7/10 (70.0%) | NŠ Mura, NK Rogaška, NK Bravo Big Bang |
+| [SVN] SLOVENIA | [7580001] 2.SNL (23/24) | 10/16 (62.5%) | ND Gorica, ND Dravinja Kostroj, ND Ilirija 1911, ND Bilje, NK Bistrica, NK Fužinar |
+| [ESP] SPAIN | [67] LALIGA EA SPORTS (23/24) | 20/20 (100.0%) | — |
+| [ESP] SPAIN | [68] LALIGA HYPERMOTION (23/24) | 22/22 (100.0%) | — |
+| [ESP] SPAIN | [2000048844] Primera Federación Grupo 1 (23/24) | 20/20 (100.0%) | — |
+| [ESP] SPAIN | [2000048846] Primera Federación Grupo 2 (23/24) | 20/20 (100.0%) | — |
+| [ESP] SPAIN | [2000099903] Segunda Federación Grupo 1 (23/24) | 18/18 (100.0%) | — |
+| [ESP] SPAIN | [2000099904] Segunda Federación Grupo 2 (23/24) | 18/18 (100.0%) | — |
+| [ESP] SPAIN | [2000099905] Segunda Federación Grupo 3 (23/24) | 18/18 (100.0%) | — |
+| [ESP] SPAIN | [2000099906] Segunda Federación Grupo 4 (23/24) | 18/18 (100.0%) | — |
+| [ESP] SPAIN | [2000099907] Segunda Federación Grupo 5 (23/24) | 18/18 (100.0%) | — |
+| [ESP] SPAIN | Team B/C | 46/46 (100.0%) | — |
+| [SUI] SWITZERLAND | [137889] Swiss Super League (23/24) | 12/12 (100.0%) | — |
+| [SUI] SWITZERLAND | [137890] Swiss Challenge League (23/24) | 10/10 (100.0%) | — |
+| [SUI] SWITZERLAND | [98027828] Swiss Promotion League (23/24) | 10/10 (100.0%) | — |
+| [SWE] SWEDEN | [50] Allsvenskan (2023) | 16/16 (100.0%) | — |
+| [SWE] SWEDEN | [52] Superettan (2023) | 6/16 (37.5%) | Gefle IF, Helsingborgs IF, IK Brage, Trelleborgs FF, Örgryte IS, Östers IF, GAIS Fotboll, Utsiktens BK, Östersunds FK, Jönköpings Södra IF |
+| [SWE] SWEDEN | [8114887] Ettan Södra (2023) | 1/16 (6.2%) | Falkenbergs FF, IK Oddevold, Åtvidabergs FF, Lunds BK, Norrby IF, Ljungskile SK, BK Olympic, Ahlafors IF, Tvååkers IF, Ängelholms FF, Vänersborgs IF, Oskarshamns AIK, Torns IF, Eskilsminne IF, Ariana FC |
+| [SWE] SWEDEN | [8114888] Ettan Norra (2023) | 8/16 (50.0%) | Bodens BK FF, Sandvikens IF, IF Sylvia, Hammarby TFF, Vasalunds IF, Dalkurd FF, Nordic United FC, IFK Stocksund |
+| [TUR] TURKIYE | [130286] Süper Lig (23/24) | 20/20 (100.0%) | — |
+| [TUR] TURKIYE | [463479] 1. Lig (23/24) | 3/17 (17.6%) | Adanaspor, Altay SK, Gençlerbirliği SK, Eyüpspor, Bandırmaspor, Göztepe SK, Sakaryaspor, Boluspor, Giresunspor, Kızılkaya Tarım Şanlıurfaspor, Ümraniyespor, Sipay Bodrum FK, Erzurumspor FK, Tuzlaspor |
+| [TUR] TURKIYE | [463485] 2. Lig Beyaz Grup (23/24) | 5/19 (26.3%) | Bursaspor, İmaj Altyapı Vanspor FK, Aydın Nazilli Belediyespor, Sincan Belediyesi Ankaraspor, Tuna Tarım Kırklarelispor, Altınordu SK, Karacabey Belediyespor, Diyarbekirspor, Bucaspor 1928, Kırşehir Futbol SK, Adıyaman FK, Afjet Afyonspor, Beyoğlu Yeni Çarşı SF, Esenler Erokspor |
+| [TUR] TURKIYE | [463481] 2. Lig (23/24) | 2/19 (10.5%) | Denizlispor, Düzcespor, İnegölspor, Amed SFK, Fethiyespor, Etimesgut Belediyespor, SMS Grup Sarıyer SK, Menemenspor, Uşakspor, İskenderunspor, Anagold 24 Erzincanspor, GMG Kastamonuspor 1966 SK, Belediye Derincespor, Motolüx 68 Aksarayspor, Arkent Arnavutköy Belediyespor GSK, Somaspor, Alagöz Holding Iğdır FK |
+| [UKR] UKRAINE | [5314301] Ukrainian Premier League (23/24) | 16/16 (100.0%) | — |
+| [UKR] UKRAINE | [5314302] Ukrainian First League (23/24) | 6/16 (37.5%) | FC Kremin Kremenchuk, FC Bukovyna Chernivtsi, FC Hirnyk-Sport Horishni Plavni, FC Dinaz Vyshhorod, FC Epicenter Kamianets-Podilskyi, FC Nyva Buzova, FC Khust, FC Inhulets Petrove, MFC Metalurh Zaporizhya, SC Poltava |
+| [WAL] WALES | [130672] Cymru Premier (23/24) | 12/12 (100.0%) | — |
 
