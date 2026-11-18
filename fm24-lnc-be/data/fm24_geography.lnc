@@ -10283,11 +10283,13 @@
 # CITY > [IRN] IRAN > [IRN-18] Bushehr Province
 #====================================================================================
 "CITY_NAME_CHANGE"		1023017		"Bandar-e Bushehr"					""
+"CITY_NAME_CHANGE"		23310412	"Jam"							""
 
 
 # CITY > [IRN] IRAN > [IRN-03] East Azerbaijan Province
 #====================================================================================
 "CITY_NAME_CHANGE"		5512158		"Tabriz"						""
+"CITY_NAME_CHANGE"		23131132	"Varzaqan"						""
 "CITY_NAME_CHANGE"		23345975	"Shahriar, Tabriz"					""
 
 
@@ -10305,6 +10307,9 @@
 
 # CITY > [IRN] IRAN > [IRN-01] Gilan Province
 #====================================================================================
+"CITY_NAME_CHANGE"		1018247		"Bandar-e Anzali"					""
+"CITY_NAME_CHANGE"		1018250		"Hashtpar"						""
+"CITY_NAME_CHANGE"		1037530		"Astara"						""
 "CITY_NAME_CHANGE"		5410226		"Rasht"							""
 "CITY_NAME_CHANGE"		23344874	"Rudbar, Rudbar"					""
 "CITY_NAME_CHANGE"		23344988	"Rezvanshahr, Rezvanshahr"				""
@@ -10350,7 +10355,9 @@
 
 # CITY > [IRN] IRAN > [IRN-08] Kerman Province
 #====================================================================================
+"CITY_NAME_CHANGE"		1018615		"Rafsanjan"						""
 "CITY_NAME_CHANGE"		1018616		"Kerman"						""
+"CITY_NAME_CHANGE"		1037521		"Sirjan"						""
 "CITY_NAME_CHANGE"		23346271	"Mohammadabad, Rigan"					""
 "CITY_NAME_CHANGE"		23346273	"Rudbar, Rudbar-e Jonubi"				""
 
@@ -10362,10 +10369,18 @@
 
 # CITY > [IRN] IRAN > [IRN-06] Khuzestan Province
 #====================================================================================
+"CITY_NAME_CHANGE"		1023271		"Masjed Soleyman"					""
+"CITY_NAME_CHANGE"		1037446		"Bandar-e Mahshahr"					""
 "CITY_NAME_CHANGE"		5512200		"Ahvaz"							""
 "CITY_NAME_CHANGE"		5512202		"Abadan"						""
+"CITY_NAME_CHANGE"		23346313	"Mollasani"						""
 "CITY_NAME_CHANGE"		23346316	"Sardasht, Behbahan"					""
 "CITY_NAME_CHANGE"		23346320	"Safiabad, Dezful"					""
+
+
+# CITY > [IRN] IRAN > [IRN-17] Kohgiluyeh and Boyer-Ahmad Province
+#====================================================================================
+"CITY_NAME_CHANGE"		1037459		"Gachsaran"						""
 
 
 # CITY > [IRN] IRAN > [IRN-12] Kurdistan Province
@@ -10389,6 +10404,9 @@
 # CITY > [IRN] IRAN > [IRN-02] Mazandaran Province
 #====================================================================================
 "CITY_NAME_CHANGE"		135294		"Sari"							""
+"CITY_NAME_CHANGE"		1037440		"Babol"							""
+"CITY_NAME_CHANGE"		1037465		"Qaem Shahr"						""
+"CITY_NAME_CHANGE"		23060916	"Babolsar"						""
 "CITY_NAME_CHANGE"		23131280	"Mahmudabad, Mahmudabad"				""
 "CITY_NAME_CHANGE"		23346414	"Galugah, Babol"					""
 "CITY_NAME_CHANGE"		23346425	"Galugah, Galugah"					""
@@ -10416,6 +10434,7 @@
 "CITY_NAME_CHANGE"		135299		"Mashhad"						""
 "CITY_NAME_CHANGE"		1037507		"Nishapur"						""
 "CITY_NAME_CHANGE"		1037515		"Torbat-e Heydarieh"					""
+"CITY_NAME_CHANGE"		1037520		"Torbat-e Jam"						""
 "CITY_NAME_CHANGE"		23346517	"Eshqabad, Nishapur"					""
 "CITY_NAME_CHANGE"		23346532	"Nasrabad, Torbat-e Jam"				""
 "CITY_NAME_CHANGE"		23346534	"Salehabad, Torbat-e Jam"				""
@@ -10439,6 +10458,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		103199		"Tehran"						""
 "CITY_NAME_CHANGE"		1037460		"Eslamshahr"						""
+"CITY_NAME_CHANGE"		1037467		"Qods"							""
 "CITY_NAME_CHANGE"		23131275	"Rey"							""
 "CITY_NAME_CHANGE"		23255100	"Shahriar, Shahriar"					""
 "CITY_NAME_CHANGE"		23310352	"Hasanabad, Rey"					""
