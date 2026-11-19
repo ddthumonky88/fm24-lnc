@@ -15117,16 +15117,20 @@
 
 # CLUB > OFC > [NZL] NEW ZEALAND > [432266] Northern League
 #==============================================================================
+"CLUB_CITY_CHANGE"		432307		"103177"						"" # <Auckland>
 "CLUB_NAME_CHANGE"		432307		"Manukau United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	432307		"Manukau United"					""
 
+"CLUB_CITY_CHANGE"		432310		"103177"						"" # <Auckland>
 "CLUB_NAME_CHANGE"		432310		"Bay Olympic FC"					""
 "CLUB_SHORT_NAME_CHANGE"	432310		"Bay Olympic"						""
 "CLUB_3LETTER_NAME_CHANGE"	432310		"BAY"							""
 
+"CLUB_CITY_CHANGE"		432316		"103177"						"" # <Auckland>
 "CLUB_NAME_CHANGE"		432316		"Birkenhead United AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	432316		"Birkenhead"						""
 
+"CLUB_CITY_CHANGE"		433176		"103177"						"" # <Auckland>
 "CLUB_NAME_CHANGE"		433176		"Manurewa AFC"						""
 "CLUB_SHORT_NAME_CHANGE"	433176		"Manurewa"						""
 
@@ -15139,12 +15143,15 @@
 "CLUB_NAME_CHANGE"		5410589		"Takapuna AFC"						""
 "CLUB_SHORT_NAME_CHANGE"	5410589		"Takapuna"						""
 
+"CLUB_CITY_CHANGE"		23210148	"103177"						"" # <Auckland>
 "CLUB_NAME_CHANGE"		23210148	"Western Springs AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	23210148	"Western Springs"					""
 
+"CLUB_CITY_CHANGE"		88000396	"103177"						"" # <Auckland>
 "CLUB_NAME_CHANGE"		88000396	"Eastern Suburbs AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	88000396	"Eastern Suburbs"					""
 
+"CLUB_CITY_CHANGE"		88000399	"5410594"						"" # <Hamilton>
 "CLUB_NAME_CHANGE"		88000399	"Melville United AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	88000399	"Melville United"					""
 
@@ -15160,11 +15167,13 @@
 
 # CLUB > OFC > [NZL] NEW ZEALAND > [88006344] Central League
 #==============================================================================
+"CLUB_CITY_CHANGE"		432285		"2000106115"						"" # <Lower Hutt>
 "CLUB_NAME_CHANGE"		432285		"Petone FC"						""
 "CLUB_SHORT_NAME_CHANGE"	432285		"Petone"						""
 "CLUB_6LETTER_NAME_CHANGE"	432285		"Petone"						""
 "CLUB_3LETTER_NAME_CHANGE"	432285		"PET"							""
 
+"CLUB_CITY_CHANGE"		432287		"103176"						"" # <Wellington>
 "CLUB_NAME_CHANGE"		432287		"Waterside Karori AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	432287		"Waterside Karori"					""
 "CLUB_6LETTER_NAME_CHANGE"	432287		"Karori"						""
@@ -15173,6 +15182,7 @@
 "CLUB_NAME_CHANGE"		432293		"North Wellington AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	432293		"North Wellington"					""
 
+"CLUB_CITY_CHANGE"		432295		"2000106115"						"" # <Lower Hutt>
 "CLUB_NAME_CHANGE"		432295		"Stop Out SC"						""
 "CLUB_SHORT_NAME_CHANGE"	432295		"Stop Out"						""
 
@@ -15182,9 +15192,11 @@
 "CLUB_SHORT_NAME_CHANGE"	15056323	"Phoenix Reserves"					""
 "CLUB_6LETTER_NAME_CHANGE"	15056323	"WPX.R"							""
 
+"CLUB_CITY_CHANGE"		88000393	"103176"						"" # <Wellington>
 "CLUB_NAME_CHANGE"		88000393	"Miramar Rangers AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	88000393	"Miramar Rangers"					""
 
+"CLUB_CITY_CHANGE"		88000394	"2000258458"						"" # <Porirua>
 "CLUB_NAME_CHANGE"		88000394	"Western Suburbs FC"					""
 "CLUB_SHORT_NAME_CHANGE"	88000394	"Western Suburbs"					""
 
@@ -15205,6 +15217,7 @@
 "CLUB_SHORT_NAME_CHANGE"	130042		"Nelson Suburbs"					""
 "CLUB_3LETTER_NAME_CHANGE"	130042		"NSB"							""
 
+"CLUB_CITY_CHANGE"		432274		"130069"						"" # <Christchurch>
 "CLUB_NAME_CHANGE"		432274		"Nomads United AFC"					""
 "CLUB_SHORT_NAME_CHANGE"	432274		"Nomads United"						""
 "CLUB_6LETTER_NAME_CHANGE"	432274		"Nomads"						""
@@ -15213,22 +15226,28 @@
 #"CLUB_NAME_CHANGE"		432278		"Christchurch United FC"				""
 #"CLUB_SHORT_NAME_CHANGE"	432278		"Christchurch United"					""
 
+"CLUB_CITY_CHANGE"		432319		"130070"						"" # <Dunedin>
 #"CLUB_NAME_CHANGE"		432319		"Green Islands AFC"					""
 #"CLUB_SHORT_NAME_CHANGE"	432319		"Green Islands"						""
 
+"CLUB_CITY_CHANGE"		8455940		"130069"						"" # <Christchurch>
 #"CLUB_NAME_CHANGE"		8455940		"Ferrymead Bays FC"					""
 #"CLUB_SHORT_NAME_CHANGE"	8455940		"Ferrymead Bays"					""
 
+"CLUB_CITY_CHANGE"		23210222	"130069"						"" # <Christchurch>
 "CLUB_NAME_CHANGE"		23210222	"FC Twenty 11"						""
 "CLUB_SHORT_NAME_CHANGE"	23210222	"Twenty 11"						""
 "CLUB_3LETTER_NAME_CHANGE"	23210222	"T11"							""
 
+"CLUB_CITY_CHANGE"		23210223	"130069"						"" # <Christchurch>
 #"CLUB_NAME_CHANGE"		23210223	"Coastal Spirit FC"					""
 #"CLUB_SHORT_NAME_CHANGE"	23210223	"Coastal Spirit"					""
 
+"CLUB_CITY_CHANGE"		23210224	"130069"						"" # <Christchurch>
 #"CLUB_NAME_CHANGE"		23210224	"Cashmere Technical FC"					""
 #"CLUB_SHORT_NAME_CHANGE"	23210224	"Cashmere Tech"						""
 
+"CLUB_CITY_CHANGE"		23210247	"2000258459"						"" # <Rolleston>
 #"CLUB_NAME_CHANGE"		23210247	"Selwyn United FC"					""
 #"CLUB_SHORT_NAME_CHANGE"	23210247	"Selwyn United"						""
 

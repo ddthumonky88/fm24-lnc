@@ -177,9 +177,9 @@
 | [URU] URUGUAY | [5512770] Liga AUF Uruguaya (2023) | 16/16 (100.0%) | — |
 | [URU] URUGUAY | [5512771] Segunda División Profesional AUF (2023) | 14/14 (100.0%) | — |
 | [VEN] VENEZUELA | [86000001] Liga FUTVE (2023) | 15/15 (100.0%) | — |
-| [NZL] NEW ZEALAND | [432266] Northern League | 4/11 (36.4%) | Manukau United, Bay Olympic, Birkenhead, Manurewa, Western Springs, Eastern Suburbs, Melville United |
-| [NZL] NEW ZEALAND | [88006344] Central League | 4/9 (44.4%) | Petone, Waterside Karori, Stop Out, Miramar Rangers, Western Suburbs |
-| [NZL] NEW ZEALAND | [2000095538] Southern League | 1/3 (33.3%) | Nomads United, Twenty 11 |
+| [NZL] NEW ZEALAND | [432266] Northern League | 11/11 (100.0%) | — |
+| [NZL] NEW ZEALAND | [88006344] Central League | 9/9 (100.0%) | — |
+| [NZL] NEW ZEALAND | [2000095538] Southern League | 3/3 (100.0%) | — |
 | [ALB] ALBANIA | [8350942] Abissnet Superiore (23/24) | 7/10 (70.0%) | Laçi, Kukësi, Dinamo City |
 | [ALB] ALBANIA | [11024371] FSHF Kategoria e Parë Grupi A (23/24) | 6/12 (50.0%) | Flamurtari, Bylis, Lushnja, Burreli, Vora, Elbasani |
 | [ALB] ALBANIA | [2000093167] FSHF Kategoria e Dytë Grupi A (23/24) | 5/12 (41.7%) | Gramshi, Tërbuni, Shënkolli, Murlani, Valbona, Adriatiku 2012, Albanët |
