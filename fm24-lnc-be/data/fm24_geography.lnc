@@ -1541,16 +1541,23 @@
 "CITY_NAME_CHANGE"		108490		"Bahía Blanca (BA)"					""
 "CITY_NAME_CHANGE"		108491		"Banfield (BA)"						""
 "CITY_NAME_CHANGE"		108492		"Florencio Varela (BA)"					""
+"CITY_NAME_CHANGE"		108493		"José Ingenieros (BA)"				""
 "CITY_NAME_CHANGE"		108496		"Lomas de Zamora (BA)"					""
 "CITY_NAME_CHANGE"		108497		"Mar del Plata (BA)"					""
+"CITY_NAME_CHANGE"		108498		"Morón (BA)"					""
 "CITY_NAME_CHANGE"		108499		"Quilmes (BA)"						""
+"CITY_NAME_CHANGE"		108503		"San Martín (BA)"				""
 "CITY_NAME_CHANGE"		108504		"San Miguel (BA)"					""
 "CITY_NAME_CHANGE"		108505		"Sarandí (BA)"						""
 "CITY_NAME_CHANGE"		108507		"Vicente López (BA)"					""
 "CITY_NAME_CHANGE"		108540		"Lanús (BA)"						""
 "CITY_NAME_CHANGE"		951318		"Merlo (BA)"						""
+"CITY_NAME_CHANGE"		951322		"Dock Sud (BA)"					""
+"CITY_NAME_CHANGE"		951325		"Caseros (BA)"					""
 "CITY_NAME_CHANGE"		952687		"Ituzaingó (BA)"					""
 "CITY_NAME_CHANGE"		952712		"Libertad (BA)"						""
+"CITY_NAME_CHANGE"		952726		"Campana (BA)"					""
+"CITY_NAME_CHANGE"		952736		"Zárate (BA)"					""
 "CITY_NAME_CHANGE"		952757		"Berisso (BA)"						""
 "CITY_NAME_CHANGE"		955533		"Moreno (BA)"						""
 "CITY_NAME_CHANGE"		955618		"Tandil (BA)"						""
@@ -1566,13 +1573,17 @@
 "CITY_NAME_CHANGE"		958423		"González Catán (BA)"					""
 "CITY_NAME_CHANGE"		958516		"La Tablada (BA)"					""
 "CITY_NAME_CHANGE"		958586		"Ezeiza (BA)"						""
+"CITY_NAME_CHANGE"		958662		"Jáuregui (BA)"					""
 "CITY_NAME_CHANGE"		3100006		"San Fernando (BA)"					""
 "CITY_NAME_CHANGE"		3100008		"Isidro Casanova (BA)"					""
 "CITY_NAME_CHANGE"		3100009		"Temperley (BA)"					""
 "CITY_NAME_CHANGE"		3100010		"Berazategui (BA)"					""
+"CITY_NAME_CHANGE"		3100011		"Adrogué (BA)"					""
 "CITY_NAME_CHANGE"		3100013		"Gregorio de Laferrere (BA)"				""
 "CITY_NAME_CHANGE"		3100015		"Junín (BA)"						""
+"CITY_NAME_CHANGE"		3100017		"Tristán Suárez (BA)"				""
 "CITY_NAME_CHANGE"		14007792	"Villa Madero (BA)"					""
+"CITY_NAME_CHANGE"		14200754	"Carlos Casares (BA)"				""
 "CITY_NAME_CHANGE"		2000033379	"Virrey del Pino (BA)"					""
 
 
@@ -1634,6 +1645,7 @@
 # CITY > [ARG] ARGENTINA > [ARG-MZ] Mendoza
 #====================================================================================
 "CITY_NAME_CHANGE"		102434		"Mendoza (MZ)"						""
+"CITY_NAME_CHANGE"		955949		"Maipú (MZ)"					""
 "CITY_NAME_CHANGE"		14005186	"Godoy Cruz (MZ)"					""
 "CITY_NAME_CHANGE"		14005203	"San Rafael (MZ)"					""
 
@@ -1679,6 +1691,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		102433		"Rosario (SF)"						""
 "CITY_NAME_CHANGE"		102437		"Santa Fe (SF)"						""
+"CITY_NAME_CHANGE"		108500		"Rafaela (SF)"					""
 
 
 # CITY > [ARG] ARGENTINA > [ARG-SE] Santiago del Estero
@@ -3631,6 +3644,7 @@
 # CITY > [BRA] BRAZIL > [BRA-AC] Acre
 #====================================================================================
 "CITY_NAME_CHANGE"		301000		"Rio Branco (AC)"					""
+"CITY_NAME_CHANGE"		19117297	"Porto Acre (AC)"					""
 
 
 # CITY > [BRA] BRAZIL > [BRA-AL] Alagoas
@@ -3647,6 +3661,7 @@
 # CITY > [BRA] BRAZIL > [BRA-AM] Amazonas
 #====================================================================================
 "CITY_NAME_CHANGE"		301002		"Manaus (AM)"						""
+"CITY_NAME_CHANGE"		313154		"Manacapuru (AM)"					""
 
 
 # CITY > [BRA] BRAZIL > [BRA-BA] Bahia
@@ -3661,6 +3676,7 @@
 "CITY_NAME_CHANGE"		301915		"Barreiras (BA)"					""
 "CITY_NAME_CHANGE"		314188		"Itabuna (BA)"						""
 "CITY_NAME_CHANGE"		314189		"Jequié (BA)"						""
+"CITY_NAME_CHANGE"		318840		"Riachão do Jacuípe (BA)"				""
 "CITY_NAME_CHANGE"		318841		"Lauro de Freitas (BA)"					""
 
 
@@ -3671,6 +3687,8 @@
 "CITY_NAME_CHANGE"		310644		"Sobral (CE)"						""
 "CITY_NAME_CHANGE"		2108017		"Caucaia (CE)"						""
 "CITY_NAME_CHANGE"		2108029		"Maracanaú (CE)"					""
+"CITY_NAME_CHANGE"		8834928		"Iguatu (CE)"						""
+"CITY_NAME_CHANGE"		19060772	"Pacajus (CE)"						""
 
 
 # CITY > [BRA] BRAZIL > [BRA-DF] Distrito Federal
@@ -3687,6 +3705,7 @@
 "CITY_NAME_CHANGE"		313186		"Vila Velha (ES)"					""
 "CITY_NAME_CHANGE"		314323		"Colatina (ES)"						""
 "CITY_NAME_CHANGE"		321243		"Cariacica (ES)"					""
+"CITY_NAME_CHANGE"		19018607	"Águia Branca (ES)"					""
 
 
 # CITY > [BRA] BRAZIL > [BRA-GO] Goiás
@@ -3694,7 +3713,9 @@
 "CITY_NAME_CHANGE"		102509		"Goiânia (GO)"						""
 "CITY_NAME_CHANGE"		301016		"Anápolis (GO)"						""
 "CITY_NAME_CHANGE"		301023		"Rio Verde (GO)"					""
+"CITY_NAME_CHANGE"		303005		"Catalão (GO)"						""
 "CITY_NAME_CHANGE"		313157		"Luziânia (GO)"						""
+"CITY_NAME_CHANGE"		8825079		"Iporá (GO)"						""
 "CITY_NAME_CHANGE"		19009624	"Valparaíso de Goiás (GO)"				""
 "CITY_NAME_CHANGE"		19009625	"Aparecida de Goiânia (GO)"				""
 
@@ -3707,6 +3728,7 @@
 "CITY_NAME_CHANGE"		320377		"Codó (MA)"						""
 "CITY_NAME_CHANGE"		320671		"São José de Ribamar (MA)"				""
 "CITY_NAME_CHANGE"		2112852		"Timon (MA)"						""
+"CITY_NAME_CHANGE"		8825007		"Barra do Corda (MA)"					""
 "CITY_NAME_CHANGE"		19140940	"Paço do Lumiar (MA)"					""
 
 
@@ -3735,7 +3757,11 @@
 "CITY_NAME_CHANGE"		301081		"Juiz de Fora (MG)"					""
 "CITY_NAME_CHANGE"		301082		"Uberlândia (MG)"					""
 "CITY_NAME_CHANGE"		310884		"Uberaba (MG)"						""
+"CITY_NAME_CHANGE"		310885		"Patrocínio (MG)"					""
 "CITY_NAME_CHANGE"		310887		"Montes Claros (MG)"					""
+"CITY_NAME_CHANGE"		318816		"Tombos (MG)"					""
+"CITY_NAME_CHANGE"		318856		"Pouso Alegre (MG)"				""
+"CITY_NAME_CHANGE"		320511		"São João del Rei (MG)"					""
 "CITY_NAME_CHANGE"		320581		"Betim (MG)"						""
 "CITY_NAME_CHANGE"		321138		"Teófilo Otoni (MG)"					""
 "CITY_NAME_CHANGE"		2110666		"Barbacena (MG)"					""
@@ -3767,7 +3793,9 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		301085		"João Pessoa (PB)"					""
 "CITY_NAME_CHANGE"		301086		"Campina Grande (PB)"					""
+"CITY_NAME_CHANGE"		309603		"Sousa (PB)"						""
 "CITY_NAME_CHANGE"		313164		"Santa Rita (PB)"					""
+"CITY_NAME_CHANGE"		313165		"Patos (PB)"						""
 
 
 # CITY > [BRA] BRAZIL > [BRA-PR] Paraná
@@ -3806,6 +3834,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		301045		"Teresina (PI)"						""
 "CITY_NAME_CHANGE"		313171		"Parnaíba (PI)"						""
+"CITY_NAME_CHANGE"		19013933	"Altos (PI)"					""
 
 
 # CITY > [BRA] BRAZIL > [BRA-RJ] Rio de Janeiro
@@ -3827,6 +3856,7 @@
 "CITY_NAME_CHANGE"		319621		"Angra dos Reis (RJ)"					""
 "CITY_NAME_CHANGE"		320523		"Barra Mansa (RJ)"					""
 "CITY_NAME_CHANGE"		320538		"Maricá (RJ)"						""
+"CITY_NAME_CHANGE"		320685		"Resende (RJ)"						""
 "CITY_NAME_CHANGE"		8825072		"Magé (RJ)"						""
 "CITY_NAME_CHANGE"		8827119		"São João de Meriti (RJ)"				""
 "CITY_NAME_CHANGE"		19009716	"Queimados (RJ)"					""
@@ -3840,6 +3870,7 @@
 "CITY_NAME_CHANGE"		107180		"Natal (RN)"						""
 "CITY_NAME_CHANGE"		301048		"Mossoró (RN)"						""
 "CITY_NAME_CHANGE"		310906		"Parnamirim (RN)"					""
+"CITY_NAME_CHANGE"		321180		"Ceará-Mirim (RN)"					""
 
 
 # CITY > [BRA] BRAZIL > [BRA-RS] Rio Grande do Sul
@@ -3868,6 +3899,7 @@
 # CITY > [BRA] BRAZIL > [BRA-RO] Rondônia
 #====================================================================================
 "CITY_NAME_CHANGE"		301060		"Porto Velho (RO)"					""
+"CITY_NAME_CHANGE"		313173		"Ariquemes (RO)"					""
 
 
 # CITY > [BRA] BRAZIL > [BRA-RR] Roraima
@@ -3884,8 +3916,11 @@
 "CITY_NAME_CHANGE"		301068		"Joinville (SC)"					""
 "CITY_NAME_CHANGE"		301095		"Lages (SC)"						""
 "CITY_NAME_CHANGE"		301096		"Itajaí (SC)"						""
+"CITY_NAME_CHANGE"		301097		"Tubarão (SC)"						""
 "CITY_NAME_CHANGE"		316771		"Blumenau (SC)"						""
+"CITY_NAME_CHANGE"		318854		"Camboriú (SC)"						""
 "CITY_NAME_CHANGE"		318855		"São José (SC)"						""
+"CITY_NAME_CHANGE"		320855		"Concórdia (SC)"					""
 "CITY_NAME_CHANGE"		19041349	"Balneário Camboriú (SC)"				""
 
 
@@ -3905,6 +3940,7 @@
 "CITY_NAME_CHANGE"		301026		"São José do Rio Preto (SP)"				""
 "CITY_NAME_CHANGE"		301027		"Jundiaí (SP)"						""
 "CITY_NAME_CHANGE"		301028		"Franca (SP)"						""
+"CITY_NAME_CHANGE"		301030		"Mirassol (SP)"					""
 "CITY_NAME_CHANGE"		301033		"Santo André (SP)"					""
 "CITY_NAME_CHANGE"		301034		"São Caetano do Sul (SP)"				""
 "CITY_NAME_CHANGE"		301035		"São Carlos (SP)"					""
@@ -3931,6 +3967,7 @@
 "CITY_NAME_CHANGE"		320418		"Presidente Prudente (SP)"				""
 "CITY_NAME_CHANGE"		320424		"Cotia (SP)"						""
 "CITY_NAME_CHANGE"		320428		"Guarujá (SP)"						""
+"CITY_NAME_CHANGE"		320453		"Novo Horizonte (SP)"				""
 "CITY_NAME_CHANGE"		320536		"Mogi Guaçu (SP)"					""
 "CITY_NAME_CHANGE"		320789		"Valinhos (SP)"						""
 "CITY_NAME_CHANGE"		320858		"Atibaia (SP)"						""
@@ -3966,7 +4003,9 @@
 
 # CITY > [BRA] BRAZIL > [BRA-TO] Tocantins
 #====================================================================================
+"CITY_NAME_CHANGE"		301038		"Porto Nacional (TO)"					""
 "CITY_NAME_CHANGE"		301039		"Palmas (TO)"						""
+"CITY_NAME_CHANGE"		301040		"Tocantinópolis (TO)"					""
 "CITY_NAME_CHANGE"		313182		"Araguaína (TO)"					""
 
 
@@ -18186,6 +18225,7 @@
 "CITY_NAME_CHANGE"		303803		"Callao"						""
 "CITY_NAME_CHANGE"		5290536		"Ventanilla"						""
 "CITY_NAME_CHANGE"		77046879	"La Perla"						""
+"CITY_NAME_CHANGE"		77046881	"La Punta"						""
 
 
 # CITY > [PER] PERU > [PER-CUS] Cusco
@@ -18251,6 +18291,7 @@
 "CITY_NAME_CHANGE"		5290525		"Huaral"						""
 "CITY_NAME_CHANGE"		5290615		"San Isidro"						""
 "CITY_NAME_CHANGE"		8826186		"Surco"							""
+"CITY_NAME_CHANGE"		8826313		"Chancay"						""
 "CITY_NAME_CHANGE"		77013646	"Barranca"						""
 "CITY_NAME_CHANGE"		77045865	"Huaura"						""
 "CITY_NAME_CHANGE"		77050963	"Comas"							""
@@ -18296,6 +18337,7 @@
 "CITY_NAME_CHANGE"		77013649	"Juanjuí"						""
 "CITY_NAME_CHANGE"		77013650	"Tarapoto"						""
 "CITY_NAME_CHANGE"		77031445	"Moyobamba"						""
+"CITY_NAME_CHANGE"		77047239	"Nueva Cajamarca"					""
 
 
 # CITY > [PER] PERU > [PER-TAC] Tacna
@@ -23718,6 +23760,15 @@
 # CITY > [URU] URUGUAY
 #====================================================================================
 "CITY_NAME_CHANGE"		102998		"Montevideo"						""
+"CITY_NAME_CHANGE"		116310		"Maldonado"						""
+"CITY_NAME_CHANGE"		308166		"Tacuarembó"						""
+"CITY_NAME_CHANGE"		308168		"Las Piedras"						""
+"CITY_NAME_CHANGE"		5512766		"Colonia del Sacramento"				""
+"CITY_NAME_CHANGE"		5512795		"La Paz"						""
+"CITY_NAME_CHANGE"		8825384		"Melo"							""
+"CITY_NAME_CHANGE"		8825386		"Carmelo"						""
+"CITY_NAME_CHANGE"		8825396		"San Carlos"						""
+"CITY_NAME_CHANGE"		2000092517	"La Paz - Colonia Piamontesa"				""
 
 
 # CITY > [USA] USA > [USA-AK] Alaska
@@ -24055,6 +24106,7 @@
 "CITY_NAME_CHANGE"		979451		"Frisco (TX)"						""
 "CITY_NAME_CHANGE"		981431		"Austin (TX)"						""
 "CITY_NAME_CHANGE"		20018312	"Wichita Falls (TX)"					""
+"CITY_NAME_CHANGE"		20018320	"Edinburg (TX)"					""
 "CITY_NAME_CHANGE"		72020585	"Arlington (TX)"					""
 
 

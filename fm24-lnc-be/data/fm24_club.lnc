@@ -12516,7 +12516,7 @@
 "CLUB_SHORT_NAME_CHANGE"	20040275 	"Weston"						""
 "CLUB_6LETTER_NAME_CHANGE"	20040275 	"Weston"						""
 
-"CLUB_CITY_CHANGE"		20041350	"rd-uid"						"" # <Edinburg (TX)>
+"CLUB_CITY_CHANGE"		20041350	"20018320"						"" # <Edinburg (TX)>
 "CLUB_NAME_CHANGE"		20041350	"Rio Grande Valley FC Toros"				""
 "CLUB_SHORT_NAME_CHANGE"	20041350	"RGV Toros"						""
 #"CLUB_6LETTER_NAME_CHANGE"	20041350	"RGV Toros"						""
@@ -12809,23 +12809,29 @@
 
 # CLUB > CONMEBOL > [ARG] ARGENTINA > [102422] Primera Nacional (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		86		"102431"						"" # <Ciudad de Buenos Aires>
 "CLUB_NAME_CHANGE"		86		"Club Ferro Carril Oeste"				""
 "CLUB_SHORT_NAME_CHANGE"	86		"Ferro"							""
 "CLUB_6LETTER_NAME_CHANGE"	86		"Ferro"							""
 
+"CLUB_CITY_CHANGE"		102466		"14005182"						"" # <San Miguel de Tucumán (TU)>
 "CLUB_NAME_CHANGE"		102466		"CA San Martín de Tucumán"				""
 "CLUB_SHORT_NAME_CHANGE"	102466		"San Martín (TU)"					""
 
+"CLUB_CITY_CHANGE"		102470		"3100008"						"" # <Isidro Casanova (BA)>
 "CLUB_NAME_CHANGE"		102470		"Club Almirante Brown"					""
 "CLUB_SHORT_NAME_CHANGE"	102470		"Almirante Brown"					""
 
+"CLUB_CITY_CHANGE"		102472		"108500"						"" # <Rafaela (SF)>
 "CLUB_NAME_CHANGE"		102472		"AMSD Atlético de Rafaela"				""
 "CLUB_SHORT_NAME_CHANGE"	102472		"Atlético Rafaela"					""
 
+"CLUB_CITY_CHANGE"		102482		"108498"						"" # <Morón (BA)>
 "CLUB_NAME_CHANGE"		102482		"Club Deportivo Morón"					""
 "CLUB_SHORT_NAME_CHANGE"	102482		"Dep. Morón"						""
 "CLUB_6LETTER_NAME_CHANGE"	102482		"Morón"							""
 
+"CLUB_CITY_CHANGE"		102486		"102431"						"" # <Ciudad de Buenos Aires>
 "CLUB_NAME_CHANGE"		102486		"CA Nueva Chicago"					""
 "CLUB_SHORT_NAME_CHANGE"	102486		"Nueva Chicago"						""
 
@@ -12833,25 +12839,32 @@
 "CLUB_NAME_CHANGE"		102487		"Quilmes AC"						""
 "CLUB_SHORT_NAME_CHANGE"	102487		"Quilmes"						""
 
+"CLUB_CITY_CHANGE"		102490		"102431"						"" # <Ciudad de Buenos Aires>
 "CLUB_NAME_CHANGE"		102490		"CA All Boys"						""
 "CLUB_SHORT_NAME_CHANGE"	102490		"All Boys"						""
 
+"CLUB_CITY_CHANGE"		102493		"108503"						"" # <San Martín (BA)>
 "CLUB_NAME_CHANGE"		102493		"CA Chacarita Juniors"					""
 "CLUB_SHORT_NAME_CHANGE"	102493		"Chacarita Jrs."					""
 
+"CLUB_CITY_CHANGE"		102957		"14005188"						"" # <San Salvador de Jujuy (JY)>
 "CLUB_NAME_CHANGE"		102957		"CA Gimnasia y Esgrima de Jujuy"			""
 "CLUB_SHORT_NAME_CHANGE"	102957		"Gimnasia (JY)"						""
 
+"CLUB_CITY_CHANGE"		108510		"108497"						"" # <Mar del Plata (BA)>
 "CLUB_NAME_CHANGE"		108510		"CA Aldosivi"						""
 "CLUB_SHORT_NAME_CHANGE"	108510		"Aldosivi"						""
 "CLUB_3LETTER_NAME_CHANGE"	108510		"ALD"							""
 
+"CLUB_CITY_CHANGE"		108514		"108493"						"" # <José Ingenieros (BA)>
 "CLUB_NAME_CHANGE"		108514		"Club Almagro"						""
 "CLUB_SHORT_NAME_CHANGE"	108514		"Almagro"						""
 
+"CLUB_CITY_CHANGE"		108517		"102431"						"" # <Ciudad de Buenos Aires>
 "CLUB_NAME_CHANGE"		108517		"CA Atlanta"						""
 "CLUB_SHORT_NAME_CHANGE"	108517		"Atlanta"						""
 
+"CLUB_CITY_CHANGE"		108531		"951325"						"" # <Caseros (BA)>
 "CLUB_NAME_CHANGE"		108531		"CA Estudiantes de Buenos Aires"			""
 "CLUB_SHORT_NAME_CHANGE"	108531		"Estudiantes (BA)"					""
 
@@ -12860,17 +12873,21 @@
 "CLUB_SHORT_NAME_CHANGE"	108546		"San Martín (SJ)"					""
 "CLUB_3LETTER_NAME_CHANGE"	108546		"SMA"							""
 
+"CLUB_CITY_CHANGE"		108574		"3100007"						"" # <Resistencia (CH)>
 "CLUB_NAME_CHANGE"		108574		"CA Chaco For Ever"					""
 "CLUB_SHORT_NAME_CHANGE"	108574		"Chaco For Ever"					""
 "CLUB_6LETTER_NAME_CHANGE"	108574		"Chaco"							""
 
+"CLUB_CITY_CHANGE"		952707		"102431"						"" # <Ciudad de Buenos Aires>
 "CLUB_NAME_CHANGE"		952707		"Club Deportivo Riestra"				""
 "CLUB_SHORT_NAME_CHANGE"	952707		"Dep. Riestra"						""
 "CLUB_3LETTER_NAME_CHANGE"	952707		"RIE"							""
 
+"CLUB_CITY_CHANGE"		952724		"952726"						"" # <Campana (BA)>
 "CLUB_NAME_CHANGE"		952724		"Club Villa Dálmine"					""
 "CLUB_SHORT_NAME_CHANGE"	952724		"Villa Dálmine"						""
 
+"CLUB_CITY_CHANGE"		952734		"952736"						"" # <Zárate (BA)>
 "CLUB_NAME_CHANGE"		952734		"CA Defensores Unidos de Zárate"			""
 "CLUB_SHORT_NAME_CHANGE"	952734		"Defensores Unidos"					""
 
@@ -12878,6 +12895,7 @@
 "CLUB_NAME_CHANGE"		956891		"CA Gimnasia y Esgrima de Mendoza"			""
 "CLUB_SHORT_NAME_CHANGE"	956891		"Gimnasia (MZ)"						""
 
+"CLUB_CITY_CHANGE"		958199		"14005265"						"" # <Puerto Madryn (CT)>
 "CLUB_NAME_CHANGE"		958199		"Club Social y Atlético Guillermo Brown"		""
 "CLUB_SHORT_NAME_CHANGE"	958199		"Guillermo Brown"					""
 
@@ -12889,26 +12907,33 @@
 "CLUB_NAME_CHANGE"		3101435		"AA Estudiantes de Río Cuarto"				""
 "CLUB_SHORT_NAME_CHANGE"	3101435		"Estudiantes (RC)"					""
 
+"CLUB_CITY_CHANGE"		3101453		"102434"						"" # <Mendoza (MZ)>
 "CLUB_NAME_CHANGE"		3101453		"CS Independiente Rivadavia"				""
 "CLUB_SHORT_NAME_CHANGE"	3101453		"Ind. Rivadavia"					""
 "CLUB_3LETTER_NAME_CHANGE"	3101453		"IRV"							""
 
+"CLUB_CITY_CHANGE"		3101457		"3101459"						"" # <Paraná (ER)>
 "CLUB_NAME_CHANGE"		3101457		"CA Patronato de la Juventud Católica"			""
 "CLUB_SHORT_NAME_CHANGE"	3101457		"Patronato (JC)"					""
 
+"CLUB_CITY_CHANGE"		3101502		"3100011"						"" # <Adrogué (BA)>
 "CLUB_NAME_CHANGE"		3101502		"CA Brown de Adrogué"					""
 "CLUB_SHORT_NAME_CHANGE"	3101502		"Brown Adrogué"						""
 "CLUB_6LETTER_NAME_CHANGE"	3101502		"Brown"							""
 
+"CLUB_CITY_CHANGE"		3101504		"102431"						"" # <Ciudad de Buenos Aires>
 "CLUB_NAME_CHANGE"		3101504		"CA Defensores de Belgrano"				""
 "CLUB_SHORT_NAME_CHANGE"	3101504		"Defensores Belgrano"					""
 
+"CLUB_CITY_CHANGE"		3101508		"958662"						"" # <Jáuregui (BA)>
 "CLUB_NAME_CHANGE"		3101508		"CSD Flandria"						""
 "CLUB_SHORT_NAME_CHANGE"	3101508		"Flandria"						""
 
+"CLUB_CITY_CHANGE"		3101514		"951322"						"" # <Dock Sud (BA)>
 "CLUB_NAME_CHANGE"		3101514		"CA San Telmo"						""
 "CLUB_SHORT_NAME_CHANGE"	3101514		"San Telmo"						""
 
+"CLUB_CITY_CHANGE"		3101520		"3100017"						"" # <Tristán Suárez (BA)>
 "CLUB_NAME_CHANGE"		3101520		"CSD Tristán Suárez"					""
 "CLUB_SHORT_NAME_CHANGE"	3101520		"Tristán Suárez"					""
 
@@ -12921,10 +12946,12 @@
 "CLUB_NAME_CHANGE"		14004603	"CA Alvarado de Mar del Plata"				""
 "CLUB_SHORT_NAME_CHANGE"	14004603	"Alvarado"						""
 
+"CLUB_CITY_CHANGE"		14008993	"955949"						"" # <Maipú (MZ)>
 "CLUB_NAME_CHANGE"		14008993	"Club Deportivo Maipú"					""
 "CLUB_SHORT_NAME_CHANGE"	14008993	"Dep. Maipú"						""
 "CLUB_6LETTER_NAME_CHANGE"	14008993	"Maipú"							""
 
+"CLUB_CITY_CHANGE"		14031205	"14005265"						"" # <Puerto Madryn (CT)>
 "CLUB_NAME_CHANGE"		14031205	"CS Deportivo Madryn"					""
 "CLUB_SHORT_NAME_CHANGE"	14031205	"Dep. Madryn"						""
 "CLUB_6LETTER_NAME_CHANGE"	14031205	"Madryn"						""
@@ -12939,6 +12966,7 @@
 "CLUB_SHORT_NAME_CHANGE"	14046675	"Güemes (SE)"						""
 "CLUB_6LETTER_NAME_CHANGE"	14046675	"Güemes"						""
 
+"CLUB_CITY_CHANGE"		14064697	"14200754"						"" # <Carlos Casares (BA)>
 "CLUB_NAME_CHANGE"		14064697	"Club Agropecuario Argentino"				""
 "CLUB_SHORT_NAME_CHANGE"	14064697	"Agropecuario Argentino"				""
 
@@ -13207,16 +13235,19 @@
 #"CLUB_6LETTER_NAME_CHANGE"	320		"Criciúma"						""
 "CLUB_3LETTER_NAME_CHANGE"	320		"CRI"							""
 
+"CLUB_CITY_CHANGE"		325		"102507"						"" # <Campinas (SP)>
 "CLUB_NAME_CHANGE"		325		"Guarani FC"						""
 "CLUB_SHORT_NAME_CHANGE"	325		"Guarani"						""
 #"CLUB_6LETTER_NAME_CHANGE"	325		"Guarani"						""
 "CLUB_3LETTER_NAME_CHANGE"	325		"GUA"							""
 
+"CLUB_CITY_CHANGE"		327		"102553"						"" # <Caxias do Sul (RS)>
 "CLUB_NAME_CHANGE"		327		"EC Juventude"						""
 "CLUB_SHORT_NAME_CHANGE"	327		"Juventude"						""
 #"CLUB_6LETTER_NAME_CHANGE"	327		"Juventude"						""
 "CLUB_3LETTER_NAME_CHANGE"	327		"JUV"							""
 
+"CLUB_CITY_CHANGE"		332		"102507"						"" # <Campinas (SP)>
 "CLUB_NAME_CHANGE"		332		"AA Ponte Preta"					""
 "CLUB_SHORT_NAME_CHANGE"	332		"Ponte Preta"						""
 #"CLUB_6LETTER_NAME_CHANGE"	332		"Ponte Preta"						""
@@ -13228,67 +13259,79 @@
 "CLUB_6LETTER_NAME_CHANGE"	338		"Sport"							""
 "CLUB_3LETTER_NAME_CHANGE"	338		"SPO"							""
 
-"CLUB_CITY_CHANGE"		340		"102511"						"" # <Vitória (ES)>
+"CLUB_CITY_CHANGE"		340		"102502"						"" # <Salvador (BA)>
 "CLUB_NAME_CHANGE"		340		"EC Vitória"						""
 "CLUB_SHORT_NAME_CHANGE"	340		"Vitória"						""
 #"CLUB_6LETTER_NAME_CHANGE"	340		"Vitória"						""
 "CLUB_3LETTER_NAME_CHANGE"	340		"VIT"							""
 
+"CLUB_CITY_CHANGE"		104749		"107174"						"" # <Fortaleza (CE)>
 "CLUB_NAME_CHANGE"		104749		"Ceará SC"						""
 "CLUB_SHORT_NAME_CHANGE"	104749		"Ceará"							""
 "CLUB_6LETTER_NAME_CHANGE"	104749		"Ceará"							""
 "CLUB_3LETTER_NAME_CHANGE"	104749		"CEA"							""
 
+"CLUB_CITY_CHANGE"		107205		"107180"						"" # <Natal (RN)>
 "CLUB_NAME_CHANGE"		107205		"ABC FC"						""
 "CLUB_SHORT_NAME_CHANGE"	107205		"ABC"							""
 "CLUB_6LETTER_NAME_CHANGE"	107205		"ABC"							""
 "CLUB_3LETTER_NAME_CHANGE"	107205		"ABC"							""
 
+"CLUB_CITY_CHANGE"		107208		"107173"						"" # <Florianópolis (SC)>
 "CLUB_NAME_CHANGE"		107208		"Avaí FC"						""
 "CLUB_SHORT_NAME_CHANGE"	107208		"Avaí"							""
 "CLUB_6LETTER_NAME_CHANGE"	107208		"Avaí"							""
 "CLUB_3LETTER_NAME_CHANGE"	107208		"AVA"							""
 
+"CLUB_CITY_CHANGE"		107216		"107176"						"" # <Itu (SP)>
 "CLUB_NAME_CHANGE"		107216		"Ituano FC"						""
 "CLUB_SHORT_NAME_CHANGE"	107216		"Ituano"						""
 "CLUB_6LETTER_NAME_CHANGE"	107216		"Ituano"						""
 "CLUB_3LETTER_NAME_CHANGE"	107216		"ITU"							""
 
+"CLUB_CITY_CHANGE"		107230		"107371"						"" # <São Luís (MA)>
 "CLUB_NAME_CHANGE"		107230		"Sampaio Corrêa FC"					""
 "CLUB_SHORT_NAME_CHANGE"	107230		"Sampaio Corrêa"					""
 #"CLUB_6LETTER_NAME_CHANGE"	107230		"Sampaio Corrêa"					""
 "CLUB_3LETTER_NAME_CHANGE"	107230		"SAM"							""
 
+"CLUB_CITY_CHANGE"		107236		"102509"						"" # <Goiânia (GO)>
 "CLUB_NAME_CHANGE"		107236		"Vila Nova FC"						""
 "CLUB_SHORT_NAME_CHANGE"	107236		"Vila Nova"						""
 #"CLUB_6LETTER_NAME_CHANGE"	107236		"Vila Nova"						""
 "CLUB_3LETTER_NAME_CHANGE"	107236		"VIL"							""
 	
+"CLUB_CITY_CHANGE"		121265		"121267"						"" # <Ribeirão Preto (SP)>
 "CLUB_NAME_CHANGE"		121265		"Botafogo FC (SP)"					""
 "CLUB_SHORT_NAME_CHANGE"	121265		"Botafogo-SP"						""
 #"CLUB_6LETTER_NAME_CHANGE"	121265		"Botafogo-SP"						""
 "CLUB_3LETTER_NAME_CHANGE"	121265		"BSP"							""
 
+"CLUB_CITY_CHANGE"		301102		"107178"						"" # <Maceió (AL)>
 "CLUB_NAME_CHANGE"		301102		"Clube de Regatas Brasil"				""
 "CLUB_SHORT_NAME_CHANGE"	301102		"CRB"							""
 "CLUB_6LETTER_NAME_CHANGE"	301102		"CRB"							""
 "CLUB_3LETTER_NAME_CHANGE"	301102		"CRB"							""
 
+"CLUB_CITY_CHANGE"		301151		"102509"						"" # <Goiânia (GO)>
 "CLUB_NAME_CHANGE"		301151		"Atlético Clube Goianiense"				""
 "CLUB_SHORT_NAME_CHANGE"	301151		"Atlético-GO"						""
 "CLUB_6LETTER_NAME_CHANGE"	301151		"ACG"							""
 "CLUB_3LETTER_NAME_CHANGE"	301151		"ACG"							""
 
+"CLUB_CITY_CHANGE"		301304		"301066"						"" # <Chapecó (SC)>
 "CLUB_NAME_CHANGE"		301304		"Associação Chapecoense de Futebol"			""
 "CLUB_SHORT_NAME_CHANGE"	301304		"Chapecoense"						""
 #"CLUB_6LETTER_NAME_CHANGE"	301304		"Chapecoense"						""
 "CLUB_3LETTER_NAME_CHANGE"	301304		"CHA"							""
 
+"CLUB_CITY_CHANGE"		301344		"301030"						"" # <Mirassol (SP)>
 "CLUB_NAME_CHANGE"		301344		"Mirassol FC"						""
 "CLUB_SHORT_NAME_CHANGE"	301344		"Mirassol"						""
 #"CLUB_6LETTER_NAME_CHANGE"	301344		"Mirassol"						""
 "CLUB_3LETTER_NAME_CHANGE"	301344		"MIR"							""
 
+"CLUB_CITY_CHANGE"		318860		"318816"						"" # <Tombos (MG)>
 "CLUB_NAME_CHANGE"		318860		"Tombense FC"						""
 "CLUB_SHORT_NAME_CHANGE"	318860		"Tombense"						""
 #"CLUB_6LETTER_NAME_CHANGE"	318860		"Tombense"						""
@@ -13300,6 +13343,7 @@
 #"CLUB_6LETTER_NAME_CHANGE"	900678		"Londrina"						""
 "CLUB_3LETTER_NAME_CHANGE"	900678		"LON"							""
 
+"CLUB_CITY_CHANGE"		19144990	"320453"						"" # <Novo Horizonte (SP)>
 "CLUB_NAME_CHANGE"		19144990	"Grêmio Novorizontino"					""
 "CLUB_SHORT_NAME_CHANGE"	19144990	"Novorizontino"						""
 #"CLUB_6LETTER_NAME_CHANGE"	19144990	"Novorizontino"						""
@@ -13308,26 +13352,31 @@
 
 # CLUB > CONMEBOL > [BRA] BRAZIL > [107192] Brasileirão Série C (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		328		"102500"						"" # <Recife (PE)>
 "CLUB_NAME_CHANGE"		328		"Clube Náutico Capibaribe"				""
 "CLUB_SHORT_NAME_CHANGE"	328		"Náutico"						""
 #"CLUB_6LETTER_NAME_CHANGE"	328		"Náutico"						""
 "CLUB_3LETTER_NAME_CHANGE"	328		"NAU"							""
 
+"CLUB_CITY_CHANGE"		331		"102506"						"" # <Belém (PA)>
 "CLUB_NAME_CHANGE"		331		"Paysandu SC"						""
 "CLUB_SHORT_NAME_CHANGE"	331		"Paysandu"						""
 #"CLUB_6LETTER_NAME_CHANGE"	331		"Paysandu"						""
 "CLUB_3LETTER_NAME_CHANGE"	331		"PAY"							""
 
+"CLUB_CITY_CHANGE"		334		"102506"						"" # <Belém (PA)>
 "CLUB_NAME_CHANGE"		334		"Clube do Remo"						""
 "CLUB_SHORT_NAME_CHANGE"	334		"Remo"							""
 "CLUB_6LETTER_NAME_CHANGE"	334		"Remo"							""
 "CLUB_3LETTER_NAME_CHANGE"	334		"REM"							""
 
+"CLUB_CITY_CHANGE"		107203		"107180"						"" # <Natal (RN)>
 "CLUB_NAME_CHANGE"		107203		"América FC (RN)"					""
 "CLUB_SHORT_NAME_CHANGE"	107203		"América-RN"						""
 #"CLUB_6LETTER_NAME_CHANGE"	107203		"América-RN"						""
 "CLUB_3LETTER_NAME_CHANGE"	107203		"ARN"							""
 
+"CLUB_CITY_CHANGE"		107210		"107178"						"" # <Maceió (AL)>
 "CLUB_NAME_CHANGE"		107210		"Centro Sportivo Alagoano"				""
 "CLUB_SHORT_NAME_CHANGE"	107210		"CSA"							""
 "CLUB_6LETTER_NAME_CHANGE"	107210		"CSA"							""
@@ -13339,12 +13388,13 @@
 #"CLUB_6LETTER_NAME_CHANGE"	107240		"Volta Redonda"						""
 "CLUB_3LETTER_NAME_CHANGE"	107240		"VRE"							""
 
+"CLUB_CITY_CHANGE"		301208		"301085"						"" # <João Pessoa (PB)>
 "CLUB_NAME_CHANGE"		301208		"Botafogo FC (PB)"					""
 "CLUB_SHORT_NAME_CHANGE"	301208		"Botafogo-PB"						""
 #"CLUB_6LETTER_NAME_CHANGE"	301208		"Botafogo-PB"						""
 "CLUB_3LETTER_NAME_CHANGE"	301208		"BPB"							""
 
-"CLUB_CITY_CHANGE"		301284		"318855"						"" # <São José (SC)>
+"CLUB_CITY_CHANGE"		301284		"102501"						"" # <Porto Alegre (RS)>
 "CLUB_NAME_CHANGE"		301284		"EC São José (RS)"					""
 "CLUB_SHORT_NAME_CHANGE"	301284		"São José-RS"						""
 #"CLUB_6LETTER_NAME_CHANGE"	301284		"São José-RS"						""
@@ -13356,29 +13406,35 @@
 #"CLUB_6LETTER_NAME_CHANGE"	301302		"Brusque"						""
 "CLUB_3LETTER_NAME_CHANGE"	301302		"BRU"							""
 	
+"CLUB_CITY_CHANGE"		301306		"107173"						"" # <Florianópolis (SC)>
 "CLUB_NAME_CHANGE"		301306		"Figueirense FC"					""
 "CLUB_SHORT_NAME_CHANGE"	301306		"Figueirense"						""
 #"CLUB_6LETTER_NAME_CHANGE"	301306		"Figueirense"						""
 "CLUB_3LETTER_NAME_CHANGE"	301306		"FIG"							""
 
+"CLUB_CITY_CHANGE"		301323		"102522"						"" # <Aracaju (SE)>
 "CLUB_NAME_CHANGE"		301323		"AD Confiança"						""
 "CLUB_SHORT_NAME_CHANGE"	301323		"Confiança"						""
 #"CLUB_6LETTER_NAME_CHANGE"	301323		"Confiança"						""
 
+"CLUB_CITY_CHANGE"		311086		"301090"						"" # <Ponta Grossa (PR)>
 "CLUB_NAME_CHANGE"		311086		"Operário Ferroviário EC"				""
 "CLUB_SHORT_NAME_CHANGE"	311086		"Operário Ferroviário"					""
 #"CLUB_6LETTER_NAME_CHANGE"	311086		"Operário Ferroviário"					""
 
+"CLUB_CITY_CHANGE"		319141		"19009625"						"" # <Aparecida de Goiânia (GO)>
 "CLUB_NAME_CHANGE"		319141		"AA Aparecidense"					""
 "CLUB_SHORT_NAME_CHANGE"	319141		"Aparecidense"						""
 #"CLUB_6LETTER_NAME_CHANGE"	319141		"Aparecidense"						""
 "CLUB_3LETTER_NAME_CHANGE"	319141		"APA"							""
 
+"CLUB_CITY_CHANGE"		319160		"318853"						"" # <Erechim (RS)>
 "CLUB_NAME_CHANGE"		319160		"Ypiranga FC"						""
 "CLUB_SHORT_NAME_CHANGE"	319160		"Ypiranga"						""
 #"CLUB_6LETTER_NAME_CHANGE"	319160		"Ypiranga"						""
 "CLUB_3LETTER_NAME_CHANGE"	319160		"YPI"							""
 
+"CLUB_CITY_CHANGE"		2106553		"318764"						"" # <São Bernardo do Campo (SP)>
 "CLUB_NAME_CHANGE"		2106553		"São Bernardo FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2106553		"São Bernardo"						""
 #"CLUB_6LETTER_NAME_CHANGE"	2106553		"São Bernardo"						""
@@ -13390,21 +13446,25 @@
 "CLUB_6LETTER_NAME_CHANGE"	19220160	"Manaus"						""
 "CLUB_3LETTER_NAME_CHANGE"	19220160	"MAN"							""
 
+"CLUB_CITY_CHANGE"		19270038	"107174"						"" # <Fortaleza (CE)>
 "CLUB_NAME_CHANGE"		19270038	"Floresta FC"						""
 "CLUB_SHORT_NAME_CHANGE"	19270038	"Floresta"						""
 #"CLUB_6LETTER_NAME_CHANGE"	19270038	"Floresta"						""
 "CLUB_3LETTER_NAME_CHANGE"	19270038	"FLO"							""
 
+"CLUB_CITY_CHANGE"		19273578	"19013933"						"" # <Altos (PI)>
 "CLUB_NAME_CHANGE"		19273578	"AA Altos"						""
 "CLUB_SHORT_NAME_CHANGE"	19273578	"Altos"							""
 "CLUB_6LETTER_NAME_CHANGE"	19273578	"Altos"							""
 "CLUB_3LETTER_NAME_CHANGE"	19273578	"ALT"							""
 
+"CLUB_CITY_CHANGE"		19363420	"318856"						"" # <Pouso Alegre (MG)>
 "CLUB_NAME_CHANGE"		19363420	"Pouso Alegre FC"					""
 "CLUB_SHORT_NAME_CHANGE"	19363420	"Pouso Alegre"						""
 #"CLUB_6LETTER_NAME_CHANGE"	19363420	"Pouso Alegre"						""
 "CLUB_3LETTER_NAME_CHANGE"	19363420	"POU"							""
 
+"CLUB_CITY_CHANGE"		19398655	"301002"						"" # <Manaus (AM)>
 "CLUB_NAME_CHANGE"		19398655	"Amazonas FC"						""
 "CLUB_SHORT_NAME_CHANGE"	19398655	"Amazonas"						""
 #"CLUB_6LETTER_NAME_CHANGE"	19398655	"Amazonas"						""
@@ -13421,23 +13481,29 @@
 "CLUB_NAME_CHANGE"		104979		"AA Internacional de Limeira"				""
 "CLUB_SHORT_NAME_CHANGE"	104979		"Inter de Limeira"					""
 
+"CLUB_CITY_CHANGE"		107232		"102500"						"" # <Recife (PE)>
 "CLUB_NAME_CHANGE"		107232		"Santa Cruz FC"						""
 "CLUB_SHORT_NAME_CHANGE"	107232		"Santa Cruz"						""
 
+"CLUB_CITY_CHANGE"		107234		"102506"						"" # <Belém (PA)>
 "CLUB_NAME_CHANGE"		107234		"Tuna Luso Brasileira"					""
 "CLUB_SHORT_NAME_CHANGE"	107234		"Tuna Luso"						""
 
+"CLUB_CITY_CHANGE"		107242		"107172"						"" # <Campo Grande (MS)>
 "CLUB_NAME_CHANGE"		107242		"Operário FC (MS)"					""
 "CLUB_SHORT_NAME_CHANGE"	107242		"Operário-MS"						""
 
+"CLUB_CITY_CHANGE"		301100		"104983"						"" # <Arapiraca (AL)>
 "CLUB_NAME_CHANGE"		301100		"Agremiação Sportiva Arapiraquense"			""
 "CLUB_SHORT_NAME_CHANGE"	301100		"ASA"							""
 "CLUB_6LETTER_NAME_CHANGE"	301100		"ASA"							""
 "CLUB_3LETTER_NAME_CHANGE"	301100		"ASA"							""
 
+"CLUB_CITY_CHANGE"		301108		"301002"						"" # <Manaus (AM)>
 "CLUB_NAME_CHANGE"		301108		"Nacional FC (AM)"					""
 "CLUB_SHORT_NAME_CHANGE"	301108		"Nacional-AM"						""
 
+"CLUB_CITY_CHANGE"		301129		"107174"						"" # <Fortaleza (CE)>
 "CLUB_NAME_CHANGE"		301129		"Ferroviário AC (CE)"					""
 "CLUB_SHORT_NAME_CHANGE"	301129		"Ferroviário-CE"					""
 
@@ -13445,6 +13511,7 @@
 "CLUB_NAME_CHANGE"		301148		"Anápolis FC"						""
 "CLUB_SHORT_NAME_CHANGE"	301148		"Anápolis"						""
 
+"CLUB_CITY_CHANGE"		301171		"107371"						"" # <São Luís (MA)>
 "CLUB_NAME_CHANGE"		301171		"Maranhão AC"						""
 "CLUB_SHORT_NAME_CHANGE"	301171		"Maranhão"						""
 
@@ -13453,12 +13520,15 @@
 "CLUB_SHORT_NAME_CHANGE"	301179		"União Rondonópolis"					""
 "CLUB_6LETTER_NAME_CHANGE"	301179		"União"							""
 
+"CLUB_CITY_CHANGE"		301184		"301074"						"" # <Governador Valadares (MG)>
 "CLUB_NAME_CHANGE"		301184		"EC Democrata (GV)"					""
 "CLUB_SHORT_NAME_CHANGE"	301184		"Democrata-GV"						""
 
+"CLUB_CITY_CHANGE"		301210		"301086"						"" # <Campina Grande (PB)>
 "CLUB_NAME_CHANGE"		301210		"Campinense Clube"					""
 "CLUB_SHORT_NAME_CHANGE"	301210		"Campinense"						""
 
+"CLUB_CITY_CHANGE"		301251		"102498"						"" # <Rio de Janeiro (RJ)>
 "CLUB_NAME_CHANGE"		301251		"AA Portuguesa (RJ)"					""
 "CLUB_SHORT_NAME_CHANGE"	301251		"Portuguesa-RJ"						""
 
@@ -13475,12 +13545,15 @@
 "CLUB_SHORT_NAME_CHANGE"	301266		"Caxias do Sul"						""
 "CLUB_6LETTER_NAME_CHANGE"	301266		"Caxias"						""
 
+"CLUB_CITY_CHANGE"		301321		"102522"						"" # <Aracaju (SE)>
 "CLUB_NAME_CHANGE"		301321		"CS Sergipe"						""
 "CLUB_SHORT_NAME_CHANGE"	301321		"Sergipe"						""
 
+"CLUB_CITY_CHANGE"		301327		"301038"						"" # <Porto Nacional (TO)>
 "CLUB_NAME_CHANGE"		301327		"Interporto FC"						""
 "CLUB_SHORT_NAME_CHANGE"	301327		"Interporto"						""
 
+"CLUB_CITY_CHANGE"		301331		"301040"						"" # <Tocantinópolis (TO)>
 "CLUB_NAME_CHANGE"		301331		"Tocantinópolis EC"					""
 "CLUB_SHORT_NAME_CHANGE"	301331		"Tocantinópolis"					""
 
@@ -13488,9 +13561,11 @@
 "CLUB_NAME_CHANGE"		301352		"EC Santo André"					""
 "CLUB_SHORT_NAME_CHANGE"	301352		"Santo André"						""
 
+"CLUB_CITY_CHANGE"		302144		"310633"						"" # <Araraquara (SP)>
 "CLUB_NAME_CHANGE"		302144		"Associação Ferroviária de Esportes"			""
 "CLUB_SHORT_NAME_CHANGE"	302144		"Ferroviária-SP"					""
 
+"CLUB_CITY_CHANGE"		303018		"303005"						"" # <Catalão (GO)>
 "CLUB_NAME_CHANGE"		303018		"Clube Recreativo e Atlético Catalano"			""
 "CLUB_SHORT_NAME_CHANGE"	303018		"CRAC"							""
 "CLUB_6LETTER_NAME_CHANGE"	303018		"CRAC"							""
@@ -13504,29 +13579,36 @@
 "CLUB_SHORT_NAME_CHANGE"	308939		"Águia de Marabá"					""
 "CLUB_6LETTER_NAME_CHANGE"	308939		"Águia"							""
 
+"CLUB_CITY_CHANGE"		309146		"301063"						"" # <Boa Vista (RR)>
 "CLUB_NAME_CHANGE"		309146		"São Raimundo EC (RR)"					""
 "CLUB_SHORT_NAME_CHANGE"	309146		"São Raimundo-RR"					""
 
+"CLUB_CITY_CHANGE"		309641		"309603"						"" # <Sousa (PB)>
 "CLUB_NAME_CHANGE"		309641		"Sousa EC"						""
 "CLUB_SHORT_NAME_CHANGE"	309641		"Sousa"							""
 "CLUB_6LETTER_NAME_CHANGE"	309641		"Sousa"							""
 
+"CLUB_CITY_CHANGE"		309670		"121264"						"" # <Brasília (DF)>
 "CLUB_NAME_CHANGE"		309670		"Brasiliense FC"					""
 "CLUB_SHORT_NAME_CHANGE"	309670		"Brasiliense"						""
 
+"CLUB_CITY_CHANGE"		309743		"301097"						"" # <Tubarão (SC)>
 "CLUB_NAME_CHANGE"		309743		"Hercílio Luz FC"					""
 "CLUB_SHORT_NAME_CHANGE"	309743		"Hercílio Luz"						""
 
+"CLUB_CITY_CHANGE"		310392		"107174"						"" # <Fortaleza (CE)>
 "CLUB_NAME_CHANGE"		310392		"FC Atlético Cearense"					""
 "CLUB_SHORT_NAME_CHANGE"	310392		"Atlético Cearense"					""
 
+"CLUB_CITY_CHANGE"		311000		"121264"						"" # <Brasília (DF)>
 "CLUB_NAME_CHANGE"		311000		"Ceilândia EC"						""
 "CLUB_SHORT_NAME_CHANGE"	311000		"Ceilândia"						""
 
-"CLUB_CITY_CHANGE"		311107		"311100"						"" # <Nova Iguaçu (RJ)>
+"CLUB_CITY_CHANGE"		311107		"102498"						"" # <Rio de Janeiro (RJ)>
 "CLUB_NAME_CHANGE"		311107		"Nova Iguaçu FC"					""
 "CLUB_SHORT_NAME_CHANGE"	311107		"Nova Iguaçu"						""
 
+"CLUB_CITY_CHANGE"		313259		"313154"						"" # <Manacapuru (AM)>
 "CLUB_NAME_CHANGE"		313259		"Princesa do Solimões EC"				""
 "CLUB_SHORT_NAME_CHANGE"	313259		"Princesa"						""
 
@@ -13534,39 +13616,50 @@
 "CLUB_NAME_CHANGE"		313273		"Vitória FC (ES)"					""
 "CLUB_SHORT_NAME_CHANGE"	313273		"Vitória-ES"						""
 
+"CLUB_CITY_CHANGE"		313293		"313165"						"" # <Patos (PB)>
 "CLUB_NAME_CHANGE"		313293		"Nacional AC de Patos"					""
 "CLUB_SHORT_NAME_CHANGE"	313293		"Nacional Patos"					""
 
+"CLUB_CITY_CHANGE"		313305		"313171"						"" # <Parnaíba (PI)>
 "CLUB_NAME_CHANGE"		313305		"Parnahyba SC"						""
 "CLUB_SHORT_NAME_CHANGE"	313305		"Parnahyba"						""
 
+"CLUB_CITY_CHANGE"		313350		"104989"						"" # <Macapá (AP)>
 "CLUB_NAME_CHANGE"		313350		"Trem Desportivo Clube"					""
 "CLUB_SHORT_NAME_CHANGE"	313350		"Trem"							""
 "CLUB_6LETTER_NAME_CHANGE"	313350		"Trem"							""
 
+"CLUB_CITY_CHANGE"		313902		"2108551"						"" # <Várzea Grande (MT)>
 "CLUB_NAME_CHANGE"		313902		"CE Operário Várzea-Grandense"				""
 "CLUB_SHORT_NAME_CHANGE"	313902		"CEOV"							""
 "CLUB_6LETTER_NAME_CHANGE"	313902		"CEOV"							""
 
+"CLUB_CITY_CHANGE"		319115		"318840"						"" # <Riachão do Jacuípe (BA)>
 "CLUB_NAME_CHANGE"		319115		"EC Jacuipense"						""
 "CLUB_SHORT_NAME_CHANGE"	319115		"Jacuipense"						""
 
+"CLUB_CITY_CHANGE"		319158		"301045"						"" # <Teresina (PI)>
 "CLUB_NAME_CHANGE"		319158		"Fluminense EC (PI)"					""
 "CLUB_SHORT_NAME_CHANGE"	319158		"Fluminense-PI"						""
 
+"CLUB_CITY_CHANGE"		320262		"301008"						"" # <Feira de Santana (BA)>
 "CLUB_NAME_CHANGE"		320262		"AD Bahia de Feira"					""
 "CLUB_SHORT_NAME_CHANGE"	320262		"Bahia de Feira"					""
 
+"CLUB_CITY_CHANGE"		8832365		"320855"						"" # <Concórdia (SC)>
 "CLUB_NAME_CHANGE"		8832365		"Concórdia AC"						""
 "CLUB_SHORT_NAME_CHANGE"	8832365		"Concórdia"						""
 
+"CLUB_CITY_CHANGE"		8832366		"318854"						"" # <Camboriú (SC)>
 "CLUB_NAME_CHANGE"		8832366		"Camboriú FC"						""
 "CLUB_SHORT_NAME_CHANGE"	8832366		"Camboriú"						""
 
+"CLUB_CITY_CHANGE"		19013850	"8825079"						"" # <Iporá (GO)>
 "CLUB_NAME_CHANGE"		19013850	"Iporá EC"						""
 "CLUB_SHORT_NAME_CHANGE"	19013850	"Iporá"							""
 "CLUB_6LETTER_NAME_CHANGE"	19013850	"Iporá"							""
 
+"CLUB_CITY_CHANGE"		19013859	"301000"						"" # <Rio Branco (AC)>
 "CLUB_NAME_CHANGE"		19013859	"São Francisco FC (AC)"					""
 "CLUB_SHORT_NAME_CHANGE"	19013859	"São Francisco-AC"					""
 
@@ -13574,6 +13667,7 @@
 "CLUB_NAME_CHANGE"		19019862	"Caucaia EC"						""
 "CLUB_SHORT_NAME_CHANGE"	19019862	"Caucaia"						""
 
+"CLUB_CITY_CHANGE"		19023455	"320685"						"" # <Resende (RJ)>
 "CLUB_NAME_CHANGE"		19023455	"Resende FC"						""
 "CLUB_SHORT_NAME_CHANGE"	19023455	"Resende"						""
 
@@ -13581,9 +13675,11 @@
 "CLUB_NAME_CHANGE"		19072706	"FC Cascavel"						""
 "CLUB_SHORT_NAME_CHANGE"	19072706	"Cascavel"						""
 
+"CLUB_CITY_CHANGE"		19138845	"8825007"						"" # <Barra do Corda (MA)>
 "CLUB_NAME_CHANGE"		19138845	"Cordino EC"						""
 "CLUB_SHORT_NAME_CHANGE"	19138845	"Cordino"						""
 
+"CLUB_CITY_CHANGE"		19140720	"19018607"						"" # <Águia Branca (ES)>
 "CLUB_NAME_CHANGE"		19140720	"Real Noroeste Capixaba FC"				""
 "CLUB_SHORT_NAME_CHANGE"	19140720	"Real Noroeste"						""
 
@@ -13591,9 +13687,11 @@
 "CLUB_NAME_CHANGE"		19145268	"Maringá FC"						""
 "CLUB_SHORT_NAME_CHANGE"	19145268	"Maringá"						""
 
+"CLUB_CITY_CHANGE"		19166112	"313173"						"" # <Ariquemes (RO)>
 "CLUB_NAME_CHANGE"		19166112	"Real Ariquemes EC"					""
 "CLUB_SHORT_NAME_CHANGE"	19166112	"Real Ariquemes"					""
 
+"CLUB_CITY_CHANGE"		19189354	"8834928"						"" # <Iguatu (CE)>
 "CLUB_NAME_CHANGE"		19189354	"AD Iguatu"						""
 "CLUB_SHORT_NAME_CHANGE"	19189354	"Iguatu"						""
 "CLUB_6LETTER_NAME_CHANGE"	19189354	"Iguatu"						""
@@ -13602,29 +13700,37 @@
 "CLUB_NAME_CHANGE"		19216006	"EC Cruzeiro de Arapiraca"				""
 "CLUB_SHORT_NAME_CHANGE"	19216006	"Cruzeiro de Arapiraca"					""
 
+"CLUB_CITY_CHANGE"		19222407	"321180"						"" # <Ceará-Mirim (RN)>
 "CLUB_NAME_CHANGE"		19222407	"Globo FC"						""
 "CLUB_SHORT_NAME_CHANGE"	19222407	"Globo"							""
 "CLUB_6LETTER_NAME_CHANGE"	19222407	"Globo"							""
 
+"CLUB_CITY_CHANGE"		19295431	"310885"						"" # <Patrocínio (MG)>
 "CLUB_NAME_CHANGE"		19295431	"Clube Atlético Patrocinense"				""
 "CLUB_SHORT_NAME_CHANGE"	19295431	"Atlético Patrocinense"					""
 
+"CLUB_CITY_CHANGE"		19300025	"301089"						"" # <São José dos Pinhais (PR)>
 "CLUB_NAME_CHANGE"		19300025	"Independente Futebol São-Joseense"			""
 "CLUB_SHORT_NAME_CHANGE"	19300025	"São-Joseense"						""
 
+"CLUB_CITY_CHANGE"		19300082	"19117297"						"" # <Porto Acre (AC)>
 "CLUB_NAME_CHANGE"		19300082	"SC Humaitá (AC)"					""
 "CLUB_SHORT_NAME_CHANGE"	19300082	"Humaitá-AC"						""
 
+"CLUB_CITY_CHANGE"		19342677	"320511"						"" # <São João del Rei (MG)>
 #"CLUB_NAME_CHANGE"		19342677	"Athletic Club (MG)"					""
 #"CLUB_SHORT_NAME_CHANGE"	19342677	"Athletic Club (MG)"					""
 
+"CLUB_CITY_CHANGE"		19343525	"19060772"						"" # <Pacajus (CE)>
 "CLUB_NAME_CHANGE"		19343525	"Pacajus EC"						""
 "CLUB_SHORT_NAME_CHANGE"	19343525	"Pacajus"						""
 
+"CLUB_CITY_CHANGE"		19382040	"8832299"						"" # <Camaragibe (PE)>
 "CLUB_NAME_CHANGE"		19382040	"Retrô FC Brasil"					""
 "CLUB_SHORT_NAME_CHANGE"	19382040	"Retrô"							""
 "CLUB_6LETTER_NAME_CHANGE"	19382040	"Retrô"							""
 
+"CLUB_CITY_CHANGE"		2000106888	"102522"						"" # <Aracaju (SE)>
 "CLUB_NAME_CHANGE"		2000106888	"Falcon FC (SE)"					""
 "CLUB_SHORT_NAME_CHANGE"	2000106888	"Falcon-SE"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000106888	"Falcon"						""
@@ -13997,7 +14103,7 @@
 
 # CLUB > CONMEBOL > [COL] COLOMBIA > [5260950] Torneo BetPlay DIMAYOR (2023)
 #==============================================================================
-"CLUB_CITY_CHANGE"		312		"8825512"						"" # <Palmira (VC)>
+"CLUB_CITY_CHANGE"		312		"303787"						"" # <Tuluá (VC)>
 "CLUB_NAME_CHANGE"		312		"Internacional FC de Palmira"				""
 "CLUB_SHORT_NAME_CHANGE"	312		"Inter Palmira"						""
 "CLUB_3LETTER_NAME_CHANGE"	312		"INP"							""
@@ -14007,6 +14113,7 @@
 "CLUB_SHORT_NAME_CHANGE"	130801		"Real Cartagena"					""
 "CLUB_3LETTER_NAME_CHANGE"	130801		"CAR"							""
 
+"CLUB_CITY_CHANGE"		130803		"303774"						"" # <Armenia (QD)>
 "CLUB_NAME_CHANGE"		130803		"Corporación Deportes Quindío"				""
 "CLUB_SHORT_NAME_CHANGE"	130803		"Dep. Quindío"						""
 "CLUB_3LETTER_NAME_CHANGE"	130803		"QUI"							""
@@ -14029,6 +14136,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	309353		"Bogotá"						""
 "CLUB_3LETTER_NAME_CHANGE"	309353		"BOG"							""
 
+"CLUB_CITY_CHANGE"		2200063		"303777"						"" # <Cali (VC)>
 "CLUB_NAME_CHANGE"		2200063		"Atlético FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2200063		"Atlético FC"						""
 "CLUB_3LETTER_NAME_CHANGE"	2200063		"ATL"							""
@@ -14039,6 +14147,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5260969		"Boca"							""
 "CLUB_3LETTER_NAME_CHANGE"	5260969		"BJC"							""
 
+"CLUB_CITY_CHANGE"		5261737		"5261623"						"" # <Soacha (CU)>
 "CLUB_NAME_CHANGE"		5261737		"Tigres FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5261737		"Tigres"						""
 "CLUB_6LETTER_NAME_CHANGE"	5261737		"Tigres"						""
@@ -14049,26 +14158,32 @@
 "CLUB_SHORT_NAME_CHANGE"	5261738		"Barranquilla"						""
 "CLUB_3LETTER_NAME_CHANGE"	5261738		"BAR"							""
 
+"CLUB_CITY_CHANGE"		5261740		"5261736"						"" # <Tunja (BY)>
 "CLUB_NAME_CHANGE"		5261740		"Patriotas Boyacá FC"					""
 "CLUB_SHORT_NAME_CHANGE"	5261740		"Patriotas Boyacá"					""
 "CLUB_3LETTER_NAME_CHANGE"	5261740		"PAT"							""
 
+"CLUB_CITY_CHANGE"		76003535	"76021230"						"" # <Piedecuesta (ST)>
 "CLUB_NAME_CHANGE"		76003535	"CD Real Santander"					""
 "CLUB_SHORT_NAME_CHANGE"	76003535	"Real Santander"					""
 "CLUB_3LETTER_NAME_CHANGE"	76003535	"RSA"							""
 
+"CLUB_CITY_CHANGE"		76019314	"102990"						"" # <Bogotá>
 "CLUB_NAME_CHANGE"		76019314	"Fortaleza CEIF FC"					""
 "CLUB_SHORT_NAME_CHANGE"	76019314	"Fortaleza CEIF"					""
 "CLUB_3LETTER_NAME_CHANGE"	76019314	"FOR"							""
 
+"CLUB_CITY_CHANGE"		76033284	"5260945"						"" # <Villavicencio (ME)>
 "CLUB_NAME_CHANGE"		76033284	"Llaneros FC"						""
 "CLUB_SHORT_NAME_CHANGE"	76033284	"Llaneros"						""
 "CLUB_3LETTER_NAME_CHANGE"	76033284	"LLA"							""
 
+"CLUB_CITY_CHANGE"		76045729	"8825512"						"" # <Palmira (VC)>
 "CLUB_NAME_CHANGE"		76045729	"Orsomarso SC"						""
 "CLUB_SHORT_NAME_CHANGE"	76045729	"Orsomarso"						""
 "CLUB_3LETTER_NAME_CHANGE"	76045729	"ORS"							""
 
+"CLUB_CITY_CHANGE"		2000273045	"5261623"						"" # <Soacha (CU)>
 "CLUB_NAME_CHANGE"		2000273045	"Real Cundinamarca"					""
 "CLUB_SHORT_NAME_CHANGE"	2000273045	"Real Cundinamarca"					""
 "CLUB_3LETTER_NAME_CHANGE"	2000273045	"RCU"							""
@@ -14159,15 +14274,18 @@
 
 # CLUB > CONMEBOL > [ECU] ECUADOR > [80000566] LigaPro Serie A (2024)
 #==============================================================================
+"CLUB_CITY_CHANGE"		109177		"102994"						"" # <Guayaquil (GU)>
 "CLUB_NAME_CHANGE"		109177		"CS Emelec"						""
 "CLUB_SHORT_NAME_CHANGE"	109177		"Emelec"						""
 "CLUB_6LETTER_NAME_CHANGE"	109177		"Emelec"						""
 "CLUB_3LETTER_NAME_CHANGE"	109177		"EME"							""
 
+"CLUB_CITY_CHANGE"		109178		"102992"						"" # <Quito (PI)>
 "CLUB_NAME_CHANGE"		109178		"CD El Nacional"					""
 "CLUB_SHORT_NAME_CHANGE"	109178		"El Nacional"						""
 "CLUB_3LETTER_NAME_CHANGE"	109178		"NAC"							""
 
+"CLUB_CITY_CHANGE"		109180		"102994"						"" # <Guayaquil (GU)>
 "CLUB_NAME_CHANGE"		109180		"Barcelona SC"						""
 "CLUB_SHORT_NAME_CHANGE"	109180		"Barcelona SC"						""
 "CLUB_6LETTER_NAME_CHANGE"	109180		"BSC"							""
@@ -14179,16 +14297,19 @@
 "CLUB_6LETTER_NAME_CHANGE"	120979		"Cuenca"						""
 "CLUB_3LETTER_NAME_CHANGE"	120979		"CUE"							""
 
+"CLUB_CITY_CHANGE"		131108		"131110"						"" # <Ambato (TU)>
 "CLUB_NAME_CHANGE"		131108		"CSD Macará"						""
 "CLUB_SHORT_NAME_CHANGE"	131108		"Macará"						""
 "CLUB_6LETTER_NAME_CHANGE"	131108		"Macará"						""
 "CLUB_3LETTER_NAME_CHANGE"	131108		"MAC"							""
 
+"CLUB_CITY_CHANGE"		308091		"102992"						"" # <Quito (PI)>
 "CLUB_NAME_CHANGE"		308091		"SD Aucas"						""
 "CLUB_SHORT_NAME_CHANGE"	308091		"Aucas"							""
 "CLUB_6LETTER_NAME_CHANGE"	308091		"Aucas"							""
 "CLUB_3LETTER_NAME_CHANGE"	308091		"AUC"							""
 
+"CLUB_CITY_CHANGE"		5270169		"5270171"						"" # <Manta (MA)>
 "CLUB_NAME_CHANGE"		5270169		"Delfín SC"						""
 "CLUB_SHORT_NAME_CHANGE"	5270169		"Delfín"						""
 "CLUB_6LETTER_NAME_CHANGE"	5270169		"Delfín"						""
@@ -14200,27 +14321,33 @@
 "CLUB_6LETTER_NAME_CHANGE"	5270338		"LDU"							""
 "CLUB_3LETTER_NAME_CHANGE"	5270338		"LDU"							""
 
+"CLUB_CITY_CHANGE"		5270339		"131110"						"" # <Ambato (TU)>
 "CLUB_NAME_CHANGE"		5270339		"CD Técnico Universitario"				""
 "CLUB_SHORT_NAME_CHANGE"	5270339		"Técnico Universitario"					""
 "CLUB_3LETTER_NAME_CHANGE"	5270339		"TEC"							""
 
+"CLUB_CITY_CHANGE"		5270423		"102992"						"" # <Quito (PI)>
 "CLUB_NAME_CHANGE"		5270423		"CD Universidad Católica del Ecuador"			""
 "CLUB_SHORT_NAME_CHANGE"	5270423		"Univ. Católica"					""
 "CLUB_3LETTER_NAME_CHANGE"	5270423		"UCT"							""
 
+"CLUB_CITY_CHANGE"		80000476	"86013923"						"" # <Atuntaqui (IM)>
 "CLUB_NAME_CHANGE"		80000476	"Imbabura SC"						""
 "CLUB_SHORT_NAME_CHANGE"	80000476	"Imbabura"						""
 "CLUB_3LETTER_NAME_CHANGE"	80000476	"IMB"							""
 
+"CLUB_CITY_CHANGE"		80001277	"8830022"						"" # <Sangolquí (PI)>
 "CLUB_NAME_CHANGE"		80001277	"Club Independiente del Valle"				""
 "CLUB_SHORT_NAME_CHANGE"	80001277	"Independiente del Valle"				""
 "CLUB_6LETTER_NAME_CHANGE"	80001277	"IDV"							""
 "CLUB_3LETTER_NAME_CHANGE"	80001277	"IDV"							""
 
+"CLUB_CITY_CHANGE"		86018286	"131110"						"" # <Ambato (TU)>
 "CLUB_NAME_CHANGE"		86018286	"Mushuc Runa SC"					""
 "CLUB_SHORT_NAME_CHANGE"	86018286	"Mushuc Runa"						""
 "CLUB_3LETTER_NAME_CHANGE"	86018286	"MUS"							""
 
+"CLUB_CITY_CHANGE"		86047634	"5270465"						"" # <Machala (EO)>
 "CLUB_NAME_CHANGE"		86047634	"Orense SC"						""
 "CLUB_SHORT_NAME_CHANGE"	86047634	"Orense"						""
 "CLUB_6LETTER_NAME_CHANGE"	86047634	"Orense"						""
@@ -14245,6 +14372,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5270358		"Manta"							""
 "CLUB_3LETTER_NAME_CHANGE"	5270358		"MAN"							""
 
+"CLUB_CITY_CHANGE"		5270435		"102994"						"" # <Guayaquil (GU)>
 "CLUB_NAME_CHANGE"		5270435		"9 de Octubre FC"					""
 "CLUB_SHORT_NAME_CHANGE"	5270435		"9 de Octubre"						""
 "CLUB_3LETTER_NAME_CHANGE"	5270435		"9FC"							""
@@ -14258,28 +14386,34 @@
 "CLUB_NAME_CHANGE"		86030096	"Gualaceo SC"						""
 "CLUB_SHORT_NAME_CHANGE"	86030096	"Gualaceo"						""
 
+"CLUB_CITY_CHANGE"		86032914	"86032912"						"" # <Cayambe (PI)>
 "CLUB_NAME_CHANGE"		86032914	"Cuniburo FC"						""
 "CLUB_SHORT_NAME_CHANGE"	86032914	"Cuniburo"						""
 "CLUB_3LETTER_NAME_CHANGE"	86032914	"CUN"							""
 
 "AFFILIATED_CLUB_ID"		86075307	"BT-80001277"						"" # [ECU] Independiente del Valle
+"CLUB_CITY_CHANGE"		86075307	"8830022"						"" # <Sangolquí (PI)>
 "CLUB_NAME_CHANGE"		86075307	"CD Independiente Juniors"				""
 "CLUB_SHORT_NAME_CHANGE"	86075307	"Independiente Jrs."					""
 
+"CLUB_CITY_CHANGE"		2000004586	"86055010"						"" # <Pelileo (TU)>
 "CLUB_NAME_CHANGE"		2000004586	"Chacaritas FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000004586	"Chacaritas"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000004586	"CHA"							""
 
+"CLUB_CITY_CHANGE"		2000076121	"5270467"						"" # <Esmeraldas (ES)>
 "CLUB_NAME_CHANGE"		2000076121	"CD Vargas Torres"					""
 "CLUB_SHORT_NAME_CHANGE"	2000076121	"Vargas Torres"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000076121	"VAR"							""
 
+"CLUB_CITY_CHANGE"		2000076131	"86013923"						"" # <Atuntaqui (IM)>
 "CLUB_NAME_CHANGE"		2000076131	"CD Leones del Norte"					""
 "CLUB_SHORT_NAME_CHANGE"	2000076131	"Leones del Norte"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000076131	"LDN"							""
 "CLUB_3LETTER_NAME_CHANGE"	2000076131	"LDN"							""
 
 "AFFILIATED_CLUB_ID"		2000079036	"BT-5270423"						"" # [ECU] Univ. Católica
+"CLUB_CITY_CHANGE"		2000079036	"102992"						"" # <Quito (PI)>
 "CLUB_NAME_CHANGE"		2000079036	"San Antonio FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000079036	"San Antonio"						""
 
@@ -14291,10 +14425,12 @@
 "CLUB_SHORT_NAME_CHANGE"	5270424		"América de Quito"					""
 
 "AFFILIATED_CLUB_ID"		80001366	"BT-109180"						"" # [ECU] Barcelona SC
+"CLUB_CITY_CHANGE"		80001366	"102994"						"" # <Guayaquil (GU)>
 "CLUB_NAME_CHANGE"		80001366	"Toreros FC"						""
 "CLUB_SHORT_NAME_CHANGE"	80001366	"Toreros"						""
 
 "AFFILIATED_CLUB_ID"		80006891	"BT-109177"						"" # [ECU] Emelec
+"CLUB_CITY_CHANGE"		80006891	"102994"						"" # <Guayaquil (GU)>
 "CLUB_NAME_CHANGE"		80006891	"Rocafuerte FC"						""
 "CLUB_SHORT_NAME_CHANGE"	80006891	"Rocafuerte"						""
 
@@ -14310,50 +14446,62 @@
 
 # CLUB > CONMEBOL > [PAR] PARAGUAY > [79010950] Copa de Primera APF (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1445		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		1445		"Club Cerro Porteño"					""
 "CLUB_SHORT_NAME_CHANGE"	1445		"Cerro Porteño"						""
 "CLUB_3LETTER_NAME_CHANGE"	1445		"CCP"							""
 
+"CLUB_CITY_CHANGE"		102924		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		102924		"Club Olimpia"						""
 "CLUB_SHORT_NAME_CHANGE"	102924		"Olimpia"						""
 "CLUB_3LETTER_NAME_CHANGE"	102924		"OLI"							""
 
+"CLUB_CITY_CHANGE"		106071		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		106071		"Club Guaraní"						""
 "CLUB_SHORT_NAME_CHANGE"	106071		"Guaraní"						""
 "CLUB_3LETTER_NAME_CHANGE"	106071		"GUA"							""
 
+"CLUB_CITY_CHANGE"		106072		"5280179"						"" # <Luque (CE)>
 "CLUB_NAME_CHANGE"		106072		"Club Sportivo Luqueño"					""
 "CLUB_SHORT_NAME_CHANGE"	106072		"Spvo. Luqueño"						""
 "CLUB_3LETTER_NAME_CHANGE"	106072		"LUQ"							""
 
+"CLUB_CITY_CHANGE"		5280161		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280161		"Club Libertad"						""
 "CLUB_SHORT_NAME_CHANGE"	5280161		"Libertad"						""
 "CLUB_3LETTER_NAME_CHANGE"	5280161		"LIB"							""
 
+"CLUB_CITY_CHANGE"		5280210		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280210		"Resistencia SC"					""
 "CLUB_SHORT_NAME_CHANGE"	5280210		"Resistencia"						""
 "CLUB_3LETTER_NAME_CHANGE"	5280210		"RES"							""
 
+"CLUB_CITY_CHANGE"		5280216		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280216		"Club Sportivo Trinidense"				""
 "CLUB_SHORT_NAME_CHANGE"	5280216		"Spvo. Trinidense"					""
 "CLUB_3LETTER_NAME_CHANGE"	5280216		"TRI"							""
 
+"CLUB_CITY_CHANGE"		5280337		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280337		"Club Nacional (PY)"					""
 "CLUB_SHORT_NAME_CHANGE"	5280337		"Nacional PY"						""
 "CLUB_3LETTER_NAME_CHANGE"	5280337		"NAC"							""
 
+"CLUB_CITY_CHANGE"		5280339		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280339		"Club Tacuary FBC"					""
 "CLUB_SHORT_NAME_CHANGE"	5280339		"Tacuary"						""
 "CLUB_3LETTER_NAME_CHANGE"	5280339		"TAC"							""
 
+"CLUB_CITY_CHANGE"		5280352		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280352		"Club Sportivo Ameliano"				""
 "CLUB_SHORT_NAME_CHANGE"	5280352		"Spvo. Ameliano"					""
 "CLUB_3LETTER_NAME_CHANGE"	5280352		"AME"							""
 
+"CLUB_CITY_CHANGE"		79024244	"79000008"						"" # <Villarrica (GU)>
 "CLUB_NAME_CHANGE"		79024244	"Guaireña FC"						""
 "CLUB_SHORT_NAME_CHANGE"	79024244	"Guaireña"						""
 "CLUB_3LETTER_NAME_CHANGE"	79024244	"GFC"							""
 
+"CLUB_CITY_CHANGE"		79030602	"79030583"						"" # <Juan León Mallorquín (AN)>
 "CLUB_NAME_CHANGE"		79030602	"Club General Bernardino Caballero JLM"			""
 "CLUB_SHORT_NAME_CHANGE"	79030602	"General Caballero JLM"					""
 "CLUB_3LETTER_NAME_CHANGE"	79030602	"GCM"							""
@@ -14361,13 +14509,16 @@
 
 # CLUB > CONMEBOL > [PAR] PARAGUAY > [79010962] AFP Intermedia (2023)
 #==============================================================================
-"CLUB_NAME_CHANGE"		102939		"Club Sol de América"					""
-"CLUB_SHORT_NAME_CHANGE"	102939		"Sol de América"					""
-"CLUB_3LETTER_NAME_CHANGE"	102939		"SOL"							""
+"CLUB_CITY_CHANGE"		120939		"79000002"						"" # <Villa Elisa (CE)>
+"CLUB_NAME_CHANGE"		120939		"Club Sol de América"					""
+"CLUB_SHORT_NAME_CHANGE"	120939		"Sol de América"					""
+"CLUB_3LETTER_NAME_CHANGE"	120939		"SOL"							""
 
+"CLUB_CITY_CHANGE"		120942		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		120942		"CA Colegiales"						""
 "CLUB_SHORT_NAME_CHANGE"	120942		"Colegiales"						""
 
+"CLUB_CITY_CHANGE"		5280160		"5280180"						"" # <Itauguá (CE)>
 "CLUB_NAME_CHANGE"		5280160		"12 de Octubre FC"					""
 "CLUB_SHORT_NAME_CHANGE"	5280160		"12 de Octubre"						""
 "CLUB_6LETTER_NAME_CHANGE"	5280160		"12O"							""
@@ -14376,34 +14527,40 @@
 "CLUB_NAME_CHANGE"		5280181		"Club Sportivo San Lorenzo"				""
 "CLUB_SHORT_NAME_CHANGE"	5280181		"Spvo. San Lorenzo"					""
 
+"CLUB_CITY_CHANGE"		5280214		"5280328"						"" # <Pedro Juan Caballero (AM)>
 "CLUB_NAME_CHANGE"		5280214		"Club 2 de Mayo"					""
 "CLUB_SHORT_NAME_CHANGE"	5280214		"2 de Mayo"						""
 "CLUB_6LETTER_NAME_CHANGE"	5280214		"2DM"							""
 
+"CLUB_CITY_CHANGE"		5280218		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280218		"Club Deportivo Recoleta"				""
 "CLUB_SHORT_NAME_CHANGE"	5280218		"Dep. Recoleta"						""
 "CLUB_3LETTER_NAME_CHANGE"	5280218		"REC"							""
 
+"CLUB_CITY_CHANGE"		5280220		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280220		"Club Rubio Ñu"						""
 "CLUB_SHORT_NAME_CHANGE"	5280220		"Rubio Ñu"						""
 "CLUB_3LETTER_NAME_CHANGE"	5280220		"RUB"							""
 
+"CLUB_CITY_CHANGE"		5280336		"5280177"						"" # <Ciudad del Este (AN)>
 "CLUB_NAME_CHANGE"		5280336		"CA 3 de Febrero (CE)"					""
 "CLUB_SHORT_NAME_CHANGE"	5280336		"3 de Febrero (CE)"					""
 "CLUB_6LETTER_NAME_CHANGE"	5280336		"3DF"							""
 
-"CLUB_CITY_CHANGE"		5280347		"5280349"						"" # <Campo Grande>
+"CLUB_CITY_CHANGE"		5280347		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280347		"Independiente FBC de Campo Grande"			""
 "CLUB_SHORT_NAME_CHANGE"	5280347		"Independiente CG"					""
 "CLUB_3LETTER_NAME_CHANGE"	5280347		"ICG"							""
 
-"CLUB_CITY_CHANGE"		5280357		"79000001"						"" # <Fernando de la Mora (CE)>
+"CLUB_CITY_CHANGE"		5280357		"102926"						"" # <Asunción>
 "CLUB_NAME_CHANGE"		5280357		"Club Fernando de la Mora"				""
 "CLUB_SHORT_NAME_CHANGE"	5280357		"Fernando de la Mora"					""
 
+"CLUB_CITY_CHANGE"		79003052	"5280706"						"" # <Capiatá (CE)>
 "CLUB_NAME_CHANGE"		79003052	"Club General Martín Ledesma"				""
 "CLUB_SHORT_NAME_CHANGE"	79003052	"Martín Ledesma"					""
 
+"CLUB_CITY_CHANGE"		79012073	"79012075"						"" # <San Estanislao (SP)>
 "CLUB_NAME_CHANGE"		79012073	"Club Deportivo Santaní"				""
 "CLUB_SHORT_NAME_CHANGE"	79012073	"Dep. Santaní"						""
 
@@ -14411,6 +14568,7 @@
 "CLUB_NAME_CHANGE"		79012659	"Club Sportivo Carapeguá"				""
 "CLUB_SHORT_NAME_CHANGE"	79012659	"Spvo. Carapeguá"					""
 
+"CLUB_CITY_CHANGE"		79029148	"79003020"						"" # <Areguá (CE)>
 "CLUB_NAME_CHANGE"		79029148	"Club 24 de Setiembre (VP)"				""
 "CLUB_SHORT_NAME_CHANGE"	79029148	"24 de Setiembre (VP)"					""
 "CLUB_6LETTER_NAME_CHANGE"	79029148	"24S"							""
@@ -14420,6 +14578,7 @@
 "CLUB_SHORT_NAME_CHANGE"	79033840	"Atyrá"							""
 "CLUB_6LETTER_NAME_CHANGE"	79033840	"Atyrá"							""
 
+"CLUB_CITY_CHANGE"		2000014036	"2000001039"						"" # <Juan Manuel Frutos (CG)>
 "CLUB_NAME_CHANGE"		2000014036	"Pastoreo FC"						""
 "CLUB_SHORT_NAME_CHANGE"	2000014036	"Pastoreo"						""
 
@@ -14439,14 +14598,17 @@
 
 # CLUB > CONMEBOL > [PER] PERU > [5290551] Liga 1 Peru (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1446		"102996"						"" # <Lima>
 "CLUB_NAME_CHANGE"		1446		"Club Centro Deportivo Municipal"			""
 "CLUB_SHORT_NAME_CHANGE"	1446		"Municipal"						""
 "CLUB_3LETTER_NAME_CHANGE"	1446		"MUN"							""
 
+"CLUB_CITY_CHANGE"		1449		"102996"						"" # <Lima>
 "CLUB_NAME_CHANGE"		1449		"Club Sporting Cristal"					""
 "CLUB_SHORT_NAME_CHANGE"	1449		"Sporting Cristal"					""
 "CLUB_3LETTER_NAME_CHANGE"	1449		"CSC"							""
 
+"CLUB_CITY_CHANGE"		1450		"102996"						"" # <Lima>
 "CLUB_NAME_CHANGE"		1450		"Club Universitario de Deportes"			""
 "CLUB_SHORT_NAME_CHANGE"	1450		"Universitario"						""
 "CLUB_3LETTER_NAME_CHANGE"	1450		"UNI"							""
@@ -14456,11 +14618,13 @@
 "CLUB_SHORT_NAME_CHANGE"	117754		"Alianza Lima"						""
 "CLUB_3LETTER_NAME_CHANGE"	117754		"ALI"							""
 
+"CLUB_CITY_CHANGE"		303815		"303804"						"" # <Arequipa>
 "CLUB_NAME_CHANGE"		303815		"FBC Melgar"						""
 "CLUB_SHORT_NAME_CHANGE"	303815		"Melgar"						""
 "CLUB_6LETTER_NAME_CHANGE"	303815		"Melgar"						""
 "CLUB_3LETTER_NAME_CHANGE"	303815		"MEL"							""
 
+"CLUB_CITY_CHANGE"		303816		"303803"						"" # <Callao>
 "CLUB_NAME_CHANGE"		303816		"Sport Boys Association"				""
 "CLUB_SHORT_NAME_CHANGE"	303816		"Sport Boys"						""
 "CLUB_6LETTER_NAME_CHANGE"	303816		"SBA"							""
@@ -14471,14 +14635,17 @@
 "CLUB_SHORT_NAME_CHANGE"	308104		"Alianza Atlético"					""
 "CLUB_3LETTER_NAME_CHANGE"	308104		"AAS"							""
 
+"CLUB_CITY_CHANGE"		308107		"308109"						"" # <Cusco>
 "CLUB_NAME_CHANGE"		308107		"Club Cienciano"					""
 "CLUB_SHORT_NAME_CHANGE"	308107		"Cienciano"						""
 "CLUB_3LETTER_NAME_CHANGE"	308107		"CIE"							""
 
+"CLUB_CITY_CHANGE"		5290560		"5290562"						"" # <Piura>
 "CLUB_NAME_CHANGE"		5290560		"Club Atlético Grau"					""
 "CLUB_SHORT_NAME_CHANGE"	5290560		"Atlético Grau"						""
 "CLUB_3LETTER_NAME_CHANGE"	5290560		"CAG"							""
 
+"CLUB_CITY_CHANGE"		5290566		"308116"						"" # <Trujillo>
 "CLUB_NAME_CHANGE"		5290566		"CD Universidad César Vallejo"				""
 "CLUB_SHORT_NAME_CHANGE"	5290566		"Univ. César Vallejo"					""
 "CLUB_6LETTER_NAME_CHANGE"	5290566		"UCV"							""
@@ -14490,6 +14657,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	5290571		"UTC"							""
 "CLUB_3LETTER_NAME_CHANGE"	5290571		"UTC"							""
 
+"CLUB_CITY_CHANGE"		5290593		"308109"						"" # <Cusco>
 "CLUB_NAME_CHANGE"		5290593		"Club Deportivo Garcilaso"				""
 "CLUB_SHORT_NAME_CHANGE"	5290593		"Dep. Garcilaso"					""
 "CLUB_3LETTER_NAME_CHANGE"	5290593		"GAR"							""
@@ -14500,10 +14668,12 @@
 "CLUB_6LETTER_NAME_CHANGE"	5290626		"ADT"							""
 "CLUB_3LETTER_NAME_CHANGE"	5290626		"ADT"							""
 
+"CLUB_CITY_CHANGE"		5290629		"308116"						"" # <Trujillo>
 "CLUB_NAME_CHANGE"		5290629		"CSD Carlos A. Mannucci"				""
 "CLUB_SHORT_NAME_CHANGE"	5290629		"Carlos A. Mannucci"					""
 "CLUB_3LETTER_NAME_CHANGE"	5290629		"MAN"							""
 
+"CLUB_CITY_CHANGE"		77002090	"77046881"						"" # <La Punta>
 "CLUB_NAME_CHANGE"		77002090	"Academia Deportiva Cantolao"				""
 "CLUB_SHORT_NAME_CHANGE"	77002090	"Academia Cantolao"					""
 "CLUB_6LETTER_NAME_CHANGE"	77002090	"ADC"							""
@@ -14514,6 +14684,7 @@
 "CLUB_SHORT_NAME_CHANGE"	77005796	"Sport Huancayo"					""
 "CLUB_3LETTER_NAME_CHANGE"	77005796	"HUA"							""
 
+"CLUB_CITY_CHANGE"		77016717	"77047239"						"" # <Nueva Cajamarca>
 "CLUB_NAME_CHANGE"		77016717	"CD Unión Comercio"					""
 "CLUB_SHORT_NAME_CHANGE"	77016717	"Unión Comercio"					""
 "CLUB_3LETTER_NAME_CHANGE"	77016717	"UCO"							""
@@ -14524,6 +14695,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	77017082	"Cusco"							""
 "CLUB_3LETTER_NAME_CHANGE"	77017082	"CUS"							""
 
+"CLUB_CITY_CHANGE"		77029556	"77001477"						"" # <Juliaca>
 "CLUB_NAME_CHANGE"		77029556	"Deportivo Binacional FC"				""
 "CLUB_SHORT_NAME_CHANGE"	77029556	"Binacional"						""
 "CLUB_3LETTER_NAME_CHANGE"	77029556	"BIN"							""
@@ -14531,9 +14703,11 @@
 
 # CLUB > CONMEBOL > [PER] PERU > [5290553] Liga 2 Peru (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		308111		"308113"						"" # <Chiclayo>
 "CLUB_NAME_CHANGE"		308111		"Club Juan Aurich"					""
 "CLUB_SHORT_NAME_CHANGE"	308111		"Juan Aurich"						""
 
+"CLUB_CITY_CHANGE"		5290187		"8826313"						"" # <Chancay>
 "CLUB_NAME_CHANGE"		5290187		"Club Deportivo Coopsol"				""
 "CLUB_SHORT_NAME_CHANGE"	5290187		"Dep. Coopsol"						""
 
@@ -14541,14 +14715,16 @@
 "CLUB_NAME_CHANGE"		5290523		"Club Social Unión Huaral"				""
 "CLUB_SHORT_NAME_CHANGE"	5290523		"Unión Huaral"						""
 
+"CLUB_CITY_CHANGE"		5290594		"5290596"						"" # <Puno>
 "CLUB_NAME_CHANGE"		5290594		"CD Alfonso Ugarte"					""
 "CLUB_SHORT_NAME_CHANGE"	5290594		"Alfonso Ugarte"					""
 
-"CLUB_CITY_CHANGE"		8832487		"77051511"						"" # <San Martín de Porres>
+"CLUB_CITY_CHANGE"		8832487		"102996"						"" # <Lima>
 "CLUB_NAME_CHANGE"		8832487		"CD Universidad de San Martín de Porres"		""
 "CLUB_SHORT_NAME_CHANGE"	8832487		"Univ. San Martín"					""
 "CLUB_6LETTER_NAME_CHANGE"	8832487		"USMP"							""
 
+"CLUB_CITY_CHANGE"		77004040	"5290588"						"" # <Huánuco>
 "CLUB_NAME_CHANGE"		77004040	"CSD Alianza Universidad"				""
 "CLUB_SHORT_NAME_CHANGE"	77004040	"Alianza UDH"						""
 "CLUB_3LETTER_NAME_CHANGE"	77004040	"AUH"							""
@@ -14558,15 +14734,19 @@
 "CLUB_SHORT_NAME_CHANGE"	77005834	"Ayacucho"						""
 "CLUB_3LETTER_NAME_CHANGE"	77005834	"AYA"							""
 
+"CLUB_CITY_CHANGE"		77016700	"77046476"						"" # <Cutervo>
 "CLUB_NAME_CHANGE"		77016700	"CD Comerciantes Unidos"				""
 "CLUB_SHORT_NAME_CHANGE"	77016700	"Comerciantes Unidos"					""
 
+"CLUB_CITY_CHANGE"		77050930	"77002867"						"" # <Andahuaylas>
 "CLUB_NAME_CHANGE"		77050930	"CD Los Chankas CYC"					""
 "CLUB_SHORT_NAME_CHANGE"	77050930	"Los Chankas"						""
 
+"CLUB_CITY_CHANGE"		77060049	"308113"						"" # <Chiclayo>
 "CLUB_NAME_CHANGE"		77060049	"FC Carlos Stein"					""
 "CLUB_SHORT_NAME_CHANGE"	77060049	"Carlos Stein"						""
 
+"CLUB_CITY_CHANGE"		77060228	"308113"						"" # <Chiclayo>
 "CLUB_NAME_CHANGE"		77060228	"Pirata FC"						""
 "CLUB_SHORT_NAME_CHANGE"	77060228	"Pirata"						""
 "CLUB_6LETTER_NAME_CHANGE"	77060228	"Pirata"						""
@@ -14575,10 +14755,11 @@
 "CLUB_NAME_CHANGE"		77062708	"Club Social Santos de Nazca"				""
 "CLUB_SHORT_NAME_CHANGE"	77062708	"Santos de Nazca"					""
 
-"CLUB_CITY_CHANGE"		77064268	"n-2000341169"						"" # <Llacuabamba>
+"CLUB_CITY_CHANGE"		77064268	"n-2000341168"						"" # <Pataz>
 "CLUB_NAME_CHANGE"		77064268	"CSC Deportivo Llacuabamba"				""
 "CLUB_SHORT_NAME_CHANGE"	77064268	"Dep. Llacuabamba"					""
 
+"CLUB_CITY_CHANGE"		2000261238	"5290575"						"" # <Iquitos>
 "CLUB_NAME_CHANGE"		2000261238	"AD Comerciantes FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000261238	"AD Comerciantes"					""
 
@@ -14603,15 +14784,18 @@
 
 # CLUB > CONMEBOL > [URU] URUGUAY > [5512770] Liga AUF Uruguaya (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1917		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1917		"CA Cerro"						""
 "CLUB_SHORT_NAME_CHANGE"	1917		"Cerro"							""
 "CLUB_6LETTER_NAME_CHANGE"	1917		"Cerro"							""
 "CLUB_3LETTER_NAME_CHANGE"	1917		"CRR"							""
 
+"CLUB_CITY_CHANGE"		1918		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1918		"Danubio FC"						""
 "CLUB_SHORT_NAME_CHANGE"	1918		"Danubio"						""
 #"CLUB_3LETTER_NAME_CHANGE"	1918		"DANU"							""
 
+"CLUB_CITY_CHANGE"		1919		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1919		"Defensor SC"						""
 "CLUB_SHORT_NAME_CHANGE"	1919		"Defensor SC"						""
 "CLUB_3LETTER_NAME_CHANGE"	1919		"DSC"							""
@@ -14621,10 +14805,12 @@
 "CLUB_SHORT_NAME_CHANGE"	1920		"Liverpool Mtv."					""
 "CLUB_3LETTER_NAME_CHANGE"	1920		"LIV"							""
 
+"CLUB_CITY_CHANGE"		1921		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1921		"Club Nacional de Football"				""
 "CLUB_SHORT_NAME_CHANGE"	1921		"Nacional"						""
 "CLUB_3LETTER_NAME_CHANGE"	1921		"NAC"							""
 
+"CLUB_CITY_CHANGE"		1922		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1922		"CA Peñarol"						""
 "CLUB_SHORT_NAME_CHANGE"	1922		"Peñarol"						""
 "CLUB_3LETTER_NAME_CHANGE"	1922		"PEÑ"							""
@@ -14641,6 +14827,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	1926		"MWFC"							""
 #"CLUB_3LETTER_NAME_CHANGE"	1926		"MWFC"							""
 
+"CLUB_CITY_CHANGE"		116309		"116310"						"" # <Maldonado>
 "CLUB_NAME_CHANGE"		116309		"Club Deportivo Maldonado"				""
 "CLUB_SHORT_NAME_CHANGE"	116309		"Dep. Maldonado"					""
 #"CLUB_3LETTER_NAME_CHANGE"	116309		"DMAL"							""
@@ -14651,25 +14838,30 @@
 "CLUB_6LETTER_NAME_CHANGE"	130849		"Racing"						""
 "CLUB_3LETTER_NAME_CHANGE"	130849		"RCM"							""
 
+"CLUB_CITY_CHANGE"		5512337		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		5512337		"CA Fénix"						""
 "CLUB_SHORT_NAME_CHANGE"	5512337		"Fénix"							""
 "CLUB_6LETTER_NAME_CHANGE"	5512337		"Fénix"							""
 "CLUB_3LETTER_NAME_CHANGE"	5512337		"FEN"							""
 
+"CLUB_CITY_CHANGE"		5512779		"5512766"						"" # <Colonia del Sacramento>
 "CLUB_NAME_CHANGE"		5512779		"Club Plaza Colonia de Deportes"			""
 "CLUB_SHORT_NAME_CHANGE"	5512779		"Plaza Colonia"						""
 "CLUB_6LETTER_NAME_CHANGE"	5512779		"Plaza"							""
 "CLUB_3LETTER_NAME_CHANGE"	5512779		"PLZ"							""
 
+"CLUB_CITY_CHANGE"		5512782		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		5512782		"La Luz FC"						""
 "CLUB_SHORT_NAME_CHANGE"	5512782		"La Luz"						""
 "CLUB_6LETTER_NAME_CHANGE"	5512782		"La Luz"						""
 #"CLUB_3LETTER_NAME_CHANGE"	5512782		"LLFC"							""
 
+"CLUB_CITY_CHANGE"		5512793		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		5512793		"CA Boston River"					""
 "CLUB_SHORT_NAME_CHANGE"	5512793		"Boston River"						""
 "CLUB_3LETTER_NAME_CHANGE"	5512793		"BOS"							""
 
+"CLUB_CITY_CHANGE"		8825223		"8825384"						"" # <Melo>
 "CLUB_NAME_CHANGE"		8825223		"Cerro Largo FC"					""
 "CLUB_SHORT_NAME_CHANGE"	8825223		"Cerro Largo"						""
 "CLUB_3LETTER_NAME_CHANGE"	8825223		"CRL"							""
@@ -14683,31 +14875,40 @@
 
 # CLUB > CONMEBOL > [URU] URUGUAY > [5512771] Segunda División Profesional AUF (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1915		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1915		"CA Bella Vista"					""
 "CLUB_SHORT_NAME_CHANGE"	1915		"Bella Vista"						""
 
+"CLUB_CITY_CHANGE"		1923		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1923		"CA Progreso"						""
 "CLUB_SHORT_NAME_CHANGE"	1923		"Progreso"						""
 
+"CLUB_CITY_CHANGE"		1924		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		1924		"Rampla Juniors FC"					""
 "CLUB_SHORT_NAME_CHANGE"	1924		"Rampla Juniors"					""
 
+"CLUB_CITY_CHANGE"		115039		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		115039		"CA Rentistas"						""
 "CLUB_SHORT_NAME_CHANGE"	115039		"Rentistas"						""
 
+"CLUB_CITY_CHANGE"		130848		"308168"						"" # <Las Piedras>
 "CLUB_NAME_CHANGE"		130848		"CA Juventud"						""
 "CLUB_SHORT_NAME_CHANGE"	130848		"Juventud"						""
 
+"CLUB_CITY_CHANGE"		130852		"308166"						"" # <Tacuarembó>
 "CLUB_NAME_CHANGE"		130852		"Tacuarembó FC"						""
 "CLUB_SHORT_NAME_CHANGE"	130852		"Tacuarembó"						""
 
+"CLUB_CITY_CHANGE"		5512556		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		5512556		"IA Sud América"					""
 "CLUB_SHORT_NAME_CHANGE"	5512556		"Sud América"						""
 
+"CLUB_CITY_CHANGE"		5512559		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		5512559		"CS Miramar Misiones"					""
 "CLUB_SHORT_NAME_CHANGE"	5512559		"Miramar Misiones"					""
 "CLUB_3LETTER_NAME_CHANGE"	5512559		"MMI"							""
 
+"CLUB_CITY_CHANGE"		5512780		"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		5512780		"CS Cerrito"						""
 "CLUB_SHORT_NAME_CHANGE"	5512780		"Cerrito"						""
 
@@ -14715,19 +14916,23 @@
 "CLUB_NAME_CHANGE"		5512787		"Uruguay Montevideo FC"					""
 "CLUB_SHORT_NAME_CHANGE"	5512787		"Uruguay Mtv."						""
 
+"CLUB_CITY_CHANGE"		5512789		"5512795"						"" # <La Paz>
 "CLUB_NAME_CHANGE"		5512789		"Club Oriental de Football"				""
 "CLUB_SHORT_NAME_CHANGE"	5512789		"Oriental (LP)"						""
 "CLUB_3LETTER_NAME_CHANGE"	5512789		"ORI"							""
 
+"CLUB_CITY_CHANGE"		8825225		"8825396"						"" # <San Carlos>
 "CLUB_NAME_CHANGE"		8825225		"CA Atenas de San Carlos"				""
 "CLUB_SHORT_NAME_CHANGE"	8825225		"Atenas (SC)"						""
 "CLUB_6LETTER_NAME_CHANGE"	8825225		"Atenas"						""
 
+"CLUB_CITY_CHANGE"		78014931	"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		78014931	"Albion FC"						""
 "CLUB_SHORT_NAME_CHANGE"	78014931	"Albion"						""
 "CLUB_6LETTER_NAME_CHANGE"	78014931	"Albion"						""
 "CLUB_3LETTER_NAME_CHANGE"	78014931	"ALB"							""
 
+"CLUB_CITY_CHANGE"		78041593	"102998"						"" # <Montevideo>
 "CLUB_NAME_CHANGE"		78041593	"IA Potencia"						""
 "CLUB_SHORT_NAME_CHANGE"	78041593	"Potencia"						""
 "CLUB_3LETTER_NAME_CHANGE"	78041593	"POT"							""
