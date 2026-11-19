@@ -130,6 +130,23 @@ function sortUnitTreeNodes(nodes: DataNode[]): DataNode[] {
 
 function flattenClubTree(nodes: DataNode[]): DataNode[] {
   const allNode = nodes.find((node) => String(node.key).toLowerCase() === 'all');
+  const confederations = ORDERED_CONFED_CODES.map((code) =>
+    nodes.find((node) => String(node.key).toLowerCase() === code.toLowerCase()),
+  )
+    .filter(Boolean)
+    .map((node) => ({
+      ...(node as DataNode),
+      level: 1,
+      className: 'tree-node-level-1',
+      children: (node as DataNode).children
+        ?.filter((child) => !String(child.key).startsWith('nation_'))
+        .map((child) => ({
+          ...child,
+          level: 2,
+          className: 'tree-node-level-2',
+          confed: (child as any).confed || (node as any).code3,
+        })),
+    })) as DataNode[];
   const nations = nodes.flatMap((root) => {
     if (String(root.key).toLowerCase() === 'all') return [];
     const candidates = String(root.key).startsWith('nation_') ? [root] : root.children || [];
@@ -153,6 +170,7 @@ function flattenClubTree(nodes: DataNode[]): DataNode[] {
 
   const flattenedNodes: DataNode[] = [
     ...(allNode ? [{ ...(allNode as any), level: 1 } as DataNode] : []),
+    ...confederations,
     ...(nations as DataNode[]),
   ];
   return flattenedNodes.sort((a, b) => {
@@ -160,6 +178,13 @@ function flattenClubTree(nodes: DataNode[]): DataNode[] {
     const bIsAll = String(b.key).toLowerCase() === 'all';
     if (aIsAll) return bIsAll ? 0 : -1;
     if (bIsAll) return 1;
+    const aConfedIndex = ORDERED_CONFED_CODES.indexOf(String(a.key).toUpperCase());
+    const bConfedIndex = ORDERED_CONFED_CODES.indexOf(String(b.key).toUpperCase());
+    if (aConfedIndex >= 0 || bConfedIndex >= 0) {
+      if (aConfedIndex < 0) return 1;
+      if (bConfedIndex < 0) return -1;
+      return aConfedIndex - bConfedIndex;
+    }
     const nameA = String((a as any).shortName || a.title || '');
     const nameB = String((b as any).shortName || b.title || '');
     return nameA.localeCompare(nameB, 'en', { sensitivity: 'base', numeric: true });
@@ -217,8 +242,11 @@ export default function UnitTree({
       if (selectedKey.startsWith('nation_')) {
         targetNationId = selectedKey.replace('nation_', '');
       } else if (selectedKey.startsWith('comp_') || selectedKey.startsWith('oth_') || selectedKey.startsWith('ext_')) {
-        if (selectedKey.startsWith('oth_')) targetNationId = selectedKey.replace('oth_', '');
-        else if (selectedKey.startsWith('ext_')) targetNationId = selectedKey.replace('ext_', '');
+        if (selectedKey.startsWith('oth_') && !selectedKey.startsWith('oth_confed_')) {
+          targetNationId = selectedKey.replace('oth_', '');
+        } else if (selectedKey.startsWith('ext_') && !selectedKey.startsWith('ext_confed_')) {
+          targetNationId = selectedKey.replace('ext_', '');
+        }
       } else if (!selectedKey.startsWith('confed_') && !selectedKey.startsWith('intl_')) {
         targetNationId = selectedKey;
       }
@@ -265,8 +293,11 @@ export default function UnitTree({
     if (currentMode === 'club' && selectedKey && selectedKey !== 'all') {
       let targetNationId = '';
       if (selectedKey.startsWith('nation_')) targetNationId = selectedKey.replace('nation_', '');
-      else if (selectedKey.startsWith('oth_')) targetNationId = selectedKey.replace('oth_', '');
-      else if (selectedKey.startsWith('ext_')) targetNationId = selectedKey.replace('ext_', '');
+      else if (selectedKey.startsWith('oth_') && !selectedKey.startsWith('oth_confed_')) {
+        targetNationId = selectedKey.replace('oth_', '');
+      } else if (selectedKey.startsWith('ext_') && !selectedKey.startsWith('ext_confed_')) {
+        targetNationId = selectedKey.replace('ext_', '');
+      }
 
       if (targetNationId && nationCompsCache[targetNationId] === undefined) {
         fetchDomesticCompetitions(targetNationId, { size: 100 })
@@ -493,9 +524,8 @@ export default function UnitTree({
 
     // ==========================================
     // 3. MÀN CLUB:
-    // Cấp 1: [ALL, AFC, CAF, CONCACAF, CONMEBOL, OFC, UEFA]
-    // Cấp 2 (trừ ALL): [list nation theo châu lục]
-    // Cấp 3: [...[list comp có club theo nation], Other, Extinct]
+    // Cấp 1: [ALL, AFC, CAF, CONCACAF, CONMEBOL, OFC, UEFA, ...nations]
+    // Cấp 2: [competitions, Other, Extinct]
     // ==========================================
     if (currentMode === 'club') {
       // Cấp 1: ALL

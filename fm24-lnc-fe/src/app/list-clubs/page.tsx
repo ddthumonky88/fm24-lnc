@@ -253,10 +253,27 @@ function ListClubsContent() {
       const nid = nodeData?.nationId || nodeData?.compData?.nation_id;
       if (nid) {
         setTempNation(nid);
+      } else if (nodeData?.confed) {
+        setTempConfed(String(nodeData.confed).toUpperCase());
+        setTempNation('all');
       }
       setTempCompId(compId);
       const cName = nodeData?.shortName || nodeData?.compData?.name_sh || nodeData?.compData?.name || '';
       setTempCompName(cName);
+    } else if (key.startsWith('oth_confed_')) {
+      const confed = key.replace('oth_confed_', '').toUpperCase();
+      setTempConfed(confed);
+      setTempNation('all');
+      setTempCompId('oth-confed-' + confed);
+      setTempExtinct('active');
+      setTempCompName('[OTH] Other');
+    } else if (key.startsWith('ext_confed_')) {
+      const confed = key.replace('ext_confed_', '').toUpperCase();
+      setTempConfed(confed);
+      setTempNation('all');
+      setTempCompId('ext-confed-' + confed);
+      setTempExtinct('extinct');
+      setTempCompName('[EXT] Extinct');
     } else if (key.startsWith('oth_')) {
       const nid = key.replace('oth_', '');
       setTempNation(nid);
@@ -310,10 +327,27 @@ function ListClubsContent() {
       const nid = nodeData?.nationId || nodeData?.compData?.nation_id;
       if (nid) {
         setSelectedNation(nid);
+      } else if (nodeData?.confed) {
+        setSelectedConfed(String(nodeData.confed).toUpperCase());
+        setSelectedNation('all');
       }
       setSelectedCompId(compId);
       const cName = nodeData?.shortName || nodeData?.compData?.name_sh || nodeData?.compData?.name || '';
       setSelectedCompName(cName);
+    } else if (key.startsWith('oth_confed_')) {
+      const confed = key.replace('oth_confed_', '').toUpperCase();
+      setSelectedConfed(confed);
+      setSelectedNation('all');
+      setSelectedCompId('oth-confed-' + confed);
+      setExtinctFilter('active');
+      setSelectedCompName('[OTH] Other');
+    } else if (key.startsWith('ext_confed_')) {
+      const confed = key.replace('ext_confed_', '').toUpperCase();
+      setSelectedConfed(confed);
+      setSelectedNation('all');
+      setSelectedCompId('ext-confed-' + confed);
+      setExtinctFilter('extinct');
+      setSelectedCompName('[EXT] Extinct');
     } else if (key.startsWith('oth_')) {
       const nid = key.replace('oth_', '');
       setSelectedNation(nid);

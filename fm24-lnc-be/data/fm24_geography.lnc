@@ -1112,6 +1112,16 @@
 "CITY_NAME_CHANGE"		2000322849	"Lekaj"							""
 
 
+# CITY > [ALG] ALGERIA > [ALG-44] Ain Defla
+#====================================================================================
+"CITY_NAME_CHANGE"		8625458		"Khemis Miliana"						""
+
+
+# CITY > [ALG] ALGERIA > [ALG-46] Ain Témouchent
+#====================================================================================
+"CITY_NAME_CHANGE"		8625307		"Ain Témouchent"						""
+
+
 # CITY > [ALG] ALGERIA > [ALG-16] Alger
 #====================================================================================
 "CITY_NAME_CHANGE"		103002		"Alger"							""
@@ -1146,6 +1156,8 @@
 # CITY > [ALG] ALGERIA > [ALG-09] Blida
 #====================================================================================
 "CITY_NAME_CHANGE"		5360128		"Blida"							""
+"CITY_NAME_CHANGE"		8625337		"Boufarik"					""
+"CITY_NAME_CHANGE"		86226393		"Larbaa"						""
 
 
 # CITY > [ALG] ALGERIA > [ALG-34] Bordj Bou Arréridj
@@ -1156,6 +1168,13 @@
 # CITY > [ALG] ALGERIA > [ALG-35] Boumerdès
 #====================================================================================
 "CITY_NAME_CHANGE"		8625424		"Boumerdès"						""
+"CITY_NAME_CHANGE"		8625455		"Bordj Menaïel"					""
+"CITY_NAME_CHANGE"		8625466		"Khemis-El-Khechna"						""
+
+
+# CITY > [ALG] ALGERIA > [ALG-10] Bouira
+#====================================================================================
+"CITY_NAME_CHANGE"		12004706		"Sour El-Ghozlane"						""
 
 
 # CITY > [ALG] ALGERIA > [ALG-02] Chlef
@@ -1172,6 +1191,11 @@
 # CITY > [ALG] ALGERIA > [ALG-17] Djelfa
 #====================================================================================
 "CITY_NAME_CHANGE"		8626395		"Djelfa"						""
+
+
+# CITY > [ALG] ALGERIA > [ALG-32] El Bayadh
+#====================================================================================
+"CITY_NAME_CHANGE"		12004687		"El Bayadh"						""
 
 
 # CITY > [ALG] ALGERIA > [ALG-39] El Oued
@@ -1203,6 +1227,12 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		8625457		"M'sila"						""
 "CITY_NAME_CHANGE"		8628600		"Bou Saâda"						""
+"CITY_NAME_CHANGE"		12035543		"Magra"						""
+
+
+# CITY > [ALG] ALGERIA > [ALG-29] Mascara
+#====================================================================================
+"CITY_NAME_CHANGE"		8625308		"Mascara"						""
 
 
 # CITY > [ALG] ALGERIA > [ALG-26] Médéa
@@ -1210,9 +1240,20 @@
 "CITY_NAME_CHANGE"		8625833		"Médéa"							""
 
 
+# CITY > [ALG] ALGERIA > [ALG-43] Mila
+#====================================================================================
+"CITY_NAME_CHANGE"		8625464		"Chelghoum-Laid"						""
+"CITY_NAME_CHANGE"		20000175668		"Teleghma"						""
+
+
 # CITY > [ALG] ALGERIA > [ALG-27] Mostaganem
 #====================================================================================
 "CITY_NAME_CHANGE"		5360126		"Mostaganem"						""
+
+
+# CITY > [ALG] ALGERIA > [ALG-45] Naama
+#====================================================================================
+"CITY_NAME_CHANGE"		8625655		"Mecheria"						""
 
 
 # CITY > [ALG] ALGERIA > [ALG-31] Oran
@@ -1228,6 +1269,8 @@
 
 # CITY > [ALG] ALGERIA > [ALG-04] Oum El Bouaghi
 #====================================================================================
+"CITY_NAME_CHANGE"		5360124		"Ain M'lila"					""
+"CITY_NAME_CHANGE"		7600118		"Oum El Bouaghi"						""
 "CITY_NAME_CHANGE"		8625467		"Aïn Beïda"						""
 
 
@@ -1275,6 +1318,7 @@
 # CITY > [ALG] ALGERIA > [ALG-15] Tizi Ouzou
 #====================================================================================
 "CITY_NAME_CHANGE"		105320		"Tizi Ouzou"						""
+"CITY_NAME_CHANGE"		8634049		"Larbaa Nath Irathen"						""
 
 
 # CITY > [ALG] ALGERIA > [ALG-13] Tlemcen
@@ -7130,6 +7174,7 @@
 # CITY > [EGY] EGYPT > [EGY-DK] Dakahlia Governorate
 #====================================================================================
 "CITY_NAME_CHANGE"		105220		"El Mansoura"						""
+"CITY_NAME_CHANGE"		13205798	"Dekernes"						""
 "CITY_NAME_CHANGE"		2000008436	"El-Senbellawein"					""
 "CITY_NAME_CHANGE"		2000239230	"Mit Ghamr"						""
 "CITY_NAME_CHANGE"		2000239234	"El Matareya"						""
@@ -7222,6 +7267,7 @@
 
 # CITY > [EGY] EGYPT > [EGY-BA] Red Sea Governorate
 #====================================================================================
+"CITY_NAME_CHANGE"		12033283	"El Gouna"						""
 "CITY_NAME_CHANGE"		13170474	"Hurghada"						""
 
 
@@ -23707,14 +23753,18 @@
 "CITY_NAME_CHANGE"		978161		"Carson (CA)"						""
 "CITY_NAME_CHANGE"		978624		"Sacramento (CA)"					""
 "CITY_NAME_CHANGE"		980215		"Oakland (CA)"					""
+"CITY_NAME_CHANGE"		981436		"Fresno (CA)"					""
+"CITY_NAME_CHANGE"		981513		"Lancaster (CA)"				""
 "CITY_NAME_CHANGE"		981562		"Irvine (CA)"					""
 "CITY_NAME_CHANGE"		4400007		"San Francisco (CA)"					""
+"CITY_NAME_CHANGE"		20016389	"Thousand Oaks (CA)"				""
 "CITY_NAME_CHANGE"		20016391	"Concord (CA)"						""
 "CITY_NAME_CHANGE"		20016396	"Inglewood (CA)"					""
 "CITY_NAME_CHANGE"		20018109	"East Los Angeles (CA)"					""
 "CITY_NAME_CHANGE"		20018129	"South San Francisco (CA)"				""
 "CITY_NAME_CHANGE"		72020583	"San Diego (CA)"					""
 "CITY_NAME_CHANGE"		72023728	"Richmond (CA)"						""
+"CITY_NAME_CHANGE"		72025960	"Moraga (CA)"					""
 "CITY_NAME_CHANGE"		72038337	"Stanford (CA)"						""
 "CITY_NAME_CHANGE"		2000081588	"Seaside (CA)"					""
 
@@ -23724,6 +23774,7 @@
 "CITY_NAME_CHANGE"		653		"Denver (CO)"						""
 "CITY_NAME_CHANGE"		981290		"Commerce City (CO)"					""
 "CITY_NAME_CHANGE"		981425		"Colorado Springs (CO)"					""
+"CITY_NAME_CHANGE"		72000986	"Fort Collins (CO)"				""
 
 
 # CITY > [USA] USA > [USA-CT] Connecticut
@@ -23758,6 +23809,8 @@
 "CITY_NAME_CHANGE"		20018194	"North Miami (FL)"					""
 "CITY_NAME_CHANGE"		20018201	"Tamiami (FL)"						""
 "CITY_NAME_CHANGE"		20018202	"Port Charlotte (FL)"					""
+"CITY_NAME_CHANGE"		20030464	"Naples (FL)"					""
+"CITY_NAME_CHANGE"		72018467	"Fort Lauderdale (FL)"				""
 "CITY_NAME_CHANGE"		2000010218	"Olympia Heights (FL)"					""
 
 
@@ -23767,6 +23820,7 @@
 "CITY_NAME_CHANGE"		981440		"Columbus (GA)"						""
 "CITY_NAME_CHANGE"		981476		"Augusta (GA)"						""
 "CITY_NAME_CHANGE"		20016547	"Albany (GA)"						""
+"CITY_NAME_CHANGE"		72025963	"Statesboro (GA)"				""
 
 
 # CITY > [USA] USA > [USA-HI] Hawaii
@@ -23808,6 +23862,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		981405		"Louisville (KY)"					""
 "CITY_NAME_CHANGE"		981410		"Frankfort (KY)"					""
+"CITY_NAME_CHANGE"		72020586	"Lexington (KY)"				""
 
 
 # CITY > [USA] USA > [USA-LA] Louisiana
@@ -23872,6 +23927,7 @@
 # CITY > [USA] USA > [USA-NC] North Carolina
 #====================================================================================
 "CITY_NAME_CHANGE"		677		"Charlotte (NC)"					""
+"CITY_NAME_CHANGE"		691		"High Point (NC)"				""
 "CITY_NAME_CHANGE"		704		"Raleigh (NC)"						""
 "CITY_NAME_CHANGE"		981416		"Kannapolis (NC)"					""
 "CITY_NAME_CHANGE"		981501		"Winston-Salem (NC)"					""
@@ -23972,6 +24028,7 @@
 "CITY_NAME_CHANGE"		692		"Charleston (SC)"					""
 "CITY_NAME_CHANGE"		981417		"Columbia (SC)"						""
 "CITY_NAME_CHANGE"		20018293	"North Charleston (SC)"					""
+"CITY_NAME_CHANGE"		20018295	"Greenville (SC)"				""
 
 
 # CITY > [USA] USA > [USA-SD] South Dakota
@@ -23982,7 +24039,9 @@
 
 # CITY > [USA] USA > [USA-TN] Tennessee
 #====================================================================================
+"CITY_NAME_CHANGE"		678		"Chattanooga (TN)"				""
 "CITY_NAME_CHANGE"		981432		"Nashville (TN)"					""
+"CITY_NAME_CHANGE"		981438		"Knoxville (TN)"				""
 "CITY_NAME_CHANGE"		981469		"Memphis (TN)"					""
 "CITY_NAME_CHANGE"		20018301	"Jackson (TN)"						""
 
@@ -24022,6 +24081,8 @@
 # CITY > [USA] USA > [USA-WA] Washington
 #====================================================================================
 "CITY_NAME_CHANGE"		976608		"Seattle (WA)"						""
+"CITY_NAME_CHANGE"		981489		"Tacoma (WA)"					""
+"CITY_NAME_CHANGE"		982253		"Spokane (WA)"					""
 "CITY_NAME_CHANGE"		2000262064	"Olympia (WA)"						""
 
 

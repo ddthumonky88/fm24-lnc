@@ -1,8 +1,8 @@
 # Checklist CLUB_CITY_CHANGE
 
-> Chỉ bao gồm các giải đấu chính thức; loại trừ các nhóm `[OTHER]` và `[EXTINCT]`.
+> Bao gồm các giải đấu và nhóm phụ; mỗi nhóm Team 2/B/C, NLZ, U21 được tính riêng. Chỉ loại trừ `[OTHER]` và `[EXTINCT]`. OFC Pro League được ghi nhận ở cấp châu lục.
 
-| Quốc gia | Giải đấu | Tỉ lệ | List miss |
+| Quốc gia | Giải đấu / Nhóm | Tỉ lệ | List miss |
 | :--- | :--- | :---: | :--- |
 | [AUS] AUSTRALIA | [129985] A-League Men (23/24) | 13/13 (100.0%) | — |
 | [AUS] AUSTRALIA | [432083] NPL ACT | 1/1 (100.0%) | — |
@@ -66,7 +66,7 @@
 | [KUW] KUWAIT | [23063354] Kuwait Premier League (23/24) | 10/10 (100.0%) | — |
 | [KUW] KUWAIT | [23078275] Kuwaiti Division One (23/24) | 6/6 (100.0%) | — |
 | [KGZ] KYRGYZSTAN | [59005735] Kyrgyz Premier League (2023) | 11/11 (100.0%) | — |
-| [KGZ] KYRGYZSTAN | [2000174549] Kyrgyz National League Group A (2023) | 7/8 (87.5%) | FC Nashe Pivo |
+| [KGZ] KYRGYZSTAN | [2000174549] Kyrgyz National League Group A (2023) | 8/8 (100.0%) | — |
 | [KGZ] KYRGYZSTAN | [2000174550] Kyrgyz National League Group B (2023) | 8/8 (100.0%) | — |
 | [LAO] LAOS | [5634246] Lao League 1 (2023) | 12/12 (100.0%) | — |
 | [LBN] LEBANON | [5629952] Lebanese Premier League (23/24) | 12/12 (100.0%) | — |
@@ -118,44 +118,44 @@
 | [VIE] VIETNAM | [8550001] V.League 2 (23/24) | 14/14 (100.0%) | — |
 | [VIE] VIETNAM | [8550002] Vietnamese Second Division (23/24) | 16/16 (100.0%) | — |
 | [VIE] VIETNAM | [8550003] Vietnamese Third Division (23/24) | 27/27 (100.0%) | — |
-| [ALG] ALGERIA | [12015290] Ligue Professionnelle 1 (23/24) | 8/16 (50.0%) | JS Kabylie, CR Belouizdad, Paradou AC, NC Magra, JS Saoura, ES Ben Aknoun, MC El Bayadh, US Souf |
-| [ALG] ALGERIA | [2000021475] Ligue Professionnelle 2 Poule Est (23/24) | 7/16 (43.8%) | AS Aïn M'lila, USM El Harrach, US Chaouia, AS Khroub, HB Chelghoum-Laïd, JS Bordj Ménaïel, IB Khemis-El-Khechna, E. Sour El-Ghozlane, NRB Teleghma |
-| [ALG] ALGERIA | [12031135] Ligue Professionnelle 2 (23/24) | 7/16 (43.8%) | NA Hussein Dey, RC Kouba, CR Témouchent, GC Mascara, WA Boufarik, SKAF El-Khemis, SC Mécheria, RC Arbaâ, MCB Oued Sly |
+| [ALG] ALGERIA | [12015290] Ligue Professionnelle 1 (23/24) | 16/16 (100.0%) | — |
+| [ALG] ALGERIA | [2000021475] Ligue Professionnelle 2 Poule Est (23/24) | 16/16 (100.0%) | — |
+| [ALG] ALGERIA | [2000021476] Ligue Professionnelle 2 Poule Ouest (23/24) | 16/16 (100.0%) | — |
 | [ANG] ANGOLA | [12034515] Girabola (23/24) | 14/14 (100.0%) | — |
-| [EGY] EGYPT | [12015393] Egyptian Premier League (23/24) | 2/18 (11.1%) | Zamalek SC, Ismaily SC, El Mokawloon El Arab SC, Al-Masry SC, Baladeyat El-Mahalla SC, ENPPI SC, Tala'ea El Gaish SC, El Gouna FC, Smouha SC, El Dakhleya SC, Pharco FC, National Bank of Egypt SC, Ceramica Cleopatra FC, Pyramids FC, ZED FC, Modern Sport FC |
-| [EGY] EGYPT | [2000340108] Egyptian Second Division A (23/24) | 2/20 (10.0%) | Haras El Hodoud SC, Ghazl El Mahalla SC, El Qanah FC, Petrojet FC, Asyut Petroleum SC, WE Telecom Egypt SC, Misr Lel Makkasa SC, Nasr Mining FC, Abu Qir Fertilizers Club, Dekernes SC, Raya Ghazl Kafr El Dawar SC, El Sekka El Hadid SC, Gomhoriat Shebin SC, Nogoom FC, Wadi Degla FC, La Viena FC, Proxy Work SC, Makadi FC |
+| [EGY] EGYPT | [12015393] Egyptian Premier League (23/24) | 18/18 (100.0%) | — |
+| [EGY] EGYPT | [2000340108] Egyptian Second Division A (23/24) | 20/20 (100.0%) | — |
 | [LBY] LIBYA | [13208974] Libyan Premier League (23/24) | 22/22 (100.0%) | — |
-| [MAR] MOROCCO | [12019395] Botola Pro (23/24) | 10/16 (62.5%) | AS FAR, Wydad AC, Raja CA, MAS Fès, IR Tanger, JS Soualem |
-| [MAR] MOROCCO | [12019395] Botola Pro (22/23) | 11/15 (73.3%) | Difaâ Hassani El Jadidi, Stade Marocain, Wydad Athletic de Fès, CIS Marrakech |
+| [MAR] MOROCCO | [12019395] Botola Pro Inwi (23/24) | 16/16 (100.0%) | — |
+| [MAR] MOROCCO | [12058772] Botola 2 Inwi (23/24) | 16/16 (100.0%) | — |
 | [NGA] NIGERIA | [12016011] Nigeria Professional Football League (23/24) | 20/20 (100.0%) | — |
-| [RSA] SOUTH AFRICA | [131234] South African Premiership (23/24) | 5/16 (31.2%) | Kaizer Chiefs FC, Mamelodi Sundowns FC, Orlando Pirates FC, SuperSport United FC, AmaZulu FC, Golden Arrows FC, Chippa United FC, Moroka Swallows FC, Sekhukhune United FC, TS Galaxy FC, Royal AM FC |
-| [RSA] SOUTH AFRICA | [131235] South African Championship (23/24) | 3/16 (18.8%) | Black Leopards FC, Maritzburg United FC, Baroka FC, Platinum City Rovers FC, Magesi FC, JDR Stars FC, Hungry Lions FC, Orbit College FC, Milford FC, Venda FC, MM Platinum FC, Marumo Gallants FC, Casric Stars FC |
+| [RSA] SOUTH AFRICA | [131234] South African Premiership (23/24) | 16/16 (100.0%) | — |
+| [RSA] SOUTH AFRICA | [131235] South African Championship (23/24) | 16/16 (100.0%) | — |
 | [SUD] SUDAN | [36513629] Sudani Premier League (23/24) | 18/18 (100.0%) | — |
 | [TAN] TANZANIA | [13211724] Tanzanian Premier League | 16/16 (100.0%) | — |
 | [TUN] TUNISIA | [12019164] Tunisian Ligue Professionnelle 1 (23/24) | 14/14 (100.0%) | — |
-| [CAN] CANADA | [20502998] Canadian Premier League (2023) | 3/8 (37.5%) | Forge FC, Valour FC, York United FC, Cavalry FC, Pacific FC |
-| [CAN] CANADA | [20500261] Ontario Premier League 1 | 5/12 (41.7%) | Woodbridge Strikers SC, Sigma FC, ProStars FC, Blue Devils FC, Alliance United FC, Scrosoppi FC, Simcoe County Rovers FC |
-| [CAN] CANADA | [20035150] Ligue1 Québec | 6/12 (50.0%) | CS Mont-Royal Outremont, Royal-Sélect de Beauport, CS St-Hubert, CS Celtix du Haut-Richelieu, CS Saint-Laurent, CS Lanaudière-Nord |
-| [CAN] CANADA | [2000150744] British Columbia Premier League | 2/8 (25.0%) | TSS FC Rovers, Rivers FC, Altitude FC, Unity FC, Harbourside FC, Nautsa'mawt FC |
-| [CAN] CANADA | [2000320681] Alberta Premier League | 6/7 (85.7%) | Cavalry FC U21 |
-| [CRC] COSTA RICA | [80000563] Liga Promérica (23/24) | 7/12 (58.3%) | CS Cartaginés, Deportivo Saprissa, CS Herediano, LD Alajuelense, AD Guanacasteca |
-| [CRC] COSTA RICA | [80000564] Liga Transcomer (23/24) | 11/17 (64.7%) | AD Carmelita, Guadalupe FC, ADR Jicaral Sercoba, Fútbol Consultants Desamparados, Quepos Cambute FC, AD Sarchí |
-| [SLV] EL SALVADOR | [87001116] Primera División de El Salvador | 4/12 (33.3%) | Alianza FC, CD Águila, CD Municipal Limeño, CD Futbolistas Asociados Santanecos, CD Luis Ángel Firpo, Once Deportivo FC, CD Dragón, CD Fuerte San Francisco |
-| [SLV] EL SALVADOR | [87001812] Segunda División de El Salvador | 7/18 (38.9%) | CD Atlético Marte, CD Atlético Balboa, CD Independiente, CD Fuerte Aguilares, CD Topiltzín, AD Destroyer, CD Racing Junior, CD Brujos Mario Calvo, CD Cacahuatique, CD Pipil, Corinto FC |
-| [GUA] GUATEMALA | [87000495] Liga Guate (23/24) | 6/12 (50.0%) | Comunicaciones FC, CSD Municipal, CSD Xelajú Mario Camposeco, Deportivo Achuapa, Deportivo Xinabajul, CD Malacateco |
-| [GUA] GUATEMALA | [87000505] Primera División de Ascenso (23/24) | 3/15 (20.0%) | Aurora FC, Club Universidad de San Carlos, CSD Sacachispas, CD Suchitepéquez, CD Marquense, CD Mictlán, CD Heredia, Deportivo San Pedro FC, CD Iztapa, Quiche FC, Juventud Pinulteca FC, Deportivo Barberena FC |
-| [HON] HONDURAS | [87000201] Liga Hondubet (23/24) | 0/10 (0.0%) | CD Olimpia, Real CD España, CD Marathón, FC Motagua, CD Victoria, CDS Vida, CD Real Sociedad, Lobos UPNFM, Olancho FC, CD Génesis Huracán |
-| [HON] HONDURAS | [87000202] Liga Nacional de Ascenso (23/24) | 5/32 (15.6%) | CD Broncos, Platense FC, Deportivo Savio FC, Club Atlético Independiente, CD Real Juventud, CD Social Sol, CD Olimpia Occidental, Yolo FC, Parrillas One, CD Honduras Progreso, CA Boca Junior de Honduras, Brasilia FC, CD Gimnástico, CD Estrella Roja de Araulí, Lone FC, CD San Juan Huracán, Santa Rosa FC, CD Inter de El Triunfo, CD Atlético Junior, Saba FC, FC Alvarado, Oro Verde FC, Pumas FC Las Vegas, AFFI Academia, FC Buenaventura, CD San Rafael, Meluca FC |
+| [CAN] CANADA | [20502998] Canadian Premier League (2023) | 8/8 (100.0%) | — |
+| [CAN] CANADA | [20500261] Ontario Premier League 1 | 12/12 (100.0%) | — |
+| [CAN] CANADA | [20035150] Ligue1 Québec | 11/12 (91.7%) | CS Lanaudière-Nord |
+| [CAN] CANADA | [2000150744] British Columbia Premier League | 7/8 (87.5%) | Unity FC |
+| [CAN] CANADA | [2000320681] Alberta Premier League | 7/7 (100.0%) | — |
+| [CRC] COSTA RICA | [80000563] Liga Promérica (23/24) | 12/12 (100.0%) | — |
+| [CRC] COSTA RICA | [80000564] Liga Transcomer (23/24) | 17/17 (100.0%) | — |
+| [SLV] EL SALVADOR | [87001116] Primera División de El Salvador | 12/12 (100.0%) | — |
+| [SLV] EL SALVADOR | [87001812] Segunda División de El Salvador | 18/18 (100.0%) | — |
+| [GUA] GUATEMALA | [87000495] Liga Bantrab de Guatemala (23/24) | 12/12 (100.0%) | — |
+| [GUA] GUATEMALA | [87000505] Liga FPD de Guatemala (23/24) | 12/15 (80.0%) | Quiche FC, Juventud Pinulteca FC, Deportivo Barberena FC |
+| [HON] HONDURAS | [87000201] Liga Hondubet (23/24) | 10/10 (100.0%) | — |
+| [HON] HONDURAS | [87000202] Liga Nacional de Ascenso (23/24) | 31/32 (96.9%) | Brasilia FC |
 | [MEX] MEXICO | [135973] Liga MX (23/24) | 18/18 (100.0%) | — |
 | [MEX] MEXICO | [2000017067] Liga de Expansión MX (23/24) | 15/15 (100.0%) | — |
-| [NCA] NICARAGUA | [86000027] Liga Primera de Nicaragua (23/24) | 6/10 (60.0%) | CD Walter Ferretti, Cacique Diriangén FC, Orgánica Masachapa FC, CS Sébaco |
-| [NCA] NICARAGUA | [80024180] Liga Ascenso de Nicaragua (23/24) | 4/13 (30.8%) | Real Madriz FC, Deportivo Masaya FC, Juventus FC, Bravos del Primavera FC, FC Gutiérrez, El Sauce FC, San Judas FC, Rancho Santana FC, FC Aguilas de Leon |
-| [PAN] PANAMA | [86000021] Liga LPF Tigo | 2/12 (16.7%) | Alianza FC Panama, CD Plaza Amador, CD Árabe Unido, Club Atlético Chiriqui, San Francisco FC, Tauro FC, Potros del Este, Herrera FC, CD Universitario, UMECIT FC |
-| [PAN] PANAMA | [80010007] Liga PROM | 3/22 (13.6%) | SD Atlético Nacional, Club Sporting Coclé, Colón C3 FC, SD Panamá Oeste, CD Centenario, San Martin FC, Champions FC Academy, Panamá City FC, Mario Mendez FC, UDELAS FC, Águilas de la U, CD Árabe Unido B, Alianza FC B, CD Plaza Amador B, Potros del Este B, Tauro FC B, Herrera FC B, CD Universitario B, San Francisco FC B |
-| [USA] USA | [40] Major League Soccer (2023) | 29/29 (100.0%) | — |
-| [USA] USA | [43] USL Championship (2023) | 22/24 (91.7%) | Rio Grande Valley FC Toros, San Diego Loyal SC |
-| [USA] USA | [20047508] USL League One (2023) | 6/14 (42.9%) | South Georgia Tormenta FC, Chattanooga Red Wolves SC, Greenville Triumph SC, Central Valley Fuego FC, Northern Colorado Hailstorm FC, One Knoxville SC, Lexington SC, Spokane Velocity FC |
-| [USA] USA | [2000102644] MLS Next Pro (2023) | 27/28 (96.4%) | Carolina Core FC |
+| [NCA] NICARAGUA | [86000027] Liga Primera de Nicaragua (23/24) | 10/10 (100.0%) | — |
+| [NCA] NICARAGUA | [80024180] Liga Ascenso de Nicaragua (23/24) | 7/13 (53.8%) | Deportivo Masaya FC, Bravos del Primavera FC, FC Gutiérrez, El Sauce FC, San Judas FC, FC Aguilas de Leon |
+| [PAN] PANAMA | [86000021] Liga LPF Tigo | 12/12 (100.0%) | — |
+| [PAN] PANAMA | [80010007] Liga PROM | 22/22 (100.0%) | — |
+| [USA] USA | [40] Major League Soccer (2024) | 29/29 (100.0%) | — |
+| [USA] USA | [43] USL Championship (2024) | 24/24 (100.0%) | — |
+| [USA] USA | [20047508] USL League One (2024) | 12/12 (100.0%) | — |
+| [USA] USA | [2000102644] MLS Next Pro (2024) | 28/28 (100.0%) | — |
 | [USA] USA | [72023762] MLS NEXT | 21/21 (100.0%) | — |
 | [ARG] ARGENTINA | [102421] Liga Profesional (2023) | 28/28 (100.0%) | — |
 | [ARG] ARGENTINA | [102422] Primera Nacional (2023) | 9/37 (24.3%) | Club Ferro Carril Oeste, CA San Martín de Tucumán, Club Almirante Brown, AMSD Atlético de Rafaela, Club Deportivo Morón, CA Nueva Chicago, CA All Boys, CA Chacarita Juniors, CA Gimnasia y Esgrima de Jujuy, CA Aldosivi, Club Almagro, CA Atlanta, CA Estudiantes de Buenos Aires, CA Chaco For Ever, Club Deportivo Riestra, Club Villa Dálmine, CA Defensores Unidos de Zárate, Club Social y Atlético Guillermo Brown, CS Independiente Rivadavia, CA Patronato de la Juventud Católica, CA Brown de Adrogué, CA Defensores de Belgrano, CSD Flandria, CA San Telmo, CSD Tristán Suárez, Club Deportivo Maipú, CS Deportivo Madryn, Club Agropecuario Argentino |
@@ -177,7 +177,6 @@
 | [URU] URUGUAY | [5512770] Liga AUF Uruguaya (2023) | 5/16 (31.2%) | CA Cerro, Danubio FC, Defensor SC, Club Nacional de Football, CA Peñarol, Club Deportivo Maldonado, CA Fénix, Club Plaza Colonia de Deportes, La Luz FC, CA Boston River, Cerro Largo FC |
 | [URU] URUGUAY | [5512771] Segunda División Profesional AUF (2023) | 1/14 (7.1%) | CA Bella Vista, CA Progreso, Rampla Juniors FC, CA Rentistas, CA Juventud, Tacuarembó FC, IA Sud América, CS Miramar Misiones, CS Cerrito, Club Oriental de Football, CA Atenas de San Carlos, Albion FC, IA Potencia |
 | [VEN] VENEZUELA | [86000001] Liga FUTVE (2023) | 15/15 (100.0%) | — |
-| — (OFC cấp châu lục) | [2000340113] OFC Pro League | 5/5 (100.0%) | — |
 | [NZL] NEW ZEALAND | [432266] Northern League | 4/11 (36.4%) | Manukau United FC, Bay Olympic FC, Birkenhead United AFC, Manurewa AFC, Western Springs AFC, Eastern Suburbs AFC, Melville United AFC |
 | [NZL] NEW ZEALAND | [88006344] Central League | 4/9 (44.4%) | Petone FC, Waterside Karori AFC, Stop Out SC, Miramar Rangers AFC, Western Suburbs FC |
 | [NZL] NEW ZEALAND | [2000095538] Southern League | 1/3 (33.3%) | Nomads United AFC, FC Twenty 11 |
@@ -231,8 +230,7 @@
 | [FRO] FAROE ISLANDS | [8300358] Betrideildin | 9/9 (100.0%) | — |
 | [FIN] FINLAND | [129120] Veikkausliiga (2023) | 9/12 (75.0%) | FC Haka, FC Honka, Tampereen Ilves |
 | [FIN] FINLAND | [129131] Ykkönen (2023) | 8/12 (66.7%) | FF Jaro Jalkapalloseura, HIFK Fotboll, IF Gnistan, KäPa Käpylä |
-| [FIN] FINLAND | [145450] Kakkonen | 5/7 (71.4%) | Atlantis FC, Klubi 04 |
-| [FIN] FINLAND | [145450] Kakkonen | 25/62 (40.3%) | Myllykosken Pallo -47, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Tampereen Ilves 2, TPS U23, FC Viikingit, PP-70, IFK Vasa, FC Kiisto, FC Kontu, FC Lynx Napapiiri, FC Kuusankoski, Grankulla IFK Kauniainen, IFKK Finnström, Jakobstads BK, Kaarinan Pojat, Kajaanin Haka, FC Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, IF Närpes Kraft, Norvalla FF, Pallo-Iirot, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Jalkapalloseura Rakuunat, Someron Voima, Jalkapalloseura FC YPA |
+| [FIN] FINLAND | [145450] Kakkonen | 30/69 (43.5%) | Atlantis FC, Klubi 04, Myllykosken Pallo -47, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Tampereen Ilves 2, TPS U23, FC Viikingit, PP-70, IFK Vasa, FC Kiisto, FC Kontu, FC Lynx Napapiiri, FC Kuusankoski, Grankulla IFK Kauniainen, IFKK Finnström, Jakobstads BK, Kaarinan Pojat, Kajaanin Haka, FC Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, IF Närpes Kraft, Norvalla FF, Pallo-Iirot, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Jalkapalloseura Rakuunat, Someron Voima, Jalkapalloseura FC YPA |
 | [FRA] FRANCE | [16] Ligue 1 (23/24) | 18/18 (100.0%) | — |
 | [FRA] FRANCE | [17] Ligue 2 (23/24) | 20/20 (100.0%) | — |
 | [FRA] FRANCE | [18] Ligue 3 (23/24) | 18/18 (100.0%) | — |
@@ -290,17 +288,11 @@
 | [MNE] MONTENEGRO | [5754888] 2.CFL (23/24) | 6/10 (60.0%) | FK Iskra Danilovgradr, FK Lovćen Cetynia, OFK Grbalj, FK Otrant-Olympic |
 | [NOR] NORWAY | [1300397] Eliteserien (2023) | 16/16 (100.0%) | — |
 | [NOR] NORWAY | [1300398] OBOS-ligaen (2023) | 4/16 (25.0%) | Bryne FK, IL Hødd, FK Jerv, Kongsvinger IL Toppfotball, Mjøndalen IF, Raufoss Fotball, Skeid Fotball, Sogndal Fotball, IK Start, Åsane Fotball, Kristiansund BK, Ranheim IL |
-| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 4/13 (30.8%) | Egersunds IK Fotball, Grorud IL, Kjelsås Fotball, Lyn TF, SK Træff, Vålerenga Fotball 2, Notodden FK, Flekkerøy IL Fotball, Aalesunds FK 2 |
-| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 3/10 (30.0%) | Alta IF, Strømmen IF, Tromsdalen Fotball, Ullern IF, Levanger FK, Strømsgodset TF 2, SK Brann 2 |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 2/7 (28.6%) | Fana IL, Os TF, Stabæk Fotball 2, IL Gneist, Skjetten SK |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 2/12 (16.7%) | Elverum Fotball, Hønefoss BK, Volda Turn-og IL, Brumunddal Fotball, Eidsvold Turnforening, Førde IL Fotball, Florø SK, Hamarkameratene 2, Raufoss Fotball 2, IL Hødd 2 |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 1/5 (20.0%) | FK Vidar, Viking FK 2, Stord IL, FK Fyllingsdalen |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 2/6 (33.3%) | Pors Grenland IF, Vindbjart FK, FK Mandalskameratene, Odds BK 2 |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 0/6 (0.0%) | Byåsen TF, Nardo FK, Steinkjer FK, Strindheim IL, Rosenborg BK 2, FK Bodø/Glimt 2 |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 3/4 (75.0%) | Follo FK |
+| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 11/23 (47.8%) | Egersunds IK Fotball, Grorud IL, Kjelsås Fotball, Lyn TF, SK Træff, Notodden FK, Flekkerøy IL Fotball, Alta IF, Strømmen IF, Tromsdalen Fotball, Ullern IF, Levanger FK |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 15/40 (37.5%) | Fana IL, Os TF, IL Gneist, Skjetten SK, Elverum Fotball, Hønefoss BK, Volda Turn-og IL, Brumunddal Fotball, Eidsvold Turnforening, Førde IL Fotball, Florø SK, Sogndal Fotball 2, Raufoss Fotball 2, IL Hødd 2, FK Vidar, Stord IL, FK Fyllingsdalen, Pors Grenland IF, Vindbjart FK, FK Mandalskameratene, Byåsen TF, Nardo FK, Steinkjer FK, Strindheim IL, Follo FK |
 | [NED] NETHERLANDS | [29] Eredivisie (23/24) | 18/18 (100.0%) | — |
 | [NED] NETHERLANDS | [30] Keuken Kampioen Divisie (23/24) | 20/20 (100.0%) | — |
-| [NED] NETHERLANDS | Team B | 10/11 (90.9%) | Jong De Graafschap |
+| [NED] NETHERLANDS | Team B | 11/11 (100.0%) | — |
 | [NIR] NORTHERN IRELAND | [130023] NIFL Premiership (23/24) | 5/12 (41.7%) | Carrick Rangers FC, Cliftonville FC, Crusaders FC, Glenavon FC, Glentoran FC, Linfield FC, Loughgall FC |
 | [NIR] NORTHERN IRELAND | [130024] NIFL Championship (23/24) | 3/12 (25.0%) | Ards FC, Institute FC, Ballinamallard United FC, Harland & Wolff Welders FC, Dundela FC, Newington FC, Knockbreda FC, Annagh United FC, Dergview FC |
 | [NIR] NORTHERN IRELAND | [147023] NIFL Premier Intermediate League (23/24) | 7/14 (50.0%) | Coagh United FC, Tobermore United FC, Police Service of Northern Ireland FC, Moyola Park AFC, Ballymacash Rangers FC, Rathfriland Rangers FC, Dollingstown FC |
@@ -356,4 +348,4 @@
 | [UKR] UKRAINE | [5314301] Ukrainian Premier League (23/24) | 16/16 (100.0%) | — |
 | [UKR] UKRAINE | [5314302] Ukrainian First League (23/24) | 6/16 (37.5%) | FC Kremin Kremenchuk, FC Bukovyna Chernivtsi, FC Hirnyk-Sport Horishni Plavni, FC Dinaz Vyshhorod, FC Epicenter Kamianets-Podilskyi, FC Nyva Buzova, FC Khust, FC Inhulets Petrove, MFC Metalurh Zaporizhya, SC Poltava |
 | [WAL] WALES | [130672] Cymru Premier (23/24) | 12/12 (100.0%) | — |
-
+| — (OFC cấp châu lục) | [2000340113] OFC Pro League | 5/5 (100.0%) | — |

@@ -114,6 +114,7 @@ Báo ngắn gọn:
 - Tổng số CLB đã kiểm tra.
 - Số city dùng ID thật.
 - Số city dùng `rd-uid`.
+- Danh sách mọi dòng dùng `rd-uid` theo định dạng `UID — Club — City`; nếu không có thì ghi rõ không có.
 - Số affiliate club đã kiểm tra và số affiliate được tự động bổ sung city.
 - Geography có được cập nhật hay không.
 - Xác nhận không commit/push.

@@ -83,6 +83,38 @@ public class HierarchyController {
       }
       roots.add(node(confed.toLowerCase(),"["+confed+"] "+confedName(confed),confed,confedName(confed),1,true,children));
     }
+    if(type.equalsIgnoreCase("club")){
+      List<Map<String,Object>> clubTree=new ArrayList<>();
+      clubTree.add(roots.get(0));
+      for(int rootIndex=1;rootIndex<roots.size();rootIndex++){
+        Map<String,Object> confedRoot=roots.get(rootIndex);
+        String confed=String.valueOf(confedRoot.get("code3")).toUpperCase();
+        List<Map<String,Object>> confedChildren=new ArrayList<>();
+        for(Map<String,Object> comp:jdbc.queryForList(
+            "SELECT c.id,c.name_lg,c.name_sh,c.name_3l,c.confed,c.type FROM competitions c " +
+            "WHERE c.confed=? AND c.nation_id IS NULL AND EXISTS (SELECT 1 FROM clubs cl WHERE cl.comp_id=c.id) " +
+            "ORDER BY COALESCE(c.name_sh,c.name_lg)",confed)){
+          Map<String,Object> compNode=node("comp_"+comp.get("id"),text(comp.get("name_sh"),comp.get("name_lg")),text(comp.get("name_3l"),"CMP"),text(comp.get("name_sh"),comp.get("name_lg")),2,true,List.of());
+          compNode.put("compData",comp); compNode.put("confed",confed); confedChildren.add(compNode);
+        }
+        Map<String,Object> other=special("oth_confed_"+confed,"OTH","Other",confed); other.put("isOther",true);
+        Map<String,Object> extinct=special("ext_confed_"+confed,"EXT","Extinct",confed); extinct.put("isExtinct",true);
+        confedChildren.add(other); confedChildren.add(extinct);
+        clubTree.add(node(confed.toLowerCase(),"["+confed+"] "+confedName(confed),confed,confedName(confed),1,true,confedChildren));
+
+        Object rawNations=confedRoot.get("children");
+        if(rawNations instanceof List<?> nations) for(Object rawNation:nations) if(rawNation instanceof Map<?,?> rawNationMap){
+          @SuppressWarnings("unchecked") Map<String,Object> nationNode=(Map<String,Object>)rawNationMap;
+          nationNode.put("level",1);
+          Object rawChildren=nationNode.get("children");
+          if(rawChildren instanceof List<?> nationChildren) for(Object rawChild:nationChildren) if(rawChild instanceof Map<?,?> rawChildMap){
+            @SuppressWarnings("unchecked") Map<String,Object> child=(Map<String,Object>)rawChildMap; child.put("level",2);
+          }
+          clubTree.add(nationNode);
+        }
+      }
+      return clubTree;
+    }
     if(type.equalsIgnoreCase("city")){
       List<Map<String,Object>> cityTree=new ArrayList<>();
       cityTree.add(roots.get(0));
@@ -244,8 +276,12 @@ public class HierarchyController {
 
   private Map<String,Object> page(String table,Map<String,Object> f,String order){return pageSql(table,f,"TRUE",order);}
   private Map<String,Object> pageSql(String table,Map<String,Object> input,String base,String order){
-    Map<String,Object> f=input==null?Map.of():input; int page=num(f.get("page"),0),size=Math.min(num(f.get("size"),20),300); List<Object> args=new ArrayList<>();
+    Map<String,Object> f=input==null?new LinkedHashMap<>():new LinkedHashMap<>(input); int page=num(f.get("page"),0),size=Math.min(num(f.get("size"),20),300); List<Object> args=new ArrayList<>();
+    String virtualComp=String.valueOf(f.getOrDefault("compId","")).toLowerCase();
+    boolean virtualOther=virtualComp.startsWith("oth-"); boolean virtualExtinct=virtualComp.startsWith("ext-");
+    if(virtualOther||virtualExtinct) f.remove("compId");
     StringBuilder where=new StringBuilder(base); add(where,args,f,"nationId","nation_id"); add(where,args,f,"compId","comp_id"); add(where,args,f,"parentId","parent_id"); add(where,args,f,"regionId","region_id"); add(where,args,f,"type","type"); add(where,args,f,"cityId","city_id"); add(where,args,f,"baseNationId","base_nation_id");
+    if(table.equals("clubs")&&(virtualOther||virtualExtinct)) where.append(" AND comp_id IS NULL AND is_extinct=").append(virtualExtinct?"TRUE":"FALSE");
     if(table.equals("cities")&&Boolean.parseBoolean(String.valueOf(f.getOrDefault("removeOnly",false)))) where.append(" AND (TRIM(name)='-' OR UPPER(COALESCE(region,'')) LIKE '[REMOVE]%')");
     Object confed=f.get("confedId");
     if(confed!=null&&!String.valueOf(confed).equalsIgnoreCase("all")){
@@ -256,7 +292,7 @@ public class HierarchyController {
           args.add(confedCode);
         }
         case "clubs" -> {
-          where.append(" AND (nation_id IN (SELECT id FROM nations WHERE confed=?) OR base_nation_id IN (SELECT id FROM nations WHERE confed=?) OR comp_id IN (SELECT c.id FROM competitions c JOIN nations n ON n.id=c.nation_id WHERE n.confed=?))");
+          where.append(" AND (nation_id IN (SELECT id FROM nations WHERE confed=?) OR base_nation_id IN (SELECT id FROM nations WHERE confed=?) OR comp_id IN (SELECT id FROM competitions WHERE confed=?))");
           args.add(confedCode);
           args.add(confedCode);
           args.add(confedCode);
