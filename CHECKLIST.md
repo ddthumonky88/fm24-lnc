@@ -180,44 +180,44 @@
 | [NZL] NEW ZEALAND | [432266] Northern League | 11/11 (100.0%) | — |
 | [NZL] NEW ZEALAND | [88006344] Central League | 9/9 (100.0%) | — |
 | [NZL] NEW ZEALAND | [2000095538] Southern League | 3/3 (100.0%) | — |
-| [ALB] ALBANIA | [8350942] Abissnet Superiore (23/24) | 7/10 (70.0%) | Laçi, Kukësi, Dinamo City |
-| [ALB] ALBANIA | [11024371] FSHF Kategoria e Parë Grupi A (23/24) | 6/12 (50.0%) | Flamurtari, Bylis, Lushnja, Burreli, Vora, Elbasani |
-| [ALB] ALBANIA | [2000093167] FSHF Kategoria e Dytë Grupi A (23/24) | 5/12 (41.7%) | Gramshi, Tërbuni, Shënkolli, Murlani, Valbona, Adriatiku 2012, Albanët |
-| [ALB] ALBANIA | [2000093168] FSHF Kategoria e Dytë Grupi B (23/24) | 2/11 (18.2%) | Shkumbini, Pogradeci, Devolli, Delvina, Oriku, Këlcyra, Labëria, Maliqi, Luftëtari |
+| [ALB] ALBANIA | [8350942] Abissnet Superiore (23/24) | 10/10 (100.0%) | — |
+| [ALB] ALBANIA | [8351372] FSHF Kategoria e Parë (23/24) | 12/12 (100.0%) | — |
+| [ALB] ALBANIA | [2000093167] FSHF Kategoria e Dytë Grupi A (23/24) | 12/12 (100.0%) | — |
+| [ALB] ALBANIA | [2000093168] FSHF Kategoria e Dytë Grupi B (23/24) | 11/11 (100.0%) | — |
 | [AND] ANDORRA | [47000005] Lliga Multisegur Assegurances | 8/8 (100.0%) | — |
-| [ARM] ARMENIA | [59006196] Armenian Premier League (23/24) | 5/10 (50.0%) | Shirak, Alashkert, Noah, West Armenia, Van |
-| [ARM] ARMENIA | [59006197] Armenian First League (23/24) | 11/15 (73.3%) | Shirak-2, Alashkert-2, Lernayin Artsakh, Noah-2 |
+| [ARM] ARMENIA | [59006196] Armenian Premier League (23/24) | 10/10 (100.0%) | — |
+| [ARM] ARMENIA | [59006197] Armenian First League (23/24) | 15/15 (100.0%) | — |
 | [AUT] AUSTRIA | [136543] ÖFB Bundesliga (23/24) | 12/12 (100.0%) | — |
-| [AUT] AUSTRIA | [136544] ÖFB 2. Liga (23/24) | 8/16 (50.0%) | Oberbank Ried, First Vienna, Kapfenberger SV, Admira Wacker, SV Horn, SV Lafnitz, SV Stripfing, GAK 1902 |
+| [AUT] AUSTRIA | [136544] ÖFB 2. Liga (23/24) | 16/16 (100.0%) | — |
 | [AUT] AUSTRIA | [136546] Regionalliga Ost (23/24) | 2/2 (100.0%) | — |
-| [AUT] AUSTRIA | [5607687] Regionalliga Mitte (23/24) | 3/5 (60.0%) | ASK Voitsberg, Junge Wikinger Ried |
+| [AUT] AUSTRIA | [5607687] Regionalliga Mitte (23/24) | 5/5 (100.0%) | — |
 | [AUT] AUSTRIA | [5607688] Regionalliga West (23/24) | 1/1 (100.0%) | — |
-| [AUT] AUSTRIA | [16068419] ÖFB Jugendliga U18 | 8/13 (61.5%) | AKA Tirol, AKA Hypo Vorarlberg, AKA SV Ried, AKA Admira Wacker, AKA Burgenland |
-| [AZE] AZERBAIJAN | [59006943] Azərbaycan Premyer Liqasi (23/24) | 4/10 (40.0%) | Neftçi, Qarabağ, Kəpəz, Səbail, Zirə, Sabah |
-| [AZE] AZERBAIJAN | [59008101] Azərbaycan I Liqa (23/24) | 4/7 (57.1%) | MOİK, Karvan, Mingaçavir |
+| [AUT] AUSTRIA | [16068419] ÖFB Jugendliga U18 | 13/13 (100.0%) | — |
+| [AZE] AZERBAIJAN | [59006943] Azərbaycan Premyer Liqa (23/24) | 10/10 (100.0%) | — |
+| [AZE] AZERBAIJAN | [59008101] Azərbaycan I Liqa (23/24) | 7/7 (100.0%) | — |
 | [BLR] BELARUS | [7483354] Belarusian Premier League (2023) | 15/15 (100.0%) | — |
 | [BLR] BELARUS | [7483366] Belarusian First League (2023) | 16/16 (100.0%) | — |
 | [BEL] BELGIUM | [1] Jupiler Pro League (23/24) | 16/16 (100.0%) | — |
-| [BEL] BELGIUM | [2] Challenger Pro League (23/24) | 7/16 (43.8%) | FCV Dender, KMSK Deinze, Patro Eisden, Beerschot, Zulte Waregem, Francs Borains, SK Beveren, Lommel, Lierse SK |
-| [BEL] BELGIUM | [8154824] Belgian Division 1 (23/24) | 7/18 (38.9%) | Dessel, Heist, Cappellen, Hoogstraten, Tienen, Excelsior, Lokeren, Knokke, Sint-Eloois-Winkel, Thes Sport, URSL Visé |
+| [BEL] BELGIUM | [2] Challenger Pro League (23/24) | 16/16 (100.0%) | — |
+| [BEL] BELGIUM | [8154824] Belgian Division 1 (23/24) | 18/18 (100.0%) | — |
 | [BIH] BOSNIA & HERZEGOVINA | [8401073] Wwin League BIH (23/24) | 12/12 (100.0%) | — |
 | [BIH] BOSNIA & HERZEGOVINA | [8407370] Prva liga Federacije BiH (23/24) | 16/16 (100.0%) | — |
 | [BIH] BOSNIA & HERZEGOVINA | [8407360] Prva liga Republike Srpske (23/24) | 18/18 (100.0%) | — |
-| [BUL] BULGARIA | [7500000] efbet League (23/24) | 15/16 (93.8%) | Krumovgrad |
-| [BUL] BULGARIA | [7500118] Bulgarian Second League (23/24) | 3/18 (16.7%) | Montana, Belasitsa, Marek Dupnitsa, Litex Lovech, Maritsa Plovdiv, Yantra Gabrovo, Bdin Vidin, Chernomorets Balchik, Sportist Svoge, Strumska Slava, Dobrudzha, Spartak Pleven, Spartak Varna, Dunav Ruse, Chernomorets Burgas |
+| [BUL] BULGARIA | [7500000] efbet League (23/24) | 16/16 (100.0%) | — |
+| [BUL] BULGARIA | [7500118] Bulgarian Second League (23/24) | 16/16 (100.0%) | — |
 | [CRO] CROATIA | [129645] HNL (23/24) | 10/10 (100.0%) | — |
-| [CRO] CROATIA | [129646] Prva NL (23/24) | 5/12 (41.7%) | Cibalia, Dubrava, Dugopolje, Croatia Zmijavci, Orijent, BSK Bijelo Brdo, Zrinski Osječko 1664 |
-| [CYP] CYPRUS | [692430] Cyprus League by Stoiximan (23/24) | 9/14 (64.3%) | AEK Larnacas, Ethnikos Achnas, Doxa Katokopias, AEZ Zakakiou, Karmiotissa |
-| [CYP] CYPRUS | [692431] Cypriot Second Division | 8/16 (50.0%) | Digenis Akritas Morfou, Akritas Chlorakas, ASIL Lysis, PAEEK, MEAP Nisou, ENAD Polis Chrysochous, Omonia 29M, Achyronas-Onisilos |
+| [CRO] CROATIA | [129646] Prva NL (23/24) | 12/12 (100.0%) | — |
+| [CYP] CYPRUS | [692430] Cyprus League by Stoiximan (23/24) | 14/14 (100.0%) | — |
+| [CYP] CYPRUS | [692431] Cypriot Second Division | 16/16 (100.0%) | — |
 | [CZE] CZECHIA | [131287] Chance Liga (23/24) | 16/16 (100.0%) | — |
 | [CZE] CZECHIA | [131288] Chance Národní Liga (23/24) | 16/16 (100.0%) | — |
 | [CZE] CZECHIA | [136041] CFL A (23/24) | 6/6 (100.0%) | — |
 | [CZE] CZECHIA | [25060473] CFL B (23/24) | 7/7 (100.0%) | — |
 | [CZE] CZECHIA | [136042] MSFL (23/24) | 12/12 (100.0%) | — |
 | [DEN] DENMARK | [6] 3F Superliga (23/24) | 12/12 (100.0%) | — |
-| [DEN] DENMARK | [7] NordicBet Liga (23/24) | 8/12 (66.7%) | B.93, Vendsyssel, SønderjyskE, Hobro IK |
-| [DEN] DENMARK | [8] 2. division (23/24) | 4/12 (33.3%) | Fremad Amager, HIK, Nykøbing, Skive IK, Thisted, Brabrand, Middelfart, FA 2000 |
-| [DEN] DENMARK | [2000016262] 3. division (23/24) | 4/12 (33.3%) | Frem, Lyseng, Næsby, Avarta, Vejgaard, Young Boys FD, SfB-Oure, Ishøj |
+| [DEN] DENMARK | [7] NordicBet Liga (23/24) | 12/12 (100.0%) | — |
+| [DEN] DENMARK | [8] 2. division (23/24) | 12/12 (100.0%) | — |
+| [DEN] DENMARK | [2000016262] 3. division (23/24) | 12/12 (100.0%) | — |
 | [ENG] ENGLAND | [11] Premier League (23/24) | 20/20 (100.0%) | — |
 | [ENG] ENGLAND | [12] EFL Championship (23/24) | 24/24 (100.0%) | — |
 | [ENG] ENGLAND | [13] EFL League One (23/24) | 24/24 (100.0%) | — |
@@ -225,42 +225,41 @@
 | [ENG] ENGLAND | [109201] National League (23/24) | 24/24 (100.0%) | — |
 | [ENG] ENGLAND | [5123054] National League North (23/24) | 24/24 (100.0%) | — |
 | [ENG] ENGLAND | [5123055] National League South (23/24) | 24/24 (100.0%) | — |
-| [EST] ESTONIA | [7681558] Meistriliiga (2024) | 5/10 (50.0%) | FC Flora, Nõmme Kalju, Tallinna Kalev, Nõmme United, FCI Levadia |
-| [EST] ESTONIA | [7681559] Esiliiga (2024) | 6/9 (66.7%) | FC Flora U21, Tallinna Kalev U21, FCI Levadia U21 |
+| [EST] ESTONIA | [7681558] Meistriliiga (2024) | 10/10 (100.0%) | — |
+| [EST] ESTONIA | [7681559] Esiliiga (2024) | 9/9 (100.0%) | — |
 | [FRO] FAROE ISLANDS | [8300358] Betrideildin | 9/9 (100.0%) | — |
-| [FIN] FINLAND | [129120] Veikkausliiga (2023) | 9/12 (75.0%) | Haka, Honka, Ilves |
-| [FIN] FINLAND | [129131] Ykkönen (2023) | 8/12 (66.7%) | Jaro, HIFK, Gnistan, KäPa |
-| [FIN] FINLAND | [145450] Kakkonen | 30/69 (43.5%) | Atlantis, Klubi 04, MyPa, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Ilves 2, TPS U23, Viikingit, PP-70, IFK Vasa, Kiisto, Kontu, Lynx, Kuusankoski, Grankulla IFK, IFKK Finnström, Jakobstads BK, KaaPo, KajHa, Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, Närpes Kraft, Norvalla, Pallo-Iirot, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Rakkunat, SoVo Somero, FC YPA |
+| [FIN] FINLAND | [129120] Veikkausliiga (2023) | 12/12 (100.0%) | — |
+| [FIN] FINLAND | [129131] Ykkönen (2023) | 12/12 (100.0%) | — |
 | [FRA] FRANCE | [16] Ligue 1 (23/24) | 18/18 (100.0%) | — |
 | [FRA] FRANCE | [17] Ligue 2 (23/24) | 20/20 (100.0%) | — |
 | [FRA] FRANCE | [18] Ligue 3 (23/24) | 18/18 (100.0%) | — |
-| [FRA] FRANCE | [19] National 2 Groupe A (23/24) | 2/13 (15.4%) | Cannes, Olympique Alès, Jura Sud, Andrézieux-Bouthéon, Thonon Évian, Aubagne Air Bel, Étoile FC, Le Puy-en-Velay, Chamalières, Hyères, Pays de Grasse |
-| [FRA] FRANCE | [914522] National 2 Groupe B (23/24) | 2/14 (14.3%) | Trélissac, La Roche Vendée, Libournee, Angoulême CFC, SO Romorantin, Saumur, Les Herbiers, Blois Foot 41, Bergerac, Saint-Pryvé Saint-Hilaire, Avoine OCC, Bourges Foot 18 |
-| [FRA] FRANCE | [914523] National 2 Groupe C (23/24) | 2/14 (14.3%) | Aubervilliers, Beauvais Oise, Stade Briochin, Châteaubriant, Boulogne, Saint-Malo, Granville, Dinan Léhon, Racing CFF, AF Virois, Chambly Oise, Borgo |
-| [FRA] FRANCE | [914524] National 2 Groupe D (23/24) | 1/13 (7.7%) | Bourg-en-Bresse, FCSR Haguenau, Saint-Quentin, Créteil, Mâcon, ASC Biesheim, Furiani-Agliani, Fleury 91, SR Colmar, EFAFC, Wasquehal, FC93 BBG |
-| [FRA] FRANCE | Team 2 | 50/104 (48.1%) | Le Puy-en-Velay 2, ASM Belfort 2, Les Herbiers 2, Chambly 2, Sedan 2, Étoile FC 2, Créteil 2, Bourg-en-Bresse 2, Cannes 2, La Roche Vendée 2, Louhans-Cuiseaux 2, Vannes 2, C'Chartres 2, FCSR Haguenau 2, Saint-Quentin 2, Lusitanos SM 2, Sainte-Geneviève 2, Fleury 91 2, Granville 2, Saint-Malo 2, Stade Briochin 2, Andrézieux-Bouthéon 2, Angoulême CFC 2, Bergerac 2, Blois Foot 41 2, Chamalières 2, SO Romorantin 2, Saint-Priest 2, SPSH 2, Trélissac 2, Hyères 2, Jura Sud 2, Moulins Yzeure 2, Furiani-Agliani 2, ASC Biesheim 2, FC93 2, Pays de Grasse 2, Thonon Évian 2, Racing CFF 2, Évreux 27 2, Wasquehal 2, SR Colmar 2, Vierzon 2, Saumur 2, Alès 2, Beauvais Oise 2, Châteaubriant 2, Canet Roussillon 2, Borgo 2, Mâcon 2, EFAFC 2, Aubagne Air Bel 2, Libournee 2, Avoine OCC 2 |
+| [FRA] FRANCE | [19] National 2 Groupe A (23/24) | 13/13 (100.0%) | — |
+| [FRA] FRANCE | [914522] National 2 Groupe B (23/24) | 14/14 (100.0%) | — |
+| [FRA] FRANCE | [914523] National 2 Groupe C (23/24) | 14/14 (100.0%) | — |
+| [FRA] FRANCE | [914524] National 2 Groupe D (23/24) | 13/13 (100.0%) | — |
+| [FRA] FRANCE | Team 2 | 104/104 (100.0%) | — |
 | [GEO] GEORGIA | [59126495] Erovnuli Liga (2023) | 10/10 (100.0%) | — |
 | [GEO] GEORGIA | [59126496] Erovnuli Liga 2 (2023) | 10/10 (100.0%) | — |
 | [GER] GERMANY | [22] Bundesliga (23/24) | 18/18 (100.0%) | — |
 | [GER] GERMANY | [23] 2. Bundesliga (23/24) | 18/18 (100.0%) | — |
 | [GER] GERMANY | [35010926] 3. Liga (23/24) | 20/20 (100.0%) | — |
-| [GER] GERMANY | [26] Regionalliga Nord (23/24) | 5/6 (83.3%) | Meppen |
-| [GER] GERMANY | [91107110] Regionalliga Nordost (23/24) | 5/8 (62.5%) | Chemnitzer, FSV Zwickau, Berliner AK |
+| [GER] GERMANY | [26] Regionalliga Nord (23/24) | 6/6 (100.0%) | — |
+| [GER] GERMANY | [91107110] Regionalliga Nordost (23/24) | 8/8 (100.0%) | — |
 | [GER] GERMANY | [35010927] Regionalliga West (23/24) | 7/7 (100.0%) | — |
-| [GER] GERMANY | [27] Regionalliga Südwest (23/24) | 4/7 (57.1%) | Kickers Offenbach, Stuttgarter Kickers, Wuppertaler SV |
-| [GER] GERMANY | [91107111] Regionalliga Bayern (23/24) | 5/7 (71.4%) | Aalen, Bayreuth |
-| [GER] GERMANY | Team II/III | 19/21 (90.5%) | Bayreuth II, Meppen II |
-| [GER] GERMANY | [92086572] A-Junioren-Bundesliga Nord/Nordost (23/24) | 13/14 (92.9%) | NLZ Emsland |
-| [GER] GERMANY | [92086574] A-Junioren-Bundesliga West (23/24) | 13/14 (92.9%) | Wuppertaler SV U19 |
+| [GER] GERMANY | [27] Regionalliga Südwest (23/24) | 7/7 (100.0%) | — |
+| [GER] GERMANY | [91107111] Regionalliga Bayern (23/24) | 7/7 (100.0%) | — |
+| [GER] GERMANY | Team II/III | 21/21 (100.0%) | — |
+| [GER] GERMANY | [92086572] A-Junioren-Bundesliga Nord/Nordost (23/24) | 14/14 (100.0%) | — |
+| [GER] GERMANY | [92086574] A-Junioren-Bundesliga West (23/24) | 14/14 (100.0%) | — |
 | [GER] GERMANY | [92086573] A-Junioren-Bundesliga Süd/Südwest (23/24) | 14/14 (100.0%) | — |
-| [GER] GERMANY | NLZ Teams | 19/25 (76.0%) | Kickers Offenbach U19, Stuttgarter Kickers U19, Chemnitzer U19, Berliner AK U19, Berliner SC U19, FSV Zwickau U19 |
+| [GER] GERMANY | NLZ Teams | 25/25 (100.0%) | — |
 | [GIB] GIBRALTAR | [36532636] Gibraltar Football League | 11/11 (100.0%) | — |
 | [GRE] GREECE | [129650] Super League Greece (23/24) | 14/14 (100.0%) | — |
-| [GRE] GREECE | [36086001] Super League Greece 2 North Group (23/24) | 3/12 (25.0%) | Iraklis, AEL Novibet, Levadiakos, Anagennisi Karditsa, Apollon Kalamarias, Kozani, Makedonikos, Aiolikos, Kabaniakos |
-| [GRE] GREECE | [36086002] Super League Greece 2 South Group (23/24) | 7/12 (58.3%) | Ionikos, Diagoras Rodos, Panachaiki, Tilykratis, Giouchtas |
-| [HUN] HUNGARY | [7520391] OTP Bank Liga (23/24) | 4/12 (33.3%) | Debreceni VSC, Fehérvár, Újpest, Diósgyőr, Paks, Mezőkövesd, Kisvárda, Puskás Akadémia |
-| [HUN] HUNGARY | [152045] Merkantil Bank Liga (23/24) | 9/18 (50.0%) | BVSC-Zugló, Haladás, Vasas, BFC Siófok, Soroksár, Kozármisleny, Budafok, Csákvár, Tiszakécske |
-| [HUN] HUNGARY | [38013451] Nemzeti Bajnokság III | 0/5 (0.0%) | REAC, ESMTK, Szentlőrinc, Debreceni EAC, Haladás VSE |
+| [GRE] GREECE | [36086001] Super League Greece 2 North Group (23/24) | 12/12 (100.0%) | — |
+| [GRE] GREECE | [36086002] Super League Greece 2 South Group (23/24) | 12/12 (100.0%) | — |
+| [HUN] HUNGARY | [7520391] OTP Bank Liga (23/24) | 12/12 (100.0%) | — |
+| [HUN] HUNGARY | [152045] Merkantil Bank Liga (23/24) | 18/18 (100.0%) | — |
+| [HUN] HUNGARY | [38013451] Nemzeti Bajnokság III | 5/5 (100.0%) | — |
 | [ISL] ICELAND | [7840132] Besta deild karla (2023) | 8/12 (66.7%) | FH, Keflavík, Stjarnan, HK |
 | [ISL] ICELAND | [7840133] Lengjudeild karla (2023) | 7/12 (58.3%) | Selfoss, Afturelding, Njarðvík, Grótta, Ægir |
 | [IRL] IRELAND | [129372] LOI Premier Division (2023) | 5/10 (50.0%) | Bohemians, Derry City, Shamrock Rovers, Shelbourne, St Patrick's Athletic |
@@ -411,26 +410,28 @@
 | [PNG] PAPUA NEW GUINEA | 0/1 (0.0%) | PNG Hekari |
 | [SOL] SOLOMON ISLANDS | 0/1 (0.0%) | Real Kakamora |
 | [VAN] VANUATU | 0/1 (0.0%) | Ifira Black Bird |
-| [ALB] ALBANIA | 10/15 (66.7%) | Tepelena, Bulqiza, Kukësi II, Bylis II, Dinamo City II |
+| [ALB] ALBANIA | 13/15 (86.7%) | Tepelena, Bulqiza |
 | [AND] ANDORRA | 5/10 (50.0%) | Sant Julià, Lusitanos, Ranger's, Engordany, Engordany B |
-| [ARM] ARMENIA | 6/8 (75.0%) | Lernayin Artsakh-2, Ulisses |
-| [AUT] AUSTRIA | 18/26 (69.2%) | Grazer AK Amateure, First Vienna Amateure, Admira Wacker Amateure, SV Horn Amateure, ASK Voitsberg II, SV Grödig, AKA GAK 1902, NWZ First Vienna |
-| [AZE] AZERBAIJAN | 5/12 (41.7%) | Neftçi-2, Qarabağ-2, Kəpəz-2, Səbail-2, Zirə-2, Sabah-2, Karvan-2 |
+| [ARM] ARMENIA | 7/8 (87.5%) | Ulisses |
+| [AUT] AUSTRIA | 23/26 (88.5%) | ASK Voitsberg II, SV Grödig, NWZ First Vienna |
+| [AZE] AZERBAIJAN | 12/12 (100.0%) | — |
 | [BLR] BELARUS | 6/9 (66.7%) | Granit Mikashevichi, Gorodeya, Smolevichi |
-| [BEL] BELGIUM | 12/66 (18.2%) | Berchem, RCS Verviétois, Diegem, Eendracht Zele, Lille United, KVV Turnhout, Vigor Wuitens Hamme, Grimbergen, Lyra-Lierse, OLSA Brakel, Lebbeke, KRC Gent, Union Rochefortoise, Torhout, Wezel Sport, Harelbeke, Tempo Overijse, Merelbeke, Sparta Petegem, Woluwe-Zaventem, Wallonia Walhain, Sprimont Comblain, Gullegem, Ninove, Géants Athois, Bornem, Bocholt VV, Union La Calamine, Verbroedering Geel, RFC Meux, Rupel Boom, Oudenaarde, Londerzeel, Belisia Bilzen, Dikkelvenne, Ganshoren, Warnant, Acren-Lessines, Houtvenne, Wallonne Ciney, Hamoir, City Pirates, Voorde-Appelterre, Oostkamp, Binche, Verlaine, Mandel United, KSK Tongeren, Stockay-Warfusée, KVV Zelzate, Jong Essevee, Beerschot B, Tubize-Braine, Stade Verviétois |
+| [BEL] BELGIUM | 14/66 (21.2%) | Berchem, RCS Verviétois, Diegem, Eendracht Zele, Lille United, KVV Turnhout, Vigor Wuitens Hamme, Grimbergen, Lyra-Lierse, OLSA Brakel, Lebbeke, KRC Gent, Union Rochefortoise, Torhout, Wezel Sport, Harelbeke, Tempo Overijse, Merelbeke, Sparta Petegem, Woluwe-Zaventem, Wallonia Walhain, Sprimont Comblain, Gullegem, Ninove, Géants Athois, Bornem, Bocholt VV, Union La Calamine, Verbroedering Geel, RFC Meux, Rupel Boom, Oudenaarde, Londerzeel, Belisia Bilzen, Dikkelvenne, Ganshoren, Warnant, Acren-Lessines, Houtvenne, Wallonne Ciney, Hamoir, City Pirates, Voorde-Appelterre, Oostkamp, Binche, Verlaine, Mandel United, KSK Tongeren, Stockay-Warfusée, KVV Zelzate, Tubize-Braine, Stade Verviétois |
 | [BIH] BOSNIA & HERZEGOVINA | 3/4 (75.0%) | Mladost VO |
-| [BUL] BULGARIA | 16/32 (50.0%) | Lokomotiv GO, Haskovo, Minyor Pernik, Sozopol, Lokomotiv Mezdra, Pirin 2002, Septemvri Simitli, Botev Gŭlŭbovo, Černomorec Burgas, Vereya Stara Zagora, Bansko, Burgas, Rakovski 2011, Spartak Varna II, Dunav Ruse II, Chernomorets Burgas II |
+| [BUL] BULGARIA | 21/34 (61.8%) | Lokomotiv GO, Haskovo, Minyor Pernik, Sozopol, Lokomotiv Mezdra, Pirin 2002, Septemvri Simitli, Botev Gŭlŭbovo, Černomorec Burgas, Vereya Stara Zagora, Bansko, Burgas, Rakovski 2011 |
 | [CRO] CROATIA | 11/22 (50.0%) | Segesta, Mosor, Pomorac 1921, Kamen Ingrad, Slavonac SP, Moslavina, Lučko, Međimurje, Vinogradar, Bistra, Hrvatski Dragovoljac |
 | [CYP] CYPRUS | 3/5 (60.0%) | APEP Pitsilias, Oroklini Troulloi |
 | [CZE] CZECHIA | 10/15 (66.7%) | Chmel Blšany, Vitkovice, Bohemians Praha, Sparta Krč, Fotbal Fulnek |
 | [DEN] DENMARK | 38/86 (44.2%) | Frem II, B.93 II, Brabrand II, SønderjyskE II, København II, Skive IK II, Thisted II, Avarta II, HIK II, Næsby II, Hobro IK II, Fremad Amager II, MG & BK, Nykøbing II, Vejgaard II, Lyseng II, SfB-Oure II, Midtjylland II, Nordsjælland II, FA 2000 II, Vendsyssel II, Ishøj II, Skjold II, BK Marienlyst II, Karlslunde II, Viby II, Gørslev II, Frederikssund II, Hedensted II, VRI II, Nørresundby II, KB 81 II, B.1908, Brønshøj, Dalum, IK Skovbakken, Varde IF, Jammerbugt, Ringkøbing IF, Avedøre IF, BK Marienlyst, Odder IGF, Søllerød-Vedbæk, Rishøj BK, Svebølle B&I, Kjellerup IF, Sydvest 05, MG & BK U19 |
 | [ENG] ENGLAND | 9/79 (11.4%) | Guiseley, Workington, Chesham United, Corby Town, Frickley Athletic, Halesowen Town, Hitchin Town, Hyde, Kettering Town, Kingstonian, Leek Town, Marine, Northwich Victoria, Stafford Rangers, Stalybridge Celtic, Hednesford Town, Dulwich Hamlet, Stourbridge, Dorchester Town, Grantham Town, Canvey Island, Gainsborough Trinity, Billericay Town, Hendon, Ashton United, Belper Town, Droylsden, Matlock Town, Trafford, Whitby Town, Witton Albion, Worcester City, Redditch United, Cirencester Town, Margate, Bognor Regis Town, Grays Athletic, Leatherhead, Metropolitan Police, Burnham, Histon, Stamford, Cheshunt, Hungerford Town, Bideford, Paulton Rovers, Barwell, Stratford Town, St. Neots Town, Gosport Borough, Whitehawk, Bury Town, Lowestoft Town, Ramsbottom United, Nantwich Town, Skelmersdale United, Frome Town, Witham Town, Arlesey Town, Lewes, Leamington, Peacehaven & Telscombe, Biggleswade Town, Dunstable Town, Concord Rangers, Leiston, Wingate & Finchley, Carlton Town, Hornchurch, Hayes & Yeading |
-| [EST] ESTONIA | 5/6 (83.3%) | FC Flora U19 |
+| [EST] ESTONIA | 6/6 (100.0%) | — |
 | [FRO] FAROE ISLANDS | 6/9 (66.7%) | B71, AB II, B71 II |
-| [FRA] FRANCE | 1/36 (2.8%) | Louhans-Cuiseaux, Istres, Canet Roussillon, Sedan, FC Dieppois, Tours, Vendée Fontenay, Montceau Bourgogne, Stade Plabennécois, GSI Pontivy, US Raon, Lusitanos Saint-Maur, Saint-Priest, Tarbes Pyrénées, US Ivry Football, Vannes, Viry-Châtillon, AS Vitré, Entente SSG, US Royenne, Moulins Yzeure, FC Mantois 78, Sainte-Geneviève, ASM Belfort, Sarre-Union, Le Pontet, Vendée Poiré-sur-Vie, Colomiers, Arras FA, Vierzon, C'Chartres, Béziers, Évreux 27, JA Drancy, IC Croix |
+| [FIN] FINLAND | 35/69 (50.7%) | Atlantis, Klubi 04, MyPa, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Ilves 2, TPS U23, Viikingit, PP-70, Kiisto, Kontu, Lynx, Kuusankoski, IFKK Finnström, KaaPo, KajHa, Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, Norvalla, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Rakkunat, SoVo Somero, FC YPA |
+| [FIN] FINLAND | 35/69 (50.7%) | Atlantis, Klubi 04, MyPa, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Ilves 2, TPS U23, Viikingit, PP-70, Kiisto, Kontu, Lynx, Kuusankoski, IFKK Finnström, KaaPo, KajHa, Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, Norvalla, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Rakkunat, SoVo Somero, FC YPA |
+| [FRA] FRANCE | 13/36 (36.1%) | Istres, FC Dieppois, Tours, Vendée Fontenay, Montceau Bourgogne, Stade Plabennécois, GSI Pontivy, US Raon, Tarbes Pyrénées, US Ivry Football, Viry-Châtillon, AS Vitré, Entente SSG, US Royenne, FC Mantois 78, Sarre-Union, Le Pontet, Vendée Poiré-sur-Vie, Colomiers, Arras FA, Béziers, JA Drancy, IC Croix |
 | [GEO] GEORGIA | 10/13 (76.9%) | Iberia-2 1999, WIT-Georgia-2, WIT-Georgia-3 |
-| [GER] GERMANY | 0/2 (0.0%) | Berliner SC, Sonnenhof Großaspach |
-| [HUN] HUNGARY | 9/19 (47.4%) | Budafoki MTE II, Debreceni VSC II, Diósgyőri VTK II, Újpest II, Vasas II, Fehérvár II, Paks II, Puskás Akadémia II, Mezőkövesd II, Kisvárda II |
+| [GER] GERMANY | 1/2 (50.0%) | Sonnenhof Großaspach |
+| [HUN] HUNGARY | 19/19 (100.0%) | — |
 | [ISL] ICELAND | 4/10 (40.0%) | Haukar/KÁ U19, ÍR/Léttir U19, Haukar, KV, Tindastóll, Víkingur Ólafsvík |
 | [IRL] IRELAND | 5/6 (83.3%) | Shamrock Rovers B |
 | [ISR] ISRAEL | 9/10 (90.0%) | Hapoel Bnei Lod |

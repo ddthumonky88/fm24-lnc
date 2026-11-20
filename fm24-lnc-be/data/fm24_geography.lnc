@@ -2010,6 +2010,7 @@
 
 # CITY > [AUT] AUSTRIA > [AUT-01] Burgenland
 #====================================================================================
+"CITY_NAME_CHANGE"		136539		"Mattersburg"						""
 "CITY_NAME_CHANGE"		5604612		"Eisenstadt"						""
 
 
@@ -2027,6 +2028,7 @@
 
 # CITY > [AUT] AUSTRIA > [AUT-03] Niederösterreich
 #====================================================================================
+"CITY_NAME_CHANGE"		1300074		"Maria Enzersdorf"					""
 "CITY_NAME_CHANGE"		5603624		"Zwettl"						""
 "CITY_NAME_CHANGE"		5603695		"Mödling"						""
 "CITY_NAME_CHANGE"		5604462		"St. Pölten"						""
@@ -2038,6 +2040,7 @@
 "CITY_NAME_CHANGE"		5606019		"Waidhofen an der Ybbs"					""
 "CITY_NAME_CHANGE"		5606468		"Stockerau"						""
 "CITY_NAME_CHANGE"		8158965		"Amstetten"						""
+"CITY_NAME_CHANGE"		16001003	"Horn"							""
 "CITY_NAME_CHANGE"		16001006	"Neunkirchen"						""
 "CITY_NAME_CHANGE"		16002487	"Baden bei Wien"					""
 "CITY_NAME_CHANGE"		16010427	"Hollabrunn"						""
@@ -2051,6 +2054,7 @@
 "CITY_NAME_CHANGE"		16050846	"Brunn am Gebirge"					""
 "CITY_NAME_CHANGE"		16053312	"Reichenau an der Rax"					""
 "CITY_NAME_CHANGE"		16090773	"Gansbach (Gemeinde Dunkelsteinerwald)"			""
+"CITY_NAME_CHANGE"		16112176	"Stripfing"						""
 "CITY_NAME_CHANGE"		16112274	"Senftenberg (Kremstal)"				""
 "CITY_NAME_CHANGE"		16112443	"Waldhausen (NÖ)"					""
 "CITY_NAME_CHANGE"		16265639	"Breitenau (NÖ)"					""
@@ -2091,9 +2095,11 @@
 "CITY_NAME_CHANGE"		136537		"Leoben"						""
 "CITY_NAME_CHANGE"		1300073		"Graz"							""
 "CITY_NAME_CHANGE"		5602976		"Kapfenberg"						""
+"CITY_NAME_CHANGE"		5604454		"Voitsberg"						""
 "CITY_NAME_CHANGE"		5606770		"Knittelfeld"						""
 "CITY_NAME_CHANGE"		16000745	"Hartberg"						""
 "CITY_NAME_CHANGE"		16001102	"Bruck an der Mur"					""
+"CITY_NAME_CHANGE"		16050855	"Lafnitz"						""
 
 
 # CITY > [AUT] AUSTRIA > [AUT-07] Tirol
@@ -2105,6 +2111,7 @@
 "CITY_NAME_CHANGE"		5604556		"Kufstein"						""
 "CITY_NAME_CHANGE"		5606352		"Schwaz"						""
 "CITY_NAME_CHANGE"		5606355		"Hall in Tirol"						""
+"CITY_NAME_CHANGE"		16000891	"Axams"							""
 "CITY_NAME_CHANGE"		16046796	"Nußdorf-Debant"					""
 "CITY_NAME_CHANGE"		16050840	"Telfs"							""
 "CITY_NAME_CHANGE"		16101586	"Münster (Tirol)"					""
@@ -2167,6 +2174,7 @@
 "CITY_NAME_CHANGE"		5319554		"Sumqayıt"						""
 "CITY_NAME_CHANGE"		59006869	"Xankəndi"						""
 "CITY_NAME_CHANGE"		59079567	"Naftalan"						""
+"CITY_NAME_CHANGE"		59081077	"Masazir"						""
 
 "CITY_NAME_CHANGE"		59007065	"Suraxanı, Bakı"					""
 "CITY_NAME_CHANGE"		59080935	"Zirə, Bakı"						""
@@ -3135,26 +3143,39 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		8		"Antwerp"						""
 "CITY_NAME_CHANGE"		10		"Mechelen"						""
+"CITY_NAME_CHANGE"		18		"Lier"							""
 "CITY_NAME_CHANGE"		32		"Westerlo"						""
+"CITY_NAME_CHANGE"		48		"Dessel"						""
+"CITY_NAME_CHANGE"		54		"Hoogstraten"						""
+"CITY_NAME_CHANGE"		856823		"Kapellen"						""
+"CITY_NAME_CHANGE"		3201977		"Heist-Op-Den-Berg"					""
 
 
 # CITY > [BEL] BELGIUM > [BEL-VOV] Oost-Vlaanderen
 #====================================================================================
 "CITY_NAME_CHANGE"		5		"Ghent"							""
 "CITY_NAME_CHANGE"		9		"Aalst"							""
+"CITY_NAME_CHANGE"		16		"Lokeren"						""
+"CITY_NAME_CHANGE"		21		"Denderleeuw"						""
+"CITY_NAME_CHANGE"		25		"Deinze"						""
 "CITY_NAME_CHANGE"		43		"Sint-Niklaas"						""
+"CITY_NAME_CHANGE"		3200615		"Beveren"						""
 
 
 # CITY > [BEL] BELGIUM > [BEL-VBR] Vlaams-Brabant
 #====================================================================================
 "CITY_NAME_CHANGE"		57		"Leuven"						""
+"CITY_NAME_CHANGE"		59		"Tienen"						""
 
 
 # CITY > [BEL] BELGIUM > [BEL-VLI] Limburg (BE)
 #====================================================================================
 "CITY_NAME_CHANGE"		12		"Genk"							""
 "CITY_NAME_CHANGE"		17		"Sint-Truiden"						""
+"CITY_NAME_CHANGE"		19		"Lommel"						""
+"CITY_NAME_CHANGE"		30		"Eisden"						""
 "CITY_NAME_CHANGE"		8155833		"Hasselt"						""
+"CITY_NAME_CHANGE"		8160006		"Tessenderlo"						""
 
 
 # CITY > [BEL] BELGIUM > [BEL-VWV] West-Vlaanderen
@@ -3162,7 +3183,10 @@
 "CITY_NAME_CHANGE"		6		"Bruges"						""
 "CITY_NAME_CHANGE"		26		"Kortrijk"						""
 "CITY_NAME_CHANGE"		27		"Oostende"						""
+"CITY_NAME_CHANGE"		31		"Waregem"						""
 "CITY_NAME_CHANGE"		38		"Roeselare"						""
+"CITY_NAME_CHANGE"		539812		"Knokke-Heist"						""
+"CITY_NAME_CHANGE"		6600036		"Sint-Eloois-Winkel"					""
 
 
 # CITY > [BEL] BELGIUM > [BEL-WBR] Brabant wallon
@@ -3177,13 +3201,20 @@
 "CITY_NAME_CHANGE"		28		"Charleroi"						""
 "CITY_NAME_CHANGE"		34		"Mons"							""
 "CITY_NAME_CHANGE"		42		"Tournai"						""
+"CITY_NAME_CHANGE"		3200734		"Boussu"						""
 
 
 # CITY > [BEL] BELGIUM > [BEL-WLG] Liège
 #====================================================================================
 "CITY_NAME_CHANGE"		11		"Liège"							""
 "CITY_NAME_CHANGE"		47		"Verviers"						""
+"CITY_NAME_CHANGE"		3200625		"Visé"							""
 "CITY_NAME_CHANGE"		8162013		"Seraing"						""
+
+
+# CITY > [BEL] BELGIUM > [BEL-WLX] Luxembourg (BE)
+#====================================================================================
+"CITY_NAME_CHANGE"		45		"Virton"						""
 
 
 # CITY > [BEL] BELGIUM > [BEL-WNA] Namur
@@ -4049,6 +4080,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-01] Blagoevgrad Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5410513		"Petrich"						""
 "CITY_NAME_CHANGE"		7500258		"Blagoevgrad"						""
 "CITY_NAME_CHANGE"		22012396	"Ivanovo, Blagoevgrad oblast"				""
 "CITY_NAME_CHANGE"		22014505	"Delchevo, Blagoevgrad oblast"				""
@@ -4060,6 +4092,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-02] Burgas Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300178		"Burgas"						""
 "CITY_NAME_CHANGE"		22018383	"Draganovo, Burgas oblast"				""
 "CITY_NAME_CHANGE"		22018386	"Kiten, Burgas oblast"					""
 "CITY_NAME_CHANGE"		22023366	"Sadovo, Burgas oblast"					""
@@ -4068,10 +4101,17 @@
 
 # CITY > [BUL] BULGARIA > [BUL-08] Dobrich Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300180		"Dobrich"						""
+"CITY_NAME_CHANGE"		7500238		"Balchik"						""
 "CITY_NAME_CHANGE"		22012399	"Pobeda, Dobrich oblast"				""
 "CITY_NAME_CHANGE"		22012403	"Tsarevets, Dobrich oblast"				""
 "CITY_NAME_CHANGE"		22018385	"Draganovo, Dobrich oblast"				""
 "CITY_NAME_CHANGE"		22033919	"Zhitnitsa, Dobrich oblast"				""
+
+
+# CITY > [BUL] BULGARIA > [BUL-07] Gabrovo Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		7500245		"Gabrovo"						""
 
 
 # CITY > [BUL] BULGARIA > [BUL-26] Haskovo Oblast
@@ -4093,10 +4133,17 @@
 "CITY_NAME_CHANGE"		22018384	"Draganovo, Kardzhali oblast"				""
 "CITY_NAME_CHANGE"		22033918	"Zhitnitsa, Kardzhali oblast"				""
 "CITY_NAME_CHANGE"		22036853	"Yarebitsa, Kardzhali oblast"				""
+"CITY_NAME_CHANGE"		22059099	"Krumovgrad"						""
+
+
+# CITY > [BUL] BULGARIA > [BUL-10] Kyustendil Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		5410527		"Dupnitsa"						""
 
 
 # CITY > [BUL] BULGARIA > [BUL-11] Lovech Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300173		"Lovech"						""
 "CITY_NAME_CHANGE"		22012920	"Chiflik, Lovech oblast"				""
 "CITY_NAME_CHANGE"		22014945	"Yablanitsa, Lovech oblast"				""
 "CITY_NAME_CHANGE"		22014949	"Ablanitsa, Lovech oblast"				""
@@ -4104,6 +4151,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-12] Montana Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300168		"Montana"						""
 "CITY_NAME_CHANGE"		22012720	"Nikolovo, Montana oblast"				""
 
 
@@ -4116,11 +4164,13 @@
 
 # CITY > [BUL] BULGARIA > [BUL-14] Pernik Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		7505654		"Radomir"						""
 "CITY_NAME_CHANGE"		22033878	"Studena, Pernik oblast"				""
 
 
 # CITY > [BUL] BULGARIA > [BUL-15] Pleven Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300172		"Pleven"						""
 "CITY_NAME_CHANGE"		7500240		"Pobeda, Pleven oblast"					""
 "CITY_NAME_CHANGE"		22012718	"Trastenik, Pleven oblast"				""
 "CITY_NAME_CHANGE"		22013037	"Slavyanovo, Pleven oblast"				""
@@ -4145,6 +4195,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-18] Ruse Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1300175		"Ruse"							""
 "CITY_NAME_CHANGE"		7500242		"Byala, Ruse oblast"					""
 "CITY_NAME_CHANGE"		7505620		"Trastenik, Ruse oblast"				""
 "CITY_NAME_CHANGE"		7505623		"Otritsa, Ruse oblast"					""
@@ -4181,6 +4232,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-23] Sofia Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		7500901		"Svoge"							""
 "CITY_NAME_CHANGE"		7500902		"kv. Gorublyane, Sofia oblast"				""
 "CITY_NAME_CHANGE"		22014946	"Yablanitsa, Sofia oblast"				""
 "CITY_NAME_CHANGE"		22017071	"Stambolovo, Sofia oblast"				""
@@ -4206,7 +4258,6 @@
 
 # CITY > [BUL] BULGARIA > [BUL-03] Varna Oblast
 #====================================================================================
-#"CITY_NAME_CHANGE"		7505638		"Byala (Varna oblast)"					""
 "CITY_NAME_CHANGE"		1300179		"Varna"							""
 "CITY_NAME_CHANGE"		22018387	"Kiten, Varna oblast"					""
 "CITY_NAME_CHANGE"		22023365	"Sadovo, Varna oblast"					""
@@ -4228,6 +4279,7 @@
 
 # CITY > [BUL] BULGARIA > [BUL-05] Vidin Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		7500257		"Vidin"							""
 "CITY_NAME_CHANGE"		7501909		"Oreshets, Vidin oblast"				""
 "CITY_NAME_CHANGE"		22012919	"Chiflik, Vidin oblast"					""
 
@@ -6498,12 +6550,14 @@
 "CITY_NAME_CHANGE"		129790		"Omiš"							""
 "CITY_NAME_CHANGE"		129795		"Ploče"							""
 "CITY_NAME_CHANGE"		129801		"Sinj"							""
+"CITY_NAME_CHANGE"		129821		"Zmijavci"						""
 "CITY_NAME_CHANGE"		650005		"Dubrovnik"						""
 "CITY_NAME_CHANGE"		654425		"Imotski"						""
 "CITY_NAME_CHANGE"		661607		"Trogir"						""
 "CITY_NAME_CHANGE"		1300216		"Zadar"							""
 "CITY_NAME_CHANGE"		1300217		"Šibenik"						""
 "CITY_NAME_CHANGE"		1300218		"Split"							""
+"CITY_NAME_CHANGE"		24013635	"Dugopolje"						""
 "CITY_NAME_CHANGE"		24042939	"Otok (Split-Dalmatia)"					""
 "CITY_NAME_CHANGE"		24042958	"Novigrad (Zadar)"					""
 "CITY_NAME_CHANGE"		24042960	"Privlaka (Zadar)"					""
@@ -6580,6 +6634,7 @@
 "CITY_NAME_CHANGE"		1300224		"Osijek"						""
 "CITY_NAME_CHANGE"		1300225		"Vinkovci"						""
 "CITY_NAME_CHANGE"		1300226		"Slavonski Brod"					""
+"CITY_NAME_CHANGE"		24039800	"Bijelo Brdo"						""
 "CITY_NAME_CHANGE"		24042869	"Privlaka (Vukovar-Syrmia)"				""
 
 
@@ -6869,6 +6924,7 @@
 "CITY_NAME_CHANGE"		74		"Brøndby"						""
 "CITY_NAME_CHANGE"		80		"Farum"							""
 "CITY_NAME_CHANGE"		86		"Gladsaxe"						""
+"CITY_NAME_CHANGE"		91		"Hellerup"						""
 "CITY_NAME_CHANGE"		92		"Helsingør"						""
 "CITY_NAME_CHANGE"		94		"Herlev"						""
 "CITY_NAME_CHANGE"		96		"Hillerød"						""
@@ -6878,6 +6934,7 @@
 "CITY_NAME_CHANGE"		130		"Rødovre"						""
 "CITY_NAME_CHANGE"		138		"Tårnby"						""
 "CITY_NAME_CHANGE"		143		"Vanløse"						""
+"CITY_NAME_CHANGE"		931468		"Ishøj"							""
 "CITY_NAME_CHANGE"		933926		"Taastrup"						""
 "CITY_NAME_CHANGE"		933951		"Gentofte"						""
 "CITY_NAME_CHANGE"		938010		"Ordrup, Copenhagen"					""
@@ -6894,6 +6951,7 @@
 "CITY_NAME_CHANGE"		101		"Horsens"						""
 "CITY_NAME_CHANGE"		128		"Randers"						""
 "CITY_NAME_CHANGE"		133		"Silkeborg"						""
+"CITY_NAME_CHANGE"		134		"Skive"							""
 "CITY_NAME_CHANGE"		147		"Viborg"						""
 "CITY_NAME_CHANGE"		1704230		"Borup, Aarhus"						""
 "CITY_NAME_CHANGE"		8301083		"Borup, Ringkøbing"					""
@@ -6904,6 +6962,8 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		61		"Aalborg"						""
 "CITY_NAME_CHANGE"		97		"Hjørring"						""
+"CITY_NAME_CHANGE"		141		"Thisted"						""
+"CITY_NAME_CHANGE"		928473		"Hobro"							""
 
 
 # CITY > [DEN] DENMARK > [DEN-85] Region Sjælland
@@ -6912,6 +6972,7 @@
 "CITY_NAME_CHANGE"		98		"Holbæk"						""
 "CITY_NAME_CHANGE"		110		"Køge"							""
 "CITY_NAME_CHANGE"		120		"Næstved"						""
+"CITY_NAME_CHANGE"		125		"Nykøbing Falster"					""
 "CITY_NAME_CHANGE"		131		"Roskilde"						""
 "CITY_NAME_CHANGE"		136		"Slagelse"						""
 "CITY_NAME_CHANGE"		27042244	"Borup, Roskilde"					""
@@ -6922,10 +6983,13 @@
 "CITY_NAME_CHANGE"		69		"Odense"						""
 "CITY_NAME_CHANGE"		79		"Esbjerg"						""
 "CITY_NAME_CHANGE"		81		"Fredericia"						""
+"CITY_NAME_CHANGE"		89		"Haderslev"						""
 "CITY_NAME_CHANGE"		111		"Kolding"						""
+"CITY_NAME_CHANGE"		119		"Næsby"							""
 "CITY_NAME_CHANGE"		137		"Svendborg"						""
 "CITY_NAME_CHANGE"		139		"Tarup, Odense"						""
 "CITY_NAME_CHANGE"		146		"Vejle"							""
+"CITY_NAME_CHANGE"		930221		"Middelfart"						""
 "CITY_NAME_CHANGE"		3400007		"Sønderborg"						""
 "CITY_NAME_CHANGE"		27092581	"Starup, Grindsted"					""
 
@@ -8231,6 +8295,7 @@
 "CITY_NAME_CHANGE"		519679		"Kirkkonummi"						""
 "CITY_NAME_CHANGE"		519710		"Raasepori"						""
 "CITY_NAME_CHANGE"		519719		"Sipoo"							""
+"CITY_NAME_CHANGE"		519766		"Kauniainen"						""
 "CITY_NAME_CHANGE"		520846		"Tuusula"						""
 "CITY_NAME_CHANGE"		521127		"Kouvola"						""
 "CITY_NAME_CHANGE"		1300359		"Lahti"							""
@@ -8242,6 +8307,7 @@
 
 # CITY > [FIN] FINLAND > [FIN-WF] Western Finland
 #====================================================================================
+"CITY_NAME_CHANGE"		129151		"Närpiö"						""
 "CITY_NAME_CHANGE"		129155		"Rauma"							""
 "CITY_NAME_CHANGE"		129164		"Seinäjoki"						""
 "CITY_NAME_CHANGE"		129220		"Kaarina"						""
@@ -8286,11 +8352,18 @@
 "CITY_NAME_CHANGE"		195		"Clermont-Ferrand"					""
 "CITY_NAME_CHANGE"		266		"Grenoble"						""
 "CITY_NAME_CHANGE"		267		"Lyon"							""
+"CITY_NAME_CHANGE"		290		"Saint-Priest"						""
+"CITY_NAME_CHANGE"		324		"Thonon-les-Bains"					""
 "CITY_NAME_CHANGE"		332		"Villefranche-sur-Saône"				""
+"CITY_NAME_CHANGE"		914629		"Le Puy-en-Velay"					""
+"CITY_NAME_CHANGE"		914720		"Yzeure"						""
+"CITY_NAME_CHANGE"		3501924		"Péronnas"						""
 "CITY_NAME_CHANGE"		8426352		"Villeurbanne"						""
+"CITY_NAME_CHANGE"		8426575		"Andrézieux-Bouthéon"					""
 "CITY_NAME_CHANGE"		34016451	"Chasselay"						""
 "CITY_NAME_CHANGE"		85007302	"Albertville"						""
 "CITY_NAME_CHANGE"		85066133	"Chamonix-Mont-Blanc"					""
+"CITY_NAME_CHANGE"		85126589	"Chamalières"						""
 
 
 # CITY > [FRA] FRANCE > [FRA-BFC] Bourgogne-Franche-Comté
@@ -8298,77 +8371,117 @@
 "CITY_NAME_CHANGE"		156		"Auxerre"						""
 "CITY_NAME_CHANGE"		174		"Besançon"						""
 "CITY_NAME_CHANGE"		185		"Dijon"							""
+"CITY_NAME_CHANGE"		201		"Louhans"						""
 "CITY_NAME_CHANGE"		226		"Montbéliard"						""
+"CITY_NAME_CHANGE"		914618		"Mâcon"							""
+"CITY_NAME_CHANGE"		914627		"Moirans-en-Montagne"					""
+"CITY_NAME_CHANGE"		6200203		"Belfort"						""
 
 
 # CITY > [FRA] FRANCE > [FRA-BRE] Bretagne
 #====================================================================================
 "CITY_NAME_CHANGE"		206		"Guingamp"						""
 "CITY_NAME_CHANGE"		216		"Lorient"						""
+"CITY_NAME_CHANGE"		285		"Saint-Brieuc"						""
+"CITY_NAME_CHANGE"		287		"Saint-Malo"						""
 "CITY_NAME_CHANGE"		301		"Brest"							""
 "CITY_NAME_CHANGE"		306		"Rennes"						""
+"CITY_NAME_CHANGE"		328		"Vannes"						""
 "CITY_NAME_CHANGE"		914681		"Concarneau"						""
+"CITY_NAME_CHANGE"		85000701	"Dinan"							""
 
 
 # CITY > [FRA] FRANCE > [FRA-CVL] Centre-Val de Loire
 #====================================================================================
 "CITY_NAME_CHANGE"		191		"Châteauroux"						""
+"CITY_NAME_CHANGE"		212		"Bourges"						""
+"CITY_NAME_CHANGE"		284		"Romorantin-Lanthenay"					""
 "CITY_NAME_CHANGE"		321		"Orléans"						""
+"CITY_NAME_CHANGE"		914718		"Chartres"						""
+"CITY_NAME_CHANGE"		8428121		"Blois"							""
+"CITY_NAME_CHANGE"		8428250		"Vierzon"						""
+"CITY_NAME_CHANGE"		8449787		"Saint-Pryvé-Saint-Mesmin"				""
+"CITY_NAME_CHANGE"		34009207	"Avoine"						""
 
 
 # CITY > [FRA] FRANCE > [FRA-20R] Corse
 #====================================================================================
 "CITY_NAME_CHANGE"		233		"Ajaccio"						""
 "CITY_NAME_CHANGE"		298		"Bastia"						""
+"CITY_NAME_CHANGE"		918988		"Furiani"						""
+"CITY_NAME_CHANGE"		8425145		"Borgo"							""
 
 
 # CITY > [FRA] FRANCE > [FRA-GES] Grand Est
 #====================================================================================
 "CITY_NAME_CHANGE"		167		"Nancy"							""
 "CITY_NAME_CHANGE"		169		"Troyes"						""
+"CITY_NAME_CHANGE"		197		"Colmar"						""
+"CITY_NAME_CHANGE"		202		"Sedan"							""
 "CITY_NAME_CHANGE"		219		"Mulhouse"						""
+"CITY_NAME_CHANGE"		236		"Haguenau"						""
 "CITY_NAME_CHANGE"		279		"Strasbourg"						""
 "CITY_NAME_CHANGE"		280		"Raon-l'Étape"						""
 "CITY_NAME_CHANGE"		282		"Reims"							""
 "CITY_NAME_CHANGE"		300		"Épinal"						""
 "CITY_NAME_CHANGE"		8426351		"Metz"							""
+"CITY_NAME_CHANGE"		34002294	"Biesheim"						""
 
 
 # CITY > [FRA] FRANCE > [FRA-HDF] Hauts-de-France
 #====================================================================================
 "CITY_NAME_CHANGE"		157		"Amiens"						""
+"CITY_NAME_CHANGE"		162		"Beauvais"						""
+"CITY_NAME_CHANGE"		208		"Wasquehal"						""
+"CITY_NAME_CHANGE"		211		"Boulogne-sur-Mer"					""
 "CITY_NAME_CHANGE"		247		"Lille"							""
 "CITY_NAME_CHANGE"		278		"Lens"							""
+"CITY_NAME_CHANGE"		291		"Saint-Quentin"						""
 "CITY_NAME_CHANGE"		318		"Dunkerque"						""
 "CITY_NAME_CHANGE"		325		"Valenciennes"						""
+"CITY_NAME_CHANGE"		8446675		"Feignies"						""
+"CITY_NAME_CHANGE"		85066816	"Chambly"						""
 
 
 # CITY > [FRA] FRANCE > [FRA-IDF] Île-de-France
 #====================================================================================
+"CITY_NAME_CHANGE"		170		"Aubervilliers"						""
 "CITY_NAME_CHANGE"		270		"Paris"							""
 "CITY_NAME_CHANGE"		281		"Saint-Ouen-sur-Seine"					""
+"CITY_NAME_CHANGE"		288		"Saint-Maur-des-Fossés"					""
+"CITY_NAME_CHANGE"		313		"Créteil"						""
 "CITY_NAME_CHANGE"		330		"Versailles"						""
 "CITY_NAME_CHANGE"		400124		"Saint-Denis"						""
 "CITY_NAME_CHANGE"		3500462		"Colombes"						""
 "CITY_NAME_CHANGE"		8426353		"Boulogne-Billancourt"					""
 "CITY_NAME_CHANGE"		8426355		"Argenteuil"						""
 "CITY_NAME_CHANGE"		8426356		"Montreuil"						""
+"CITY_NAME_CHANGE"		8428153		"Bobigny"						""
+"CITY_NAME_CHANGE"		8428234		"Sainte-Geneviève-des-Bois"				""
+"CITY_NAME_CHANGE"		85021111	"Fleury-Mérogis"					""
 
 
 # CITY > [FRA] FRANCE > [FRA-NOR] Normandie
 #====================================================================================
+"CITY_NAME_CHANGE"		210		"Evreux"						""
 "CITY_NAME_CHANGE"		222		"Rouen"							""
 "CITY_NAME_CHANGE"		242		"Le Havre"						""
 "CITY_NAME_CHANGE"		303		"Caen"							""
 "CITY_NAME_CHANGE"		312		"Avranches"						""
+"CITY_NAME_CHANGE"		315		"Granville"						""
 "CITY_NAME_CHANGE"		322		"Le Petit-Quevilly"					""
+"CITY_NAME_CHANGE"		914700		"Vire"							""
 
 
 # CITY > [FRA] FRANCE > [FRA-NAQ] Nouvelle-Aquitaine
 #====================================================================================
+"CITY_NAME_CHANGE"		173		"Bergerac"						""
 "CITY_NAME_CHANGE"		187		"Niort"							""
+"CITY_NAME_CHANGE"		228		"Trélissac"						""
 "CITY_NAME_CHANGE"		234		"Bordeaux"						""
+"CITY_NAME_CHANGE"		246		"Libourne"						""
 "CITY_NAME_CHANGE"		248		"Limoges"						""
+"CITY_NAME_CHANGE"		264		"Angoulême"						""
 "CITY_NAME_CHANGE"		271		"Pau"							""
 "CITY_NAME_CHANGE"		305		"Poitiers"						""
 
@@ -8377,29 +8490,40 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		258		"Montpellier"						""
 "CITY_NAME_CHANGE"		260		"Nîmes"							""
+"CITY_NAME_CHANGE"		263		"Alès"							""
 "CITY_NAME_CHANGE"		272		"Perpignan"						""
 "CITY_NAME_CHANGE"		283		"Rodez"							""
 "CITY_NAME_CHANGE"		309		"Toulouse"						""
+"CITY_NAME_CHANGE"		85032186	"Canet-en-Roussillon"					""
 
 
 # CITY > [FRA] FRANCE > [FRA-PDL] Pays de la Loire
 #====================================================================================
+"CITY_NAME_CHANGE"		189		"Châteaubriant"						""
 "CITY_NAME_CHANGE"		194		"Cholet"						""
 "CITY_NAME_CHANGE"		220		"Nantes"						""
+"CITY_NAME_CHANGE"		241		"La Roche-sur-Yon"					""
 "CITY_NAME_CHANGE"		243		"Le Mans"						""
 "CITY_NAME_CHANGE"		294		"Angers"						""
 "CITY_NAME_CHANGE"		302		"Laval"							""
+"CITY_NAME_CHANGE"		914684		"Les Herbiers"						""
+"CITY_NAME_CHANGE"		6200182		"Saumur"						""
 
 
 # CITY > [FRA] FRANCE > [FRA-PAC] Provence-Alpes-Côte d'Azur
 #====================================================================================
 "CITY_NAME_CHANGE"		207		"Marseille"						""
+"CITY_NAME_CHANGE"		209		"Fréjus"						""
 "CITY_NAME_CHANGE"		217		"Martigues"						""
+"CITY_NAME_CHANGE"		237		"Hyères"						""
 "CITY_NAME_CHANGE"		262		"Nice"							""
 "CITY_NAME_CHANGE"		299		"Toulon"						""
 "CITY_NAME_CHANGE"		914655		"Marignane"						""
 "CITY_NAME_CHANGE"		8426350		"Aix-en-Provence"					""
 "CITY_NAME_CHANGE"		8426364		"Antibes"						""
+"CITY_NAME_CHANGE"		8426368		"Cannes"						""
+"CITY_NAME_CHANGE"		8428150		"Grasse"						""
+"CITY_NAME_CHANGE"		8428162		"Aubagne"						""
 
 
 # CITY > [FSM] FS MICRONESIA
@@ -8602,6 +8726,7 @@
 "CITY_NAME_CHANGE"		630		"Ulm"							""
 "CITY_NAME_CHANGE"		631		"Stuttgart"						""
 "CITY_NAME_CHANGE"		635		"Mannheim"						""
+"CITY_NAME_CHANGE"		121224		"Aalen"							""
 "CITY_NAME_CHANGE"		121255		"Sandhausen"						""
 "CITY_NAME_CHANGE"		879141		"Heidelberg"						""
 "CITY_NAME_CHANGE"		879144		"Heilbronn"						""
@@ -8619,6 +8744,7 @@
 "CITY_NAME_CHANGE"		628		"Unterhaching"						""
 "CITY_NAME_CHANGE"		877177		"Ingolstadt"						""
 "CITY_NAME_CHANGE"		877187		"Würzburg"						""
+"CITY_NAME_CHANGE"		880143		"Bayreuth"						""
 "CITY_NAME_CHANGE"		6000071		"Regensburg"						""
 "CITY_NAME_CHANGE"		8700615		"Erlangen"						""
 "CITY_NAME_CHANGE"		8707868		"Berchtesgaden"						""
@@ -8667,6 +8793,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		598		"Braunschweig"						""
 "CITY_NAME_CHANGE"		615		"Hannover"						""
+"CITY_NAME_CHANGE"		634		"Meppen"						""
 "CITY_NAME_CHANGE"		643		"Oldenburg"						""
 "CITY_NAME_CHANGE"		645		"Osnabrück"						""
 "CITY_NAME_CHANGE"		646		"Wolfsburg"						""
@@ -8731,6 +8858,7 @@
 "CITY_NAME_CHANGE"		596		"Chemnitz"						""
 "CITY_NAME_CHANGE"		610		"Leipzig"						""
 "CITY_NAME_CHANGE"		121227		"Aue-Bad Schlema"					""
+"CITY_NAME_CHANGE"		8700183		"Zwickau"						""
 
 
 # CITY > [GER] GERMANY > [GER-ST] Sachsen-Anhalt
@@ -8905,6 +9033,7 @@
 # CITY > [GRE] GREECE > [GRE-H] Central Greece
 #====================================================================================
 "CITY_NAME_CHANGE"		682133		"Lamia"							""
+"CITY_NAME_CHANGE"		686547		"Livadeia"						""
 "CITY_NAME_CHANGE"		687460		"Chalkida"						""
 
 
@@ -8912,6 +9041,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		129632		"Katerini"						""
 "CITY_NAME_CHANGE"		129639		"Serres"						""
+"CITY_NAME_CHANGE"		687458		"Chalastra"						""
 "CITY_NAME_CHANGE"		687464		"Evosmos"						""
 "CITY_NAME_CHANGE"		687473		"Kalamaria"						""
 "CITY_NAME_CHANGE"		1300542		"Salonika"						""
@@ -8921,6 +9051,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		129644		"Chania"						""
 "CITY_NAME_CHANGE"		1300536		"Irakleio"						""
+"CITY_NAME_CHANGE"		36018142	"Archanes"						""
 
 
 # CITY > [GRE] GREECE > [GRE-A] East Macedonia and Thrace
@@ -8937,14 +9068,30 @@
 "CITY_NAME_CHANGE"		129630		"Giannina"						""
 
 
+# CITY > [GRE] GREECE > [GRE-F] Ionian Islands
+#====================================================================================
+"CITY_NAME_CHANGE"		687207		"Lefkada"						""
+
+
+# CITY > [GRE] GREECE > [GRE-K] North Aegean
+#====================================================================================
+"CITY_NAME_CHANGE"		687114		"Mytilini"						""
+
+
 # CITY > [GRE] GREECE > [GRE-J] Peloponnese
 #====================================================================================
 "CITY_NAME_CHANGE"		129642		"Tripoli Arkadias"				""
 "CITY_NAME_CHANGE"		1300535		"Kalamata"						""
 
 
+# CITY > [GRE] GREECE > [GRE-L] South Aegean
+#====================================================================================
+"CITY_NAME_CHANGE"		129638		"Rodos"							""
+
+
 # CITY > [GRE] GREECE > [GRE-E] Thessaly
 #====================================================================================
+"CITY_NAME_CHANGE"		129631		"Karditsa"						""
 "CITY_NAME_CHANGE"		129641		"Trikala"						""
 "CITY_NAME_CHANGE"		129643		"Volos"							""
 "CITY_NAME_CHANGE"		1300539		"Larisa"						""
@@ -8954,6 +9101,11 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		129627		"Agrinio"						""
 "CITY_NAME_CHANGE"		1300533		"Patra"							""
+
+
+# CITY > [GRE] GREECE > [GRE-C] West Macedonia
+#====================================================================================
+"CITY_NAME_CHANGE"		129634		"Kozani"						""
 
 
 # CITY > [GRN] GRENADA
@@ -9556,14 +9708,19 @@
 "CITY_NAME_CHANGE"		7520363		"Hódmezővásárhely"					""
 "CITY_NAME_CHANGE"		7520382		"Szentes"						""
 "CITY_NAME_CHANGE"		38005185	"Kiskunfélegyháza"					""
+"CITY_NAME_CHANGE"		38042312	"Tiszakécske"						""
 
 
 # CITY > [HUN] HUNGARY > [HUN-DD] Dél-Dunántúl
 #====================================================================================
 "CITY_NAME_CHANGE"		1300572		"Pécs"							""
+"CITY_NAME_CHANGE"		1300573		"Siófok"						""
+"CITY_NAME_CHANGE"		7520259		"Paks"							""
 "CITY_NAME_CHANGE"		7520305		"Kaposvár"						""
 "CITY_NAME_CHANGE"		7520324		"Komló"							""
 "CITY_NAME_CHANGE"		7520336		"Szekszárd"						""
+"CITY_NAME_CHANGE"		7520383		"Szentlőrinc"						""
+"CITY_NAME_CHANGE"		38004846	"Kozármisleny"						""
 
 
 # CITY > [HUN] HUNGARY > [HUN-EA] Észak-Alföld
@@ -9573,6 +9730,7 @@
 "CITY_NAME_CHANGE"		7520311		"Szolnok"						""
 "CITY_NAME_CHANGE"		7520366		"Jászberény"						""
 "CITY_NAME_CHANGE"		7524293		"Hajdúböszörmény"					""
+"CITY_NAME_CHANGE"		38013479	"Kisvárda"						""
 
 
 # CITY > [HUN] HUNGARY > [HUN-EM] Észak-Magyarország
@@ -9582,6 +9740,7 @@
 "CITY_NAME_CHANGE"		7520330		"Ózd"							""
 "CITY_NAME_CHANGE"		7520358		"Gyöngyös"						""
 "CITY_NAME_CHANGE"		7520378		"Salgótarján"						""
+"CITY_NAME_CHANGE"		38004840	"Mezőkövesd"						""
 "CITY_NAME_CHANGE"		38005647	"Eger"							""
 
 
@@ -9594,6 +9753,8 @@
 "CITY_NAME_CHANGE"		7520263		"Pápa"							""
 "CITY_NAME_CHANGE"		7520354		"Esztergom"						""
 "CITY_NAME_CHANGE"		7520355		"Ajka"							""
+"CITY_NAME_CHANGE"		7524227		"Felcsút"						""
+"CITY_NAME_CHANGE"		38019814	"Csákvár"						""
 
 
 # CITY > [HUN] HUNGARY > [HUN-KM] Közép-Magyarország
