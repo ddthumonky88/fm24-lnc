@@ -50,13 +50,13 @@
 #"PARENT_COMP_ID"		5123054		 150990							""
 "COMP_COLOUR_CHANGE" 		5123054		 0 234 98 11 0 0 0 					""
 "COMP_LONG_NAME_CHANGE" 	5123054 	"Vanarama National League North"			""
-"COMP_SHORT_NAME_CHANGE" 	5123054 	"Vanarama National League North"			""
+"COMP_SHORT_NAME_CHANGE" 	5123054 	"National League North"			""
 "COMP_3LETTER_NAME_CHANGE"	5123054		"NLN"							""
 
 #"PARENT_COMP_ID"		5123055		 150990							""
 "COMP_COLOUR_CHANGE" 		5123055		 0 234 98 11 0 0 0 					""
 "COMP_LONG_NAME_CHANGE" 	5123055 	"Vanarama National League South"			""
-"COMP_SHORT_NAME_CHANGE" 	5123055 	"Vanarama National League South"			""
+"COMP_SHORT_NAME_CHANGE" 	5123055 	"National League South"			""
 "COMP_3LETTER_NAME_CHANGE"	5123055		"NLS"							""
 
 
@@ -4533,16 +4533,16 @@
 
 # COMP > UEFA > [MNE] MONTENEGRO > Domestic League (1)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	5745020 	"Meridianbet 1.CFL"					""
-"COMP_SHORT_NAME_CHANGE" 	5745020 	"1.CFL"							""
-"COMP_3LETTER_NAME_CHANGE"	5745020		"1.CFL"							""
+"COMP_LONG_NAME_CHANGE" 	5745020 	"Meridianbet 1. CFL"					""
+"COMP_SHORT_NAME_CHANGE" 	5745020 	"1. CFL"						""
+"COMP_3LETTER_NAME_CHANGE"	5745020		"1CFL"							""
 
 
 # COMP > UEFA > [MNE] MONTENEGRO > Domestic League (2)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	5754888 	"2.CFL"							""
-"COMP_SHORT_NAME_CHANGE" 	5754888 	"2.CFL"							""
-"COMP_3LETTER_NAME_CHANGE"	5754888 	"2.CFL"							""
+"COMP_LONG_NAME_CHANGE" 	5754888 	"2. CFL"						""
+"COMP_SHORT_NAME_CHANGE" 	5754888 	"2. CFL"						""
+"COMP_3LETTER_NAME_CHANGE"	5754888 	"2CFL"							""
 
 
 # COMP > UEFA > [MNE] MONTENEGRO > Domestic Cup
@@ -4708,58 +4708,58 @@
 
 # COMP > UEFA > [MKD] NORTH MACEDONIA > Domestic League (1)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	8401070 	"1.MFL"							""
-"COMP_SHORT_NAME_CHANGE" 	8401070 	"1.MFL"							""
-"COMP_3LETTER_NAME_CHANGE"	8401070 	"1.MFL"							""
+"COMP_LONG_NAME_CHANGE" 	8401070 	"1. MFL"						""
+"COMP_SHORT_NAME_CHANGE" 	8401070 	"1. MFL"						""
+"COMP_3LETTER_NAME_CHANGE"	8401070 	"1MFL"							""
 
 
 # COMP > UEFA > [MKD] NORTH MACEDONIA > Domestic League (2)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	8403796 	"2.MFL"							""
-"COMP_SHORT_NAME_CHANGE" 	8403796 	"2.MFL"							""
-"COMP_3LETTER_NAME_CHANGE"	8403796 	"2.MFL"							""
+"COMP_LONG_NAME_CHANGE" 	8403796 	"2. MFL"						""
+"COMP_SHORT_NAME_CHANGE" 	8403796 	"2. MFL"						""
+"COMP_3LETTER_NAME_CHANGE"	8403796 	"2MFL"							""
 
 #"PARENT_COMP_ID"		47075710	 8403796						""
-"COMP_LONG_NAME_CHANGE" 	47075710 	"2.MFL Istok"						""
-"COMP_SHORT_NAME_CHANGE"	47075710 	"2.MFL Istok"						""
+"COMP_LONG_NAME_CHANGE" 	47075710 	"2. MFL Istok"						""
+"COMP_SHORT_NAME_CHANGE"	47075710 	"2. MFL Istok"						""
 
 #"PARENT_COMP_ID"		47075711	 8403796						""
-"COMP_LONG_NAME_CHANGE" 	47075711	"2.MFL Zapad"						""
-"COMP_SHORT_NAME_CHANGE" 	47075711 	"2.MFL Zapad"						""
+"COMP_LONG_NAME_CHANGE" 	47075711	"2. MFL Zapad"						""
+"COMP_SHORT_NAME_CHANGE" 	47075711 	"2. MFL Zapad"						""
 
 
 # COMP > UEFA > [MKD] NORTH MACEDONIA > Domestic League (3)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	2000017538 	"3.MFL"							""
-"COMP_SHORT_NAME_CHANGE" 	2000017538	"3.MFL"							""
-"COMP_3LETTER_NAME_CHANGE"	2000017538	"3.MFL"							""
+"COMP_LONG_NAME_CHANGE" 	2000017538 	"3. MFL"							""
+"COMP_SHORT_NAME_CHANGE" 	2000017538	"3. MFL"							""
+"COMP_3LETTER_NAME_CHANGE"	2000017538	"3MFL"							""
 
 #"PARENT_COMP_ID"		2000017539	 2000017538						""
-"COMP_LONG_NAME_CHANGE" 	2000017539 	"3.MFL Sever"						""
-"COMP_SHORT_NAME_CHANGE" 	2000017539	"3.MFL Sever"						""
+"COMP_LONG_NAME_CHANGE" 	2000017539 	"3. MFL Sever"						""
+"COMP_SHORT_NAME_CHANGE" 	2000017539	"3. MFL Sever"						""
 
 #"PARENT_COMP_ID"		2000017541	 2000017538						""
-"COMP_LONG_NAME_CHANGE" 	2000017541 	"3.MFL Zapad"						""
-"COMP_SHORT_NAME_CHANGE" 	2000017541	"3.MFL Zapad"						""
+"COMP_LONG_NAME_CHANGE" 	2000017541 	"3. MFL Zapad"						""
+"COMP_SHORT_NAME_CHANGE" 	2000017541	"3. MFL Zapad"						""
 
 #"PARENT_COMP_ID"		2000017542	 2000017538						""
-"COMP_LONG_NAME_CHANGE" 	2000017542 	"3.MFL Istok"						""
-"COMP_SHORT_NAME_CHANGE" 	2000017542	"3.MFL Istok"						""
+"COMP_LONG_NAME_CHANGE" 	2000017542 	"3. MFL Istok"						""
+"COMP_SHORT_NAME_CHANGE" 	2000017542	"3. MFL Istok"						""
 
 #"PARENT_COMP_ID"		2000017544	 2000017538						""
-"COMP_LONG_NAME_CHANGE" 	2000017544 	"3.MFL Jugozapaden"					""
-"COMP_SHORT_NAME_CHANGE" 	2000017544	"3.MFL Jugozapaden"					""
+"COMP_LONG_NAME_CHANGE" 	2000017544 	"3. MFL Jugozapaden"					""
+"COMP_SHORT_NAME_CHANGE" 	2000017544	"3. MFL Jugozapaden"					""
 
 #"PARENT_COMP_ID"		2000103360	 2000017538						""
-"COMP_LONG_NAME_CHANGE" 	2000103360 	"3.MFL Jug"						""
-"COMP_SHORT_NAME_CHANGE" 	2000103360	"3.MFL Jug"						""
+"COMP_LONG_NAME_CHANGE" 	2000103360 	"3. MFL Jug"						""
+"COMP_SHORT_NAME_CHANGE" 	2000103360	"3. MFL Jug"						""
 
 
 # COMP > UEFA > [MKD] NORTH MACEDONIA > Domestic League (4)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	8401071		"4.MFL"							""
-"COMP_SHORT_NAME_CHANGE" 	8401071		"4.MFL"							""
-"COMP_3LETTER_NAME_CHANGE"	8401071		"4.MFL"							""
+"COMP_LONG_NAME_CHANGE" 	8401071		"4. MFL"							""
+"COMP_SHORT_NAME_CHANGE" 	8401071		"4. MFL"							""
+"COMP_3LETTER_NAME_CHANGE"	8401071		"4MFL"							""
 
 
 # COMP > UEFA > [MKD] NORTH MACEDONIA > Domestic Cup
@@ -5602,7 +5602,7 @@
 # COMP > UEFA > [ROU] ROMANIA > Domestic League (1)
 #====================================================================================
 "COMP_LONG_NAME_CHANGE" 	7540024 	"SuperLiga României"					""
-"COMP_SHORT_NAME_CHANGE" 	7540024 	"Liga I României"					""
+"COMP_SHORT_NAME_CHANGE" 	7540024 	"SuperLiga României"					""
 "COMP_3LETTER_NAME_CHANGE"	7540024		"ROM-L1"						""
 
 
@@ -6363,32 +6363,32 @@
 
 # COMP > UEFA > [SVN] SLOVENIA > Domestic League (2)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	7580001 	"2.SNL"							""
-"COMP_SHORT_NAME_CHANGE" 	7580001 	"2.SNL"							""
-"COMP_3LETTER_NAME_CHANGE"	7580001		"2.SNL"							""
+"COMP_LONG_NAME_CHANGE" 	7580001 	"2. SNL"						""
+"COMP_SHORT_NAME_CHANGE" 	7580001 	"2. SNL"						""
+"COMP_3LETTER_NAME_CHANGE"	7580001		"2SNL"							""
 
 
 # COMP > UEFA > [SVN] SLOVENIA > Domestic League (3)
 #====================================================================================
-"COMP_LONG_NAME_CHANGE" 	155008 		"3.SNL"							""
-"COMP_SHORT_NAME_CHANGE" 	155008 		"3.SNL"							""
-"COMP_3LETTER_NAME_CHANGE"	155008		"3.SNL"							""
+"COMP_LONG_NAME_CHANGE" 	155008 		"3. SNL"							""
+"COMP_SHORT_NAME_CHANGE" 	155008 		"3. SNL"							""
+"COMP_3LETTER_NAME_CHANGE"	155008		"3SNL"							""
 
 #"PARENT_COMP_ID"		7581079		 155008							""
-"COMP_LONG_NAME_CHANGE" 	7581079 	"3.SNL Zahod" 						""
-"COMP_SHORT_NAME_CHANGE" 	7581079 	"3.SNL Zahod"						""
+"COMP_LONG_NAME_CHANGE" 	7581079 	"3. SNL Zahod" 						""
+"COMP_SHORT_NAME_CHANGE" 	7581079 	"3. SNL Zahod"						""
 
 #"PARENT_COMP_ID"		64000176	 155008							""
-"COMP_LONG_NAME_CHANGE" 	64000176 	"3.SNL Vzhod"						""
-"COMP_SHORT_NAME_CHANGE"	64000176 	"3.SNL Vzhod"						""
+"COMP_LONG_NAME_CHANGE" 	64000176 	"3. SNL Vzhod"						""
+"COMP_SHORT_NAME_CHANGE"	64000176 	"3. SNL Vzhod"						""
 
 #"PARENT_COMP_ID"		62159235	 155008							""
-"COMP_LONG_NAME_CHANGE" 	62159235 	"3.SNL Center"						""
-"COMP_SHORT_NAME_CHANGE"	62159235 	"3.SNL Center"						""
+"COMP_LONG_NAME_CHANGE" 	62159235 	"3. SNL Center"						""
+"COMP_SHORT_NAME_CHANGE"	62159235 	"3. SNL Center"						""
 
 #"PARENT_COMP_ID"		62159236	 155008							""
-"COMP_LONG_NAME_CHANGE" 	62159236 	"3.SNL Sever"						""
-"COMP_SHORT_NAME_CHANGE"	62159236 	"3.SNL Sever"						""
+"COMP_LONG_NAME_CHANGE" 	62159236 	"3. SNL Sever"						""
+"COMP_SHORT_NAME_CHANGE"	62159236 	"3. SNL Sever"						""
 
 
 # COMP > UEFA > [SVN] SLOVENIA > Domestic Cup

@@ -10975,6 +10975,7 @@
 # CITY > [IRL] IRELAND > [IRL-U] Ulster
 #====================================================================================
 "CITY_NAME_CHANGE"		129361		"Letterkenny"						""
+"CITY_NAME_CHANGE"		1300903		"Ballybofey"						""
 "CITY_NAME_CHANGE"		52058384	"Cavan"							""
 
 
@@ -12563,7 +12564,9 @@
 # CITY > [KAZ] KAZAKHSTAN > [KAZ-61] Turkistan oblysy
 #====================================================================================
 "CITY_NAME_CHANGE"		59017029	"Turkistan"						""
+"CITY_NAME_CHANGE"		59026271	"Zhetysay"						""
 "CITY_NAME_CHANGE"		59026272	"Kentau"						""
+"CITY_NAME_CHANGE"		59088567	"Arys"							""
 "CITY_NAME_CHANGE"		59088583	"Akbastau, Turkistan"					""
 "CITY_NAME_CHANGE"		59088599	"Boralday, Turkistan"					""
 "CITY_NAME_CHANGE"		59088603	"Ekpindi, Turkistan"					""
@@ -17676,6 +17679,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		116327		"Newry"							""
 "CITY_NAME_CHANGE"		130020		"Armagh"						""
+"CITY_NAME_CHANGE"		410016		"Loughgall"						""
 "CITY_NAME_CHANGE"		1300832		"Lurgan"						""
 "CITY_NAME_CHANGE"		1300833		"Portadown"						""
 "CITY_NAME_CHANGE"		1900927		"Craigavon"						""
@@ -17685,6 +17689,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		410014		"Banbridge"						""
 "CITY_NAME_CHANGE"		410619		"Comber"						""
+"CITY_NAME_CHANGE"		414139		"Rathfriland"						""
 "CITY_NAME_CHANGE"		417772		"Downpatrick"						""
 "CITY_NAME_CHANGE"		418161		"Carryduff"						""
 "CITY_NAME_CHANGE"		1300834		"Newtownards"						""
@@ -17692,6 +17697,7 @@
 "CITY_NAME_CHANGE"		1900926		"Newcastle"						""
 "CITY_NAME_CHANGE"		1900930		"Ballynahinch"						""
 "CITY_NAME_CHANGE"		1900940		"Warrenpoint"						""
+"CITY_NAME_CHANGE"		52006059	"Dollingstown"						""
 "CITY_NAME_CHANGE"		52006678	"Dromore (Co. Down)"					""
 "CITY_NAME_CHANGE"		52024093	"Donaghadee"						""
 "CITY_NAME_CHANGE"		52033738	"Kilkeel"						""
@@ -17699,12 +17705,15 @@
 
 # CITY > [NIR] NORTHERN IRELAND > [NIR-FER] County Fermanagh
 #====================================================================================
+"CITY_NAME_CHANGE"		410013		"Ballinamallard"					""
 "CITY_NAME_CHANGE"		5114540		"Enniskillen"						""
 
 
 # CITY > [NIR] NORTHERN IRELAND > [NIR-LDY] County Londonderry
 #====================================================================================
 "CITY_NAME_CHANGE"		116326		"Limavady"						""
+"CITY_NAME_CHANGE"		410017		"Castledawson"						""
+"CITY_NAME_CHANGE"		410018		"Tobermore"						""
 "CITY_NAME_CHANGE"		410603		"Portstewart"						""
 "CITY_NAME_CHANGE"		1300830		"Coleraine"						""
 "CITY_NAME_CHANGE"		1300902		"Londonderry"						""
@@ -17715,7 +17724,9 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		115046		"Omagh"							""
 "CITY_NAME_CHANGE"		116324		"Dungannon"						""
+"CITY_NAME_CHANGE"		410602		"Coagh"							""
 "CITY_NAME_CHANGE"		414141		"Cookstown"						""
+"CITY_NAME_CHANGE"		416440		"Castlederg"						""
 "CITY_NAME_CHANGE"		417844		"Strabane"						""
 "CITY_NAME_CHANGE"		52031879	"Dromore (Co. Tyrone)"					""
 "CITY_NAME_CHANGE"		52033780	"Coalisland"						""
@@ -17731,7 +17742,10 @@
 # CITY > [NOR] NORWAY > [NOR-42] Agder
 #====================================================================================
 "CITY_NAME_CHANGE"		759314		"Arendal"						""
+"CITY_NAME_CHANGE"		762387		"Lindesnes"						""
 "CITY_NAME_CHANGE"		800008		"Kristiansand"						""
+"CITY_NAME_CHANGE"		802014		"Grimstad"						""
+"CITY_NAME_CHANGE"		1301006		"Vennesla"						""
 
 
 # CITY > [NOR] NORWAY > [NOR-32] Akershus
@@ -17750,18 +17764,27 @@
 "CITY_NAME_CHANGE"		53020021	"Kongsberg"						""
 
 
+# CITY > [NOR] NORWAY > [NOR-56] Finnmark
+#====================================================================================
+"CITY_NAME_CHANGE"		1301058		"Alta"							""
+
+
 # CITY > [NOR] NORWAY > [NOR-46] Hordaland
 #====================================================================================
 "CITY_NAME_CHANGE"		109127		"Bjørnafjorden"						""
 "CITY_NAME_CHANGE"		762381		"Askøy"							""
 "CITY_NAME_CHANGE"		800000		"Bergen"						""
+"CITY_NAME_CHANGE"		1300438		"Stord"							""
 "CITY_NAME_CHANGE"		53067690	"Øygarden"						""
 "CITY_NAME_CHANGE"		53178348	"Alver"							""
 
 
 # CITY > [NOR] NORWAY > [NOR-34] Indre Østland
 #====================================================================================
+"CITY_NAME_CHANGE"		109125		"Elverum"						""
 "CITY_NAME_CHANGE"		762416		"Ringsaker"						""
+"CITY_NAME_CHANGE"		767650		"Vestre Toten"						""
+"CITY_NAME_CHANGE"		800013		"Kongsvinger"						""
 "CITY_NAME_CHANGE"		801202		"Gjøvik"						""
 "CITY_NAME_CHANGE"		1300412		"Hamar"							""
 "CITY_NAME_CHANGE"		1300419	 	"Lillehammer" 						""
@@ -17776,6 +17799,7 @@
 # CITY > [NOR] NORWAY > [NOR-15N] Nordmøre og Romsdal
 #====================================================================================
 "CITY_NAME_CHANGE"		800003		"Molde"							""
+"CITY_NAME_CHANGE"		1300418		"Kristiansund"						""
 
 
 # CITY > [NOR] NORWAY > [NOR-03] Oslo
@@ -17791,17 +17815,29 @@
 "CITY_NAME_CHANGE"		800009		"Haugesund"						""
 "CITY_NAME_CHANGE"		800010		"Stavanger"						""
 "CITY_NAME_CHANGE"		801191		"Karmøy"						""
+"CITY_NAME_CHANGE"		1300407		"Time"							""
 "CITY_NAME_CHANGE"		1300972		"Sandnes"						""
+"CITY_NAME_CHANGE"		1301017		"Eigersund"						""
 "CITY_NAME_CHANGE"		1301019		"Sola"							""
+
+
+# CITY > [NOR] NORWAY > [NOR-46N] Sogn og Fjordane
+#====================================================================================
+"CITY_NAME_CHANGE"		750730		"Kinn"							""
+"CITY_NAME_CHANGE"		800011		"Sogndal"						""
+"CITY_NAME_CHANGE"		800743		"Sunnfjord"						""
 
 
 # CITY > [NOR] NORWAY > [NOR-15S] Sunnmøre
 #====================================================================================
 "CITY_NAME_CHANGE"		800012		"Ålesund"						""
+"CITY_NAME_CHANGE"		1300443		"Ulstein"						""
+"CITY_NAME_CHANGE"		1301033		"Volda"							""
 
 
 # CITY > [NOR] NORWAY > [NOR-40] Telemark
 #====================================================================================
+"CITY_NAME_CHANGE"		755793		"Notodden"						""
 "CITY_NAME_CHANGE"		802012		"Porsgrunn"						""
 "CITY_NAME_CHANGE"		1300433		"Skien"							""
 
@@ -17813,7 +17849,9 @@
 
 # CITY > [NOR] NORWAY > [NOR-50] Trøndelag
 #====================================================================================
+"CITY_NAME_CHANGE"		750813		"Levanger"						""
 "CITY_NAME_CHANGE"		800006		"Trondheim"						""
+"CITY_NAME_CHANGE"		1300436		"Steinkjer"						""
 
 
 # CITY > [NOR] NORWAY > [NOR-39] Vestfold
@@ -18656,13 +18694,17 @@
 "CITY_NAME_CHANGE"		710115		"Toruń"							""
 "CITY_NAME_CHANGE"		712411		"Inowrocław"						""
 "CITY_NAME_CHANGE"		717317		"Włocławek"						""
+"CITY_NAME_CHANGE"		54013297	"Grudziądz"						""
 
 
 # CITY > [POL] POLAND > [POL-06] lubelskie
 #====================================================================================
+"CITY_NAME_CHANGE"		129544		"Łęczna"						""
 "CITY_NAME_CHANGE"		129557		"Zamość"						""
+"CITY_NAME_CHANGE"		710047		"Świdnik"						""
 "CITY_NAME_CHANGE"		710062		"Lublin"						""
 "CITY_NAME_CHANGE"		5605896		"Chełm"							""
+"CITY_NAME_CHANGE"		96013078	"Puławy"						""
 
 
 # CITY > [POL] POLAND > [POL-08] lubuskie
@@ -18673,10 +18715,12 @@
 
 # CITY > [POL] POLAND > [POL-14] mazowieckie
 #====================================================================================
+"CITY_NAME_CHANGE"		129546		"Nowy Dwór Mazowiecki"					""
 "CITY_NAME_CHANGE"		129549		"Płock"							""
 "CITY_NAME_CHANGE"		710300		"Radom"							""
 "CITY_NAME_CHANGE"		714625		"Pruszków"						""
 "CITY_NAME_CHANGE"		1300856		"Warsaw"						""
+"CITY_NAME_CHANGE"		54013711	"Legionowo"						""
 "CITY_NAME_CHANGE"		96001921	"Siedlce"						""
 
 
@@ -18685,12 +18729,15 @@
 "CITY_NAME_CHANGE"		129556		"Tarnów"						""
 "CITY_NAME_CHANGE"		714683		"Nowy Sącz"						""
 "CITY_NAME_CHANGE"		1300861		"Kraków"						""
+"CITY_NAME_CHANGE"		96000061	"Nieciecza"						""
+"CITY_NAME_CHANGE"		96012814	"Niepołomice"						""
 
 
 # CITY > [POL] POLAND > [POL-16] opolskie
 #====================================================================================
 "CITY_NAME_CHANGE"		129548		"Opole"							""
 "CITY_NAME_CHANGE"		54005851	"Kędzierzyn-Koźle"					""
+"CITY_NAME_CHANGE"		54007054	"Kluczbork"						""
 
 
 # CITY > [POL] POLAND > [POL-18] podkarpackie
@@ -18699,6 +18746,7 @@
 "CITY_NAME_CHANGE"		710071		"Przemyśl"						""
 "CITY_NAME_CHANGE"		710116		"Rzeszów"						""
 "CITY_NAME_CHANGE"		1300862		"Mielec"						""
+"CITY_NAME_CHANGE"		1300863		"Tarnobrzeg"						""
 
 
 # CITY > [POL] POLAND > [POL-20] podlaskie
@@ -18712,7 +18760,10 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		129537		"Gdynia"						""
 "CITY_NAME_CHANGE"		714649		"Tczew"							""
+"CITY_NAME_CHANGE"		722101		"Kartuzy"						""
 "CITY_NAME_CHANGE"		1300858		"Gdańsk"						""
+"CITY_NAME_CHANGE"		96012074	"Chojnice"						""
+"CITY_NAME_CHANGE"		96136758	"Stężyca"						""
 
 
 # CITY > [POL] POLAND > [POL-28] warmińsko-mazurskie
@@ -18734,6 +18785,8 @@
 
 # CITY > [POL] POLAND > [POL-32] zachodniopomorskie
 #====================================================================================
+"CITY_NAME_CHANGE"		710056		"Świnoujście"						""
+"CITY_NAME_CHANGE"		710059		"Kołobrzeg"						""
 "CITY_NAME_CHANGE"		714629		"Stargard"						""
 "CITY_NAME_CHANGE"		714634		"Koszalin"						""
 "CITY_NAME_CHANGE"		1300845		"Szczecin"						""
@@ -18741,10 +18794,12 @@
 
 # CITY > [POL] POLAND > [POL-10] łódzkie
 #====================================================================================
+"CITY_NAME_CHANGE"		710067		"Łowicz"						""
 "CITY_NAME_CHANGE"		710068		"Piotrków Trybunalski"					""
 "CITY_NAME_CHANGE"		1300854		"Bełchatów"						""
 "CITY_NAME_CHANGE"		1300855		"Łódź"							""
 "CITY_NAME_CHANGE"		54005846	"Pabianice"						""
+"CITY_NAME_CHANGE"		54015277	"Sieradz"						""
 
 
 # CITY > [POL] POLAND > [POL-24] śląskie
@@ -19061,6 +19116,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-AR] Arad
 #====================================================================================
+"CITY_NAME_CHANGE"		7540002		"Arad"							""
 "CITY_NAME_CHANGE"		57009448	"Horia (Arad)"						""
 "CITY_NAME_CHANGE"		57048104	"Satu Mare (Arad)"					""
 "CITY_NAME_CHANGE"		57081038	"Fântânele (Arad)"					""
@@ -19068,6 +19124,8 @@
 
 # CITY > [ROU] ROMANIA > [ROU-AG] Argeș
 #====================================================================================
+"CITY_NAME_CHANGE"		1300930		"Pitești"						""
+"CITY_NAME_CHANGE"		7543238		"Mioveni"						""
 "CITY_NAME_CHANGE"		57009537	"Costești (Argeș)"					""
 "CITY_NAME_CHANGE"		57034152	"Ștefănești (Argeș)"					""
 "CITY_NAME_CHANGE"		57061320	"Vidra (Argeș)"						""
@@ -19112,6 +19170,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-BT] Botoșani
 #====================================================================================
+"CITY_NAME_CHANGE"		7541038		"Botoșani"						""
 "CITY_NAME_CHANGE"		57036194	"Roma (Botoșani)"					""
 "CITY_NAME_CHANGE"		57048642	"Albești (Botoșani)"					""
 "CITY_NAME_CHANGE"		57065010	"Păltiniș (Botoșani)"					""
@@ -19145,6 +19204,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-BZ] Buzău
 #====================================================================================
+"CITY_NAME_CHANGE"		7540091		"Buzău"							""
 "CITY_NAME_CHANGE"		57064910	"Costești (Buzău)"					""
 "CITY_NAME_CHANGE"		57064936	"Gălbinași (Buzău)"					""
 "CITY_NAME_CHANGE"		57064991	"Mihăilești (Buzău)"					""
@@ -19160,6 +19220,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-CS] Caraș-Severin
 #====================================================================================
+"CITY_NAME_CHANGE"		7540003		"Reșița"						""
 "CITY_NAME_CHANGE"		57009516	"Bocșa (Caraș-Severin)"					""
 "CITY_NAME_CHANGE"		57059552	"Grădinari (Caraș-Severin)"				""
 
@@ -19187,6 +19248,8 @@
 
 # CITY > [ROU] ROMANIA > [ROU-CJ] Cluj
 #====================================================================================
+"CITY_NAME_CHANGE"		1300934		"Cluj Napoca"						""
+"CITY_NAME_CHANGE"		7543962		"Dej"							""
 "CITY_NAME_CHANGE"		57064590	"Borșa (Cluj)"						""
 "CITY_NAME_CHANGE"		57064602	"Călărași (Cluj)"					""
 "CITY_NAME_CHANGE"		57064606	"Florești (Cluj)"					""
@@ -19198,6 +19261,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-CT] Constanța
 #====================================================================================
+"CITY_NAME_CHANGE"		1300928		"Constanța"						""
 "CITY_NAME_CHANGE"		57059534	"Săcele (Constanța)"					""
 "CITY_NAME_CHANGE"		57064581	"Albești (Constanța)"					""
 "CITY_NAME_CHANGE"		57064801	"Mihail Kogălniceanu (Constanța)"			""
@@ -19216,12 +19280,14 @@
 
 # CITY > [ROU] ROMANIA > [ROU-CV] Covasna
 #====================================================================================
+"CITY_NAME_CHANGE"		7540178		"Sfântu Gheorghe"					""
 "CITY_NAME_CHANGE"		57068904	"Bixad (Covasna)"					""
 "CITY_NAME_CHANGE"		57072511	"Valea Mare (Covasna)"					""
 
 
 # CITY > [ROU] ROMANIA > [ROU-DB] Dâmbovița
 #====================================================================================
+"CITY_NAME_CHANGE"		1300931		"Târgoviște"						""
 "CITY_NAME_CHANGE"		57064591	"Braniștea (Dâmbovița)"					""
 "CITY_NAME_CHANGE"		57064594	"Brănești (Dâmbovița)"					""
 "CITY_NAME_CHANGE"		57064908	"Cornești (Dâmbovița)"					""
@@ -19241,6 +19307,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-DJ] Dolj
 #====================================================================================
+"CITY_NAME_CHANGE"		1300926		"Craiova"						""
 "CITY_NAME_CHANGE"		57038947	"Gura Văii (Dolj)"					""
 "CITY_NAME_CHANGE"		57060675	"Cornu (Dolj)"						""
 "CITY_NAME_CHANGE"		57064603	"Călărași (Dolj)"					""
@@ -19252,6 +19319,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-GL] Galați
 #====================================================================================
+"CITY_NAME_CHANGE"		1300937		"Galați"						""
 "CITY_NAME_CHANGE"		57062632	"Smârdan (Galați)"					""
 "CITY_NAME_CHANGE"		57064592	"Braniștea (Galați)"					""
 "CITY_NAME_CHANGE"		57064961	"Ivești (Galați)"					""
@@ -19280,6 +19348,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-GJ] Gorj
 #====================================================================================
+"CITY_NAME_CHANGE"		7540015		"Târgu Jiu"						""
 "CITY_NAME_CHANGE"		57064595	"Brănești (Gorj)"					""
 "CITY_NAME_CHANGE"		57064959	"Ionești (Gorj)"					""
 "CITY_NAME_CHANGE"		57065408	"Stănești (Gorj)"					""
@@ -19290,6 +19359,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-HR] Harghita
 #====================================================================================
+"CITY_NAME_CHANGE"		7543786		"Miercurea Ciuc"					""
 "CITY_NAME_CHANGE"		7546387		"Bălan (Harghita)"					""
 "CITY_NAME_CHANGE"		57064990	"Mihăileni (Harghita)"					""
 "CITY_NAME_CHANGE"		57071944	"Brădești (Harghita)"					""
@@ -19298,6 +19368,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-HD] Hunedoara
 #====================================================================================
+"CITY_NAME_CHANGE"		7540087		"Hunedoara"						""
 "CITY_NAME_CHANGE"		7546386		"Vulcan (Hunedoara)"					""
 "CITY_NAME_CHANGE"		57009506	"Aninoasa (Hunedoara)"					""
 
@@ -19321,6 +19392,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-IS] Iași
 #====================================================================================
+"CITY_NAME_CHANGE"		1300939		"Iași"							""
 "CITY_NAME_CHANGE"		57049857	"Sinești (Iași)"					""
 "CITY_NAME_CHANGE"		57064781	"Tomești (Iași)"					""
 "CITY_NAME_CHANGE"		57064797	"Deleni (Iași)"						""
@@ -19334,11 +19406,14 @@
 
 # CITY > [ROU] ROMANIA > [ROU-IF] Ilfov
 #====================================================================================
+"CITY_NAME_CHANGE"		57000249	"Chiajna"						""
 "CITY_NAME_CHANGE"		57034784	"Pantelimon (Ilfov)"					""
 "CITY_NAME_CHANGE"		57042382	"Berceni (Ilfov)"					""
 "CITY_NAME_CHANGE"		57044129	"Domnești (Ilfov)"					""
 "CITY_NAME_CHANGE"		57044258	"Tamași"						""
 "CITY_NAME_CHANGE"		57048548	"Brănești (Ilfov)"					""
+"CITY_NAME_CHANGE"		57059082	"Tunari"						""
+"CITY_NAME_CHANGE"		57064776	"Voluntari"						""
 "CITY_NAME_CHANGE"		57064879	"Afumați (Ilfov)"					""
 "CITY_NAME_CHANGE"		57064896	"Bragadiru (Ilfov)"					""
 "CITY_NAME_CHANGE"		57071688	"Căldăraru (Ilfov)"					""
@@ -19376,6 +19451,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-NT] Neamț
 #====================================================================================
+"CITY_NAME_CHANGE"		1300938		"Piatra Neamț"						""
 "CITY_NAME_CHANGE"		57003635	"Brusturi (Neamț)"					""
 "CITY_NAME_CHANGE"		57009515	"Bicaz (Neamț)"						""
 "CITY_NAME_CHANGE"		57009563	"Negrești (Neamț)"					""
@@ -19392,6 +19468,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-OT] Olt
 #====================================================================================
+"CITY_NAME_CHANGE"		5317790		"Slatina"						""
 "CITY_NAME_CHANGE"		57009511	"Balș (Olt)"						""
 "CITY_NAME_CHANGE"		57065021	"Potcoava (Olt)"					""
 "CITY_NAME_CHANGE"		57072068	"Găneasa (Olt)"						""
@@ -19406,6 +19483,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-PH] Prahova
 #====================================================================================
+"CITY_NAME_CHANGE"		1300929		"Ploiești"						""
 "CITY_NAME_CHANGE"		7549023		"Breaza (Prahova)"					""
 "CITY_NAME_CHANGE"		57050042	"Florești (Prahova)"					""
 "CITY_NAME_CHANGE"		57064586	"Berceni (Prahova)"					""
@@ -19439,8 +19517,10 @@
 
 # CITY > [ROU] ROMANIA > [ROU-SB] Sibiu
 #====================================================================================
+"CITY_NAME_CHANGE"		1300933		"Sibiu"							""
 "CITY_NAME_CHANGE"		57009547	"Dumbrăveni (Sibiu)"					""
 "CITY_NAME_CHANGE"		57065123	"Sadu (Sibiu)"						""
+"CITY_NAME_CHANGE"		57065546	"Șelimbăr"						""
 
 
 # CITY > [ROU] ROMANIA > [ROU-SV] Suceava
@@ -19475,6 +19555,7 @@
 
 # CITY > [ROU] ROMANIA > [ROU-TM] Timiș
 #====================================================================================
+"CITY_NAME_CHANGE"		57050298	"Dumbrăvița"						""
 "CITY_NAME_CHANGE"		57066681	"Pădureni (Timiș)"					""
 "CITY_NAME_CHANGE"		57086289	"Bucovăț (Timiș)"					""
 
@@ -19546,14 +19627,25 @@
 "CITY_NAME_CHANGE"		1301076		"Saint Petersburg"					""
 
 
+# CITY > [RUS] RUSSIA > [RUS-AST] Astrakhan Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		130431		"Astrakhan"						""
+
+
 # CITY > [RUS] RUSSIA > [RUS-BA] Republic of Bashkortostan
 #====================================================================================
+"CITY_NAME_CHANGE"		483997		"Ufa"							""
 "CITY_NAME_CHANGE"		58014638	"Blagoveschensk, Bashkortostan"			""
 
 
 # CITY > [RUS] RUSSIA > [RUS-BEL] Belgorod Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		58024210	"Kotovo, Belgorod oblast"				""
+
+
+# CITY > [RUS] RUSSIA > [RUS-BRY] Bryansk Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		130433		"Bryansk"						""
 
 
 # CITY > [RUS] RUSSIA > [RUS-BU] Republic of Buryatia
@@ -19568,6 +19660,7 @@
 
 # CITY > [RUS] RUSSIA > [RUS-DA] Republic of Dagestan
 #====================================================================================
+"CITY_NAME_CHANGE"		130451		"Makhachkala"						""
 "CITY_NAME_CHANGE"		58015108	"Nizhnee Kazanische"					""
 "CITY_NAME_CHANGE"		58015125	"Komsomolskiy, Dagestan"				""
 "CITY_NAME_CHANGE"		58015138	"Verkhnee Kazanische"					""
@@ -19610,8 +19703,14 @@
 "CITY_NAME_CHANGE"		58062119	"Gurjevsk, Kemerovo oblast"				""
 
 
+# CITY > [RUS] RUSSIA > [RUS-KHA] Khabarovsk Krai
+#====================================================================================
+"CITY_NAME_CHANGE"		130446		"Khabarovsk"						""
+
+
 # CITY > [RUS] RUSSIA > [RUS-KOS] Kostroma Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		477456		"Kostroma"						""
 "CITY_NAME_CHANGE"		8061034		"Nikolskoe, Kostroma oblast"				""
 
 
@@ -19619,6 +19718,12 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		130448		"Krasnodar"						""
 "CITY_NAME_CHANGE"		1301085		"Sochi"							""
+"CITY_NAME_CHANGE"		1301086		"Novorossiysk"						""
+
+
+# CITY > [RUS] RUSSIA > [RUS-KYA] Krasnoyarsk Krai
+#====================================================================================
+"CITY_NAME_CHANGE"		130449		"Krasnoyarsk"						""
 
 
 # CITY > [RUS] RUSSIA > [RUS-KRS] Kursk Oblast
@@ -19643,6 +19748,7 @@
 
 # CITY > [RUS] RUSSIA > [RUS-MOS] Moscow Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		477401		"Khimki"						""
 "CITY_NAME_CHANGE"		8056149		"Pervomaiskoe, Moscow oblast"				""
 "CITY_NAME_CHANGE"		8085848		"Troitsk, Moscow oblast"				""
 "CITY_NAME_CHANGE"		58003668	"Iljinskiy, Moscow oblast"				""
@@ -19652,6 +19758,16 @@
 # CITY > [RUS] RUSSIA > [RUS-NIZ] Nizhny Novgorod Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301075		"Nizhny Novgorod"					""
+
+
+# CITY > [RUS] RUSSIA > [RUS-SE] Republic of North Ossetia-Alania
+#====================================================================================
+"CITY_NAME_CHANGE"		1301084		"Vladikavkaz"						""
+
+
+# CITY > [RUS] RUSSIA > [RUS-OMS] Omsk Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		130462		"Omsk"							""
 
 
 # CITY > [RUS] RUSSIA > [RUS-ORL] Oryol Oblast
@@ -19688,6 +19804,12 @@
 # CITY > [RUS] RUSSIA > [RUS-SAM] Samara Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		1301080		"Samara"						""
+"CITY_NAME_CHANGE"		1301081		"Togliatti"						""
+
+
+# CITY > [RUS] RUSSIA > [RUS-SAR] Saratov Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		130471		"Saratov"						""
 
 
 # CITY > [RUS] RUSSIA > [RUS-STA] Stavropol Krai
@@ -19705,11 +19827,29 @@
 # CITY > [RUS] RUSSIA > [RUS-TA] Republic of Tatarstan
 #====================================================================================
 "CITY_NAME_CHANGE"		130444		"Kazan"							""
+"CITY_NAME_CHANGE"		130456		"Nizhnekamsk"						""
+"CITY_NAME_CHANGE"		1301079		"Naberezhnye Chelny"					""
 
 
 # CITY > [RUS] RUSSIA > [RUS-TUL] Tula Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		130478		"Tula"							""
 "CITY_NAME_CHANGE"		2000091798	"Maiskiy, Tula oblast"					""
+
+
+# CITY > [RUS] RUSSIA > [RUS-TYU] Tyumen Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		1301078		"Tyumen"						""
+
+
+# CITY > [RUS] RUSSIA > [RUS-ULY] Ulyanovsk Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		130479		"Uljanovsk"						""
+
+
+# CITY > [RUS] RUSSIA > [RUS-VLA] Vladimir Oblast
+#====================================================================================
+"CITY_NAME_CHANGE"		477477		"Murom"							""
 
 
 # CITY > [RUS] RUSSIA > [RUS-VGG] Volgograd Oblast
@@ -19726,6 +19866,7 @@
 
 # CITY > [RUS] RUSSIA > [RUS-YAR] Yaroslavl Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		130484		"Yaroslavl"						""
 "CITY_NAME_CHANGE"		477447		"Rostov Velikiy"					""
 
 
@@ -20155,6 +20296,7 @@
 #====================================================================================
 "CITY_NAME_CHANGE"		102608		"Dumfries"						""
 "CITY_NAME_CHANGE"		102612		"Stranraer"						""
+"CITY_NAME_CHANGE"		5202165		"Annan"							""
 
 
 # CITY > [SCO] SCOTLAND > [SCO-FIF] Fife
@@ -20166,6 +20308,7 @@
 "CITY_NAME_CHANGE"		5202227		"Rosyth"						""
 "CITY_NAME_CHANGE"		5202233		"St. Andrews"						""
 "CITY_NAME_CHANGE"		5202259		"Glenrothes"						""
+"CITY_NAME_CHANGE"		5202274		"Kelty"							""
 
 
 # CITY > [SCO] SCOTLAND > [SCO-GLG] Glasgow

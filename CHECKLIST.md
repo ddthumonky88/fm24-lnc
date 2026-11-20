@@ -57,8 +57,8 @@
 | [JOR] JORDAN | [5635278] Jordanian Pro League (23/24) | 12/12 (100.0%) | — |
 | [JOR] JORDAN | [5635282] Jordanian First Division League (23/24) | 14/14 (100.0%) | — |
 | [PRK] KOREA DPR | [23100525] DPRK Premier Football League | 12/12 (100.0%) | — |
-| [KOR] KOREA REPUBLIC | [136407] K.League 1 (2023) | 12/12 (100.0%) | — |
-| [KOR] KOREA REPUBLIC | [66029602] K.League 2 (2023) | 13/13 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [136407] K-League 1 (2023) | 12/12 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [66029602] K-League 2 (2023) | 13/13 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66010517] K3 League (2023) | 15/15 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66040773] K4 League (2023) | 18/18 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039929] K.League Junior Group A | 6/6 (100.0%) | — |
@@ -125,8 +125,8 @@
 | [EGY] EGYPT | [12015393] Egyptian Premier League (23/24) | 18/18 (100.0%) | — |
 | [EGY] EGYPT | [2000340108] Egyptian Second Division A (23/24) | 20/20 (100.0%) | — |
 | [LBY] LIBYA | [13208974] Libyan Premier League (23/24) | 22/22 (100.0%) | — |
-| [MAR] MOROCCO | [12019395] Botola Pro Inwi (23/24) | 16/16 (100.0%) | — |
-| [MAR] MOROCCO | [12058772] Botola 2 Inwi (23/24) | 16/16 (100.0%) | — |
+| [MAR] MOROCCO | [12019395] Botola Pro (23/24) | 16/16 (100.0%) | — |
+| [MAR] MOROCCO | [12058772] Botola 2 (23/24) | 16/16 (100.0%) | — |
 | [NGA] NIGERIA | [12016011] Nigeria Professional Football League (23/24) | 20/20 (100.0%) | — |
 | [RSA] SOUTH AFRICA | [131234] South African Premiership (23/24) | 16/16 (100.0%) | — |
 | [RSA] SOUTH AFRICA | [131235] South African Championship (23/24) | 16/16 (100.0%) | — |
@@ -145,7 +145,7 @@
 | [GUA] GUATEMALA | [87000495] Liga Bantrab de Guatemala (23/24) | 12/12 (100.0%) | — |
 | [GUA] GUATEMALA | [87000505] Liga FPD de Guatemala (23/24) | 12/15 (80.0%) | Quiche, Juventud Pinulteca, Barberena |
 | [HON] HONDURAS | [87000201] Liga Hondubet (23/24) | 10/10 (100.0%) | — |
-| [HON] HONDURAS | [87000202] Liga Nacional de Ascenso (23/24) | 31/32 (96.9%) | Brasilia |
+| [HON] HONDURAS | [87000202] Liga Nacional de Ascenso de Honduras (23/24) | 31/32 (96.9%) | Brasilia |
 | [MEX] MEXICO | [135973] Liga MX (23/24) | 18/18 (100.0%) | — |
 | [MEX] MEXICO | [2000017067] Liga de Expansión MX (23/24) | 15/15 (100.0%) | — |
 | [NCA] NICARAGUA | [86000027] Liga Primera de Nicaragua (23/24) | 10/10 (100.0%) | — |
@@ -156,8 +156,8 @@
 | [USA] USA | [43] USL Championship (2024) | 24/24 (100.0%) | — |
 | [USA] USA | [20047508] USL League One (2024) | 12/12 (100.0%) | — |
 | [USA] USA | [2000102644] MLS Next Pro (2024) | 28/28 (100.0%) | — |
-| [USA] USA | [72023762] MLS NEXT | 21/21 (100.0%) | — |
-| [ARG] ARGENTINA | [102421] Liga Profesional (2023) | 28/28 (100.0%) | — |
+| [USA] USA | [72023762] US Soccer Development Academy | 21/21 (100.0%) | — |
+| [ARG] ARGENTINA | [102421] AFA Liga Profesional (2023) | 28/28 (100.0%) | — |
 | [ARG] ARGENTINA | [102422] Primera Nacional (2023) | 37/37 (100.0%) | — |
 | [BOL] BOLIVIA | [86000000] División Profesional de Bolivia (2023) | 17/17 (100.0%) | — |
 | [BRA] BRAZIL | [102423] Brasileirão Série A (2023) | 20/20 (100.0%) | — |
@@ -187,8 +187,8 @@
 | [AND] ANDORRA | [47000005] Lliga Multisegur Assegurances | 8/8 (100.0%) | — |
 | [ARM] ARMENIA | [59006196] Armenian Premier League (23/24) | 10/10 (100.0%) | — |
 | [ARM] ARMENIA | [59006197] Armenian First League (23/24) | 15/15 (100.0%) | — |
-| [AUT] AUSTRIA | [136543] ÖFB Bundesliga (23/24) | 12/12 (100.0%) | — |
-| [AUT] AUSTRIA | [136544] ÖFB 2. Liga (23/24) | 16/16 (100.0%) | — |
+| [AUT] AUSTRIA | [136543] Admiral Bundesliga (23/24) | 12/12 (100.0%) | — |
+| [AUT] AUSTRIA | [136544] Admiral 2. Liga (23/24) | 16/16 (100.0%) | — |
 | [AUT] AUSTRIA | [136546] Regionalliga Ost (23/24) | 2/2 (100.0%) | — |
 | [AUT] AUSTRIA | [5607687] Regionalliga Mitte (23/24) | 5/5 (100.0%) | — |
 | [AUT] AUSTRIA | [5607688] Regionalliga West (23/24) | 1/1 (100.0%) | — |
@@ -200,7 +200,7 @@
 | [BEL] BELGIUM | [1] Jupiler Pro League (23/24) | 16/16 (100.0%) | — |
 | [BEL] BELGIUM | [2] Challenger Pro League (23/24) | 16/16 (100.0%) | — |
 | [BEL] BELGIUM | [8154824] Belgian Division 1 (23/24) | 18/18 (100.0%) | — |
-| [BIH] BOSNIA & HERZEGOVINA | [8401073] Wwin League BIH (23/24) | 12/12 (100.0%) | — |
+| [BIH] BOSNIA & HERZEGOVINA | [8401073] Wwin League BiH (23/24) | 12/12 (100.0%) | — |
 | [BIH] BOSNIA & HERZEGOVINA | [8407370] Prva liga Federacije BiH (23/24) | 16/16 (100.0%) | — |
 | [BIH] BOSNIA & HERZEGOVINA | [8407360] Prva liga Republike Srpske (23/24) | 18/18 (100.0%) | — |
 | [BUL] BULGARIA | [7500000] efbet League (23/24) | 16/16 (100.0%) | — |
@@ -260,69 +260,69 @@
 | [HUN] HUNGARY | [7520391] OTP Bank Liga (23/24) | 12/12 (100.0%) | — |
 | [HUN] HUNGARY | [152045] Merkantil Bank Liga (23/24) | 18/18 (100.0%) | — |
 | [HUN] HUNGARY | [38013451] Nemzeti Bajnokság III | 5/5 (100.0%) | — |
-| [ISL] ICELAND | [7840132] Besta deild karla (2023) | 8/12 (66.7%) | FH, Keflavík, Stjarnan, HK |
-| [ISL] ICELAND | [7840133] Lengjudeild karla (2023) | 7/12 (58.3%) | Selfoss, Afturelding, Njarðvík, Grótta, Ægir |
-| [IRL] IRELAND | [129372] LOI Premier Division (2023) | 5/10 (50.0%) | Bohemians, Derry City, Shamrock Rovers, Shelbourne, St Patrick's Athletic |
-| [IRL] IRELAND | [129373] LOI First Division (2023) | 8/10 (80.0%) | Finn Harps, Treaty United |
-| [IRL] IRELAND | [52086882] LOI Academy U19 League | 13/20 (65.0%) | Bohemians U19, Derry City U19, Shelbourne U19, Finn Harps U19, St Patrick's U19, Shamrock Rovers U19, Treaty Utd U19 |
-| [ISR] ISRAEL | [7860000] Ligat TOTO Winner (23/24) | 14/14 (100.0%) | — |
+| [ISL] ICELAND | [7840132] Besta deild karla (2023) | 12/12 (100.0%) | — |
+| [ISL] ICELAND | [7840133] Lengjudeild karla (2023) | 12/12 (100.0%) | — |
+| [IRL] IRELAND | [129372] LOI Premier Division (2023) | 10/10 (100.0%) | — |
+| [IRL] IRELAND | [129373] LOI First Division (2023) | 10/10 (100.0%) | — |
+| [IRL] IRELAND | [52086882] LOI Academy U19 League | 20/20 (100.0%) | — |
+| [ISR] ISRAEL | [7860000] Israeli Premier League (23/24) | 14/14 (100.0%) | — |
 | [ISR] ISRAEL | [7860001] Liga Leumit (23/24) | 14/14 (100.0%) | — |
 | [ITA] ITALY | [32] Serie A (23/24) | 20/20 (100.0%) | — |
 | [ITA] ITALY | [33] Serie B (23/24) | 20/20 (100.0%) | — |
 | [ITA] ITALY | [43127172] Serie C Girone A (23/24) | 20/20 (100.0%) | — |
 | [ITA] ITALY | [43127173] Serie C Girone B (23/24) | 20/20 (100.0%) | — |
 | [ITA] ITALY | [43127174] Serie C Girone C (23/24) | 20/20 (100.0%) | — |
-| [KAZ] KAZAKHSTAN | [59007527] Qazaqstan Premier Ligasy (2023) | 7/14 (50.0%) | Ordabasy, Kairat, Kaysar, Okzhetpes, Tobol, Caspiy, Maktaaral |
-| [KAZ] KAZAKHSTAN | [59010820] Qazaqstan Birinshi Ligasy (2023) | 10/13 (76.9%) | Ońtústik Akademııasy, Kairat M, Khan-Tengri |
-| [KAZ] KAZAKHSTAN | [59107180] QJ League | 9/15 (60.0%) | Kaysar-QJ, Okzhetpes-QJ, Ordabasy-QJ, Tobol-QJ, Caspiy-QJ, Kairat-QJ |
-| [LVA] LATVIA | [8403697] Latvijas Virsliga (2023) | 6/10 (60.0%) | Auda, METTA, RFS, Super Nova |
-| [LVA] LATVIA | [8403797] Latvijas Nakotnes liga (2023) | 8/13 (61.5%) | Rēzeknes, JDFS Alberts, Grobiņas, RFS 2, Skanstes |
-| [LTU] LITHUANIA | [2300046] TOPLYGA (2023) | 4/10 (40.0%) | Žalgiris, Sūduva, Kauno Žalgiris, DFK Dainava, Riteriai, Hegelmann |
-| [LTU] LITHUANIA | [2300047] LFF I Lyga (2023) | 9/16 (56.2%) | Žalgiris B, Kauno Žalgiris B, BFA, Riteriai B, Be1 NFA, Transinvest, MML City |
-| [LTU] LITHUANIA | [2000170236] LFF II Lyga (2023) | 5/10 (50.0%) | Sūduva B, DFK Dainava B, Klaipėdos, Žalgiris C, Hegelmann B |
-| [LUX] LUXEMBOURG | [5340000] BGL Ligue | 14/19 (73.7%) | CS Grevenmacher, US Rumelange, Etzella Ettelbruck, US Hostert, Jeunesse Canach |
+| [KAZ] KAZAKHSTAN | [59007527] Qazaqstan Premier Ligasy (2023) | 14/14 (100.0%) | — |
+| [KAZ] KAZAKHSTAN | [59010820] Qazaqstan Birinshi Ligasy (2023) | 13/13 (100.0%) | — |
+| [KAZ] KAZAKHSTAN | [59107180] QJ League | 15/15 (100.0%) | — |
+| [LVA] LATVIA | [8403697] TonyBet Virsliga (2023) | 10/10 (100.0%) | — |
+| [LVA] LATVIA | [8403797] Optibet Nakotnes liga (2023) | 13/13 (100.0%) | — |
+| [LTU] LITHUANIA | [2300046] TOPLYGA (2023) | 10/10 (100.0%) | — |
+| [LTU] LITHUANIA | [2300047] LFF I Lyga (2023) | 16/16 (100.0%) | — |
+| [LTU] LITHUANIA | [2000170236] LFF II Lyga (2023) | 10/10 (100.0%) | — |
+| [LUX] LUXEMBOURG | [5340000] BGL Ligue | 14/14 (100.0%) | — |
 | [MLT] MALTA | [2300050] Maltese Premier League (23/24) | 14/14 (100.0%) | — |
 | [MDA] MOLDOVA | [59007607] Moldovan Super Liga (23/24) | 8/8 (100.0%) | — |
-| [MNE] MONTENEGRO | [5745020] 1.CFL (23/24) | 5/10 (50.0%) | Mornar Bar, Petrovac, Jezero, Dečić, Mladost DG |
-| [MNE] MONTENEGRO | [5754888] 2.CFL (23/24) | 6/10 (60.0%) | Iskra, Lovćen, Grbalj, Otrant-Olympic |
+| [MNE] MONTENEGRO | [5745020] 1. CFL (23/24) | 10/10 (100.0%) | — |
+| [MNE] MONTENEGRO | [5754888] 2. CFL (23/24) | 10/10 (100.0%) | — |
 | [NOR] NORWAY | [1300397] Eliteserien (2023) | 16/16 (100.0%) | — |
-| [NOR] NORWAY | [1300398] OBOS-ligaen (2023) | 4/16 (25.0%) | Bryne, Hødd, Jerv, Kongsvinger, Mjøndalen, Raufoss, Skeid, Sogndal, Start, Åsane, Kristiansund, Ranheim |
-| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 11/23 (47.8%) | Egersunds, Grorud, Kjelsås, Lyn, Træff, Notodden, Flekkerøy, Alta, Strømmen, Tromsdalen, Ullern, Levanger |
-| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 15/40 (37.5%) | Fana, Os TF, Gneist, Skjetten, Elverum, Hønefoss, Volda, Brumunddal, Eidsvold Turn, Førde, Florø, Sogndal 2, Raufoss 2, Hødd 2, Vidar, Stord, Fyllingsdalen, Pors Grenland, Vindbjart, Mandalskameratene, Byåsen, Nardo, Steinkjer, Strindheim, Follo |
+| [NOR] NORWAY | [1300398] OBOS-ligaen (2023) | 16/16 (100.0%) | — |
+| [NOR] NORWAY | [145428] PostNord-ligaen (2023) | 23/23 (100.0%) | — |
+| [NOR] NORWAY | [1301420] Norsk Tipping-ligaen (2023) | 40/40 (100.0%) | — |
 | [NED] NETHERLANDS | [29] Eredivisie (23/24) | 18/18 (100.0%) | — |
 | [NED] NETHERLANDS | [30] Keuken Kampioen Divisie (23/24) | 20/20 (100.0%) | — |
 | [NED] NETHERLANDS | Team B | 11/11 (100.0%) | — |
-| [NIR] NORTHERN IRELAND | [130023] NIFL Premiership (23/24) | 5/12 (41.7%) | Carrick Rangers, Cliftonville, Crusaders, Glenavon, Glentoran, Linfield, Loughgall |
-| [NIR] NORTHERN IRELAND | [130024] NIFL Championship (23/24) | 3/12 (25.0%) | Ards, Institute, Ballinamallard United, H&W Welders, Dundela, Newington, Knockbreda, Annagh United, Dergview |
-| [NIR] NORTHERN IRELAND | [147023] NIFL Premier Intermediate League (23/24) | 7/14 (50.0%) | Coagh United, Tobermore United, PSNI, Moyola Park, Ballymacash Rangers, Rathfriland Rangers, Dollingstown |
-| [MKD] NORTH MACEDONIA | [8401070] 1.MFL (23/24) | 7/12 (58.3%) | Vardar, Makedonija GP, Shkëndija, Shkupi, Voska Sport |
-| [MKD] NORTH MACEDONIA | [8403796] 2.MFL (23/24) | 12/16 (75.0%) | Pelister, Kamenica Sasa, Besa Dobërdoll, Detonit Plačkovica |
-| [POL] POLAND | [129558] Ekstraklasa (23/24) | 13/18 (72.2%) | ŁKS Łódź, Legia Warszawa, Widzew Łódź, Cracovia, Puszcza Niepołomice |
-| [POL] POLAND | [129559] I liga (23/24) | 15/18 (83.3%) | Górnik Łęczna, Polonia Warszawa, Bruk-Bet Termalica |
-| [POL] POLAND | [162504] II liga (23/24) | 11/18 (61.1%) | Kotwica Kołobrzeg, GKS Jastrzębie, Olimpia Grudziądz, Chojniczanka Chojnice, Wisła Puławy, Radunia Stężyca, ŁKS Łódź II |
-| [POL] POLAND | [129560] III liga (23/24) | 12/22 (54.5%) | Świt Nowy Dwór Mazowiecki, Flota Świnoujście, Pelikan Łowicz, Legionovia Legionowo, Cartusia Kartuzy, Avia Świdnik, Siarka Tarnobrzeg, MKS Kluczbork, Warta Sieradz, Legia II |
+| [NIR] NORTHERN IRELAND | [130023] NIFL Premiership (23/24) | 12/12 (100.0%) | — |
+| [NIR] NORTHERN IRELAND | [130024] NIFL Championship (23/24) | 12/12 (100.0%) | — |
+| [NIR] NORTHERN IRELAND | [147023] NIFL Premier Intermediate League (23/24) | 14/14 (100.0%) | — |
+| [MKD] NORTH MACEDONIA | [8401070] 1. MFL (23/24) | 12/12 (100.0%) | — |
+| [MKD] NORTH MACEDONIA | [8403796] 2. MFL (23/24) | 16/16 (100.0%) | — |
+| [POL] POLAND | [129558] Ekstraklasa (23/24) | 18/18 (100.0%) | — |
+| [POL] POLAND | [129559] PZPN I Liga (23/24) | 18/18 (100.0%) | — |
+| [POL] POLAND | [162504] PZPN II Liga (23/24) | 18/18 (100.0%) | — |
+| [POL] POLAND | [129560] PZPN III Liga (23/24) | 22/22 (100.0%) | — |
 | [POR] PORTUGAL | [60] Liga Portugal (23/24) | 18/18 (100.0%) | — |
 | [POR] PORTUGAL | [61] Liga Portugal 2 (23/24) | 18/18 (100.0%) | — |
 | [POR] PORTUGAL | [2000112232] Liga 3 Norte (23/24) | 10/10 (100.0%) | — |
 | [POR] PORTUGAL | [2000112233] Liga 3 Sul (23/24) | 10/10 (100.0%) | — |
-| [ROU] ROMANIA | [7540024] Liga I României (23/24) | 0/16 (0.0%) | Dinamo Bucureşti, FCSB, Universitatea Cluj, CFR Cluj, Botoșani, Voluntari, Poli Iași, Sepsi OSK, Universitatea Craiova, UTA Arad, Hermannstadt, Petrolul Ploiești, Oţelul Galaţi, FCU Craiova, Rapid București, Farul Constanța |
-| [ROU] ROMANIA | [150913] Liga II României (23/24) | 3/20 (15.0%) | FC Argeş, Concordia Chiajna, Progresul Spartac, Tunari, Slatina, Viitorul Târgu Jiu, Metaloglobus, Dumbrăviţa, Chindia Târgoviște, Mioveni, Csíkszereda, Reşiţa, Steaua București, Ceahlăul Piatra Neamț, Corvinul Hunedoara, Gloria Buzău, 1599 Şelimbăr |
+| [ROU] ROMANIA | [7540024] SuperLiga României (23/24) | 16/16 (100.0%) | — |
+| [ROU] ROMANIA | [150913] Liga II României (23/24) | 20/20 (100.0%) | — |
 | [RUS] RUSSIA | [130486] Russian Premier League (23/24) | 16/16 (100.0%) | — |
-| [RUS] RUSSIA | [130487] Russian First League (23/24) | 2/18 (11.1%) | Tyumen, KAMAZ, Alania Vladikavkaz, Arsenal Tula, Shinnik Yaroslavl, Sokol Saratov, Volgar Astrakhan, Khimki, Neftekhimik, SKA-Khabarovsk, Chernomorets Novorossiysk, Dynamo Makhachkala, Yenisey Krasnoyarsk, Akron Togliatti, Kuban Krasnodar, Leningradets S-Pb |
-| [RUS] RUSSIA | [2000272298] Russian Second League Div. A Gold Group (23/24) | 3/10 (30.0%) | Dinamo Bryansk, Volga Uljanovsk, Irtysh Omsk, Spartak Kostroma, Ufa, Chaika Peschanokopskoe, Murom |
+| [RUS] RUSSIA | [130487] Russian First League (23/24) | 18/18 (100.0%) | — |
+| [RUS] RUSSIA | [2000272298] Russian Second League Div. A Gold Group (23/24) | 10/10 (100.0%) | — |
 | [RUS] RUSSIA | [2000272300] Russian Second League Div. A Silver Group (23/24) | 1/1 (100.0%) | — |
-| [RUS] RUSSIA | [8051008] Russian Second League (23/24) | 3/3 (100.0%) | — |
+| [RUS] RUSSIA | [2000272301] Russian Second League Div. B (23/24) | 3/3 (100.0%) | — |
 | [SMR] SAN MARINO | [43032015] Campionato Sammarinese | 15/15 (100.0%) | — |
 | [SCO] SCOTLAND | [45] Scottish Premiership (23/24) | 12/12 (100.0%) | — |
-| [SCO] SCOTLAND | [46] Scottish Championship (23/24) | 5/10 (50.0%) | Ayr United, Partick Thistle, Queen's Park, Raith Rovers, Airdrieonians |
-| [SCO] SCOTLAND | [47] Scottish League One (23/24) | 6/10 (60.0%) | Annan Athletic, Cove Rangers, Queen of the South, Kelty Hearts |
-| [SCO] SCOTLAND | [48] Scottish League Two (23/24) | 7/10 (70.0%) | Clyde, East Fife, Spartans |
+| [SCO] SCOTLAND | [46] Scottish Championship (23/24) | 10/10 (100.0%) | — |
+| [SCO] SCOTLAND | [47] Scottish League One (23/24) | 10/10 (100.0%) | — |
+| [SCO] SCOTLAND | [48] Scottish League Two (23/24) | 10/10 (100.0%) | — |
 | [SRB] SERBIA | [132321] SuperLiga Srbije (23/24) | 16/16 (100.0%) | — |
 | [SRB] SERBIA | [5776050] PrvaLiga Srbije (23/24) | 16/16 (100.0%) | — |
 | [SVK] SLOVAKIA | [7560276] Niké liga (23/24) | 12/12 (100.0%) | — |
 | [SVK] SLOVAKIA | [7560277] MONACObet LIGA (23/24) | 16/16 (100.0%) | — |
-| [SVN] SLOVENIA | [7580000] Prva Liga Telemach (23/24) | 7/10 (70.0%) | Mura, Rogaška, Bravo |
-| [SVN] SLOVENIA | [7580001] 2.SNL (23/24) | 10/16 (62.5%) | Gorica, Dravinja Kostroj, Ilirija 1911, Bilje, Bistrica, Fužinar |
+| [SVN] SLOVENIA | [7580000] Prva Liga Telemach (23/24) | 10/10 (100.0%) | — |
+| [SVN] SLOVENIA | [7580001] 2. SNL (23/24) | 16/16 (100.0%) | — |
 | [ESP] SPAIN | [67] LALIGA EA SPORTS (23/24) | 20/20 (100.0%) | — |
 | [ESP] SPAIN | [68] LALIGA HYPERMOTION (23/24) | 22/22 (100.0%) | — |
 | [ESP] SPAIN | [2000048844] Primera Federación Grupo 1 (23/24) | 20/20 (100.0%) | — |
@@ -340,10 +340,10 @@
 | [SWE] SWEDEN | [52] Superettan (2023) | 6/16 (37.5%) | Gefle IF, Helsingborgs IF, IK Brage, Trelleborgs FF, Örgryte IS, Östers IF, GAIS, Utsiktens BK, Östersunds FK, J-Södra |
 | [SWE] SWEDEN | [8114887] Ettan Södra (2023) | 1/16 (6.2%) | Falkenbergs FF, IK Oddevold, Åtvidabergs FF, Lunds BK, Norrby IF, Ljungskile SK, BK Olympic, Ahlafors IF, Tvååkers IF, Ängelholms FF, Vänersborgs IF, Oskarshamns AIK, Torns IF, Eskilsminne IF, Ariana |
 | [SWE] SWEDEN | [8114888] Ettan Norra (2023) | 8/16 (50.0%) | Bodens BK, Sandvikens IF, IF Sylvia, Hammarby TFF, Vasalunds IF, Dalkurd FF, Nordic United, IFK Stocksund |
-| [TUR] TURKIYE | [130286] Süper Lig (23/24) | 20/20 (100.0%) | — |
-| [TUR] TURKIYE | [463479] 1. Lig (23/24) | 3/17 (17.6%) | Adanaspor, Altay, Gençlerbirliği, Eyüpspor, Bandırmaspor, Göztepe, Sakaryaspor, Boluspor, Giresunspor, Şanlıurfaspor, Ümraniyespor, Bodrum, Erzurumspor, Tuzlaspor |
-| [TUR] TURKIYE | [463485] 2. Lig Beyaz Grup (23/24) | 5/19 (26.3%) | Bursaspor, Vanspor, Nazilli Belediyespor, Ankaraspor, Kırklarelispor, Altınordu, Karacabey Belediyespor, Diyarbekirspor, Bucaspor 1928, Kırşehir FSK, Adıyaman FK, Afjet Afyonspor, Beyoğlu Yeni Çarşı, Esenler Erokspor |
-| [TUR] TURKIYE | [463481] 2. Lig (23/24) | 2/19 (10.5%) | Denizlispor, Düzcespor, İnegölspor, Amed SFK, Fethiyespor, Etimesgut Belediyespor, Sarıyer SK, Menemenspor, Uşakspor, İskenderunspor, 24 Erzincanspor, Kastamonuspor, Belediye Derincespor, 68 Aksarayspor, Arnavutköy Belediyespor, Somaspor, Iğdır FK |
+| [TUR] TURKIYE | [130286] Trendyol Süper Lig (23/24) | 20/20 (100.0%) | — |
+| [TUR] TURKIYE | [463479] TFF 1. Lig (23/24) | 3/17 (17.6%) | Adanaspor, Altay, Gençlerbirliği, Eyüpspor, Bandırmaspor, Göztepe, Sakaryaspor, Boluspor, Giresunspor, Şanlıurfaspor, Ümraniyespor, Bodrum, Erzurumspor, Tuzlaspor |
+| [TUR] TURKIYE | [463485] TFF 2. Lig Beyaz Grup (23/24) | 5/19 (26.3%) | Bursaspor, Vanspor, Nazilli Belediyespor, Ankaraspor, Kırklarelispor, Altınordu, Karacabey Belediyespor, Diyarbekirspor, Bucaspor 1928, Kırşehir FSK, Adıyaman FK, Afjet Afyonspor, Beyoğlu Yeni Çarşı, Esenler Erokspor |
+| [TUR] TURKIYE | [463481] TFF 2. Lig (23/24) | 2/19 (10.5%) | Denizlispor, Düzcespor, İnegölspor, Amed SFK, Fethiyespor, Etimesgut Belediyespor, Sarıyer SK, Menemenspor, Uşakspor, İskenderunspor, 24 Erzincanspor, Kastamonuspor, Belediye Derincespor, 68 Aksarayspor, Arnavutköy Belediyespor, Somaspor, Iğdır FK |
 | [UKR] UKRAINE | [5314301] Ukrainian Premier League (23/24) | 16/16 (100.0%) | — |
 | [UKR] UKRAINE | [5314302] Ukrainian First League (23/24) | 6/16 (37.5%) | Kremin Kremenchuk, Bukovyna Chernivtsi, Hirnyk-Sport, Dinaz Vyshhorod, Epicenter KP, Nyva Buzova, Khust, Inhulets Petrove, Metalurh Zaporizhya, Poltava |
 | [WAL] WALES | [130672] Cymru Premier (23/24) | 12/12 (100.0%) | — |
@@ -436,9 +436,10 @@
 | [IRL] IRELAND | 5/6 (83.3%) | Shamrock Rovers B |
 | [ISR] ISRAEL | 9/10 (90.0%) | Hapoel Bnei Lod |
 | [ITA] ITALY | 8/44 (18.2%) | Carpi, Fidelis Andria, Ischia Isolaverde, Pistoiese, Savoia, Siena, Trapani, Treviso, Teramo, L'Aquila, Varese, San Marino, Pordenone, Savona, Paganese, Barletta, Martina Franca, Melfi, Vigor Lamezia, Aversa Normanna, Grosseto, Santarcangelo, Imolese, Virtus Lanciano, Gelbison, Matera, San Donato Tavarnelle, Tuttocuoio, Costa Orientale Sarda, Progreditur Marcianise, Viterbese, Villa Valle, Montevarchi, Ancona, San Marino Calcio, Sangiuliano City |
-| [KAZ] KAZAKHSTAN | 18/27 (66.7%) | Baıqońyr, Baıqońyr-M, Tobol M, Okzhetpes-M, Kaysar-M, Ordabasy-M, Ońtústik Akademııasy M, Caspiy-M, Maktaaral-M |
-| [LVA] LATVIA | 10/13 (76.9%) | Skonto, RFS Akadēmija, JDFS Alberts 2 |
-| [LTU] LITHUANIA | 8/10 (80.0%) | Klaipėdos B, Transinvest B |
+| [KAZ] KAZAKHSTAN | 25/27 (92.6%) | Baıqońyr, Baıqońyr-M |
+| [LVA] LATVIA | 12/12 (100.0%) | — |
+| [LTU] LITHUANIA | 10/10 (100.0%) | — |
+| [LUX] LUXEMBOURG | 0/5 (0.0%) | CS Grevenmacher, US Rumelange, Etzella Ettelbruck, US Hostert, Jeunesse Canach |
 | [MLT] MALTA | 4/4 (100.0%) | — |
 | [MDA] MOLDOVA | 7/8 (87.5%) | Saxan Gagauz Yeri |
 | [MNE] MONTENEGRO | 3/5 (60.0%) | Zeta, Crvena Stijena |
@@ -446,7 +447,7 @@
 | [NED] NETHERLANDS | 0/2 (0.0%) | AFC, ADO '20 |
 | [NIR] NORTHERN IRELAND | 2/6 (33.3%) | Donegal Celtic, Wakehurst, Glebe Rangers, Sport & Leisure Swifts |
 | [MKD] NORTH MACEDONIA | 3/4 (75.0%) | Gorno Lisiče |
-| [POL] POLAND | 30/88 (34.1%) | Widzew Łódź II, Górnik Łęczna II, Bruk-Bet Termalica II, Chojniczanka Chojnice II, Dolcan Ząbki, Bytovia Bytów, Nadwiślan Góra, Okocimski Brzesko, Limanovia Limanowa, Gryf Wejherowo, Kaszubia Kościerzyna, Górnik Polkowice, Kolejarz Stróże, Odra Wodzisław, Ruch Radzionków, Agrykola Warszawa, Amica Wronki, Arka Nowa Sól, Ceramika Opoczno, Czarni Żagań, Górnik Wieliczka, Jarota Jarocin, Jeziorak Iława, Kmita Zabierzów, KP Police, Lech Rypin, LZS Leśnica, MKS Myszków, GLKS Nadarzyn, Naprzód Jędrzejów, Narew Ostrołęka, Nida Pińczów, Nielba Wągrowiec, Polonia Nowy Tomyśl, Orkan Rumia, Orzeł Ząbkowice Śląskie, Pogoń Świebodzin, Polonia Słubice, Polonia/Sparta Świdnica, Promień Opalenica, Promień Żary, Przebój Wolbrom, Rega-Merida Trzebiatów, Ruch Wysokie Mazowieckie, Ruch Zdzieszowice, Skalnik Gracze, SMS Łódź, Sokół Aleksandrów Łódzki, Sokół Sokółka, Stal Poniatowa, Stal Sanok, Start Otwock, Tomasovia Tomaszów Lubelski, Tur Turek, Unia Janikowo, Victoria Koronowo, Warmia Grajewo, Wierna Małogoszcz |
+| [POL] POLAND | 34/88 (38.6%) | Dolcan Ząbki, Bytovia Bytów, Nadwiślan Góra, Okocimski Brzesko, Limanovia Limanowa, Gryf Wejherowo, Kaszubia Kościerzyna, Górnik Polkowice, Kolejarz Stróże, Odra Wodzisław, Ruch Radzionków, Agrykola Warszawa, Amica Wronki, Arka Nowa Sól, Ceramika Opoczno, Czarni Żagań, Górnik Wieliczka, Jarota Jarocin, Jeziorak Iława, Kmita Zabierzów, KP Police, Lech Rypin, LZS Leśnica, MKS Myszków, GLKS Nadarzyn, Naprzód Jędrzejów, Narew Ostrołęka, Nida Pińczów, Nielba Wągrowiec, Polonia Nowy Tomyśl, Orkan Rumia, Orzeł Ząbkowice Śląskie, Pogoń Świebodzin, Polonia Słubice, Polonia/Sparta Świdnica, Promień Opalenica, Promień Żary, Przebój Wolbrom, Rega-Merida Trzebiatów, Ruch Wysokie Mazowieckie, Ruch Zdzieszowice, Skalnik Gracze, SMS Łódź, Sokół Aleksandrów Łódzki, Sokół Sokółka, Stal Poniatowa, Stal Sanok, Start Otwock, Tomasovia Tomaszów Lubelski, Tur Turek, Unia Janikowo, Victoria Koronowo, Warmia Grajewo, Wierna Małogoszcz |
 | [POR] PORTUGAL | 11/72 (15.3%) | Tirsense, Beira-Mar, Salgueiros, SC Espinho, Vitória FC, Freamunde, Montalegre, AC Alcanenense, Malveira, Sourense, Camacha, União Montemor, Oriental Lisboa, Olhanense, Louletano, Mirandela, Estarreja, Sacavenense, SU Sintrense, Praiense, Ribeirão, São João de Ver, Operário dos Açores, Bragança, Gouveia, Sertanense, Pedras Rubras, Angrense, Cinfães, Limianos, Pinhalnovense, Atlético Riachense, Cesarense, Vilaverdense, Vitória de Sernache, Gafanha, CDR Quarteirense, Cerveira, Real SC, Pampilhosa, Lusitano VRSA, Mortágua, Oliveirense, Eléctrico, Ferreiras, Mineiro Ajustrelense, Vieira, Coimbrões, Atlético SC, Santa Maria, Moura, Sousense, AD Nogueirense, Lusitano, Pedras Salgadas, Santa Eulália, Sobrado, Moimenta da Beira, Atlético Ouriense, Fontinhas, Moncarapachense |
 | [ROU] ROMANIA | 1/31 (3.2%) | Râmnicu Sărat, Blejoi, Filiaşi, Bihor Oradea, Deva, ACB Ineu, Dinamo București II, FCSB II, U-Cluj II, CFR Cluj II, Botoșani II, Voluntari II, U II Craiova, UTA Arad II, Hermannstadt II, Sepsi OSK II, Rapid București II, Poli Iași II, FCU Craiova II, Farul Constanța II, Petrolul Ploiești II, Oţelul Galaţi II, Metaloglobus II, Mioveni II, Csíkszereda II, Viitorul Târgu Jiu II, Corvinul Hunedoara II, ACB Ineu II, Tunari II, Ceahlăul Piatra Neamț II |
 | [RUS] RUSSIA | 5/27 (18.5%) | Amkar Perm, Kuban Krasnodar, Terek Grozny, Anji Makhachkala, Dinamo St. Petersburg, Dinamo-2 SPb, Gazovik Orenburg, Khimik Dzerzhinsk, Luch-Energiya, Sakhalin YS, Sibir Novosibirsk, Tom Tomsk, Tosno, Volga NN, Olimp Khimki, Nart Cherkessk, Khimik-Arsenal, Lokomotiv St. Petersburg, Smena St. Petersburg, Neva St. Petersburg, Zvezda St. Petersburg, Yadro St. Petersburg |
