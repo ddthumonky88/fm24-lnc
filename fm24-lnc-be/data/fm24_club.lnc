@@ -33809,15 +33809,18 @@
 "CLUB_SHORT_NAME_CHANGE"	1791		"GIF Sundsvall"						""
 "CLUB_3LETTER_NAME_CHANGE"	1791		"GIF"							""
 
+"CLUB_CITY_CHANGE"		1792		"410"							"" # <Gävle>
 "CLUB_NAME_CHANGE"		1792		"Gefle IF"						""
 "CLUB_SHORT_NAME_CHANGE"	1792		"Gefle IF"						""
 "CLUB_6LETTER_NAME_CHANGE"	1792		"Gefle"							""
 "CLUB_3LETTER_NAME_CHANGE"	1792		"GEF"							""
 
+"CLUB_CITY_CHANGE"		1798		"416"							"" # <Helsingborg>
 "CLUB_NAME_CHANGE"		1798		"Helsingborgs IF"					""
 "CLUB_SHORT_NAME_CHANGE"	1798		"Helsingborgs IF"					""
 "CLUB_3LETTER_NAME_CHANGE"	1798		"HIF"							""
 
+"CLUB_CITY_CHANGE"		1807		"428"							"" # <Borlänge>
 "CLUB_NAME_CHANGE"		1807		"IK Brage"						""
 "CLUB_SHORT_NAME_CHANGE"	1807		"IK Brage"						""
 "CLUB_6LETTER_NAME_CHANGE"	1807		"Brage"							""
@@ -33828,6 +33831,7 @@
 "CLUB_SHORT_NAME_CHANGE"	1811		"Landskrona BoIS"					""
 "CLUB_3LETTER_NAME_CHANGE"	1811		"LAN"							""
 
+"CLUB_CITY_CHANGE"		1831		"453"							"" # <Trelleborg>
 "CLUB_NAME_CHANGE"		1831		"Trelleborgs FF"					""
 "CLUB_SHORT_NAME_CHANGE"	1831		"Trelleborgs FF"					""
 "CLUB_3LETTER_NAME_CHANGE"	1831		"TFF"							""
@@ -33843,15 +33847,18 @@
 "CLUB_6LETTER_NAME_CHANGE"	1842		"Örebro"						""
 "CLUB_3LETTER_NAME_CHANGE"	1842		"ÖSK"							""
 
+"CLUB_CITY_CHANGE"		1843		"438"							"" # <Göteborg>
 "CLUB_NAME_CHANGE"		1843		"Örgryte IS"						""
 "CLUB_SHORT_NAME_CHANGE"	1843		"Örgryte IS"						""
 "CLUB_3LETTER_NAME_CHANGE"	1843		"ÖIS"							""
 
+"CLUB_CITY_CHANGE"		1844		"445"							"" # <Växjö>
 "CLUB_NAME_CHANGE"		1844		"Östers IF"						""
 "CLUB_SHORT_NAME_CHANGE"	1844		"Östers IF"						""
 "CLUB_6LETTER_NAME_CHANGE"	1844		"Öster"							""
 "CLUB_3LETTER_NAME_CHANGE"	1844		"ÖIF"							""
 
+"CLUB_CITY_CHANGE"		2153		"438"							"" # <Göteborg>
 "CLUB_NAME_CHANGE"		2153		"GAIS Fotboll"						""
 "CLUB_SHORT_NAME_CHANGE"	2153		"GAIS"							""
 "CLUB_6LETTER_NAME_CHANGE"	2153		"GAIS"							""
@@ -33863,14 +33870,17 @@
 "CLUB_6LETTER_NAME_CHANGE"	2180		"Skövde"						""
 "CLUB_3LETTER_NAME_CHANGE"	2180		"SKÖ"							""
 
+"CLUB_CITY_CHANGE"		619076		"438"							"" # <Göteborg>
 "CLUB_NAME_CHANGE"		619076		"Utsiktens BK"						""
 "CLUB_SHORT_NAME_CHANGE"	619076		"Utsiktens BK"						""
 "CLUB_3LETTER_NAME_CHANGE"	619076		"UBK"							""
 
+"CLUB_CITY_CHANGE"		1101813		"1039"							"" # <Östersund>
 "CLUB_NAME_CHANGE"		1101813		"Östersunds FK"						""
 "CLUB_SHORT_NAME_CHANGE"	1101813		"Östersunds FK"						""
 "CLUB_3LETTER_NAME_CHANGE"	1101813		"ÖFK"							""
 
+"CLUB_CITY_CHANGE"		6410547		"995"							"" # <Jönköping>
 "CLUB_NAME_CHANGE"		6410547		"Jönköpings Södra IF"					""
 "CLUB_SHORT_NAME_CHANGE"	6410547		"J-Södra"						""
 "CLUB_3LETTER_NAME_CHANGE"	6410547		"JÖN"							""
@@ -33883,30 +33893,37 @@
 
 # CLUB > UEFA > [SWE] SWEDEN > [8114887] Ettan Södra (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1788		"409"							"" # <Falkenberg>
 "CLUB_NAME_CHANGE"		1788		"Falkenbergs FF"					""
 "CLUB_SHORT_NAME_CHANGE"	1788		"Falkenbergs FF"					""
 "CLUB_3LETTER_NAME_CHANGE"	1788		"FFF"							""
 
+"CLUB_CITY_CHANGE"		1808		"430"							"" # <Uddevalla>
 "CLUB_NAME_CHANGE"		1808		"IK Oddevold"						""
 "CLUB_SHORT_NAME_CHANGE"	1808		"IK Oddevold"						""
 "CLUB_3LETTER_NAME_CHANGE"	1808		"IKO"							""
 
+"CLUB_CITY_CHANGE"		1841		"404"							"" # <Åtvidaberg>
 "CLUB_NAME_CHANGE"		1841		"Åtvidabergs FF"					""
 "CLUB_SHORT_NAME_CHANGE"	1841		"Åtvidabergs FF"					""
 "CLUB_3LETTER_NAME_CHANGE"	1841		"ÅFF"							""
 
+"CLUB_CITY_CHANGE"		2170		"439"							"" # <Lund>
 "CLUB_NAME_CHANGE"		2170		"Lunds BK"						""
 "CLUB_SHORT_NAME_CHANGE"	2170		"Lunds BK"						""
 "CLUB_3LETTER_NAME_CHANGE"	2170		"LBK"							""
 
+"CLUB_CITY_CHANGE"		2172		"2000027415"						"" # <Norrby>
 "CLUB_NAME_CHANGE"		2172		"Norrby IF"						""
 "CLUB_SHORT_NAME_CHANGE"	2172		"Norrby IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	2172		"NOR"							""
 
+"CLUB_CITY_CHANGE"		2175		"93128335"						"" # <Ljungskile>
 "CLUB_NAME_CHANGE"		2175		"Ljungskile SK"						""
 "CLUB_SHORT_NAME_CHANGE"	2175		"Ljungskile SK"						""
 "CLUB_3LETTER_NAME_CHANGE"	2175		"LSK"							""
 
+"CLUB_CITY_CHANGE"		2518		"424"							"" # <Malmö>
 "CLUB_NAME_CHANGE"		2518		"BK Olympic"						""
 "CLUB_SHORT_NAME_CHANGE"	2518		"BK Olympic"						""
 "CLUB_3LETTER_NAME_CHANGE"	2518		"BKO"							""
@@ -33916,34 +33933,42 @@
 "CLUB_SHORT_NAME_CHANGE"	2668		"FC Trollhättan"					""
 "CLUB_3LETTER_NAME_CHANGE"	2668		"FCT"							""
 
+"CLUB_CITY_CHANGE"		1102540		"1053"							"" # <Ale>
 "CLUB_NAME_CHANGE"		1102540		"Ahlafors IF"						""
 "CLUB_SHORT_NAME_CHANGE"	1102540		"Ahlafors IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	1102540		"AIF"							""
 
+"CLUB_CITY_CHANGE"		1103878		"1084"							"" # <Varberg>
 "CLUB_NAME_CHANGE"		1103878		"Tvååkers IF"						""
 "CLUB_SHORT_NAME_CHANGE"	1103878		"Tvååkers IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	1103878		"TIF"							""
 
+"CLUB_CITY_CHANGE"		4300347		"4300688"						"" # <Ängelholm>
 "CLUB_NAME_CHANGE"		4300347		"Ängelholms FF"						""
 "CLUB_SHORT_NAME_CHANGE"	4300347		"Ängelholms FF"						""
 "CLUB_3LETTER_NAME_CHANGE"	4300347		"ÄFF"							""
 
+"CLUB_CITY_CHANGE"		4300728		"4300730"						"" # <Vänersborg>
 "CLUB_NAME_CHANGE"		4300728		"Vänersborgs IF"					""
 "CLUB_SHORT_NAME_CHANGE"	4300728		"Vänersborgs IF"					""
 "CLUB_3LETTER_NAME_CHANGE"	4300728		"VÄN"							""
 
+"CLUB_CITY_CHANGE"		4300744		"1038"							"" # <Oskarshamn>
 "CLUB_NAME_CHANGE"		4300744		"Oskarshamns AIK"					""
 "CLUB_SHORT_NAME_CHANGE"	4300744		"Oskarshamns AIK"					""
 #"CLUB_3LETTER_NAME_CHANGE"	4300744		"OAIK"							""
 
+"CLUB_CITY_CHANGE"		6410294		"439"							"" # <Lund>
 "CLUB_NAME_CHANGE"		6410294		"Torns IF"						""
 "CLUB_SHORT_NAME_CHANGE"	6410294		"Torns IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	6410294		"TOR"							""
 
+"CLUB_CITY_CHANGE"		68017475	"416"							"" # <Helsingborg>
 "CLUB_NAME_CHANGE"		68017475	"Eskilsminne IF"					""
 "CLUB_SHORT_NAME_CHANGE"	68017475	"Eskilsminne IF"					""
 "CLUB_3LETTER_NAME_CHANGE"	68017475	"EIF"							""
 
+"CLUB_CITY_CHANGE"		93143640	"424"							"" # <Malmö>
 "CLUB_NAME_CHANGE"		93143640	"Ariana FC"						""
 "CLUB_SHORT_NAME_CHANGE"	93143640	"Ariana"						""
 "CLUB_3LETTER_NAME_CHANGE"	93143640	"ARI"							""
@@ -33951,6 +33976,7 @@
 
 # CLUB > UEFA > [SWE] SWEDEN > [8114888] Ettan Norra (2023)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1784		"956"							"" # <Boden>
 "CLUB_NAME_CHANGE"		1784		"Bodens BK FF"						""
 "CLUB_SHORT_NAME_CHANGE"	1784		"Bodens BK"						""
 "CLUB_3LETTER_NAME_CHANGE"	1784		"BBK"							""
@@ -33965,6 +33991,7 @@
 "CLUB_SHORT_NAME_CHANGE"	1823		"Piteå IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	1823		"PIF"							""
 
+"CLUB_CITY_CHANGE"		1825		"447"							"" # <Sandviken>
 "CLUB_NAME_CHANGE"		1825		"Sandvikens IF"						""
 "CLUB_SHORT_NAME_CHANGE"	1825		"Sandvikens IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	1825		"SIF"							""
@@ -33974,6 +34001,7 @@
 "CLUB_SHORT_NAME_CHANGE"	1833		"Umeå FC"						""
 "CLUB_3LETTER_NAME_CHANGE"	1833		"UME"							""
 
+"CLUB_CITY_CHANGE"		2158		"421"							"" # <Norrköping>
 "CLUB_NAME_CHANGE"		2158		"IF Sylvia"						""
 "CLUB_SHORT_NAME_CHANGE"	2158		"IF Sylvia"						""
 "CLUB_6LETTER_NAME_CHANGE"	2158		"Sylvia"						""
@@ -33984,6 +34012,7 @@
 "CLUB_SHORT_NAME_CHANGE"	2168		"IF Karlstad"						""
 "CLUB_3LETTER_NAME_CHANGE"	2168		"KAR"							""
 
+"CLUB_CITY_CHANGE"		618372		"2000105518"						"" # <Södermalm>
 "CLUB_NAME_CHANGE"		618372		"Hammarby TFF"						""
 "CLUB_SHORT_NAME_CHANGE"	618372		"Hammarby TFF"						""
 #"CLUB_3LETTER_NAME_CHANGE"	618372		"HTFF"							""
@@ -33993,6 +34022,7 @@
 "CLUB_SHORT_NAME_CHANGE"	620906		"Sollentuna FK"						""
 "CLUB_3LETTER_NAME_CHANGE"	620906		"SOL"							""
 
+"CLUB_CITY_CHANGE"		8103641		"2000003942"						"" # <Solna>
 "CLUB_NAME_CHANGE"		8103641		"Vasalunds IF"						""
 "CLUB_SHORT_NAME_CHANGE"	8103641		"Vasalunds IF"						""
 "CLUB_3LETTER_NAME_CHANGE"	8103641		"VAS"							""
@@ -34002,10 +34032,12 @@
 "CLUB_SHORT_NAME_CHANGE"	8104219		"Örebro Syrianska IF"					""
 #"CLUB_3LETTER_NAME_CHANGE"	8104219		"ÖSIF"							""
 
+"CLUB_CITY_CHANGE"		68002700	"431"							"" # <Uppsala>
 "CLUB_NAME_CHANGE"		68002700	"Dalkurd FF"						""
 "CLUB_SHORT_NAME_CHANGE"	68002700	"Dalkurd FF"						""
 "CLUB_3LETTER_NAME_CHANGE"	68002700	"DAL"							""
 
+"CLUB_CITY_CHANGE"		93052720	"403"							"" # <Södertälje>
 "CLUB_NAME_CHANGE"		93052720	"Nordic United FC"					""
 "CLUB_SHORT_NAME_CHANGE"	93052720	"Nordic United"						""
 "CLUB_3LETTER_NAME_CHANGE"	93052720	"NDU"							""
@@ -34020,6 +34052,7 @@
 "CLUB_SHORT_NAME_CHANGE"	93058662	"Täby FK"						""
 "CLUB_3LETTER_NAME_CHANGE"	93058662	"TÄB"							""
 
+"CLUB_CITY_CHANGE"		93097541	"93136281"						"" # <Stocksund>
 "CLUB_NAME_CHANGE"		93097541	"IFK Stocksund"						""
 "CLUB_SHORT_NAME_CHANGE"	93097541	"IFK Stocksund"						""
 #"CLUB_3LETTER_NAME_CHANGE"	93097541	"IFKS"							""
@@ -34164,47 +34197,58 @@
 
 # CLUB > UEFA > [TUR] TURKIYE > [463479] TFF 1. Lig (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1862		"130307"						"" # <Adana>
 "CLUB_NAME_CHANGE"		1862		"Adanaspor"						""
 "CLUB_SHORT_NAME_CHANGE"	1862		"Adanaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	1862		"ADN"							""
 
+"CLUB_CITY_CHANGE"		1863		"1301226"						"" # <İzmir>
 "CLUB_NAME_CHANGE"		1863		"Altay SK"						""
 "CLUB_SHORT_NAME_CHANGE"	1863		"Altay"							""
 "CLUB_6LETTER_NAME_CHANGE"	1863		"Altay"							""
 "CLUB_3LETTER_NAME_CHANGE"	1863		"ALT"							""
 
+"CLUB_CITY_CHANGE"		1873		"1301230"						"" # <Ankara>
 "CLUB_NAME_CHANGE"		1873		"Gençlerbirliği SK"					""
 "CLUB_SHORT_NAME_CHANGE"	1873		"Gençlerbirliği"					""
 "CLUB_3LETTER_NAME_CHANGE"	1873		"GEN"							""
 
+"CLUB_CITY_CHANGE"		130289		"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		130289		"Eyüpspor"						""
 "CLUB_SHORT_NAME_CHANGE"	130289		"Eyüpspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130289		"EYP"							""
 
+"CLUB_CITY_CHANGE"		130304		"450023"						"" # <Balikesir>
 "CLUB_NAME_CHANGE"		130304		"Bandırmaspor"						""
 "CLUB_SHORT_NAME_CHANGE"	130304		"Bandırmaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130304		"BAN"							""
 
+"CLUB_CITY_CHANGE"		130338		"1301226"						"" # <İzmir>
 "CLUB_NAME_CHANGE"		130338		"Göztepe SK"						""
 "CLUB_SHORT_NAME_CHANGE"	130338		"Göztepe"						""
 "CLUB_3LETTER_NAME_CHANGE"	130338		"GZT"							""
 
+"CLUB_CITY_CHANGE"		130346		"130331"						"" # <Sakarya>
 "CLUB_NAME_CHANGE"		130346		"Sakaryaspor"						""
 "CLUB_SHORT_NAME_CHANGE"	130346		"Sakaryaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130346		"SAK"							""
 
+"CLUB_CITY_CHANGE"		130354		"130314"						"" # <Bolu>
 "CLUB_NAME_CHANGE"		130354		"Boluspor"						""
 "CLUB_SHORT_NAME_CHANGE"	130354		"Boluspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130354		"BS"							""
 
+"CLUB_CITY_CHANGE"		130367		"450207"						"" # <Giresun>
 "CLUB_NAME_CHANGE"		130367		"Giresunspor"						""
 "CLUB_SHORT_NAME_CHANGE"	130367		"Giresunspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130367		"GRS"							""
 
+"CLUB_CITY_CHANGE"		130380		"130332"						"" # <Şanliurfa>
 "CLUB_NAME_CHANGE"		130380		"Kızılkaya Tarım Şanlıurfaspor"				""
 "CLUB_SHORT_NAME_CHANGE"	130380		"Şanlıurfaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130380		"ŞRF"							""
 
+"CLUB_CITY_CHANGE"		453567		"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		453567		"Ümraniyespor"						""
 "CLUB_SHORT_NAME_CHANGE"	453567		"Ümraniyespor"						""
 "CLUB_3LETTER_NAME_CHANGE"	453567		"ÜMR"							""
@@ -34214,6 +34258,7 @@
 "CLUB_SHORT_NAME_CHANGE"	454840		"Ankara Keçiörengücü"					""
 "CLUB_3LETTER_NAME_CHANGE"	454840		"AKG"							""
 
+"CLUB_CITY_CHANGE"		70016859	"450011"						"" # <Muğla>
 "CLUB_NAME_CHANGE"		70016859	"Sipay Bodrum FK"					""
 "CLUB_SHORT_NAME_CHANGE"	70016859	"Bodrum"						""
 "CLUB_6LETTER_NAME_CHANGE"	70016859	"Bodrum"						""
@@ -34225,6 +34270,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	70042969	"Manisa"						""
 "CLUB_3LETTER_NAME_CHANGE"	70042969	"MAN"							""
 
+"CLUB_CITY_CHANGE"		70054558	"130318"						"" # <Erzurum>
 "CLUB_NAME_CHANGE"		70054558	"Erzurumspor FK"					""
 "CLUB_SHORT_NAME_CHANGE"	70054558	"Erzurumspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	70054558	"ERZ"							""
@@ -34235,6 +34281,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	70055738	"Çorum"							""
 "CLUB_3LETTER_NAME_CHANGE"	70055738	"ÇRM"							""
 
+"CLUB_CITY_CHANGE"		70078171	"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		70078171	"Tuzlaspor"						""
 "CLUB_SHORT_NAME_CHANGE"	70078171	"Tuzlaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	70078171	"TUZ"							""
@@ -34242,22 +34289,27 @@
 
 # CLUB > UEFA > [TUR] TURKIYE > [463485] TFF 2. Lig Beyaz Grup (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1867		"1301224"						"" # <Bursa>
 "CLUB_NAME_CHANGE"		1867		"Bursaspor"						""
 "CLUB_SHORT_NAME_CHANGE"	1867		"Bursaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	1867		"BRS"							""
 
+"CLUB_CITY_CHANGE"		1881		"1301235"						"" # <Van>
 "CLUB_NAME_CHANGE"		1881		"İmaj Altyapı Vanspor FK"				""
 "CLUB_SHORT_NAME_CHANGE"	1881		"Vanspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	1881		"VAN"							""
 
+"CLUB_CITY_CHANGE"		130351		"130312"						"" # <Aydin>
 "CLUB_NAME_CHANGE"		130351		"Aydın Nazilli Belediyespor"				""
 "CLUB_SHORT_NAME_CHANGE"	130351		"Nazilli Belediyespor"					""
 "CLUB_3LETTER_NAME_CHANGE"	130351		"NZL"							""
 
+"CLUB_CITY_CHANGE"		130355		"1301230"						"" # <Ankara>
 "CLUB_NAME_CHANGE"		130355		"Sincan Belediyesi Ankaraspor"				""
 "CLUB_SHORT_NAME_CHANGE"	130355		"Ankaraspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130355		"ANK"							""
 
+"CLUB_CITY_CHANGE"		450550		"450004"						"" # <Kirklareli>
 "CLUB_NAME_CHANGE"		450550		"Tuna Tarım Kırklarelispor"				""
 "CLUB_SHORT_NAME_CHANGE"	450550		"Kırklarelispor"					""
 "CLUB_3LETTER_NAME_CHANGE"	450550		"KRK"							""
@@ -34266,10 +34318,12 @@
 "CLUB_NAME_CHANGE"		454194		"Ankara Demirspor"					""
 "CLUB_SHORT_NAME_CHANGE"	454194		"Ankara Demirspor"					""
 
+"CLUB_CITY_CHANGE"		8478376		"1301226"						"" # <İzmir>
 "CLUB_NAME_CHANGE"		8478376		"Altınordu SK"						""
 "CLUB_SHORT_NAME_CHANGE"	8478376		"Altınordu"						""
 "CLUB_3LETTER_NAME_CHANGE"	8478376		"AOR"							""
 
+"CLUB_CITY_CHANGE"		70002930	"1301224"						"" # <Bursa>
 "CLUB_NAME_CHANGE"		70002930	"Karacabey Belediyespor"				""
 "CLUB_SHORT_NAME_CHANGE"	70002930	"Karacabey Belediyespor"				""
 "CLUB_3LETTER_NAME_CHANGE"	70002930	"KCB"							""
@@ -34279,6 +34333,7 @@
 "CLUB_SHORT_NAME_CHANGE"	70042997	"Yeni Mersin İdmanyurdu"				""
 "CLUB_3LETTER_NAME_CHANGE"	70042997	"YMİ"							""
 
+"CLUB_CITY_CHANGE"		70061794	"130315"						"" # <Diyarbakir>
 "CLUB_NAME_CHANGE"		70061794	"Diyarbekirspor"					""
 "CLUB_SHORT_NAME_CHANGE"	70061794	"Diyarbekirspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70061794	"DYB"							""
@@ -34293,18 +34348,22 @@
 "CLUB_SHORT_NAME_CHANGE"	70061827	"Zonguldak Kömürspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70061827	"ZNK"							""
 
+"CLUB_CITY_CHANGE"		70078177	"1301226"						"" # <İzmir>
 "CLUB_NAME_CHANGE"		70078177	"Bucaspor 1928"						""
 "CLUB_SHORT_NAME_CHANGE"	70078177	"Bucaspor 1928"						""
 "CLUB_3LETTER_NAME_CHANGE"	70078177	"BUC"							""
 
+"CLUB_CITY_CHANGE"		70078650	"8475233"						"" # <Kirşehir>
 "CLUB_NAME_CHANGE"		70078650	"Kırşehir Futbol SK"					""
 "CLUB_SHORT_NAME_CHANGE"	70078650	"Kırşehir FSK"						""
 "CLUB_3LETTER_NAME_CHANGE"	70078650	"KIR"							""
 
+"CLUB_CITY_CHANGE"		70080976	"465790"						"" # <Adiyaman>
 "CLUB_NAME_CHANGE"		70080976	"Adıyaman FK"						""
 "CLUB_SHORT_NAME_CHANGE"	70080976	"Adıyaman FK"						""
 "CLUB_3LETTER_NAME_CHANGE"	70080976	"ADI"							""
 
+"CLUB_CITY_CHANGE"		70080983	"452990"						"" # <Afyonkarahisar>
 "CLUB_NAME_CHANGE"		70080983	"Afjet Afyonspor"					""
 "CLUB_SHORT_NAME_CHANGE"	70080983	"Afjet Afyonspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70080983	"AFY"							""
@@ -34314,10 +34373,12 @@
 "CLUB_SHORT_NAME_CHANGE"	70081029	"Serik Belediyespor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70081029	"SRK"							""
 
+"CLUB_CITY_CHANGE"		70081334	"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		70081334	"Beyoğlu Yeni Çarşı SF"					""
 "CLUB_SHORT_NAME_CHANGE"	70081334	"Beyoğlu Yeni Çarşı"					""
 "CLUB_3LETTER_NAME_CHANGE"	70081334	"BYÇ"							""
 
+"CLUB_CITY_CHANGE"		70095984	"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		70095984	"Esenler Erokspor"					""
 "CLUB_SHORT_NAME_CHANGE"	70095984	"Esenler Erokspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70095984	"ERK"							""
@@ -34325,38 +34386,47 @@
 
 # CLUB > UEFA > [TUR] TURKIYE > [463481] TFF 2. Lig (23/24)
 #==============================================================================
+"CLUB_CITY_CHANGE"		1868		"1301227"						"" # <Denizli>
 "CLUB_NAME_CHANGE"		1868		"Denizlispor"						""
 "CLUB_SHORT_NAME_CHANGE"	1868		"Denizlispor"						""
 "CLUB_3LETTER_NAME_CHANGE"	1868		"DNZ"							""
 
+"CLUB_CITY_CHANGE"		130340		"130316"						"" # <Düzce>
 "CLUB_NAME_CHANGE"		130340		"Düzcespor"						""
 "CLUB_SHORT_NAME_CHANGE"	130340		"Düzcespor"						""
 "CLUB_3LETTER_NAME_CHANGE"	130340		"DZC"							""
 
+"CLUB_CITY_CHANGE"		453682		"1301224"						"" # <Bursa>
 "CLUB_NAME_CHANGE"		453682		"İnegölspor"						""
 "CLUB_SHORT_NAME_CHANGE"	453682		"İnegölspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	453682		"İNG"							""
 
+"CLUB_CITY_CHANGE"		455675		"130315"						"" # <Diyarbakir>
 "CLUB_NAME_CHANGE"		455675		"Amed SFK"						""
 "CLUB_SHORT_NAME_CHANGE"	455675		"Amed SFK"						""
 "CLUB_3LETTER_NAME_CHANGE"	455675		"ASK"							""
 
+"CLUB_CITY_CHANGE"		457419		"450011"						"" # <Muğla>
 "CLUB_NAME_CHANGE"		457419		"Fethiyespor"						""
 "CLUB_SHORT_NAME_CHANGE"	457419		"Fethiyespor"						""
 "CLUB_3LETTER_NAME_CHANGE"	457419		"FTY"							""
 
+"CLUB_CITY_CHANGE"		459181		"1301230"						"" # <Ankara>
 "CLUB_NAME_CHANGE"		459181		"Etimesgut Belediyespor"				""
 "CLUB_SHORT_NAME_CHANGE"	459181		"Etimesgut Belediyespor"				""
 "CLUB_3LETTER_NAME_CHANGE"	459181		"ETM"							""
 
+"CLUB_CITY_CHANGE"		1301254		"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		1301254		"SMS Grup Sarıyer SK"					""
 "CLUB_SHORT_NAME_CHANGE"	1301254		"Sarıyer SK"						""
 "CLUB_3LETTER_NAME_CHANGE"	1301254		"SAR"							""
 
+"CLUB_CITY_CHANGE"		70028001	"1301226"						"" # <İzmir>
 "CLUB_NAME_CHANGE"		70028001	"Menemenspor"						""
 "CLUB_SHORT_NAME_CHANGE"	70028001	"Menemenspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	70028001	"MNM"							""
 
+"CLUB_CITY_CHANGE"		70043025	"462450"						"" # <Uşak>
 "CLUB_NAME_CHANGE"		70043025	"Uşakspor"						""
 "CLUB_SHORT_NAME_CHANGE"	70043025	"Uşakspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	70043025	"UŞK"							""
@@ -34366,14 +34436,17 @@
 "CLUB_SHORT_NAME_CHANGE"	70054564	"Isparta 32"						""
 "CLUB_3LETTER_NAME_CHANGE"	70054564	"ISP"							""
 
+"CLUB_CITY_CHANGE"		70054576	"130320"						"" # <Hatay>
 "CLUB_NAME_CHANGE"		70054576	"İskenderunspor"					""
 "CLUB_SHORT_NAME_CHANGE"	70054576	"İskenderunspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70054576	"İSK"							""
 
+"CLUB_CITY_CHANGE"		70061796	"458805"						"" # <Erzincan>
 "CLUB_NAME_CHANGE"		70061796	"Anagold 24 Erzincanspor"				""
 "CLUB_SHORT_NAME_CHANGE"	70061796	"24 Erzincanspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70061796	"EZC"							""
 
+"CLUB_CITY_CHANGE"		70061804	"8475242"						"" # <Kastamonu>
 "CLUB_NAME_CHANGE"		70061804	"GMG Kastamonuspor 1966 SK"				""
 "CLUB_SHORT_NAME_CHANGE"	70061804	"Kastamonuspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	70061804	"KST"							""
@@ -34383,22 +34456,27 @@
 "CLUB_SHORT_NAME_CHANGE"	70078180	"Karaman"						""
 "CLUB_3LETTER_NAME_CHANGE"	70078180	"KRM"							""
 
+"CLUB_CITY_CHANGE"		70080498	"130323"						"" # <Kocaeli>
 "CLUB_NAME_CHANGE"		70080498	"Belediye Derincespor"					""
 "CLUB_SHORT_NAME_CHANGE"	70080498	"Belediye Derincespor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70080498	"DRN"							""
 
+"CLUB_CITY_CHANGE"		70080997	"8475748"						"" # <Aksaray>
 "CLUB_NAME_CHANGE"		70080997	"Motolüx 68 Aksarayspor"				""
 "CLUB_SHORT_NAME_CHANGE"	70080997	"68 Aksarayspor"					""
 "CLUB_3LETTER_NAME_CHANGE"	70080997	"AKS"							""
 
+"CLUB_CITY_CHANGE"		70081336	"1301222"						"" # <İstanbul>
 "CLUB_NAME_CHANGE"		70081336	"Arkent Arnavutköy Belediyespor GSK"			""
 "CLUB_SHORT_NAME_CHANGE"	70081336	"Arnavutköy Belediyespor"				""
 "CLUB_3LETTER_NAME_CHANGE"	70081336	"ARN"							""
 
+"CLUB_CITY_CHANGE"		70081535	"130326"						"" # <Manisa>
 "CLUB_NAME_CHANGE"		70081535	"Somaspor"						""
 "CLUB_SHORT_NAME_CHANGE"	70081535	"Somaspor"						""
 "CLUB_3LETTER_NAME_CHANGE"	70081535	"SMA"							""
 
+"CLUB_CITY_CHANGE"		70108557	"462444"						"" # <Iğdir>
 "CLUB_NAME_CHANGE"		70108557	"Alagöz Holding Iğdır FK"				""
 "CLUB_SHORT_NAME_CHANGE"	70108557	"Iğdır FK"						""
 "CLUB_6LETTER_NAME_CHANGE"	70108557	"Iğdır"							""
@@ -34654,6 +34732,7 @@
 
 # CLUB > UEFA > [UKR] UKRAINE > [5314302] Ukrainian First League (23/24)
 #================================================================================
+"CLUB_CITY_CHANGE"		1888		"1301269"						"" # <Kremenchuk>
 "CLUB_NAME_CHANGE"		1888		"FC Kremin Kremenchuk"					""
 "CLUB_SHORT_NAME_CHANGE"	1888		"Kremin Kremenchuk"					""
 "CLUB_6LETTER_NAME_CHANGE"	1888		"Kremin"						""
@@ -34662,9 +34741,11 @@
 "CLUB_NAME_CHANGE"		130868		"FC Metalist Kharkiv"					""
 "CLUB_SHORT_NAME_CHANGE"	130868		"Metalist Kharkiv"					""
 
+"CLUB_CITY_CHANGE"		484458		"5315073"						"" # <Chernivtsi>
 "CLUB_NAME_CHANGE"		484458		"FC Bukovyna Chernivtsi"				""
 "CLUB_SHORT_NAME_CHANGE"	484458		"Bukovyna Chernivtsi"					""
 
+"CLUB_CITY_CHANGE"		485831		"5315081"						"" # <Horishni Plavni>
 "CLUB_NAME_CHANGE"		485831		"FC Hirnyk-Sport Horishni Plavni"			""
 "CLUB_SHORT_NAME_CHANGE"	485831		"Hirnyk-Sport"						""
 "CLUB_6LETTER_NAME_CHANGE"	485831		"Hirnyk"						""
@@ -34673,10 +34754,12 @@
 "CLUB_NAME_CHANGE"		5316335		"MFC Prykarpattia Ivano-Frankivsk"			""
 "CLUB_SHORT_NAME_CHANGE"	5316335		"Prykarpattia"						""
 
+"CLUB_CITY_CHANGE"		71016304	"71016048"						"" # <Vyshhorod>
 "CLUB_NAME_CHANGE"		71016304	"FC Dinaz Vyshhorod"					""
 "CLUB_SHORT_NAME_CHANGE"	71016304	"Dinaz Vyshhorod"					""
 "CLUB_6LETTER_NAME_CHANGE"	71016304	"Dinaz"							""
 
+"CLUB_CITY_CHANGE"		71017165	"5315613"						"" # <Kamianets-Podilskyi>
 "CLUB_NAME_CHANGE"		71017165	"FC Epicenter Kamianets-Podilskyi"			""
 "CLUB_SHORT_NAME_CHANGE"	71017165	"Epicenter KP"						""
 
@@ -34684,13 +34767,16 @@
 "CLUB_NAME_CHANGE"		71026832	"FC Podillia Khmelnytskyi"				""
 "CLUB_SHORT_NAME_CHANGE"	71026832	"Podillia Khmelnytskyi"					""
 
+"CLUB_CITY_CHANGE"		71046355	"71027919"						"" # <Buzova>
 "CLUB_NAME_CHANGE"		71046355	"FC Nyva Buzova"					""
 "CLUB_SHORT_NAME_CHANGE"	71046355	"Nyva Buzova"						""
 
+"CLUB_CITY_CHANGE"		71050719	"71017327"						"" # <Khust>
 "CLUB_NAME_CHANGE"		71050719	"FC Khust"						""
 "CLUB_SHORT_NAME_CHANGE"	71050719	"Khust"							""
 "CLUB_6LETTER_NAME_CHANGE"	71050719	"Khust"							""
 
+"CLUB_CITY_CHANGE"		71076802	"71089529"						"" # <Petrove, Oleksandriia raion>
 "CLUB_NAME_CHANGE"		71076802	"FC Inhulets Petrove"					""
 "CLUB_SHORT_NAME_CHANGE"	71076802	"Inhulets Petrove"					""
 
@@ -34698,9 +34784,11 @@
 "CLUB_NAME_CHANGE"		71100095	"PFC Nyva Ternopil"					""
 "CLUB_SHORT_NAME_CHANGE"	71100095	"Nyva Ternopil"						""
 
+"CLUB_CITY_CHANGE"		71100478	"1301272"						"" # <Zaporizhzhia>
 "CLUB_NAME_CHANGE"		71100478	"MFC Metalurh Zaporizhya"				""
 "CLUB_SHORT_NAME_CHANGE"	71100478	"Metalurh Zaporizhya"					""
 
+"CLUB_CITY_CHANGE"		2000032127	"1301270"						"" # <Poltava>
 "CLUB_NAME_CHANGE"		2000032127	"SC Poltava"						""
 "CLUB_SHORT_NAME_CHANGE"	2000032127	"Poltava"						""
 

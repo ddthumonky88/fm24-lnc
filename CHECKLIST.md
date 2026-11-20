@@ -337,15 +337,15 @@
 | [SUI] SWITZERLAND | [137890] Swiss Challenge League (23/24) | 10/10 (100.0%) | — |
 | [SUI] SWITZERLAND | [98027828] Swiss Promotion League (23/24) | 10/10 (100.0%) | — |
 | [SWE] SWEDEN | [50] Allsvenskan (2023) | 16/16 (100.0%) | — |
-| [SWE] SWEDEN | [52] Superettan (2023) | 6/16 (37.5%) | Gefle IF, Helsingborgs IF, IK Brage, Trelleborgs FF, Örgryte IS, Östers IF, GAIS, Utsiktens BK, Östersunds FK, J-Södra |
-| [SWE] SWEDEN | [8114887] Ettan Södra (2023) | 1/16 (6.2%) | Falkenbergs FF, IK Oddevold, Åtvidabergs FF, Lunds BK, Norrby IF, Ljungskile SK, BK Olympic, Ahlafors IF, Tvååkers IF, Ängelholms FF, Vänersborgs IF, Oskarshamns AIK, Torns IF, Eskilsminne IF, Ariana |
-| [SWE] SWEDEN | [8114888] Ettan Norra (2023) | 8/16 (50.0%) | Bodens BK, Sandvikens IF, IF Sylvia, Hammarby TFF, Vasalunds IF, Dalkurd FF, Nordic United, IFK Stocksund |
+| [SWE] SWEDEN | [52] Superettan (2023) | 16/16 (100.0%) | — |
+| [SWE] SWEDEN | [8114887] Ettan Södra (2023) | 16/16 (100.0%) | — |
+| [SWE] SWEDEN | [8114888] Ettan Norra (2023) | 16/16 (100.0%) | — |
 | [TUR] TURKIYE | [130286] Trendyol Süper Lig (23/24) | 20/20 (100.0%) | — |
-| [TUR] TURKIYE | [463479] TFF 1. Lig (23/24) | 3/17 (17.6%) | Adanaspor, Altay, Gençlerbirliği, Eyüpspor, Bandırmaspor, Göztepe, Sakaryaspor, Boluspor, Giresunspor, Şanlıurfaspor, Ümraniyespor, Bodrum, Erzurumspor, Tuzlaspor |
-| [TUR] TURKIYE | [463485] TFF 2. Lig Beyaz Grup (23/24) | 5/19 (26.3%) | Bursaspor, Vanspor, Nazilli Belediyespor, Ankaraspor, Kırklarelispor, Altınordu, Karacabey Belediyespor, Diyarbekirspor, Bucaspor 1928, Kırşehir FSK, Adıyaman FK, Afjet Afyonspor, Beyoğlu Yeni Çarşı, Esenler Erokspor |
-| [TUR] TURKIYE | [463481] TFF 2. Lig (23/24) | 2/19 (10.5%) | Denizlispor, Düzcespor, İnegölspor, Amed SFK, Fethiyespor, Etimesgut Belediyespor, Sarıyer SK, Menemenspor, Uşakspor, İskenderunspor, 24 Erzincanspor, Kastamonuspor, Belediye Derincespor, 68 Aksarayspor, Arnavutköy Belediyespor, Somaspor, Iğdır FK |
+| [TUR] TURKIYE | [463479] TFF 1. Lig (23/24) | 17/17 (100.0%) | — |
+| [TUR] TURKIYE | [463485] TFF 2. Lig Beyaz Grup (23/24) | 19/19 (100.0%) | — |
+| [TUR] TURKIYE | [463481] TFF 2. Lig (23/24) | 19/19 (100.0%) | — |
 | [UKR] UKRAINE | [5314301] Ukrainian Premier League (23/24) | 16/16 (100.0%) | — |
-| [UKR] UKRAINE | [5314302] Ukrainian First League (23/24) | 6/16 (37.5%) | Kremin Kremenchuk, Bukovyna Chernivtsi, Hirnyk-Sport, Dinaz Vyshhorod, Epicenter KP, Nyva Buzova, Khust, Inhulets Petrove, Metalurh Zaporizhya, Poltava |
+| [UKR] UKRAINE | [5314302] Ukrainian First League (23/24) | 16/16 (100.0%) | — |
 | [WAL] WALES | [130672] Cymru Premier (23/24) | 12/12 (100.0%) | — |
 | — (OFC cấp châu lục) | [2000340113] OFC Pro League | 5/5 (100.0%) | — |
 

@@ -21794,6 +21794,7 @@
 
 # CITY > [SWE] SWEDEN > [SWE-E] Östergötlands län
 #====================================================================================
+"CITY_NAME_CHANGE"		404		"Åtvidaberg"						""
 "CITY_NAME_CHANGE"		421		"Norrköping"						""
 "CITY_NAME_CHANGE"		441		"Motala"						""
 "CITY_NAME_CHANGE"		1015		"Linköping"						""
@@ -21840,6 +21841,7 @@
 "CITY_NAME_CHANGE"		93136261	"Lidingö"						""
 "CITY_NAME_CHANGE"		93136274	"Täby"							""
 "CITY_NAME_CHANGE"		93136277	"Sundbyberg"						""
+"CITY_NAME_CHANGE"		93136281	"Stocksund"						""
 "CITY_NAME_CHANGE"		93136282	"Danderyd"						""
 "CITY_NAME_CHANGE"		93141668	"Värmdö"						""
 "CITY_NAME_CHANGE"		93141669	"Ekerö"							""
@@ -21919,7 +21921,9 @@
 "CITY_NAME_CHANGE"		4300730		"Vänersborg"						""
 "CITY_NAME_CHANGE"		8112950		"Mölndal"						""
 "CITY_NAME_CHANGE"		28088525	"Klippan (Göteborg)"					""
+"CITY_NAME_CHANGE"		93128335	"Ljungskile"						""
 "CITY_NAME_CHANGE"		2000026927	"Biskopsgården"						""
+"CITY_NAME_CHANGE"		2000027415	"Norrby"						""
 "CITY_NAME_CHANGE"		2000075065	"Partille"						""
 
 
@@ -23676,6 +23680,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-77] Chernivtsi Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		5315073		"Chernivtsi"						""
 "CITY_NAME_CHANGE"		71036049	"Seredniy Maidan, Chernivtsi raion"			""
 "CITY_NAME_CHANGE"		71045221	"Sloboda, Chernivtsi raion"				""
 "CITY_NAME_CHANGE"		71047465	"Kyseliv, Kitsmanskyi raion"				""
@@ -23781,6 +23786,7 @@
 # CITY > [UKR] UKRAINE > [UKR-68] Khmelnytskyi Oblast
 #====================================================================================
 "CITY_NAME_CHANGE"		484488		"Khmelnytskyi"						""
+"CITY_NAME_CHANGE"		5315613		"Kamianets-Podilskyi"					""
 "CITY_NAME_CHANGE"		71017333	"Chornyi Ostriv, Khmelnytskyi raion"			""
 "CITY_NAME_CHANGE"		71017345	"Horodok, Khmelnytskyi raion"				""
 "CITY_NAME_CHANGE"		71045849	"Kadivka, Khmelnytskyi raion"				""
@@ -23814,6 +23820,7 @@
 "CITY_NAME_CHANGE"		484491		"Boryspil"						""
 "CITY_NAME_CHANGE"		1301263		"Kyiv"							""
 "CITY_NAME_CHANGE"		5315078		"Bila Tserkva, Bila Tserkva raion"			""
+"CITY_NAME_CHANGE"		71016048	"Vyshhorod"						""
 "CITY_NAME_CHANGE"		71017235	"Ivankiv, Vyshhorod raion"				""
 "CITY_NAME_CHANGE"		71017271	"Morozivka, Brovary raion"				""
 "CITY_NAME_CHANGE"		71017276	"Novosilky, Vyshhorod raion"				""
@@ -23821,6 +23828,7 @@
 "CITY_NAME_CHANGE"		71017329	"Chapaiivka, Boryspil raion"				""
 "CITY_NAME_CHANGE"		71017336	"Shpytky, Kyivo-Sviatoshynskyi raion"			""
 "CITY_NAME_CHANGE"		71023905	"Vyshneve, Bucha raion"					""
+"CITY_NAME_CHANGE"		71027919	"Buzova"						""
 "CITY_NAME_CHANGE"		71027921	"Kniazhychi, Brovary raion"				""
 "CITY_NAME_CHANGE"		71035415	"Kozyn, Obukhiv raion"					""
 "CITY_NAME_CHANGE"		71035431	"Korolivka, Bucha raion"				""
@@ -23934,7 +23942,9 @@
 
 # CITY > [UKR] UKRAINE > [UKR-53] Poltava Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1301269		"Kremenchuk"						""
 "CITY_NAME_CHANGE"		1301270		"Poltava"						""
+"CITY_NAME_CHANGE"		5315081		"Horishni Plavni"					""
 "CITY_NAME_CHANGE"		71033848	"Dmytrivka, Horishni Plavni raion"			""
 "CITY_NAME_CHANGE"		71036043	"Potichok, Poltava raion"				""
 "CITY_NAME_CHANGE"		71036790	"Andriivka, Mashivskyi raion"				""
@@ -24030,6 +24040,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-21] Zakarpattia Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		71017327	"Khust"							""
 "CITY_NAME_CHANGE"		71045385	"Dyida/Didovo"						""
 "CITY_NAME_CHANGE"		71045388	"Vilkhivtsi, Tiachivskyi raion"				""
 "CITY_NAME_CHANGE"		71045391	"Bila Tserkva, Tiachiv raion"				""
@@ -24039,6 +24050,7 @@
 
 # CITY > [UKR] UKRAINE > [UKR-23] Zaporizhzhia Oblast
 #====================================================================================
+"CITY_NAME_CHANGE"		1301272		"Zaporizhzhia"						""
 "CITY_NAME_CHANGE"		71045710	"Novomykolaivka, Zaporizhzhia raion"			""
 "CITY_NAME_CHANGE"		71046918	"Vesele, Melitopol raion"				""
 "CITY_NAME_CHANGE"		71047533	"Vasylivka, Vasylivka raion"				""
