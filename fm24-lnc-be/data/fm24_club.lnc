@@ -1162,11 +1162,15 @@
 
 # CLUB > AFC > [CHN] CHINA PR > University
 #==============================================================================
+"CLUB_CITY_CHANGE"		23057396	"131207"						"" # <Taiyuan>
+"CLUB_NAME_CHANGE"		23057396	"Taiyuan University of Technology"			""
+"CLUB_SHORT_NAME_CHANGE"	23057396	"Taiyuan Univ. of Technology"				""
+"CLUB_6LETTER_NAME_CHANGE"	23057396	"TYUT"							""
+
 "CLUB_CITY_CHANGE"		23101684	"103194"						"" # <Beijing>
 "CLUB_NAME_CHANGE"		23101684	"Peking University"					""
 "CLUB_SHORT_NAME_CHANGE"	23101684	"Peking Univ."						""
 "CLUB_6LETTER_NAME_CHANGE"	23101684	"PKU"							""
-"CLUB_3LETTER_NAME_CHANGE"	23101684	"PKU"							""
 
 
 # CLUB > AFC > [CHN] CHINA PR > [OTHER]
@@ -3264,16 +3268,69 @@
 "CLUB_SHORT_NAME_CHANGE"	45122870	"Minebea Mitsumi"					""
 
 
-# CLUB > AFC > [JPN] JAPAN > University
+# CLUB > AFC > [JPN] JAPAN > [107317] Japanese University League
 #==============================================================================
 "CLUB_CITY_CHANGE"		107321		"789790"						"" # <Nishitokyo, Tokyo-to>
 "CLUB_NAME_CHANGE"		107321		"Waseda University"					""
 "CLUB_SHORT_NAME_CHANGE"	107321		"Waseda Univ."						""
 "CLUB_6LETTER_NAME_CHANGE"	107321		"Waseda"						""
 
+"CLUB_CITY_CHANGE"		107323		"788906"						"" # <Matsubara>
+"CLUB_NAME_CHANGE"		107323		"Hannan University"					""
+"CLUB_SHORT_NAME_CHANGE"	107323		"Hannan Univ."						""
+
+"CLUB_CITY_CHANGE"		775197		"789219"						"" # <Tsukuba>
+"CLUB_NAME_CHANGE"		775197		"University of Tsukuba"					""
+"CLUB_SHORT_NAME_CHANGE"	775197		"Univ. of Tsukuba"					""
+
+"CLUB_CITY_CHANGE"		783737		"45052315"						"" # <Sennan-gun>
+"CLUB_NAME_CHANGE"		783737		"Osaka University of Health & Sport Sciences"		""
+"CLUB_SHORT_NAME_CHANGE"	783737		"Osaka Univ. of HSS"					""
+#"CLUB_6LETTER_NAME_CHANGE"	783737		"Osaka UHSS"						""
+
+"CLUB_CITY_CHANGE"		45005890	"789392"						"" # <Special Wards of Tokyo>
+"CLUB_NAME_CHANGE"		45005890	"Meiji University"					""
+"CLUB_SHORT_NAME_CHANGE"	45005890	"Meiji Univ."						""
+"CLUB_6LETTER_NAME_CHANGE"	45005890	"Meiji"							""
+
+"CLUB_CITY_CHANGE"		45005978	"789392"						"" # <Special Wards of Tokyo>
+"CLUB_NAME_CHANGE"		45005978	"Toyo University"					""
+"CLUB_SHORT_NAME_CHANGE"	45005978	"Toyo Univ."						""
+
+"CLUB_CITY_CHANGE"		45006300	"107274"						"" # <Suita>
+"CLUB_NAME_CHANGE"		45006300	"Osaka Gakuin University"				""
+"CLUB_SHORT_NAME_CHANGE"	45006300	"Osaka Gakuin Univ."					""
+
+"CLUB_CITY_CHANGE"		45007239	"789392"						"" # <Special Wards of Tokyo>
+"CLUB_NAME_CHANGE"		45007239	"Nihon University"					""
+"CLUB_SHORT_NAME_CHANGE"	45007239	"Nihon Univ."						""
+"CLUB_6LETTER_NAME_CHANGE"	45007239	"Nihon"							""
+
+"CLUB_CITY_CHANGE"		45016075	"789512"						"" # <Niigata>
+"CLUB_NAME_CHANGE"		45016075	"Niigata University of Health & Welfare"		""
+"CLUB_SHORT_NAME_CHANGE"	45016075	"Niigata Univ. of H&W"					""
+
+"CLUB_CITY_CHANGE"		45020008	"107271"						"" # <Sapporo>
+"CLUB_NAME_CHANGE"		45020008	"Sapporo University"					""
+"CLUB_SHORT_NAME_CHANGE"	45020008	"Sapporo Univ."						""
+
+"CLUB_CITY_CHANGE"		45031853	"107279"						"" # <Yokohama>
+"CLUB_NAME_CHANGE"		45031853	"Nippon Sport Science University"			""
+"CLUB_SHORT_NAME_CHANGE"	45031853	"Nippon Sport Science Univ."				""
+"CLUB_6LETTER_NAME_CHANGE"	45031853	"NSSU"							""
+
+"CLUB_CITY_CHANGE"		45032169	"107279"						"" # <Yokohama>
+"CLUB_NAME_CHANGE"		45032169	"Toin University of Yokohama"				""
+"CLUB_SHORT_NAME_CHANGE"	45032169	"Toin Univ. of Yokohama"				""
+
+"CLUB_CITY_CHANGE"		45082094	"789659"						"" # <Sakado>
+"CLUB_NAME_CHANGE"		45082094	"Tokyo International University"			""
+"CLUB_SHORT_NAME_CHANGE"	45082094	"Tokyo Kokusai Univ."					""
+
 "CLUB_CITY_CHANGE"		2000296336	"789737"						"" # <Tochigi>
 "CLUB_NAME_CHANGE"		2000296336	"Hakuoh University"					""
-"CLUB_SHORT_NAME_CHANGE"	2000296336	"Hakuoh Univ."					""
+"CLUB_SHORT_NAME_CHANGE"	2000296336	"Hakuoh Univ."						""
+"CLUB_6LETTER_NAME_CHANGE"	2000296336	"Hakuoh"						""
 
 
 # CLUB > AFC > [JPN] JAPAN > [OTHER]
@@ -3997,7 +4054,7 @@
 "CLUB_SHORT_NAME_CHANGE"	66040770	"Pyeongtaek Citizen"					""
 #"CLUB_6LETTER_NAME_CHANGE"	66040770	"Pyeongtaek"						""
 
-"CLUB_CITY_CHANGE"		66043320	"2000002773"					"" # <Yeoju>
+"CLUB_CITY_CHANGE"		66043320	"2000002773"						"" # <Yeoju>
 "CLUB_NAME_CHANGE"		66043320	"Yeoju FC"						""
 "CLUB_SHORT_NAME_CHANGE"	66043320	"Yeoju"							""
 "CLUB_6LETTER_NAME_CHANGE"	66043320	"Yeoju"							""
@@ -4012,12 +4069,12 @@
 "CLUB_SHORT_NAME_CHANGE"	66046957	"Jinju Citizen"						""
 "CLUB_6LETTER_NAME_CHANGE"	66046957	"Jinju"							""
 
-"CLUB_CITY_CHANGE"		2000099724	"2000099721"					"" # <Dangjin>
+"CLUB_CITY_CHANGE"		2000099724	"2000099721"						"" # <Dangjin>
 "CLUB_NAME_CHANGE"		2000099724	"Dangjin Citizen FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000099724	"Dangjin Citizen"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000099724	"Dangjin"						""
 
-"CLUB_CITY_CHANGE"		2000116168	"2000100691"					"" # <Geoje>
+"CLUB_CITY_CHANGE"		2000116168	"2000100691"						"" # <Geoje>
 "CLUB_NAME_CHANGE"		2000116168	"Geoje Citizen FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000116168	"Geoje Citizen"						""
 "CLUB_6LETTER_NAME_CHANGE"	2000116168	"Geoje"							""
@@ -4154,7 +4211,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	66013618	"BSIP.Y"						""
 
 "AFFILIATED_CLUB_ID"		66026062	"U18-106809"						"" # [KOR] Gimcheon Sangmu
-"CLUB_CITY_CHANGE"		66026062	"2000105053"					"" # <Gimcheon>
+"CLUB_CITY_CHANGE"		66026062	"2000105053"						"" # <Gimcheon>
 "CLUB_NAME_CHANGE"		66026062	"Yongun High School"					""
 "CLUB_SHORT_NAME_CHANGE"	66026062	"Yongun H.S."						""
 "CLUB_6LETTER_NAME_CHANGE"	66026062	"GIMC.Y"						""
@@ -4171,10 +4228,17 @@
 "CLUB_CITY_CHANGE"		106811		"103206"						"" # <Seoul>
 "CLUB_NAME_CHANGE"		106811		"Yonsei University"					""
 "CLUB_SHORT_NAME_CHANGE"	106811		"Yonsei Univ."						""
+"CLUB_6LETTER_NAME_CHANGE"	106811		"Yonsei"						""
 
 "CLUB_CITY_CHANGE"		136429		"103206"						"" # <Seoul>
 "CLUB_NAME_CHANGE"		136429		"Korea University"					""
 "CLUB_SHORT_NAME_CHANGE"	136429		"Korea Univ."						""
+#"CLUB_6LETTER_NAME_CHANGE"	136429		"Korea U."						""
+
+"CLUB_CITY_CHANGE"		5701822		"103206"						"" # <Seoul>
+"CLUB_NAME_CHANGE"		5701822		"Konkuk University"					""
+"CLUB_SHORT_NAME_CHANGE"	5701822		"Konkuk Univ."						""
+"CLUB_6LETTER_NAME_CHANGE"	5701822		"Konkuk"						""
 
 
 # CLUB > AFC > [KUW] KUWAIT > [23063354] Kuwait Premier League (23/24)

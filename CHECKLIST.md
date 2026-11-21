@@ -26,7 +26,7 @@
 | [CHN] CHINA PR | [1002872] China League Two North Group (2023) | 8/8 (100.0%) | — |
 | [CHN] CHINA PR | [1002873] China League Two South Group (2023) | 8/8 (100.0%) | — |
 | [CHN] CHINA PR | [5627655] Chinese Champions League | 26/26 (100.0%) | — |
-| [CHN] CHINA PR | University | 1/1 (100.0%) | — |
+| [CHN] CHINA PR | University | 2/2 (100.0%) | — |
 | [TPE] CHINESE TAIPEI | [23397138] Taiwan Football Premier League (2023) | 8/8 (100.0%) | — |
 | [TPE] CHINESE TAIPEI | [2000070108] Taiwan Football Challenge League (2023) | 6/6 (100.0%) | — |
 | [HKG] HONG KONG | [5624449] Hong Kong Premier League (23/24) | 11/11 (100.0%) | — |
@@ -55,7 +55,7 @@
 | [JPN] JAPAN | [115424] J2 League (2023) | 22/22 (100.0%) | — |
 | [JPN] JAPAN | [791180] J3 League (2023) | 20/20 (100.0%) | — |
 | [JPN] JAPAN | [107256] Japan Football League (2023) | 15/15 (100.0%) | — |
-| [JPN] JAPAN | University | 1/2 (50.0%) | Hakuoh University |
+| [JPN] JAPAN | [107317] Japanese University League | 14/14 (100.0%) | — |
 | [JOR] JORDAN | [5635278] Jordanian Pro League (23/24) | 12/12 (100.0%) | — |
 | [JOR] JORDAN | [5635282] Jordanian First Division League (23/24) | 14/14 (100.0%) | — |
 | [PRK] KOREA DPR | [23100525] DPRK Premier Football League | 12/12 (100.0%) | — |
@@ -65,7 +65,7 @@
 | [KOR] KOREA REPUBLIC | [66040773] K4 League (2023) | 18/18 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039929] K.League Junior Group A | 6/6 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039930] K.League Junior Group B | 10/10 (100.0%) | — |
-| [KOR] KOREA REPUBLIC | University | 2/2 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | University | 3/3 (100.0%) | — |
 | [KUW] KUWAIT | [23063354] Kuwait Premier League (23/24) | 10/10 (100.0%) | — |
 | [KUW] KUWAIT | [23078275] Kuwaiti Division One (23/24) | 6/6 (100.0%) | — |
 | [KGZ] KYRGYZSTAN | [59005735] Kyrgyz Premier League (2023) | 11/11 (100.0%) | — |

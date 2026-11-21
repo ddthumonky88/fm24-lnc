@@ -8189,6 +8189,10 @@
 
 # COMP > AFC > [JPN] JAPAN > Other Competitions
 #====================================================================================
+"COMP_LONG_NAME_CHANGE" 	107317 		"Japanese University League" 				""
+"COMP_SHORT_NAME_CHANGE" 	107317 		"Japanese University League" 				""
+"COMP_3LETTER_NAME_CHANGE" 	107317 		"JUL"			 				""
+
 "COMP_LONG_NAME_CHANGE" 	45031863	"Prime Minister's Cup"					""
 "COMP_SHORT_NAME_CHANGE" 	45031863	"Prime Minister's Cup" 					""
 
