@@ -3285,8 +3285,8 @@
 
 "CLUB_CITY_CHANGE"		783737		"45052315"						"" # <Sennan-gun>
 "CLUB_NAME_CHANGE"		783737		"Osaka University of Health & Sport Sciences"		""
-"CLUB_SHORT_NAME_CHANGE"	783737		"Osaka Univ. of HSS"					""
-#"CLUB_6LETTER_NAME_CHANGE"	783737		"Osaka UHSS"						""
+"CLUB_SHORT_NAME_CHANGE"	783737		"Osaka Univ. of Health & S.S."				""
+"CLUB_6LETTER_NAME_CHANGE"	783737		"OUHS"							""
 
 "CLUB_CITY_CHANGE"		45005890	"789392"						"" # <Special Wards of Tokyo>
 "CLUB_NAME_CHANGE"		45005890	"Meiji University"					""
@@ -3296,6 +3296,7 @@
 "CLUB_CITY_CHANGE"		45005978	"789392"						"" # <Special Wards of Tokyo>
 "CLUB_NAME_CHANGE"		45005978	"Toyo University"					""
 "CLUB_SHORT_NAME_CHANGE"	45005978	"Toyo Univ."						""
+"CLUB_6LETTER_NAME_CHANGE"	45005978	"Toyo"							""
 
 "CLUB_CITY_CHANGE"		45006300	"107274"						"" # <Suita>
 "CLUB_NAME_CHANGE"		45006300	"Osaka Gakuin University"				""
@@ -3308,7 +3309,8 @@
 
 "CLUB_CITY_CHANGE"		45016075	"789512"						"" # <Niigata>
 "CLUB_NAME_CHANGE"		45016075	"Niigata University of Health & Welfare"		""
-"CLUB_SHORT_NAME_CHANGE"	45016075	"Niigata Univ. of H&W"					""
+"CLUB_SHORT_NAME_CHANGE"	45016075	"Niigata Univ. of Health & Welfare"			""
+"CLUB_6LETTER_NAME_CHANGE"	45016075	"NUHW"							""
 
 "CLUB_CITY_CHANGE"		45020008	"107271"						"" # <Sapporo>
 "CLUB_NAME_CHANGE"		45020008	"Sapporo University"					""
@@ -3322,10 +3324,14 @@
 "CLUB_CITY_CHANGE"		45032169	"107279"						"" # <Yokohama>
 "CLUB_NAME_CHANGE"		45032169	"Toin University of Yokohama"				""
 "CLUB_SHORT_NAME_CHANGE"	45032169	"Toin Univ. of Yokohama"				""
+"CLUB_6LETTER_NAME_CHANGE"	45032169	"TUY"							""
+"CLUB_3LETTER_NAME_CHANGE"	45032169	"TUY"							""
 
 "CLUB_CITY_CHANGE"		45082094	"789659"						"" # <Sakado>
 "CLUB_NAME_CHANGE"		45082094	"Tokyo International University"			""
-"CLUB_SHORT_NAME_CHANGE"	45082094	"Tokyo Kokusai Univ."					""
+"CLUB_SHORT_NAME_CHANGE"	45082094	"Tokyo International Univ."				""
+"CLUB_6LETTER_NAME_CHANGE"	45082094	"TIU"							""
+"CLUB_3LETTER_NAME_CHANGE"	45082094	"TIU"							""
 
 "CLUB_CITY_CHANGE"		2000296336	"789737"						"" # <Tochigi>
 "CLUB_NAME_CHANGE"		2000296336	"Hakuoh University"					""
