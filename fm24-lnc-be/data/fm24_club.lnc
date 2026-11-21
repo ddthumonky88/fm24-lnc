@@ -1167,10 +1167,17 @@
 "CLUB_SHORT_NAME_CHANGE"	23057396	"Taiyuan Univ. of Technology"				""
 "CLUB_6LETTER_NAME_CHANGE"	23057396	"TYUT"							""
 
+"CLUB_CITY_CHANGE"		23072933	"131231"						"" # <Hangzhou>
+"CLUB_NAME_CHANGE"		23072933	"Zhejiang University"					""
+"CLUB_SHORT_NAME_CHANGE"	23072933	"Zhejiang Univ."					""
+"CLUB_6LETTER_NAME_CHANGE"	23072933	"ZJU"							""
+"CLUB_3LETTER_NAME_CHANGE"	23072933	"ZJU"							""
+
 "CLUB_CITY_CHANGE"		23101684	"103194"						"" # <Beijing>
 "CLUB_NAME_CHANGE"		23101684	"Peking University"					""
 "CLUB_SHORT_NAME_CHANGE"	23101684	"Peking Univ."						""
 "CLUB_6LETTER_NAME_CHANGE"	23101684	"PKU"							""
+"CLUB_3LETTER_NAME_CHANGE"	23101684	"PKU"							""
 
 
 # CLUB > AFC > [CHN] CHINA PR > [OTHER]
@@ -1387,6 +1394,47 @@
 #"CLUB_SHORT_NAME_CHANGE"	n-2000339409	"Taichung Rock"						""
 #"CLUB_6LETTER_NAME_CHANGE"	n-2000339409	"TCRFC"							""
 #"CLUB_3LETTER_NAME_CHANGE"	n-2000339409	"TCR"							""
+
+
+# CLUB > AFC > [TPE] CHINESE TAIPEI > University
+#==============================================================================
+"CLUB_CITY_CHANGE"		5627165		"n-2000341179"						"" # <New Taipei>
+"CLUB_NAME_CHANGE"		5627165		"Fu Jen Catholic University"				""
+"CLUB_SHORT_NAME_CHANGE"	5627165		"Fu Jen Catholic Univ."					""
+"CLUB_6LETTER_NAME_CHANGE"	5627165		"FJCU"							""
+
+"CLUB_CITY_CHANGE"		23001949	"23026781"						"" # <Kaohsiung>
+"CLUB_NAME_CHANGE"		23001949	"I-Shou University"					""
+"CLUB_SHORT_NAME_CHANGE"	23001949	"I-Shou Univ."						""
+
+"CLUB_CITY_CHANGE"		23001951	"103225"						"" # <Taipei>
+"CLUB_NAME_CHANGE"		23001951	"National Chengchi University"				""
+"CLUB_SHORT_NAME_CHANGE"	23001951	"National Chengchi Univ."				""
+"CLUB_6LETTER_NAME_CHANGE"	23001951	"NCCU"							""
+
+"CLUB_CITY_CHANGE"		23001966	"23026774"						"" # <Pingtung>
+"CLUB_NAME_CHANGE"		23001966	"National Pingtung Univ. of Science & Technology"	""
+"CLUB_SHORT_NAME_CHANGE"	23001966	"Pingtung Univ. of Science & Technology"		""
+"CLUB_6LETTER_NAME_CHANGE"	23001966	"NPUST"							""
+
+"CLUB_CITY_CHANGE"		23001967	"103225"						"" # <Taipei>
+"CLUB_NAME_CHANGE"		23001967	"National Taipei University of Technology"		""
+"CLUB_SHORT_NAME_CHANGE"	23001967	"Taipei Univ. of Technology"				""
+
+"CLUB_CITY_CHANGE"		23163226	"23026774"						"" # <Pingtung>
+"CLUB_NAME_CHANGE"		23163226	"National Pingtung University of Education"		""
+"CLUB_SHORT_NAME_CHANGE"	23163226	"Pingtung Univ. of Education"				""
+"CLUB_6LETTER_NAME_CHANGE"	23163226	"NPUE"							""
+
+"CLUB_CITY_CHANGE"		23163227	"5627259"						"" # <Tainan>
+"CLUB_NAME_CHANGE"		23163227	"Chia Nan University of Pharmacy & Science"		""
+"CLUB_SHORT_NAME_CHANGE"	23163227	"Chia Nan Univ. of Pharmacy & Science"			""
+"CLUB_6LETTER_NAME_CHANGE"	23163227	"CNUPS"							""
+
+"CLUB_CITY_CHANGE"		23176609	"5627259"						"" # <Tainan>
+"CLUB_NAME_CHANGE"		23176609	"Chang Jung Christian University"			""
+"CLUB_SHORT_NAME_CHANGE"	23176609	"Chang Jung Christian Univ."				""
+"CLUB_6LETTER_NAME_CHANGE"	23176609	"CJCU"							""
 
 
 # CLUB > AFC > [HKG] HONG KONG > [5624449] Hong Kong Premier League (23/24)
@@ -4229,7 +4277,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	66029616	"POHA.Y"						""
 
 
-# CLUB > AFC > [KOR] KOREA REPUBLIC > University
+# CLUB > AFC > [KOR] KOREA REPUBLIC > [136412] U-League
 #==============================================================================
 "CLUB_CITY_CHANGE"		106811		"103206"						"" # <Seoul>
 "CLUB_NAME_CHANGE"		106811		"Yonsei University"					""
@@ -4241,10 +4289,42 @@
 "CLUB_SHORT_NAME_CHANGE"	136429		"Korea Univ."						""
 #"CLUB_6LETTER_NAME_CHANGE"	136429		"Korea U."						""
 
+"CLUB_CITY_CHANGE"		136432		"103206"						"" # <Seoul>
+"CLUB_NAME_CHANGE"		136432		"Sungkyunkwan University"				""
+"CLUB_SHORT_NAME_CHANGE"	136432		"Sungkyunkwan Univ."					""
+"CLUB_6LETTER_NAME_CHANGE"	136432		"SKKU"							""
+#"CLUB_3LETTER_NAME_CHANGE"	136432		"SKKU"							""
+
+"CLUB_CITY_CHANGE"		5700885		"103206"						"" # <Seoul>
+"CLUB_NAME_CHANGE"		5700885		"Chungang University"					""
+"CLUB_SHORT_NAME_CHANGE"	5700885		"Chungang Univ."					""
+"CLUB_6LETTER_NAME_CHANGE"	5700885		"CAU"							""
+"CLUB_3LETTER_NAME_CHANGE"	5700885		"CAU"							""
+
+"CLUB_CITY_CHANGE"		5700886		"134625"						"" # <Ulsan>
+"CLUB_NAME_CHANGE"		5700886		"University of Ulsan"					""
+"CLUB_SHORT_NAME_CHANGE"	5700886		"Univ. of Ulsan"					""
+"CLUB_6LETTER_NAME_CHANGE"	5700886		"UOU"							""
+"CLUB_3LETTER_NAME_CHANGE"	5700886		"UOU"							""
+
+"CLUB_CITY_CHANGE"		5700892		"5704354"						"" # <Yongin>
+"CLUB_NAME_CHANGE"		5700892		"Yongin University"					""
+"CLUB_SHORT_NAME_CHANGE"	5700892		"Yongin Univ."						""
+
+"CLUB_CITY_CHANGE"		5700894		"103206"						"" # <Seoul>
+"CLUB_NAME_CHANGE"		5700894		"Seoul National University"				""
+"CLUB_SHORT_NAME_CHANGE"	5700894		"Seoul National Univ."					""
+"CLUB_6LETTER_NAME_CHANGE"	5700894		"SNU"							""
+"CLUB_3LETTER_NAME_CHANGE"	5700894		"SNU"							""
+
 "CLUB_CITY_CHANGE"		5701822		"103206"						"" # <Seoul>
 "CLUB_NAME_CHANGE"		5701822		"Konkuk University"					""
 "CLUB_SHORT_NAME_CHANGE"	5701822		"Konkuk Univ."						""
 "CLUB_6LETTER_NAME_CHANGE"	5701822		"Konkuk"						""
+
+"CLUB_CITY_CHANGE"		5702940		"134624"						"" # <Daejeon>
+"CLUB_NAME_CHANGE"		5702940		"Hannam University"					""
+"CLUB_SHORT_NAME_CHANGE"	5702940		"Hannam Univ."						""
 
 
 # CLUB > AFC > [KUW] KUWAIT > [23063354] Kuwait Premier League (23/24)

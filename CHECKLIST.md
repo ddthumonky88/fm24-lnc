@@ -26,9 +26,10 @@
 | [CHN] CHINA PR | [1002872] China League Two North Group (2023) | 8/8 (100.0%) | — |
 | [CHN] CHINA PR | [1002873] China League Two South Group (2023) | 8/8 (100.0%) | — |
 | [CHN] CHINA PR | [5627655] Chinese Champions League | 26/26 (100.0%) | — |
-| [CHN] CHINA PR | University | 2/2 (100.0%) | — |
+| [CHN] CHINA PR | University | 3/3 (100.0%) | — |
 | [TPE] CHINESE TAIPEI | [23397138] Taiwan Football Premier League (2023) | 8/8 (100.0%) | — |
 | [TPE] CHINESE TAIPEI | [2000070108] Taiwan Football Challenge League (2023) | 6/6 (100.0%) | — |
+| [TPE] CHINESE TAIPEI | University | 8/8 (100.0%) | — |
 | [HKG] HONG KONG | [5624449] Hong Kong Premier League (23/24) | 11/11 (100.0%) | — |
 | [HKG] HONG KONG | [5624450] Hong Kong First Division (23/24) | 12/12 (100.0%) | — |
 | [HKG] HONG KONG | [7400579] Hong Kong Second Division (23/24) | 2/2 (100.0%) | — |
@@ -65,7 +66,7 @@
 | [KOR] KOREA REPUBLIC | [66040773] K4 League (2023) | 18/18 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039929] K.League Junior Group A | 6/6 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039930] K.League Junior Group B | 10/10 (100.0%) | — |
-| [KOR] KOREA REPUBLIC | University | 3/3 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | [136412] U-League | 9/9 (100.0%) | — |
 | [KUW] KUWAIT | [23063354] Kuwait Premier League (23/24) | 10/10 (100.0%) | — |
 | [KUW] KUWAIT | [23078275] Kuwaiti Division One (23/24) | 6/6 (100.0%) | — |
 | [KGZ] KYRGYZSTAN | [59005735] Kyrgyz Premier League (2023) | 11/11 (100.0%) | — |

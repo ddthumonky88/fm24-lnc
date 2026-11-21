@@ -43,11 +43,6 @@ if not defined MAVEN_CMD if exist "%USERPROFILE%\.m2\wrapper\dists" (
 )
 
 set "PATH=%JAVA_HOME%\bin;%PATH%"
-set "DB_HOST=127.0.0.1"
-set "DB_PORT=5432"
-set "DB_USERNAME=postgres"
-set "DB_PASSWORD=123456"
-set "DB_NAME=fm_lnc_db"
 set "LNC_FILES_DIR=%~dp0data"
 
 echo Starting FM24 LNC Java Backend...
