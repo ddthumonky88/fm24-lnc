@@ -26,6 +26,7 @@
 | [CHN] CHINA PR | [1002872] China League Two North Group (2023) | 8/8 (100.0%) | — |
 | [CHN] CHINA PR | [1002873] China League Two South Group (2023) | 8/8 (100.0%) | — |
 | [CHN] CHINA PR | [5627655] Chinese Champions League | 26/26 (100.0%) | — |
+| [CHN] CHINA PR | University | 1/1 (100.0%) | — |
 | [TPE] CHINESE TAIPEI | [23397138] Taiwan Football Premier League (2023) | 8/8 (100.0%) | — |
 | [TPE] CHINESE TAIPEI | [2000070108] Taiwan Football Challenge League (2023) | 6/6 (100.0%) | — |
 | [HKG] HONG KONG | [5624449] Hong Kong Premier League (23/24) | 11/11 (100.0%) | — |
@@ -54,6 +55,7 @@
 | [JPN] JAPAN | [115424] J2 League (2023) | 22/22 (100.0%) | — |
 | [JPN] JAPAN | [791180] J3 League (2023) | 20/20 (100.0%) | — |
 | [JPN] JAPAN | [107256] Japan Football League (2023) | 15/15 (100.0%) | — |
+| [JPN] JAPAN | University | 1/2 (50.0%) | Hakuoh University |
 | [JOR] JORDAN | [5635278] Jordanian Pro League (23/24) | 12/12 (100.0%) | — |
 | [JOR] JORDAN | [5635282] Jordanian First Division League (23/24) | 14/14 (100.0%) | — |
 | [PRK] KOREA DPR | [23100525] DPRK Premier Football League | 12/12 (100.0%) | — |
@@ -63,6 +65,7 @@
 | [KOR] KOREA REPUBLIC | [66040773] K4 League (2023) | 18/18 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039929] K.League Junior Group A | 6/6 (100.0%) | — |
 | [KOR] KOREA REPUBLIC | [66039930] K.League Junior Group B | 10/10 (100.0%) | — |
+| [KOR] KOREA REPUBLIC | University | 2/2 (100.0%) | — |
 | [KUW] KUWAIT | [23063354] Kuwait Premier League (23/24) | 10/10 (100.0%) | — |
 | [KUW] KUWAIT | [23078275] Kuwaiti Division One (23/24) | 6/6 (100.0%) | — |
 | [KGZ] KYRGYZSTAN | [59005735] Kyrgyz Premier League (2023) | 11/11 (100.0%) | — |
@@ -360,10 +363,10 @@
 | [CAM] CAMBODIA | 1/1 (100.0%) | — |
 | [CHN] CHINA PR | 6/6 (100.0%) | — |
 | [HKG] HONG KONG | 1/1 (100.0%) | — |
-| [IND] INDIA | 2/13 (15.4%) | Vasco SC, Salgaocar, Golden Threads, Lonestar Kashmir, Chhinga Veng, BSS Sporting, Techtro Swades, Corbett, Ambernath United Atlanta, NorthEast Utd B, Mohammedan B |
+| [IND] INDIA | 4/13 (30.8%) | Vasco SC, Salgaocar, Golden Threads, Lonestar Kashmir, Chhinga Veng, BSS Sporting, Techtro Swades, Corbett, Ambernath United Atlanta |
 | [IRN] IR IRAN | 7/7 (100.0%) | — |
-| [IRQ] IRAQ | 2/3 (66.7%) | Hawler |
-| [JPN] JAPAN | 12/62 (19.4%) | TOCHIGI CITY, Cobaltore Onagawa, Blancdieu Hirosaki, Ganju Iwate, Akita Cambiare, NewPearl HM, Kuzumaki, Saruta Kogyo, Omiya SC, Hitome Senbonzakura SUFT, Ardore Kuwabara, Merry Fukushima, Nagai Club, Oyama Club, Parafrente Yonezawa, Primeiro Fukushima, Sendai Sasuke, Aventura Kawaguchi, Atsugi Hayabusa, Identy Mirai, Tonan Maebashi, Vertfee Yaita, Antelope Shiojiri, Artista Asama, Toyama Shinjo, Azalée Iida, AS Jamineiro, Libertas Chikuma, Tokai Gakuen, Yazaki Valente, Bombonera Gifu, Gakunan FM, Nagara Club, Arterivo Wakayama, Lagend Shiga, Baleine Shimonoseki, Belugarosso Iwami, Yonago Genki, Vajra Okayama, Llamas Kochi, Lvnirosso NC, R.Velho Takamatsu, FC RSG, Nobeoka Agata, Veroskronos Tsuno, TOCHIGI CITY B, FC Gifu II, Thespa Gunma Challangers, RKU Kashiwa H.S., RKU Kashiwa H.S. B |
+| [IRQ] IRAQ | 3/3 (100.0%) | — |
+| [JPN] JAPAN | 13/62 (21.0%) | TOCHIGI CITY, Cobaltore Onagawa, Blancdieu Hirosaki, Ganju Iwate, Akita Cambiare, NewPearl HM, Kuzumaki, Saruta Kogyo, Omiya SC, Hitome Senbonzakura SUFT, Ardore Kuwabara, Merry Fukushima, Nagai Club, Oyama Club, Parafrente Yonezawa, Primeiro Fukushima, Sendai Sasuke, Aventura Kawaguchi, Atsugi Hayabusa, Identy Mirai, Tonan Maebashi, Vertfee Yaita, Antelope Shiojiri, Artista Asama, Toyama Shinjo, Azalée Iida, AS Jamineiro, Libertas Chikuma, Tokai Gakuen, Yazaki Valente, Bombonera Gifu, Gakunan FM, Nagara Club, Arterivo Wakayama, Lagend Shiga, Baleine Shimonoseki, Belugarosso Iwami, Yonago Genki, Vajra Okayama, Llamas Kochi, Lvnirosso NC, R.Velho Takamatsu, FC RSG, Nobeoka Agata, Veroskronos Tsuno, TOCHIGI CITY B, Thespa Gunma Challangers, RKU Kashiwa H.S., RKU Kashiwa H.S. B |
 | [PRK] KOREA DPR | 2/2 (100.0%) | — |
 | [KGZ] KYRGYZSTAN | 2/2 (100.0%) | — |
 | [LAO] LAOS | 5/7 (71.4%) | Trinity Laos, KPS |
@@ -380,12 +383,12 @@
 | [UAE] UAE | 3/3 (100.0%) | — |
 | [UZB] UZBEKISTAN | 4/5 (80.0%) | Jizzax-Bars |
 | [VIE] VIETNAM | 11/11 (100.0%) | — |
-| [ANG] ANGOLA | 3/6 (50.0%) | Kuando Kubango, ASK Dragão, 1º de Agosto B |
+| [ANG] ANGOLA | 4/6 (66.7%) | Kuando Kubango, ASK Dragão |
 | [CIV] CÔTE D'IVOIRE | 0/1 (0.0%) | ASEC Mimosas |
 | [COD] DR CONGO | 0/3 (0.0%) | Vita Club, TP Mazembe, Katumbi FA |
 | [MAR] MOROCCO | 3/3 (100.0%) | — |
 | [MOZ] MOZAMBIQUE | 0/1 (0.0%) | Brera Tchumene |
-| [NGA] NIGERIA | 0/5 (0.0%) | El-Kanemi Warriors, Wikki Tourists, Nasarawa Utd, Dakkada, Remo Stars U19 |
+| [NGA] NIGERIA | 1/5 (20.0%) | El-Kanemi Warriors, Wikki Tourists, Nasarawa Utd, Dakkada |
 | [SEN] SENEGAL | 1/1 (100.0%) | — |
 | [RSA] SOUTH AFRICA | 4/8 (50.0%) | Bidvest Wits, Platinum Stars, Free State Stars, Cape Umoya United |
 | [CRC] COSTA RICA | 1/2 (50.0%) | Garabito |
@@ -395,25 +398,25 @@
 | [MEX] MEXICO | 7/12 (58.3%) | Jaguares, Jaiba Brava, Lobos BUAP, Pumas Tabasco, Raya2 Expansión |
 | [NCA] NICARAGUA | 1/2 (50.0%) | Brumas de Jinotega |
 | [PAN] PANAMA | 2/2 (100.0%) | — |
-| [USA] USA | 8/37 (21.6%) | Corpus Christi, Fort Wayne, Reading United, Thunder Bay, SoCal Seahorses, Salt City, Orange County U23, Tucson, Seacoast United Phantoms, FA Euro, Motown, Weston, Ann Arbor, Kalamazoo, New Jersey Copa, PDX FC, Lionsbridge, Northern Virginia, West Chester, Pathfinder, Manhattan, Chattanooga, Toledo Villa, Oakland County, Manitoba, Valley United, Round Rock, West Virginia, Ballard |
+| [USA] USA | 9/37 (24.3%) | Corpus Christi, Fort Wayne, Reading United, Thunder Bay, SoCal Seahorses, Salt City, Tucson, Seacoast United Phantoms, FA Euro, Motown, Weston, Ann Arbor, Kalamazoo, New Jersey Copa, PDX FC, Lionsbridge, Northern Virginia, West Chester, Pathfinder, Manhattan, Chattanooga, Toledo Villa, Oakland County, Manitoba, Valley United, Round Rock, West Virginia, Ballard |
 | [ARG] ARGENTINA | 1/9 (11.1%) | Douglas Haig, Fénix (BA), UAI Urquiza, Santamarina, Boca Unidos, Crucero del Norte, Sportivo Belgrano, Guaraní Antonio Franco |
 | [BOL] BOLIVIA | 0/2 (0.0%) | San Antonio Bulo Bulo, GV San José |
 | [BRA] BRAZIL | 4/18 (22.2%) | Paraná, Portuguesa, Boa EC, Oeste, Icasa, Luverdense, Guaratinguetá, Madureira, Mogi Mirim, Salgueiro, São Caetano, Treze, Tupi, São Bento (SP) |
 | [CHI] CHILE | 1/4 (25.0%) | Dep. Melipilla, Lota Schwager, Dep. Iberia |
-| [COL] COLOMBIA | 6/15 (40.0%) | Junior FC B, Once Caldas B, Santa Fe B, Millonarios B, Atlético Nacional B, Unión Magdalena B, Tigres B, Llaneros B, Patriotas Boyacá B |
+| [COL] COLOMBIA | 15/15 (100.0%) | — |
 | [ECU] ECUADOR | 4/5 (80.0%) | Búhos ULVR |
 | [PAR] PARAGUAY | 0/3 (0.0%) | Spvo. Iteño, River Plate (A), Guaraní FBC |
 | [PER] PERU | 1/4 (25.0%) | Los Caimanes, San Simón, ADA |
 | [URU] URUGUAY | 1/9 (11.1%) | Central Español, Rocha, Villa Española, El Tanque Sisley, Paysandú, Villa Teresa, Huracán del Paso, Canadian SC |
-| [VEN] VENEZUELA | 1/6 (16.7%) | Dep. Lara, Zulia, Portuguesa B, Dynamo Puerto, Anzoátegui |
-| [NZL] NEW ZEALAND | 9/16 (56.2%) | Western Suburbs B, Miramar Rangers B, Miramar Rangers C, Twenty 11 B, Petone B, Waterside Karori B, Stop Out B |
+| [VEN] VENEZUELA | 2/6 (33.3%) | Dep. Lara, Zulia, Dynamo Puerto, Anzoátegui |
+| [NZL] NEW ZEALAND | 16/16 (100.0%) | — |
 | [PNG] PAPUA NEW GUINEA | 0/1 (0.0%) | PNG Hekari |
 | [SOL] SOLOMON ISLANDS | 0/1 (0.0%) | Real Kakamora |
 | [VAN] VANUATU | 0/1 (0.0%) | Ifira Black Bird |
 | [ALB] ALBANIA | 13/15 (86.7%) | Tepelena, Bulqiza |
 | [AND] ANDORRA | 5/10 (50.0%) | Sant Julià, Lusitanos, Ranger's, Engordany, Engordany B |
 | [ARM] ARMENIA | 7/8 (87.5%) | Ulisses |
-| [AUT] AUSTRIA | 23/26 (88.5%) | ASK Voitsberg II, SV Grödig, NWZ First Vienna |
+| [AUT] AUSTRIA | 24/26 (92.3%) | SV Grödig, NWZ First Vienna |
 | [AZE] AZERBAIJAN | 12/12 (100.0%) | — |
 | [BLR] BELARUS | 6/9 (66.7%) | Granit Mikashevichi, Gorodeya, Smolevichi |
 | [BEL] BELGIUM | 14/66 (21.2%) | Berchem, RCS Verviétois, Diegem, Eendracht Zele, Lille United, KVV Turnhout, Vigor Wuitens Hamme, Grimbergen, Lyra-Lierse, OLSA Brakel, Lebbeke, KRC Gent, Union Rochefortoise, Torhout, Wezel Sport, Harelbeke, Tempo Overijse, Merelbeke, Sparta Petegem, Woluwe-Zaventem, Wallonia Walhain, Sprimont Comblain, Gullegem, Ninove, Géants Athois, Bornem, Bocholt VV, Union La Calamine, Verbroedering Geel, RFC Meux, Rupel Boom, Oudenaarde, Londerzeel, Belisia Bilzen, Dikkelvenne, Ganshoren, Warnant, Acren-Lessines, Houtvenne, Wallonne Ciney, Hamoir, City Pirates, Voorde-Appelterre, Oostkamp, Binche, Verlaine, Mandel United, KSK Tongeren, Stockay-Warfusée, KVV Zelzate, Tubize-Braine, Stade Verviétois |
@@ -422,18 +425,17 @@
 | [CRO] CROATIA | 11/22 (50.0%) | Segesta, Mosor, Pomorac 1921, Kamen Ingrad, Slavonac SP, Moslavina, Lučko, Međimurje, Vinogradar, Bistra, Hrvatski Dragovoljac |
 | [CYP] CYPRUS | 3/5 (60.0%) | APEP Pitsilias, Oroklini Troulloi |
 | [CZE] CZECHIA | 10/15 (66.7%) | Chmel Blšany, Vitkovice, Bohemians Praha, Sparta Krč, Fotbal Fulnek |
-| [DEN] DENMARK | 38/86 (44.2%) | Frem II, B.93 II, Brabrand II, SønderjyskE II, København II, Skive IK II, Thisted II, Avarta II, HIK II, Næsby II, Hobro IK II, Fremad Amager II, MG & BK, Nykøbing II, Vejgaard II, Lyseng II, SfB-Oure II, Midtjylland II, Nordsjælland II, FA 2000 II, Vendsyssel II, Ishøj II, Skjold II, BK Marienlyst II, Karlslunde II, Viby II, Gørslev II, Frederikssund II, Hedensted II, VRI II, Nørresundby II, KB 81 II, B.1908, Brønshøj, Dalum, IK Skovbakken, Varde IF, Jammerbugt, Ringkøbing IF, Avedøre IF, BK Marienlyst, Odder IGF, Søllerød-Vedbæk, Rishøj BK, Svebølle B&I, Kjellerup IF, Sydvest 05, MG & BK U19 |
+| [DEN] DENMARK | 59/86 (68.6%) | MG & BK, Skjold II, BK Marienlyst II, Karlslunde II, Viby II, Gørslev II, Frederikssund II, Hedensted II, VRI II, Nørresundby II, KB 81 II, B.1908, Brønshøj, Dalum, IK Skovbakken, Varde IF, Jammerbugt, Ringkøbing IF, Avedøre IF, BK Marienlyst, Odder IGF, Søllerød-Vedbæk, Rishøj BK, Svebølle B&I, Kjellerup IF, Sydvest 05, MG & BK U19 |
 | [ENG] ENGLAND | 9/79 (11.4%) | Guiseley, Workington, Chesham United, Corby Town, Frickley Athletic, Halesowen Town, Hitchin Town, Hyde, Kettering Town, Kingstonian, Leek Town, Marine, Northwich Victoria, Stafford Rangers, Stalybridge Celtic, Hednesford Town, Dulwich Hamlet, Stourbridge, Dorchester Town, Grantham Town, Canvey Island, Gainsborough Trinity, Billericay Town, Hendon, Ashton United, Belper Town, Droylsden, Matlock Town, Trafford, Whitby Town, Witton Albion, Worcester City, Redditch United, Cirencester Town, Margate, Bognor Regis Town, Grays Athletic, Leatherhead, Metropolitan Police, Burnham, Histon, Stamford, Cheshunt, Hungerford Town, Bideford, Paulton Rovers, Barwell, Stratford Town, St. Neots Town, Gosport Borough, Whitehawk, Bury Town, Lowestoft Town, Ramsbottom United, Nantwich Town, Skelmersdale United, Frome Town, Witham Town, Arlesey Town, Lewes, Leamington, Peacehaven & Telscombe, Biggleswade Town, Dunstable Town, Concord Rangers, Leiston, Wingate & Finchley, Carlton Town, Hornchurch, Hayes & Yeading |
 | [EST] ESTONIA | 6/6 (100.0%) | — |
-| [FRO] FAROE ISLANDS | 6/9 (66.7%) | B71, AB II, B71 II |
-| [FIN] FINLAND | 35/69 (50.7%) | Atlantis, Klubi 04, MyPa, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Ilves 2, TPS U23, Viikingit, PP-70, Kiisto, Kontu, Lynx, Kuusankoski, IFKK Finnström, KaaPo, KajHa, Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, Norvalla, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Rakkunat, SoVo Somero, FC YPA |
-| [FIN] FINLAND | 35/69 (50.7%) | Atlantis, Klubi 04, MyPa, KuPS Akatemia, VPS Akatemia, KPV Akatemia, EIF Akatemia, Ilves 2, TPS U23, Viikingit, PP-70, Kiisto, Kontu, Lynx, Kuusankoski, IFKK Finnström, KaaPo, KajHa, Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, Norvalla, Pallo-Iirot 2, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Rakkunat, SoVo Somero, FC YPA |
+| [FRO] FAROE ISLANDS | 7/9 (77.8%) | B71, B71 II |
+| [FIN] FINLAND | 42/69 (60.9%) | Atlantis, Klubi 04, MyPa, Viikingit, PP-70, Kiisto, Kontu, Lynx, Kuusankoski, IFKK Finnström, KaaPo, KajHa, Kipparit, KooVee, LoPa, Laajasalon Palloseura, MaPS, Malmin Palloseura, Musan Salama, Musan Salama 2, Norvalla, Porin Palloilijat, Porin Palloilijat 2, Puistolan Urheilijat, Rakkunat, SoVo Somero, FC YPA |
 | [FRA] FRANCE | 13/36 (36.1%) | Istres, FC Dieppois, Tours, Vendée Fontenay, Montceau Bourgogne, Stade Plabennécois, GSI Pontivy, US Raon, Tarbes Pyrénées, US Ivry Football, Viry-Châtillon, AS Vitré, Entente SSG, US Royenne, FC Mantois 78, Sarre-Union, Le Pontet, Vendée Poiré-sur-Vie, Colomiers, Arras FA, Béziers, JA Drancy, IC Croix |
-| [GEO] GEORGIA | 10/13 (76.9%) | Iberia-2 1999, WIT-Georgia-2, WIT-Georgia-3 |
+| [GEO] GEORGIA | 12/13 (92.3%) | Iberia-2 1999 |
 | [GER] GERMANY | 1/2 (50.0%) | Sonnenhof Großaspach |
 | [HUN] HUNGARY | 19/19 (100.0%) | — |
 | [ISL] ICELAND | 4/10 (40.0%) | Haukar/KÁ U19, ÍR/Léttir U19, Haukar, KV, Tindastóll, Víkingur Ólafsvík |
-| [IRL] IRELAND | 5/6 (83.3%) | Shamrock Rovers B |
+| [IRL] IRELAND | 6/6 (100.0%) | — |
 | [ISR] ISRAEL | 9/10 (90.0%) | Hapoel Bnei Lod |
 | [ITA] ITALY | 8/44 (18.2%) | Carpi, Fidelis Andria, Ischia Isolaverde, Pistoiese, Savoia, Siena, Trapani, Treviso, Teramo, L'Aquila, Varese, San Marino, Pordenone, Savona, Paganese, Barletta, Martina Franca, Melfi, Vigor Lamezia, Aversa Normanna, Grosseto, Santarcangelo, Imolese, Virtus Lanciano, Gelbison, Matera, San Donato Tavarnelle, Tuttocuoio, Costa Orientale Sarda, Progreditur Marcianise, Viterbese, Villa Valle, Montevarchi, Ancona, San Marino Calcio, Sangiuliano City |
 | [KAZ] KAZAKHSTAN | 25/27 (92.6%) | Baıqońyr, Baıqońyr-M |
@@ -449,14 +451,14 @@
 | [MKD] NORTH MACEDONIA | 3/4 (75.0%) | Gorno Lisiče |
 | [POL] POLAND | 34/88 (38.6%) | Dolcan Ząbki, Bytovia Bytów, Nadwiślan Góra, Okocimski Brzesko, Limanovia Limanowa, Gryf Wejherowo, Kaszubia Kościerzyna, Górnik Polkowice, Kolejarz Stróże, Odra Wodzisław, Ruch Radzionków, Agrykola Warszawa, Amica Wronki, Arka Nowa Sól, Ceramika Opoczno, Czarni Żagań, Górnik Wieliczka, Jarota Jarocin, Jeziorak Iława, Kmita Zabierzów, KP Police, Lech Rypin, LZS Leśnica, MKS Myszków, GLKS Nadarzyn, Naprzód Jędrzejów, Narew Ostrołęka, Nida Pińczów, Nielba Wągrowiec, Polonia Nowy Tomyśl, Orkan Rumia, Orzeł Ząbkowice Śląskie, Pogoń Świebodzin, Polonia Słubice, Polonia/Sparta Świdnica, Promień Opalenica, Promień Żary, Przebój Wolbrom, Rega-Merida Trzebiatów, Ruch Wysokie Mazowieckie, Ruch Zdzieszowice, Skalnik Gracze, SMS Łódź, Sokół Aleksandrów Łódzki, Sokół Sokółka, Stal Poniatowa, Stal Sanok, Start Otwock, Tomasovia Tomaszów Lubelski, Tur Turek, Unia Janikowo, Victoria Koronowo, Warmia Grajewo, Wierna Małogoszcz |
 | [POR] PORTUGAL | 11/72 (15.3%) | Tirsense, Beira-Mar, Salgueiros, SC Espinho, Vitória FC, Freamunde, Montalegre, AC Alcanenense, Malveira, Sourense, Camacha, União Montemor, Oriental Lisboa, Olhanense, Louletano, Mirandela, Estarreja, Sacavenense, SU Sintrense, Praiense, Ribeirão, São João de Ver, Operário dos Açores, Bragança, Gouveia, Sertanense, Pedras Rubras, Angrense, Cinfães, Limianos, Pinhalnovense, Atlético Riachense, Cesarense, Vilaverdense, Vitória de Sernache, Gafanha, CDR Quarteirense, Cerveira, Real SC, Pampilhosa, Lusitano VRSA, Mortágua, Oliveirense, Eléctrico, Ferreiras, Mineiro Ajustrelense, Vieira, Coimbrões, Atlético SC, Santa Maria, Moura, Sousense, AD Nogueirense, Lusitano, Pedras Salgadas, Santa Eulália, Sobrado, Moimenta da Beira, Atlético Ouriense, Fontinhas, Moncarapachense |
-| [ROU] ROMANIA | 1/31 (3.2%) | Râmnicu Sărat, Blejoi, Filiaşi, Bihor Oradea, Deva, ACB Ineu, Dinamo București II, FCSB II, U-Cluj II, CFR Cluj II, Botoșani II, Voluntari II, U II Craiova, UTA Arad II, Hermannstadt II, Sepsi OSK II, Rapid București II, Poli Iași II, FCU Craiova II, Farul Constanța II, Petrolul Ploiești II, Oţelul Galaţi II, Metaloglobus II, Mioveni II, Csíkszereda II, Viitorul Târgu Jiu II, Corvinul Hunedoara II, ACB Ineu II, Tunari II, Ceahlăul Piatra Neamț II |
+| [ROU] ROMANIA | 24/31 (77.4%) | Râmnicu Sărat, Blejoi, Filiaşi, Bihor Oradea, Deva, ACB Ineu, ACB Ineu II |
 | [RUS] RUSSIA | 5/27 (18.5%) | Amkar Perm, Kuban Krasnodar, Terek Grozny, Anji Makhachkala, Dinamo St. Petersburg, Dinamo-2 SPb, Gazovik Orenburg, Khimik Dzerzhinsk, Luch-Energiya, Sakhalin YS, Sibir Novosibirsk, Tom Tomsk, Tosno, Volga NN, Olimp Khimki, Nart Cherkessk, Khimik-Arsenal, Lokomotiv St. Petersburg, Smena St. Petersburg, Neva St. Petersburg, Zvezda St. Petersburg, Yadro St. Petersburg |
 | [SCO] SCOTLAND | 4/8 (50.0%) | Albion Rovers, Berwick Rangers, Brechin City, East Stirlingshire |
 | [SRB] SERBIA | 9/17 (52.9%) | Rad, Zlatibor, Bežanija, BSK Borča, Moravac Mrštane, Donji Srem, Sinđelić Beograd, Internacional Beograd |
-| [SVK] SLOVAKIA | 44/46 (95.7%) | Petržalka B, Kremnička |
+| [SVK] SLOVAKIA | 45/46 (97.8%) | Kremnička |
 | [SVN] SLOVENIA | 12/14 (85.7%) | Šmartno 1928, Roltek Dob |
 | [ESP] SPAIN | 3/38 (7.9%) | Toledo, Real Jaén, Caudal Deportivo, Lealtad, Beasain, Atlético Astorga, Juventud Torremolinos, Coria, Alfaro, Arnedo, Ebro, Ejea, Socuéllamos, Cristo Atlético, Cirbonero, Tropezón, Conquense, Hospitalet, Utrera, Peña Sport, Laredo, Sant Andreu, Somozas, Leioa, Don Benito, UE Olot, Huércal-Overa, Lorca Deportiva, Diocesano, Xerez DFC, Ibiza IP, Bergantiños, AE Prat, Mancha Real, Racing Rioja |
-| [SUI] SWITZERLAND | 23/30 (76.7%) | Team Ticino U18, Team BEJUNE U18, Wil U21, Wil U18, Vaduz U21, Team Liechtenstein U18, Chiasso |
+| [SUI] SWITZERLAND | 26/30 (86.7%) | Team Ticino U18, Team BEJUNE U18, Team Liechtenstein U18, Chiasso |
 | [SWE] SWEDEN | 2/6 (33.3%) | Assyriska FF, Husqvarna FF, Syrianska, Balkan |
 | [TUR] TURKIYE | 7/47 (14.9%) | Gaziantepspor, Kahramanmaraşspor, Balıkesirspor, Bucaspor, Kartal SK, Hacettepe, Karabükspor, Orduspor, Elazığspor, Yeni Malatyaspor, Gümüşhanespor, Turgutluspor, Pazarspor, Tarsus İdman Yurdu, Körfez İskenderunspor, Ofspor, Büyükçekmece Tepecikspor, Akhisarspor, Manisaspor, Tokatspor, Hacettepe 1945, Eskişehirspor, Gölbaşıspor, Başkent Gözgözler Akademi, 1922 Konyaspor, Tavşanlı Linyitspor, Bayrampaşaspor, Küçükçekmece Sinopspor, Aydınspor 1923, Çankaya, Kelkit Hürriyetspor, Amasyaspor, Kırıkkalegücü, İnegöl Kafkas, 23 Elazığ, 52 Orduspor, Osmaniyespor, Ağrı 1970, Muş 1984 Muşspor, Efeler 09 |
 | [UKR] UKRAINE | 10/24 (41.7%) | Dnipro, Metalurh Zaporizhya, Metalurh Donetsk, Desna Chernihiv, Hoverla, Olimpik Donetsk, Poltava, Sumy, Hirnyk Kryvyy Rih, Naftovyk-Ukrnafta, Stal Alchevsk, Stal Kamianske, Kramatorsk, Skoruk Tomakivka |
