@@ -2056,8 +2056,8 @@
 "CITY_NAME_CHANGE"		16090773	"Gansbach (Gemeinde Dunkelsteinerwald)"			""
 "CITY_NAME_CHANGE"		16112176	"Stripfing"						""
 "CITY_NAME_CHANGE"		16112274	"Senftenberg (Kremstal)"				""
-"CITY_NAME_CHANGE"		16112443	"Waldhausen (NÖ)"					""
-"CITY_NAME_CHANGE"		16265639	"Breitenau (NÖ)"					""
+"CITY_NAME_CHANGE"		16112443	"Waldhausen, NÖ"					""
+"CITY_NAME_CHANGE"		16265639	"Breitenau, NÖ"						""
 
 
 # CITY > [AUT] AUSTRIA > [AUT-04] Oberösterreich
@@ -2075,8 +2075,8 @@
 "CITY_NAME_CHANGE"		16001207	"Traun"							""
 "CITY_NAME_CHANGE"		16050842	"Marchtrenk"						""
 "CITY_NAME_CHANGE"		16050845	"Enns"							""
-"CITY_NAME_CHANGE"		16251294	"Burgkirchen (OÖ)"					""
-"CITY_NAME_CHANGE"		16267741	"Kaltenberg (OÖ)"					""
+"CITY_NAME_CHANGE"		16251294	"Burgkirchen, OÖ"					""
+"CITY_NAME_CHANGE"		16267741	"Kaltenberg, OÖ"					""
 
 
 # CITY > [AUT] AUSTRIA > [AUT-05] Salzburg
@@ -2114,7 +2114,7 @@
 "CITY_NAME_CHANGE"		16000891	"Axams"							""
 "CITY_NAME_CHANGE"		16046796	"Nußdorf-Debant"					""
 "CITY_NAME_CHANGE"		16050840	"Telfs"							""
-"CITY_NAME_CHANGE"		16101586	"Münster (Tirol)"					""
+"CITY_NAME_CHANGE"		16101586	"Münster, Tirol"					""
 
 
 # CITY > [AUT] AUSTRIA > [AUT-08] Vorarlberg
@@ -2122,8 +2122,8 @@
 "CITY_NAME_CHANGE"		136538		"Lustenau"						""
 "CITY_NAME_CHANGE"		5604964		"Dornbirn"						""
 "CITY_NAME_CHANGE"		5607098		"Altach"						""
-"CITY_NAME_CHANGE"		5607156		"Sulz (Vorarlberg)"					""
-"CITY_NAME_CHANGE"		5607196		"Brand (Vorarlberg)"					""
+"CITY_NAME_CHANGE"		5607156		"Sulz, Vorarlberg"					""
+"CITY_NAME_CHANGE"		5607196		"Brand, Vorarlberg"					""
 "CITY_NAME_CHANGE"		6002480		"Bregenz"						""
 "CITY_NAME_CHANGE"		16000895	"Feldkirch"						""
 "CITY_NAME_CHANGE"		16000903	"Hard"							""
@@ -2131,35 +2131,35 @@
 "CITY_NAME_CHANGE"		16000918	"Rankweil"						""
 "CITY_NAME_CHANGE"		16011391	"Bludenz"						""
 "CITY_NAME_CHANGE"		16050847	"Götzis"						""
-"CITY_NAME_CHANGE"		16079313	"Krumbach (Vorarlberg)"					""
+"CITY_NAME_CHANGE"		16079313	"Krumbach, Vorarlberg"					""
 
 
 # CITY > [AUT] AUSTRIA > [AUT-09] Wien/Vienna
 #====================================================================================
 "CITY_NAME_CHANGE"		1300072		"Wien"							""
-"CITY_NAME_CHANGE"		2000153095	"Wien - Innere Stadt"					""
-"CITY_NAME_CHANGE"		2000153096	"Wien - Leopoldstadt"					""
-"CITY_NAME_CHANGE"		2000153097	"Wien - Landstraße"					""
-"CITY_NAME_CHANGE"		2000153098	"Wien - Wieden"						""
-"CITY_NAME_CHANGE"		2000153100	"Wien - Margareten"					""
-"CITY_NAME_CHANGE"		2000153101	"Wien - Mariahilf"					""
-"CITY_NAME_CHANGE"		2000153102	"Wien - Josefstadt"					""
-"CITY_NAME_CHANGE"		2000153103	"Wien - Alsergrund"					""
-"CITY_NAME_CHANGE"		2000153104	"Wien - Favoriten"					""
-"CITY_NAME_CHANGE"		2000153105	"Wien - Simmering"					""
-"CITY_NAME_CHANGE"		2000153106	"Wien - Meidling"					""
-"CITY_NAME_CHANGE"		2000153107	"Wien - Penzing"					""
-"CITY_NAME_CHANGE"		2000153108	"Wien - Hietzing"					""
-"CITY_NAME_CHANGE"		2000153110	"Wien - Rudolfsheim-Fünfhaus"				""
-"CITY_NAME_CHANGE"		2000153111	"Wien - Ottakring"					""
-"CITY_NAME_CHANGE"		2000153112	"Wien - Hernals"					""
-"CITY_NAME_CHANGE"		2000153113	"Wien - Währing"					""
-"CITY_NAME_CHANGE"		2000153114	"Wien - Döbling"					""
-"CITY_NAME_CHANGE"		2000153115	"Wien - Brigittenau"					""
-"CITY_NAME_CHANGE"		2000153116	"Wien - Floridsdorf"					""
-"CITY_NAME_CHANGE"		2000153117	"Wien - Donaustadt"					""
-"CITY_NAME_CHANGE"		2000153118	"Wien - Liesing"					""
-"CITY_NAME_CHANGE"		2000153122	"Wien - Neubau"						""
+"CITY_NAME_CHANGE"		2000153095	"Innere Stadt, Wien"					""
+"CITY_NAME_CHANGE"		2000153096	"Leopoldstadt, Wien"					""
+"CITY_NAME_CHANGE"		2000153097	"Landstraße, Wien"					""
+"CITY_NAME_CHANGE"		2000153098	"Wieden, Wien"						""
+"CITY_NAME_CHANGE"		2000153100	"Margareten, Wien"					""
+"CITY_NAME_CHANGE"		2000153101	"Mariahilf, Wien"					""
+"CITY_NAME_CHANGE"		2000153102	"Josefstadt, Wien"					""
+"CITY_NAME_CHANGE"		2000153103	"Alsergrund, Wien"					""
+"CITY_NAME_CHANGE"		2000153104	"Favoriten, Wien"					""
+"CITY_NAME_CHANGE"		2000153105	"Simmering, Wien"					""
+"CITY_NAME_CHANGE"		2000153106	"Meidling, Wien"					""
+"CITY_NAME_CHANGE"		2000153107	"Penzing, Wien"						""
+"CITY_NAME_CHANGE"		2000153108	"Hietzing, Wien"					""
+"CITY_NAME_CHANGE"		2000153110	"Rudolfsheim-Fünfhaus, Wien"				""
+"CITY_NAME_CHANGE"		2000153111	"Ottakring, Wien"					""
+"CITY_NAME_CHANGE"		2000153112	"Hernals, Wien"						""
+"CITY_NAME_CHANGE"		2000153113	"Währing, Wien"						""
+"CITY_NAME_CHANGE"		2000153114	"Döbling, Wien"						""
+"CITY_NAME_CHANGE"		2000153115	"Brigittenau, Wien"					""
+"CITY_NAME_CHANGE"		2000153116	"Floridsdorf, Wien"					""
+"CITY_NAME_CHANGE"		2000153117	"Donaustadt, Wien"					""
+"CITY_NAME_CHANGE"		2000153118	"Liesing, Wien"						""
+"CITY_NAME_CHANGE"		2000153122	"Neubau, Wien"						""
 
 
 # CITY > [AZE] AZERBAIJAN > [AZE-01] Contiguous Azerbaijan

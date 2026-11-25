@@ -1316,8 +1316,8 @@
 "CLUB_3LETTER_NAME_CHANGE"	5350030		"MCU"							""
 
 "CLUB_CITY_CHANGE"		23219287	"n-2000341179"						"" # <New Taipei>
-"CLUB_NAME_CHANGE"		23219287	"New Taipei Hang Yuan FC"				""
-"CLUB_SHORT_NAME_CHANGE"	23219287	"Hang Yuan"						""
+"CLUB_NAME_CHANGE"		23219287	"New Taipei Hang Yuan FJCU FC"				""
+"CLUB_SHORT_NAME_CHANGE"	23219287	"New Taipei Hang Yuan"					""
 #"CLUB_6LETTER_NAME_CHANGE"	23219287	"Hang Yuan"						""
 "CLUB_3LETTER_NAME_CHANGE"	23219287	"HY"							""
 
@@ -1335,7 +1335,7 @@
 
 "CLUB_CITY_CHANGE"		2000201262	"103225"						"" # <Taipei>
 "CLUB_NAME_CHANGE"		2000201262	"Sunny Bank AC Taipei"					""
-"CLUB_SHORT_NAME_CHANGE"	2000201262	"Sunny AC Taipei"					""
+"CLUB_SHORT_NAME_CHANGE"	2000201262	"Sunny Bank AC Taipei"					""
 #"CLUB_6LETTER_NAME_CHANGE"	2000201262	"AC Taipei"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000201262	"SAC"							""
 
@@ -1356,7 +1356,7 @@
 #==============================================================================
 "CLUB_CITY_CHANGE"		23397134	"5627255"						"" # <Taichung>
 "CLUB_NAME_CHANGE"		23397134	"Land Home NTUS FC"					""
-"CLUB_SHORT_NAME_CHANGE"	23397134	"NTUS"							""
+"CLUB_SHORT_NAME_CHANGE"	23397134	"Land Home NTUS"					""
 "CLUB_6LETTER_NAME_CHANGE"	23397134	"NTUS"							""
 
 "CLUB_CITY_CHANGE"		2000070106	"23026781"						"" # <Kaohsiung>
@@ -1368,7 +1368,6 @@
 "CLUB_CITY_CHANGE"		2000082811	"23026800"						"" # <Taoyuan>
 "CLUB_NAME_CHANGE"		2000082811	"Inter Taoyuan FC"					""
 "CLUB_SHORT_NAME_CHANGE"	2000082811	"Inter Taoyuan"						""
-#"CLUB_6LETTER_NAME_CHANGE"	2000082811	"I. Taoyuan"						""
 "CLUB_3LETTER_NAME_CHANGE"	2000082811	"ITY"							""
 
 "CLUB_CITY_CHANGE"		2000095274	"23001996"						"" # <Hualien>
@@ -5739,10 +5738,10 @@
 "CLUB_3LETTER_NAME_CHANGE"	2000025431	"UCF"							""
 
 "CLUB_CITY_CHANGE"		2000026221	"103219"						"" # <Manila>
-"CLUB_NAME_CHANGE"		2000026221	"Azkals Development Team"				""
-"CLUB_SHORT_NAME_CHANGE"	2000026221	"Azkals DT"						""
-#"CLUB_6LETTER_NAME_CHANGE"	2000026221	"Azkals DT"						""
-"CLUB_3LETTER_NAME_CHANGE"	2000026221	"ADT"							""
+"CLUB_NAME_CHANGE"		2000026221	"Azkals Development Club"				""
+"CLUB_SHORT_NAME_CHANGE"	2000026221	"Azkals Development Club"				""
+"CLUB_6LETTER_NAME_CHANGE"	2000026221	"ADC"							""
+"CLUB_3LETTER_NAME_CHANGE"	2000026221	"ADC"							""
 
 "CLUB_CITY_CHANGE"		2000069057	"23026592"						"" # <Taguig>
 "CLUB_NAME_CHANGE"		2000069057	"Maharlika FC"						""
@@ -5752,7 +5751,7 @@
 
 "CLUB_CITY_CHANGE"		2000188455	"5627929"						"" # <Cebu City>
 "CLUB_NAME_CHANGE"		2000188455	"Dynamic Herb Cebu FC"					""
-"CLUB_SHORT_NAME_CHANGE"	2000188455	"DH Cebu"						""
+"CLUB_SHORT_NAME_CHANGE"	2000188455	"Dynamic Herb Cebu"					""
 "CLUB_6LETTER_NAME_CHANGE"	2000188455	"Cebu"							""
 "CLUB_3LETTER_NAME_CHANGE"	2000188455	"CEB"							""
 
@@ -16256,7 +16255,7 @@
 
 # CLUB > UEFA > [AUT] AUSTRIA > [136543] Admiral Bundesliga (23/24)
 #================================================================================
-"CLUB_CITY_CHANGE"		152		"2000153104"						"" # <Wien - Favoriten>
+"CLUB_CITY_CHANGE"		152		"2000153104"						"" # <Favoriten, Wien>
 "CLUB_NAME_CHANGE"		152		"FK Austria Wien"					""
 "CLUB_SHORT_NAME_CHANGE"	152		"Austria Wien"						""
 #"CLUB_6LETTER_NAME_CHANGE"	152		"Austria Wien"						""
@@ -16268,7 +16267,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	154		"LASK"							""
 #"CLUB_3LETTER_NAME_CHANGE"	154		"LASK"							""
 
-"CLUB_CITY_CHANGE"		155		"2000153107"						"" # <Wien - Penzing>
+"CLUB_CITY_CHANGE"		155		"2000153107"						"" # <Penzing, Wien>
 "CLUB_NAME_CHANGE"		155		"SK Rapid Wien"						""
 "CLUB_SHORT_NAME_CHANGE"	155		"Rapid Wien"						""
 #"CLUB_6LETTER_NAME_CHANGE"	155		"Rapid Wien"						""
@@ -16342,7 +16341,7 @@
 "CLUB_SHORT_NAME_CHANGE"	160		"SKN St. Pölten"					""
 "CLUB_3LETTER_NAME_CHANGE"	160		"SKN"							""
 
-"CLUB_CITY_CHANGE"		101154		"2000153114"						"" # <Wien - Döbling>
+"CLUB_CITY_CHANGE"		101154		"2000153114"						"" # <Döbling, Wien>
 "CLUB_NAME_CHANGE"		101154		"First Vienna FC 1894"					""
 "CLUB_SHORT_NAME_CHANGE"	101154		"First Vienna"						""
 "CLUB_6LETTER_NAME_CHANGE"	101154		"Vienna"						""
@@ -16354,7 +16353,7 @@
 "CLUB_6LETTER_NAME_CHANGE"	130837		"Leoben"						""
 "CLUB_3LETTER_NAME_CHANGE"	130837		"LEO"							""
 	
-"CLUB_CITY_CHANGE"		137947		"2000153116"						"" # <Wien - Floridsdorf>
+"CLUB_CITY_CHANGE"		137947		"2000153116"						"" # <Floridsdorf, Wien>
 "CLUB_NAME_CHANGE"		137947		"Floridsdorfer AC"					""
 "CLUB_SHORT_NAME_CHANGE"	137947		"FAC WIEN"						""
 "CLUB_6LETTER_NAME_CHANGE"	137947		"FAC"							""
@@ -16570,7 +16569,7 @@
 "CLUB_SHORT_NAME_CHANGE"	5606043		"SW Bregenz Amateure"					""
 
 "AFFILIATED_CLUB_ID"		16009253	"2AC-101154"						"" # [AUT] First Vienna
-"CLUB_CITY_CHANGE"		16009253	"2000153114"						"" # <Wien - Döbling>
+"CLUB_CITY_CHANGE"		16009253	"2000153114"						"" # <Döbling, Wien>
 "CLUB_NAME_CHANGE"		16009253	"First Vienna FC Amateure"				""
 "CLUB_SHORT_NAME_CHANGE"	16009253	"First Vienna Amateure"					""
 #"CLUB_6LETTER_NAME_CHANGE"	16009253	"Vienna II"						""
