@@ -1,3 +1,8 @@
+# PEOPLE > [ARG] ARGENTINA
+#====================================================================================
+"CHANGE_PLAYER_NAME"		2000278648		"Mario José"			"Pelusa Martinez"			"Martinez"
+
+
 # PEOPLE > [AUS] AUSTRALIA
 #====================================================================================
 "CHANGE_PLAYER_NAME"		2000017089		"Nathan"			""					"Nguyen"
@@ -42,7 +47,7 @@
 "CHANGE_PLAYER_NAME"		23314933		"Hanchuan"			"Song Hanchuan"				"Song"
 "CHANGE_PLAYER_NAME"		23316630		"Kudirat"			"Kudirat Ablet"				"Ablet"
 "CHANGE_PLAYER_NAME"		23316632		"Abduhamit"			"Abduhamit Abdugheni"			"Abdugheni"
-"CHANGE_PLAYER_NAME"		23383292		"Dilmurat"			"Dilmurat Mollaniyaz"			"Mollaniyaz"
+"CHANGE_PLAYER_NAME"		23383292		"Dilmurat"			"Dilmurat Mawlanyaz"			"Mawlanyaz"
 "CHANGE_PLAYER_NAME"		23406533		"Zhengchao"			"Wu Zhengchao"				"Wu"
 "CHANGE_PLAYER_NAME"		23422347		"Abduwahap"			"Abduwahap Aniwar"			"Aniwar"
 "CHANGE_PLAYER_NAME"		23441262		"Zhangfei"			"Yao Zhangfei"				"Yao"
@@ -77,7 +82,7 @@
 "CHANGE_PLAYER_NAME"		2000242947		"Abdurahman"			"Abdurahman Abdukiram"			"Abdukiram"
 "CHANGE_PLAYER_NAME"		2000242957		"Zikrulla"			"Zikrulla Memetimin"			"Memetimin"
 "CHANGE_PLAYER_NAME"		2000247106		"Ihsan"				"Ihsan Yasinjan"			"Yasinjan"
-"CHANGE_PLAYER_NAME"		2000254551		"Shahzat"			"Shahzat Ujahmat"			"Ujahmat"
+"CHANGE_PLAYER_NAME"		2000254551		"Shahsat"			"Shahsat Hujahmat"			"Hujahmat"
 "CHANGE_PLAYER_NAME"		2000254582		"Imran"				"Imran Memet"				"Memet"
 
 
@@ -97,6 +102,11 @@
 # PEOPLE > [HKG] HONG KONG
 #====================================================================================
 "CHANGE_PLAYER_NAME"		23078403		"Awal"				""					"Mahama"
+
+
+# PEOPLE > [ISR] ISRAEL
+#====================================================================================
+"CHANGE_PLAYER_NAME"		42077904		"Michael-Califa"		"Carlos Fartook"			"Fartook"
 
 
 # PEOPLE > [JPN] JAPAN
@@ -314,6 +324,11 @@
 "CHANGE_PLAYER_NAME"		88024102		"Labu"				"Labu Pan"				"Pan"
 
 
+# PEOPLE > [NED] NETHERLANDS
+#====================================================================================
+"CHANGE_PLAYER_NAME"		2000139645		"Dirkina Wilhelmina"		"Ingrid Paul"				"Paul"
+
+
 # PEOPLE > [NOR] NORWAY
 #====================================================================================
 "CHANGE_PLAYER_NAME"		53009680		"Ngoc Huynh"			"Son Ngoc Huynh"			"Son"
@@ -329,6 +344,11 @@
 # PEOPLE > [POL] POLAND
 #====================================================================================
 "CHANGE_PLAYER_NAME"		717364			"Maciej"			""					"Skorza"
+
+
+# PEOPLE > [ROU] ROMANIA
+#====================================================================================
+"CHANGE_PLAYER_NAME"		57088922		"Anamaria Ionela"		"Anamaria Prodan"			"Reghecampf"
 
 
 # PEOPLE > [SUI] SWITZERLAND
