@@ -34,6 +34,7 @@ Only these files are accepted and packaged into `/app/data`:
 - `fm24_club.lnc`
 - `fm24_competition_other.lnc`
 - `fm24_geography.lnc`
+- `fm24_people.lnc`
 
 - `POST /api/lnc/import`: import the packaged files.
 - `POST /api/lnc/upload`: upload replacements and immediately sync the database.
@@ -46,7 +47,8 @@ Upload body:
   "files": [
     { "name": "fm24_club.lnc", "content": "..." },
     { "name": "fm24_competition_other.lnc", "content": "..." },
-    { "name": "fm24_geography.lnc", "content": "..." }
+    { "name": "fm24_geography.lnc", "content": "..." },
+    { "name": "fm24_people.lnc", "content": "..." }
   ]
 }
 ```

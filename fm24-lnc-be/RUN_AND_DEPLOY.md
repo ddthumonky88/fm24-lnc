@@ -7,10 +7,11 @@ Backend sử dụng Java 21, Spring Boot 3, PostgreSQL và chạy mặc định 
 - Java Development Kit 21.
 - Maven 3.9+ hoặc Docker.
 - PostgreSQL đang hoạt động và có database `fm_lnc_db`.
-- Ba file dữ liệu trong thư mục `data`:
+- Bốn file dữ liệu trong thư mục `data`:
   - `fm24_club.lnc`
   - `fm24_competition_other.lnc`
   - `fm24_geography.lnc`
+  - `fm24_people.lnc`
 
 ## 2. Biến môi trường
 
@@ -133,7 +134,8 @@ Content-Type: application/json
   "files": [
     { "name": "fm24_club.lnc", "content": "..." },
     { "name": "fm24_competition_other.lnc", "content": "..." },
-    { "name": "fm24_geography.lnc", "content": "..." }
+    { "name": "fm24_geography.lnc", "content": "..." },
+    { "name": "fm24_people.lnc", "content": "..." }
   ]
 }
 ```
@@ -145,6 +147,7 @@ Public read-only URLs:
 - `/api/lnc/files/fm24_club.lnc`
 - `/api/lnc/files/fm24_competition_other.lnc`
 - `/api/lnc/files/fm24_geography.lnc`
+- `/api/lnc/files/fm24_people.lnc`
 
 ## 7. Triển khai lên Render
 

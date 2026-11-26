@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class LncFileStore {
   public static final List<String> REQUIRED_FILES = List.of(
-      "fm24_geography.lnc", "fm24_club.lnc", "fm24_competition_other.lnc");
+      "fm24_geography.lnc", "fm24_club.lnc", "fm24_competition_other.lnc", "fm24_people.lnc");
 
   private volatile Path directory;
 
@@ -45,7 +45,7 @@ public class LncFileStore {
       String name = item.get("name");
       String content = item.get("content");
       if (!REQUIRED_FILES.contains(name) || content == null) {
-        throw new IllegalArgumentException("Only the three fm24_*.lnc files are accepted");
+        throw new IllegalArgumentException("Only the supported fm24_*.lnc files are accepted");
       }
       Files.writeString(directory.resolve(name), content, StandardCharsets.UTF_8);
     }

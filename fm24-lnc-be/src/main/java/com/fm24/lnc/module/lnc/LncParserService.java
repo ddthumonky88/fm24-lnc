@@ -18,6 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class LncParserService {
   private static final Pattern COMMAND = Pattern.compile("^\\\"([^\\\"]+)\\\"\\s+((?:n-)?\\d+)\\s+\\\"([^\\\"]*)\\\"");
   private static final Pattern PARENT_COMP = Pattern.compile("^\\\"PARENT_COMP_ID\\\"\\s+((?:n-)?\\d+)\\s+((?:n-)?\\d+)");
+  private static final Pattern PLAYER_NAME = Pattern.compile("^\\\"CHANGE_PLAYER_NAME\\\"\\s+(\\d+)\\s+\\\"([^\\\"]*)\\\"\\s+\\\"([^\\\"]*)\\\"\\s+\\\"([^\\\"]*)\\\"");
   private static final Pattern HEADER_CODE = Pattern.compile("\\[([A-Za-z0-9-]+)]");
   private static final Map<String, String> CONFEDS = Map.ofEntries(
       Map.entry("AFRICA", "CAF"), Map.entry("CAF", "CAF"),
@@ -50,7 +51,8 @@ public class LncParserService {
     parseGeography(nations, cities, stadiums);
     var nationCodeToId = new LinkedHashMap<String, String>();
     nations.forEach((id, row) -> nationCodeToId.put(text(row.get("name_3l")).toUpperCase(Locale.ROOT), id));
-    parseCompetition(competitions, awards, people);
+    parseCompetition(competitions, awards);
+    parsePeople(people);
     parseClubs(clubs, stadiums);
 
     clearImportedData();
@@ -127,7 +129,7 @@ public class LncParserService {
   }
 
   private void parseCompetition(Map<String, Map<String, Object>> competitions,
-      Map<String, Map<String, Object>> awards, Map<String, Map<String, Object>> people) throws IOException {
+      Map<String, Map<String, Object>> awards) throws IOException {
     String confed = "WORLD", nationCode = null, category = null;
     for (String raw : Files.readAllLines(files.require("fm24_competition_other.lnc"))) {
       String line = raw.trim();
@@ -149,21 +151,29 @@ public class LncParserService {
         child.put("parent_id", parent.group(2));
         continue;
       }
-      Matcher player = Pattern.compile("^\\\"CHANGE_PLAYER_NAME\\\"\\s+(\\d+)\\s+\\\"([^\\\"]*)\\\"\\s+\\\"([^\\\"]*)\\\"\\s+\\\"([^\\\"]*)\\\"").matcher(clean);
-      if (player.find()) {
-        Map<String, Object> row = row(people, player.group(1));
-        row.put("first", player.group(2)); row.put("common", player.group(3)); row.put("second", player.group(4));
-        continue;
-      }
       Matcher m = command(clean);
       if (!m.find()) continue;
       String cmd = m.group(1), id = m.group(2), value = m.group(3).trim();
+      if (!cmd.startsWith("AWARD_") && !cmd.startsWith("COMP_")) continue;
       Map<String, Object> target = cmd.startsWith("AWARD_") ? row(awards, id) : row(competitions, id);
       target.putIfAbsent("confed", confed); target.putIfAbsent("nation_code", nationCode); target.putIfAbsent("type", category);
       boolean disabled = line.startsWith("#");
       if (cmd.endsWith("LONG_NAME_CHANGE")) { target.put("name_lg", value); updateInactiveField(target,"name_lg",disabled); }
       else if (cmd.endsWith("SHORT_NAME_CHANGE")) { target.put("name_sh", value); updateInactiveField(target,"name_sh",disabled); }
       else if (cmd.equals("COMP_3LETTER_NAME_CHANGE")) { target.put("name_3l", value); updateInactiveField(target,"name_3l",disabled); }
+    }
+  }
+
+  private void parsePeople(Map<String, Map<String, Object>> people) throws IOException {
+    for (String raw : Files.readAllLines(files.require("fm24_people.lnc"))) {
+      String line = raw.trim();
+      if (line.isEmpty() || line.startsWith("#")) continue;
+      Matcher player = PLAYER_NAME.matcher(line);
+      if (!player.find()) continue;
+      Map<String, Object> row = row(people, player.group(1));
+      row.put("first", player.group(2));
+      row.put("common", player.group(3));
+      row.put("second", player.group(4));
     }
   }
 
