@@ -20,6 +20,7 @@
 "CHANGE_PLAYER_NAME"	23268662	"Dani"			"Dani Kouch"			"Kouch"
 "CHANGE_PLAYER_NAME"	23350209	"Boris"			"Boris Kok"			"Kok"
 "CHANGE_PLAYER_NAME"	23350245	"Krya"			"Sareth Krya"			"Sareth"
+"CHANGE_PLAYER_NAME"	43304152	"Lelli"			"Sadet Lelli"			"Sadet"
 "CHANGE_PLAYER_NAME"	2000158981	"Bunchhai"		"Taing Bunchhai"		"Taing"
 "CHANGE_PLAYER_NAME"	2000158985	"Salim"			"Koy Salim"			"Koy"
 "CHANGE_PLAYER_NAME"	2000158987	"Aarun"			"Aarun Lim"			"Raymond Lim"
@@ -68,11 +69,6 @@
 "CHANGE_PLAYER_NAME"	23078403	"Awal"			""				"Mahama"
 
 
-# PEOPLE > [ITA] ITALY
-#====================================================================================
-"CHANGE_PLAYER_NAME"	43304152	"Lelli"			"Sadet Lelli"			"Sadet"
-
-
 # PEOPLE > [JPN] JAPAN
 #====================================================================================
 "CHANGE_PLAYER_NAME"	781568		"Shogo"			""				"Sakurai"
@@ -89,12 +85,14 @@
 "CHANGE_PLAYER_NAME"	45121123	"Yuya"			""				"Kuriyama"
 "CHANGE_PLAYER_NAME"	91157971	"Justin Toshiki"	""				"Kinjo"
 "CHANGE_PLAYER_NAME"	2000066514	"Jelani Reshaun"	""				"Sumiyoshi"
+"CHANGE_PLAYER_NAME"	2000239651	"William Amen"		""				"Owie"
 "CHANGE_PLAYER_NAME"	2000294968	"Ken Tshizanga"		""				"Matsumoto"
 
 
 # PEOPLE > [PRK] KOREA DPR
 #====================================================================================
 "CHANGE_PLAYER_NAME"	785678		"Yong-Gi"		"Ryang Yong-Gi"			"Ryang"
+"CHANGE_PLAYER_NAME"	45002172	"Tae-Se"		"Jong Tae-Se"			"Jong"
 "CHANGE_PLAYER_NAME"	2000101541	"In-Ju"			"Mun In-Ju"			"Mun"
 
 
