@@ -26,6 +26,7 @@
 "CHANGE_PLAYER_NAME"		23350209		"Boris"				"Boris Kok"				"Kok"
 "CHANGE_PLAYER_NAME"		23350245		"Krya"				"Sareth Krya"				"Sareth"
 "CHANGE_PLAYER_NAME"		43304152		"Lelli"				"Sadet Lelli"				"Sadet"
+"CHANGE_PLAYER_NAME"		65030620		"Mohammed Faeez"		"Kan Mo"				"Khan"
 "CHANGE_PLAYER_NAME"		2000158981		"Bunchhai"			"Taing Bunchhai"			"Taing"
 "CHANGE_PLAYER_NAME"		2000158985		"Salim"				"Koy Salim"				"Koy"
 "CHANGE_PLAYER_NAME"		2000158987		"Aarun"				"Aarun Lim"				"Raymond Lim"
@@ -40,6 +41,7 @@
 # PEOPLE > [CHN] CHINA PR
 #====================================================================================
 "CHANGE_PLAYER_NAME"		132125			"Zhanbo"			"Xiao Zhanbo"				"Xiao"
+"CHANGE_PLAYER_NAME"		1007680			"Jingyu"			"Su Jingyu"				"Su"
 "CHANGE_PLAYER_NAME"		23081309		"Abduwali"			"Abduwali Ablet"			"Ablet"
 "CHANGE_PLAYER_NAME"		23103722		"Mirahmetjan"			"Mirahmetjan Muzepper"			"Muzepper"
 "CHANGE_PLAYER_NAME"		23174074		"Shewket"			"Shewket Yalqun"			"Yalqun"
@@ -363,6 +365,7 @@
 
 # PEOPLE > [THA] THAILAND
 #====================================================================================
+"CHANGE_PLAYER_NAME"		1037470			"Keeree"			""					"Kanjanapas"
 "CHANGE_PLAYER_NAME"		23124797		"Pokklaw"			""					"Anan"
 "CHANGE_PLAYER_NAME"		23148382		"Peerapat"			""					"Notchaiya"
 "CHANGE_PLAYER_NAME"		23279765		"Saranon"			""					"Anuin"
@@ -373,6 +376,7 @@
 "CHANGE_PLAYER_NAME"		23328980		"Ekanit"			""					"Panya"
 "CHANGE_PLAYER_NAME"		23409725		"Chirawat"			""					"Wangthaphan"
 "CHANGE_PLAYER_NAME"		2000200879		"Sirimongkol"			""					"Rattanapoom"
+"CHANGE_PLAYER_NAME"		2000315377		"Tossapol"			""					"Sritecha"
 
 
 # PEOPLE > [VIE] VIETNAM
@@ -414,6 +418,7 @@
 "CHANGE_PLAYER_NAME"		37071105		"Anh Hiep"			"Nguyen Anh Hiep"			"Nguyen"
 "CHANGE_PLAYER_NAME"		37072740		"Huy"				"Tran Huy"				"Tran"
 "CHANGE_PLAYER_NAME"		37084854		"Kelvin"			"Kelvin Bui"				"Bui"
+"CHANGE_PLAYER_NAME"		48037802		"Jason Quang Vinh"		"Cao Pendant Quang Vinh"		"Cao Pendant"
 "CHANGE_PLAYER_NAME"		53164352		"Tuan"				"Tran Tuan"				"Tran"
 "CHANGE_PLAYER_NAME"		53164353		"Dennis"			"Dennis Vu Pham"			"Vu Pham"
 "CHANGE_PLAYER_NAME"		63012840		"Patrik"			"Patrik Le Giang"			"Le Giang"
@@ -435,6 +440,7 @@
 "CHANGE_PLAYER_NAME"		2000038346		"Duc Thanh"			"Ngo Duc Thanh"				"Ngo"
 "CHANGE_PLAYER_NAME"		2000090400		"Tuan Kiet"			"Bui Nguyen Tuan Kiet"			"Bui Nguyen"
 "CHANGE_PLAYER_NAME"		2000133911		"Viktor"			"Le Viktor"				"Le Khac"
+"CHANGE_PLAYER_NAME"		2000151777		"Lawrence Minh Khang"		"Caruso Minh Khang"			"Caruso"
 "CHANGE_PLAYER_NAME"		2000194153		"Gia Huy"			"Phong Gia Huy"				"Phong"
 "CHANGE_PLAYER_NAME"		2000195369		"Nathan"			"Nathan Nguyen"				"Nguyen"
 "CHANGE_PLAYER_NAME"		2000197379		"Van-Alessandro"		"Nguyen Skyriotis"			"Nguyen Skyriotis"
@@ -451,4 +457,5 @@
 "CHANGE_PLAYER_NAME"		2000283541		"Huynh Duc"			"Nguyen Le Huynh Duc"			"Nguyen Le"
 "CHANGE_PLAYER_NAME"		2000287328		"Danh Tu"			"Nguyen Pham Danh Tu"			"Nguyen Pham"
 "CHANGE_PLAYER_NAME"		2000287730		"Hoang Nam"			"Nguyen Hoang Nam"			"Nguyen"
+"CHANGE_PLAYER_NAME"		2000311579		"Lee Minh Hoang"		"Williams Minh Hoang"			"Williams"
 "CHANGE_PLAYER_NAME"		2000324437		"Minh Quang"			"Pham Ngo Minh Quang"			"Pham Ngo"
