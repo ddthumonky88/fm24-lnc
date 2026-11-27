@@ -40,8 +40,22 @@
 
 # PEOPLE > [CHN] CHINA PR
 #====================================================================================
+"CHANGE_PLAYER_NAME"		132076			"Taiyi"				"Meng Taiyi"				"Meng"
 "CHANGE_PLAYER_NAME"		132125			"Zhanbo"			"Xiao Zhanbo"				"Xiao"
+"CHANGE_PLAYER_NAME"		132225			"Li"				"Zeng Li"				"Zeng"
+"CHANGE_PLAYER_NAME"		136662			"Shang'en"			"Li Shang'en"				"Li"
+"CHANGE_PLAYER_NAME"		137027			"Jingtian"			"Chi Jingtian"				"Chi"
 "CHANGE_PLAYER_NAME"		1007680			"Jingyu"			"Su Jingyu"				"Su"
+"CHANGE_PLAYER_NAME"		1007767			"Weilong"			"Wang Weilong"				"Wang"
+"CHANGE_PLAYER_NAME"		1027140			"Yuefeng"			"Bai Yuefeng"				"Bai"
+"CHANGE_PLAYER_NAME"		1028149			"Haoyang"			"Sun Haoyang"				"Sun"
+"CHANGE_PLAYER_NAME"		1032210			"Baosen"			"Hu Baosen"				"Hu"
+"CHANGE_PLAYER_NAME"		1034830			"Chenglin"			"Zhang Chenglin"			"Zhang"
+"CHANGE_PLAYER_NAME"		1035853			"Junpeng"			"Li Junpeng"				"Li"
+"CHANGE_PLAYER_NAME"		1036456			"Xiaodong"			"Liu Xiaodong"				"Liu"
+"CHANGE_PLAYER_NAME"		1042582			"Huayang"			"Li Huayang"				"Li"
+"CHANGE_PLAYER_NAME"		2001870			"Bin"				"Fu Bin"				"Fu"
+"CHANGE_PLAYER_NAME"		5622510			"Tianbao"			"Cao Tianbao"				"Cao"
 "CHANGE_PLAYER_NAME"		23081309		"Abduwali"			"Abduwali Ablet"			"Ablet"
 "CHANGE_PLAYER_NAME"		23103722		"Mirahmetjan"			"Mirahmetjan Muzepper"			"Muzepper"
 "CHANGE_PLAYER_NAME"		23174074		"Shewket"			"Shewket Yalqun"			"Yalqun"
@@ -365,6 +379,7 @@
 
 # PEOPLE > [THA] THAILAND
 #====================================================================================
+"CHANGE_PLAYER_NAME"		143868			"Chinnachot"			""					"Natasan"
 "CHANGE_PLAYER_NAME"		1037470			"Keeree"			""					"Kanjanapas"
 "CHANGE_PLAYER_NAME"		23124797		"Pokklaw"			""					"Anan"
 "CHANGE_PLAYER_NAME"		23148382		"Peerapat"			""					"Notchaiya"
